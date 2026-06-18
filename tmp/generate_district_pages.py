@@ -100,7 +100,7 @@ def breadcrumb_json_ld(region_name: str, district_name: str) -> str:
         "@type": "BreadcrumbList",
         "itemListElement": [
             {"@type": "ListItem", "position": 1, "name": "전국센터", "item": "../../../center.html"},
-            {"@type": "ListItem", "position": 2, "name": region_name, "item": "../index.html"},
+            {"@type": "ListItem", "position": 2, "name": region_name, "item": "../"},
             {"@type": "ListItem", "position": 3, "name": district_name},
         ],
     }
@@ -111,7 +111,7 @@ def breadcrumb_nav(region_name: str, district_name: str) -> str:
     return f"""  <nav class="breadcrumb-nav" aria-label="현재 위치">
     <ol class="breadcrumb-list">
       <li><a href="../../../center.html">전국센터</a></li>
-      <li><a href="../index.html">{html.escape(region_name)}</a></li>
+      <li><a href="../">{html.escape(region_name)}</a></li>
       <li><span aria-current="page">{html.escape(district_name)}</span></li>
     </ol>
   </nav>"""
@@ -153,9 +153,9 @@ def district_page(record, child_section: str = ""):
 <body>
   <header class="site-header">
     <nav class="nav" aria-label="주요 메뉴">
-      <a class="logo" href="../../../index.html"><span class="brand-orange">와와</span>학습<span class="brand-orange">코칭</span>센터 <span class="brand-tail">영어수학 전문학원</span></a>
+      <a class="logo" href="../../../"><span class="brand-orange">와와</span>학습<span class="brand-orange">코칭</span>센터 <span class="brand-tail">영어수학 전문학원</span></a>
       <div class="nav-links" aria-label="페이지 이동">
-        <a href="../../../index.html">홈</a>
+        <a href="../../../">홈</a>
         <a href="../../../overview.html">학원소개</a>
         <a class="active" href="../../../center.html">전국센터</a>
       </div>
@@ -200,7 +200,7 @@ def update_parent(region_slug, items):
     cards = []
     for item in items:
         cards.append(
-            f'        <a class="district-card" href="{html.escape(item["district_slug"])}/index.html"><strong>{html.escape(item["district_name"])}</strong><span>센터 보기</span></a>'
+            f'        <a class="district-card" href="{html.escape(item["district_slug"])}/"><strong>{html.escape(item["district_name"])}</strong><span>센터 보기</span></a>'
         )
 
     section = f"""    <section class="center-section district-list-section">

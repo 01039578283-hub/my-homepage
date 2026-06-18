@@ -67,8 +67,18 @@ def normalize_slug(value: str) -> str:
     return value.strip("-")
 
 
+def clean_index_href(href: str) -> str:
+    if href == "index.html":
+        return "./"
+    if href.endswith("/index.html"):
+        return href[: -len("index.html")]
+    if href.endswith("index.html"):
+        return href[: -len("index.html")] or "./"
+    return href
+
+
 def rel_href(from_dir: Path, target: Path) -> str:
-    return os.path.relpath(target, start=from_dir).replace("\\", "/")
+    return clean_index_href(os.path.relpath(target, start=from_dir).replace("\\", "/"))
 
 
 def root_rel(page_dir: Path) -> str:
@@ -238,9 +248,9 @@ def create_child_page(row):
 <body>
   <header class="site-header">
     <nav class="nav" aria-label="주요 메뉴">
-      <a class="logo" href="{rr}/index.html"><span class="brand-orange">와와</span>학습<span class="brand-orange">코칭</span>센터 <span class="brand-tail">영어수학 전문학원</span></a>
+      <a class="logo" href="{rr}/"><span class="brand-orange">와와</span>학습<span class="brand-orange">코칭</span>센터 <span class="brand-tail">영어수학 전문학원</span></a>
       <div class="nav-links" aria-label="페이지 이동">
-        <a href="{rr}/index.html">홈</a>
+        <a href="{rr}/">홈</a>
         <a href="{rr}/overview.html">학원소개</a>
         <a class="active" href="{rr}/center.html">전국센터</a>
       </div>

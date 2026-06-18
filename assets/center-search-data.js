@@ -5,7 +5,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "강원",
     "kind": "region",
     "parent": "전국센터",
-    "url": "center/gangwon/index.html",
+    "url": "center/gangwon/",
     "search": "강원 강원 전국센터 gangwon"
   },
   {
@@ -14,7 +14,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "강원",
     "kind": "district",
     "parent": "강원",
-    "url": "center/gangwon/gangneungsi/index.html",
+    "url": "center/gangwon/gangneungsi/",
     "search": "강릉시 강원 강원 gangwon gangneungsi"
   },
   {
@@ -23,7 +23,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "강원",
     "kind": "district",
     "parent": "강원",
-    "url": "center/gangwon/wonjusi/index.html",
+    "url": "center/gangwon/wonjusi/",
     "search": "원주시 강원 강원 gangwon wonjusi"
   },
   {
@@ -32,7 +32,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "강원",
     "kind": "district",
     "parent": "강원",
-    "url": "center/gangwon/chuncheonsi/index.html",
+    "url": "center/gangwon/chuncheonsi/",
     "search": "춘천시 강원 강원 gangwon chuncheonsi"
   },
   {
@@ -41,7 +41,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "강원",
     "kind": "local",
     "parent": "강원 / 강릉시",
-    "url": "center/gangwon/gangneungsi/gyodong/index.html",
+    "url": "center/gangwon/gangneungsi/gyodong/",
     "search": "강릉교동 영어 수학 학원 강원 강원 / 강릉시 gangwon gangneungsi gyodong"
   },
   {
@@ -50,7 +50,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "강원",
     "kind": "local",
     "parent": "강원 / 원주시",
-    "url": "center/gangwon/wonjusi/gaeundong/index.html",
+    "url": "center/gangwon/wonjusi/gaeundong/",
     "search": "개운동 영어 수학 학원 강원 강원 / 원주시 gangwon wonjusi gaeundong"
   },
   {
@@ -59,7 +59,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "강원",
     "kind": "local",
     "parent": "강원 / 원주시",
-    "url": "center/gangwon/wonjusi/dangyedong/index.html",
+    "url": "center/gangwon/wonjusi/dangyedong/",
     "search": "단계동 영어 수학 학원 강원 강원 / 원주시 gangwon wonjusi dangyedong"
   },
   {
@@ -68,7 +68,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "강원",
     "kind": "local",
     "parent": "강원 / 원주시",
-    "url": "center/gangwon/wonjusi/dangudong/index.html",
+    "url": "center/gangwon/wonjusi/dangudong/",
     "search": "단구동 영어 수학 학원 강원 강원 / 원주시 gangwon wonjusi dangudong"
   },
   {
@@ -77,7 +77,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "강원",
     "kind": "local",
     "parent": "강원 / 원주시",
-    "url": "center/gangwon/wonjusi/myeongryundong/index.html",
+    "url": "center/gangwon/wonjusi/myeongryundong/",
     "search": "명륜동 영어 수학 학원 강원 강원 / 원주시 gangwon wonjusi myeongryundong"
   },
   {
@@ -86,7 +86,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "강원",
     "kind": "local",
     "parent": "강원 / 원주시",
-    "url": "center/gangwon/wonjusi/musildong/index.html",
+    "url": "center/gangwon/wonjusi/musildong/",
     "search": "무실동 영어 수학 학원 강원 강원 / 원주시 gangwon wonjusi musildong"
   },
   {
@@ -95,7 +95,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "강원",
     "kind": "local",
     "parent": "강원 / 원주시",
-    "url": "center/gangwon/wonjusi/bangokdong/index.html",
+    "url": "center/gangwon/wonjusi/bangokdong/",
     "search": "반곡동 영어 수학 학원 강원 강원 / 원주시 gangwon wonjusi bangokdong"
   },
   {
@@ -104,7 +104,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "강원",
     "kind": "local",
     "parent": "강원 / 춘천시",
-    "url": "center/gangwon/chuncheonsi/seoksadong/index.html",
+    "url": "center/gangwon/chuncheonsi/seoksadong/",
     "search": "석사동 영어 수학 학원 강원 강원 / 춘천시 gangwon chuncheonsi seoksadong"
   },
   {
@@ -113,7 +113,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "강원",
     "kind": "local",
     "parent": "강원 / 원주시",
-    "url": "center/gangwon/wonjusi/wonjuhyeoksindosi/index.html",
+    "url": "center/gangwon/wonjusi/wonjuhyeoksindosi/",
     "search": "원주혁신도시 영어 수학 학원 강원 강원 / 원주시 gangwon wonjusi wonjuhyeoksindosi"
   },
   {
@@ -122,7 +122,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "강원",
     "kind": "local",
     "parent": "강원 / 춘천시",
-    "url": "center/gangwon/chuncheonsi/toegyedong/index.html",
+    "url": "center/gangwon/chuncheonsi/toegyedong/",
     "search": "퇴계동 영어 수학 학원 강원 강원 / 춘천시 gangwon chuncheonsi toegyedong"
   },
   {
@@ -131,7 +131,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "강원",
     "kind": "local",
     "parent": "강원 / 춘천시",
-    "url": "center/gangwon/chuncheonsi/hupyeongdong/index.html",
+    "url": "center/gangwon/chuncheonsi/hupyeongdong/",
     "search": "후평동 영어 수학 학원 강원 강원 / 춘천시 gangwon chuncheonsi hupyeongdong"
   },
   {
@@ -140,7 +140,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "region",
     "parent": "전국센터",
-    "url": "center/gyeonggi/index.html",
+    "url": "center/gyeonggi/",
     "search": "경기 경기 전국센터 gyeonggi"
   },
   {
@@ -149,7 +149,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "district",
     "parent": "경기",
-    "url": "center/gyeonggi/goyangsi/index.html",
+    "url": "center/gyeonggi/goyangsi/",
     "search": "고양시 경기 경기 gyeonggi goyangsi"
   },
   {
@@ -158,7 +158,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "district",
     "parent": "경기",
-    "url": "center/gyeonggi/gwangmyeongsi/index.html",
+    "url": "center/gyeonggi/gwangmyeongsi/",
     "search": "광명시 경기 경기 gyeonggi gwangmyeongsi"
   },
   {
@@ -167,7 +167,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "district",
     "parent": "경기",
-    "url": "center/gyeonggi/gwangjusi/index.html",
+    "url": "center/gyeonggi/gwangjusi/",
     "search": "광주시 경기 경기 gyeonggi gwangjusi"
   },
   {
@@ -176,7 +176,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "district",
     "parent": "경기",
-    "url": "center/gyeonggi/gurisi/index.html",
+    "url": "center/gyeonggi/gurisi/",
     "search": "구리시 경기 경기 gyeonggi gurisi"
   },
   {
@@ -185,7 +185,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "district",
     "parent": "경기",
-    "url": "center/gyeonggi/gunposi/index.html",
+    "url": "center/gyeonggi/gunposi/",
     "search": "군포시 경기 경기 gyeonggi gunposi"
   },
   {
@@ -194,7 +194,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "district",
     "parent": "경기",
-    "url": "center/gyeonggi/gimposi/index.html",
+    "url": "center/gyeonggi/gimposi/",
     "search": "김포시 경기 경기 gyeonggi gimposi"
   },
   {
@@ -203,7 +203,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "district",
     "parent": "경기",
-    "url": "center/gyeonggi/namyangjusi/index.html",
+    "url": "center/gyeonggi/namyangjusi/",
     "search": "남양주시 경기 경기 gyeonggi namyangjusi"
   },
   {
@@ -212,7 +212,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "district",
     "parent": "경기",
-    "url": "center/gyeonggi/bucheonsi/index.html",
+    "url": "center/gyeonggi/bucheonsi/",
     "search": "부천시 경기 경기 gyeonggi bucheonsi"
   },
   {
@@ -221,7 +221,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "district",
     "parent": "경기",
-    "url": "center/gyeonggi/seongnamsi/index.html",
+    "url": "center/gyeonggi/seongnamsi/",
     "search": "성남시 경기 경기 gyeonggi seongnamsi"
   },
   {
@@ -230,7 +230,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "district",
     "parent": "경기",
-    "url": "center/gyeonggi/suwonsi/index.html",
+    "url": "center/gyeonggi/suwonsi/",
     "search": "수원시 경기 경기 gyeonggi suwonsi"
   },
   {
@@ -239,7 +239,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "district",
     "parent": "경기",
-    "url": "center/gyeonggi/siheungsi/index.html",
+    "url": "center/gyeonggi/siheungsi/",
     "search": "시흥시 경기 경기 gyeonggi siheungsi"
   },
   {
@@ -248,7 +248,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "district",
     "parent": "경기",
-    "url": "center/gyeonggi/ansansi/index.html",
+    "url": "center/gyeonggi/ansansi/",
     "search": "안산시 경기 경기 gyeonggi ansansi"
   },
   {
@@ -257,7 +257,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "district",
     "parent": "경기",
-    "url": "center/gyeonggi/anyangsi/index.html",
+    "url": "center/gyeonggi/anyangsi/",
     "search": "안양시 경기 경기 gyeonggi anyangsi"
   },
   {
@@ -266,7 +266,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "district",
     "parent": "경기",
-    "url": "center/gyeonggi/yangjusi/index.html",
+    "url": "center/gyeonggi/yangjusi/",
     "search": "양주시 경기 경기 gyeonggi yangjusi"
   },
   {
@@ -275,7 +275,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "district",
     "parent": "경기",
-    "url": "center/gyeonggi/osansi/index.html",
+    "url": "center/gyeonggi/osansi/",
     "search": "오산시 경기 경기 gyeonggi osansi"
   },
   {
@@ -284,7 +284,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "district",
     "parent": "경기",
-    "url": "center/gyeonggi/yonginsi/index.html",
+    "url": "center/gyeonggi/yonginsi/",
     "search": "용인시 경기 경기 gyeonggi yonginsi"
   },
   {
@@ -293,7 +293,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "district",
     "parent": "경기",
-    "url": "center/gyeonggi/uijeongbusi/index.html",
+    "url": "center/gyeonggi/uijeongbusi/",
     "search": "의정부시 경기 경기 gyeonggi uijeongbusi"
   },
   {
@@ -302,7 +302,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "district",
     "parent": "경기",
-    "url": "center/gyeonggi/icheonsi/index.html",
+    "url": "center/gyeonggi/icheonsi/",
     "search": "이천시 경기 경기 gyeonggi icheonsi"
   },
   {
@@ -311,7 +311,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "district",
     "parent": "경기",
-    "url": "center/gyeonggi/pajusi/index.html",
+    "url": "center/gyeonggi/pajusi/",
     "search": "파주시 경기 경기 gyeonggi pajusi"
   },
   {
@@ -320,7 +320,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "district",
     "parent": "경기",
-    "url": "center/gyeonggi/pyeongtaeksi/index.html",
+    "url": "center/gyeonggi/pyeongtaeksi/",
     "search": "평택시 경기 경기 gyeonggi pyeongtaeksi"
   },
   {
@@ -329,7 +329,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "district",
     "parent": "경기",
-    "url": "center/gyeonggi/hanamsi/index.html",
+    "url": "center/gyeonggi/hanamsi/",
     "search": "하남시 경기 경기 gyeonggi hanamsi"
   },
   {
@@ -338,7 +338,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "district",
     "parent": "경기",
-    "url": "center/gyeonggi/hwaseongsi/index.html",
+    "url": "center/gyeonggi/hwaseongsi/",
     "search": "화성시 경기 경기 gyeonggi hwaseongsi"
   },
   {
@@ -347,7 +347,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 구리시",
-    "url": "center/gyeonggi/gurisi/galmaedong/index.html",
+    "url": "center/gyeonggi/gurisi/galmaedong/",
     "search": "갈매동 영어 수학 학원 경기 경기 / 구리시 gyeonggi gurisi galmaedong"
   },
   {
@@ -356,7 +356,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 이천시",
-    "url": "center/gyeonggi/icheonsi/galsandong/index.html",
+    "url": "center/gyeonggi/icheonsi/galsandong/",
     "search": "갈산동 영어 수학 학원 경기 경기 / 이천시 gyeonggi icheonsi galsandong"
   },
   {
@@ -365,7 +365,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 광주시",
-    "url": "center/gyeonggi/gwangjusi/gyeongandong/index.html",
+    "url": "center/gyeonggi/gwangjusi/gyeongandong/",
     "search": "경안동 영어 수학 학원 경기 경기 / 광주시 gyeonggi gwangjusi gyeongandong"
   },
   {
@@ -374,7 +374,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 안산시",
-    "url": "center/gyeonggi/ansansi/gojandong/index.html",
+    "url": "center/gyeonggi/ansansi/gojandong/",
     "search": "고잔동 영어 수학 학원 경기 경기 / 안산시 gyeonggi ansansi gojandong"
   },
   {
@@ -383,7 +383,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 광명시",
-    "url": "center/gyeonggi/gwangmyeongsi/gwangmyeongdong/index.html",
+    "url": "center/gyeonggi/gwangmyeongsi/gwangmyeongdong/",
     "search": "광명동 영어 수학 학원 경기 경기 / 광명시 gyeonggi gwangmyeongsi gwangmyeongdong"
   },
   {
@@ -392,7 +392,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 부천시",
-    "url": "center/gyeonggi/bucheonsi/goeandong/index.html",
+    "url": "center/gyeonggi/bucheonsi/goeandong/",
     "search": "괴안동 영어 수학 학원 경기 경기 / 부천시 gyeonggi bucheonsi goeandong"
   },
   {
@@ -401,7 +401,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 구리시",
-    "url": "center/gyeonggi/gurisi/gyomundong/index.html",
+    "url": "center/gyeonggi/gurisi/gyomundong/",
     "search": "교문동 영어 수학 학원 경기 경기 / 구리시 gyeonggi gurisi gyomundong"
   },
   {
@@ -410,7 +410,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 파주시",
-    "url": "center/gyeonggi/pajusi/gyoha/index.html",
+    "url": "center/gyeonggi/pajusi/gyoha/",
     "search": "교하 영어 수학 학원 경기 경기 / 파주시 gyeonggi pajusi gyoha"
   },
   {
@@ -419,7 +419,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 용인시",
-    "url": "center/gyeonggi/yonginsi/gugaldong/index.html",
+    "url": "center/gyeonggi/yonginsi/gugaldong/",
     "search": "구갈동 영어 수학 학원 경기 경기 / 용인시 gyeonggi yonginsi gugaldong"
   },
   {
@@ -428,7 +428,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 성남시",
-    "url": "center/gyeonggi/seongnamsi/gumidong/index.html",
+    "url": "center/gyeonggi/seongnamsi/gumidong/",
     "search": "구미동 영어 수학 학원 경기 경기 / 성남시 gyeonggi seongnamsi gumidong"
   },
   {
@@ -437,7 +437,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 수원시",
-    "url": "center/gyeonggi/suwonsi/gwonseondong/index.html",
+    "url": "center/gyeonggi/suwonsi/gwonseondong/",
     "search": "권선동 영어 수학 학원 경기 경기 / 수원시 gyeonggi suwonsi gwonseondong"
   },
   {
@@ -446,7 +446,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 수원시",
-    "url": "center/gyeonggi/suwonsi/geumgokdong/index.html",
+    "url": "center/gyeonggi/suwonsi/geumgokdong/",
     "search": "금곡동 영어 수학 학원 경기 경기 / 수원시 gyeonggi suwonsi geumgokdong"
   },
   {
@@ -455,7 +455,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 성남시",
-    "url": "center/gyeonggi/seongnamsi/geumgwangdong/index.html",
+    "url": "center/gyeonggi/seongnamsi/geumgwangdong/",
     "search": "금광동 영어 수학 학원 경기 경기 / 성남시 gyeonggi seongnamsi geumgwangdong"
   },
   {
@@ -464,7 +464,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 파주시",
-    "url": "center/gyeonggi/pajusi/geumreung/index.html",
+    "url": "center/gyeonggi/pajusi/geumreung/",
     "search": "금릉 영어 수학 학원 경기 경기 / 파주시 gyeonggi pajusi geumreung"
   },
   {
@@ -473,7 +473,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 오산시",
-    "url": "center/gyeonggi/osansi/geumamdong/index.html",
+    "url": "center/gyeonggi/osansi/geumamdong/",
     "search": "금암동 영어 수학 학원 경기 경기 / 오산시 gyeonggi osansi geumamdong"
   },
   {
@@ -482,7 +482,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 의정부시",
-    "url": "center/gyeonggi/uijeongbusi/geumodong/index.html",
+    "url": "center/gyeonggi/uijeongbusi/geumodong/",
     "search": "금오동 영어 수학 학원 경기 경기 / 의정부시 gyeonggi uijeongbusi geumodong"
   },
   {
@@ -491,7 +491,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 군포시",
-    "url": "center/gyeonggi/gunposi/geumjeongdong/index.html",
+    "url": "center/gyeonggi/gunposi/geumjeongdong/",
     "search": "금정동 영어 수학 학원 경기 경기 / 군포시 gyeonggi gunposi geumjeongdong"
   },
   {
@@ -500,7 +500,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 파주시",
-    "url": "center/gyeonggi/pajusi/geumchondong/index.html",
+    "url": "center/gyeonggi/pajusi/geumchondong/",
     "search": "금촌동 영어 수학 학원 경기 경기 / 파주시 gyeonggi pajusi geumchondong"
   },
   {
@@ -509,7 +509,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 용인시",
-    "url": "center/gyeonggi/yonginsi/gimryangjangdong/index.html",
+    "url": "center/gyeonggi/yonginsi/gimryangjangdong/",
     "search": "김량장동 영어 수학 학원 경기 경기 / 용인시 gyeonggi yonginsi gimryangjangdong"
   },
   {
@@ -518,7 +518,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 오산시",
-    "url": "center/gyeonggi/osansi/naesammidong/index.html",
+    "url": "center/gyeonggi/osansi/naesammidong/",
     "search": "내삼미동 영어 수학 학원 경기 경기 / 오산시 gyeonggi osansi naesammidong"
   },
   {
@@ -527,7 +527,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 남양주시",
-    "url": "center/gyeonggi/namyangjusi/dasandong/index.html",
+    "url": "center/gyeonggi/namyangjusi/dasandong/",
     "search": "다산동 영어 수학 학원 경기 경기 / 남양주시 gyeonggi namyangjusi dasandong"
   },
   {
@@ -536,7 +536,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 남양주시",
-    "url": "center/gyeonggi/namyangjusi/dasansindosi/index.html",
+    "url": "center/gyeonggi/namyangjusi/dasansindosi/",
     "search": "다산신도시 영어 수학 학원 경기 경기 / 남양주시 gyeonggi namyangjusi dasansindosi"
   },
   {
@@ -545,7 +545,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 성남시",
-    "url": "center/gyeonggi/seongnamsi/dandaedong/index.html",
+    "url": "center/gyeonggi/seongnamsi/dandaedong/",
     "search": "단대동 영어 수학 학원 경기 경기 / 성남시 gyeonggi seongnamsi dandaedong"
   },
   {
@@ -554,7 +554,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 시흥시",
-    "url": "center/gyeonggi/siheungsi/daeyadong/index.html",
+    "url": "center/gyeonggi/siheungsi/daeyadong/",
     "search": "대야동 영어 수학 학원 경기 경기 / 시흥시 gyeonggi siheungsi daeyadong"
   },
   {
@@ -563,7 +563,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 고양시",
-    "url": "center/gyeonggi/goyangsi/daehwadong/index.html",
+    "url": "center/gyeonggi/goyangsi/daehwadong/",
     "search": "대화동 영어 수학 학원 경기 경기 / 고양시 gyeonggi goyangsi daehwadong"
   },
   {
@@ -572,7 +572,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 고양시",
-    "url": "center/gyeonggi/goyangsi/deokidong/index.html",
+    "url": "center/gyeonggi/goyangsi/deokidong/",
     "search": "덕이동 영어 수학 학원 경기 경기 / 고양시 gyeonggi goyangsi deokidong"
   },
   {
@@ -581,7 +581,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 고양시",
-    "url": "center/gyeonggi/goyangsi/deokijigu/index.html",
+    "url": "center/gyeonggi/goyangsi/deokijigu/",
     "search": "덕이지구 영어 수학 학원 경기 경기 / 고양시 gyeonggi goyangsi deokijigu"
   },
   {
@@ -590,7 +590,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 하남시",
-    "url": "center/gyeonggi/hanamsi/deokpungdong/index.html",
+    "url": "center/gyeonggi/hanamsi/deokpungdong/",
     "search": "덕풍동 영어 수학 학원 경기 경기 / 하남시 gyeonggi hanamsi deokpungdong"
   },
   {
@@ -599,7 +599,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 남양주시",
-    "url": "center/gyeonggi/namyangjusi/donongdong/index.html",
+    "url": "center/gyeonggi/namyangjusi/donongdong/",
     "search": "도농동 영어 수학 학원 경기 경기 / 남양주시 gyeonggi namyangjusi donongdong"
   },
   {
@@ -608,7 +608,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 구리시",
-    "url": "center/gyeonggi/gurisi/donggudong/index.html",
+    "url": "center/gyeonggi/gurisi/donggudong/",
     "search": "동구동 영어 수학 학원 경기 경기 / 구리시 gyeonggi gurisi donggudong"
   },
   {
@@ -617,7 +617,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 용인시",
-    "url": "center/gyeonggi/yonginsi/dongbaekdong/index.html",
+    "url": "center/gyeonggi/yonginsi/dongbaekdong/",
     "search": "동백동 영어 수학 학원 경기 경기 / 용인시 gyeonggi yonginsi dongbaekdong"
   },
   {
@@ -626,7 +626,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 평택시",
-    "url": "center/gyeonggi/pyeongtaeksi/dongsakdong/index.html",
+    "url": "center/gyeonggi/pyeongtaeksi/dongsakdong/",
     "search": "동삭동 영어 수학 학원 경기 경기 / 평택시 gyeonggi pyeongtaeksi dongsakdong"
   },
   {
@@ -635,7 +635,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 화성시",
-    "url": "center/gyeonggi/hwaseongsi/dongtanmokdong/index.html",
+    "url": "center/gyeonggi/hwaseongsi/dongtanmokdong/",
     "search": "동탄목동 영어 수학 학원 경기 경기 / 화성시 gyeonggi hwaseongsi dongtanmokdong"
   },
   {
@@ -644,7 +644,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 파주시",
-    "url": "center/gyeonggi/pajusi/dongpaedong/index.html",
+    "url": "center/gyeonggi/pajusi/dongpaedong/",
     "search": "동패동 영어 수학 학원 경기 경기 / 파주시 gyeonggi pajusi dongpaedong"
   },
   {
@@ -653,7 +653,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 고양시",
-    "url": "center/gyeonggi/goyangsi/madudong/index.html",
+    "url": "center/gyeonggi/goyangsi/madudong/",
     "search": "마두동 영어 수학 학원 경기 경기 / 고양시 gyeonggi goyangsi madudong"
   },
   {
@@ -662,7 +662,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 김포시",
-    "url": "center/gyeonggi/gimposi/masandong/index.html",
+    "url": "center/gyeonggi/gimposi/masandong/",
     "search": "마산동 영어 수학 학원 경기 경기 / 김포시 gyeonggi gimposi masandong"
   },
   {
@@ -671,7 +671,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 하남시",
-    "url": "center/gyeonggi/hanamsi/mangwoldong/index.html",
+    "url": "center/gyeonggi/hanamsi/mangwoldong/",
     "search": "망월동 영어 수학 학원 경기 경기 / 하남시 gyeonggi hanamsi mangwoldong"
   },
   {
@@ -680,7 +680,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 수원시",
-    "url": "center/gyeonggi/suwonsi/mangpodong/index.html",
+    "url": "center/gyeonggi/suwonsi/mangpodong/",
     "search": "망포동 영어 수학 학원 경기 경기 / 수원시 gyeonggi suwonsi mangpodong"
   },
   {
@@ -689,7 +689,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 수원시",
-    "url": "center/gyeonggi/suwonsi/maetandong/index.html",
+    "url": "center/gyeonggi/suwonsi/maetandong/",
     "search": "매탄동 영어 수학 학원 경기 경기 / 수원시 gyeonggi suwonsi maetandong"
   },
   {
@@ -698,7 +698,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 시흥시",
-    "url": "center/gyeonggi/siheungsi/mokgam/index.html",
+    "url": "center/gyeonggi/siheungsi/mokgam/",
     "search": "목감 영어 수학 학원 경기 경기 / 시흥시 gyeonggi siheungsi mokgam"
   },
   {
@@ -707,7 +707,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 파주시",
-    "url": "center/gyeonggi/pajusi/mokdongdong/index.html",
+    "url": "center/gyeonggi/pajusi/mokdongdong/",
     "search": "목동동 영어 수학 학원 경기 경기 / 파주시 gyeonggi pajusi mokdongdong"
   },
   {
@@ -716,7 +716,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 성남시",
-    "url": "center/gyeonggi/seongnamsi/migeum/index.html",
+    "url": "center/gyeonggi/seongnamsi/migeum/",
     "search": "미금 영어 수학 학원 경기 경기 / 성남시 gyeonggi seongnamsi migeum"
   },
   {
@@ -725,7 +725,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 하남시",
-    "url": "center/gyeonggi/hanamsi/misa/index.html",
+    "url": "center/gyeonggi/hanamsi/misa/",
     "search": "미사 영어 수학 학원 경기 경기 / 하남시 gyeonggi hanamsi misa"
   },
   {
@@ -734,7 +734,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 하남시",
-    "url": "center/gyeonggi/hanamsi/misasindosi/index.html",
+    "url": "center/gyeonggi/hanamsi/misasindosi/",
     "search": "미사신도시 영어 수학 학원 경기 경기 / 하남시 gyeonggi hanamsi misasindosi"
   },
   {
@@ -743,7 +743,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 부천시",
-    "url": "center/gyeonggi/bucheonsi/bandalmaeul/index.html",
+    "url": "center/gyeonggi/bucheonsi/bandalmaeul/",
     "search": "반달마을 영어 수학 학원 경기 경기 / 부천시 gyeonggi bucheonsi bandalmaeul"
   },
   {
@@ -752,7 +752,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 화성시",
-    "url": "center/gyeonggi/hwaseongsi/bansongdong/index.html",
+    "url": "center/gyeonggi/hwaseongsi/bansongdong/",
     "search": "반송동 영어 수학 학원 경기 경기 / 화성시 gyeonggi hwaseongsi bansongdong"
   },
   {
@@ -761,7 +761,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 시흥시",
-    "url": "center/gyeonggi/siheungsi/baegot/index.html",
+    "url": "center/gyeonggi/siheungsi/baegot/",
     "search": "배곧 영어 수학 학원 경기 경기 / 시흥시 gyeonggi siheungsi baegot"
   },
   {
@@ -770,7 +770,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 시흥시",
-    "url": "center/gyeonggi/siheungsi/baegotdong/index.html",
+    "url": "center/gyeonggi/siheungsi/baegotdong/",
     "search": "배곧동 영어 수학 학원 경기 경기 / 시흥시 gyeonggi siheungsi baegotdong"
   },
   {
@@ -779,7 +779,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 고양시",
-    "url": "center/gyeonggi/goyangsi/baekseokdong/index.html",
+    "url": "center/gyeonggi/goyangsi/baekseokdong/",
     "search": "백석동 영어 수학 학원 경기 경기 / 고양시 gyeonggi goyangsi baekseokdong"
   },
   {
@@ -788,7 +788,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 부천시",
-    "url": "center/gyeonggi/bucheonsi/beombakdong/index.html",
+    "url": "center/gyeonggi/bucheonsi/beombakdong/",
     "search": "범박동 영어 수학 학원 경기 경기 / 부천시 gyeonggi bucheonsi beombakdong"
   },
   {
@@ -797,7 +797,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 남양주시",
-    "url": "center/gyeonggi/namyangjusi/byeolnae/index.html",
+    "url": "center/gyeonggi/namyangjusi/byeolnae/",
     "search": "별내 영어 수학 학원 경기 경기 / 남양주시 gyeonggi namyangjusi byeolnae"
   },
   {
@@ -806,7 +806,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 남양주시",
-    "url": "center/gyeonggi/namyangjusi/byeolnaedong/index.html",
+    "url": "center/gyeonggi/namyangjusi/byeolnaedong/",
     "search": "별내동 영어 수학 학원 경기 경기 / 남양주시 gyeonggi namyangjusi byeolnaedong"
   },
   {
@@ -815,7 +815,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 남양주시",
-    "url": "center/gyeonggi/namyangjusi/byeolnaesindosi/index.html",
+    "url": "center/gyeonggi/namyangjusi/byeolnaesindosi/",
     "search": "별내신도시 영어 수학 학원 경기 경기 / 남양주시 gyeonggi namyangjusi byeolnaesindosi"
   },
   {
@@ -824,7 +824,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 남양주시",
-    "url": "center/gyeonggi/namyangjusi/byeolnaejungang/index.html",
+    "url": "center/gyeonggi/namyangjusi/byeolnaejungang/",
     "search": "별내중앙 영어 수학 학원 경기 경기 / 남양주시 gyeonggi namyangjusi byeolnaejungang"
   },
   {
@@ -833,7 +833,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 화성시",
-    "url": "center/gyeonggi/hwaseongsi/byeongjeom/index.html",
+    "url": "center/gyeonggi/hwaseongsi/byeongjeom/",
     "search": "병점 영어 수학 학원 경기 경기 / 화성시 gyeonggi hwaseongsi byeongjeom"
   },
   {
@@ -842,7 +842,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 화성시",
-    "url": "center/gyeonggi/hwaseongsi/byeongjeomdong/index.html",
+    "url": "center/gyeonggi/hwaseongsi/byeongjeomdong/",
     "search": "병점동 영어 수학 학원 경기 경기 / 화성시 gyeonggi hwaseongsi byeongjeomdong"
   },
   {
@@ -851,7 +851,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 용인시",
-    "url": "center/gyeonggi/yonginsi/boradong/index.html",
+    "url": "center/gyeonggi/yonginsi/boradong/",
     "search": "보라동 영어 수학 학원 경기 경기 / 용인시 gyeonggi yonginsi boradong"
   },
   {
@@ -860,7 +860,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 화성시",
-    "url": "center/gyeonggi/hwaseongsi/bongdam2jigu/index.html",
+    "url": "center/gyeonggi/hwaseongsi/bongdam2jigu/",
     "search": "봉담2지구 영어 수학 학원 경기 경기 / 화성시 gyeonggi hwaseongsi bongdam2jigu"
   },
   {
@@ -869,7 +869,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 화성시",
-    "url": "center/gyeonggi/hwaseongsi/bongdameup/index.html",
+    "url": "center/gyeonggi/hwaseongsi/bongdameup/",
     "search": "봉담읍 영어 수학 학원 경기 경기 / 화성시 gyeonggi hwaseongsi bongdameup"
   },
   {
@@ -878,7 +878,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 이천시",
-    "url": "center/gyeonggi/icheonsi/bubaleup/index.html",
+    "url": "center/gyeonggi/icheonsi/bubaleup/",
     "search": "부발읍 영어 수학 학원 경기 경기 / 이천시 gyeonggi icheonsi bubaleup"
   },
   {
@@ -887,7 +887,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 오산시",
-    "url": "center/gyeonggi/osansi/busandong/index.html",
+    "url": "center/gyeonggi/osansi/busandong/",
     "search": "부산동 영어 수학 학원 경기 경기 / 오산시 gyeonggi osansi busandong"
   },
   {
@@ -896,7 +896,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 부천시",
-    "url": "center/gyeonggi/bucheonsi/bucheon-sangdong/index.html",
+    "url": "center/gyeonggi/bucheonsi/bucheon-sangdong/",
     "search": "부천 상동 영어 수학 학원 경기 경기 / 부천시 gyeonggi bucheonsi bucheon-sangdong"
   },
   {
@@ -905,7 +905,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 부천시",
-    "url": "center/gyeonggi/bucheonsi/bucheon-jungdong/index.html",
+    "url": "center/gyeonggi/bucheonsi/bucheon-jungdong/",
     "search": "부천 중동 영어 수학 학원 경기 경기 / 부천시 gyeonggi bucheonsi bucheon-jungdong"
   },
   {
@@ -914,7 +914,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 김포시",
-    "url": "center/gyeonggi/gimposi/bukbyeondong/index.html",
+    "url": "center/gyeonggi/gimposi/bukbyeondong/",
     "search": "북변동 영어 수학 학원 경기 경기 / 김포시 gyeonggi gimposi bukbyeondong"
   },
   {
@@ -923,7 +923,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 안양시",
-    "url": "center/gyeonggi/anyangsi/bisandong/index.html",
+    "url": "center/gyeonggi/anyangsi/bisandong/",
     "search": "비산동 영어 수학 학원 경기 경기 / 안양시 gyeonggi anyangsi bisandong"
   },
   {
@@ -932,7 +932,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 평택시",
-    "url": "center/gyeonggi/pyeongtaeksi/bijeondong/index.html",
+    "url": "center/gyeonggi/pyeongtaeksi/bijeondong/",
     "search": "비전동 영어 수학 학원 경기 경기 / 평택시 gyeonggi pyeongtaeksi bijeondong"
   },
   {
@@ -941,7 +941,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 김포시",
-    "url": "center/gyeonggi/gimposi/saudong/index.html",
+    "url": "center/gyeonggi/gimposi/saudong/",
     "search": "사우동 영어 수학 학원 경기 경기 / 김포시 gyeonggi gimposi saudong"
   },
   {
@@ -950,7 +950,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 파주시",
-    "url": "center/gyeonggi/pajusi/sannaemaeul/index.html",
+    "url": "center/gyeonggi/pajusi/sannaemaeul/",
     "search": "산내마을 영어 수학 학원 경기 경기 / 파주시 gyeonggi pajusi sannaemaeul"
   },
   {
@@ -959,7 +959,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 군포시",
-    "url": "center/gyeonggi/gunposi/sanbondong/index.html",
+    "url": "center/gyeonggi/gunposi/sanbondong/",
     "search": "산본동 영어 수학 학원 경기 경기 / 군포시 gyeonggi gunposi sanbondong"
   },
   {
@@ -968,7 +968,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 화성시",
-    "url": "center/gyeonggi/hwaseongsi/sancheokdong/index.html",
+    "url": "center/gyeonggi/hwaseongsi/sancheokdong/",
     "search": "산척동 영어 수학 학원 경기 경기 / 화성시 gyeonggi hwaseongsi sancheokdong"
   },
   {
@@ -977,7 +977,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 고양시",
-    "url": "center/gyeonggi/goyangsi/samsong/index.html",
+    "url": "center/gyeonggi/goyangsi/samsong/",
     "search": "삼송 영어 수학 학원 경기 경기 / 고양시 gyeonggi goyangsi samsong"
   },
   {
@@ -986,7 +986,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 고양시",
-    "url": "center/gyeonggi/goyangsi/samsongdong/index.html",
+    "url": "center/gyeonggi/goyangsi/samsongdong/",
     "search": "삼송동 영어 수학 학원 경기 경기 / 고양시 gyeonggi goyangsi samsongdong"
   },
   {
@@ -995,7 +995,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 성남시",
-    "url": "center/gyeonggi/seongnamsi/sangdaewondong/index.html",
+    "url": "center/gyeonggi/seongnamsi/sangdaewondong/",
     "search": "상대원동 영어 수학 학원 경기 경기 / 성남시 gyeonggi seongnamsi sangdaewondong"
   },
   {
@@ -1004,7 +1004,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 용인시",
-    "url": "center/gyeonggi/yonginsi/sanghyeondong/index.html",
+    "url": "center/gyeonggi/yonginsi/sanghyeondong/",
     "search": "상현동 영어 수학 학원 경기 경기 / 용인시 gyeonggi yonginsi sanghyeondong"
   },
   {
@@ -1013,7 +1013,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 평택시",
-    "url": "center/gyeonggi/pyeongtaeksi/seojeongdong/index.html",
+    "url": "center/gyeonggi/pyeongtaeksi/seojeongdong/",
     "search": "서정동 영어 수학 학원 경기 경기 / 평택시 gyeonggi pyeongtaeksi seojeongdong"
   },
   {
@@ -1022,7 +1022,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 화성시",
-    "url": "center/gyeonggi/hwaseongsi/seokudong/index.html",
+    "url": "center/gyeonggi/hwaseongsi/seokudong/",
     "search": "석우동 영어 수학 학원 경기 경기 / 화성시 gyeonggi hwaseongsi seokudong"
   },
   {
@@ -1031,7 +1031,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 성남시",
-    "url": "center/gyeonggi/seongnamsi/seongnam-geumgokdong/index.html",
+    "url": "center/gyeonggi/seongnamsi/seongnam-geumgokdong/",
     "search": "성남 금곡동 영어 수학 학원 경기 경기 / 성남시 gyeonggi seongnamsi seongnam-geumgokdong"
   },
   {
@@ -1040,7 +1040,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 성남시",
-    "url": "center/gyeonggi/seongnamsi/seongnamdong/index.html",
+    "url": "center/gyeonggi/seongnamsi/seongnamdong/",
     "search": "성남동 영어 수학 학원 경기 경기 / 성남시 gyeonggi seongnamsi seongnamdong"
   },
   {
@@ -1049,7 +1049,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 용인시",
-    "url": "center/gyeonggi/yonginsi/seongbokdong/index.html",
+    "url": "center/gyeonggi/yonginsi/seongbokdong/",
     "search": "성복동 영어 수학 학원 경기 경기 / 용인시 gyeonggi yonginsi seongbokdong"
   },
   {
@@ -1058,7 +1058,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 고양시",
-    "url": "center/gyeonggi/goyangsi/seongsadong/index.html",
+    "url": "center/gyeonggi/goyangsi/seongsadong/",
     "search": "성사동 영어 수학 학원 경기 경기 / 고양시 gyeonggi goyangsi seongsadong"
   },
   {
@@ -1067,7 +1067,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 오산시",
-    "url": "center/gyeonggi/osansi/segyo/index.html",
+    "url": "center/gyeonggi/osansi/segyo/",
     "search": "세교 영어 수학 학원 경기 경기 / 오산시 gyeonggi osansi segyo"
   },
   {
@@ -1076,7 +1076,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 평택시",
-    "url": "center/gyeonggi/pyeongtaeksi/sosabeol/index.html",
+    "url": "center/gyeonggi/pyeongtaeksi/sosabeol/",
     "search": "소사벌 영어 수학 학원 경기 경기 / 평택시 gyeonggi pyeongtaeksi sosabeol"
   },
   {
@@ -1085,7 +1085,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 부천시",
-    "url": "center/gyeonggi/bucheonsi/sosabondong/index.html",
+    "url": "center/gyeonggi/bucheonsi/sosabondong/",
     "search": "소사본동 영어 수학 학원 경기 경기 / 부천시 gyeonggi bucheonsi sosabondong"
   },
   {
@@ -1094,7 +1094,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 광명시",
-    "url": "center/gyeonggi/gwangmyeongsi/sohadong/index.html",
+    "url": "center/gyeonggi/gwangmyeongsi/sohadong/",
     "search": "소하동 영어 수학 학원 경기 경기 / 광명시 gyeonggi gwangmyeongsi sohadong"
   },
   {
@@ -1103,7 +1103,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 화성시",
-    "url": "center/gyeonggi/hwaseongsi/songdong/index.html",
+    "url": "center/gyeonggi/hwaseongsi/songdong/",
     "search": "송동 영어 수학 학원 경기 경기 / 화성시 gyeonggi hwaseongsi songdong"
   },
   {
@@ -1112,7 +1112,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 평택시",
-    "url": "center/gyeonggi/pyeongtaeksi/songtan/index.html",
+    "url": "center/gyeonggi/pyeongtaeksi/songtan/",
     "search": "송탄 영어 수학 학원 경기 경기 / 평택시 gyeonggi pyeongtaeksi songtan"
   },
   {
@@ -1121,7 +1121,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 수원시",
-    "url": "center/gyeonggi/suwonsi/suwon-geumgokdong/index.html",
+    "url": "center/gyeonggi/suwonsi/suwon-geumgokdong/",
     "search": "수원 금곡동 영어 수학 학원 경기 경기 / 수원시 gyeonggi suwonsi suwon-geumgokdong"
   },
   {
@@ -1130,7 +1130,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 성남시",
-    "url": "center/gyeonggi/seongnamsi/sujindong/index.html",
+    "url": "center/gyeonggi/seongnamsi/sujindong/",
     "search": "수진동 영어 수학 학원 경기 경기 / 성남시 gyeonggi seongnamsi sujindong"
   },
   {
@@ -1139,7 +1139,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 오산시",
-    "url": "center/gyeonggi/osansi/sucheongdong/index.html",
+    "url": "center/gyeonggi/osansi/sucheongdong/",
     "search": "수청동 영어 수학 학원 경기 경기 / 오산시 gyeonggi osansi sucheongdong"
   },
   {
@@ -1148,7 +1148,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 구리시",
-    "url": "center/gyeonggi/gurisi/sutaekdong/index.html",
+    "url": "center/gyeonggi/gurisi/sutaekdong/",
     "search": "수택동 영어 수학 학원 경기 경기 / 구리시 gyeonggi gurisi sutaekdong"
   },
   {
@@ -1157,7 +1157,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 고양시",
-    "url": "center/gyeonggi/goyangsi/siksadong/index.html",
+    "url": "center/gyeonggi/goyangsi/siksadong/",
     "search": "식사동 영어 수학 학원 경기 경기 / 고양시 gyeonggi goyangsi siksadong"
   },
   {
@@ -1166,7 +1166,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 용인시",
-    "url": "center/gyeonggi/yonginsi/singaldong/index.html",
+    "url": "center/gyeonggi/yonginsi/singaldong/",
     "search": "신갈동 영어 수학 학원 경기 경기 / 용인시 gyeonggi yonginsi singaldong"
   },
   {
@@ -1175,7 +1175,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 의정부시",
-    "url": "center/gyeonggi/uijeongbusi/singokdong/index.html",
+    "url": "center/gyeonggi/uijeongbusi/singokdong/",
     "search": "신곡동 영어 수학 학원 경기 경기 / 의정부시 gyeonggi uijeongbusi singokdong"
   },
   {
@@ -1184,7 +1184,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 용인시",
-    "url": "center/gyeonggi/yonginsi/sinbongdong/index.html",
+    "url": "center/gyeonggi/yonginsi/sinbongdong/",
     "search": "신봉동 영어 수학 학원 경기 경기 / 용인시 gyeonggi yonginsi sinbongdong"
   },
   {
@@ -1193,7 +1193,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 고양시",
-    "url": "center/gyeonggi/goyangsi/sinwondong/index.html",
+    "url": "center/gyeonggi/goyangsi/sinwondong/",
     "search": "신원동 영어 수학 학원 경기 경기 / 고양시 gyeonggi goyangsi sinwondong"
   },
   {
@@ -1202,7 +1202,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 부천시",
-    "url": "center/gyeonggi/bucheonsi/sinjungdong/index.html",
+    "url": "center/gyeonggi/bucheonsi/sinjungdong/",
     "search": "신중동 영어 수학 학원 경기 경기 / 부천시 gyeonggi bucheonsi sinjungdong"
   },
   {
@@ -1211,7 +1211,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 부천시",
-    "url": "center/gyeonggi/bucheonsi/simgokdong/index.html",
+    "url": "center/gyeonggi/bucheonsi/simgokdong/",
     "search": "심곡동 영어 수학 학원 경기 경기 / 부천시 gyeonggi bucheonsi simgokdong"
   },
   {
@@ -1220,7 +1220,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 안양시",
-    "url": "center/gyeonggi/anyangsi/anyangdong/index.html",
+    "url": "center/gyeonggi/anyangsi/anyangdong/",
     "search": "안양동 영어 수학 학원 경기 경기 / 안양시 gyeonggi anyangsi anyangdong"
   },
   {
@@ -1229,7 +1229,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 이천시",
-    "url": "center/gyeonggi/icheonsi/anheungdong/index.html",
+    "url": "center/gyeonggi/icheonsi/anheungdong/",
     "search": "안흥동 영어 수학 학원 경기 경기 / 이천시 gyeonggi icheonsi anheungdong"
   },
   {
@@ -1238,7 +1238,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 파주시",
-    "url": "center/gyeonggi/pajusi/yadangdong/index.html",
+    "url": "center/gyeonggi/pajusi/yadangdong/",
     "search": "야당동 영어 수학 학원 경기 경기 / 파주시 gyeonggi pajusi yadangdong"
   },
   {
@@ -1247,7 +1247,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 성남시",
-    "url": "center/gyeonggi/seongnamsi/yatap/index.html",
+    "url": "center/gyeonggi/seongnamsi/yatap/",
     "search": "야탑 영어 수학 학원 경기 경기 / 성남시 gyeonggi seongnamsi yatap"
   },
   {
@@ -1256,7 +1256,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 성남시",
-    "url": "center/gyeonggi/seongnamsi/yatapdong/index.html",
+    "url": "center/gyeonggi/seongnamsi/yatapdong/",
     "search": "야탑동 영어 수학 학원 경기 경기 / 성남시 gyeonggi seongnamsi yatapdong"
   },
   {
@@ -1265,7 +1265,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 부천시",
-    "url": "center/gyeonggi/bucheonsi/yakdaedong/index.html",
+    "url": "center/gyeonggi/bucheonsi/yakdaedong/",
     "search": "약대동 영어 수학 학원 경기 경기 / 부천시 gyeonggi bucheonsi yakdaedong"
   },
   {
@@ -1274,7 +1274,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 성남시",
-    "url": "center/gyeonggi/seongnamsi/yeosudong/index.html",
+    "url": "center/gyeonggi/seongnamsi/yeosudong/",
     "search": "여수동 영어 수학 학원 경기 경기 / 성남시 gyeonggi seongnamsi yeosudong"
   },
   {
@@ -1283,7 +1283,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 용인시",
-    "url": "center/gyeonggi/yonginsi/yeokbukdong/index.html",
+    "url": "center/gyeonggi/yonginsi/yeokbukdong/",
     "search": "역북동 영어 수학 학원 경기 경기 / 용인시 gyeonggi yonginsi yeokbukdong"
   },
   {
@@ -1292,7 +1292,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 용인시",
-    "url": "center/gyeonggi/yonginsi/yeongdeokdong/index.html",
+    "url": "center/gyeonggi/yonginsi/yeongdeokdong/",
     "search": "영덕동 영어 수학 학원 경기 경기 / 용인시 gyeonggi yonginsi yeongdeokdong"
   },
   {
@@ -1301,7 +1301,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 화성시",
-    "url": "center/gyeonggi/hwaseongsi/yeongcheondong/index.html",
+    "url": "center/gyeonggi/hwaseongsi/yeongcheondong/",
     "search": "영천동 영어 수학 학원 경기 경기 / 화성시 gyeonggi hwaseongsi yeongcheondong"
   },
   {
@@ -1310,7 +1310,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 수원시",
-    "url": "center/gyeonggi/suwonsi/yeongtongdong/index.html",
+    "url": "center/gyeonggi/suwonsi/yeongtongdong/",
     "search": "영통동 영어 수학 학원 경기 경기 / 수원시 gyeonggi suwonsi yeongtongdong"
   },
   {
@@ -1319,7 +1319,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 오산시",
-    "url": "center/gyeonggi/osansi/osandong/index.html",
+    "url": "center/gyeonggi/osansi/osandong/",
     "search": "오산동 영어 수학 학원 경기 경기 / 오산시 gyeonggi osansi osandong"
   },
   {
@@ -1328,7 +1328,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 부천시",
-    "url": "center/gyeonggi/bucheonsi/okgildong/index.html",
+    "url": "center/gyeonggi/bucheonsi/okgildong/",
     "search": "옥길동 영어 수학 학원 경기 경기 / 부천시 gyeonggi bucheonsi okgildong"
   },
   {
@@ -1337,7 +1337,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 양주시",
-    "url": "center/gyeonggi/yangjusi/okjeongdong/index.html",
+    "url": "center/gyeonggi/yangjusi/okjeongdong/",
     "search": "옥정동 영어 수학 학원 경기 경기 / 양주시 gyeonggi yangjusi okjeongdong"
   },
   {
@@ -1346,7 +1346,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 양주시",
-    "url": "center/gyeonggi/yangjusi/okjeongsindosi/index.html",
+    "url": "center/gyeonggi/yangjusi/okjeongsindosi/",
     "search": "옥정신도시 영어 수학 학원 경기 경기 / 양주시 gyeonggi yangjusi okjeongsindosi"
   },
   {
@@ -1355,7 +1355,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 용인시",
-    "url": "center/gyeonggi/yonginsi/yongin-jungdong/index.html",
+    "url": "center/gyeonggi/yonginsi/yongin-jungdong/",
     "search": "용인 중동 영어 수학 학원 경기 경기 / 용인시 gyeonggi yonginsi yongin-jungdong"
   },
   {
@@ -1364,7 +1364,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 김포시",
-    "url": "center/gyeonggi/gimposi/unyangdong/index.html",
+    "url": "center/gyeonggi/gimposi/unyangdong/",
     "search": "운양동 영어 수학 학원 경기 경기 / 김포시 gyeonggi gimposi unyangdong"
   },
   {
@@ -1373,7 +1373,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 파주시",
-    "url": "center/gyeonggi/pajusi/unjeong/index.html",
+    "url": "center/gyeonggi/pajusi/unjeong/",
     "search": "운정 영어 수학 학원 경기 경기 / 파주시 gyeonggi pajusi unjeong"
   },
   {
@@ -1382,7 +1382,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 파주시",
-    "url": "center/gyeonggi/pajusi/unjeongsindosi/index.html",
+    "url": "center/gyeonggi/pajusi/unjeongsindosi/",
     "search": "운정신도시 영어 수학 학원 경기 경기 / 파주시 gyeonggi pajusi unjeongsindosi"
   },
   {
@@ -1391,7 +1391,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 파주시",
-    "url": "center/gyeonggi/pajusi/unjeongjungang/index.html",
+    "url": "center/gyeonggi/pajusi/unjeongjungang/",
     "search": "운정중앙 영어 수학 학원 경기 경기 / 파주시 gyeonggi pajusi unjeongjungang"
   },
   {
@@ -1400,7 +1400,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 파주시",
-    "url": "center/gyeonggi/pajusi/unjeonghosu/index.html",
+    "url": "center/gyeonggi/pajusi/unjeonghosu/",
     "search": "운정호수 영어 수학 학원 경기 경기 / 파주시 gyeonggi pajusi unjeonghosu"
   },
   {
@@ -1409,7 +1409,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 오산시",
-    "url": "center/gyeonggi/osansi/wondong/index.html",
+    "url": "center/gyeonggi/osansi/wondong/",
     "search": "원동 영어 수학 학원 경기 경기 / 오산시 gyeonggi osansi wondong"
   },
   {
@@ -1418,7 +1418,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 고양시",
-    "url": "center/gyeonggi/goyangsi/wonheungdong/index.html",
+    "url": "center/gyeonggi/goyangsi/wonheungdong/",
     "search": "원흥동 영어 수학 학원 경기 경기 / 고양시 gyeonggi goyangsi wonheungdong"
   },
   {
@@ -1427,7 +1427,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 시흥시",
-    "url": "center/gyeonggi/siheungsi/eungyejigu/index.html",
+    "url": "center/gyeonggi/siheungsi/eungyejigu/",
     "search": "은계지구 영어 수학 학원 경기 경기 / 시흥시 gyeonggi siheungsi eungyejigu"
   },
   {
@@ -1436,7 +1436,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 시흥시",
-    "url": "center/gyeonggi/siheungsi/eunhaengdong/index.html",
+    "url": "center/gyeonggi/siheungsi/eunhaengdong/",
     "search": "은행동 영어 수학 학원 경기 경기 / 시흥시 gyeonggi siheungsi eunhaengdong"
   },
   {
@@ -1445,7 +1445,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 성남시",
-    "url": "center/gyeonggi/seongnamsi/imaedong/index.html",
+    "url": "center/gyeonggi/seongnamsi/imaedong/",
     "search": "이매동 영어 수학 학원 경기 경기 / 성남시 gyeonggi seongnamsi imaedong"
   },
   {
@@ -1454,7 +1454,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 평택시",
-    "url": "center/gyeonggi/pyeongtaeksi/ichungdong/index.html",
+    "url": "center/gyeonggi/pyeongtaeksi/ichungdong/",
     "search": "이충동 영어 수학 학원 경기 경기 / 평택시 gyeonggi pyeongtaeksi ichungdong"
   },
   {
@@ -1463,7 +1463,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 구리시",
-    "url": "center/gyeonggi/gurisi/inchangdong/index.html",
+    "url": "center/gyeonggi/gurisi/inchangdong/",
     "search": "인창동 영어 수학 학원 경기 경기 / 구리시 gyeonggi gurisi inchangdong"
   },
   {
@@ -1472,7 +1472,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 고양시",
-    "url": "center/gyeonggi/goyangsi/ilsandong/index.html",
+    "url": "center/gyeonggi/goyangsi/ilsandong/",
     "search": "일산동 영어 수학 학원 경기 경기 / 고양시 gyeonggi goyangsi ilsandong"
   },
   {
@@ -1481,7 +1481,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 광명시",
-    "url": "center/gyeonggi/gwangmyeongsi/iljikdong/index.html",
+    "url": "center/gyeonggi/gwangmyeongsi/iljikdong/",
     "search": "일직동 영어 수학 학원 경기 경기 / 광명시 gyeonggi gwangmyeongsi iljikdong"
   },
   {
@@ -1490,7 +1490,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 시흥시",
-    "url": "center/gyeonggi/siheungsi/janggokdong/index.html",
+    "url": "center/gyeonggi/siheungsi/janggokdong/",
     "search": "장곡동 영어 수학 학원 경기 경기 / 시흥시 gyeonggi siheungsi janggokdong"
   },
   {
@@ -1499,7 +1499,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 김포시",
-    "url": "center/gyeonggi/gimposi/janggidong/index.html",
+    "url": "center/gyeonggi/gimposi/janggidong/",
     "search": "장기동 영어 수학 학원 경기 경기 / 김포시 gyeonggi gimposi janggidong"
   },
   {
@@ -1508,7 +1508,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 화성시",
-    "url": "center/gyeonggi/hwaseongsi/jangjidong/index.html",
+    "url": "center/gyeonggi/hwaseongsi/jangjidong/",
     "search": "장지동 영어 수학 학원 경기 경기 / 화성시 gyeonggi hwaseongsi jangjidong"
   },
   {
@@ -1517,7 +1517,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 고양시",
-    "url": "center/gyeonggi/goyangsi/janghangdong/index.html",
+    "url": "center/gyeonggi/goyangsi/janghangdong/",
     "search": "장항동 영어 수학 학원 경기 경기 / 고양시 gyeonggi goyangsi janghangdong"
   },
   {
@@ -1526,7 +1526,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 시흥시",
-    "url": "center/gyeonggi/siheungsi/janghyeondong/index.html",
+    "url": "center/gyeonggi/siheungsi/janghyeondong/",
     "search": "장현동 영어 수학 학원 경기 경기 / 시흥시 gyeonggi siheungsi janghyeondong"
   },
   {
@@ -1535,7 +1535,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 고양시",
-    "url": "center/gyeonggi/goyangsi/jeongbalsandong/index.html",
+    "url": "center/gyeonggi/goyangsi/jeongbalsandong/",
     "search": "정발산동 영어 수학 학원 경기 경기 / 고양시 gyeonggi goyangsi jeongbalsandong"
   },
   {
@@ -1544,7 +1544,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 시흥시",
-    "url": "center/gyeonggi/siheungsi/jeongwangdong/index.html",
+    "url": "center/gyeonggi/siheungsi/jeongwangdong/",
     "search": "정왕동 영어 수학 학원 경기 경기 / 시흥시 gyeonggi siheungsi jeongwangdong"
   },
   {
@@ -1553,7 +1553,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 수원시",
-    "url": "center/gyeonggi/suwonsi/jeongjadong/index.html",
+    "url": "center/gyeonggi/suwonsi/jeongjadong/",
     "search": "정자동 영어 수학 학원 경기 경기 / 수원시 gyeonggi suwonsi jeongjadong"
   },
   {
@@ -1562,7 +1562,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 시흥시",
-    "url": "center/gyeonggi/siheungsi/jonamdong/index.html",
+    "url": "center/gyeonggi/siheungsi/jonamdong/",
     "search": "조남동 영어 수학 학원 경기 경기 / 시흥시 gyeonggi siheungsi jonamdong"
   },
   {
@@ -1571,7 +1571,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 고양시",
-    "url": "center/gyeonggi/goyangsi/jugyodong/index.html",
+    "url": "center/gyeonggi/goyangsi/jugyodong/",
     "search": "주교동 영어 수학 학원 경기 경기 / 고양시 gyeonggi goyangsi jugyodong"
   },
   {
@@ -1580,7 +1580,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 고양시",
-    "url": "center/gyeonggi/goyangsi/juyeopdong/index.html",
+    "url": "center/gyeonggi/goyangsi/juyeopdong/",
     "search": "주엽동 영어 수학 학원 경기 경기 / 고양시 gyeonggi goyangsi juyeopdong"
   },
   {
@@ -1589,7 +1589,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 평택시",
-    "url": "center/gyeonggi/pyeongtaeksi/jukbaekdong/index.html",
+    "url": "center/gyeonggi/pyeongtaeksi/jukbaekdong/",
     "search": "죽백동 영어 수학 학원 경기 경기 / 평택시 gyeonggi pyeongtaeksi jukbaekdong"
   },
   {
@@ -1598,7 +1598,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 고양시",
-    "url": "center/gyeonggi/goyangsi/jungsandong/index.html",
+    "url": "center/gyeonggi/goyangsi/jungsandong/",
     "search": "중산동 영어 수학 학원 경기 경기 / 고양시 gyeonggi goyangsi jungsandong"
   },
   {
@@ -1607,7 +1607,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 화성시",
-    "url": "center/gyeonggi/hwaseongsi/jinandong/index.html",
+    "url": "center/gyeonggi/hwaseongsi/jinandong/",
     "search": "진안동 영어 수학 학원 경기 경기 / 화성시 gyeonggi hwaseongsi jinandong"
   },
   {
@@ -1616,7 +1616,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 남양주시",
-    "url": "center/gyeonggi/namyangjusi/jinjeopeup/index.html",
+    "url": "center/gyeonggi/namyangjusi/jinjeopeup/",
     "search": "진접읍 영어 수학 학원 경기 경기 / 남양주시 gyeonggi namyangjusi jinjeopeup"
   },
   {
@@ -1625,7 +1625,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 수원시",
-    "url": "center/gyeonggi/suwonsi/cheoncheondong/index.html",
+    "url": "center/gyeonggi/suwonsi/cheoncheondong/",
     "search": "천천동 영어 수학 학원 경기 경기 / 수원시 gyeonggi suwonsi cheoncheondong"
   },
   {
@@ -1634,7 +1634,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 광명시",
-    "url": "center/gyeonggi/gwangmyeongsi/cheolsandong/index.html",
+    "url": "center/gyeonggi/gwangmyeongsi/cheolsandong/",
     "search": "철산동 영어 수학 학원 경기 경기 / 광명시 gyeonggi gwangmyeongsi cheolsandong"
   },
   {
@@ -1643,7 +1643,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 화성시",
-    "url": "center/gyeonggi/hwaseongsi/cheonggyedong/index.html",
+    "url": "center/gyeonggi/hwaseongsi/cheonggyedong/",
     "search": "청계동 영어 수학 학원 경기 경기 / 화성시 gyeonggi hwaseongsi cheonggyedong"
   },
   {
@@ -1652,7 +1652,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 안산시",
-    "url": "center/gyeonggi/ansansi/chojidong/index.html",
+    "url": "center/gyeonggi/ansansi/chojidong/",
     "search": "초지동 영어 수학 학원 경기 경기 / 안산시 gyeonggi ansansi chojidong"
   },
   {
@@ -1661,7 +1661,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 광주시",
-    "url": "center/gyeonggi/gwangjusi/tanbeoldong/index.html",
+    "url": "center/gyeonggi/gwangjusi/tanbeoldong/",
     "search": "탄벌동 영어 수학 학원 경기 경기 / 광주시 gyeonggi gwangjusi tanbeoldong"
   },
   {
@@ -1670,7 +1670,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 고양시",
-    "url": "center/gyeonggi/goyangsi/tanhyeondong/index.html",
+    "url": "center/gyeonggi/goyangsi/tanhyeondong/",
     "search": "탄현동 영어 수학 학원 경기 경기 / 고양시 gyeonggi goyangsi tanhyeondong"
   },
   {
@@ -1679,7 +1679,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 고양시",
-    "url": "center/gyeonggi/goyangsi/todangdong/index.html",
+    "url": "center/gyeonggi/goyangsi/todangdong/",
     "search": "토당동 영어 수학 학원 경기 경기 / 고양시 gyeonggi goyangsi todangdong"
   },
   {
@@ -1688,7 +1688,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 남양주시",
-    "url": "center/gyeonggi/namyangjusi/toegyewoneup/index.html",
+    "url": "center/gyeonggi/namyangjusi/toegyewoneup/",
     "search": "퇴계원읍 영어 수학 학원 경기 경기 / 남양주시 gyeonggi namyangjusi toegyewoneup"
   },
   {
@@ -1697,7 +1697,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 남양주시",
-    "url": "center/gyeonggi/namyangjusi/pyeongnaedong/index.html",
+    "url": "center/gyeonggi/namyangjusi/pyeongnaedong/",
     "search": "평내동 영어 수학 학원 경기 경기 / 남양주시 gyeonggi namyangjusi pyeongnaedong"
   },
   {
@@ -1706,7 +1706,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 용인시",
-    "url": "center/gyeonggi/yonginsi/pungdeokcheondong/index.html",
+    "url": "center/gyeonggi/yonginsi/pungdeokcheondong/",
     "search": "풍덕천동 영어 수학 학원 경기 경기 / 용인시 gyeonggi yonginsi pungdeokcheondong"
   },
   {
@@ -1715,7 +1715,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 고양시",
-    "url": "center/gyeonggi/goyangsi/pungdong/index.html",
+    "url": "center/gyeonggi/goyangsi/pungdong/",
     "search": "풍동 영어 수학 학원 경기 경기 / 고양시 gyeonggi goyangsi pungdong"
   },
   {
@@ -1724,7 +1724,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 하남시",
-    "url": "center/gyeonggi/hanamsi/pungsandong/index.html",
+    "url": "center/gyeonggi/hanamsi/pungsandong/",
     "search": "풍산동 영어 수학 학원 경기 경기 / 하남시 gyeonggi hanamsi pungsandong"
   },
   {
@@ -1733,7 +1733,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 성남시",
-    "url": "center/gyeonggi/seongnamsi/hadaewondong/index.html",
+    "url": "center/gyeonggi/seongnamsi/hadaewondong/",
     "search": "하대원동 영어 수학 학원 경기 경기 / 성남시 gyeonggi seongnamsi hadaewondong"
   },
   {
@@ -1742,7 +1742,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 광명시",
-    "url": "center/gyeonggi/gwangmyeongsi/haandong/index.html",
+    "url": "center/gyeonggi/gwangmyeongsi/haandong/",
     "search": "하안동 영어 수학 학원 경기 경기 / 광명시 gyeonggi gwangmyeongsi haandong"
   },
   {
@@ -1751,7 +1751,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 고양시",
-    "url": "center/gyeonggi/goyangsi/haengsindong/index.html",
+    "url": "center/gyeonggi/goyangsi/haengsindong/",
     "search": "행신동 영어 수학 학원 경기 경기 / 고양시 gyeonggi goyangsi haengsindong"
   },
   {
@@ -1760,7 +1760,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 화성시",
-    "url": "center/gyeonggi/hwaseongsi/hyangnameup/index.html",
+    "url": "center/gyeonggi/hwaseongsi/hyangnameup/",
     "search": "향남읍 영어 수학 학원 경기 경기 / 화성시 gyeonggi hwaseongsi hyangnameup"
   },
   {
@@ -1769,7 +1769,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 수원시",
-    "url": "center/gyeonggi/suwonsi/homaesil/index.html",
+    "url": "center/gyeonggi/suwonsi/homaesil/",
     "search": "호매실 영어 수학 학원 경기 경기 / 수원시 gyeonggi suwonsi homaesil"
   },
   {
@@ -1778,7 +1778,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 수원시",
-    "url": "center/gyeonggi/suwonsi/homaesildong/index.html",
+    "url": "center/gyeonggi/suwonsi/homaesildong/",
     "search": "호매실동 영어 수학 학원 경기 경기 / 수원시 gyeonggi suwonsi homaesildong"
   },
   {
@@ -1787,7 +1787,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 남양주시",
-    "url": "center/gyeonggi/namyangjusi/hopyeongdong/index.html",
+    "url": "center/gyeonggi/namyangjusi/hopyeongdong/",
     "search": "호평동 영어 수학 학원 경기 경기 / 남양주시 gyeonggi namyangjusi hopyeongdong"
   },
   {
@@ -1796,7 +1796,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 화성시",
-    "url": "center/gyeonggi/hwaseongsi/hwaseongtaean/index.html",
+    "url": "center/gyeonggi/hwaseongsi/hwaseongtaean/",
     "search": "화성태안 영어 수학 학원 경기 경기 / 화성시 gyeonggi hwaseongsi hwaseongtaean"
   },
   {
@@ -1805,7 +1805,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 고양시",
-    "url": "center/gyeonggi/goyangsi/hwajeongdong/index.html",
+    "url": "center/gyeonggi/goyangsi/hwajeongdong/",
     "search": "화정동 영어 수학 학원 경기 경기 / 고양시 gyeonggi goyangsi hwajeongdong"
   },
   {
@@ -1814,7 +1814,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 고양시",
-    "url": "center/gyeonggi/goyangsi/hugokmaeul/index.html",
+    "url": "center/gyeonggi/goyangsi/hugokmaeul/",
     "search": "후곡마을 영어 수학 학원 경기 경기 / 고양시 gyeonggi goyangsi hugokmaeul"
   },
   {
@@ -1823,7 +1823,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경기",
     "kind": "local",
     "parent": "경기 / 용인시",
-    "url": "center/gyeonggi/yonginsi/heungdeokmaeul/index.html",
+    "url": "center/gyeonggi/yonginsi/heungdeokmaeul/",
     "search": "흥덕마을 영어 수학 학원 경기 경기 / 용인시 gyeonggi yonginsi heungdeokmaeul"
   },
   {
@@ -1832,7 +1832,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경상",
     "kind": "region",
     "parent": "전국센터",
-    "url": "center/gyeongsang/index.html",
+    "url": "center/gyeongsang/",
     "search": "경상 경상 전국센터 gyeongsang"
   },
   {
@@ -1841,7 +1841,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경상",
     "kind": "district",
     "parent": "경상",
-    "url": "center/gyeongsang/geojesi/index.html",
+    "url": "center/gyeongsang/geojesi/",
     "search": "거제시 경상 경상 gyeongsang geojesi"
   },
   {
@@ -1850,7 +1850,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경상",
     "kind": "district",
     "parent": "경상",
-    "url": "center/gyeongsang/gyeongsansi/index.html",
+    "url": "center/gyeongsang/gyeongsansi/",
     "search": "경산시 경상 경상 gyeongsang gyeongsansi"
   },
   {
@@ -1859,7 +1859,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경상",
     "kind": "district",
     "parent": "경상",
-    "url": "center/gyeongsang/gumisi/index.html",
+    "url": "center/gyeongsang/gumisi/",
     "search": "구미시 경상 경상 gyeongsang gumisi"
   },
   {
@@ -1868,7 +1868,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경상",
     "kind": "district",
     "parent": "경상",
-    "url": "center/gyeongsang/changwonsi/index.html",
+    "url": "center/gyeongsang/changwonsi/",
     "search": "창원시 경상 경상 gyeongsang changwonsi"
   },
   {
@@ -1877,7 +1877,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경상",
     "kind": "district",
     "parent": "경상",
-    "url": "center/gyeongsang/pohangsi/index.html",
+    "url": "center/gyeongsang/pohangsi/",
     "search": "포항시 경상 경상 gyeongsang pohangsi"
   },
   {
@@ -1886,7 +1886,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경상",
     "kind": "local",
     "parent": "경상 / 경산시",
-    "url": "center/gyeongsang/gyeongsansi/gyeongsansadong/index.html",
+    "url": "center/gyeongsang/gyeongsansi/gyeongsansadong/",
     "search": "경산사동 영어 수학 학원 경상 경상 / 경산시 gyeongsang gyeongsansi gyeongsansadong"
   },
   {
@@ -1895,7 +1895,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경상",
     "kind": "local",
     "parent": "경상 / 창원시",
-    "url": "center/gyeongsang/changwonsi/gyeonghwadong/index.html",
+    "url": "center/gyeongsang/changwonsi/gyeonghwadong/",
     "search": "경화동 영어 수학 학원 경상 경상 / 창원시 gyeongsang changwonsi gyeonghwadong"
   },
   {
@@ -1904,7 +1904,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경상",
     "kind": "local",
     "parent": "경상 / 거제시",
-    "url": "center/gyeongsang/geojesi/gohyeondong/index.html",
+    "url": "center/gyeongsang/geojesi/gohyeondong/",
     "search": "고현동 영어 수학 학원 경상 경상 / 거제시 gyeongsang geojesi gohyeondong"
   },
   {
@@ -1913,7 +1913,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경상",
     "kind": "local",
     "parent": "경상 / 포항시",
-    "url": "center/gyeongsang/pohangsi/duhodong/index.html",
+    "url": "center/gyeongsang/pohangsi/duhodong/",
     "search": "두호동 영어 수학 학원 경상 경상 / 포항시 gyeongsang pohangsi duhodong"
   },
   {
@@ -1922,7 +1922,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경상",
     "kind": "local",
     "parent": "경상 / 창원시",
-    "url": "center/gyeongsang/changwonsi/sapadong/index.html",
+    "url": "center/gyeongsang/changwonsi/sapadong/",
     "search": "사파동 영어 수학 학원 경상 경상 / 창원시 gyeongsang changwonsi sapadong"
   },
   {
@@ -1931,7 +1931,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경상",
     "kind": "local",
     "parent": "경상 / 창원시",
-    "url": "center/gyeongsang/changwonsi/sangnamdong/index.html",
+    "url": "center/gyeongsang/changwonsi/sangnamdong/",
     "search": "상남동 영어 수학 학원 경상 경상 / 창원시 gyeongsang changwonsi sangnamdong"
   },
   {
@@ -1940,7 +1940,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경상",
     "kind": "local",
     "parent": "경상 / 창원시",
-    "url": "center/gyeongsang/changwonsi/seokdong/index.html",
+    "url": "center/gyeongsang/changwonsi/seokdong/",
     "search": "석동 영어 수학 학원 경상 경상 / 창원시 gyeongsang changwonsi seokdong"
   },
   {
@@ -1949,7 +1949,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경상",
     "kind": "local",
     "parent": "경상 / 거제시",
-    "url": "center/gyeongsang/geojesi/suwoldong/index.html",
+    "url": "center/gyeongsang/geojesi/suwoldong/",
     "search": "수월동 영어 수학 학원 경상 경상 / 거제시 gyeongsang geojesi suwoldong"
   },
   {
@@ -1958,7 +1958,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경상",
     "kind": "local",
     "parent": "경상 / 창원시",
-    "url": "center/gyeongsang/changwonsi/sinwoldong/index.html",
+    "url": "center/gyeongsang/changwonsi/sinwoldong/",
     "search": "신월동 영어 수학 학원 경상 경상 / 창원시 gyeongsang changwonsi sinwoldong"
   },
   {
@@ -1967,7 +1967,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경상",
     "kind": "local",
     "parent": "경상 / 포항시",
-    "url": "center/gyeongsang/pohangsi/yangdeokdong/index.html",
+    "url": "center/gyeongsang/pohangsi/yangdeokdong/",
     "search": "양덕동 영어 수학 학원 경상 경상 / 포항시 gyeongsang pohangsi yangdeokdong"
   },
   {
@@ -1976,7 +1976,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경상",
     "kind": "local",
     "parent": "경상 / 거제시",
-    "url": "center/gyeongsang/geojesi/yangjeongdong/index.html",
+    "url": "center/gyeongsang/geojesi/yangjeongdong/",
     "search": "양정동 영어 수학 학원 경상 경상 / 거제시 gyeongsang geojesi yangjeongdong"
   },
   {
@@ -1985,7 +1985,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경상",
     "kind": "local",
     "parent": "경상 / 구미시",
-    "url": "center/gyeongsang/gumisi/okgyedong/index.html",
+    "url": "center/gyeongsang/gumisi/okgyedong/",
     "search": "옥계동 영어 수학 학원 경상 경상 / 구미시 gyeongsang gumisi okgyedong"
   },
   {
@@ -1994,7 +1994,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경상",
     "kind": "local",
     "parent": "경상 / 경산시",
-    "url": "center/gyeongsang/gyeongsansi/oksandong/index.html",
+    "url": "center/gyeongsang/gyeongsansi/oksandong/",
     "search": "옥산동 영어 수학 학원 경상 경상 / 경산시 gyeongsang gyeongsansi oksandong"
   },
   {
@@ -2003,7 +2003,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경상",
     "kind": "local",
     "parent": "경상 / 창원시",
-    "url": "center/gyeongsang/changwonsi/jaeundong/index.html",
+    "url": "center/gyeongsang/changwonsi/jaeundong/",
     "search": "자은동 영어 수학 학원 경상 경상 / 창원시 gyeongsang changwonsi jaeundong"
   },
   {
@@ -2012,7 +2012,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경상",
     "kind": "local",
     "parent": "경상 / 포항시",
-    "url": "center/gyeongsang/pohangsi/jangryangdong/index.html",
+    "url": "center/gyeongsang/pohangsi/jangryangdong/",
     "search": "장량동 영어 수학 학원 경상 경상 / 포항시 gyeongsang pohangsi jangryangdong"
   },
   {
@@ -2021,7 +2021,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경상",
     "kind": "local",
     "parent": "경상 / 포항시",
-    "url": "center/gyeongsang/pohangsi/jangseongdong/index.html",
+    "url": "center/gyeongsang/pohangsi/jangseongdong/",
     "search": "장성동 영어 수학 학원 경상 경상 / 포항시 gyeongsang pohangsi jangseongdong"
   },
   {
@@ -2030,7 +2030,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "경상",
     "kind": "local",
     "parent": "경상 / 경산시",
-    "url": "center/gyeongsang/gyeongsansi/jeongpyeongdong/index.html",
+    "url": "center/gyeongsang/gyeongsansi/jeongpyeongdong/",
     "search": "정평동 영어 수학 학원 경상 경상 / 경산시 gyeongsang gyeongsansi jeongpyeongdong"
   },
   {
@@ -2039,7 +2039,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "광주",
     "kind": "region",
     "parent": "전국센터",
-    "url": "center/gwangju/index.html",
+    "url": "center/gwangju/",
     "search": "광주 광주 전국센터 gwangju"
   },
   {
@@ -2048,7 +2048,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "광주",
     "kind": "district",
     "parent": "광주",
-    "url": "center/gwangju/gwangsangu/index.html",
+    "url": "center/gwangju/gwangsangu/",
     "search": "광산구 광주 광주 gwangju gwangsangu"
   },
   {
@@ -2057,7 +2057,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "광주",
     "kind": "district",
     "parent": "광주",
-    "url": "center/gwangju/namgu/index.html",
+    "url": "center/gwangju/namgu/",
     "search": "남구 광주 광주 gwangju namgu"
   },
   {
@@ -2066,7 +2066,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "광주",
     "kind": "district",
     "parent": "광주",
-    "url": "center/gwangju/seogu/index.html",
+    "url": "center/gwangju/seogu/",
     "search": "서구 광주 광주 gwangju seogu"
   },
   {
@@ -2075,7 +2075,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "광주",
     "kind": "local",
     "parent": "광주 / 광산구",
-    "url": "center/gwangju/gwangsangu/sanwoldong/index.html",
+    "url": "center/gwangju/gwangsangu/sanwoldong/",
     "search": "산월동 영어 수학 학원 광주 광주 / 광산구 gwangju gwangsangu sanwoldong"
   },
   {
@@ -2084,7 +2084,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "광주",
     "kind": "local",
     "parent": "광주 / 서구",
-    "url": "center/gwangju/seogu/sangmujigu/index.html",
+    "url": "center/gwangju/seogu/sangmujigu/",
     "search": "상무지구 영어 수학 학원 광주 광주 / 서구 gwangju seogu sangmujigu"
   },
   {
@@ -2093,7 +2093,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "광주",
     "kind": "local",
     "parent": "광주 / 광산구",
-    "url": "center/gwangju/gwangsangu/seonamdong/index.html",
+    "url": "center/gwangju/gwangsangu/seonamdong/",
     "search": "선암동 영어 수학 학원 광주 광주 / 광산구 gwangju gwangsangu seonamdong"
   },
   {
@@ -2102,7 +2102,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "광주",
     "kind": "local",
     "parent": "광주 / 광산구",
-    "url": "center/gwangju/gwangsangu/suwandong/index.html",
+    "url": "center/gwangju/gwangsangu/suwandong/",
     "search": "수완동 영어 수학 학원 광주 광주 / 광산구 gwangju gwangsangu suwandong"
   },
   {
@@ -2111,7 +2111,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "광주",
     "kind": "local",
     "parent": "광주 / 광산구",
-    "url": "center/gwangju/gwangsangu/suwanjigu/index.html",
+    "url": "center/gwangju/gwangsangu/suwanjigu/",
     "search": "수완지구 영어 수학 학원 광주 광주 / 광산구 gwangju gwangsangu suwanjigu"
   },
   {
@@ -2120,7 +2120,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "광주",
     "kind": "local",
     "parent": "광주 / 광산구",
-    "url": "center/gwangju/gwangsangu/singadong/index.html",
+    "url": "center/gwangju/gwangsangu/singadong/",
     "search": "신가동 영어 수학 학원 광주 광주 / 광산구 gwangju gwangsangu singadong"
   },
   {
@@ -2129,7 +2129,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "광주",
     "kind": "local",
     "parent": "광주 / 광산구",
-    "url": "center/gwangju/gwangsangu/sinchangdong/index.html",
+    "url": "center/gwangju/gwangsangu/sinchangdong/",
     "search": "신창동 영어 수학 학원 광주 광주 / 광산구 gwangju gwangsangu sinchangdong"
   },
   {
@@ -2138,7 +2138,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "광주",
     "kind": "local",
     "parent": "광주 / 광산구",
-    "url": "center/gwangju/gwangsangu/sinchangjigu/index.html",
+    "url": "center/gwangju/gwangsangu/sinchangjigu/",
     "search": "신창지구 영어 수학 학원 광주 광주 / 광산구 gwangju gwangsangu sinchangjigu"
   },
   {
@@ -2147,7 +2147,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "광주",
     "kind": "local",
     "parent": "광주 / 광산구",
-    "url": "center/gwangju/gwangsangu/ssangamdong/index.html",
+    "url": "center/gwangju/gwangsangu/ssangamdong/",
     "search": "쌍암동 영어 수학 학원 광주 광주 / 광산구 gwangju gwangsangu ssangamdong"
   },
   {
@@ -2156,7 +2156,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "광주",
     "kind": "local",
     "parent": "광주 / 광산구",
-    "url": "center/gwangju/gwangsangu/wolgyedong/index.html",
+    "url": "center/gwangju/gwangsangu/wolgyedong/",
     "search": "월계동 영어 수학 학원 광주 광주 / 광산구 gwangju gwangsangu wolgyedong"
   },
   {
@@ -2165,7 +2165,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "광주",
     "kind": "local",
     "parent": "광주 / 남구",
-    "url": "center/gwangju/namgu/juwoldong/index.html",
+    "url": "center/gwangju/namgu/juwoldong/",
     "search": "주월동 영어 수학 학원 광주 광주 / 남구 gwangju namgu juwoldong"
   },
   {
@@ -2174,7 +2174,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "광주",
     "kind": "local",
     "parent": "광주 / 남구",
-    "url": "center/gwangju/namgu/jinwoldong/index.html",
+    "url": "center/gwangju/namgu/jinwoldong/",
     "search": "진월동 영어 수학 학원 광주 광주 / 남구 gwangju namgu jinwoldong"
   },
   {
@@ -2183,7 +2183,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "광주",
     "kind": "local",
     "parent": "광주 / 광산구",
-    "url": "center/gwangju/gwangsangu/cheomdan/index.html",
+    "url": "center/gwangju/gwangsangu/cheomdan/",
     "search": "첨단 영어 수학 학원 광주 광주 / 광산구 gwangju gwangsangu cheomdan"
   },
   {
@@ -2192,7 +2192,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "광주",
     "kind": "local",
     "parent": "광주 / 광산구",
-    "url": "center/gwangju/gwangsangu/cheomdanjigu/index.html",
+    "url": "center/gwangju/gwangsangu/cheomdanjigu/",
     "search": "첨단지구 영어 수학 학원 광주 광주 / 광산구 gwangju gwangsangu cheomdanjigu"
   },
   {
@@ -2201,7 +2201,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "광주",
     "kind": "local",
     "parent": "광주 / 서구",
-    "url": "center/gwangju/seogu/chipyeongdong/index.html",
+    "url": "center/gwangju/seogu/chipyeongdong/",
     "search": "치평동 영어 수학 학원 광주 광주 / 서구 gwangju seogu chipyeongdong"
   },
   {
@@ -2210,7 +2210,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대구",
     "kind": "region",
     "parent": "전국센터",
-    "url": "center/daegu/index.html",
+    "url": "center/daegu/",
     "search": "대구 대구 전국센터 daegu"
   },
   {
@@ -2219,7 +2219,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대구",
     "kind": "district",
     "parent": "대구",
-    "url": "center/daegu/dalseogu/index.html",
+    "url": "center/daegu/dalseogu/",
     "search": "달서구 대구 대구 daegu dalseogu"
   },
   {
@@ -2228,7 +2228,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대구",
     "kind": "district",
     "parent": "대구",
-    "url": "center/daegu/donggu/index.html",
+    "url": "center/daegu/donggu/",
     "search": "동구 대구 대구 daegu donggu"
   },
   {
@@ -2237,7 +2237,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대구",
     "kind": "district",
     "parent": "대구",
-    "url": "center/daegu/bukgu/index.html",
+    "url": "center/daegu/bukgu/",
     "search": "북구 대구 대구 daegu bukgu"
   },
   {
@@ -2246,7 +2246,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대구",
     "kind": "district",
     "parent": "대구",
-    "url": "center/daegu/suseonggu/index.html",
+    "url": "center/daegu/suseonggu/",
     "search": "수성구 대구 대구 daegu suseonggu"
   },
   {
@@ -2255,7 +2255,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대구",
     "kind": "district",
     "parent": "대구",
-    "url": "center/daegu/junggu/index.html",
+    "url": "center/daegu/junggu/",
     "search": "중구 대구 대구 daegu junggu"
   },
   {
@@ -2264,7 +2264,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대구",
     "kind": "local",
     "parent": "대구 / 달서구",
-    "url": "center/daegu/dalseogu/gamsamdong/index.html",
+    "url": "center/daegu/dalseogu/gamsamdong/",
     "search": "감삼동 영어 수학 학원 대구 대구 / 달서구 daegu dalseogu gamsamdong"
   },
   {
@@ -2273,7 +2273,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대구",
     "kind": "local",
     "parent": "대구 / 북구",
-    "url": "center/daegu/bukgu/goseongdong/index.html",
+    "url": "center/daegu/bukgu/goseongdong/",
     "search": "고성동 영어 수학 학원 대구 대구 / 북구 daegu bukgu goseongdong"
   },
   {
@@ -2282,7 +2282,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대구",
     "kind": "local",
     "parent": "대구 / 북구",
-    "url": "center/daegu/bukgu/guamdong/index.html",
+    "url": "center/daegu/bukgu/guamdong/",
     "search": "구암동 영어 수학 학원 대구 대구 / 북구 daegu bukgu guamdong"
   },
   {
@@ -2291,7 +2291,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대구",
     "kind": "local",
     "parent": "대구 / 북구",
-    "url": "center/daegu/bukgu/gukudong/index.html",
+    "url": "center/daegu/bukgu/gukudong/",
     "search": "국우동 영어 수학 학원 대구 대구 / 북구 daegu bukgu gukudong"
   },
   {
@@ -2300,7 +2300,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대구",
     "kind": "local",
     "parent": "대구 / 수성구",
-    "url": "center/daegu/suseonggu/nobyeondong/index.html",
+    "url": "center/daegu/suseonggu/nobyeondong/",
     "search": "노변동 영어 수학 학원 대구 대구 / 수성구 daegu suseonggu nobyeondong"
   },
   {
@@ -2309,7 +2309,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대구",
     "kind": "local",
     "parent": "대구 / 달서구",
-    "url": "center/daegu/dalseogu/daegu-yucheondong/index.html",
+    "url": "center/daegu/dalseogu/daegu-yucheondong/",
     "search": "대구 유천동 영어 수학 학원 대구 대구 / 달서구 daegu dalseogu daegu-yucheondong"
   },
   {
@@ -2318,7 +2318,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대구",
     "kind": "local",
     "parent": "대구 / 달서구",
-    "url": "center/daegu/dalseogu/daegu-janggidong/index.html",
+    "url": "center/daegu/dalseogu/daegu-janggidong/",
     "search": "대구 장기동 영어 수학 학원 대구 대구 / 달서구 daegu dalseogu daegu-janggidong"
   },
   {
@@ -2327,7 +2327,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대구",
     "kind": "local",
     "parent": "대구 / 중구",
-    "url": "center/daegu/junggu/daebongdong/index.html",
+    "url": "center/daegu/junggu/daebongdong/",
     "search": "대봉동 영어 수학 학원 대구 대구 / 중구 daegu junggu daebongdong"
   },
   {
@@ -2336,7 +2336,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대구",
     "kind": "local",
     "parent": "대구 / 북구",
-    "url": "center/daegu/bukgu/donam/index.html",
+    "url": "center/daegu/bukgu/donam/",
     "search": "도남동 영어 수학 학원 대구 대구 / 북구 daegu bukgu donam"
   },
   {
@@ -2345,7 +2345,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대구",
     "kind": "local",
     "parent": "대구 / 북구",
-    "url": "center/daegu/bukgu/donamjigu/index.html",
+    "url": "center/daegu/bukgu/donamjigu/",
     "search": "도남지구 영어 수학 학원 대구 대구 / 북구 daegu bukgu donamjigu"
   },
   {
@@ -2354,7 +2354,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대구",
     "kind": "local",
     "parent": "대구 / 북구",
-    "url": "center/daegu/bukgu/dongcheondong/index.html",
+    "url": "center/daegu/bukgu/dongcheondong/",
     "search": "동천동 영어 수학 학원 대구 대구 / 북구 daegu bukgu dongcheondong"
   },
   {
@@ -2363,7 +2363,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대구",
     "kind": "local",
     "parent": "대구 / 수성구",
-    "url": "center/daegu/suseonggu/manchondong/index.html",
+    "url": "center/daegu/suseonggu/manchondong/",
     "search": "만촌동 영어 수학 학원 대구 대구 / 수성구 daegu suseonggu manchondong"
   },
   {
@@ -2372,7 +2372,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대구",
     "kind": "local",
     "parent": "대구 / 수성구",
-    "url": "center/daegu/suseonggu/beomeodong/index.html",
+    "url": "center/daegu/suseonggu/beomeodong/",
     "search": "범어동 영어 수학 학원 대구 대구 / 수성구 daegu suseonggu beomeodong"
   },
   {
@@ -2381,7 +2381,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대구",
     "kind": "local",
     "parent": "대구 / 북구",
-    "url": "center/daegu/bukgu/bokhyeondong/index.html",
+    "url": "center/daegu/bukgu/bokhyeondong/",
     "search": "복현동 영어 수학 학원 대구 대구 / 북구 daegu bukgu bokhyeondong"
   },
   {
@@ -2390,7 +2390,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대구",
     "kind": "local",
     "parent": "대구 / 달서구",
-    "url": "center/daegu/dalseogu/bonridong/index.html",
+    "url": "center/daegu/dalseogu/bonridong/",
     "search": "본리동 영어 수학 학원 대구 대구 / 달서구 daegu dalseogu bonridong"
   },
   {
@@ -2399,7 +2399,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대구",
     "kind": "local",
     "parent": "대구 / 동구",
-    "url": "center/daegu/donggu/bongmudong/index.html",
+    "url": "center/daegu/donggu/bongmudong/",
     "search": "봉무동 영어 수학 학원 대구 대구 / 동구 daegu donggu bongmudong"
   },
   {
@@ -2408,7 +2408,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대구",
     "kind": "local",
     "parent": "대구 / 중구",
-    "url": "center/daegu/junggu/bongsandong/index.html",
+    "url": "center/daegu/junggu/bongsandong/",
     "search": "봉산동 영어 수학 학원 대구 대구 / 중구 daegu junggu bongsandong"
   },
   {
@@ -2417,7 +2417,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대구",
     "kind": "local",
     "parent": "대구 / 북구",
-    "url": "center/daegu/bukgu/sangyeokdong/index.html",
+    "url": "center/daegu/bukgu/sangyeokdong/",
     "search": "산격동 영어 수학 학원 대구 대구 / 북구 daegu bukgu sangyeokdong"
   },
   {
@@ -2426,7 +2426,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대구",
     "kind": "local",
     "parent": "대구 / 달서구",
-    "url": "center/daegu/dalseogu/sangindong/index.html",
+    "url": "center/daegu/dalseogu/sangindong/",
     "search": "상인동 영어 수학 학원 대구 대구 / 달서구 daegu dalseogu sangindong"
   },
   {
@@ -2435,7 +2435,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대구",
     "kind": "local",
     "parent": "대구 / 달서구",
-    "url": "center/daegu/dalseogu/seongseo/index.html",
+    "url": "center/daegu/dalseogu/seongseo/",
     "search": "성서 영어 수학 학원 대구 대구 / 달서구 daegu dalseogu seongseo"
   },
   {
@@ -2444,7 +2444,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대구",
     "kind": "local",
     "parent": "대구 / 수성구",
-    "url": "center/daegu/suseonggu/suseongdong/index.html",
+    "url": "center/daegu/suseonggu/suseongdong/",
     "search": "수성동 영어 수학 학원 대구 대구 / 수성구 daegu suseonggu suseongdong"
   },
   {
@@ -2453,7 +2453,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대구",
     "kind": "local",
     "parent": "대구 / 중구",
-    "url": "center/daegu/junggu/suchangdong/index.html",
+    "url": "center/daegu/junggu/suchangdong/",
     "search": "수창동 영어 수학 학원 대구 대구 / 중구 daegu junggu suchangdong"
   },
   {
@@ -2462,7 +2462,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대구",
     "kind": "local",
     "parent": "대구 / 수성구",
-    "url": "center/daegu/suseonggu/sijidong/index.html",
+    "url": "center/daegu/suseonggu/sijidong/",
     "search": "시지동 영어 수학 학원 대구 대구 / 수성구 daegu suseonggu sijidong"
   },
   {
@@ -2471,7 +2471,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대구",
     "kind": "local",
     "parent": "대구 / 동구",
-    "url": "center/daegu/donggu/singidong/index.html",
+    "url": "center/daegu/donggu/singidong/",
     "search": "신기동 영어 수학 학원 대구 대구 / 동구 daegu donggu singidong"
   },
   {
@@ -2480,7 +2480,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대구",
     "kind": "local",
     "parent": "대구 / 달서구",
-    "url": "center/daegu/dalseogu/sindangdong/index.html",
+    "url": "center/daegu/dalseogu/sindangdong/",
     "search": "신당동 영어 수학 학원 대구 대구 / 달서구 daegu dalseogu sindangdong"
   },
   {
@@ -2489,7 +2489,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대구",
     "kind": "local",
     "parent": "대구 / 달서구",
-    "url": "center/daegu/dalseogu/sinwolseong/index.html",
+    "url": "center/daegu/dalseogu/sinwolseong/",
     "search": "신월성 영어 수학 학원 대구 대구 / 달서구 daegu dalseogu sinwolseong"
   },
   {
@@ -2498,7 +2498,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대구",
     "kind": "local",
     "parent": "대구 / 수성구",
-    "url": "center/daegu/suseonggu/sincheondong/index.html",
+    "url": "center/daegu/suseonggu/sincheondong/",
     "search": "신천동 영어 수학 학원 대구 대구 / 수성구 daegu suseonggu sincheondong"
   },
   {
@@ -2507,7 +2507,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대구",
     "kind": "local",
     "parent": "대구 / 달서구",
-    "url": "center/daegu/dalseogu/yongsandong/index.html",
+    "url": "center/daegu/dalseogu/yongsandong/",
     "search": "용산동 영어 수학 학원 대구 대구 / 달서구 daegu dalseogu yongsandong"
   },
   {
@@ -2516,7 +2516,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대구",
     "kind": "local",
     "parent": "대구 / 달서구",
-    "url": "center/daegu/dalseogu/wolseongdong/index.html",
+    "url": "center/daegu/dalseogu/wolseongdong/",
     "search": "월성동 영어 수학 학원 대구 대구 / 달서구 daegu dalseogu wolseongdong"
   },
   {
@@ -2525,7 +2525,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대구",
     "kind": "local",
     "parent": "대구 / 동구",
-    "url": "center/daegu/donggu/yulhadong/index.html",
+    "url": "center/daegu/donggu/yulhadong/",
     "search": "율하동 영어 수학 학원 대구 대구 / 동구 daegu donggu yulhadong"
   },
   {
@@ -2534,7 +2534,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대구",
     "kind": "local",
     "parent": "대구 / 달서구",
-    "url": "center/daegu/dalseogu/igokdong/index.html",
+    "url": "center/daegu/dalseogu/igokdong/",
     "search": "이곡동 영어 수학 학원 대구 대구 / 달서구 daegu dalseogu igokdong"
   },
   {
@@ -2543,7 +2543,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대구",
     "kind": "local",
     "parent": "대구 / 동구",
-    "url": "center/daegu/donggu/isiapolriseu/index.html",
+    "url": "center/daegu/donggu/isiapolriseu/",
     "search": "이시아폴리스 영어 수학 학원 대구 대구 / 동구 daegu donggu isiapolriseu"
   },
   {
@@ -2552,7 +2552,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대구",
     "kind": "local",
     "parent": "대구 / 달서구",
-    "url": "center/daegu/dalseogu/jukjeondong/index.html",
+    "url": "center/daegu/dalseogu/jukjeondong/",
     "search": "죽전동 영어 수학 학원 대구 대구 / 달서구 daegu dalseogu jukjeondong"
   },
   {
@@ -2561,7 +2561,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대구",
     "kind": "local",
     "parent": "대구 / 달서구",
-    "url": "center/daegu/dalseogu/jincheondong/index.html",
+    "url": "center/daegu/dalseogu/jincheondong/",
     "search": "진천동 영어 수학 학원 대구 대구 / 달서구 daegu dalseogu jincheondong"
   },
   {
@@ -2570,7 +2570,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대구",
     "kind": "local",
     "parent": "대구 / 북구",
-    "url": "center/daegu/bukgu/chilgok/index.html",
+    "url": "center/daegu/bukgu/chilgok/",
     "search": "칠곡 영어 수학 학원 대구 대구 / 북구 daegu bukgu chilgok"
   },
   {
@@ -2579,7 +2579,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대구",
     "kind": "local",
     "parent": "대구 / 북구",
-    "url": "center/daegu/bukgu/chilseongdong/index.html",
+    "url": "center/daegu/bukgu/chilseongdong/",
     "search": "칠성동 영어 수학 학원 대구 대구 / 북구 daegu bukgu chilseongdong"
   },
   {
@@ -2588,7 +2588,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대구",
     "kind": "local",
     "parent": "대구 / 북구",
-    "url": "center/daegu/bukgu/chimsandong/index.html",
+    "url": "center/daegu/bukgu/chimsandong/",
     "search": "침산동 영어 수학 학원 대구 대구 / 북구 daegu bukgu chimsandong"
   },
   {
@@ -2597,7 +2597,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대전",
     "kind": "region",
     "parent": "전국센터",
-    "url": "center/daejeon/index.html",
+    "url": "center/daejeon/",
     "search": "대전 대전 전국센터 daejeon"
   },
   {
@@ -2606,7 +2606,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대전",
     "kind": "district",
     "parent": "대전",
-    "url": "center/daejeon/daedeokgu/index.html",
+    "url": "center/daejeon/daedeokgu/",
     "search": "대덕구 대전 대전 daejeon daedeokgu"
   },
   {
@@ -2615,7 +2615,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대전",
     "kind": "district",
     "parent": "대전",
-    "url": "center/daejeon/seogu/index.html",
+    "url": "center/daejeon/seogu/",
     "search": "서구 대전 대전 daejeon seogu"
   },
   {
@@ -2624,7 +2624,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대전",
     "kind": "district",
     "parent": "대전",
-    "url": "center/daejeon/yuseonggu/index.html",
+    "url": "center/daejeon/yuseonggu/",
     "search": "유성구 대전 대전 daejeon yuseonggu"
   },
   {
@@ -2633,7 +2633,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대전",
     "kind": "district",
     "parent": "대전",
-    "url": "center/daejeon/junggu/index.html",
+    "url": "center/daejeon/junggu/",
     "search": "중구 대전 대전 daejeon junggu"
   },
   {
@@ -2642,7 +2642,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대전",
     "kind": "local",
     "parent": "대전 / 서구",
-    "url": "center/daejeon/seogu/gwanjeodong/index.html",
+    "url": "center/daejeon/seogu/gwanjeodong/",
     "search": "관저동 영어 수학 학원 대전 대전 / 서구 daejeon seogu gwanjeodong"
   },
   {
@@ -2651,7 +2651,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대전",
     "kind": "local",
     "parent": "대전 / 유성구",
-    "url": "center/daejeon/yuseonggu/gwanpyeongdong/index.html",
+    "url": "center/daejeon/yuseonggu/gwanpyeongdong/",
     "search": "관평동 영어 수학 학원 대전 대전 / 유성구 daejeon yuseonggu gwanpyeongdong"
   },
   {
@@ -2660,7 +2660,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대전",
     "kind": "local",
     "parent": "대전 / 유성구",
-    "url": "center/daejeon/yuseonggu/noeundong/index.html",
+    "url": "center/daejeon/yuseonggu/noeundong/",
     "search": "노은동 영어 수학 학원 대전 대전 / 유성구 daejeon yuseonggu noeundong"
   },
   {
@@ -2669,7 +2669,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대전",
     "kind": "local",
     "parent": "대전 / 중구",
-    "url": "center/daejeon/junggu/domadong/index.html",
+    "url": "center/daejeon/junggu/domadong/",
     "search": "도마동 영어 수학 학원 대전 대전 / 중구 daejeon junggu domadong"
   },
   {
@@ -2678,7 +2678,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대전",
     "kind": "local",
     "parent": "대전 / 서구",
-    "url": "center/daejeon/seogu/doandong/index.html",
+    "url": "center/daejeon/seogu/doandong/",
     "search": "도안동 영어 수학 학원 대전 대전 / 서구 daejeon seogu doandong"
   },
   {
@@ -2687,7 +2687,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대전",
     "kind": "local",
     "parent": "대전 / 서구",
-    "url": "center/daejeon/seogu/doansindosi/index.html",
+    "url": "center/daejeon/seogu/doansindosi/",
     "search": "도안신도시 영어 수학 학원 대전 대전 / 서구 daejeon seogu doansindosi"
   },
   {
@@ -2696,7 +2696,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대전",
     "kind": "local",
     "parent": "대전 / 서구",
-    "url": "center/daejeon/seogu/dunsandong/index.html",
+    "url": "center/daejeon/seogu/dunsandong/",
     "search": "둔산동 영어 수학 학원 대전 대전 / 서구 daejeon seogu dunsandong"
   },
   {
@@ -2705,7 +2705,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대전",
     "kind": "local",
     "parent": "대전 / 유성구",
-    "url": "center/daejeon/yuseonggu/banseokdong/index.html",
+    "url": "center/daejeon/yuseonggu/banseokdong/",
     "search": "반석동 영어 수학 학원 대전 대전 / 유성구 daejeon yuseonggu banseokdong"
   },
   {
@@ -2714,7 +2714,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대전",
     "kind": "local",
     "parent": "대전 / 대덕구",
-    "url": "center/daejeon/daedeokgu/beopdong/index.html",
+    "url": "center/daejeon/daedeokgu/beopdong/",
     "search": "법동 영어 수학 학원 대전 대전 / 대덕구 daejeon daedeokgu beopdong"
   },
   {
@@ -2723,7 +2723,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대전",
     "kind": "local",
     "parent": "대전 / 대덕구",
-    "url": "center/daejeon/daedeokgu/biraedong/index.html",
+    "url": "center/daejeon/daedeokgu/biraedong/",
     "search": "비래동 영어 수학 학원 대전 대전 / 대덕구 daejeon daedeokgu biraedong"
   },
   {
@@ -2732,7 +2732,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대전",
     "kind": "local",
     "parent": "대전 / 유성구",
-    "url": "center/daejeon/yuseonggu/songgangdong/index.html",
+    "url": "center/daejeon/yuseonggu/songgangdong/",
     "search": "송강동 영어 수학 학원 대전 대전 / 유성구 daejeon yuseonggu songgangdong"
   },
   {
@@ -2741,7 +2741,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대전",
     "kind": "local",
     "parent": "대전 / 대덕구",
-    "url": "center/daejeon/daedeokgu/songchondong/index.html",
+    "url": "center/daejeon/daedeokgu/songchondong/",
     "search": "송촌동 영어 수학 학원 대전 대전 / 대덕구 daejeon daedeokgu songchondong"
   },
   {
@@ -2750,7 +2750,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대전",
     "kind": "local",
     "parent": "대전 / 서구",
-    "url": "center/daejeon/seogu/wonnaedong/index.html",
+    "url": "center/daejeon/seogu/wonnaedong/",
     "search": "원내동 영어 수학 학원 대전 대전 / 서구 daejeon seogu wonnaedong"
   },
   {
@@ -2759,7 +2759,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대전",
     "kind": "local",
     "parent": "대전 / 서구",
-    "url": "center/daejeon/seogu/wonsinheungdong/index.html",
+    "url": "center/daejeon/seogu/wonsinheungdong/",
     "search": "원신흥동 영어 수학 학원 대전 대전 / 서구 daejeon seogu wonsinheungdong"
   },
   {
@@ -2768,7 +2768,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대전",
     "kind": "local",
     "parent": "대전 / 중구",
-    "url": "center/daejeon/junggu/yucheondong/index.html",
+    "url": "center/daejeon/junggu/yucheondong/",
     "search": "유천동 영어 수학 학원 대전 대전 / 중구 daejeon junggu yucheondong"
   },
   {
@@ -2777,7 +2777,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대전",
     "kind": "local",
     "parent": "대전 / 유성구",
-    "url": "center/daejeon/yuseonggu/jijokdong/index.html",
+    "url": "center/daejeon/yuseonggu/jijokdong/",
     "search": "지족동 영어 수학 학원 대전 대전 / 유성구 daejeon yuseonggu jijokdong"
   },
   {
@@ -2786,7 +2786,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대전",
     "kind": "local",
     "parent": "대전 / 서구",
-    "url": "center/daejeon/seogu/tanbangdong/index.html",
+    "url": "center/daejeon/seogu/tanbangdong/",
     "search": "탄방동 영어 수학 학원 대전 대전 / 서구 daejeon seogu tanbangdong"
   },
   {
@@ -2795,7 +2795,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "대전",
     "kind": "local",
     "parent": "대전 / 중구",
-    "url": "center/daejeon/junggu/taepyeongdong/index.html",
+    "url": "center/daejeon/junggu/taepyeongdong/",
     "search": "태평동 영어 수학 학원 대전 대전 / 중구 daejeon junggu taepyeongdong"
   },
   {
@@ -2804,7 +2804,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "부산",
     "kind": "region",
     "parent": "전국센터",
-    "url": "center/busan/index.html",
+    "url": "center/busan/",
     "search": "부산 부산 전국센터 busan"
   },
   {
@@ -2813,7 +2813,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "부산",
     "kind": "district",
     "parent": "부산",
-    "url": "center/busan/dongnaegu/index.html",
+    "url": "center/busan/dongnaegu/",
     "search": "동래구 부산 부산 busan dongnaegu"
   },
   {
@@ -2822,7 +2822,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "부산",
     "kind": "district",
     "parent": "부산",
-    "url": "center/busan/bukgu/index.html",
+    "url": "center/busan/bukgu/",
     "search": "북구 부산 부산 busan bukgu"
   },
   {
@@ -2831,7 +2831,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "부산",
     "kind": "district",
     "parent": "부산",
-    "url": "center/busan/haeundaegu/index.html",
+    "url": "center/busan/haeundaegu/",
     "search": "해운대구 부산 부산 busan haeundaegu"
   },
   {
@@ -2840,7 +2840,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "부산",
     "kind": "local",
     "parent": "부산 / 동래구",
-    "url": "center/busan/dongnaegu/geojedong/index.html",
+    "url": "center/busan/dongnaegu/geojedong/",
     "search": "거제동 영어 수학 학원 부산 부산 / 동래구 busan dongnaegu geojedong"
   },
   {
@@ -2849,7 +2849,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "부산",
     "kind": "local",
     "parent": "부산 / 해운대구",
-    "url": "center/busan/haeundaegu/banyeodong/index.html",
+    "url": "center/busan/haeundaegu/banyeodong/",
     "search": "반여동 영어 수학 학원 부산 부산 / 해운대구 busan haeundaegu banyeodong"
   },
   {
@@ -2858,7 +2858,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "부산",
     "kind": "local",
     "parent": "부산 / 동래구",
-    "url": "center/busan/dongnaegu/sajikdong/index.html",
+    "url": "center/busan/dongnaegu/sajikdong/",
     "search": "사직동 영어 수학 학원 부산 부산 / 동래구 busan dongnaegu sajikdong"
   },
   {
@@ -2867,7 +2867,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "부산",
     "kind": "local",
     "parent": "부산 / 동래구",
-    "url": "center/busan/dongnaegu/oncheondong/index.html",
+    "url": "center/busan/dongnaegu/oncheondong/",
     "search": "온천동 영어 수학 학원 부산 부산 / 동래구 busan dongnaegu oncheondong"
   },
   {
@@ -2876,7 +2876,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "부산",
     "kind": "local",
     "parent": "부산 / 해운대구",
-    "url": "center/busan/haeundaegu/jaesongdong/index.html",
+    "url": "center/busan/haeundaegu/jaesongdong/",
     "search": "재송동 영어 수학 학원 부산 부산 / 해운대구 busan haeundaegu jaesongdong"
   },
   {
@@ -2885,7 +2885,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "부산",
     "kind": "local",
     "parent": "부산 / 해운대구",
-    "url": "center/busan/haeundaegu/jwadong/index.html",
+    "url": "center/busan/haeundaegu/jwadong/",
     "search": "좌동 영어 수학 학원 부산 부산 / 해운대구 busan haeundaegu jwadong"
   },
   {
@@ -2894,7 +2894,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "부산",
     "kind": "local",
     "parent": "부산 / 해운대구",
-    "url": "center/busan/haeundaegu/haeundae-jungdong/index.html",
+    "url": "center/busan/haeundaegu/haeundae-jungdong/",
     "search": "해운대 중동 영어 수학 학원 부산 부산 / 해운대구 busan haeundaegu haeundae-jungdong"
   },
   {
@@ -2903,7 +2903,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "부산",
     "kind": "local",
     "parent": "부산 / 북구",
-    "url": "center/busan/bukgu/hwamyeongdong/index.html",
+    "url": "center/busan/bukgu/hwamyeongdong/",
     "search": "화명동 영어 수학 학원 부산 부산 / 북구 busan bukgu hwamyeongdong"
   },
   {
@@ -2912,7 +2912,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "부산",
     "kind": "local",
     "parent": "부산 / 북구",
-    "url": "center/busan/bukgu/hwamyeongsindosi/index.html",
+    "url": "center/busan/bukgu/hwamyeongsindosi/",
     "search": "화명신도시 영어 수학 학원 부산 부산 / 북구 busan bukgu hwamyeongsindosi"
   },
   {
@@ -2921,7 +2921,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "region",
     "parent": "전국센터",
-    "url": "center/seoul/index.html",
+    "url": "center/seoul/",
     "search": "서울 서울 전국센터 seoul"
   },
   {
@@ -2930,7 +2930,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "district",
     "parent": "서울",
-    "url": "center/seoul/gangdonggu/index.html",
+    "url": "center/seoul/gangdonggu/",
     "search": "강동구 서울 서울 seoul gangdonggu"
   },
   {
@@ -2939,7 +2939,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "district",
     "parent": "서울",
-    "url": "center/seoul/gangbukgu/index.html",
+    "url": "center/seoul/gangbukgu/",
     "search": "강북구 서울 서울 seoul gangbukgu"
   },
   {
@@ -2948,7 +2948,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "district",
     "parent": "서울",
-    "url": "center/seoul/gangseogu/index.html",
+    "url": "center/seoul/gangseogu/",
     "search": "강서구 서울 서울 seoul gangseogu"
   },
   {
@@ -2957,7 +2957,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "district",
     "parent": "서울",
-    "url": "center/seoul/gwangjingu/index.html",
+    "url": "center/seoul/gwangjingu/",
     "search": "광진구 서울 서울 seoul gwangjingu"
   },
   {
@@ -2966,7 +2966,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "district",
     "parent": "서울",
-    "url": "center/seoul/gurogu/index.html",
+    "url": "center/seoul/gurogu/",
     "search": "구로구 서울 서울 seoul gurogu"
   },
   {
@@ -2975,7 +2975,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "district",
     "parent": "서울",
-    "url": "center/seoul/geumcheongu/index.html",
+    "url": "center/seoul/geumcheongu/",
     "search": "금천구 서울 서울 seoul geumcheongu"
   },
   {
@@ -2984,7 +2984,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "district",
     "parent": "서울",
-    "url": "center/seoul/nowongu/index.html",
+    "url": "center/seoul/nowongu/",
     "search": "노원구 서울 서울 seoul nowongu"
   },
   {
@@ -2993,7 +2993,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "district",
     "parent": "서울",
-    "url": "center/seoul/dongdaemungu/index.html",
+    "url": "center/seoul/dongdaemungu/",
     "search": "동대문구 서울 서울 seoul dongdaemungu"
   },
   {
@@ -3002,7 +3002,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "district",
     "parent": "서울",
-    "url": "center/seoul/mapogu/index.html",
+    "url": "center/seoul/mapogu/",
     "search": "마포구 서울 서울 seoul mapogu"
   },
   {
@@ -3011,7 +3011,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "district",
     "parent": "서울",
-    "url": "center/seoul/seodaemungu/index.html",
+    "url": "center/seoul/seodaemungu/",
     "search": "서대문구 서울 서울 seoul seodaemungu"
   },
   {
@@ -3020,7 +3020,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "district",
     "parent": "서울",
-    "url": "center/seoul/seongbukgu/index.html",
+    "url": "center/seoul/seongbukgu/",
     "search": "성북구 서울 서울 seoul seongbukgu"
   },
   {
@@ -3029,7 +3029,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "district",
     "parent": "서울",
-    "url": "center/seoul/songpagu/index.html",
+    "url": "center/seoul/songpagu/",
     "search": "송파구 서울 서울 seoul songpagu"
   },
   {
@@ -3038,7 +3038,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "district",
     "parent": "서울",
-    "url": "center/seoul/yangcheongu/index.html",
+    "url": "center/seoul/yangcheongu/",
     "search": "양천구 서울 서울 seoul yangcheongu"
   },
   {
@@ -3047,7 +3047,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "district",
     "parent": "서울",
-    "url": "center/seoul/yeongdeungpogu/index.html",
+    "url": "center/seoul/yeongdeungpogu/",
     "search": "영등포구 서울 서울 seoul yeongdeungpogu"
   },
   {
@@ -3056,7 +3056,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "district",
     "parent": "서울",
-    "url": "center/seoul/eunpyeonggu/index.html",
+    "url": "center/seoul/eunpyeonggu/",
     "search": "은평구 서울 서울 seoul eunpyeonggu"
   },
   {
@@ -3065,7 +3065,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "local",
     "parent": "서울 / 은평구",
-    "url": "center/seoul/eunpyeonggu/galhyeondong/index.html",
+    "url": "center/seoul/eunpyeonggu/galhyeondong/",
     "search": "갈현동 영어 수학 학원 서울 서울 / 은평구 seoul eunpyeonggu galhyeondong"
   },
   {
@@ -3074,7 +3074,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "local",
     "parent": "서울 / 마포구",
-    "url": "center/seoul/mapogu/gongdeokdong/index.html",
+    "url": "center/seoul/mapogu/gongdeokdong/",
     "search": "공덕동 영어 수학 학원 서울 서울 / 마포구 seoul mapogu gongdeokdong"
   },
   {
@@ -3083,7 +3083,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "local",
     "parent": "서울 / 광진구",
-    "url": "center/seoul/gwangjingu/gwangjangdong/index.html",
+    "url": "center/seoul/gwangjingu/gwangjangdong/",
     "search": "광장동 영어 수학 학원 서울 서울 / 광진구 seoul gwangjingu gwangjangdong"
   },
   {
@@ -3092,7 +3092,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "local",
     "parent": "서울 / 은평구",
-    "url": "center/seoul/eunpyeonggu/gusandong/index.html",
+    "url": "center/seoul/eunpyeonggu/gusandong/",
     "search": "구산동 영어 수학 학원 서울 서울 / 은평구 seoul eunpyeonggu gusandong"
   },
   {
@@ -3101,7 +3101,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "local",
     "parent": "서울 / 광진구",
-    "url": "center/seoul/gwangjingu/guuidong/index.html",
+    "url": "center/seoul/gwangjingu/guuidong/",
     "search": "구의동 영어 수학 학원 서울 서울 / 광진구 seoul gwangjingu guuidong"
   },
   {
@@ -3110,7 +3110,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "local",
     "parent": "서울 / 은평구",
-    "url": "center/seoul/eunpyeonggu/gupabal/index.html",
+    "url": "center/seoul/eunpyeonggu/gupabal/",
     "search": "구파발 영어 수학 학원 서울 서울 / 은평구 seoul eunpyeonggu gupabal"
   },
   {
@@ -3119,7 +3119,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "local",
     "parent": "서울 / 성북구",
-    "url": "center/seoul/seongbukgu/gileumdong/index.html",
+    "url": "center/seoul/seongbukgu/gileumdong/",
     "search": "길음동 영어 수학 학원 서울 서울 / 성북구 seoul seongbukgu gileumdong"
   },
   {
@@ -3128,7 +3128,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "local",
     "parent": "서울 / 서대문구",
-    "url": "center/seoul/seodaemungu/namgajwadong/index.html",
+    "url": "center/seoul/seodaemungu/namgajwadong/",
     "search": "남가좌동 영어 수학 학원 서울 서울 / 서대문구 seoul seodaemungu namgajwadong"
   },
   {
@@ -3137,7 +3137,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "local",
     "parent": "서울 / 강서구",
-    "url": "center/seoul/gangseogu/naebalsandong/index.html",
+    "url": "center/seoul/gangseogu/naebalsandong/",
     "search": "내발산동 영어 수학 학원 서울 서울 / 강서구 seoul gangseogu naebalsandong"
   },
   {
@@ -3146,7 +3146,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "local",
     "parent": "서울 / 영등포구",
-    "url": "center/seoul/yeongdeungpogu/dangsandong/index.html",
+    "url": "center/seoul/yeongdeungpogu/dangsandong/",
     "search": "당산동 영어 수학 학원 서울 서울 / 영등포구 seoul yeongdeungpogu dangsandong"
   },
   {
@@ -3155,7 +3155,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "local",
     "parent": "서울 / 성북구",
-    "url": "center/seoul/seongbukgu/donamdong/index.html",
+    "url": "center/seoul/seongbukgu/donamdong/",
     "search": "돈암동 영어 수학 학원 서울 서울 / 성북구 seoul seongbukgu donamdong"
   },
   {
@@ -3164,7 +3164,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "local",
     "parent": "서울 / 성북구",
-    "url": "center/seoul/seongbukgu/dongsomundong/index.html",
+    "url": "center/seoul/seongbukgu/dongsomundong/",
     "search": "동소문동 영어 수학 학원 서울 서울 / 성북구 seoul seongbukgu dongsomundong"
   },
   {
@@ -3173,7 +3173,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "local",
     "parent": "서울 / 강서구",
-    "url": "center/seoul/gangseogu/deungchondong/index.html",
+    "url": "center/seoul/gangseogu/deungchondong/",
     "search": "등촌동 영어 수학 학원 서울 서울 / 강서구 seoul gangseogu deungchondong"
   },
   {
@@ -3182,7 +3182,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "local",
     "parent": "서울 / 강서구",
-    "url": "center/seoul/gangseogu/magokdong/index.html",
+    "url": "center/seoul/gangseogu/magokdong/",
     "search": "마곡동 영어 수학 학원 서울 서울 / 강서구 seoul gangseogu magokdong"
   },
   {
@@ -3191,7 +3191,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "local",
     "parent": "서울 / 강동구",
-    "url": "center/seoul/gangdonggu/myeongildong/index.html",
+    "url": "center/seoul/gangdonggu/myeongildong/",
     "search": "명일동 영어 수학 학원 서울 서울 / 강동구 seoul gangdonggu myeongildong"
   },
   {
@@ -3200,7 +3200,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "local",
     "parent": "서울 / 양천구",
-    "url": "center/seoul/yangcheongu/mokdong/index.html",
+    "url": "center/seoul/yangcheongu/mokdong/",
     "search": "목동 영어 수학 학원 서울 서울 / 양천구 seoul yangcheongu mokdong"
   },
   {
@@ -3209,7 +3209,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "local",
     "parent": "서울 / 강북구",
-    "url": "center/seoul/gangbukgu/miadong/index.html",
+    "url": "center/seoul/gangbukgu/miadong/",
     "search": "미아동 영어 수학 학원 서울 서울 / 강북구 seoul gangbukgu miadong"
   },
   {
@@ -3218,7 +3218,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "local",
     "parent": "서울 / 강서구",
-    "url": "center/seoul/gangseogu/banghwadong/index.html",
+    "url": "center/seoul/gangseogu/banghwadong/",
     "search": "방화동 영어 수학 학원 서울 서울 / 강서구 seoul gangseogu banghwadong"
   },
   {
@@ -3227,7 +3227,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "local",
     "parent": "서울 / 서대문구",
-    "url": "center/seoul/seodaemungu/bukgajwadong/index.html",
+    "url": "center/seoul/seodaemungu/bukgajwadong/",
     "search": "북가좌동 영어 수학 학원 서울 서울 / 서대문구 seoul seodaemungu bukgajwadong"
   },
   {
@@ -3236,7 +3236,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "local",
     "parent": "서울 / 강북구",
-    "url": "center/seoul/gangbukgu/samgaksandong/index.html",
+    "url": "center/seoul/gangbukgu/samgaksandong/",
     "search": "삼각산동 영어 수학 학원 서울 서울 / 강북구 seoul gangbukgu samgaksandong"
   },
   {
@@ -3245,7 +3245,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "local",
     "parent": "서울 / 마포구",
-    "url": "center/seoul/mapogu/sangamdong/index.html",
+    "url": "center/seoul/mapogu/sangamdong/",
     "search": "상암동 영어 수학 학원 서울 서울 / 마포구 seoul mapogu sangamdong"
   },
   {
@@ -3254,7 +3254,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "local",
     "parent": "서울 / 금천구",
-    "url": "center/seoul/geumcheongu/siheungdong/index.html",
+    "url": "center/seoul/geumcheongu/siheungdong/",
     "search": "시흥동 영어 수학 학원 서울 서울 / 금천구 seoul geumcheongu siheungdong"
   },
   {
@@ -3263,7 +3263,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "local",
     "parent": "서울 / 구로구",
-    "url": "center/seoul/gurogu/sindorimdong/index.html",
+    "url": "center/seoul/gurogu/sindorimdong/",
     "search": "신도림동 영어 수학 학원 서울 서울 / 구로구 seoul gurogu sindorimdong"
   },
   {
@@ -3272,7 +3272,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "local",
     "parent": "서울 / 강서구",
-    "url": "center/seoul/gangseogu/sinbanghwa/index.html",
+    "url": "center/seoul/gangseogu/sinbanghwa/",
     "search": "신방화 영어 수학 학원 서울 서울 / 강서구 seoul gangseogu sinbanghwa"
   },
   {
@@ -3281,7 +3281,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "local",
     "parent": "서울 / 마포구",
-    "url": "center/seoul/mapogu/sinsudong/index.html",
+    "url": "center/seoul/mapogu/sinsudong/",
     "search": "신수동 영어 수학 학원 서울 서울 / 마포구 seoul mapogu sinsudong"
   },
   {
@@ -3290,7 +3290,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "local",
     "parent": "서울 / 양천구",
-    "url": "center/seoul/yangcheongu/sinjeongdong/index.html",
+    "url": "center/seoul/yangcheongu/sinjeongdong/",
     "search": "신정동 영어 수학 학원 서울 서울 / 양천구 seoul yangcheongu sinjeongdong"
   },
   {
@@ -3299,7 +3299,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "local",
     "parent": "서울 / 영등포구",
-    "url": "center/seoul/yeongdeungpogu/yangpyeongdong/index.html",
+    "url": "center/seoul/yeongdeungpogu/yangpyeongdong/",
     "search": "양평동 영어 수학 학원 서울 서울 / 영등포구 seoul yeongdeungpogu yangpyeongdong"
   },
   {
@@ -3308,7 +3308,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "local",
     "parent": "서울 / 은평구",
-    "url": "center/seoul/eunpyeonggu/yeokchondong/index.html",
+    "url": "center/seoul/eunpyeonggu/yeokchondong/",
     "search": "역촌동 영어 수학 학원 서울 서울 / 은평구 seoul eunpyeonggu yeokchondong"
   },
   {
@@ -3317,7 +3317,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "local",
     "parent": "서울 / 마포구",
-    "url": "center/seoul/mapogu/yeomridong/index.html",
+    "url": "center/seoul/mapogu/yeomridong/",
     "search": "염리동 영어 수학 학원 서울 서울 / 마포구 seoul mapogu yeomridong"
   },
   {
@@ -3326,7 +3326,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "local",
     "parent": "서울 / 강서구",
-    "url": "center/seoul/gangseogu/yeomchangdong/index.html",
+    "url": "center/seoul/gangseogu/yeomchangdong/",
     "search": "염창동 영어 수학 학원 서울 서울 / 강서구 seoul gangseogu yeomchangdong"
   },
   {
@@ -3335,7 +3335,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "local",
     "parent": "서울 / 마포구",
-    "url": "center/seoul/mapogu/yonggangdong/index.html",
+    "url": "center/seoul/mapogu/yonggangdong/",
     "search": "용강동 영어 수학 학원 서울 서울 / 마포구 seoul mapogu yonggangdong"
   },
   {
@@ -3344,7 +3344,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "local",
     "parent": "서울 / 동대문구",
-    "url": "center/seoul/dongdaemungu/yongdudong/index.html",
+    "url": "center/seoul/dongdaemungu/yongdudong/",
     "search": "용두동 영어 수학 학원 서울 서울 / 동대문구 seoul dongdaemungu yongdudong"
   },
   {
@@ -3353,7 +3353,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "local",
     "parent": "서울 / 송파구",
-    "url": "center/seoul/songpagu/wirye/index.html",
+    "url": "center/seoul/songpagu/wirye/",
     "search": "위례 영어 수학 학원 서울 서울 / 송파구 seoul songpagu wirye"
   },
   {
@@ -3362,7 +3362,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "local",
     "parent": "서울 / 송파구",
-    "url": "center/seoul/songpagu/wiryesindosi/index.html",
+    "url": "center/seoul/songpagu/wiryesindosi/",
     "search": "위례신도시 영어 수학 학원 서울 서울 / 송파구 seoul songpagu wiryesindosi"
   },
   {
@@ -3371,7 +3371,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "local",
     "parent": "서울 / 동대문구",
-    "url": "center/seoul/dongdaemungu/jegidong/index.html",
+    "url": "center/seoul/dongdaemungu/jegidong/",
     "search": "제기동 영어 수학 학원 서울 서울 / 동대문구 seoul dongdaemungu jegidong"
   },
   {
@@ -3380,7 +3380,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "local",
     "parent": "서울 / 성북구",
-    "url": "center/seoul/seongbukgu/jongamdong/index.html",
+    "url": "center/seoul/seongbukgu/jongamdong/",
     "search": "종암동 영어 수학 학원 서울 서울 / 성북구 seoul seongbukgu jongamdong"
   },
   {
@@ -3389,7 +3389,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "local",
     "parent": "서울 / 노원구",
-    "url": "center/seoul/nowongu/junggyedong/index.html",
+    "url": "center/seoul/nowongu/junggyedong/",
     "search": "중계동 영어 수학 학원 서울 서울 / 노원구 seoul nowongu junggyedong"
   },
   {
@@ -3398,7 +3398,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "local",
     "parent": "서울 / 은평구",
-    "url": "center/seoul/eunpyeonggu/jingwandong/index.html",
+    "url": "center/seoul/eunpyeonggu/jingwandong/",
     "search": "진관동 영어 수학 학원 서울 서울 / 은평구 seoul eunpyeonggu jingwandong"
   },
   {
@@ -3407,7 +3407,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "local",
     "parent": "서울 / 송파구",
-    "url": "center/seoul/songpagu/changgokdong/index.html",
+    "url": "center/seoul/songpagu/changgokdong/",
     "search": "창곡동 영어 수학 학원 서울 서울 / 송파구 seoul songpagu changgokdong"
   },
   {
@@ -3416,7 +3416,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "local",
     "parent": "서울 / 강동구",
-    "url": "center/seoul/gangdonggu/cheonhodong/index.html",
+    "url": "center/seoul/gangdonggu/cheonhodong/",
     "search": "천호동 영어 수학 학원 서울 서울 / 강동구 seoul gangdonggu cheonhodong"
   },
   {
@@ -3425,7 +3425,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "local",
     "parent": "서울 / 노원구",
-    "url": "center/seoul/nowongu/hagyedong/index.html",
+    "url": "center/seoul/nowongu/hagyedong/",
     "search": "하계동 영어 수학 학원 서울 서울 / 노원구 seoul nowongu hagyedong"
   },
   {
@@ -3434,7 +3434,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "서울",
     "kind": "local",
     "parent": "서울 / 강서구",
-    "url": "center/seoul/gangseogu/hwagokdong/index.html",
+    "url": "center/seoul/gangseogu/hwagokdong/",
     "search": "화곡동 영어 수학 학원 서울 서울 / 강서구 seoul gangseogu hwagokdong"
   },
   {
@@ -3443,7 +3443,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "울산",
     "kind": "region",
     "parent": "전국센터",
-    "url": "center/ulsan/index.html",
+    "url": "center/ulsan/",
     "search": "울산 울산 전국센터 ulsan"
   },
   {
@@ -3452,7 +3452,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "울산",
     "kind": "district",
     "parent": "울산",
-    "url": "center/ulsan/namgu/index.html",
+    "url": "center/ulsan/namgu/",
     "search": "남구 울산 울산 ulsan namgu"
   },
   {
@@ -3461,7 +3461,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "울산",
     "kind": "district",
     "parent": "울산",
-    "url": "center/ulsan/bukgu/index.html",
+    "url": "center/ulsan/bukgu/",
     "search": "북구 울산 울산 ulsan bukgu"
   },
   {
@@ -3470,7 +3470,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "울산",
     "kind": "district",
     "parent": "울산",
-    "url": "center/ulsan/junggu/index.html",
+    "url": "center/ulsan/junggu/",
     "search": "중구 울산 울산 ulsan junggu"
   },
   {
@@ -3479,7 +3479,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "울산",
     "kind": "local",
     "parent": "울산 / 중구",
-    "url": "center/ulsan/junggu/namoedong/index.html",
+    "url": "center/ulsan/junggu/namoedong/",
     "search": "남외동 영어 수학 학원 울산 울산 / 중구 ulsan junggu namoedong"
   },
   {
@@ -3488,7 +3488,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "울산",
     "kind": "local",
     "parent": "울산 / 남구",
-    "url": "center/ulsan/namgu/daldong/index.html",
+    "url": "center/ulsan/namgu/daldong/",
     "search": "달동 영어 수학 학원 울산 울산 / 남구 ulsan namgu daldong"
   },
   {
@@ -3497,7 +3497,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "울산",
     "kind": "local",
     "parent": "울산 / 중구",
-    "url": "center/ulsan/junggu/bangudong/index.html",
+    "url": "center/ulsan/junggu/bangudong/",
     "search": "반구동 영어 수학 학원 울산 울산 / 중구 ulsan junggu bangudong"
   },
   {
@@ -3506,7 +3506,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "울산",
     "kind": "local",
     "parent": "울산 / 중구",
-    "url": "center/ulsan/junggu/byeongyeongdong/index.html",
+    "url": "center/ulsan/junggu/byeongyeongdong/",
     "search": "병영동 영어 수학 학원 울산 울산 / 중구 ulsan junggu byeongyeongdong"
   },
   {
@@ -3515,7 +3515,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "울산",
     "kind": "local",
     "parent": "울산 / 중구",
-    "url": "center/ulsan/junggu/boksandong/index.html",
+    "url": "center/ulsan/junggu/boksandong/",
     "search": "복산동 영어 수학 학원 울산 울산 / 중구 ulsan junggu boksandong"
   },
   {
@@ -3524,7 +3524,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "울산",
     "kind": "local",
     "parent": "울산 / 북구",
-    "url": "center/ulsan/bukgu/songjeongdong/index.html",
+    "url": "center/ulsan/bukgu/songjeongdong/",
     "search": "송정동 영어 수학 학원 울산 울산 / 북구 ulsan bukgu songjeongdong"
   },
   {
@@ -3533,7 +3533,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "울산",
     "kind": "local",
     "parent": "울산 / 중구",
-    "url": "center/ulsan/junggu/yaksadong/index.html",
+    "url": "center/ulsan/junggu/yaksadong/",
     "search": "약사동 영어 수학 학원 울산 울산 / 중구 ulsan junggu yaksadong"
   },
   {
@@ -3542,7 +3542,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "울산",
     "kind": "local",
     "parent": "울산 / 남구",
-    "url": "center/ulsan/namgu/ulsan-samsandong/index.html",
+    "url": "center/ulsan/namgu/ulsan-samsandong/",
     "search": "울산 삼산동 영어 수학 학원 울산 울산 / 남구 ulsan namgu ulsan-samsandong"
   },
   {
@@ -3551,7 +3551,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "울산",
     "kind": "local",
     "parent": "울산 / 북구",
-    "url": "center/ulsan/bukgu/hwabongdong/index.html",
+    "url": "center/ulsan/bukgu/hwabongdong/",
     "search": "화봉동 영어 수학 학원 울산 울산 / 북구 ulsan bukgu hwabongdong"
   },
   {
@@ -3560,7 +3560,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "인천",
     "kind": "region",
     "parent": "전국센터",
-    "url": "center/incheon/index.html",
+    "url": "center/incheon/",
     "search": "인천 인천 전국센터 incheon"
   },
   {
@@ -3569,7 +3569,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "인천",
     "kind": "district",
     "parent": "인천",
-    "url": "center/incheon/namdonggu/index.html",
+    "url": "center/incheon/namdonggu/",
     "search": "남동구 인천 인천 incheon namdonggu"
   },
   {
@@ -3578,7 +3578,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "인천",
     "kind": "district",
     "parent": "인천",
-    "url": "center/incheon/bupyeonggu/index.html",
+    "url": "center/incheon/bupyeonggu/",
     "search": "부평구 인천 인천 incheon bupyeonggu"
   },
   {
@@ -3587,7 +3587,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "인천",
     "kind": "district",
     "parent": "인천",
-    "url": "center/incheon/seogu/index.html",
+    "url": "center/incheon/seogu/",
     "search": "서구 인천 인천 incheon seogu"
   },
   {
@@ -3596,7 +3596,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "인천",
     "kind": "district",
     "parent": "인천",
-    "url": "center/incheon/yeonsugu/index.html",
+    "url": "center/incheon/yeonsugu/",
     "search": "연수구 인천 인천 incheon yeonsugu"
   },
   {
@@ -3605,7 +3605,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "인천",
     "kind": "local",
     "parent": "인천 / 서구",
-    "url": "center/incheon/seogu/gajeongdong/index.html",
+    "url": "center/incheon/seogu/gajeongdong/",
     "search": "가정동 영어 수학 학원 인천 인천 / 서구 incheon seogu gajeongdong"
   },
   {
@@ -3614,7 +3614,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "인천",
     "kind": "local",
     "parent": "인천 / 남동구",
-    "url": "center/incheon/namdonggu/gwangyodong/index.html",
+    "url": "center/incheon/namdonggu/gwangyodong/",
     "search": "관교동 영어 수학 학원 인천 인천 / 남동구 incheon namdonggu gwangyodong"
   },
   {
@@ -3623,7 +3623,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "인천",
     "kind": "local",
     "parent": "인천 / 남동구",
-    "url": "center/incheon/namdonggu/guwoldong/index.html",
+    "url": "center/incheon/namdonggu/guwoldong/",
     "search": "구월동 영어 수학 학원 인천 인천 / 남동구 incheon namdonggu guwoldong"
   },
   {
@@ -3632,7 +3632,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "인천",
     "kind": "local",
     "parent": "인천 / 남동구",
-    "url": "center/incheon/namdonggu/nonhyeondong/index.html",
+    "url": "center/incheon/namdonggu/nonhyeondong/",
     "search": "논현동 영어 수학 학원 인천 인천 / 남동구 incheon namdonggu nonhyeondong"
   },
   {
@@ -3641,7 +3641,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "인천",
     "kind": "local",
     "parent": "인천 / 연수구",
-    "url": "center/incheon/yeonsugu/dongchundong/index.html",
+    "url": "center/incheon/yeonsugu/dongchundong/",
     "search": "동춘동 영어 수학 학원 인천 인천 / 연수구 incheon yeonsugu dongchundong"
   },
   {
@@ -3650,7 +3650,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "인천",
     "kind": "local",
     "parent": "인천 / 부평구",
-    "url": "center/incheon/bupyeonggu/bugaedong/index.html",
+    "url": "center/incheon/bupyeonggu/bugaedong/",
     "search": "부개동 영어 수학 학원 인천 인천 / 부평구 incheon bupyeonggu bugaedong"
   },
   {
@@ -3659,7 +3659,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "인천",
     "kind": "local",
     "parent": "인천 / 부평구",
-    "url": "center/incheon/bupyeonggu/bupyeongdong/index.html",
+    "url": "center/incheon/bupyeonggu/bupyeongdong/",
     "search": "부평동 영어 수학 학원 인천 인천 / 부평구 incheon bupyeonggu bupyeongdong"
   },
   {
@@ -3668,7 +3668,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "인천",
     "kind": "local",
     "parent": "인천 / 부평구",
-    "url": "center/incheon/bupyeonggu/sangokdong/index.html",
+    "url": "center/incheon/bupyeonggu/sangokdong/",
     "search": "산곡동 영어 수학 학원 인천 인천 / 부평구 incheon bupyeonggu sangokdong"
   },
   {
@@ -3677,7 +3677,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "인천",
     "kind": "local",
     "parent": "인천 / 부평구",
-    "url": "center/incheon/bupyeonggu/samsandong/index.html",
+    "url": "center/incheon/bupyeonggu/samsandong/",
     "search": "삼산동 영어 수학 학원 인천 인천 / 부평구 incheon bupyeonggu samsandong"
   },
   {
@@ -3686,7 +3686,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "인천",
     "kind": "local",
     "parent": "인천 / 연수구",
-    "url": "center/incheon/yeonsugu/songdo/index.html",
+    "url": "center/incheon/yeonsugu/songdo/",
     "search": "송도 영어 수학 학원 인천 인천 / 연수구 incheon yeonsugu songdo"
   },
   {
@@ -3695,7 +3695,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "인천",
     "kind": "local",
     "parent": "인천 / 연수구",
-    "url": "center/incheon/yeonsugu/songdodong/index.html",
+    "url": "center/incheon/yeonsugu/songdodong/",
     "search": "송도동 영어 수학 학원 인천 인천 / 연수구 incheon yeonsugu songdodong"
   },
   {
@@ -3704,7 +3704,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "인천",
     "kind": "local",
     "parent": "인천 / 서구",
-    "url": "center/incheon/seogu/sinhyeondong/index.html",
+    "url": "center/incheon/seogu/sinhyeondong/",
     "search": "신현동 영어 수학 학원 인천 인천 / 서구 incheon seogu sinhyeondong"
   },
   {
@@ -3713,7 +3713,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "인천",
     "kind": "local",
     "parent": "인천 / 연수구",
-    "url": "center/incheon/yeonsugu/yeonsudong/index.html",
+    "url": "center/incheon/yeonsugu/yeonsudong/",
     "search": "연수동 영어 수학 학원 인천 인천 / 연수구 incheon yeonsugu yeonsudong"
   },
   {
@@ -3722,7 +3722,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "인천",
     "kind": "local",
     "parent": "인천 / 부평구",
-    "url": "center/incheon/bupyeonggu/incheon-galsandong/index.html",
+    "url": "center/incheon/bupyeonggu/incheon-galsandong/",
     "search": "인천 갈산동 영어 수학 학원 인천 인천 / 부평구 incheon bupyeonggu incheon-galsandong"
   },
   {
@@ -3731,7 +3731,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "인천",
     "kind": "local",
     "parent": "인천 / 서구",
-    "url": "center/incheon/seogu/cheongra/index.html",
+    "url": "center/incheon/seogu/cheongra/",
     "search": "청라 영어 수학 학원 인천 인천 / 서구 incheon seogu cheongra"
   },
   {
@@ -3740,7 +3740,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "전라",
     "kind": "region",
     "parent": "전국센터",
-    "url": "center/jeolla/index.html",
+    "url": "center/jeolla/",
     "search": "전라 전라 전국센터 jeolla"
   },
   {
@@ -3749,7 +3749,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "전라",
     "kind": "district",
     "parent": "전라",
-    "url": "center/jeolla/wanjugun/index.html",
+    "url": "center/jeolla/wanjugun/",
     "search": "완주군 전라 전라 jeolla wanjugun"
   },
   {
@@ -3758,7 +3758,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "전라",
     "kind": "district",
     "parent": "전라",
-    "url": "center/jeolla/jeonjusi/index.html",
+    "url": "center/jeolla/jeonjusi/",
     "search": "전주시 전라 전라 jeolla jeonjusi"
   },
   {
@@ -3767,7 +3767,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "전라",
     "kind": "local",
     "parent": "전라 / 전주시",
-    "url": "center/jeolla/jeonjusi/seosindong/index.html",
+    "url": "center/jeolla/jeonjusi/seosindong/",
     "search": "서신동 영어 수학 학원 전라 전라 / 전주시 jeolla jeonjusi seosindong"
   },
   {
@@ -3776,7 +3776,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "전라",
     "kind": "local",
     "parent": "전라 / 전주시",
-    "url": "center/jeolla/jeonjusi/songcheondong/index.html",
+    "url": "center/jeolla/jeonjusi/songcheondong/",
     "search": "송천동 영어 수학 학원 전라 전라 / 전주시 jeolla jeonjusi songcheondong"
   },
   {
@@ -3785,7 +3785,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "전라",
     "kind": "local",
     "parent": "전라 / 완주군",
-    "url": "center/jeolla/wanjugun/jeonju-jangdong/index.html",
+    "url": "center/jeolla/wanjugun/jeonju-jangdong/",
     "search": "전주 장동 영어 수학 학원 전라 전라 / 완주군 jeolla wanjugun jeonju-jangdong"
   },
   {
@@ -3794,7 +3794,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "전라",
     "kind": "local",
     "parent": "전라 / 완주군",
-    "url": "center/jeolla/wanjugun/jeonjuhyeoksindosi/index.html",
+    "url": "center/jeolla/wanjugun/jeonjuhyeoksindosi/",
     "search": "전주혁신도시 영어 수학 학원 전라 전라 / 완주군 jeolla wanjugun jeonjuhyeoksindosi"
   },
   {
@@ -3803,7 +3803,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "전라",
     "kind": "local",
     "parent": "전라 / 전주시",
-    "url": "center/jeolla/jeonjusi/junghwasandong/index.html",
+    "url": "center/jeolla/jeonjusi/junghwasandong/",
     "search": "중화산동 영어 수학 학원 전라 전라 / 전주시 jeolla jeonjusi junghwasandong"
   },
   {
@@ -3812,7 +3812,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "전라",
     "kind": "local",
     "parent": "전라 / 전주시",
-    "url": "center/jeolla/jeonjusi/hyojadong/index.html",
+    "url": "center/jeolla/jeonjusi/hyojadong/",
     "search": "효자동 영어 수학 학원 전라 전라 / 전주시 jeolla jeonjusi hyojadong"
   },
   {
@@ -3821,7 +3821,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "제주",
     "kind": "region",
     "parent": "전국센터",
-    "url": "center/jeju/index.html",
+    "url": "center/jeju/",
     "search": "제주 제주 전국센터 jeju"
   },
   {
@@ -3830,7 +3830,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "제주",
     "kind": "district",
     "parent": "제주",
-    "url": "center/jeju/jejusi/index.html",
+    "url": "center/jeju/jejusi/",
     "search": "제주시 제주 제주 jeju jejusi"
   },
   {
@@ -3839,7 +3839,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "제주",
     "kind": "local",
     "parent": "제주 / 제주시",
-    "url": "center/jeju/jejusi/nohyeongdong/index.html",
+    "url": "center/jeju/jejusi/nohyeongdong/",
     "search": "노형동 영어 수학 학원 제주 제주 / 제주시 jeju jejusi nohyeongdong"
   },
   {
@@ -3848,7 +3848,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "제주",
     "kind": "local",
     "parent": "제주 / 제주시",
-    "url": "center/jeju/jejusi/yeondong/index.html",
+    "url": "center/jeju/jejusi/yeondong/",
     "search": "연동 영어 수학 학원 제주 제주 / 제주시 jeju jejusi yeondong"
   },
   {
@@ -3857,7 +3857,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "충청",
     "kind": "region",
     "parent": "전국센터",
-    "url": "center/chungcheong/index.html",
+    "url": "center/chungcheong/",
     "search": "충청 충청 전국센터 chungcheong"
   },
   {
@@ -3866,7 +3866,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "충청",
     "kind": "district",
     "parent": "충청",
-    "url": "center/chungcheong/dangjinsi/index.html",
+    "url": "center/chungcheong/dangjinsi/",
     "search": "당진시 충청 충청 chungcheong dangjinsi"
   },
   {
@@ -3875,7 +3875,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "충청",
     "kind": "district",
     "parent": "충청",
-    "url": "center/chungcheong/saeromjungangro/index.html",
+    "url": "center/chungcheong/saeromjungangro/",
     "search": "새롬중앙로 충청 충청 chungcheong saeromjungangro"
   },
   {
@@ -3884,7 +3884,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "충청",
     "kind": "district",
     "parent": "충청",
-    "url": "center/chungcheong/asansi/index.html",
+    "url": "center/chungcheong/asansi/",
     "search": "아산시 충청 충청 chungcheong asansi"
   },
   {
@@ -3893,7 +3893,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "충청",
     "kind": "district",
     "parent": "충청",
-    "url": "center/chungcheong/cheonansi/index.html",
+    "url": "center/chungcheong/cheonansi/",
     "search": "천안시 충청 충청 chungcheong cheonansi"
   },
   {
@@ -3902,7 +3902,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "충청",
     "kind": "district",
     "parent": "충청",
-    "url": "center/chungcheong/cheongjusi/index.html",
+    "url": "center/chungcheong/cheongjusi/",
     "search": "청주시 충청 충청 chungcheong cheongjusi"
   },
   {
@@ -3911,7 +3911,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "충청",
     "kind": "district",
     "parent": "충청",
-    "url": "center/chungcheong/chungjusi/index.html",
+    "url": "center/chungcheong/chungjusi/",
     "search": "충주시 충청 충청 chungcheong chungjusi"
   },
   {
@@ -3920,7 +3920,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "충청",
     "kind": "local",
     "parent": "충청 / 청주시",
-    "url": "center/chungcheong/cheongjusi/gagyeongdong/index.html",
+    "url": "center/chungcheong/cheongjusi/gagyeongdong/",
     "search": "가경동 영어 수학 학원 충청 충청 / 청주시 chungcheong cheongjusi gagyeongdong"
   },
   {
@@ -3929,7 +3929,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "충청",
     "kind": "local",
     "parent": "충청 / 청주시",
-    "url": "center/chungcheong/cheongjusi/gangseodong/index.html",
+    "url": "center/chungcheong/cheongjusi/gangseodong/",
     "search": "강서동 영어 수학 학원 충청 충청 / 청주시 chungcheong cheongjusi gangseodong"
   },
   {
@@ -3938,7 +3938,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "충청",
     "kind": "local",
     "parent": "충청 / 청주시",
-    "url": "center/chungcheong/cheongjusi/gaesindong/index.html",
+    "url": "center/chungcheong/cheongjusi/gaesindong/",
     "search": "개신동 영어 수학 학원 충청 충청 / 청주시 chungcheong cheongjusi gaesindong"
   },
   {
@@ -3947,7 +3947,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "충청",
     "kind": "local",
     "parent": "충청 / 새롬중앙로",
-    "url": "center/chungcheong/saeromjungangro/dajeongdong/index.html",
+    "url": "center/chungcheong/saeromjungangro/dajeongdong/",
     "search": "다정동 영어 수학 학원 충청 충청 / 새롬중앙로 chungcheong saeromjungangro dajeongdong"
   },
   {
@@ -3956,7 +3956,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "충청",
     "kind": "local",
     "parent": "충청 / 당진시",
-    "url": "center/chungcheong/dangjinsi/dangjin-eupnaedong/index.html",
+    "url": "center/chungcheong/dangjinsi/dangjin-eupnaedong/",
     "search": "당진 읍내동 영어 수학 학원 충청 충청 / 당진시 chungcheong dangjinsi dangjin-eupnaedong"
   },
   {
@@ -3965,7 +3965,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "충청",
     "kind": "local",
     "parent": "충청 / 천안시",
-    "url": "center/chungcheong/cheonansi/dujeongdong/index.html",
+    "url": "center/chungcheong/cheonansi/dujeongdong/",
     "search": "두정동 영어 수학 학원 충청 충청 / 천안시 chungcheong cheonansi dujeongdong"
   },
   {
@@ -3974,7 +3974,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "충청",
     "kind": "local",
     "parent": "충청 / 청주시",
-    "url": "center/chungcheong/cheongjusi/bokdaedong/index.html",
+    "url": "center/chungcheong/cheongjusi/bokdaedong/",
     "search": "복대동 영어 수학 학원 충청 충청 / 청주시 chungcheong cheongjusi bokdaedong"
   },
   {
@@ -3983,7 +3983,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "충청",
     "kind": "local",
     "parent": "충청 / 천안시",
-    "url": "center/chungcheong/cheonansi/bongmyeongdong/index.html",
+    "url": "center/chungcheong/cheonansi/bongmyeongdong/",
     "search": "봉명동 영어 수학 학원 충청 충청 / 천안시 chungcheong cheonansi bongmyeongdong"
   },
   {
@@ -3992,7 +3992,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "충청",
     "kind": "local",
     "parent": "충청 / 충주시",
-    "url": "center/chungcheong/chungjusi/bongbangdong/index.html",
+    "url": "center/chungcheong/chungjusi/bongbangdong/",
     "search": "봉방동 영어 수학 학원 충청 충청 / 충주시 chungcheong chungjusi bongbangdong"
   },
   {
@@ -4001,7 +4001,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "충청",
     "kind": "local",
     "parent": "충청 / 천안시",
-    "url": "center/chungcheong/cheonansi/buldangdong/index.html",
+    "url": "center/chungcheong/cheonansi/buldangdong/",
     "search": "불당동 영어 수학 학원 충청 충청 / 천안시 chungcheong cheonansi buldangdong"
   },
   {
@@ -4010,7 +4010,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "충청",
     "kind": "local",
     "parent": "충청 / 청주시",
-    "url": "center/chungcheong/cheongjusi/bihadong/index.html",
+    "url": "center/chungcheong/cheongjusi/bihadong/",
     "search": "비하동 영어 수학 학원 충청 충청 / 청주시 chungcheong cheongjusi bihadong"
   },
   {
@@ -4019,7 +4019,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "충청",
     "kind": "local",
     "parent": "충청 / 청주시",
-    "url": "center/chungcheong/cheongjusi/sannamdong/index.html",
+    "url": "center/chungcheong/cheongjusi/sannamdong/",
     "search": "산남동 영어 수학 학원 충청 충청 / 청주시 chungcheong cheongjusi sannamdong"
   },
   {
@@ -4028,7 +4028,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "충청",
     "kind": "local",
     "parent": "충청 / 새롬중앙로",
-    "url": "center/chungcheong/saeromjungangro/saeromdong/index.html",
+    "url": "center/chungcheong/saeromjungangro/saeromdong/",
     "search": "새롬동 영어 수학 학원 충청 충청 / 새롬중앙로 chungcheong saeromjungangro saeromdong"
   },
   {
@@ -4037,7 +4037,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "충청",
     "kind": "local",
     "parent": "충청 / 천안시",
-    "url": "center/chungcheong/cheonansi/seongjeongdong/index.html",
+    "url": "center/chungcheong/cheonansi/seongjeongdong/",
     "search": "성정동 영어 수학 학원 충청 충청 / 천안시 chungcheong cheonansi seongjeongdong"
   },
   {
@@ -4046,7 +4046,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "충청",
     "kind": "local",
     "parent": "충청 / 청주시",
-    "url": "center/chungcheong/cheongjusi/seonghwadong/index.html",
+    "url": "center/chungcheong/cheongjusi/seonghwadong/",
     "search": "성화동 영어 수학 학원 충청 충청 / 청주시 chungcheong cheongjusi seonghwadong"
   },
   {
@@ -4055,7 +4055,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "충청",
     "kind": "local",
     "parent": "충청 / 청주시",
-    "url": "center/chungcheong/cheongjusi/sugokdong/index.html",
+    "url": "center/chungcheong/cheongjusi/sugokdong/",
     "search": "수곡동 영어 수학 학원 충청 충청 / 청주시 chungcheong cheongjusi sugokdong"
   },
   {
@@ -4064,7 +4064,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "충청",
     "kind": "local",
     "parent": "충청 / 천안시",
-    "url": "center/chungcheong/cheonansi/sinbangdong/index.html",
+    "url": "center/chungcheong/cheonansi/sinbangdong/",
     "search": "신방동 영어 수학 학원 충청 충청 / 천안시 chungcheong cheonansi sinbangdong"
   },
   {
@@ -4073,7 +4073,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "충청",
     "kind": "local",
     "parent": "충청 / 천안시",
-    "url": "center/chungcheong/cheonansi/sinbuldang/index.html",
+    "url": "center/chungcheong/cheonansi/sinbuldang/",
     "search": "신불당 영어 수학 학원 충청 충청 / 천안시 chungcheong cheonansi sinbuldang"
   },
   {
@@ -4082,7 +4082,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "충청",
     "kind": "local",
     "parent": "충청 / 천안시",
-    "url": "center/chungcheong/cheonansi/ssangyongdong/index.html",
+    "url": "center/chungcheong/cheonansi/ssangyongdong/",
     "search": "쌍용동 영어 수학 학원 충청 충청 / 천안시 chungcheong cheonansi ssangyongdong"
   },
   {
@@ -4091,7 +4091,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "충청",
     "kind": "local",
     "parent": "충청 / 천안시",
-    "url": "center/chungcheong/cheonansi/yonggokdong/index.html",
+    "url": "center/chungcheong/cheonansi/yonggokdong/",
     "search": "용곡동 영어 수학 학원 충청 충청 / 천안시 chungcheong cheonansi yonggokdong"
   },
   {
@@ -4100,7 +4100,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "충청",
     "kind": "local",
     "parent": "충청 / 천안시",
-    "url": "center/chungcheong/cheonansi/cheonan-baekseokdong/index.html",
+    "url": "center/chungcheong/cheonansi/cheonan-baekseokdong/",
     "search": "천안 백석동 영어 수학 학원 충청 충청 / 천안시 chungcheong cheonansi cheonan-baekseokdong"
   },
   {
@@ -4109,7 +4109,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "충청",
     "kind": "local",
     "parent": "충청 / 충주시",
-    "url": "center/chungcheong/chungjusi/chungju-yongsandong/index.html",
+    "url": "center/chungcheong/chungjusi/chungju-yongsandong/",
     "search": "충주 용산동 영어 수학 학원 충청 충청 / 충주시 chungcheong chungjusi chungju-yongsandong"
   },
   {
@@ -4118,7 +4118,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "충청",
     "kind": "local",
     "parent": "충청 / 충주시",
-    "url": "center/chungcheong/chungjusi/chilgeumdong/index.html",
+    "url": "center/chungcheong/chungjusi/chilgeumdong/",
     "search": "칠금동 영어 수학 학원 충청 충청 / 충주시 chungcheong chungjusi chilgeumdong"
   },
   {
@@ -4127,7 +4127,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "충청",
     "kind": "local",
     "parent": "충청 / 아산시",
-    "url": "center/chungcheong/asansi/tangjeong/index.html",
+    "url": "center/chungcheong/asansi/tangjeong/",
     "search": "탕정 영어 수학 학원 충청 충청 / 아산시 chungcheong asansi tangjeong"
   },
   {
@@ -4136,7 +4136,7 @@ window.WAWA_CENTER_INDEX = [
     "regionName": "충청",
     "kind": "local",
     "parent": "충청 / 충주시",
-    "url": "center/chungcheong/chungjusi/hoamdong/index.html",
+    "url": "center/chungcheong/chungjusi/hoamdong/",
     "search": "호암동 영어 수학 학원 충청 충청 / 충주시 chungcheong chungjusi hoamdong"
   }
 ];

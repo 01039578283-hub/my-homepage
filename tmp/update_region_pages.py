@@ -81,7 +81,7 @@ def district_cards(region_dir: Path, region_name: str):
                 locals_.append(page_title(local_file, local_dir.name))
 
         cards.append(
-            f'        <a class="center-result-card center-district-card" href="{html.escape(district_dir.name)}/index.html">'
+            f'        <a class="center-result-card center-district-card" href="{html.escape(district_dir.name)}/">'
             f'<span class="center-result-meta">지역 · {html.escape(region_name)}</span>'
             f'<strong>{html.escape(district_name)}</strong>'
             f'<div class="center-local-list">{local_pills(locals_)}</div>'

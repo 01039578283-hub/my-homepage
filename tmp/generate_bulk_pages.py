@@ -90,8 +90,18 @@ def page_place_name(page_dir: Path, fallback: str) -> str:
     return extract_place_name(page_title_name(page_dir, fallback))
 
 
+def clean_index_href(href: str) -> str:
+    if href == "index.html":
+        return "./"
+    if href.endswith("/index.html"):
+        return href[: -len("index.html")]
+    if href.endswith("index.html"):
+        return href[: -len("index.html")] or "./"
+    return href
+
+
 def rel_href(from_dir: Path, target: Path) -> str:
-    return os.path.relpath(target, start=from_dir).replace("\\", "/")
+    return clean_index_href(os.path.relpath(target, start=from_dir).replace("\\", "/"))
 
 
 def breadcrumb_items(page_dir: Path, parent_dir: Path, current_title: str):
@@ -228,9 +238,9 @@ def create_page(row):
 <body>
   <header class="site-header">
     <nav class="nav" aria-label="주요 메뉴">
-      <a class="logo" href="{root_rel}/index.html"><span class="brand-orange">와와</span>학습<span class="brand-orange">코칭</span>센터 <span class="brand-tail">영어수학 전문학원</span></a>
+      <a class="logo" href="{root_rel}/"><span class="brand-orange">와와</span>학습<span class="brand-orange">코칭</span>센터 <span class="brand-tail">영어수학 전문학원</span></a>
       <div class="nav-links" aria-label="페이지 이동">
-        <a href="{root_rel}/index.html">홈</a>
+        <a href="{root_rel}/">홈</a>
         <a href="{root_rel}/overview.html">학원소개</a>
         <a class="active" href="{root_rel}/center.html">전국센터</a>
       </div>
@@ -259,7 +269,7 @@ def update_parent(parent_dir: Path, children):
     for _, _, title, slug in children:
         name = local_card_name(title)
         cards.append(
-            f'        <a class="local-center-card" href="{html.escape(slug)}/index.html">'
+            f'        <a class="local-center-card" href="{html.escape(slug)}/">'
             f'<span class="local-card-kicker">LOCAL CENTER</span>'
             f'<strong>{html.escape(name)}</strong>'
             f'<p>{html.escape(name)} 영어·수학 학원 정보를 확인해보세요.</p>'

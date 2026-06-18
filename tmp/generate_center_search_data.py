@@ -74,7 +74,7 @@ def main():
                 "regionName": region_name,
                 "kind": kind,
                 "parent": parent,
-                "url": "center/" + "/".join(parts) + "/index.html",
+                "url": "center/" + "/".join(parts) + "/",
                 "search": f"{display} {region_name} {parent} {' '.join(parts)}",
             }
         )
