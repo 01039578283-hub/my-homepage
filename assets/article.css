@@ -257,9 +257,95 @@
   font-weight: 700;
 }
 
+.parent-review-section {
+  width: min(1180px, calc(100% - 40px));
+  margin: 34px auto;
+  padding: 34px;
+  border: 1px solid rgba(217, 225, 236, 0.95);
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0 14px 34px rgba(16, 24, 39, 0.08);
+}
+
+.parent-review-head {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.parent-review-eyebrow {
+  margin: 0;
+  color: #f26d21;
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.parent-review-head h2 {
+  margin: 0;
+  color: #0c1729;
+  font-size: clamp(24px, 3vw, 34px);
+  line-height: 1.28;
+  font-weight: 900;
+}
+
+.parent-review-head p:last-child {
+  margin: 0;
+  color: #667085;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.parent-review-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.parent-review-card {
+  display: flex;
+  min-height: 188px;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 22px;
+  border: 1px solid #e3eaf4;
+  border-radius: 8px;
+  background: linear-gradient(180deg, #ffffff, #f9fbfe);
+}
+
+.parent-review-text {
+  margin: 0;
+  color: #344155;
+  font-size: 15px;
+  line-height: 1.75;
+  font-weight: 650;
+}
+
+.parent-review-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.parent-review-stars {
+  color: #f26d21;
+  font-size: 15px;
+  letter-spacing: 1px;
+  white-space: nowrap;
+}
+
+.parent-review-name {
+  color: #667085;
+  font-size: 13px;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
 @media (max-width: 820px) {
   .article-card-grid,
-  .article-subject-grid {
+  .article-subject-grid,
+  .parent-review-grid {
     grid-template-columns: 1fr;
   }
 }
@@ -292,8 +378,18 @@
 
   .article-intro,
   .article-section,
-  .article-closing {
+  .article-closing,
+  .parent-review-section {
     padding: 24px 20px;
+  }
+
+  .parent-review-section {
+    width: min(100% - 32px, 1180px);
+    margin: 28px auto;
+  }
+
+  .parent-review-card {
+    min-height: 0;
   }
 
   .article-card,

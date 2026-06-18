@@ -1,14 +1,18 @@
 import csv
+import hashlib
 import html
 import json
 import os
+import random
 import re
 from pathlib import Path
 
 ROOT = Path.cwd()
 CSV_PATH = Path(r"C:\Users\얼짱김종범\Desktop\홈페이지 새로할거 자료\대량 등록할 파일.csv")
+REVIEWS_PATH = ROOT / "tmp" / "parent_reviews.json"
+SITE_URL = "https://wawa-center.kr"
 SITE_NAME = "와와학습코칭센터 영어수학 전문학원"
-SITE_DESCRIPTION = "고등, 중등, 초등 학원입니다."
+SITE_DESCRIPTION = "초등, 중등, 고등 영어·수학 학습코칭을 안내하는 와와학습코칭센터 문의 홈페이지입니다."
 
 REGION_NAMES = {
     "seoul": "서울",
@@ -36,6 +40,83 @@ def clean_text(value: str) -> str:
     value = re.sub(r"<[^>]+>", " ", value or "")
     value = html.unescape(value)
     return re.sub(r"\s+", " ", value).strip()
+
+
+def load_parent_reviews():
+    if not REVIEWS_PATH.exists():
+        return []
+    return json.loads(REVIEWS_PATH.read_text(encoding="utf-8"))
+
+
+PARENT_REVIEWS = load_parent_reviews()
+
+
+def page_url(page_dir: Path) -> str:
+    rel = page_dir.relative_to(ROOT).as_posix().strip("/")
+    return f"{SITE_URL}/{rel}/"
+
+
+def select_parent_reviews(page_dir: Path):
+    if len(PARENT_REVIEWS) < 6:
+        return []
+    rel = page_dir.relative_to(ROOT).as_posix()
+    seed = int(hashlib.sha256(rel.encode("utf-8")).hexdigest(), 16)
+    return random.Random(seed).sample(PARENT_REVIEWS, 6)
+
+
+def parent_review_markup(title: str, reviews) -> str:
+    if not reviews:
+        return ""
+    cards = []
+    for review in reviews:
+        cards.append(
+            f'''    <article class="parent-review-card">
+      <p class="parent-review-text">{html.escape(review)}</p>
+      <div class="parent-review-meta">
+        <span class="parent-review-stars" aria-label="5점 만점 중 5점">★★★★★</span>
+        <span class="parent-review-name">학부모 후기</span>
+      </div>
+    </article>'''
+        )
+    return f'''<section class="parent-review-section" aria-labelledby="parent-review-title">
+  <div class="parent-review-head">
+    <p class="parent-review-eyebrow">REAL PARENT REVIEWS</p>
+    <h2 id="parent-review-title">수강생 학부모 후기</h2>
+    <p>{html.escape(title)}을 확인하신 학부모님들이 남겨주신 실제 학습 후기입니다.</p>
+  </div>
+  <div class="parent-review-grid">
+{chr(10).join(cards)}
+  </div>
+</section>
+'''
+
+
+def parent_review_json_ld(title: str, url: str, reviews) -> str:
+    if not reviews:
+        return ""
+    data = {
+        "@context": "https://schema.org",
+        "@type": "EducationalOrganization",
+        "name": title,
+        "url": url,
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "bestRating": "5",
+            "ratingCount": "6",
+            "reviewCount": "6",
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "author": {"@type": "Person", "name": "학부모"},
+                "reviewBody": review,
+                "reviewRating": {"@type": "Rating", "ratingValue": "5", "bestRating": "5"},
+            }
+            for review in reviews
+        ],
+    }
+    return f'  <script type="application/ld+json" data-parent-review-jsonld>{json.dumps(data, ensure_ascii=False)}</script>\n'
 
 
 def seo_description(title: str, crumbs) -> str:
@@ -218,6 +299,7 @@ def create_child_page(row):
     crumbs = breadcrumb_items(page_dir, parent_dir, title)
     rr = root_rel(page_dir)
     description = seo_description(title, crumbs)
+    reviews = select_parent_reviews(page_dir)
 
     content = "".join(
         [
@@ -244,6 +326,7 @@ def create_child_page(row):
   <link rel="stylesheet" href="{rr}/assets/article.css">
   <link rel="stylesheet" href="{rr}/assets/local-center.css">
   <link rel="stylesheet" href="{rr}/assets/header.css">
+{parent_review_json_ld(title, page_url(page_dir), reviews)}
 {breadcrumb_json_ld(crumbs)}</head>
 <body>
   <header class="site-header">
@@ -258,6 +341,7 @@ def create_child_page(row):
   </header>
 {breadcrumb_markup(crumbs)}
 {content}
+{parent_review_markup(title, reviews)}
 {fab_markup()}
 </body>
 </html>

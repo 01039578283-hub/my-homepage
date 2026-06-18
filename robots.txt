@@ -1,4 +1,10 @@
 User-agent: *
 Allow: /
 
+User-agent: Yeti
+Allow: /
+
+User-agent: NaverBot
+Allow: /
+
 Sitemap: https://wawa-center.kr/sitemap.xml

@@ -9,7 +9,7 @@ ROOT = Path.cwd()
 CSV_PATH = ROOT / "tmp" / "bulk_pages.csv"
 
 SITE_NAME = "와와학습코칭센터 영어수학 전문학원"
-SITE_DESCRIPTION = "고등, 중등, 초등 학원입니다."
+SITE_DESCRIPTION = "초등, 중등, 고등 영어·수학 학습코칭을 안내하는 와와학습코칭센터 문의 홈페이지입니다."
 
 REGION_NAMES = {
     "seoul": "서울",
