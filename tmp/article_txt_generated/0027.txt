@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>[짧은 소개]</h1>
+  </section>
+  <p class="article-intro">돈암동 영어 수학 학원을 찾고 있다면, 와와학습코칭센터 돈암점에서 학습 코칭과 과목별 맞춤 전략을 함께 시작해보세요. 단순히 문제를 푸는 수업이 아니라, 현재 성적의 원인을 진단하고(진단-처방-점검), 학생별 학습 습관과 공부 루틴을 설계해 꾸준한 성장을 돕습니다. [우리 학원을 선택해야 하는 이유]</p>
+  <section class="article-closing">
+    <p>돈암동 영어 수학 학원, 고민만 오래하다가 성적이 정체되는 경우가 많습니다. 와와학습코칭센터 돈암점은 진단 기반 코칭으로 영어와 수학의 “틀리는 이유”를 잡고, 내신과 시험에서 점수로 이어지도록 체계적으로 관리합니다. 지금 목표 학년과 현재 고민을 기준으로 맞춤 방향을 함께 찾아보세요.</p>
+  </section>
+</main>

@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>[짧은 소개]</h1>
+  </section>
+  <p class="article-intro">죽전동 영어 수학 학원을 찾고 있다면, 와와학습코칭센터 대구장기점이 답입니다. 단순히 문제를 푸는 수업이 아니라 학생의 현재 수준과 학습 습관을 진단해 영어&#183;수학을 “이해?정리?풀이?점검”까지 체계적으로 끌어줍니다. 시험 성적뿐 아니라 공부하는 방식이 달라지는 코칭형 학습센터를 경험해보세요. [우리 학원을 선택해야 하는 이유]</p>
+  <section class="article-closing">
+    <p>죽전동 영어 수학 학원을 찾는다면, 와와학습코칭센터 대구장기점에서 코칭 기반 맞춤 학습으로 영어&#183;수학 성적을 탄탄하게 올려보세요. 상담을 통해 학생에게 맞는 학습 전략을 먼저 확인해드립니다.</p>
+  </section>
+</main>

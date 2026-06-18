@@ -1,0 +1,52 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>하안동 영어&#183;수학 학원, 철산점 와와학습코칭센터에서 학습 습관부터 잡으세요</h1>
+  </section>
+  <p class="article-intro">하안동에서 영어&#183;수학 실력이 고민이라면, 단순 문제풀이보다 “왜 틀리는지”를 진단하고 맞춤 처방을 해주는 학습코칭이 먼저입니다. 와와학습코칭센터 철산점은 학생별 학습 원인을 분석해 학습 계획&#183;피드백&#183;복습 루틴까지 함께 설계하며 성적이 오르는 구조를 만듭니다.</p>
+  <section class="article-section">
+    <h2>우리 학원을 선택해야 하는 이유</h2>
+    <div class="article-card-grid">
+      <article class="article-card">
+        <strong>진단 기반 맞춤 코칭</strong>
+        <p>성적이 아니라 학습 과정(오답 유형&#183;이해도&#183;속도&#183;집중도)을 확인해 처방합니다.</p>
+      </article>
+      <article class="article-card">
+        <strong>영어&#183;수학 핵심을 단계별로 정리</strong>
+        <p>개념-유형-실전으로 이어지는 로드맵을 제공합니다.</p>
+      </article>
+      <article class="article-card">
+        <strong>학습 습관과 복습 시스템</strong>
+        <p>숙제량이 아니라 “복습 타이밍/방식”을 설계해 장기 기억으로 연결합니다.</p>
+      </article>
+      <article class="article-card">
+        <strong>꾸준히 점수로 확인하는 관리</strong>
+        <p>단기 과제 성과뿐 아니라 누적 실력 향상도 함께 관리합니다.</p>
+      </article>
+    </div>
+  </section>
+  <section class="article-section">
+    <h2>과목별 선택 기준</h2>
+    <div class="article-subject-grid">
+      <article class="article-subject-card">
+        <h3>영어가 고민이라면(추천 선택 기준)</h3>
+          <ul>
+            <li>문법은 아는데 독해에서 점수가 안 나오는 경우</li>
+            <li>단어&#183;구문이 누적되기 전에 이해가 끊기는 경우</li>
+            <li>서술형/서면형 문제에서 근거 작성이 약한 경우</li>
+          </ul>
+      </article>
+      <article class="article-subject-card">
+        <h3>수학이 고민이라면(추천 선택 기준)</h3>
+          <ul>
+            <li>개념은 했는데 유형별로 적용이 안 되는 경우</li>
+            <li>계산 실수/부호 실수 때문에 점수가 깎이는 경우</li>
+            <li>시험에서 시간 부족, 풀이가 길어지는 경우</li>
+          </ul>
+      </article>
+    </div>
+  </section>
+  <section class="article-closing">
+    <p>영어&#183;수학은 “열심히”보다 “맞게”가 성적을 만듭니다. 와와학습코칭센터 철산점은 학생별 진단과 코칭을 통해 실력 향상과 학습 습관을 함께 만들어갑니다.</p>
+  </section>
+</main>

@@ -1,0 +1,29 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>다산신도시 영어 수학 학원 “와와학습코칭센터 다산점”은 초등~중등 학생의 성적을 끌어올리기 위해 공부 습관부터 학습 전략, 과목별 맞춤 처방까지 체계적으로 코칭하는 학습코칭센터입니다. 단순 문제풀이가 아니라 “어떤 개념을 왜 놓쳤는지”를 진단하고, 우리 아이의 학습 속도와 이해도에 맞춘 로드맵으로 꾸준한 성장을 돕습니다.</h1>
+  </section>
+  <section class="article-section">
+    <h2>자주 묻는 질문(FAQ)</h2>
+    <div class="article-faq-list">
+      <details class="article-faq" open>
+        <summary>Q1. 다산신도시 영어 수학 학원 선택 시, 성적이 오르려면 뭘 봐야 하나요?</summary>
+      </details>
+      <details class="article-faq">
+        <summary>Q2. 수업은 어떤 학생에게 가장 잘 맞나요?</summary>
+      </details>
+      <details class="article-faq">
+        <summary>Q3. 오답은 어떻게 관리하나요?</summary>
+      </details>
+      <details class="article-faq">
+        <summary>Q4. 집에서 공부를 잘 못하는데 괜찮을까요?</summary>
+      </details>
+      <details class="article-faq">
+        <summary>Q5. 수업을 시작하기 전에 상담/진단은 어떻게 진행되나요?</summary>
+      </details>
+    </div>
+  </section>
+  <section class="article-closing">
+    <p>와와학습코칭센터 다산점은 다산신도시 영어 수학 학원을 찾는 학생들이 “왜 틀리는지”를 알고 “어떻게 고쳐서 점수로 만드는지”까지 이어지게 돕습니다. 지금 우리 아이에게 필요한 코칭으로 성적 상승의 길을 시작해보세요.</p>
+  </section>
+</main>

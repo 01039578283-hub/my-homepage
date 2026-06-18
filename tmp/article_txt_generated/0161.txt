@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>성복동 영어 수학 학원 추천: 와와학습코칭센터 신봉점 학습코칭</h1>
+  </section>
+  <p class="article-intro">성복동에서 영어&#183;수학 실력을 동시에 끌어올리고 싶다면, 체계적인 진단과 맞춤 학습전략을 제공하는 와와학습코칭센터 신봉점이 답입니다. 단순 문제풀이가 아니라 학습 습관, 오답 관리, 개념-실전 연결까지 코칭합니다. 우리 아이의 현재 수준과 목표에 맞춰 공부 방법부터 잡아주는 성복동 영어 수학 학원을 찾고 있다면 지금 확인해보세요.</p>
+  <section class="article-closing">
+    <p>성복동 영어 수학 학원으로 고민 중이라면, 와와학습코칭센터 신봉점에서 아이에게 맞는 학습 전략을 먼저 확인해보세요.</p>
+  </section>
+</main>

@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>거제동 영어&#183;수학 학원, 와와학습코칭센터 사직점이 답입니다</h1>
+  </section>
+  <p class="article-intro">영어와 수학은 성적이 오르기 시작할 때부터 “학습 습관”과 “맞춤 전략”이 함께 굳어져야 합니다. 거제동에서 영어&#183;수학 학원을 찾고 있다면, 단순 문제풀이만이 아니라 학습 코칭으로 원리를 잡고 약점을 보완하며 성취 목표까지 설계해주는 와와학습코칭센터 사직점에 주목해보세요.</p>
+  <section class="article-closing">
+    <p>시험 점수는 “열심히”보다 “맞게” 공부할 때 가장 빨리 오릅니다. 와와학습코칭센터 사직점은 거제동 학생들의 영어&#183;수학 성장을 목표로, 진단-코칭-훈련까지 탄탄하게 연결해드립니다.</p>
+  </section>
+</main>

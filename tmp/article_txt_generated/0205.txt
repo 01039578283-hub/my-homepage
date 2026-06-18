@@ -1,0 +1,55 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>청계동 영어 수학 학원 찾고 있다면, 와와학습코칭센터 영천점에서 학습 코칭부터 실력 향상까지 한 번에 준비하세요. 기초부터 내신&#183;시험 대비까지 학생 수준에 맞춰 학습 전략을 설계하고, 꾸준히 점수로 연결되도록 지도합니다. 단순 문제풀이가 아니라 “어떻게 공부해야 성적이 오르는지”를 코칭하며 학습 습관을 만들어드립니다.</h1>
+  </section>
+  <section class="article-section">
+    <h2>우리 학원을 선택해야 하는 이유</h2>
+    <div class="article-card-grid">
+      <article class="article-card">
+        <strong>진단→계획→피드백의 학습 코칭 시스템</strong>
+        <p>현재 수준과 취약 단원을 분석한 뒤, 시험까지의 로드맵을 짜고 진행 상황을 점검합니다.</p>
+      </article>
+      <article class="article-card">
+        <strong>영어&#183;수학 핵심 개념부터 탄탄하게</strong>
+        <p>문제만 많이 풀기보다 개념 이해-유형 적용-실전 점검 흐름으로 성장을 돕습니다.</p>
+      </article>
+      <article class="article-card">
+        <strong>학습 습관을 잡아 성적이 유지되게</strong>
+        <p>숙제/복습 루틴과 자기주도 학습 방법을 함께 설계해 장기적으로 흔들리지 않는 성적을 목표로 합니다.</p>
+      </article>
+      <article class="article-card">
+        <strong>수준별 맞춤 수업과 과제 관리</strong>
+        <p>학생별 학습량과 난이도를 조절해 “할 수 있는 만큼 꾸준히” 실력이 쌓이도록 지도합니다.</p>
+      </article>
+    </div>
+  </section>
+  <section class="article-section">
+    <h2>자주 묻는 질문(FAQ)</h2>
+    <div class="article-faq-list">
+      <details class="article-faq" open>
+        <summary>Q1. 청계동 영어 수학 학원으로 와야 하나요? 영천점 수업도 가능한가요?</summary>
+        <p>A. 지역 이동 여부와 통학 동선에 따라 상담 후 수업 방식과 운영 정보를 안내해드립니다. 현재 거주지/통학 가능 시간을 알려주시면 가장 적합한 안내를 드릴게요.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q2. 내신 대비가 목표인데, 어떤 방식으로 공부하나요?</summary>
+        <p>A. 학습 진단을 바탕으로 취약 단원을 먼저 잡고, 시험 출제 경향에 맞춘 유형 학습과 반복 복습 루틴으로 내신 대비를 진행합니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q3. 선행을 원하는 학생도 수업을 받을 수 있나요?</summary>
+        <p>A. 가능합니다. 다만 학생의 현재 수준과 학습 습관에 맞춰 “무리한 진도”가 아니라 확실한 기초가 쌓이는 방향으로 계획합니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q4. 영어&#183;수학 둘 다 등록해야 하나요?</summary>
+        <p>A. 꼭 그렇지는 않습니다. 영어 또는 수학 중 필요한 과목부터 시작해도 되고, 학습 고민이 두 과목 모두라면 균형 있게 설계해드립니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q5. 학습 코칭은 수업 외에 어떤 형태로 진행되나요?</summary>
+        <p>A. 수업 중 학습 태도와 이해도를 점검하고, 이후 복습/과제 방향을 함께 정리하는 방식으로 진행됩니다. 학생별 목표에 따라 관리 범위를 맞춰 안내합니다.</p>
+      </details>
+    </div>
+  </section>
+  <section class="article-closing">
+    <p>청계동 영어 수학 학원을 찾는다면, 와와학습코칭센터 영천점에서 학생 수준에 맞춘 맞춤 코칭과 영어&#183;수학 학습 전략으로 “성적이 오르는 공부법”을 만들어보세요. 상담을 통해 현재 고민과 목표를 말씀해주시면, 그에 맞는 학습 로드맵을 제안해드리겠습니다.</p>
+  </section>
+</main>

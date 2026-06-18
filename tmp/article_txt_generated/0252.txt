@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>쌍용동 영어 수학 학원, 와와학습코칭센터 쌍용점 선택 이유</h1>
+  </section>
+  <p class="article-intro">쌍용동에서 영어&#183;수학 실력과 학습 습관을 동시에 잡고 싶다면 와와학습코칭센터 쌍용점이 답입니다. 단순히 문제를 푸는 수업이 아니라, 학생의 현재 수준과 학습 태도를 진단해 목표에 맞는 맞춤 로드맵을 제시합니다. 성적 향상은 물론, 시험 전략과 공부 방법까지 함께 설계해 꾸준히 성장할 수 있게 돕습니다.</p>
+  <section class="article-closing">
+    <p>쌍용동 영어 수학 학원 을 찾는다면, 와와학습코칭센터 쌍용점에서 학생 맞춤 로드맵으로 성적과 공부 습관을 함께 만들어보세요.</p>
+  </section>
+</main>

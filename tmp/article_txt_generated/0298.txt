@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>시지동 영어 수학 학원, 와와학습코칭센터 알파시티점에서 학습 습관부터 성적까지</h1>
+  </section>
+  <p class="article-intro">성적은 열심히만 한다고 오르지 않습니다. “어디가 부족한지 정확히 알고, 그에 맞는 학습 전략으로 꾸준히 실행”할 때 결과가 만들어집니다. 시지동 영어 수학 학원을 찾고 있다면, 체계적인 코칭과 과목별 학습 처방이 함께 운영되는 와와학습코칭센터 알파시티점 을 추천합니다.</p>
+  <section class="article-closing">
+    <p>시지동에서 영어 수학을 제대로 잡고 싶다면, 와와학습코칭센터 알파시티점 에서 진단 기반 학습 설계로 시작해보세요.</p>
+  </section>
+</main>

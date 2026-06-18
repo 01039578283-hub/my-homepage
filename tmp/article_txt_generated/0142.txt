@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>[짧은 소개 문단]</h1>
+  </section>
+  <p class="article-intro">안양동 영어&#183;수학 학원을 찾고 있다면 와와학습코칭센터 비산점이 도와드립니다. 단순히 문제를 푸는 수업에서 끝나지 않고, 학생의 현재 수준과 학습 습관을 점검해 목표 성적에 맞춘 학습 로드맵을 함께 세우는 학습코칭 중심으로 운영됩니다. [우리 학원을 선택해야 하는 이유]</p>
+  <section class="article-closing">
+    <p>안양동 영어 수학 학원 / 와와학습코칭센터 비산점 기준으로 네이버 검색 유입을 고려해 “영어&#183;수학 내신/개념/오답/학습코칭/맞춤” 키워드를 자연스럽게 포함해 구성했습니다.</p>
+  </section>
+</main>

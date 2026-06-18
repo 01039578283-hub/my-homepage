@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>광장동 영어 수학 학원 추천: 와와학습코칭센터 광장점</h1>
+  </section>
+  <p class="article-intro">광장동에서 영어와 수학을 함께 잡고 싶다면, 체계적인 학습 코칭과 단계별 실력 관리를 제공하는 와와학습코칭센터 광장점 을 추천합니다. 단순히 문제를 푸는 수업을 넘어, 학생의 현재 수준과 학습 습관을 진단하고 학습 전략을 설계해 꾸준한 성장을 돕습니다.</p>
+  <section class="article-closing">
+    <p>광장동 영어 수학 학원을 찾는다면, 와와학습코칭센터 광장점 에서 진단 기반 맞춤 코칭으로 영어&#183;수학 실력을 함께 끌어올려 보세요.</p>
+  </section>
+</main>

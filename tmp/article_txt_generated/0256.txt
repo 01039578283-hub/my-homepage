@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>[도입]</h1>
+  </section>
+  <p class="article-intro">성화동 영어 수학 학원을 찾고 있다면, 단순 문제풀이보다 “학습 습관-개념-풀이력”을 함께 잡아주는 코칭형 학원을 선택하는 것이 중요합니다. 와와학습코칭센터 개신점은 학생의 현재 수준을 정확히 진단하고, 과목별 학습 전략을 세워 성적 향상으로 연결되게 돕습니다. [우리 학원을 선택해야 하는 이유]</p>
+  <section class="article-closing">
+    <p>성화동 영어 수학 학원을 찾는다면, 실력 향상이 “가능한 구조”로 설계되는 코칭형 학원이 답입니다. 와와학습코칭센터 개신점에서 영어&#183;수학을 함께 잡고, 시험에서 점수로 이어지는 학습을 시작해보세요.</p>
+  </section>
+</main>

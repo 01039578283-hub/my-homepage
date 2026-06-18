@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>사직동 영어 수학 학원, 와와학습코칭센터 사직점으로 학습 습관부터 탄탄하게</h1>
+  </section>
+  <p class="article-intro">사직동에서 영어&#183;수학 학원을 찾고 있다면, 단순히 문제 풀이만 반복하는 수업보다 “학생의 현재 수준을 정확히 진단하고, 약점을 메우는 학습 코칭”이 가능한 곳을 선택하는 것이 중요합니다. 와와학습코칭센터 사직점은 학습 습관과 성취 전략을 함께 설계해, 아이가 스스로 공부할 수 있는 힘을 키우는 사직동 영어 수학 학원입니다.</p>
+  <section class="article-closing">
+    <p>사직동 영어 수학 학원으로 와와학습코칭센터 사직점을 선택하고, 우리 아이에게 맞는 학습 전략으로 성적과 자신감 두 마리 토끼를 잡아보세요.</p>
+  </section>
+</main>

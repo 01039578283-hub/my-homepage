@@ -1,0 +1,865 @@
+﻿<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>학원소개 | 와와학습코칭센터 영어수학 전문학원</title>
+  <meta property="og:title" content="학원소개 | 와와학습코칭센터 영어수학 전문학원">
+  <meta name="robots" content="index, follow">
+  <meta name="description" content="고등, 중등, 초등 학원입니다.">
+  <meta name="application-name" content="와와학습코칭센터 영어수학 전문학원">
+  <meta name="tagline" content="고등, 중등, 초등 학원입니다.">
+  <meta property="og:site_name" content="와와학습코칭센터 영어수학 전문학원">
+  <meta property="og:description" content="와와학습코칭센터의 영어·수학 학습코칭 방향, 수업 특징, 학습 관리 방식을 확인해보세요.">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "홈", "item": "index.html"}, {"@type": "ListItem", "position": 2, "name": "학원소개"}]}</script>
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="apple-touch-icon" href="assets/favicon.png">
+  <link rel="stylesheet" href="assets/fab.css">
+  <style>
+    :root {
+      --primary: #17306f;
+      --primary-dark: #08111f;
+      --accent: #f26d21;
+      --ink: #101827;
+      --muted: #5f6b7a;
+      --line: #d9e1ec;
+      --soft: #f3f6fa;
+      --white: #ffffff;
+      --shadow: 0 18px 42px rgba(16, 24, 39, 0.1);
+      --shadow-soft: 0 10px 28px rgba(16, 24, 39, 0.07);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
+      line-height: 1.65;
+      word-break: keep-all;
+      background: #f7f9fc;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      border-bottom: 1px solid rgba(217, 225, 236, 0.72);
+      background: rgba(255, 255, 255, 0.88);
+      box-shadow: 0 10px 28px rgba(16, 24, 39, 0.04);
+      backdrop-filter: blur(14px);
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: min(1180px, calc(100% - 40px));
+      min-height: 72px;
+      margin: 0 auto;
+      gap: 18px;
+    }
+
+    .logo {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      color: #10275c;
+      font-size: 19px;
+      font-weight: 900;
+      white-space: nowrap;
+    }
+
+    .logo::before {
+      display: inline-block;
+      width: 10px;
+      height: 28px;
+      border-radius: 999px;
+      background: linear-gradient(180deg, var(--accent), var(--primary));
+      content: "";
+    }
+
+    .logo strong {
+      color: var(--accent);
+    }
+
+    .nav-links {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 2px;
+      padding: 4px;
+      border: 1px solid rgba(217, 225, 236, 0.9);
+      border-radius: 999px;
+      color: #475569;
+      background: rgba(248, 250, 252, 0.9);
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .nav-links a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 38px;
+      padding: 0 15px;
+      border-radius: 999px;
+      white-space: nowrap;
+      transition: color 0.18s ease, background 0.18s ease, box-shadow 0.18s ease;
+    }
+
+    .nav-links a:hover,
+    .nav-links .active {
+      color: #10275c;
+      background: var(--white);
+      box-shadow: 0 8px 18px rgba(16, 24, 39, 0.07);
+    }
+
+    main {
+      overflow: hidden;
+    }
+
+    .wawa-program-wrapper {
+      color: var(--ink);
+      background: #f7f9fc;
+    }
+
+    .program-hero {
+      position: relative;
+      min-height: 560px;
+      display: grid;
+      align-content: center;
+      padding: 96px 20px 118px;
+      color: var(--white);
+      text-align: center;
+      overflow: hidden;
+      background: var(--primary-dark);
+    }
+
+    .program-hero::before {
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(180deg, rgba(8, 17, 31, 0.7), rgba(8, 17, 31, 0.9)),
+        linear-gradient(90deg, rgba(8, 17, 31, 0.9), rgba(23, 48, 111, 0.52)),
+        url("assets/academy-hero.png") center / cover no-repeat;
+      content: "";
+    }
+
+    .program-hero::after {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      height: 86px;
+      background: linear-gradient(180deg, rgba(247, 249, 252, 0), #f7f9fc);
+      content: "";
+    }
+
+    .program-hero h2,
+    .program-hero h1,
+    .program-hero p {
+      position: relative;
+      z-index: 1;
+      width: min(820px, calc(100% - 32px));
+      margin-right: auto;
+      margin-left: auto;
+    }
+
+    .program-hero h2 {
+      display: inline-flex;
+      width: fit-content;
+      min-height: 34px;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 18px;
+      padding: 0 13px;
+      border: 1px solid rgba(255, 255, 255, 0.22);
+      border-radius: 999px;
+      color: #ffd3b5;
+      background: rgba(255, 255, 255, 0.1);
+      font-size: 13px;
+      font-weight: 900;
+      letter-spacing: 0.04em;
+    }
+
+    .program-hero h1 {
+      margin-top: 0;
+      margin-bottom: 20px;
+      font-size: clamp(34px, 5.5vw, 62px);
+      line-height: 1.18;
+      font-weight: 900;
+      letter-spacing: 0;
+    }
+
+    .program-hero p {
+      max-width: 650px;
+      color: rgba(255, 255, 255, 0.8);
+      font-size: 17px;
+    }
+
+    .wawa-program-wrapper > section,
+    .program-footer-banner {
+      width: min(1180px, calc(100% - 40px));
+      margin: 0 auto;
+    }
+
+    .wawa-program-wrapper > section {
+      padding: 96px 0;
+    }
+
+    .p-section-title {
+      max-width: 720px;
+      margin: 0 auto 42px;
+      text-align: center;
+    }
+
+    .p-section-title h3 {
+      margin: 0;
+      color: #0c1729;
+      font-size: clamp(28px, 3.7vw, 42px);
+      line-height: 1.25;
+      font-weight: 900;
+    }
+
+    .p-section-title p {
+      margin: 12px auto 0;
+      color: #667386;
+      font-size: 16px;
+    }
+
+    .level-card {
+      position: relative;
+      padding: 34px;
+      margin-bottom: 20px;
+      border: 1px solid rgba(217, 225, 236, 0.95);
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.96);
+      box-shadow: var(--shadow-soft);
+      overflow: hidden;
+      transition: transform 0.18s ease, box-shadow 0.18s ease;
+    }
+
+    .level-card:hover {
+      transform: translateY(-3px);
+      box-shadow: var(--shadow);
+    }
+
+    .level-card::before {
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      height: 4px;
+      background: linear-gradient(90deg, var(--primary), var(--accent));
+      content: "";
+    }
+
+    .level-badge {
+      display: inline-flex;
+      align-items: center;
+      min-height: 30px;
+      padding: 0 12px;
+      border-radius: 999px;
+      color: var(--white);
+      font-size: 12px;
+      font-weight: 900;
+    }
+
+    .badge-elem {
+      background: #059669;
+    }
+
+    .badge-mid {
+      background: var(--accent);
+    }
+
+    .badge-high {
+      background: var(--primary);
+    }
+
+    .level-card h4 {
+      margin: 16px 0 8px;
+      color: #0c1729;
+      font-size: 22px;
+      line-height: 1.35;
+      font-weight: 900;
+    }
+
+    .level-summary {
+      margin: 0 0 18px;
+      padding-bottom: 18px;
+      border-bottom: 1px solid #e9eef5;
+      color: #667386;
+      font-size: 15px;
+      font-weight: 700;
+    }
+
+    .level-list {
+      display: grid;
+      gap: 10px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .level-list li {
+      position: relative;
+      padding-left: 18px;
+      color: #4d5a6b;
+      font-size: 15px;
+    }
+
+    .level-list li::before {
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+      font-weight: 900;
+      content: "•";
+    }
+
+    .bg-gray-section {
+      width: 100% !important;
+      max-width: none;
+      padding: 96px max(20px, calc((100vw - 1180px) / 2)) !important;
+      border-top: 1px solid rgba(217, 225, 236, 0.72);
+      border-bottom: 1px solid rgba(217, 225, 236, 0.72);
+      background: #eef3f8;
+    }
+
+    .subject-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 20px;
+    }
+
+    .subject-box {
+      overflow: hidden;
+      border: 1px solid rgba(217, 225, 236, 0.95);
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.96);
+      box-shadow: var(--shadow-soft);
+    }
+
+    .sub-header {
+      padding: 14px 18px;
+      color: var(--white);
+      font-size: 15px;
+      font-weight: 900;
+      text-align: center;
+    }
+
+    .math-color {
+      background: #b91c1c;
+    }
+
+    .eng-color {
+      background: var(--primary);
+    }
+
+    .kor-color {
+      background: #047857;
+    }
+
+    .sub-body {
+      padding: 26px 22px;
+    }
+
+    .sub-body h5 {
+      margin: 0 0 8px;
+      color: #0c1729;
+      font-size: 18px;
+      line-height: 1.35;
+      font-weight: 900;
+    }
+
+    .sub-body p {
+      margin: 0;
+      color: #5f6b7a;
+      font-size: 15px;
+    }
+
+    .special-step {
+      display: grid;
+      grid-template-columns: 54px 1fr;
+      gap: 18px;
+      padding: 28px;
+      margin-bottom: 18px;
+      border: 1px solid rgba(217, 225, 236, 0.95);
+      border-radius: 8px;
+      background: var(--white);
+      box-shadow: var(--shadow-soft);
+    }
+
+    .step-num-box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 54px;
+      height: 54px;
+      border-radius: 50%;
+      color: var(--white);
+      background: #10275c;
+      font-size: 16px;
+      font-weight: 900;
+      box-shadow: 0 10px 20px rgba(23, 48, 111, 0.18);
+    }
+
+    .step-content-box h4 {
+      margin: 0 0 6px;
+      color: #0c1729;
+      font-size: 20px;
+      line-height: 1.35;
+      font-weight: 900;
+    }
+
+    .step-content-box p {
+      margin: 0;
+      color: #5f6b7a;
+      font-size: 15px;
+    }
+
+    .program-footer-banner {
+      margin-bottom: 96px;
+      padding: 52px 38px;
+      border-radius: 8px;
+      color: var(--white);
+      text-align: center;
+      background:
+        linear-gradient(135deg, rgba(8, 17, 31, 0.96), rgba(23, 48, 111, 0.96)),
+        url("assets/academy-hero.png") center / cover no-repeat;
+      box-shadow: 0 22px 50px rgba(16, 24, 39, 0.15);
+    }
+
+    .program-footer-banner h3 {
+      margin: 0;
+      font-size: clamp(25px, 4vw, 36px);
+      line-height: 1.25;
+      font-weight: 900;
+    }
+
+    .program-footer-banner p {
+      max-width: 620px;
+      margin: 12px auto 26px;
+      color: rgba(255, 255, 255, 0.76);
+      font-size: 16px;
+    }
+
+    .p-btn-cta {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 54px;
+      min-width: min(100%, 360px);
+      padding: 0 22px;
+      border-radius: 8px;
+      color: var(--white) !important;
+      background: linear-gradient(135deg, #fb7a2b, var(--accent));
+      box-shadow: 0 14px 30px rgba(242, 109, 33, 0.26);
+      font-size: 15px;
+      font-weight: 900;
+    }
+
+    .site-footer {
+      padding: 52px 20px 110px;
+      color: #94a3b8;
+      background: #08111f;
+      text-align: center;
+      font-size: 13px;
+    }
+
+    .footer-logo {
+      margin-bottom: 12px;
+      color: var(--white);
+      font-size: 18px;
+      font-weight: 900;
+    }
+
+    .site-footer p {
+      margin: 6px 0;
+    }
+
+    .footer-call {
+      display: inline-flex;
+      margin-top: 12px;
+      color: #fed7aa;
+      font-size: 18px;
+      font-weight: 900;
+    }
+
+    .wawa-fixed-fab-container {
+      position: fixed;
+      right: 20px;
+      bottom: 30px;
+      z-index: 999999;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      font-family: "Noto Sans KR", sans-serif;
+    }
+
+    .wawa-fab-item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 12px 18px;
+      border-radius: 30px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      font-size: 13px;
+      font-weight: 700;
+      text-decoration: none !important;
+      transition: transform 0.2s ease, background-color 0.2s ease;
+    }
+
+    .wawa-fab-item:active {
+      transform: scale(0.95);
+    }
+
+    .wawa-fab-item .fab-icon {
+      font-size: 14px;
+    }
+
+    .fab-call {
+      color: #ffffff !important;
+      background-color: #f97316;
+    }
+
+    .fab-sms {
+      color: #ffffff !important;
+      background-color: #334155;
+    }
+
+    .fab-consult {
+      color: #ffffff !important;
+      background-color: #1e3a8a;
+    }
+
+    .pulse-effect {
+      animation: wawaBluePulse 2s infinite;
+    }
+
+    @keyframes wawaBluePulse {
+      0% {
+        box-shadow: 0 0 0 0 rgba(30, 58, 138, 0.6);
+      }
+      70% {
+        box-shadow: 0 0 0 12px rgba(30, 58, 138, 0);
+      }
+      100% {
+        box-shadow: 0 0 0 0 rgba(30, 58, 138, 0);
+      }
+    }
+
+    @media (max-width: 760px) {
+      .subject-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 560px) {
+      .site-header {
+        background: rgba(255, 255, 255, 0.94);
+      }
+
+      .nav {
+        width: min(100% - 24px, 1180px);
+        min-height: 58px;
+        gap: 10px;
+      }
+
+      .logo {
+        gap: 7px;
+        font-size: 14px;
+      }
+
+      .logo::before {
+        width: 8px;
+        height: 23px;
+      }
+
+      .nav-links {
+        gap: 2px;
+        padding: 3px;
+        font-size: 12px;
+      }
+
+      .nav-links a {
+        min-height: 32px;
+        padding: 0 7px;
+      }
+
+      .program-hero {
+        min-height: 560px;
+        padding: 76px 20px 94px;
+      }
+
+      .program-hero::before {
+        background:
+          linear-gradient(180deg, rgba(8, 17, 31, 0.54) 0%, rgba(8, 17, 31, 0.72) 43%, rgba(8, 17, 31, 0.92) 100%),
+          url("assets/academy-hero.png") center top / cover no-repeat;
+      }
+
+      .program-hero h2 {
+        min-height: 31px;
+        font-size: 12px;
+      }
+
+      .program-hero h1 {
+        font-size: 34px;
+      }
+
+      .program-hero p {
+        font-size: 15px;
+      }
+
+      .wawa-program-wrapper > section,
+      .program-footer-banner {
+        width: min(100% - 32px, 1180px);
+      }
+
+      .wawa-program-wrapper > section,
+      .bg-gray-section {
+        padding-top: 72px !important;
+        padding-bottom: 72px !important;
+      }
+
+      .p-section-title {
+        margin-bottom: 32px;
+      }
+
+      .level-card {
+        padding: 26px 22px;
+      }
+
+      .level-card h4,
+      .step-content-box h4 {
+        font-size: 18px;
+      }
+
+      .special-step {
+        grid-template-columns: 44px 1fr;
+        gap: 14px;
+        padding: 24px 20px;
+      }
+
+      .step-num-box {
+        width: 44px;
+        height: 44px;
+        font-size: 14px;
+      }
+
+      .program-footer-banner {
+        margin-bottom: 72px;
+        padding: 34px 20px;
+      }
+
+      .wawa-fixed-fab-container {
+        right: 15px;
+        bottom: 20px;
+        gap: 8px;
+      }
+
+      .wawa-fab-item {
+        padding: 10px 14px;
+        box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+        font-size: 12px;
+      }
+    }
+
+    @media (max-width: 390px) {
+      .logo {
+        font-size: 13px;
+      }
+
+      .nav-links {
+        font-size: 11px;
+      }
+
+      .nav-links a {
+        padding: 0 5px;
+      }
+    }
+  </style>
+  <link rel="stylesheet" href="assets/header.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="주요 메뉴">
+      <a class="logo" href="index.html"><span class="brand-orange">와와</span>학습<span class="brand-orange">코칭</span>센터 <span class="brand-tail">영어수학 전문학원</span></a>
+      <div class="nav-links" aria-label="페이지 이동">
+        <a href="index.html">홈</a>
+        <a class="active" href="overview.html">학원소개</a>
+        <a href="center.html">전국센터</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 와와학습코칭센터 프로그램 안내 페이지 HTML -->
+    <div class="wawa-program-wrapper">
+
+        <!-- 상단 히어로 배너 -->
+        <div class="program-hero">
+            <h2>WAWA COACHING PROGRAM</h2>
+            <h1>무조건 외우는 주입식 교육은 가라!<br>아이에 맞춘 1:1 맞춤 커리큘럼</h1>
+            <p>와와는 단순한 지식 전달을 넘어, 아이가 스스로 공부할 수 있는 '방법'과 '습관'을 과목별 전문 코칭을 통해 설계합니다.</p>
+        </div>
+
+        <!-- 섹션 1: 대상별 맞춤 커리큘럼 -->
+        <section>
+            <div class="p-section-title">
+                <h3>대상별 코칭 커리큘럼</h3>
+                <p>초등부터 고등까지, 학년별 성장 단계에 맞춘 최적의 로드맵을 제안합니다.</p>
+            </div>
+
+            <!-- 초등 카드 -->
+            <div class="level-card">
+                <div class="level-badge badge-elem">초등과정 (초1 ~ 초6)</div>
+                <h4>올바른 공부 습관 형성과 학습 흥미 유발</h4>
+                <p class="level-summary">공부 근육을 키우는 첫걸음, 자기주도학습의 기초를 튼튼하게 다집니다.</p>
+                <ul class="level-list">
+                    <li><strong>교과 개념 다지기:</strong> 국·영·수 기초 학력 점검 및 기본 개념 완벽 이해</li>
+                    <li><strong>공부 습관 정립:</strong> 매일 정해진 분량을 스스로 계획하고 실천하는 훈련</li>
+                    <li><strong>독서 및 문해력 강화:</strong> 모든 교과의 기본이 되는 서술형 대비 문해력 코칭</li>
+                </ul>
+            </div>
+
+            <!-- 중등 카드 -->
+            <div class="level-card">
+                <div class="level-badge badge-mid">중등과정 (중1 ~ 중3)</div>
+                <h4>철저한 내신 완벽 대비 및 취약점 완파</h4>
+                <p class="level-summary">자유학기제 활용부터 고등학교 진학을 위한 성적 상위권 도약을 준비합니다.</p>
+                <ul class="level-list">
+                    <li><strong>학교별 내신 완벽 분석:</strong> 중간·기말고사 기출 분석 및 맞춤형 문제 풀이</li>
+                    <li><strong>서술형·수행평가 관리:</strong> 비중이 높아진 수행평가 및 까다로운 서술형 감점 방지 지도</li>
+                    <li><strong>고등 선행 및 심화:</strong> 고등학교 진학 후 무너지지 않는 과목별 심화 학습</li>
+                </ul>
+            </div>
+
+            <!-- 고등 카드 -->
+            <div class="level-card">
+                <div class="level-badge badge-high">고등과정 (고1 ~ 고3)</div>
+                <h4>대입 전략 수립 및 수능·내신 동시 마스터</h4>
+                <p class="level-summary">등급을 결정짓는 킬러 문항 정복과 입시 목표에 맞춘 초밀착 스케줄 관리를 진행합니다.</p>
+                <ul class="level-list">
+                    <li><strong>내신 1등급 목표 관리:</strong> EBS 연계 교재 및 학교별 부교재, 외부 지문 완벽 분석</li>
+                    <li><strong>수능 및 모의고사 대비:</strong> 취약 단원 정밀 진단 후 오답률 높은 문항 집중 클리닉</li>
+                    <li><strong>개인별 입시 코칭:</strong> 목표 대학 및 전형에 맞춘 학습 밸런스 유지 가이드</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- 섹션 2: 과목별 집중 코칭 시스템 -->
+        <section class="bg-gray-section">
+            <div class="p-section-title">
+                <h3>국·영·수 핵심 과목 지도 방식</h3>
+                <p>와와학습코칭센터만의 과목별 전문 자격 코치진이 지도하는 차별화된 방식입니다.</p>
+            </div>
+
+            <div class="subject-grid">
+                <!-- 수학 -->
+                <div class="subject-box">
+                    <div class="sub-header math-color">수학 코칭</div>
+                    <div class="sub-body">
+                        <h5>개념 구멍 제로! 오답노트 밀착 케어</h5>
+                        <p>눈으로만 보는 수학은 끝. 공식의 원리를 완벽하게 백지에 서술할 수 있을 때까지 반복 지도하며, 틀린 문제는 반드시 유사 유형까지 엮어 3회 이상 오답 클리닉을 진행합니다.</p>
+                    </div>
+                </div>
+
+                <!-- 영어 -->
+                <div class="subject-box">
+                    <div class="sub-header eng-color">영어 코칭</div>
+                    <div class="sub-body">
+                        <h5>어휘부터 구조 독해, 변형 문제까지</h5>
+                        <p>단순 암기식 영어에서 벗어나 문장 구조분석을 통한 직독직해 능력을 키웁니다. 내신 기간에는 교과서 외 외부 지문 및 모의고사 변형 문제까지 완벽 대비합니다.</p>
+                    </div>
+                </div>
+
+                <!-- 국어 -->
+                <div class="subject-box">
+                    <div class="sub-header kor-color">국어/논술 코칭</div>
+                    <div class="sub-body">
+                        <h5>지문 독해력 강화 및 서술형 감점 제로</h5>
+                        <p>길어지는 지문과 융합 지문에 당황하지 않도록 비문학/문학 영역별 독해법을 훈련합니다. 감점 없는 깨끗한 서술형 답안 작성을 위한 1:1 대면 첨삭을 진행합니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 섹션 3: 와와 3대 특화 시스템 -->
+        <section>
+            <div class="p-section-title">
+                <h3>성적 향상을 이끄는 3대 특화 프로그램</h3>
+                <p>단순 수업에서 끝나지 않고 아이를 변화시키는 와와만의 강력한 무기입니다.</p>
+            </div>
+
+            <div class="special-step">
+                <div class="step-num-box">01</div>
+                <div class="step-content-box">
+                    <h4>스마트 학습 플래너 작성</h4>
+                    <p>매주 선생님과 함께 일주일간의 우선순위 학습 계획을 직접 수립합니다. 실천 여부를 매일 점검받으며 '공부 낭비 시간'을 완벽히 제거합니다.</p>
+                </div>
+            </div>
+
+            <div class="special-step">
+                <div class="step-num-box">02</div>
+                <div class="step-content-box">
+                    <h4>메타인지 훈련 (백지노트 &amp; 설명하기)</h4>
+                    <p>내가 아는 것과 모르는 것을 정확하게 구별하는 훈련입니다. 배운 내용을 스스로 백지에 정리하거나 코칭 선생님에게 직접 역으로 설명해보며 개념을 완벽하게 내 것으로 만듭니다.</p>
+                </div>
+            </div>
+
+            <div class="special-step">
+                <div class="step-num-box">03</div>
+                <div class="step-content-box">
+                    <h4>월간 종합 성장 리포트 발행</h4>
+                    <p>학생의 출결, 성취도 평가 결과, 플래너 달성률, 과목별 진도 현황을 정밀 분석한 정기 리포트를 매월 학부모님께 발행하고 맞춤 피드백 상담을 진행합니다.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 하단 신청 유도 CTA 배너 -->
+        <div class="program-footer-banner">
+            <h3>우리 아이를 위한 단 하나의 맞춤 커리큘럼</h3>
+            <p>지금 무료 상담 신청을 남겨주시면 가까운 지점의 전문 코칭 선생님이 아이의 현재 학습 성향과 정밀 진단을 함께 도와드립니다.</p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdb2oE5Qk5YS0TfYDxyV1w-IOTkhkjOCmmpAKTI9FmqpVj6Yg/viewform" target="_blank" class="p-btn-cta">1:1 맞춤 학습 프로그램 상담 신청하기 →</a>
+        </div>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-logo"><span class="brand-orange">와와</span>학습<span class="brand-orange">코칭</span>센터 <span class="brand-tail">영어수학 전문학원</span></div>
+    <p>전국 주요 지역 상담 및 학습 코칭 운영</p>
+    <p>본 페이지는 모바일 접근성과 가독성을 고려해 제작된 학원소개 페이지입니다.</p>
+    <a class="footer-call" href="tel:01039578283">010-3957-8283</a>
+  </footer>
+
+  <div class="wawa-fixed-fab-container">
+      <a href="tel:010-3957-8283" class="wawa-fab-item fab-call">
+          <span class="fab-icon">📞</span>
+          <span class="fab-text">전화문의</span>
+      </a>
+      <a href="https://blogsms.net/01039578283" target="_blank" class="wawa-fab-item fab-sms">
+          <span class="fab-icon">💬</span>
+          <span class="fab-text">문자문의</span>
+      </a>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSdb2oE5Qk5YS0TfYDxyV1w-IOTkhkjOCmmpAKTI9FmqpVj6Yg/viewform" target="_blank" class="wawa-fab-item fab-consult pulse-effect">
+          <span class="fab-icon">📝</span>
+          <span class="fab-text">상담신청</span>
+      </a>
+  </div>
+</body>
+</html>

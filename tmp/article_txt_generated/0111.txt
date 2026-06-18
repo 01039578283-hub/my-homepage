@@ -1,0 +1,9 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>[GPT ERROR] Invalid temperature: &quot;와와학습코칭센터 수진점&quot;. Temperature must be a number between 0 and 2.</h1>
+  </section>
+  <section class="article-closing">
+    <p>[GPT ERROR] Invalid temperature: &quot;와와학습코칭센터 수진점&quot;. Temperature must be a number between 0 and 2.</p>
+  </section>
+</main>

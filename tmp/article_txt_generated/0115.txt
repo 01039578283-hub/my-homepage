@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>[도입 소개]</h1>
+  </section>
+  <p class="article-intro">여수동 영어 수학 학원을 찾고 있나요? 와와학습코칭센터 야탑점은 학생의 현재 수준과 학습 습관을 먼저 점검한 뒤, 영어&#183;수학을 “성적이 오르는 방식”으로 설계해주는 학습코칭 기반 학원입니다. 단순 문제풀이가 아니라 목표(내신/시험/학습태도)까지 연결되는 수업으로 꾸준한 성장을 돕습니다. [우리 학원을 선택해야 하는 이유]</p>
+  <section class="article-closing">
+    <p>4) 학원 위치(여수동 기준으로 네이버 지도에 쓸 만한 주변 지명/역/도로명)</p>
+  </section>
+</main>

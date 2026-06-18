@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>용산동 영어 수학 학원 “와와학습코칭센터 이곡점”에서 기초부터 내신까지 한 번에 잡아보세요. 성적이 오르지 않는 이유는 대부분 “공부 방법의 문제”와 “부족한 단원의 누적”에서 시작됩니다. 와와학습코칭센터 이곡점은 영어&#183;수학을 중심으로 학생별 학습 상태를 먼저 진단하고, 목표(내신/시험/학기 성적)에 맞춘 맞춤 코칭으로 학습 습관과 이해도를 동시에 끌어올리는 학습 설계를 제공합니다.</h1>
+  </section>
+  <p class="article-intro">우리 학원을 선택해야 하는 이유</p>
+  <section class="article-closing">
+    <p>그 정보를 반영해 더 “네이버 검색형” 문구로 구체화해서 재작성해드릴게요.</p>
+  </section>
+</main>

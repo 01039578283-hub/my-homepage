@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>반달마을 영어&#183;수학 학원 추천: 와와학습코칭센터 반달점</h1>
+  </section>
+  <p class="article-intro">반달마을에서 영어와 수학을 함께 잡아야 하는데, 학원은 많은데 “무엇부터 어떻게 해야 하는지”가 막막하셨나요? 와와학습코칭센터 반달점은 아이의 현재 실력과 학습 습관을 바탕으로 학습 전략을 세우고, 수업-복습-점검 흐름이 이어지도록 코칭합니다. 단순히 문제를 푸는 수업에서 끝나지 않고, 성적이 오르는 방식으로 학습 방향을 잡아주는 반달마을 영어 수학 학원입니다.</p>
+  <section class="article-closing">
+    <p>반달마을 영어&#183;수학 학원을 찾고 있다면, 체계적인 코칭과 학습 흐름이 있는 와와학습코칭센터 반달점 을 만나보세요.</p>
+  </section>
+</main>

@@ -1,0 +1,29 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>노변동 영어 수학 학원 찾고 있다면, 와와학습코칭센터 알파시티점이 답입니다. “단순 문제풀이”가 아니라 학생의 학습 습관과 약점을 먼저 진단하고, 영어&#183;수학을 중심으로 학습 계획을 꾸준히 설계해주는 학습코칭센터입니다. 기초 개념부터 내신&#183;단기 실력 향상까지, 학년별로 다른 목표에 맞춰 전략적으로 지도합니다.</h1>
+  </section>
+  <section class="article-section">
+    <h2>자주 묻는 질문(FAQ)</h2>
+    <div class="article-faq-list">
+      <details class="article-faq" open>
+        <summary>Q1. 영어와 수학 중 하나만 들어도 되나요?</summary>
+      </details>
+      <details class="article-faq">
+        <summary>Q2. 내신 대비가 가능한가요?</summary>
+      </details>
+      <details class="article-faq">
+        <summary>Q3. 학습 습관(숙제/복습) 관리도 해주나요?</summary>
+      </details>
+      <details class="article-faq">
+        <summary>Q4. 진단은 어떻게 진행되나요?</summary>
+      </details>
+      <details class="article-faq">
+        <summary>Q5. 수업 시간/요일은 어떻게 맞추나요?</summary>
+      </details>
+    </div>
+  </section>
+  <section class="article-closing">
+    <p>노변동 영어 수학 학원, 와와학습코칭센터 알파시티점에서 시작해보세요. “열심히”가 아니라 “성적이 오르는 방식”으로 영어&#183;수학을 체계적으로 준비할 수 있습니다.</p>
+  </section>
+</main>

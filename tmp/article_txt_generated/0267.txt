@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>본리동 영어 수학 학원을 찾고 있다면, 와와학습코칭센터 대구장기점에서 아이의 현재 수준을 정확히 진단하고 학습 습관부터 탄탄하게 설계해 보세요. 단순한 문제풀이가 아니라, 영어와 수학 성적이 오르는 과정을 “진단?처방?관리”로 체계화했습니다. 아이가 스스로 공부할 수 있게 만드는 코칭 방식이 본리동 학부모님들께 특히 인기가 많습니다.</h1>
+  </section>
+  <p class="article-intro">우리 학원을 선택해야 하는 이유</p>
+  <section class="article-closing">
+    <p>대구장기점 와와학습코칭센터는 “본리동 영어 수학 학원”을 찾는 학생에게 필요한 것은 단순 학원 수업이 아니라, 성적이 오르는 학습 구조라고 믿습니다. 지금 아이의 수준을 점검하고, 영어와 수학을 함께 완성하는 방향으로 시작해 보세요.</p>
+  </section>
+</main>

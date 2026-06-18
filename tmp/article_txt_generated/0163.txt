@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>영덕동 영어 수학 학원, 와와학습코칭센터 흥덕점에서 시작하세요. 영어와 수학은 단기간에 성적이 오르기보다, 개념-문제풀이-개별 피드백의 흐름이 꾸준히 쌓일 때 가장 빠르게 실력이 됩니다. 와와학습코칭센터 흥덕점은 영덕동 학생들의 학습 상황을 진단하고, 목표에 맞춘 학습 코칭과 체계적인 수업으로 성적 향상에 집중합니다.</h1>
+  </section>
+  <p class="article-intro">[우리 학원을 선택해야 하는 이유]</p>
+  <section class="article-closing">
+    <p>원하시면, 학생 학년(초/중/고), 현재 성적대(대략), 가장 어려운 단원(또는 오답 유형)만 알려주시면 “영덕동 영어 수학 학원 상담용”으로 더 구체적인 맞춤 원고 버전도 만들어드릴게요.</p>
+  </section>
+</main>

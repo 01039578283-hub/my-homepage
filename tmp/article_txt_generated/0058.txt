@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>탄현동 영어&#183;수학 학원, 와와학습코칭센터 탄현점에서 맞춤 학습 코칭 시작</h1>
+  </section>
+  <p class="article-intro">탄현동에서 영어와 수학을 제대로 잡고 싶다면, 와와학습코칭센터 탄현점이 답입니다. 단순 문제풀이를 넘어 학생의 현재 수준을 진단하고, 약점과 학습 습관을 함께 분석해 성적이 오르는 학습 전략을 설계합니다. 과목별 목표를 명확히 세우고 꾸준히 관리하는 코칭 시스템으로 성적 변화를 체감해보세요.</p>
+  <section class="article-closing">
+    <p>키워드: 탄현동 영어 학원, 탄현동 수학 학원, 탄현역 영어 수학 학원, 내신 대비 영어, 내신 대비 수학, 영어 문법, 수학 오답 관리, 초등 영어, 중등 수학, 탄현동 학습코칭</p>
+  </section>
+</main>

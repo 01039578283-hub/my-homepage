@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>[소개]</h1>
+  </section>
+  <p class="article-intro">야탑동 영어 수학 학원 찾고 있다면, 체계적인 학습코칭과 성적 향상 관리가 함께 되는 와와학습코칭센터 야탑점에 주목해 보세요. 단순 문제풀이가 아니라 학생의 현재 수준과 학습 습관을 진단해 목표 성적까지 로드맵을 설계합니다. [우리 학원을 선택해야 하는 이유]</p>
+  <section class="article-closing">
+    <p>야탑동 영어 수학 학원에서 고민 중이라면, 진단과 코칭으로 학습을 설계해 주는 와와학습코칭센터 야탑점을 선택해 보세요. 목표 성적까지 이어지는 로드맵으로 꾸준히 성장할 수 있습니다.</p>
+  </section>
+</main>

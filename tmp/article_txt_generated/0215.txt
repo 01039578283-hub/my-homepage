@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>인천 갈산동 영어 수학 학원을 찾고 있다면, 와와학습코칭센터 인천삼산점을 추천합니다. 기초부터 탄탄히 잡고 내신&#183;시험 대비까지 연결되도록 학습을 “계획-진단-코칭-점검” 구조로 운영합니다. 단순 문제풀이가 아니라 학생의 이해도와 약점을 빠르게 파악해, 성적이 오르는 방식으로 공부 습관을 정리해드립니다.</h1>
+  </section>
+  <p class="article-intro">우리 학원을 선택해야 하는 이유</p>
+  <section class="article-closing">
+    <p>인천 갈산동 영어 수학 학원에서 고민 중이라면, 와와학습코칭센터 인천삼산점에서 “진단 기반 코칭 + 과목별 로드맵”으로 성적 상승의 방향을 잡아보세요.</p>
+  </section>
+</main>

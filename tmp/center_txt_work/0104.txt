@@ -1,0 +1,191 @@
+﻿<section class="wawa-center-snippet" aria-label="와와학습코칭센터 중동점 센터 안내">
+  <h2 class="wawa-title">센터 위치 안내</h2>
+
+  <div class="wawa-info-card">
+    <span class="wawa-label">주소</span>
+    <p class="wawa-text">경기 부천시 원미구 길주로 191 금영프라자 제 4층 401호</p>
+  </div>
+
+  <div class="wawa-info-card">
+    <span class="wawa-label">오시는 길</span>
+    <p class="wawa-text is-normal">
+      안녕하세요, OO학생 학부모님~ 와와학습코칭센터 중동점 위치는 (경기 부천시 원미구 길주로 191 금영프라자 제 4층 401호)입니다.
+    </p>
+  </div>
+
+  <h2 class="wawa-title">주요 타깃학교(이외 학교도 수업 가능)</h2>
+  <div class="wawa-school-grid">
+    <article class="wawa-school-card is-elementary">
+      <h3>초등 타깃학교</h3>
+      <div class="wawa-pills">
+        <span class="wawa-pill">부흥초</span>
+        <span class="wawa-pill">중흥초</span>
+      </div>
+    </article>
+
+    <article class="wawa-school-card is-middle">
+      <h3>중등 타깃학교</h3>
+      <div class="wawa-pills">
+        <span class="wawa-pill">중흥중</span>
+        <span class="wawa-pill">부명중</span>
+      </div>
+    </article>
+
+    <article class="wawa-school-card is-high">
+      <h3>고등 타깃학교</h3>
+      <div class="wawa-pills">
+        <span class="wawa-pill">증흥고</span>
+        <span class="wawa-pill">중원고</span>
+        <span class="wawa-pill">경기예고</span>
+      </div>
+    </article>
+  </div>
+
+  <h2 class="wawa-title">과목별 수강 가능 학년</h2>
+  <div class="wawa-grade-table">
+    <div class="wawa-grade-row">
+      <div class="wawa-grade-subject">국어</div>
+      <div class="wawa-grade-pills">
+        <span class="wawa-pill is-elementary">초4</span>
+        <span class="wawa-pill is-elementary">초5</span>
+        <span class="wawa-pill is-elementary">초6</span>
+        <span class="wawa-pill is-middle">중1</span>
+        <span class="wawa-pill is-middle">중2</span>
+        <span class="wawa-pill is-middle">중3</span>
+        <span class="wawa-pill is-high">고1</span>
+        <span class="wawa-pill is-high">고2</span>
+      </div>
+    </div>
+
+    <div class="wawa-grade-row">
+      <div class="wawa-grade-subject">영어</div>
+      <div class="wawa-grade-pills">
+        <span class="wawa-pill is-elementary">초1</span>
+        <span class="wawa-pill is-elementary">초2</span>
+        <span class="wawa-pill is-elementary">초3</span>
+        <span class="wawa-pill is-elementary">초4</span>
+        <span class="wawa-pill is-elementary">초5</span>
+        <span class="wawa-pill is-elementary">초6</span>
+        <span class="wawa-pill is-middle">중1</span>
+        <span class="wawa-pill is-middle">중2</span>
+        <span class="wawa-pill is-middle">중3</span>
+        <span class="wawa-pill is-high">고1</span>
+        <span class="wawa-pill is-high">고2</span>
+        <span class="wawa-pill is-high">고3</span>
+      </div>
+    </div>
+
+    <div class="wawa-grade-row">
+      <div class="wawa-grade-subject">수학</div>
+      <div class="wawa-grade-pills">
+        <span class="wawa-empty">수강 가능 학년 정보 준비중</span>
+      </div>
+    </div>
+
+    <div class="wawa-grade-row">
+      <div class="wawa-grade-subject">과학</div>
+      <div class="wawa-grade-pills">
+        <span class="wawa-empty">수강 가능 학년 정보 준비중</span>
+      </div>
+    </div>
+
+    <div class="wawa-grade-row">
+      <div class="wawa-grade-subject">사회</div>
+      <div class="wawa-grade-pills">
+        <span class="wawa-empty">수강 가능 학년 정보 준비중</span>
+      </div>
+    </div>
+  </div>
+
+  <h2 class="wawa-title">학원 등록 정보</h2>
+  <div class="wawa-register-card">
+    <p class="wawa-register-line"><strong>교육지원청</strong> : 와와학습코칭보습학원</p>
+    <p class="wawa-register-line"><strong>등록번호</strong> : 부천교육지원청 등록 제5918호</p>
+    <p class="wawa-register-line"><strong>운영등록일</strong> : 정보 준비중</p>
+    <a class="wawa-tuition-link" href="https://drive.google.com/file/d/1S629AeKOy38neMow4WxDALYCEQNUOE3-/view?usp=drive_link" target="_blank" rel="noopener noreferrer">교습비 안내 보기</a>
+  </div>
+
+  <details class="wawa-fee-accordion" open>
+    <summary>수업료는 어떻게 되나요? ✨</summary>
+
+    <section class="wawa-fee-block">
+      <h3>A - 서울 (1회 90-100분 수업기준)</h3>
+      <div class="wawa-table-scroll">
+        <table class="wawa-fee-table">
+          <thead>
+            <tr>
+              <th>횟수</th>
+              <th>초등</th>
+              <th>중등</th>
+              <th>고등</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>주 3회</td>
+              <td>249,000</td>
+              <td>266,000</td>
+              <td>299,000</td>
+            </tr>
+            <tr>
+              <td>주 4회</td>
+              <td>319,000</td>
+              <td>341,000</td>
+              <td>384,000</td>
+            </tr>
+            <tr>
+              <td>주 5회</td>
+              <td>389,000</td>
+              <td>416,000</td>
+              <td>469,000</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="wawa-fee-block">
+      <h3>B - 서울 외 지점 (1회 90-100분 수업기준)</h3>
+      <div class="wawa-table-scroll">
+        <table class="wawa-fee-table">
+          <thead>
+            <tr>
+              <th>횟수</th>
+              <th>초등</th>
+              <th>중등</th>
+              <th>고등</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>주 3회</td>
+              <td>219,000</td>
+              <td>236,000</td>
+              <td>269,000</td>
+            </tr>
+            <tr>
+              <td>주 4회</td>
+              <td>279,000</td>
+              <td>301,000</td>
+              <td>344,000</td>
+            </tr>
+            <tr>
+              <td>주 5회</td>
+              <td>339,000</td>
+              <td>366,000</td>
+              <td>419,000</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <p class="wawa-fee-note">* 수업료는 지역 및 횟수에 따라 일부 차이가 있을 수 있습니다.</p>
+  </details>
+
+  <div class="wawa-map-cta">
+    <h2>센터 위치를 지도로 확인하세요</h2>
+    <p>방문 전 네이버 지도로 위치를 확인하실 수 있습니다.</p>
+    <a class="wawa-map-button" href="https://map.naver.com/p/search/%EA%B2%BD%EA%B8%B0%20%EB%B6%80%EC%B2%9C%EC%8B%9C%20%EC%9B%90%EB%AF%B8%EA%B5%AC%20%EA%B8%B8%EC%A3%BC%EB%A1%9C%20191%20%EA%B8%88%EC%98%81%ED%94%84%EB%9D%BC%EC%9E%90%20%EC%A0%9C%204%EC%B8%B5%20401%ED%98%B8" target="_blank" rel="noopener noreferrer">지도 확인</a>
+  </div>
+</section>

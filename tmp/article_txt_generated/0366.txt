@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>원주혁신도시 영어 수학 학원, 와와학습코칭센터</h1>
+  </section>
+  <p class="article-intro">원주혁신도시에 위치한 와와학습코칭센터는 영어&#183;수학을 “문제 풀이 실력”뿐 아니라 “학습 습관”과 “성적이 오르는 방식”으로 함께 설계합니다. 단순 반복이나 강의 중심이 아니라 학생 수준과 학습 상태를 진단해 개인별 로드맵을 만들고, 꾸준히 점검하며 실력을 쌓아갑니다.</p>
+  <section class="article-closing">
+    <p>원주혁신도시 영어 수학 학원을 찾고 있다면, 와와학습코칭센터에서 “학습 습관 + 오답 설계 + 과목별 맞춤 로드맵”으로 성적 상승의 흐름을 만들어보세요.</p>
+  </section>
+</main>

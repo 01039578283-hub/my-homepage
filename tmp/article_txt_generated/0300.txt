@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>수창동 영어 수학 학원, 와와학습코칭센터 대구역점에서 기초부터 성적까지</h1>
+  </section>
+  <p class="article-intro">수창동에서 영어&#183;수학을 고민하는 학생이라면 “잘 가르치는 학원”을 넘어, 학습 습관과 성취 로드맵까지 관리해주는 곳이 필요합니다. 와와학습코칭센터 대구역점은 영어와 수학을 중심으로 학생의 현재 수준을 정확히 진단하고, 성적에 직접 연결되는 학습 전략을 체계적으로 설계해드립니다. 계획-학습-점검-피드백의 흐름으로 성장을 돕는 수창동 영어 수학 학원입니다.</p>
+  <section class="article-closing">
+    <p>수창동 영어 수학 학원을 찾고 있다면, 와와학습코칭센터 대구역점에서 진단 기반 맞춤 학습과 오답&#183;복습 관리로 성적 상승의 흐름을 만들어보세요.</p>
+  </section>
+</main>

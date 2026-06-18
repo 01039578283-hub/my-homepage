@@ -1,0 +1,34 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>서정동 영어 수학 학원을 찾고 있다면, 와와학습코칭센터 이충점에서 ‘성적을 만드는 학습습관’부터 함께 시작해보세요. 단순 문제풀이가 아니라 학습상태를 진단하고, 학년&#183;수준에 맞춘 전략으로 영어와 수학의 약점을 체계적으로 보완합니다. 숙제 관리와 학습 코칭을 통해 스스로 공부하는 힘까지 키우는 수업을 제공합니다.</h1>
+  </section>
+  <section class="article-section">
+    <h2>자주 묻는 질문(FAQ)</h2>
+    <div class="article-faq-list">
+      <details class="article-faq" open>
+        <summary>Q1. 우리 아이 수준(현재 학습상태)을 어떻게 파악하나요?</summary>
+        <p>A. 수업 전 학습 상태와 성취 흐름을 점검하고, 약점이 생기는 지점부터 우선순위를 정해 코칭합니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q2. 영어와 수학 중 하나만 먼저 등록해도 되나요?</summary>
+        <p>A. 네. 현재 가장 점수가 떨어지거나 불안한 과목부터 시작할 수 있으며, 필요에 따라 과목을 확장할 수 있습니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q3. 숙제와 복습은 어떻게 관리되나요?</summary>
+        <p>A. 수업에서 배운 내용을 집에서 이어가도록 계획 단위로 안내하고, 학습 진행도를 점검해 학습이 끊기지 않게 돕습니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q4. 시험(내신/학기평가) 대비는 어떻게 진행되나요?</summary>
+        <p>A. 단원&#183;유형별로 취약도를 정리하고, 시험에서 나오는 문제 형태에 맞춰 반복 학습과 오답 보완이 되도록 설계합니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q5. 학부모 상담은 어떻게 진행되나요?</summary>
+        <p>A. 아이의 학습 진행 상황과 목표 달성 흐름을 공유하며, 다음 학습 계획을 함께 조정하는 방식으로 진행됩니다.</p>
+      </details>
+    </div>
+  </section>
+  <section class="article-closing">
+    <p>서정동 영어 수학 학원, 와와학습코칭센터 이충점에서 학습습관과 성적 전략을 함께 만들며 다음 성장을 준비해보세요.</p>
+  </section>
+</main>

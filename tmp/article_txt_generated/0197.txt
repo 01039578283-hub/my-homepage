@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>와와학습코칭센터 반송점을 선택해야 하는 이유</h1>
+  </section>
+  <p class="article-intro">반송동 영어 수학 학원을 찾고 있다면, 학습 성적만이 아니라 “왜 성적이 오르는지”를 함께 설계해주는 와와학습코칭센터 반송점에 주목해 보세요. 단순 문제 풀이가 아닌 학습 코칭 기반으로 현재 수준을 진단하고, 학생에게 맞는 학습 습관과 로드맵을 만들어 꾸준히 성과가 쌓이도록 돕습니다.</p>
+  <section class="article-closing">
+    <p>지금 성적이 정체된 이유는 “문제를 더 풀어서” 해결되는 경우도 있지만, 대부분은 학습 방법과 복습/오답 관리가 맞지 않아서입니다. 반송동 영어 수학 학원으로 와와학습코칭센터 반송점에서 진단 기반 맞춤 코칭을 받아보세요.</p>
+  </section>
+</main>

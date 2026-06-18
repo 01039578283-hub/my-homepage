@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>송천동 영어&#183;수학 학원, 와와학습코칭센터 송천점</h1>
+  </section>
+  <p class="article-intro">송천동에서 영어&#183;수학을 제대로 잡고 싶다면 와와학습코칭센터 송천점을 추천합니다. 단순히 문제를 푸는 수업이 아니라, 학생의 현재 수준과 학습 습관을 먼저 진단하고 목표(내신/성적 향상/선행)를 위한 맞춤 학습 전략을 설계합니다. 영어와 수학은 개념-유형-실전으로 이어져야 점수가 오르는데, 와와는 그 흐름을 체계적으로 관리합니다.</p>
+  <section class="article-closing">
+    <p>송천동 영어 수학 학원 을 찾고 있다면, 와와학습코칭센터 송천점에서 진단 기반 맞춤 학습으로 성적 변화를 만들어보세요.</p>
+  </section>
+</main>

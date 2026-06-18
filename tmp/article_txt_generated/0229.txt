@@ -1,0 +1,35 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>[원신흥동 영어 수학 학원] 와와학습코칭센터 도안점에서 성적과 학습습관을 함께 잡으세요</h1>
+  </section>
+  <p class="article-intro">원신흥동에서 영어&#183;수학 학원을 찾고 있다면, 단순한 문제풀이보다 “학습 습관 + 개념 이해 + 실전 훈련”까지 함께 설계해주는 곳이 중요합니다. 와와학습코칭센터 도안점은 학생별 현재 수준을 진단하고, 학습 고민에 맞춘 맞춤 로드맵으로 꾸준히 성과가 나오는 학습을 돕습니다. 영어와 수학의 약점은 방치할수록 격차가 커지기 때문에, 지금부터 방향을 잡는 것이 최우선입니다.</p>
+  <section class="article-section">
+    <h2>자주 묻는 질문(FAQ)</h2>
+    <div class="article-faq-list">
+      <details class="article-faq" open>
+        <summary>Q1. 원신흥동 영어 수학 학원으로 시작하기에 지금이 늦지 않을까요?</summary>
+        <p>A. 늦지 않습니다. 중요한 건 “지금 수준 진단”과 “학습 계획의 방향”입니다. 와와학습코칭센터 도안점은 학생별 공백을 확인하고 다음 시험까지 이어지도록 루틴과 로드맵을 설계합니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q2. 수업은 어떤 방식으로 진행되나요?</summary>
+        <p>A. 기본적으로 진단→수업(개념/문제 적용)→연습→오답&#183;복습 루틴까지 연결됩니다. 같은 유형이라도 학생별 취약 포인트가 다르기 때문에 개인별 피드백을 통해 성장을 만듭니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q3. 영어와 수학을 동시에 다니면 효과가 더 큰가요?</summary>
+        <p>A. 보통 그렇습니다. 영어&#183;수학은 학습 방식이 다르지만, 성적에 영향을 주는 “학습습관(복습, 오답, 루틴)”은 공통 요소가 많습니다. 과목을 함께 관리하면 전체적인 성적 흐름이 더 안정적으로 개선됩니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q4. 기초가 많이 부족한 학생도 수업이 가능한가요?</summary>
+        <p>A. 가능합니다. 기초 보강이 필요한 학생은 현재 학년의 범위를 무작정 따라가기보다, 필요한 개념부터 단계적으로 회복하는 방식으로 진행합니다. 목표는 ‘다음 단계로 넘어갈 수 있는 이해’입니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q5. 상담은 어떻게 진행되나요?</summary>
+        <p>A. 학생의 현재 학습 상태와 고민을 바탕으로 수준 진단과 학습 방향을 함께 확인합니다. 상담 후에는 과목별 목표와 학습 계획을 현실적으로 설정해 드립니다.</p>
+      </details>
+    </div>
+  </section>
+  <section class="article-closing">
+    <p>원신흥동 영어 수학 학원 선택이 고민이라면, 와와학습코칭센터 도안점에서 학생 맞춤 학습 코칭으로 성적과 습관을 동시에 만들어보세요.</p>
+  </section>
+</main>

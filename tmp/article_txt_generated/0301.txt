@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>[짧은 소개]</h1>
+  </section>
+  <p class="article-intro">대봉동 영어 수학 학원을 찾고 있다면 와와학습코칭센터 반월당점을 주목해 주세요. 단순 문제풀이를 넘어 학생별 학습 진단과 코칭을 통해 영어&#183;수학의 약점을 빠르게 정리하고, 성적이 오르는 학습 루틴을 함께 설계합니다. [우리 학원을 선택해야 하는 이유]</p>
+  <section class="article-closing">
+    <p>대봉동 영어 수학 학원 중에서 “성적이 오르는 학습 방법”을 원한다면 와와학습코칭센터 반월당점을 추천합니다. 학생별 진단과 코칭으로 영어&#183;수학의 약점을 체계적으로 정리해 보세요.</p>
+  </section>
+</main>

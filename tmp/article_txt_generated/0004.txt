@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>와와학습코칭센터 삼각산점을 선택해야 하는 이유</h1>
+  </section>
+  <p class="article-intro">삼각산동에서 영어&#183;수학을 체계적으로 잡고 싶다면, 와와학습코칭센터 삼각산점이 답입니다. 단순 문제 풀이가 아니라 학습 진단부터 맞춤 전략, 성적 상승까지 이어지는 학습 코칭을 제공합니다. 삼각산동 영어 수학 학원 중에서도 “왜 틀리는지”를 먼저 찾아주는 수업을 찾는 학생들에게 특히 추천합니다.</p>
+  <section class="article-closing">
+    <p>삼각산동 영어 수학 학원으로 고민 중이라면, 와와학습코칭센터 삼각산점에서 학습 진단과 맞춤 코칭을 시작해보세요.</p>
+  </section>
+</main>

@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>월계동 영어 수학 학원 찾는다면, 와와학습코칭센터 첨단점</h1>
+  </section>
+  <p class="article-intro">월계동 영어 수학 학원을 찾고 계신다면 ‘와와학습코칭센터 첨단점’이 답입니다. 단순 문제풀이가 아니라 학생의 학습 상태를 진단하고, 영어&#183;수학의 핵심 개념부터 성취도까지 한 단계씩 끌어올리는 학습코칭을 제공합니다. 학습 습관이 흐트러진 학생, 성적이 들쭉날쭉한 학생, 시험이 다가올수록 불안해지는 학생 모두에게 맞춤형 로드맵을 제시합니다.</p>
+  <section class="article-closing">
+    <p>월계동 영어 수학 학원으로 고민 중이라면, 와와학습코칭센터 첨단점에서 학생 맞춤 코칭으로 시작해보세요. 오늘 상담을 통해 현재 성적과 목표에 맞는 학습 전략을 빠르게 확인할 수 있습니다.</p>
+  </section>
+</main>

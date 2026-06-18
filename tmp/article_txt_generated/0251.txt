@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>용곡동 영어&#183;수학 학원, 와와학습코칭센터 신방점에서 학습 습관부터 제대로</h1>
+  </section>
+  <p class="article-intro">성적이 오르지 않는 이유는 “문제만 더 풀기”가 부족해서가 아니라, 공부 방법과 학습 계획이 학생에게 맞지 않기 때문인 경우가 많습니다. 용곡동에서 영어&#183;수학 학원을 찾고 있다면, 와와학습코칭센터 신방점에서 아이의 현재 수준을 진단하고 목표까지 가는 로드맵을 함께 세워보세요.</p>
+  <section class="article-closing">
+    <p>지금 필요한 건 더 많은 공부가 아니라, 학생에게 맞는 방법과 계획입니다. 용곡동 영어 수학 학원을 알아보는 중이라면 와와학습코칭센터 신방점에서 상담을 통해 현재 수준을 진단하고 다음 목표까지의 학습 로드맵을 함께 만들어보세요.</p>
+  </section>
+</main>

@@ -1,0 +1,34 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>망월동 영어 수학 학원, 와와학습코칭센터 센트럴점에서 성적이 오르는 학습 로드맵을 시작하세요. 단순 문제풀이가 아니라 학생의 현재 수준을 진단하고(실력 진단/학습 습관 점검), 목표(내신&#183;학기 평가&#183;경시&#183;상위권 진입)에 맞춰 영어와 수학 학습을 체계적으로 설계합니다. 수업 시간뿐 아니라 숙제&#183;피드백&#183;복습까지 연결해 “다음 단계가 보이는 공부”를 만들어드립니다.</h1>
+  </section>
+  <section class="article-section">
+    <h2>자주 묻는 질문(FAQ)</h2>
+    <div class="article-faq-list">
+      <details class="article-faq" open>
+        <summary>Q1. 망월동 영어 수학 학원 선택 시 성적이 오르는 방식이 따로 있나요?</summary>
+        <p>A. 네. 와와학습코칭센터 센트럴점은 단순 진도 중심이 아니라 학생 수준 진단 후 목표에 맞는 학습 전략(개념-훈련-오답-복습)을 연결해 성적 상승이 일어나도록 운영합니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q2. 영어와 수학 중 무엇부터 해야 하나요?</summary>
+        <p>A. 현재 성적, 약점 단원, 시험 일정에 따라 다릅니다. 보통은 한 과목만 지속하면 다른 과목이 누적되는 경우가 많아, 진단 후 우선순위를 정해 영어&#183;수학을 균형 있게 설계합니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q3. 숙제나 학습 관리가 제대로 되나요?</summary>
+        <p>A. 수업 후 학습이 ‘계획-수행-점검’으로 이어지도록 가이드합니다. 숙제를 단순 제출이 아니라 이해도 기반으로 점검해 실력으로 전환되게 합니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q4. 수업은 어떤 학생에게 특히 도움이 되나요?</summary>
+        <p>A. 기본 개념이 약해 문제 풀이가 막히는 학생, 오답이 반복되는 학생, 독해/서술형에서 감점이 계속되는 학생에게 특히 효과적입니다. 초&#183;중&#183;고 학년별 학습 고민에 맞춰 단계적으로 지원합니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q5. 상담/진단은 어떻게 진행되나요?</summary>
+        <p>A. 학생의 현재 학습 상태를 바탕으로 진단 후 목표 설정과 학습 방향을 정리합니다. 이후 수업 운영 방식과 관리 계획을 함께 안내드립니다.</p>
+      </details>
+    </div>
+  </section>
+  <section class="article-closing">
+    <p>원하는 경우, “대상 학년(초/중/고, 몇 학년인지)”과 “현재 가장 어려운 단원/유형(영어: 독해/문법/서술형, 수학: 개념/유형/서술형)”을 알려주시면 그에 맞춰 원고 문구를 더 정확하게 맞춤형으로 수정해드릴 수 있어요.</p>
+  </section>
+</main>

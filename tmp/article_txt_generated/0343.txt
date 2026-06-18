@@ -1,0 +1,66 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>신창지구 영어&#183;수학 학원, 와와학습코칭센터 신창점</h1>
+  </section>
+  <p class="article-intro">신창지구에서 영어와 수학을 함께 잡고 싶은 학생이라면 와와학습코칭센터 신창점이 답입니다. 단순 문제풀이가 아니라 학습 코칭을 통해 학습 습관을 만들고, 약점을 정확히 진단해 성적이 오르는 방법을 함께 설계합니다. 영어는 문장 이해와 어휘&#183;문법의 연결을, 수학은 개념-유형-연산을 단계적으로 잡아 실력 향상을 목표로 합니다.</p>
+  <section class="article-section">
+    <h2>우리 학원을 선택해야 하는 이유</h2>
+    <div class="article-card-grid">
+      <article class="article-card">
+        <strong>진단 기반 맞춤 학습 코칭</strong>
+        <p>현재 실력과 학습 습관을 점검하고, 목표에 맞는 학습 전략을 제공합니다.</p>
+      </article>
+      <article class="article-card">
+        <strong>영어&#183;수학 동시 관리</strong>
+        <p>한 과목만 집중하다 생기는 학습 공백을 줄이고 균형 있게 성장합니다.</p>
+      </article>
+      <article class="article-card">
+        <strong>취약 유형을 먼저 공략</strong>
+        <p>점수 하락 원인을 유형별로 분석해 반복되는 실수를 줄입니다.</p>
+      </article>
+      <article class="article-card">
+        <strong>학생 중심 피드백</strong>
+        <p>“무엇을, 왜 틀리는지”를 함께 점검하며 다음 학습 방향을 잡아줍니다.</p>
+      </article>
+      <article class="article-card">
+        <strong>꾸준한 루틴 형성</strong>
+        <p>숙제/복습/오답 정리를 학습 습관으로 연결해 장기 성장을 돕습니다.</p>
+      </article>
+    </div>
+  </section>
+  <section class="article-section">
+    <h2>과목별 선택 기준</h2>
+    <div class="article-subject-grid">
+      <article class="article-subject-card">
+        <h3>영어 수업이 필요할 때</h3>
+          <ul>
+            <li>단어를 외워도 문장에서 해석이 안 됨</li>
+            <li>문법 개념이 헷갈려 지문 독해가 끊김</li>
+            <li>독해 문제에서 근거 없이 답을 찍게 됨</li>
+            <li>내신/중간&#183;기말 대비를 체계적으로 하고 싶음</li>
+          </ul>
+      </article>
+      <article class="article-subject-card">
+        <h3>수학 수업이 필요할 때</h3>
+          <ul>
+            <li>계산 실수 또는 연산 속도가 너무 느림</li>
+            <li>개념은 아는데 문제만 보면 막힘</li>
+            <li>유형별로 접근법을 모르겠음</li>
+            <li>오답이 반복되어 성적이 제자리임</li>
+          </ul>
+      </article>
+      <article class="article-subject-card">
+        <h3>영어&#183;수학 함께 코칭이 좋은 경우</h3>
+          <ul>
+            <li>한 과목만 하면 다른 과목이 따라오지 못하는 경우</li>
+            <li>학습 루틴(복습&#183;오답&#183;예습)이 잡히지 않은 경우</li>
+            <li>내신 대비 전 과목 균형을 맞추고 싶은 경우</li>
+          </ul>
+      </article>
+    </div>
+  </section>
+  <section class="article-closing">
+    <p>신창지구 영어학원&#183;수학학원을 찾고 있다면 와와학습코칭센터 신창점에서 영어와 수학을 함께 점검하고, 성적이 오르는 학습 습관으로 만들어보세요.</p>
+  </section>
+</main>

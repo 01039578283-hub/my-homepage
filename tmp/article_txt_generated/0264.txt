@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>[짧은 소개 문단]</h1>
+  </section>
+  <p class="article-intro">칠금동에서 영어&#183;수학 실력과 학습 습관을 동시에 잡고 싶다면 와와학습코칭센터 칠금점이 답입니다. 단순 문제 풀이가 아니라, 학생별 현재 수준과 학습 원인(개념 공백, 계산 실수, 독해/서술형 약점, 학습 루틴 부족)을 진단해 맞춤 커리큘럼과 코칭으로 성장을 설계합니다. [우리 학원을 선택해야 하는 이유]</p>
+  <section class="article-closing">
+    <p>(제목/키워드 예시: 칠금동 영어 수학 학원, 와와학습코칭센터 칠금점, 영어 독해 서술형, 수학 내신, 초등 중등 학습코칭, 오답 코칭, 맞춤 커리큘럼)</p>
+  </section>
+</main>

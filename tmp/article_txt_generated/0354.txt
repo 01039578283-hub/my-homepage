@@ -1,0 +1,9 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>[전주혁신도시 영어 수학 학원] 와와학습코칭센터 전주혁신점 원고</h1>
+  </section>
+  <section class="article-closing">
+    <p>전주혁신도시 영어 수학 학원 선택에서 가장 중요한 것은 “무엇을 더 해야 하는지”보다 “어떤 방법으로 해야 성적이 오르는지”를 찾는 것입니다. 와와학습코칭센터 전주혁신점은 진단 기반 맞춤전략과 지속적인 학습관리를 통해 영어&#183;수학 성적 상승을 돕습니다. 지금 목표를 정하고, 실행 가능한 학습으로 바꿔보세요.</p>
+  </section>
+</main>

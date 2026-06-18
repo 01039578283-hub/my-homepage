@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>산격동 영어 수학 학원 찾고 있다면, 와와학습코칭센터 복현점이 답입니다. 단순히 문제 풀이만 반복하는 학원이 아니라, 학생의 현재 학습 수준과 공부 습관, 취약 단원을 정확히 진단한 뒤 맞춤 코칭으로 학습 효율을 높여주는 학습코칭센터입니다. 영어와 수학의 “왜 틀리는지”부터 잡고, 학교 내신과 학습 로드맵까지 함께 설계해 성적 향상으로 연결합니다.</h1>
+  </section>
+  <p class="article-intro">[우리 학원을 선택해야 하는 이유]</p>
+  <section class="article-closing">
+    <p>원하는 학습 수준(현재 성적대, 목표 학년/시험, 가장 어려운 단원)을 알려주시면 산격동 영어 수학 학원 선택에 맞춰 와와학습코칭센터 복현점에서 어떤 방식이 가장 효율적인지 상담을 통해 구체적으로 안내드리겠습니다.</p>
+  </section>
+</main>

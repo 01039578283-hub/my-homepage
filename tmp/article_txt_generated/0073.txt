@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>갈매동 영어 수학 학원, 와와학습코칭센터 갈매점에서 학습 설계를 시작하세요</h1>
+  </section>
+  <p class="article-intro">갈매동에서 영어&#183;수학 성적을 끌어올리고 싶은데 “무엇부터, 어떤 방식으로” 공부해야 할지 막막하셨나요? 와와학습코칭센터 갈매점 은 단순 문제풀이가 아니라, 학생의 현재 수준과 학습 습관을 진단해 목표에 맞는 전략을 세우고 꾸준히 실행하도록 코칭하는 갈매동 영어 수학 학원 입니다.</p>
+  <section class="article-closing">
+    <p>와와학습코칭센터 갈매점 은 영어&#183;수학을 함께 잡아, 공부의 방향과 결과가 함께 달라지도록 돕겠습니다.</p>
+  </section>
+</main>

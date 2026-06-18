@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>천호동 영어 수학 학원 찾는다면? 와와학습코칭센터 명일점</h1>
+  </section>
+  <p class="article-intro">천호동에서 영어&#183;수학 학원을 알아보는 학부모님이라면 “성적이 오르긴 하는데 왜 정체되는지 모르겠다”, “학습 습관이 잡히지 않는다”, “시험 때만 반짝하고 성적이 흔들린다” 같은 고민이 생기기 쉽습니다. 와와학습코칭센터 명일점은 단순 문제풀이가 아니라, 학생의 현재 수준과 학습 태도, 약점을 진단해 목표까지 로드맵을 세우는 코칭형 학습 관리로 영어&#183;수학 성장을 돕습니다.</p>
+  <section class="article-closing">
+    <p>천호동 영어 수학 학원 선택이 고민이라면, 와와학습코칭센터 명일점에서 학생 맞춤 코칭으로 목표 성장을 시작해보세요.</p>
+  </section>
+</main>

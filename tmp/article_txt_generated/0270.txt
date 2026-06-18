@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>월성동 영어 수학 학원을 찾고 있다면, 와와학습코칭센터 신월성점에서 “성적이 오르는 학습 습관”부터 함께 시작해보세요. 단순 문제 풀이가 아니라 학생의 현재 수준과 학습 태도, 오답 패턴을 진단해 개인별 학습 로드맵을 설계합니다. 영어&#183;수학을 중심으로 체계적인 코칭과 피드백을 제공해 꾸준히 실력이 쌓이도록 돕습니다.</h1>
+  </section>
+  <p class="article-intro">왜 와와학습코칭센터 신월성점인가요?</p>
+  <section class="article-closing">
+    <p>지금 월성동 영어 수학 학원을 찾는 중이라면, 와와학습코칭센터 신월성점에서 학생 맞춤 코칭으로 학습의 방향을 바꿔보세요. 상담을 통해 목표(내신/기초/독해&#183;유형 강화)와 현재 상태를 함께 확인해드리겠습니다.</p>
+  </section>
+</main>

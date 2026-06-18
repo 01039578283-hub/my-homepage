@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>중산동 영어 수학 학원, 와와학습코칭센터 중산점에서 성적을 바꾸는 학습 코칭</h1>
+  </section>
+  <p class="article-intro">중산동에서 영어와 수학을 함께 잡을 수 있는 학원을 찾고 있나요? 와와학습코칭센터 중산점은 단순 문제풀이를 넘어, 학생의 현재 수준과 학습 습관을 진단하고 목표에 맞춘 학습 로드맵을 설계하는 학습 코칭 시스템을 제공합니다. 영어&#183;수학을 체계적으로 관리해 성적 상승의 “방법”을 만들고, 시험까지 흔들리지 않는 공부력을 길러줍니다.</p>
+  <section class="article-closing">
+    <p>중산동 영어 수학 학원을 찾고 있다면, 와와학습코칭센터 중산점에서 학생 맞춤 학습 코칭을 시작해보세요. 지금의 성적보다 더 빠르게 방향을 잡고, 시험까지 이어지는 공부 습관을 함께 만듭니다.</p>
+  </section>
+</main>

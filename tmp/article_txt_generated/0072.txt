@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>경안동 영어 수학 학원 추천: 와와학습코칭센터 탄벌점</h1>
+  </section>
+  <p class="article-intro">경안동에서 영어&#183;수학 성적을 확실히 올리고 싶은 학생이라면, 맞춤 코칭으로 학습 방향을 잡아주는 와와학습코칭센터 탄벌점 을 추천합니다. 단순 문제풀이가 아니라 학생의 현재 수준을 진단하고, 부족한 개념부터 학습 습관까지 단계적으로 설계해 성적이 “나오는 구조”를 만들어드립니다. 수학은 풀이력, 영어는 문법&#183;독해&#183;어휘를 균형 있게 잡아 꾸준한 성장으로 이어지게 돕습니다.</p>
+  <section class="article-closing">
+    <p>경안동 영어 수학 학원으로 와와학습코칭센터 탄벌점 을 고민 중이라면, 지금 상담을 통해 학생에게 맞는 학습 방향부터 시작해보세요.</p>
+  </section>
+</main>

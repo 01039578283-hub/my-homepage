@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>수원 금곡동 영어 수학 학원, 와와학습코칭센터 서수원점</h1>
+  </section>
+  <p class="article-intro">수원 금곡동에서 영어&#183;수학 실력과 학습 습관을 함께 잡고 싶은 학생이라면 와와학습코칭센터 서수원점이 답입니다. 단순 문제풀이가 아니라, 진단-코칭-학습전략으로 “왜 틀리는지”를 찾아 반복되는 실수를 줄이고 성적 상승으로 이어지게 지도합니다.</p>
+  <section class="article-closing">
+    <p>수원 금곡동에서 영어&#183;수학 성적과 공부 습관을 함께 잡고 싶다면, 와와학습코칭센터 서수원점에서 맞춤 코칭을 시작해보세요.</p>
+  </section>
+</main>

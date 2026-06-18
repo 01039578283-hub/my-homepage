@@ -1,0 +1,56 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>제목: 정평동 영어 수학 학원 추천 | 와와학습코칭센터 정평점 학습코칭으로 성적이 바뀌는 수업</h1>
+  </section>
+  <p class="article-intro">정평동에서 영어&#183;수학을 제대로 잡아줄 학원을 찾고 있나요? 많은 학생들이 “열심히 했는데 성적이 안 오르는 이유”를 모르고 답답해합니다. 와와학습코칭센터 정평점은 단순 문제풀이를 넘어, 학생의 현재 수준과 학습 습관을 진단해 원인부터 해결하는 학습코칭에 집중합니다. 영어와 수학의 핵심 개념-유형-실전 문제까지 연결해 성적 향상을 돕습니다.</p>
+  <section class="article-section">
+    <h2>과목별 선택 기준</h2>
+    <div class="article-subject-grid">
+      <article class="article-subject-card">
+        <h3>영어 수업 선택 기준</h3>
+          <ul>
+            <li>단어&#183;문법은 아는데 독해가 약하다 → 문장 구조 이해와 독해 전략이 필요할 때</li>
+            <li>내신에서 서술형/해석 문제 점수가 들쭉날쭉하다 → 유형별 풀이 틀과 설명 훈련이 필요할 때</li>
+            <li>시험 직전이 되면 공부가 무너진다 → 주기적 복습과 학습 루틴이 필요할 때</li>
+          </ul>
+      </article>
+      <article class="article-subject-card">
+        <h3>수학 수업 선택 기준</h3>
+          <ul>
+            <li>개념은 아는 것 같은데 시험에서 틀린다 → 문제 풀이에서 실수&#183;해석&#183;과정 오류를 잡아야 할 때</li>
+            <li>단원 간 연결이 약해 상위 유형이 막힌다 → 단계별 개념 고정과 유형 확장이 필요할 때</li>
+            <li>오답이 반복된다 → 오답 유형을 분류하고 같은 실수를 줄이는 학습 설계가 필요할 때</li>
+          </ul>
+      </article>
+    </div>
+  </section>
+  <section class="article-section">
+    <h2>자주 묻는 질문(FAQ)</h2>
+    <div class="article-faq-list">
+      <details class="article-faq" open>
+        <summary>Q1. 정평동 영어 수학 학원, 어디를 먼저 등록해야 하나요?</summary>
+        <p>A. 현재 성적과 가장 큰 약점을 기준으로 선택하는 것이 좋습니다. 영어는 독해/서술형에서, 수학은 응용/오답에서 점수 차이가 나는 경우가 많아 우선순위를 함께 진단해드립니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q2. 학습코칭은 수업 중에 어떻게 진행되나요?</summary>
+        <p>A. 학생의 학습 상태를 진단하고, 수업 목표?학습 방법?복습 루틴까지 연결해 안내합니다. 단순 지도보다 “왜 틀리는지”를 파악해 다음 학습이 달라지도록 돕는 방식입니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q3. 내신 대비와 문제풀이 중 어떤 비중이 큰가요?</summary>
+        <p>A. 시험에서 실제로 점수로 이어지는 유형 중심으로 구성합니다. 개념 이해를 바탕으로 내신/실전에서 요구하는 풀이 방식과 반복 훈련을 함께 진행합니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q4. 기초가 부족한 학생도 가능한가요?</summary>
+        <p>A. 가능합니다. 부족한 부분은 개념부터 다시 잡고, 현재 수준에 맞는 난이도로 단계적으로 확장합니다. 무작정 상위 문제부터 시작하지 않도록 커리큘럼을 조정합니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q5. 상담은 꼭 방문해야 하나요?</summary>
+        <p>A. 방문 상담을 기준으로 안내하지만, 먼저 문의를 통해 현재 고민(과목, 학년, 목표, 약점)을 정리해주시면 상담 준비에 도움이 됩니다. 이후 학습 상태에 맞춰 진행 방향을 안내드립니다.</p>
+      </details>
+    </div>
+  </section>
+  <section class="article-closing">
+    <p>원하시면 “현재 학년/현재 성적대/가장 고민인 단원(또는 유형)”을 알려주세요. 정평동 영어 수학 학원으로 와와학습코칭센터 정평점에서 어떤 과목부터 어떻게 시작하면 좋을지 우선순위를 정리해드릴게요.</p>
+  </section>
+</main>

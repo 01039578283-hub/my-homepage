@@ -1,0 +1,63 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>원흥동 영어 수학 학원, 와와학습코칭센터 원흥점</h1>
+  </section>
+  <p class="article-intro">성적이 오르려면 ‘열심히’보다 ‘방식’이 중요합니다. 와와학습코칭센터 원흥점은 원흥동에서 영어&#183;수학 학습을 체계적으로 코칭하며, 학생의 현재 수준과 학습 습관을 기준으로 맞춤 학습 로드맵을 제공합니다. 단순 문제 풀이에 그치지 않고, 왜 틀리는지부터 다시 잡아주어 꾸준한 성장을 돕습니다.</p>
+  <section class="article-section">
+    <h2>우리 학원을 선택해야 하는 이유</h2>
+    <div class="article-card-grid">
+      <article class="article-card">
+        <strong>학습 진단 기반 코칭</strong>
+        <p>현재 성적과 학습 패턴을 점검해 다음 목표를 구체화합니다.</p>
+      </article>
+      <article class="article-card">
+        <strong>영어&#183;수학 핵심 개념 중심</strong>
+        <p>기초부터 필요한 단계를 차근히 쌓게 합니다.</p>
+      </article>
+      <article class="article-card">
+        <strong>오답&#183;약점 관리</strong>
+        <p>틀린 이유를 정리하고 반복 학습 방향을 제시합니다.</p>
+      </article>
+      <article class="article-card">
+        <strong>학습 습관 점검</strong>
+        <p>숙제/복습/자기주도 학습 흐름을 점검합니다.</p>
+      </article>
+      <article class="article-card">
+        <strong>부담 없는 꾸준함</strong>
+        <p>단기 성과보다 장기적으로 성적이 유지&#183;상승하도록 설계합니다.</p>
+      </article>
+    </div>
+  </section>
+  <section class="article-section">
+    <h2>과목별 선택 기준</h2>
+    <div class="article-subject-grid">
+      <article class="article-subject-card">
+        <h3>영어를 선택해야 하는 경우</h3>
+          <ul>
+            <li>단어&#183;문법 기초가 흔들려 독해가 어렵다</li>
+            <li>서술형/기출 유형에서 답이 자주 틀린다</li>
+            <li>듣기는 되는데 읽기&#183;문법에서 점수가 떨어진다</li>
+          </ul>
+      </article>
+      <article class="article-subject-card">
+        <h3>수학을 선택해야 하는 경우</h3>
+          <ul>
+            <li>개념은 아는데 계산 실수/유형 적용이 안 된다</li>
+            <li>중요 단원에서 점수가 급격히 떨어진다</li>
+            <li>오답을 해도 같은 유형에서 다시 틀린다</li>
+          </ul>
+      </article>
+      <article class="article-subject-card">
+        <h3>영어&#183;수학 동시 선택 추천</h3>
+          <ul>
+            <li>내신 성적을 균형 있게 끌어올리고 싶은 경우</li>
+            <li>학습 시간 관리가 필요해 체계적인 지도가 필요한 경우</li>
+          </ul>
+      </article>
+    </div>
+  </section>
+  <section class="article-closing">
+    <p>원흥동 영어 수학 학원 찾고 있다면, 와와학습코칭센터 원흥점에서 영어&#183;수학 학습을 ‘진단-코칭-관리’로 체계화해보세요.</p>
+  </section>
+</main>

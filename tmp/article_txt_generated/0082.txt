@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>와와학습코칭센터 운양점을 선택해야 하는 이유</h1>
+  </section>
+  <p class="article-intro">운양동 영어 수학 학원을 찾고 있다면 ‘와와학습코칭센터 운양점’을 주목해보세요. 단순한 문제 풀이를 넘어, 학생별 학습 상태를 진단하고 목표에 맞춘 학습 전략을 세워 꾸준한 성적 향상을 돕는 학습코칭형 수업입니다. 영어&#183;수학의 핵심 개념부터 실전 유형까지 체계적으로 연결해 주기 때문에, 공부 방법이 막막했던 학생에게 특히 효과적입니다.</p>
+  <section class="article-closing">
+    <p>운양동 영어 수학 학원 선택으로 고민 중이라면, ‘와와학습코칭센터 운양점’에서 지금의 학습 상태를 정확히 진단해보세요. 목표를 정하고, 공부 방법을 바꾸면 성적은 달라집니다.</p>
+  </section>
+</main>

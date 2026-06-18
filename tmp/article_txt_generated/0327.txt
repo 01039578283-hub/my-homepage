@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>옥계동 영어 수학 학원 추천: 와와학습코칭센터 옥계점</h1>
+  </section>
+  <p class="article-intro">옥계동에서 영어&#183;수학 학원을 찾고 있다면, 단순한 문제풀이보다 학생의 학습 습관과 성취 상태를 함께 점검해주는 곳이 중요합니다. 와와학습코칭센터 옥계점은 영어와 수학을 중심으로 학습 코칭과 체계적인 수업을 결합해, “어디서 막히는지”를 정확히 찾아 끝까지 이어가도록 돕습니다.</p>
+  <section class="article-closing">
+    <p>옥계동에서 영어&#183;수학 실력을 안정적으로 올리고 싶다면, 와와학습코칭센터 옥계점에서 학습 진단과 코칭 기반 수업을 시작해보세요. 학년별 맞춤 목표 설정부터 시험 대비까지 함께 설계합니다.</p>
+  </section>
+</main>

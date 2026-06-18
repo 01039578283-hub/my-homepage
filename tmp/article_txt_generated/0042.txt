@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>창곡동 영어 수학 학원, 위례 와와학습코칭센터에서 학습코칭과 맞춤수업으로 성적 올리기</h1>
+  </section>
+  <p class="article-intro">창곡동에서 영어&#183;수학을 제대로 잡고 싶은 학생이라면, 위례 와와학습코칭센터 를 추천드립니다. 단순 문제 풀이가 아닌 학습 습관, 개념 이해, 실전 적용까지 연결되는 학습코칭 기반 맞춤 커리큘럼 으로 학생마다 다른 학습 원인을 찾아 해결합니다. “열심히 하는데 성적이 안 나오는 이유”를 학원에서 체계적으로 정리해 드립니다.</p>
+  <section class="article-closing">
+    <p>창곡동 영어 수학 학원을 찾고 있다면, 위례 와와학습코칭센터 에서 학생에게 맞는 학습코칭과 맞춤 커리큘럼으로 다음 시험 성적을 바꿔보세요.</p>
+  </section>
+</main>

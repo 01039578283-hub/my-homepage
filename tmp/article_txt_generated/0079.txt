@@ -1,0 +1,34 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>금정동 영어&#183;수학 학원을 찾고 계신가요? 와와학습코칭센터 산본점은 단순한 문제풀이를 넘어, 학생의 현재 수준과 학습 습관을 진단해 “어디가 막혔는지”를 먼저 잡고 성적이 오르게 설계하는 학습 코칭 시스템을 운영합니다. 영어와 수학은 기본기와 학습 방식이 결과를 좌우합니다. 우리 센터는 학습 목표를 현실적으로 세우고, 수업-숙제-피드백을 연결해 꾸준한 성장을 만드는 데 집중합니다.</h1>
+  </section>
+  <section class="article-section">
+    <h2>자주 묻는 질문(FAQ)</h2>
+    <div class="article-faq-list">
+      <details class="article-faq" open>
+        <summary>Q1. 금정동에서 통학 가능한가요?</summary>
+        <p>A. 네, 와와학습코칭센터 산본점은 금정동 인근에서 통학이 가능한 위치로 운영 중입니다. 통학 동선은 학생의 출발지에 따라 달라질 수 있어, 상담 시 이동 편의까지 함께 안내드립니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q2. 현재 수준을 모르는데도 수업 시작이 가능한가요?</summary>
+        <p>A. 가능합니다. 수업 전 진단을 통해 현재 실력과 약점을 파악하고, 영어&#183;수학 과목별 학습 목표와 방향을 설정한 뒤 수업을 진행합니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q3. 숙제/복습 관리는 어떻게 하나요?</summary>
+        <p>A. 수업과 연계된 숙제와 복습이 이루어지도록 설계하며, 학생의 진행 상황을 확인해 필요한 보강을 연결합니다. “그냥 숙제만”이 아니라 학습 목표에 맞춰 관리합니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q4. 성적이 오르려면 얼마나 시간이 걸리나요?</summary>
+        <p>A. 학생의 현재 수준, 공백 정도, 학습 습관에 따라 달라집니다. 다만 와와학습코칭센터는 단기 점수만이 아니라 오답 패턴과 개념 연결을 잡아 반복 가능한 성장 구조를 만드는 것을 목표로 합니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q5. 상담은 어떤 방식으로 진행되나요?</summary>
+        <p>A. 학생의 현재 학습 상태와 목표(내신/선행/보완)를 기준으로 상담을 진행합니다. 영어&#183;수학 고민을 구체적으로 듣고, 과목별 진행 방향과 수업 방식(대상 학년&#183;수준)에 맞춰 안내드립니다.</p>
+      </details>
+    </div>
+  </section>
+  <section class="article-closing">
+    <p>와와학습코칭센터 산본점은 금정동 영어&#183;수학 성적 향상을 원하는 학생에게 “원인 진단 → 과목별 처방 → 꾸준한 루틴”으로 답을 드립니다. 지금 고민 중인 영어/수학 문제 유형이나 시험 성적 변화를 상담으로 알려주시면, 그에 맞춘 로드맵을 함께 제안드리겠습니다.</p>
+  </section>
+</main>

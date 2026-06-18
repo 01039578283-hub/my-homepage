@@ -1,0 +1,46 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>산곡동 영어 수학 학원 고민, 와와학습코칭센터 부평점이 해결합니다.</h1>
+  </section>
+  <p class="article-intro">공부가 “열심히”보다 “전략”일 때 성적이 바뀝니다. 와와학습코칭센터 부평점은 산곡동 학생들의 수준과 학습 습관을 먼저 진단하고, 영어&#183;수학을 중심으로 목표 성적까지 이어지는 로드맵을 함께 설계하는 학습 코칭형 학원입니다.</p>
+  <section class="article-section">
+    <h2>수업 대상 학생 &amp; 학년별 학습 고민</h2>
+    <div class="article-target-list">
+      <article class="article-target-card">
+        <h3>초등 저학년(1~3학년)</h3>
+          <ul>
+            <li>기초 연산/문장 독해의 바탕이 약해요</li>
+            <li>문제를 보면 풀기는 하는데 실수가 잦아요</li>
+            <li>공부 습관이 잡히지 않아 매일 꾸준히 못 해요</li>
+          </ul>
+      </article>
+      <article class="article-target-card">
+        <h3>초등 고학년(4~6학년)</h3>
+          <ul>
+            <li>영어 기본 문장/단어가 흔들려요</li>
+            <li>수학 문제에서 유형을 몰라서 막혀요</li>
+            <li>학교 시험 대비 전략이 필요해요</li>
+          </ul>
+      </article>
+      <article class="article-target-card">
+        <h3>중학생(1~3학년)</h3>
+          <ul>
+            <li>내신 비중이 커지는데 어디부터 손봐야 할지 모르겠어요</li>
+            <li>영어는 독해&#183;서술형, 수학은 계산/서술/문제해결이 어렵습니다</li>
+            <li>성적이 오르지 않아 동기와 방향이 필요해요</li>
+          </ul>
+      </article>
+      <article class="article-target-card">
+        <h3>고등 예비/중3~고1 전환(선택 시)</h3>
+          <ul>
+            <li>수능형 기초를 미리 다지고 싶어요</li>
+            <li>내신과 단원 난이도 차이 때문에 학습 루틴이 필요해요</li>
+          </ul>
+      </article>
+    </div>
+  </section>
+  <section class="article-closing">
+    <p>지금 상담을 통해 현재 수준 진단과 맞춤 학습 로드맵을 확인하세요.</p>
+  </section>
+</main>

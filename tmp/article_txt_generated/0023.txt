@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>공덕동 영어 수학 학원, 와와학습코칭센터 마포점</h1>
+  </section>
+  <p class="article-intro">공덕동에서 영어&#183;수학을 중심으로 성적을 끌어올리고 싶은 학생이라면, 학원 선택 기준부터 달라져야 합니다. 와와학습코칭센터 마포점은 단순 문제풀이를 넘어 학습 습관과 약점 진단, 성취 목표를 함께 세워 꾸준히 성적이 오르는 학습 로드맵을 제공합니다. 공덕역&#183;마포권 학생들이 자주 찾는 공덕동 영어 수학 학원으로, 실력과 자신감을 함께 키우는 코칭형 수업을 지향합니다.</p>
+  <section class="article-closing">
+    <p>공덕동 영어 수학 학원으로 와와학습코칭센터 마포점을 선택하고, 영어&#183;수학 실력을 “기초-적용-시험” 흐름으로 탄탄하게 만들어보세요.</p>
+  </section>
+</main>

@@ -1,0 +1,35 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>노은동 영어 수학 학원, 와와학습코칭센터 지족점이 답입니다</h1>
+  </section>
+  <p class="article-intro">노은동에서 영어&#183;수학 학원을 찾고 있다면 “단순 문제풀이”보다 학습 코칭까지 함께 되는 곳이 필요합니다. 와와학습코칭센터 지족점은 아이의 현재 수준을 진단하고, 과목별 학습 습관과 학습 계획을 설계해 꾸준한 성적 향상으로 연결되도록 돕습니다. 개념-문제-오답 관리-복습 루틴까지 체계적으로 잡아주는 학습 시스템으로, 영어와 수학을 동시에 효율적으로 끌어올릴 수 있습니다.</p>
+  <section class="article-section">
+    <h2>자주 묻는 질문(FAQ)</h2>
+    <div class="article-faq-list">
+      <details class="article-faq" open>
+        <summary>Q1. 노은동에서 지족점까지 다니기 괜찮을까요?</summary>
+        <p>A. 가능합니다. 와와학습코칭센터 지족점은 노은동 인근 학생들도 학습 효율과 동선을 고려해 수업에 참여할 수 있도록 운영됩니다. 상담 시 학생 일정과 통학 환경을 함께 확인해 안내드려요.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q2. 영어&#183;수학 중 하나만 먼저 시작해도 되나요?</summary>
+        <p>A. 네. 현재 성적과 고민 우선순위에 따라 영어 또는 수학부터 시작할 수 있습니다. 수업 과정에서 진단 결과를 바탕으로 다른 과목까지 점진적으로 확장하는 방식도 가능합니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q3. 진도는 학교보다 빠르게 나가나요?</summary>
+        <p>A. 무조건 선행보다는 “시험에서 점수로 이어지는 방식”에 맞춰 진행합니다. 학생 수준과 학교 진도/평가 시점을 고려해 학습 계획을 설계합니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q4. 숙제/복습 관리는 어떻게 해주나요?</summary>
+        <p>A. 단순 숙제 부여가 아니라, 오답을 포함한 복습 루틴과 학습 점검을 함께 진행합니다. 어떤 부분을 왜 다시 해야 하는지 방향을 잡아 성적이 누적되도록 도와드립니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q5. 학원 다니면 성적이 꼭 오르나요?</summary>
+        <p>A. 개인차는 있지만, 저희는 학습 코칭 기반으로 “실행 가능한 계획-관리-피드백”을 제공해 성적 향상 확률을 높이는 데 집중합니다. 초기 진단과 상담을 통해 목표와 방법을 함께 설정합니다.</p>
+      </details>
+    </div>
+  </section>
+  <section class="article-closing">
+    <p>노은동 영어 수학 학원 선택이 고민이라면, 와와학습코칭센터 지족점에서 아이의 현재 수준을 진단하고 맞춤 학습 로드맵을 받아보세요. 영어&#183;수학을 따로가 아니라 한 흐름으로 관리해 꾸준히 성적이 오르는 구조를 만들어드립니다.</p>
+  </section>
+</main>

@@ -1,0 +1,35 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>와와학습코칭센터 별내점은 별내동(별내동 영어 수학 학원)에서 공부의 방향을 잡아주는 학습코칭을 바탕으로, 영어와 수학을 체계적으로 끌어올리는 수업을 제공합니다. 단순 문제 풀이가 아니라 학생의 학습 습관&#183;성취도&#183;학습 목표를 분석해 “어떤 방식으로, 어떤 순서로” 공부해야 성적이 오르는지 설계합니다.</h1>
+  </section>
+  <p class="article-intro">별내동 영어 수학 학원을 찾는다면, 와와학습코칭센터 별내점이 달라요. 우리 학원은 수업 중 설명만으로 끝내지 않고, 학습 진단?목표 설정?주간 점검?피드백까지 연결해 학습의 공백을 줄입니다. 성적이 오르기까지의 과정을 관리해, 꾸준히 성장하는 학생을 만듭니다.</p>
+  <section class="article-section">
+    <h2>자주 묻는 질문(FAQ)</h2>
+    <div class="article-faq-list">
+      <details class="article-faq" open>
+        <summary>Q1. 별내동 영어 수학 학원으로 등록하면 상담은 어떻게 진행되나요?</summary>
+        <p>A. 현재 성취도와 학습 습관(수업 참여, 숙제/오답 관리 방식), 목표(내신/시험)를 기준으로 진단 상담을 진행하고 과목별 학습 방향을 안내합니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q2. 초등/중등 중 어디까지 수업하나요?</summary>
+        <p>A. 학년별 수준에 맞춰 초등(고학년)부터 중등까지 영어&#183;수학 수업을 운영하며, 시험 대비 방식도 학년별로 다르게 설계합니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q3. 숙제나 과제 관리는 어떻게 되나요?</summary>
+        <p>A. 단순 과제량이 아니라 학습 목표에 맞춘 과제를 주고, 수행 여부와 이해도를 주간 단위로 점검해 다음 학습 계획을 조정합니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q4. 성적이 잘 안 오르는 학생도 가능한가요?</summary>
+        <p>A. 가능합니다. 많은 경우 문제는 실력이 아니라 학습 순서/오답 처리 방식/시간 관리에 있습니다. 와와학습코칭센터 별내점은 그 부분을 중심으로 전략을 바꿔드립니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q5. 영어와 수학은 어떤 순서로 선택하면 좋을까요?</summary>
+        <p>A. 현재 약한 과목(독해/문법/어법 vs 유형 적용/오답 반복 등)과 목표 시험 비중을 기준으로 추천드립니다. 필요하면 영어+수학 동시 설계도 가능합니다.</p>
+      </details>
+    </div>
+  </section>
+  <section class="article-closing">
+    <p>원하시면 “초등(5~6) / 중1 / 중2 / 중3” 중 어떤 학년을 위한 원고인지, 그리고 와와학습코칭센터 별내점의 강점(예: 학습코칭 방식, 수업시간, 커리큘럼 톤)을 추가로 알려주시면 그에 맞춰 더 정확한 버전으로 재작성해드릴게요.</p>
+  </section>
+</main>

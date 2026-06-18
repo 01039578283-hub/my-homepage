@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>와와학습코칭센터 병점점은 병점동에서 영어&#183;수학을 체계적으로 잡아주는 학습코칭 전문 학원입니다. 단순히 문제를 더 많이 푸는 방식이 아니라, 학생의 현재 수준을 정확히 진단하고 목표를 세운 뒤 학습 습관과 성취 전략까지 함께 설계합니다. “성적이 오르는데 시간이 오래 걸리는 이유가 뭘까?”를 함께 찾아, 공부가 지속되도록 코칭합니다.</h1>
+  </section>
+  <p class="article-intro">우리 학원을 선택해야 하는 이유</p>
+  <section class="article-closing">
+    <p>병점동에서 영어&#183;수학 성적을 다시 설계하고 싶다면 와와학습코칭센터 병점점이 함께하겠습니다.</p>
+  </section>
+</main>

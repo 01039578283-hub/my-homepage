@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>신현동 영어 수학 학원, 와와학습코칭센터 루원시티점 선택 이유</h1>
+  </section>
+  <p class="article-intro">신현동에서 영어&#183;수학을 제대로 잡고 싶다면, 와와학습코칭센터 루원시티점이 해답입니다. 단순 문제풀이가 아니라 학생의 학습 습관과 현재 수준을 진단하고, 과목별로 “어디에서 막혔는지”를 정확히 찾아 맞춤 처방으로 연결합니다. 성적이 오르기 시작하면 학습 자신감도 함께 커집니다.</p>
+  <section class="article-closing">
+    <p>성적은 노력만으로 오르기보다 방향이 맞을 때 빨리 상승합니다. 와와학습코칭센터 루원시티점은 학생별 취약 지점을 정확히 진단하고, 영어&#183;수학 학습을 체계적으로 설계해 다음 시험에서 달라지는 결과를 목표로 합니다.</p>
+  </section>
+</main>

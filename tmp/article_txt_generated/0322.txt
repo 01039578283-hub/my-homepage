@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>와와학습코칭센터 거제수월점을 선택해야 하는 이유</h1>
+  </section>
+  <p class="article-intro">양정동 영어 수학 학원을 찾고 있다면, 성적만 올리는 수업이 아니라 ‘왜 틀리는지’를 잡아주는 학습 코칭이 필요합니다. 와와학습코칭센터 거제수월점은 영어&#183;수학을 중심으로 학생의 학습 습관, 개념 이해, 문제풀이 전략까지 한 번에 점검해 성장을 돕는 맞춤형 코칭 학원입니다.</p>
+  <section class="article-closing">
+    <p>양정동 영어 수학 학원을 찾는다면, 와와학습코칭센터 거제수월점에서 지금의 문제 원인을 진단하고 맞춤 학습으로 성적을 안정적으로 만들어보세요.</p>
+  </section>
+</main>

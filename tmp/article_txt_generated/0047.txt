@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>백석동 영어 수학 학원 추천: 와와학습코칭센터 마두점, 학습 습관부터 성적까지</h1>
+  </section>
+  <p class="article-intro">백석동에서 영어&#183;수학 성적을 동시에 끌어올리고 싶다면 ‘문제 풀이만’이 아닌 학습 코칭이 가능한 학원을 찾는 것이 중요합니다. 와와학습코칭센터 마두점은 학생의 현재 수준을 정확히 진단하고, 학습 목표-전략-실행-점검까지 연결되는 맞춤형 코칭으로 영어와 수학을 탄탄하게 끌어드립니다.</p>
+  <section class="article-closing">
+    <p>백석동 영어 수학 학원으로 고민 중이라면, 와와학습코칭센터 마두점에서 영어&#183;수학을 “코칭 기반으로” 제대로 시작해 보세요. 진단?전략?실행?점검이 연결되는 학습이 성적의 차이를 만듭니다.</p>
+  </section>
+</main>

@@ -1,0 +1,30 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>와와학습코칭센터 서신점(서신동 영어&#183;수학 학원)은 성적만이 아니라 학습 습관과 성취 루틴까지 함께 설계하는 학습코칭 기반 학원입니다. 아이가 어려워하는 이유를 “문제 풀이 부족”이 아니라 “학습 방법의 오차”로 찾아 진단하고, 과목별로 꼭 필요한 개념&#183;유형&#183;복습 전략을 단계적으로 맞춰드립니다. 서신동에서 영어&#183;수학을 고민하는 학생이라면, 와와학습코칭센터 서신점에서 지금부터 학습 방향을 바꿔보세요.</h1>
+  </section>
+  <section class="article-section">
+    <h2>우리 학원을 선택해야 하는 이유</h2>
+    <div class="article-card-grid">
+      <article class="article-card">
+        <strong>학습코칭으로 ‘왜 틀리는지’를 먼저 잡습니다</strong>
+        <p>단순한 문제 반복이 아니라, 오답 패턴&#183;개념 누락&#183;풀이 흐름을 확인해 원인을 정리합니다.</p>
+      </article>
+      <article class="article-card">
+        <strong>영어&#183;수학을 “점수 구조”로 관리합니다</strong>
+        <p>듣기/독해/문법(영어), 개념/유형/서술&#183;연산(수학)처럼 점수에 직결되는 요소를 과목별로 쪼개 관리합니다.</p>
+      </article>
+      <article class="article-card">
+        <strong>맞춤형 학습 플랜과 꾸준한 피드백</strong>
+        <p>주간 학습 계획?수업?복습 점검까지 연결해, 학교 시험 흐름에 맞춰 대비합니다.</p>
+      </article>
+      <article class="article-card">
+        <strong>서신동 학습 수준에 맞춘 커리큘럼</strong>
+        <p>기초부터 내신 대비까지, 현재 학습 상태에 따라 단계적으로 끌어올립니다.</p>
+      </article>
+    </div>
+  </section>
+  <section class="article-closing">
+    <p>와와학습코칭센터 서신점은 서신동 영어&#183;수학 학습의 방향을 “성적 만들기”에서 “성취 루틴 만들기”로 바꿔드립니다. 지금 점수가 고민이라면, 원인 진단부터 시작해보세요.</p>
+  </section>
+</main>

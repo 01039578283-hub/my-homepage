@@ -1,0 +1,34 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>와와학습코칭센터 인창점은 교문동에서 영어&#183;수학 학습을 고민하는 학생들을 위해, 성적을 올리는 학습전략과 맞춤 코칭을 함께 제공하는 학원입니다. 단순 문제풀이를 넘어 학습 진단?계획?점검?피드백의 흐름으로 학습 습관을 잡고, 학교 내신과 수행평가 대비까지 체계적으로 준비합니다. 교문동 영어 수학 학원을 찾고 있다면, 우리 아이의 현재 수준과 약점을 기준으로 “어떻게 공부해야 점수가 오르는지”부터 잡아보세요.</h1>
+  </section>
+  <section class="article-section">
+    <h2>자주 묻는 질문(FAQ)</h2>
+    <div class="article-faq-list">
+      <details class="article-faq" open>
+        <summary>Q1. 교문동 영어 수학 학원으로 인창점은 어떤 학생에게 특히 맞나요?</summary>
+        <p>A. 영어&#183;수학이 필요한데 학습 방법이 부족하거나, 개념은 있으나 시험에서 점수가 안 나오는 학생(초등 고학년~중등)에게 특히 적합합니다. 진단 기반으로 약점을 우선 공략합니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q2. 선행/내신 중 어떤 방향으로 수업하나요?</summary>
+        <p>A. 학생의 학년과 목표(내신 대비, 단원평가, 선행 보충)에 맞춰 수업 방향을 조절합니다. 학교 진도와 시험 대비를 균형 있게 진행합니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q3. 수업만 듣고 혼자 공부해도 될까요?</summary>
+        <p>A. 수업도 중요하지만, 성적은 “복습&#183;오답&#183;루틴”에서 차이가 납니다. 와와학습코칭센터는 학습계획과 점검을 통해 학생이 꾸준히 실천하도록 돕습니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q4. 영어는 문법부터, 수학은 문제풀이부터 시작하면 되나요?</summary>
+        <p>A. 무조건 순서대로 하기보다, 진단 결과에 따라 필요한 부분부터 잡습니다. 영어는 문법-독해-내신형 문제까지 연결하고, 수학은 개념-유형-오답 교정 순으로 진행합니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q5. 상담은 어떻게 진행되나요?</summary>
+        <p>A. 간단한 학습 진단과 현재 상태(성적/오답/공부 습관)를 확인한 뒤, 목표와 맞는 커리큘럼 방향을 안내드립니다. 교문동 영어 수학 학원 선택 기준에 맞춰 구체적으로 설명해드립니다.</p>
+      </details>
+    </div>
+  </section>
+  <section class="article-closing">
+    <p>지금 교문동 영어 수학 학원 고민을 해결하고, 우리 아이 맞춤 학습 전략으로 성적 변화를 시작하세요. 와와학습코칭센터 인창점에서 진단 후 방향을 잡아드립니다.</p>
+  </section>
+</main>

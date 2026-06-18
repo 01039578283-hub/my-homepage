@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>구의동 영어 수학 학원 선택, 어디부터 시작해야 할지 고민되시나요? 와와학습코칭센터 광장점은 단순히 문제를 푸는 수업을 넘어 학생의 현재 수준과 학습 습관을 진단해 “성적이 오르는 방법”을 코칭하는 학습코칭센터입니다. 구의동(및 광진구) 인근에서 영어&#183;수학을 함께 잡고 싶거나, 중간에 방향을 잃지 않고 체계적으로 실력을 쌓고 싶은 학생들에게 특히 잘 맞습니다.</h1>
+  </section>
+  <p class="article-intro">왜 와와학습코칭센터 광장점을 선택해야 할까요?</p>
+  <section class="article-closing">
+    <p>구의동 영어 수학 학원이 필요하다면, 와와학습코칭센터 광장점에서 “성적이 오르는 학습 코칭”을 시작해 보세요.</p>
+  </section>
+</main>

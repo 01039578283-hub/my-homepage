@@ -1,0 +1,55 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>성사동 영어&#183;수학 학원 찾고 계신가요? 와와학습코칭센터 원당점은 성사동(원당/주변 지역) 학생들을 위한 영어&#183;수학 중심 맞춤 코칭 학원입니다. 단순히 문제를 푸는 수업이 아니라, 진단-처방-관리의 시스템으로 학생의 약점을 정확히 짚고 성적이 오르는 학습 습관까지 함께 만들어드립니다.</h1>
+  </section>
+  <section class="article-section">
+    <h2>수업 대상 학생 &amp; 학년별 학습 고민</h2>
+    <div class="article-target-list">
+      <article class="article-target-card">
+        <h3>초등(초4~초6)</h3>
+          <ul>
+            <li>고민 1) 영어는 단어&#183;문장 읽기는 되는데 시험에서 자꾸 틀려요</li>
+            <li>고민 2) 수학은 개념은 아는데 문제 유형이 바뀌면 풀기 어려워요</li>
+            <li>고민 3) 숙제/복습이 잘 안 돼 성적이 들쑥날쑥해요</li>
+            <li>고민 1) 내신 영어 문법&#183;독해가 약해요(문장 해석/서술형 포함)</li>
+            <li>고민 2) 수학은 단원별로 배울 때는 괜찮은데 누적 문제에서 막혀요</li>
+            <li>고민 3) 모의고사/수행평가 대비가 막막해요</li>
+          </ul>
+        <p class="article-arrow">→ 단원별 빈틈을 정확히 찾아 개념-유형-기출/내신 흐름으로 단계적으로 올려드립니다.</p>
+      </article>
+      <article class="article-target-card">
+        <h3>고등(고1~고3) (필요 시)</h3>
+          <ul>
+            <li>고민 1) 내신 또는 모의고사에서 점수가 잘 안 오릅니다</li>
+            <li>고민 2) 오답이 반복되고 공부 효율이 떨어져요</li>
+            <li>고민 3) 영어/수학의 기초와 심화 균형이 필요해요</li>
+          </ul>
+        <p class="article-arrow">→ 학습 전략(오답 관리, 단원별 학습 비중, 시간 배분)을 세워 실전 점수 상승에 맞추어 코칭합니다.</p>
+      </article>
+    </div>
+  </section>
+  <section class="article-section">
+    <h2>자주 묻는 질문(FAQ)</h2>
+    <div class="article-faq-list">
+      <details class="article-faq" open>
+        <summary>Q1. 성사동 영어&#183;수학 학원으로 다니면 성적이 얼마나 빨리 오르나요?</summary>
+      </details>
+      <details class="article-faq">
+        <summary>Q2. 영어와 수학은 동시에 등록해야 하나요?</summary>
+      </details>
+      <details class="article-faq">
+        <summary>Q3. 내신 대비(서술형/수행평가)도 가능한가요?</summary>
+      </details>
+      <details class="article-faq">
+        <summary>Q4. 학원에서 숙제/복습은 어떻게 관리하나요?</summary>
+      </details>
+      <details class="article-faq">
+        <summary>Q5. 상담은 어떻게 진행되나요?</summary>
+      </details>
+    </div>
+  </section>
+  <section class="article-closing">
+    <p>원하시면 “학생 학년(초4~중3 등) / 현재 성적대 / 가장 힘든 단원(또는 오답 유형)”을 알려주세요. 그 정보에 맞춰 성사동 영어&#183;수학 학원 ‘와와학습코칭센터 원당점’에 더 딱 맞는 원고 버전으로 재작성해드릴게요.</p>
+  </section>
+</main>

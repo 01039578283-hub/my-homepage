@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>와와학습코칭센터 염창점은 등촌동에서 영어&#183;수학 학원을 찾는 학생들에게 “성적이 오르는 학습 루틴”을 만들어주는 학습코칭센터입니다. 단순히 문제풀이만 반복하지 않고, 학생의 현재 수준과 학습 습관을 진단한 뒤 과목별 전략과 개별 학습계획을 설계합니다. 그 결과, 영어는 문법&#183;독해의 기반을 탄탄히, 수학은 개념 이해부터 실전 풀이력까지 단계적으로 끌어올립니다.</h1>
+  </section>
+  <p class="article-intro">우리 학원을 선택해야 하는 이유</p>
+  <section class="article-closing">
+    <p>등촌동 영어 수학 학원으로 “어디서 어떻게 공부해야 성적이 오르는지”가 막막하다면, 와와학습코칭센터 염창점에서 진단 기반 학습코칭으로 시작해보세요.</p>
+  </section>
+</main>

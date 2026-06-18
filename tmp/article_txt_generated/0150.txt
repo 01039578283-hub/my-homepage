@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>와와학습코칭센터 오산점을 선택해야 하는 이유</h1>
+  </section>
+  <p class="article-intro">오산에서 영어&#183;수학 실력 향상이 고민이라면, ‘원동 영어 수학 학원’을 찾는 많은 학부모님들이 결국 선택하는 곳이 있습니다. 와와학습코칭센터 오산점은 과목 성적만이 아니라 공부 습관, 학습 전략, 상담 기반 로드맵까지 함께 잡아주는 학습 코칭형 학원입니다.</p>
+  <section class="article-closing">
+    <p>오산에서 원동 영어 수학 학원으로 고민 중이라면, 단순 학습이 아닌 ‘코칭 기반 로드맵’이 있는 와와학습코칭센터 오산점을 만나보세요. 지금의 약점을 정확히 짚고, 꾸준히 실력이 쌓이도록 도와드리겠습니다.</p>
+  </section>
+</main>

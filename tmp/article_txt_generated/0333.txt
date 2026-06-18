@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>경화동 영어 수학 학원, 와와학습코칭센터 석동점에서 학습코칭으로 성적을 만듭니다</h1>
+  </section>
+  <p class="article-intro">경화동에서 영어&#183;수학 학원을 찾고 있다면, 단순한 문제풀이만 반복하는 수업보다 “왜 틀리는지”를 찾아 학습 습관과 개념-유형-실전까지 연결해주는 코칭형 수업이 필요합니다. 와와학습코칭센터 석동점은 학생의 수준과 학습 상태를 진단해 개인별 학습 전략을 세우고, 영어와 수학 실력을 체계적으로 끌어올립니다.</p>
+  <section class="article-closing">
+    <p>경화동 영어 수학 학원 찾고 있다면, 체계적인 학습코칭으로 영어&#183;수학 실력을 같이 끌어올리는 와와학습코칭센터 석동점에서 시작해보세요.</p>
+  </section>
+</main>

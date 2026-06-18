@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>식사동 영어&#183;수학 학원 찾는다면, 와와학습코칭센터 풍동점</h1>
+  </section>
+  <p class="article-intro">“영어는 성적이 오르지 않고, 수학은 개념은 아는데 문제만 보면 흔들린다”는 고민을 가진 학생들이 많습니다. 와와학습코칭센터 풍동점은 식사동 학생들의 학습 상태를 진단하고, 영어&#183;수학을 중심으로 학습전략을 세워 꾸준히 점수로 연결되게 돕는 학습코칭형 학원입니다.</p>
+  <section class="article-closing">
+    <p>식사동 영어 수학 학원으로 와와학습코칭센터 풍동점을 찾는다면, 현재 수준 진단과 학습 계획을 먼저 확인해보세요. 상담을 통해 학생에게 맞는 로드맵을 제안드립니다.</p>
+  </section>
+</main>

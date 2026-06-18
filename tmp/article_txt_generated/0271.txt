@@ -1,0 +1,35 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>[상인동 영어&#183;수학 학원 추천: 와와학습코칭센터 신월성점]</h1>
+  </section>
+  <p class="article-intro">상인동에서 영어와 수학을 함께 잡고 싶은 학생이라면, “열심히”보다 “방법”이 먼저입니다. 와와학습코칭센터 신월성점은 학생의 현재 수준과 학습 습관을 점검한 뒤, 과목별 학습 전략과 코칭을 결합해 성적 상승이 이어지도록 설계합니다. 단순한 문제풀이가 아니라 왜 틀리는지, 어떤 순서로 학습해야 점수가 오르는지까지 안내합니다.</p>
+  <section class="article-section">
+    <h2>자주 묻는 질문(FAQ)</h2>
+    <div class="article-faq-list">
+      <details class="article-faq" open>
+        <summary>Q1. 상인동 영어&#183;수학 학원을 찾고 있는데, 와와학습코칭센터는 어떤 방식인가요?</summary>
+        <p>A. 단순 문제풀이보다 학습 진단을 바탕으로 영어/수학 과목별 학습 전략과 코칭(피드백)을 함께 진행합니다. 학생이 왜 틀리는지까지 연결해 해결합니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q2. 영어는 문법이 약하고 수학은 응용이 약해요. 각각 따로 수업하나요?</summary>
+        <p>A. 과목별로 수준과 목표에 맞춰 접근합니다. 영어는 문법&#183;구문과 독해 흐름을, 수학은 개념-유형-서술형/실수 교정을 중심으로 구성됩니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q3. 학년이 다른데도 수업이 가능한가요?</summary>
+        <p>A. 학년/수준에 맞춰 학습 목표와 난이도, 진행 속도를 조절합니다. 현재 실력과 약점을 기준으로 학습 로드맵을 잡아갑니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q4. 숙제가 있는데, 스스로 하기 어려워요. 관리해주나요?</summary>
+        <p>A. 숙제 자체보다 “학습 과정”을 확인하고 피드백합니다. 오답과 실수 패턴을 줄이도록 점검 및 코칭을 함께 운영합니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q5. 상담을 받으면 어떤 점을 먼저 확인하나요?</summary>
+        <p>A. 현재 성적/오답 유형/학습 습관을 우선 확인하고, 영어&#183;수학 목표에 맞춘 단기&#183;중기 계획을 제안합니다. 이를 바탕으로 수업이 어떻게 연결될지 안내드립니다.</p>
+      </details>
+    </div>
+  </section>
+  <section class="article-closing">
+    <p>상인동 영어 수학 학원으로 성적을 올리고 싶다면, “무엇을”이 아니라 “어떻게”를 먼저 잡아야 합니다. 와와학습코칭센터 신월성점은 영어&#183;수학을 과목별 전략과 코칭으로 연결해, 꾸준히 점수가 오르는 학습을 만들어갑니다.</p>
+  </section>
+</main>

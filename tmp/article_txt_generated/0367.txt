@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>[짧은 소개]</h1>
+  </section>
+  <p class="article-intro">석사동 영어 수학 학원을 찾는다면, 맞춤 코칭으로 공부 방향을 잡아주는 와와학습코칭센터 석사점이 답입니다. 단순한 문제풀이가 아니라 학생의 현재 수준과 학습 습관을 진단해 목표에 맞게 계획을 세우고, 점검&#183;피드백까지 이어지는 학습 코칭으로 성적과 자신감을 함께 키웁니다. [우리 학원을 선택해야 하는 이유]</p>
+  <section class="article-closing">
+    <p>석사동 영어 수학 학원으로 와와학습코칭센터 석사점을 선택하면, 공부 방법부터 달라져 “성적이 오르는 구조”를 만들 수 있습니다.</p>
+  </section>
+</main>

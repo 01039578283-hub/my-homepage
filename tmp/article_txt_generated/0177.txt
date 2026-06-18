@@ -1,0 +1,35 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>운정신도시 영어 수학 학원 찾고 있다면, 와와학습코칭센터 운정점</h1>
+  </section>
+  <p class="article-intro">운정신도시에서 영어&#183;수학 성적을 끌어올리고 싶다면 와와학습코칭센터 운정점 을 추천합니다. 단순 문제 풀이가 아니라 학생의 학습 상태를 진단하고, 목표에 맞춘 전략으로 꾸준히 실력을 쌓아가도록 코칭하는 학습 시스템을 운영합니다. 초등부터 중등까지, 과목별 학습 로드맵을 바탕으로 성적 상승을 목표로 합니다.</p>
+  <section class="article-section">
+    <h2>자주 묻는 질문(FAQ)</h2>
+    <div class="article-faq-list">
+      <details class="article-faq" open>
+        <summary>Q1. 운정신도시 영어 수학 학원 중에서, 와와학습코칭센터는 어떤 방식인가요?</summary>
+        <p>A. 학생의 수준을 진단하고 학습 목표에 맞게 계획을 세운 뒤, 수업과 복습&#183;점검을 통해 실력이 누적되도록 코칭합니다. 단순 학습이 아니라 “어떻게 공부해야 점수가 오르는지” 흐름을 잡아드립니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q2. 영어/수학을 둘 다 다녀야 하나요, 아니면 한 과목부터 시작해도 되나요?</summary>
+        <p>A. 가능합니다. 현재 성적과 학습 상황에 따라 영어 또는 수학부터 시작해도 됩니다. 상담을 통해 우선순위를 정하고, 필요 시 두 과목을 균형 있게 조정합니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q3. 성적이 바로 오르기 어렵지 않나요? 보통 얼마나 시간이 걸리나요?</summary>
+        <p>A. 학생마다 다르지만, 와와학습코칭센터는 단원 취약점을 빠르게 보완하고 반복 점검을 통해 학습 효율을 높이는 방식이라 단기 개선과 장기 누적을 함께 목표로 합니다. 상담 시 현재 수준을 기준으로 현실적인 로드맵을 안내드립니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q4. 숙제와 복습 관리는 어떻게 하나요?</summary>
+        <p>A. 수업 이후 학습이 실제로 이어지도록 숙제&#183;복습을 점검하고, 오답이 남지 않도록 관리합니다. 학습 습관이 잡히는 과정을 함께 지도합니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q5. 초등/중등 중 어디가 더 적합한가요?</summary>
+        <p>A. 초등(기초 확립)부터 중등(내신 대비&#183;문제 적용)까지 모두 학습 고민이 있습니다. 와와학습코칭센터는 학년별로 필요한 학습 요소를 다르게 잡아 코칭하기 때문에, 학습 목표에 맞춰 수업 구성을 도와드립니다.</p>
+      </details>
+    </div>
+  </section>
+  <section class="article-closing">
+    <p>운정신도시 영어 수학 학원 을 찾는 지금, 상담으로 시작해보시길 바랍니다.</p>
+  </section>
+</main>

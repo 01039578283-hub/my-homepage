@@ -1,0 +1,47 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>와와학습코칭센터 명지대역점은 김량장동에서 영어&#183;수학 학습을 고민하는 학생에게 “과목 실력 + 공부 습관 + 성적 로드맵”을 함께 설계하는 학습코칭센터입니다. 단순 문제풀이가 아니라, 현재 수준 진단→취약 영역 처방→주간 학습 관리까지 이어지는 코칭형 수업으로 성적 상승의 근거를 만들어드립니다.</h1>
+  </section>
+  <section class="article-section">
+    <h2>우리 학원을 선택해야 하는 이유</h2>
+    <div class="article-card-grid">
+      <article class="article-card">
+        <strong>진단 기반 맞춤 전략: 학생의 현재 성취도와 학습 습관을 먼저 파악해, “어디서 막히는지”부터 정확히 짚습니다.</strong>
+        <p>2. 영어&#183;수학 동시 성장 설계: 문법/독해/유형/서술형 등 영어와, 연산/문제해결/서술형까지 수학을 체계적으로 관리합니다.</p>
+      </article>
+      <article class="article-card">
+        <strong>학습 관리 코칭: 수업만 하고 끝내지 않고, 과제&#183;복습&#183;오답 루틴이 실제 성적으로 연결되도록 주간 단위로 점검합니다.</strong>
+        <p>4. 김량장동 학습 수요에 최적화: 명지대역 인근 접근성과 학습 밀도를 바탕으로 꾸준한 학습이 가능한 환경을 제공합니다.</p>
+      </article>
+    </div>
+  </section>
+  <section class="article-section">
+    <h2>자주 묻는 질문(FAQ)</h2>
+    <div class="article-faq-list">
+      <details class="article-faq" open>
+        <summary>Q1. 김량장동 영어 수학 학원으로 등록하면 어떤 식으로 시작하나요?</summary>
+        <p>A. 첫 단계에서 현재 수준과 학습 상태를 진단한 뒤, 과목별 취약 영역을 정리하고 목표(내신/선행/보완)에 맞춘 주간 학습 계획을 세웁니다. 이후 수업과 함께 과제&#183;복습&#183;오답 관리까지 연결합니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q2. 영어와 수학을 같이 다니면 성적이 더 빨리 오르나요?</summary>
+        <p>A. 많은 학생이 영어&#183;수학 모두 취약 구간이 비슷한 방식으로 누적됩니다. 두 과목을 동시에 코칭하면 학습 루틴과 복습 방식이 안정화되어, 공부 시간 대비 효율이 좋아지는 경우가 많습니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q3. 선행이나 보완 중 어떤 프로그램을 선택해야 할까요?</summary>
+        <p>A. 현재 학년에서 부족한 개념/유형이 남아 있으면 보완을 우선으로, 다음 단계 성취가 목표라면 선행을 목표에 맞춰 진행합니다. 진단 결과로 우선순위를 정해드립니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q4. 오답 관리는 어떻게 하나요?</summary>
+        <p>A. 오답을 단순 재풀이로 끝내지 않고, 틀린 이유(개념/계산/독해/유형 이해)를 분류해 다음 문제에서 같은 실수가 반복되지 않도록 훈련합니다. 주간 점검으로 루틴을 고정합니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q5. 수업은 주로 어떤 방식으로 진행되나요?</summary>
+        <p>A. 기본 개념 확인 → 문제 적용/유형 훈련 → 실수 포인트 보정 → 서술형&#183;서술형 대비(필요 시) 순으로 진행되며, 학습 관리 코칭을 함께 제공합니다.</p>
+      </details>
+    </div>
+  </section>
+  <section class="article-closing">
+    <p>(원하시면) “초등/중등 학년별 세부 과정명(예: 기초-기본-내신-심화)”과 “수업 시간표 스타일(주간/방학/과제 방식)”도 학원 톤에 맞춰 더 구체적으로 맞춰드릴게요.</p>
+  </section>
+</main>

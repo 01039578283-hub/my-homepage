@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>진안동 영어 수학 학원, 와와학습코칭센터 병점점에서 맞춤 학습코칭으로 실력 UP</h1>
+  </section>
+  <p class="article-intro">성적이 오르지 않는 이유는 실력이 부족해서가 아니라 “어떻게 공부해야 하는지”가 맞지 않기 때문입니다. 와와학습코칭센터 병점점은 진안동 영어 수학 학원을 찾는 학생들이 목표 성취까지 갈 수 있도록, 진단-처방-피드백 중심의 학습코칭을 제공합니다. 단순 문제풀이를 넘어 학습 습관과 약점 구조를 함께 잡아, 꾸준히 성장하는 학습 설계를 해드립니다.</p>
+  <section class="article-closing">
+    <p>진안동 영어 수학 학원 선택이 고민이라면, 와와학습코칭센터 병점점에서 맞춤 학습코칭으로 목표에 맞게 시작해보세요.</p>
+  </section>
+</main>

@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>와와학습코칭센터 풍동점: 풍동 영어&#183;수학 학원, 학습코칭으로 성적이 달라집니다</h1>
+  </section>
+  <p class="article-intro">풍동에서 영어&#183;수학 성적 고민이 있다면, 단순 문제풀이보다 “왜 틀리는지”를 잡아주는 학습코칭이 필요합니다. 와와학습코칭센터 풍동점은 학생의 학습 습관과 약점을 진단해 목표에 맞는 학습 로드맵을 만들고, 수업-점검-피드백을 통해 꾸준한 성장을 돕습니다. 기초부터 실력 향상까지, 풍동 영어 수학 학원으로 신뢰받는 커리큘럼을 제공합니다.</p>
+  <section class="article-closing">
+    <p>풍동 영어 수학 학원 선택이 고민이라면, 와와학습코칭센터 풍동점에서 “원인 진단 + 맞춤 코칭”으로 성적 변화를 만들어보세요.</p>
+  </section>
+</main>

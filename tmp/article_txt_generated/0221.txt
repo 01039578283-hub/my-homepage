@@ -1,0 +1,31 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>송도 영어 수학 학원, 와와학습코칭센터 송도점으로 학습 습관부터 잡아보세요</h1>
+  </section>
+  <p class="article-intro">성적이 오르지 않는 이유는 실력 부족만이 아닐 때가 많습니다. 공부 방법이 맞지 않거나, 개념-문제풀이-복습의 흐름이 끊기면 같은 시간을 해도 결과가 늦어집니다. 와와학습코칭센터 송도점은 송도 영어 수학 학원으로서 학생별 학습 현황을 진단하고, 목표에 맞는 학습 로드맵과 코칭을 통해 꾸준히 성장할 수 있도록 돕습니다.</p>
+  <section class="article-section">
+    <h2>우리 학원을 선택해야 하는 이유</h2>
+    <div class="article-card-grid">
+      <article class="article-card">
+        <strong>학생 수준에 맞춘 맞춤 코칭:</strong>
+        <p>단순 문제풀이가 아니라 현재 학습 상태를 기반으로 계획을 설계합니다.</p>
+      </article>
+      <article class="article-card">
+        <strong>영어&#183;수학을 동시에 잡는 학습 흐름:</strong>
+        <p>과목별 약점을 원인 단위로 파악해 단계별로 보완합니다.</p>
+      </article>
+      <article class="article-card">
+        <strong>학습 습관/복습 시스템:</strong>
+        <p>숙제량만 늘리기보다 “언제, 무엇을, 어떻게”를 정리해 성과로 연결합니다.</p>
+      </article>
+      <article class="article-card">
+        <strong>목표 기반 관리:</strong>
+        <p>단기 성취와 중장기 학습 방향을 함께 잡아 동기와 지속력을 높입니다.</p>
+      </article>
+    </div>
+  </section>
+  <section class="article-closing">
+    <p>와와학습코칭센터 송도점은 영어&#183;수학의 성적 향상뿐 아니라, 오래 가는 학습 습관과 문제 해결 흐름을 만들어드립니다. “어디서부터 어떻게 해야 할지 모르겠다”는 고민이 있다면 지금 상담을 통해 맞춤 로드맵을 확인해보세요.</p>
+  </section>
+</main>

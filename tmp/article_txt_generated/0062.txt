@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>화정동 영어 수학 학원 찾고 있다면, 와와학습코칭센터 화정점에서 시작하세요. 초등부터 중등까지 학생이 “공부하는 방법”을 먼저 잡고, 영어&#183;수학 실력을 꾸준히 끌어올릴 수 있도록 진단-처방-관리 시스템으로 지도합니다. 단순히 문제만 반복하지 않고, 학습 습관과 개념 이해, 실전 풀이를 함께 설계해 성적이 오르는 흐름을 만들어드립니다.</h1>
+  </section>
+  <p class="article-intro">와와학습코칭센터 화정점을 선택해야 하는 이유</p>
+  <section class="article-closing">
+    <p>화정동 영어 수학 학원으로 와와학습코칭센터 화정점에 문의해 보세요. 학생별 맞춤 진단과 코칭 기반 수업으로, 꾸준히 쌓이는 학습력과 점수 상승의 가능성을 함께 만들어가겠습니다.</p>
+  </section>
+</main>

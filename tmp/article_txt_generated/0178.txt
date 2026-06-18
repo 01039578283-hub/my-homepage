@@ -1,0 +1,9 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>제목: 운정중앙 영어 수학 학원 찾는다면, 와와학습코칭센터 운정중앙점</h1>
+  </section>
+  <section class="article-closing">
+    <p>(핵심 키워드 포함: 운정중앙 영어 수학 학원, 와와학습코칭센터 운정중앙점)</p>
+  </section>
+</main>

@@ -1,0 +1,35 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>[천안 백석동 영어 수학 학원] 와와학습코칭센터 불당점 원고</h1>
+  </section>
+  <p class="article-intro">천안 백석동에서 영어&#183;수학 학원을 찾고 있다면, 와와학습코칭센터 불당점을 추천합니다. 단순히 문제를 푸는 수업이 아니라, 학생의 현재 수준과 학습 습관을 먼저 진단하고 목표 달성까지의 계획을 함께 세웁니다. 영어와 수학은 성적이 “한 번에” 오르기보다 “누적”되는 과목인 만큼, 맞춤 코칭과 체계적인 관리가 중요합니다.</p>
+  <section class="article-section">
+    <h2>자주 묻는 질문(FAQ)</h2>
+    <div class="article-faq-list">
+      <details class="article-faq" open>
+        <summary>Q1. 백석동에서 다니기 편한가요?</summary>
+        <p>A. 와와학습코칭센터 불당점은 천안 백석동 학부모/학생들의 수업 문의가 많습니다. 통학 동선과 시간대를 기준으로 상담 시 최적의 시간표를 안내드립니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q2. 수업은 내신(학교 시험) 중심으로 진행되나요?</summary>
+        <p>A. 네. 영어&#183;수학 모두 내신에서 중요한 개념과 유형을 중심으로 학습 전략을 세우고, 시험 대비가 되도록 학습 흐름을 관리합니다. (진단 후 단계별 커리큘럼으로 운영)</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q3. 수업을 시작하기 전에 진단이 있나요?</summary>
+        <p>A. 네. 학생의 현재 수준과 약점을 확인하기 위한 진단(학습 상태/기초 점검)을 기반으로 커리큘럼과 학습 계획을 구성합니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q4. 숙제나 복습 관리는 어떻게 되나요?</summary>
+        <p>A. 단순 과제 부여가 아니라, 복습 방향과 점검 기준을 함께 안내합니다. 오답과 약점 보완이 이어지도록 학습 실행을 관리합니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q5. 영어와 수학 중 하나만 다녀도 효과가 있나요?</summary>
+        <p>A. 가능합니다. 약점이 더 큰 과목부터 시작해도 좋고, 성적/학습 습관이 함께 필요하다면 영어&#183;수학을 병행하는 방식도 추천드립니다. 목표와 현재 상태에 따라 선택을 도와드립니다.</p>
+      </details>
+    </div>
+  </section>
+  <section class="article-closing">
+    <p>천안 백석동 영어 수학 학원으로 와와학습코칭센터 불당점을 고려 중이라면, 지금 학생의 현재 수준과 목표(내신/모의고사/학습 습관)를 먼저 점검해보세요. 맞춤 코칭으로 영어&#183;수학 성장을 설계하겠습니다.</p>
+  </section>
+</main>

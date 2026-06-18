@@ -1,0 +1,56 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>장량동 영어 수학 학원 찾는다면, 와와학습코칭센터 양덕점</h1>
+  </section>
+  <p class="article-intro">장량동에서 영어와 수학을 함께 잡고 싶은 학생&#183;학부모라면 와와학습코칭센터 양덕점에 주목해보세요. 단순 문제풀이가 아니라 학습 진단 → 맞춤 코칭 → 꾸준한 관리까지 연결되는 학습 시스템으로, 성적이 오르는 공부 습관을 만들어드립니다. 영어&#183;수학의 기초부터 내신 대비, 실전 실력까지 탄탄하게 설계해요.</p>
+  <section class="article-section">
+    <h2>우리 학원을 선택해야 하는 이유</h2>
+    <div class="article-card-grid">
+      <article class="article-card">
+        <strong>개별 학습 코칭 기반 수업</strong>
+        <p>학생마다 약점이 다른 만큼 진단 후 목표와 학습 전략을 다르게 제시합니다.</p>
+      </article>
+      <article class="article-card">
+        <strong>영어&#183;수학 “기초-개념-문제” 흐름 완성</strong>
+        <p>반복 학습으로 이해를 고정하고, 유형 훈련으로 점수를 만듭니다.</p>
+      </article>
+      <article class="article-card">
+        <strong>학습 태도와 습관까지 관리</strong>
+        <p>숙제&#183;복습&#183;오답 루틴을 잡아 “공부가 되는 방식”을 만들어줍니다.</p>
+      </article>
+      <article class="article-card">
+        <strong>내신/학교 시험 대비에 최적화</strong>
+        <p>시험 범위와 출제 경향을 반영해 효율적으로 준비합니다.</p>
+      </article>
+    </div>
+  </section>
+  <section class="article-section">
+    <h2>자주 묻는 질문(FAQ)</h2>
+    <div class="article-faq-list">
+      <details class="article-faq" open>
+        <summary>Q1. 장량동 영어 수학 학원으로 와야 하는 특별한 이유가 있나요?</summary>
+        <p>A. 와와학습코칭센터 양덕점은 영어&#183;수학을 “진단-전략-관리”로 연결해 성적이 오르는 학습 습관을 만들어드립니다. 단순 수업이 아니라 학생별 약점을 기준으로 계획을 세우고 지속 관리합니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q2. 영어는 문법, 수학은 개념이 약한데 같이 다니면 괜찮을까요?</summary>
+        <p>A. 네, 괜찮습니다. 영어와 수학은 각기 다른 약점이 있어도 학습 습관과 복습 루틴을 함께 잡으면 시너지가 큽니다. 진단 후 우선순위를 정해 효율적으로 진행합니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q3. 내신 대비가 목적이면 어떤 방식으로 준비하나요?</summary>
+        <p>A. 학교 시험 범위와 유형을 반영해 핵심 개념과 자주 나오는 문제부터 정리합니다. 이후 오답을 통해 같은 실수를 반복하지 않도록 관리합니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q4. 숙제와 복습은 얼마나 하고, 관리가 되나요?</summary>
+        <p>A. 수업만으로 끝내지 않고 숙제&#183;복습 루틴을 함께 잡습니다. 학생이 스스로 따라올 수 있도록 분량과 방식도 조정하며, 진행 상황을 확인합니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q5. 어떤 학생이 특히 효과를 보나요?</summary>
+        <p>A. 기초가 흔들려서 유형 문제에서 어려움을 겪거나, 공부 계획이 없어 꾸준히 실력이 오르지 않는 학생에게 특히 효과가 큽니다. 영어&#183;수학을 함께 점검받고 싶은 경우도 추천드립니다.</p>
+      </details>
+    </div>
+  </section>
+  <section class="article-closing">
+    <p>장량동 영어 수학 학원 선택이 고민이라면, 와와학습코칭센터 양덕점에서 학습 진단부터 시작해보세요.</p>
+  </section>
+</main>

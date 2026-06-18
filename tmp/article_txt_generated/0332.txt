@@ -1,0 +1,34 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>와와학습코칭센터 석동점은 자은동에서 영어&#183;수학 학습을 체계적으로 잡아주고, 학생의 현재 수준과 학습 습관을 기반으로 “성적이 오르는 방식”을 설계해주는 학습코칭 중심 학원입니다. 단순히 문제를 더 푸는 방식이 아니라, 진단-맞춤 계획-피드백-복습 관리까지 연결해 학습 공백을 메우고 꾸준히 실력이 쌓이도록 돕습니다. 특히 영어와 수학은 기초가 흔들리면 다음 단계가 어렵기 때문에, 와와학습코칭센터 석동점에서는 학생별 취약 포인트를 빠르게 찾아 학습 전략을 바꿔주는 데 집중합니다.</h1>
+  </section>
+  <section class="article-section">
+    <h2>자주 묻는 질문(FAQ)</h2>
+    <div class="article-faq-list">
+      <details class="article-faq" open>
+        <summary>Q1. 자은동 영어 수학 학원으로 다른 학원과 무엇이 다른가요?</summary>
+        <p>A. 와와학습코칭센터 석동점은 단순 진도형 수업이 아니라 학생별 학습 진단과 코칭을 기반으로 영어&#183;수학의 약점 원인을 찾아 학습 전략을 조정합니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q2. 성적이 낮아도 수업을 시작할 수 있나요?</summary>
+        <p>A. 가능합니다. 현재 수준 진단 후 기초부터 무리 없이 연결되도록 목표를 단계적으로 설정하고, 오답 원인 분석과 복습 루틴으로 따라오게 돕습니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q3. 어느 정도 기간을 두고 성적 변화를 기대할 수 있나요?</summary>
+        <p>A. 학생마다 다르지만, 보통 진단 후 4~8주 내에 학습 습관과 문제 접근 방식에서 변화가 나타나는 경우가 많습니다. 이후에는 내신/모의고사 목표에 맞춰 단계적으로 상승을 관리합니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q4. 숙제는 어떻게 관리되나요?</summary>
+        <p>A. 숙제는 단순 과제가 아니라 복습과 연결되도록 계획됩니다. 오답 정리 및 재학습이 루틴으로 자리 잡도록 코칭하며, 다음 수업에서 반영합니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q5. 상담은 어떤 방식으로 진행되나요?</summary>
+        <p>A. 현재 성적/오답 경향/학습 습관을 함께 확인한 뒤, 영어&#183;수학 각각의 목표와 학습 계획을 제안합니다. 학생에게 맞춘 방향으로 수업 운영을 안내해드립니다.</p>
+      </details>
+    </div>
+  </section>
+  <section class="article-closing">
+    <p>A. 현재 성적/오답 경향/학습 습관을 함께 확인한 뒤, 영어&#183;수학 각각의 목표와 학습 계획을 제안합니다. 학생에게 맞춘 방향으로 수업 운영을 안내해드립니다.</p>
+  </section>
+</main>

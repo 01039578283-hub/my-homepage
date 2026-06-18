@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>신당동 영어 수학 학원 추천: 와와학습코칭센터 이곡점</h1>
+  </section>
+  <p class="article-intro">신당동에서 영어&#183;수학을 제대로 잡고 싶은 학생과 학부모님을 위해, 와와학습코칭센터 이곡점이 맞춤 학습 코칭으로 학습 효과를 높여드립니다. 단순한 문제 풀이를 넘어, 진단-처방-관리 시스템을 통해 현재 수준을 정확히 파악하고 학년별 취약 구간을 보완합니다. 영어는 문법&#183;독해&#183;서술형까지, 수학은 개념 이해와 유형 훈련을 연결해 성적이 오르는 학습 루틴을 만들어줍니다.</p>
+  <section class="article-closing">
+    <p>신당동 영어 수학 학원 선택을 고민 중이라면, 와와학습코칭센터 이곡점에서 학생별 맞춤 코칭으로 학습 방향을 잡아보세요.</p>
+  </section>
+</main>

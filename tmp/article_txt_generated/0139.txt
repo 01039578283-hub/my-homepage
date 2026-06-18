@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>와와학습코칭센터 고잔점을 선택해야 하는 이유</h1>
+  </section>
+  <p class="article-intro">고잔동에서 영어&#183;수학 학원을 찾고 있다면, 단순 문제풀이를 넘어 학습 습관과 성적 향상을 함께 설계해주는 와와학습코칭센터 고잔점 을 추천합니다. “어떻게 공부해야 점수가 오르는지”를 학생 수준에 맞춰 코칭하고, 꾸준히 이어질 수 있게 관리합니다.</p>
+  <section class="article-closing">
+    <p>시험이 다가와도 공부 방법이 막막했던 경험이 있다면, 지금 필요한 건 더 많은 시간이 아니라 “전략 있는 학습”입니다. 와와학습코칭센터 고잔점 과 함께 영어&#183;수학 실력을 탄탄하게 만들고, 점수로 증명되는 변화를 경험해보세요.</p>
+  </section>
+</main>

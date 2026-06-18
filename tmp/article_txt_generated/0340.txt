@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>수완지구 영어&#183;수학 학원 추천: 와와학습코칭센터 수완점에서 학습 코칭 받기</h1>
+  </section>
+  <p class="article-intro">수완지구에서 영어와 수학을 체계적으로 끌어올릴 학원을 찾고 계신가요? 와와학습코칭센터 수완점은 단순 문제풀이에 그치지 않고, 학생의 학습 상태를 진단해 맞춤 전략으로 공부 습관과 성취를 동시에 만드는 학습코칭에 집중합니다. “성적이 잘 안 오르는 이유가 뭘까?”부터 함께 찾아가는 수업, 그래서 반복 학습이 아닌 성장 학습으로 이어집니다.</p>
+  <section class="article-closing">
+    <p>수완지구 영어 수학 학원 을 찾는다면, 와와학습코칭센터 수완점에서 “왜 성적이 안 나오는지”를 먼저 찾아 더 빠르게 성장해보세요.</p>
+  </section>
+</main>

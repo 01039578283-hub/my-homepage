@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>목동동 영어 수학 학원을 찾고 있다면, “와와학습코칭센터 산내점”을 먼저 확인해보세요. 단순히 문제만 푸는 수업이 아니라, 학생의 현재 실력과 학습 습관을 진단해 목표에 맞게 학습을 설계하고 꾸준히 점검해주는 학습코칭 방식이 강점입니다. 영어&#183;수학의 성적은 “방법”을 바꾸는 것에서 시작되곤 합니다.</h1>
+  </section>
+  <p class="article-intro">와와학습코칭센터 산내점이 학원을 선택해야 하는 이유</p>
+  <section class="article-closing">
+    <p>목동동 영어 수학 학원으로 고민 중이라면, 와와학습코칭센터 산내점에서 학생 맞춤 학습코칭으로 영어&#183;수학 실력과 공부 습관을 함께 잡아보세요.</p>
+  </section>
+</main>

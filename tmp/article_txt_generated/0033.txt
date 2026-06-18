@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>와와학습코칭센터 당산점을 선택해야 하는 이유</h1>
+  </section>
+  <p class="article-intro">당산동 영어 수학 학원을 찾고 있다면 와와학습코칭센터 당산점에 주목하세요. 단순 문제풀이가 아니라 학생의 학습 습관과 약점을 진단해 맞춤 전략으로 성적 상승을 돕는 학습코칭형 수업을 제공합니다. 영어와 수학을 중심으로 내신&#183;기초&#183;유형학습까지 체계적으로 관리해, 공부가 “막히는 지점”을 확실히 뚫어드립니다.</p>
+  <section class="article-closing">
+    <p>당산동 영어 수학 학원, 내신 대비와 맞춤 학습코칭을 원한다면 와와학습코칭센터 당산점에서 시작해 보세요. 지금의 위치에서 다음 성적 목표까지, 체계적으로 함께 만들어드립니다.</p>
+  </section>
+</main>

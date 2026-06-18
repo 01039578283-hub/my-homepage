@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>금오동 영어&#183;수학 학원 찾는다면, 와와학습코칭센터 신곡점</h1>
+  </section>
+  <p class="article-intro">금오동에서 영어&#183;수학 학원을 알아보는 학생들과 학부모님이라면 “수업만 듣고 끝나는 곳”이 아니라, 성적이 오르는 방향으로 학습을 설계해주는 곳이 필요합니다. 와와학습코칭센터 신곡점은 과목별 실력 격차를 진단하고, 학습 습관과 공부 전략까지 함께 잡아주는 학습코칭형 프로그램으로 학생의 성장을 돕습니다.</p>
+  <section class="article-closing">
+    <p>금오동 영어 수학 학원으로 고민 중이라면, 와와학습코칭센터 신곡점에서 먼저 학생의 현재 수준과 목표를 함께 확인해보세요.</p>
+  </section>
+</main>

@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>화명동 영어 수학 학원 찾고 계신가요? 와와학습코칭센터 화명점은 화명동&#183;덕천&#183;구포 인근 학생들이 “성적이 오르는 공부 습관”을 만들도록 영어와 수학 학습을 코칭하는 학습코칭센터입니다. 단순 문제풀이만이 아니라 진단?목표설정?학습전략?피드백까지 이어지는 과정으로, 학년별 약점을 빠르게 잡고 꾸준히 성장하는 힘을 길러드립니다.</h1>
+  </section>
+  <p class="article-intro">우리 학원을 선택해야 하는 이유</p>
+  <section class="article-closing">
+    <p>화명동 영어 수학 학원, 와와학습코칭센터 화명점에서 지금 시작해보세요. 영어와 수학 모두 “공부가 되는 방법”을 배워 성적 변화를 체감할 수 있도록 끝까지 함께하겠습니다.</p>
+  </section>
+</main>

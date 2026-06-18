@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>신가동 영어 수학 학원, 와와학습코칭센터 수완점에서 성적과 학습습관을 함께 잡으세요</h1>
+  </section>
+  <p class="article-intro">영어와 수학은 기본기가 쌓여야 성적이 안정적으로 오릅니다. 신가동에서 영어&#183;수학 학원을 찾고 있다면, 단순 문제풀이를 넘어 학습 코칭까지 제공하는 와와학습코칭센터 수완점 을 추천드립니다. 학습 진단?개인 맞춤 플랜?정기 점검 흐름으로 학생의 약점을 정확히 찾아 보완합니다.</p>
+  <section class="article-closing">
+    <p>신가동 영어 수학 학원 을 찾는다면, 학습 코칭으로 성적과 공부 습관을 함께 만드는 와와학습코칭센터 수완점 을 상담해보세요.</p>
+  </section>
+</main>

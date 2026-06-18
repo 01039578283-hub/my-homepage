@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>[오프닝 소개]</h1>
+  </section>
+  <p class="article-intro">내발산동 영어 수학 학원 찾고 있다면, 와와학습코칭센터 내발산점을 추천합니다. 단순 문제풀이가 아니라 학생의 현재 수준과 학습 습관을 먼저 진단하고, 과목별 학습 전략을 맞춤 설계해 성적 변화를 만드는 학습 코칭형 학원입니다. 영어&#183;수학의 기본기부터 시험에 필요한 사고력까지, 체계적으로 지도합니다. [우리 학원을 선택해야 하는 이유]</p>
+  <section class="article-closing">
+    <p>내발산동 영어 수학 학원으로 와와학습코칭센터 내발산점을 선택해보세요. 진단 기반 맞춤 코칭으로 영어&#183;수학 실력을 탄탄하게 만들고, 시험 성적 변화까지 이어지도록 함께 설계합니다.</p>
+  </section>
+</main>

@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>신기동 영어&#183;수학 학원 찾는다면, 와와학습코칭센터 율하점</h1>
+  </section>
+  <p class="article-intro">신기동에서 영어와 수학을 제대로 잡고 싶다면 “문제 풀이만 하는 학원”보다 학습 습관과 학습 전략까지 함께 잡아주는 곳이 중요합니다. 와와학습코칭센터 율하점은 학생의 현재 수준을 진단하고, 단기간에 점수로 연결되도록 맞춤형 학습 코칭과 체계적인 수업을 제공합니다. 기초부터 심화까지 단계별로 관리해, 성적이 오르는 공부로 바꾸는 것을 목표로 합니다.</p>
+  <section class="article-closing">
+    <p>신기동 영어&#183;수학 학원 선택이 고민이라면, 와와학습코칭센터 율하점에서 학생 맞춤 학습 코칭으로 성적이 오르는 공부를 시작해보세요.</p>
+  </section>
+</main>

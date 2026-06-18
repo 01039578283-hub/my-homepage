@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>와와학습코칭센터 칠금점이 봉방동 영어 수학 학원으로 선택되는 이유</h1>
+  </section>
+  <p class="article-intro">봉방동 영어 수학 학원을 찾고 있다면, 와와학습코칭센터 칠금점에서 맞춤 코칭으로 학습 루틴을 잡아보세요. 단순 문제풀이가 아니라 학생의 학습 습관&#183;취약 단원&#183;성취 수준을 함께 점검하고, 영어와 수학을 균형 있게 끌어올리는 수업을 제공합니다.</p>
+  <section class="article-closing">
+    <p>봉방동 영어 수학 학원을 고민 중이라면, 와와학습코칭센터 칠금점에서 “원인 분석→맞춤 처방→꾸준한 루틴”으로 성적 상승을 준비해보세요.</p>
+  </section>
+</main>

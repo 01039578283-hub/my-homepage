@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>퇴계동 영어 수학 학원, 와와학습코칭센터 석사점이 좋은 이유</h1>
+  </section>
+  <p class="article-intro">퇴계동 영어 수학 학원을 찾고 있다면, 성적을 올리는 공부 방법까지 함께 잡아주는 와와학습코칭센터 석사점 을 추천드립니다. 단순히 문제를 푸는 수업을 넘어 학습 습관, 개념 이해, 오답 관리, 실력 점검까지 체계적으로 설계해 아이가 스스로 공부하는 힘을 만들도록 돕습니다.</p>
+  <section class="article-closing">
+    <p>퇴계동 영어 수학 학원 선택이 고민이라면, 아이의 현재를 정확히 진단하고 다음 성적을 만드는 방식으로 접근하는 와와학습코칭센터 석사점 에 문의해보세요.</p>
+  </section>
+</main>

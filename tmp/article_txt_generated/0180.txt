@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>와와학습코칭센터 운정호수점은 운정호수 영어 수학 학원을 찾는 학생&#183;학부모에게 맞춤 학습 코칭을 제공합니다. 단순 문제풀이에 그치지 않고, 진단-처방-점검의 흐름으로 학습 습관과 성취 전략을 함께 설계합니다. 영어는 문법&#183;독해 기반을 탄탄히, 수학은 개념 이해부터 유형 반복&#183;실수 관리까지 체계적으로 지도합니다.</h1>
+  </section>
+  <p class="article-intro">우리 학원을 선택해야 하는 이유</p>
+  <section class="article-closing">
+    <p>(원고 키워드 자연 삽입: 운정호수 영어 수학 학원, 와와학습코칭센터 운정호수점, 영어학원, 수학학원, 초등 영어, 초등 수학, 중등 내신)</p>
+  </section>
+</main>

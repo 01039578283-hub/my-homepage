@@ -1,0 +1,34 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>신천동 영어 수학 학원을 찾고 있다면, 성적만이 아니라 공부 습관과 성취 전략까지 함께 설계해주는 와와학습코칭센터 수성만촌점부터 시작해보세요. 신천동 영어 학원, 신천동 수학 학원으로 많은 학부모가 선택하는 이유는 단순 문제풀이를 넘어 학생의 현재 수준을 정확히 진단하고, 목표(내신/경시/학습역량 향상)에 맞춘 맞춤 코칭을 진행하기 때문입니다. “어디서부터 막혔는지”를 찾고 “어떻게 꾸준히 올릴지”를 함께 만드는 수업을 제공합니다.</h1>
+  </section>
+  <section class="article-section">
+    <h2>자주 묻는 질문(FAQ)</h2>
+    <div class="article-faq-list">
+      <details class="article-faq" open>
+        <summary>Q1. 신천동 영어&#183;수학 학원은 1과목만 들어도 되나요?</summary>
+        <p>A. 가능합니다. 영어나 수학 중 목표 과목을 먼저 선택해 현재 수준 진단 후 맞춤 계획으로 진행합니다. 필요 시 추후 과목을 확장할 수도 있습니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q2. 학습 수준이 다양한데 반 편성은 어떻게 되나요?</summary>
+        <p>A. 학생별 학습 수준과 학습 태도, 성취 목표를 고려해 수업 진행이 효율적으로 이루어지도록 반/과정 운영 기준을 적용합니다. 입학 전 진단을 통해 방향을 설정합니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q3. 내신 대비가 목표인데, 수업이 시험에 맞게 구성되나요?</summary>
+        <p>A. 네. 단원별 학습 포인트와 시험에서 요구하는 유형을 중심으로 학습합니다. 단순 문제풀이가 아니라 오답 유형을 정리하고 다음 시험까지 이어지는 학습 흐름을 만듭니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q4. 숙제가 부담스러울까 걱정돼요. 부담을 조절하나요?</summary>
+        <p>A. 학생의 학습량과 현재 상태를 기준으로 무리하지 않게 계획하며, 복습 루틴이 습관이 되도록 설계합니다. “할 수 있는 양”과 “성장하는 방식”에 맞춰 조정합니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q5. 수업 효과는 어떻게 확인하나요?</summary>
+        <p>A. 수업 중 학습 점검과 과제/평가를 통해 이해도와 약점을 확인하고, 오답&#183;취약 단원을 중심으로 다음 학습 계획을 수정합니다. 목표 달성을 위한 과정이 누적되도록 관리합니다.</p>
+      </details>
+    </div>
+  </section>
+  <section class="article-closing">
+    <p>원하시면 “신천동 영어 수학 학원” 검색 키워드에 맞춰, (1) 초등/중등 각각 버전, (2) 내신형/기초형/상위권형 버전, (3) 수업 구성(주간 커리큘럼) 문구까지 포함한 네이버용 원고로 추가 확장도 도와드릴게요.</p>
+  </section>
+</main>

@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>호암동 영어 수학 학원, 와와학습코칭센터 충주용산점으로 성적이 오르는 학습 습관 만들기</h1>
+  </section>
+  <p class="article-intro">호암동에서 영어&#183;수학을 제대로 잡고 싶다면 “문제 풀이만 반복하는 수업”보다, 진단→개별 처방→꾸준한 관리까지 이어지는 학습 코칭이 중요합니다. 와와학습코칭센터 충주용산점은 학생의 현재 수준과 학습 습관을 기반으로 약점을 정확히 찾아 보완하고, 목표 성적까지 단계적으로 끌어올리는 방식으로 수업을 운영합니다.</p>
+  <section class="article-closing">
+    <p>호암동에서 영어&#183;수학 실력을 확실히 올리고 싶다면, 와와학습코칭센터 충주용산점에서 “원인 진단 + 맞춤 코칭”으로 시작해 보세요.</p>
+  </section>
+</main>

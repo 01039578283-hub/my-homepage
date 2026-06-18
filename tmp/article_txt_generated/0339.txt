@@ -1,0 +1,34 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>수완동 영어 수학 학원 찾고 있다면, 와와학습코칭센터 수완점에서 “성적이 오르는 공부 습관”부터 함께 만드세요. 단순한 문제 풀이가 아니라 학생의 학습 상태를 진단하고, 목표(내신/중간&#183;기말/선행&#183;실력향상)에 맞춘 코칭과 수업 설계를 진행합니다. 영어와 수학을 핵심으로 탄탄히 잡아 성적 상승의 기반을 만듭니다.</h1>
+  </section>
+  <section class="article-section">
+    <h2>자주 묻는 질문(FAQ)</h2>
+    <div class="article-faq-list">
+      <details class="article-faq" open>
+        <summary>Q1. 수완동 영어 수학으로 유명한가요? 영어만 다녀도 되나요?</summary>
+        <p>A. 네, 가능합니다. 와와학습코칭센터 수완점은 영어 기초부터 내신 독해&#183;서술형까지 진단 기반으로 수업을 진행합니다. 수학은 필요할 때 추가로 조정할 수 있어요.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q2. 수학은 개념부터 다시 해야 할까요, 문제풀이가 중심인가요?</summary>
+        <p>A. 학생 수준에 따라 다릅니다. 개념이 흔들리는 경우는 개념 정리 후 유형으로 넘어가고, 유형만 부족한 경우는 실전 중심으로 보완합니다. 오답 분석을 통해 재학습 방향을 잡습니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q3. 중등 내신 대비는 어떻게 진행되나요?</summary>
+        <p>A. 학교 시험 범위와 단원 흐름에 맞춰 핵심 개념-유형-기출&#183;실전 문제를 연결합니다. 서술형/난이도 변형 문제에서 점수가 오르도록 풀이 전략과 오답 재정비를 함께 합니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q4. 학습 상담은 어떤 방식으로 진행되나요?</summary>
+        <p>A. 현재 성적/수업 상황/가장 힘든 파트를 기준으로 진단하고, 목표(중간&#183;기말, 학년 내신, 선행&#183;실력 등)에 맞춰 학습 계획과 수업 방향을 안내드립니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q5. 반 배정이나 수준은 어떻게 되나요?</summary>
+        <p>A. 학습 진단(학습 상태, 성취도, 오답 유형 등)을 바탕으로 학생에게 맞는 수준과 흐름으로 구성합니다. 단순히 학년만으로 결정하지 않습니다.</p>
+      </details>
+    </div>
+  </section>
+  <section class="article-closing">
+    <p>(키워드 자연 포함) 수완동 영어 수학 학원, 와와학습코칭센터 수완점, 영어 내신 대비, 수학 내신 대비, 초등 영어/수학, 중등 영어/수학, 학습코칭, 맞춤 수업, 오답 관리, 독해&#183;서술형, 유형 훈련</p>
+  </section>
+</main>

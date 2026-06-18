@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>부천 상동 영어 수학 학원을 찾고 있다면 와와학습코칭센터 상동점에서 시작하세요. “성적이 오르는 학습 습관”을 만드는 코칭을 기반으로 영어와 수학을 체계적으로 지도합니다. 단순 문제풀이가 아니라 진단→처방→피드백 흐름으로 학생의 현재 수준과 약점을 정확히 잡아, 꾸준히 점수로 연결되도록 돕습니다.</h1>
+  </section>
+  <p class="article-intro">우리 학원을 선택해야 하는 이유</p>
+  <section class="article-closing">
+    <p>부천 상동 영어 수학 학원, 와와학습코칭센터 상동점에서 “계획 있게 공부하는 힘”을 만들어 보세요. 지금 아이의 수준에 맞는 맞춤 코칭으로 다음 성적 도약을 준비합니다.</p>
+  </section>
+</main>

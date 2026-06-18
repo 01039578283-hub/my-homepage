@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>갈현동 영어 수학 학원 추천: 와와학습코칭센터 은평점</h1>
+  </section>
+  <p class="article-intro">갈현동에서 영어와 수학을 제대로 잡고 싶다면, 단순 문제 풀이가 아닌 학습 코칭 기반의 맞춤 지도가 필요한데요. 와와학습코칭센터 은평점 은 학생의 학습 습관과 현재 수준을 진단한 뒤, 목표(내신/성적/기초 체력/학습 태도)에 맞춰 체계적으로 학습을 설계합니다. “왜 틀리는지”를 찾아 다시 성장하는 방식으로 꾸준한 성적 상승을 돕습니다.</p>
+  <section class="article-closing">
+    <p>갈현동 영어 수학 학원으로 고민 중이라면, 와와학습코칭센터 은평점 에서 “틀리는 이유”부터 함께 찾아보세요.</p>
+  </section>
+</main>

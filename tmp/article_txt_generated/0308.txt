@@ -1,0 +1,84 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>병영동 영어 수학 학원, 와와학습코칭센터 남외점</h1>
+  </section>
+  <p class="article-intro">병영동에서 영어와 수학을 어떻게 잡아야 성적이 오르는지 고민이라면, 와와학습코칭센터 남외점이 도와드립니다. 단순 문제풀이가 아니라 학습 진단?개념 정리?실전 적용까지 연결되는 코칭 시스템으로, 학생이 “왜 틀리는지”를 정확히 찾고 “어떻게 개선하는지”를 반복 훈련합니다.</p>
+  <section class="article-section">
+    <h2>우리 학원을 선택해야 하는 이유</h2>
+    <div class="article-card-grid">
+      <article class="article-card">
+        <strong>학습 코칭 기반 맞춤 설계</strong>
+        <p>진단 결과에 따라 영어/수학 학습 로드맵을 구성합니다.</p>
+      </article>
+      <article class="article-card">
+        <strong>개념-유형-실전의 완성도</strong>
+        <p>약점 개념을 먼저 정리하고, 시험에 나오는 유형으로 단계적으로 확장합니다.</p>
+      </article>
+      <article class="article-card">
+        <strong>성적이 오르는 학습 습관</strong>
+        <p>숙제와 복습, 오답 관리까지 학습 루틴을 만들어 꾸준함을 습관화합니다.</p>
+      </article>
+      <article class="article-card">
+        <strong>학생 수준을 고려한 피드백</strong>
+        <p>단원별 목표를 설정하고 진행 상황을 점검해 방향을 조정합니다.</p>
+      </article>
+    </div>
+  </section>
+  <section class="article-section">
+    <h2>과목별 선택 기준</h2>
+    <div class="article-subject-grid">
+      <article class="article-subject-card">
+        <h3>영어 선택 기준</h3>
+          <ul>
+            <li>단어/문장 해석은 되지만 문법&#183;구문&#183;서술형 이 약한 경우</li>
+            <li>독해는 읽히지만 정답 근거 찾기 가 어려운 경우</li>
+            <li>내신 대비에서 틀리는 유형이 반복 되는 경우</li>
+          </ul>
+      </article>
+      <article class="article-subject-card">
+        <h3>수학 선택 기준</h3>
+          <ul>
+            <li>개념은 아는데 문제 유형 전환 에서 흔들리는 경우</li>
+            <li>계산 실수/풀이 누락 등 과정 점수 가 떨어지는 경우</li>
+            <li>오답이 쌓여도 다음 시험에서 개선 이 안 되는 경우</li>
+          </ul>
+      </article>
+      <article class="article-subject-card">
+        <h3>영어&#183;수학 동시 선택이 좋은 경우</h3>
+          <ul>
+            <li>성적이 전반적으로 흔들리거나, 공부 루틴 을 함께 잡아야 하는 경우</li>
+            <li>내신/시험 일정이 촘촘해 효율적인 학습 계획 이 필요한 경우</li>
+          </ul>
+      </article>
+    </div>
+  </section>
+  <section class="article-section">
+    <h2>자주 묻는 질문(FAQ)</h2>
+    <div class="article-faq-list">
+      <details class="article-faq" open>
+        <summary>Q1. 병영동 영어 수학 학원으로 처음 등록하면 진단은 어떻게 진행되나요?</summary>
+        <p>A. 현재 수준과 약점을 확인하기 위해 학습 상태를 점검하고, 과목별 목표에 맞춘 맞춤 학습 로드맵을 구성합니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q2. 영어는 문법이 약한데 수학은 개념이 약해요. 과목별 수업이 따로 맞춰지나요?</summary>
+        <p>A. 네. 영어와 수학은 각각의 약점 성격(개념/유형/서술/계산 등)에 따라 단계별로 설계되어 진행됩니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q3. 숙제와 복습은 어떻게 관리되나요?</summary>
+        <p>A. 단순 과제만 주는 방식이 아니라, 복습과 오답 정리를 포함한 학습 루틴을 함께 잡아 반복 오답을 줄이도록 코칭합니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q4. 성적이 오를 때까지 시간이 얼마나 걸리나요?</summary>
+        <p>A. 학생별 현재 수준과 약점 유형이 달라 개인차가 있습니다. 다만 학습 진단?목표 설정?피드백?재훈련 구조로 빠르게 개선되는 구간이 생기도록 진행합니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q5. 남외점은 어떤 학생들에게 특히 추천되나요?</summary>
+        <p>A. 병영동에서 영어/수학을 함께 잡고 싶거나, 시험 때 점수가 들쑥날쑥해서 학습 전략(계획&#183;복습&#183;오답)이 필요한 학생들에게 특히 잘 맞습니다.</p>
+      </details>
+    </div>
+  </section>
+  <section class="article-closing">
+    <p>병영동 영어 수학 학원 선택이 고민이라면, 와와학습코칭센터 남외점에서 과목별 약점부터 정확히 찾아보세요.</p>
+  </section>
+</main>

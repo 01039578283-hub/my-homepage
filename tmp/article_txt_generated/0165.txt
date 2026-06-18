@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>와와학습코칭센터 신곡점은 “실력은 쌓이고, 성적은 따라오는” 학습코칭 기반 신곡동 영어&#183;수학 전문 학원입니다. 단순한 문제풀이를 넘어 학생의 현재 수준과 학습 습관을 진단해, 목표 성적에 도달하도록 학습 로드맵을 설계합니다. 신곡동에서 영어/수학 학원을 찾는 학생과 학부모님께, 믿고 맡길 수 있는 수업과 코칭을 제공합니다.</h1>
+  </section>
+  <p class="article-intro">신곡동 영어 수학 학원, 와와학습코칭센터 신곡점이 선택되는 이유</p>
+  <section class="article-closing">
+    <p>와와학습코칭센터 신곡점은 “공부하는 방법”부터 “성적이 오르는 흐름”을 만들어 드립니다. 신곡동에서 영어/수학 학원을 찾고 있다면, 학생에게 맞춘 코칭과 수업으로 확실한 학습 변화를 시작해보세요.</p>
+  </section>
+</main>

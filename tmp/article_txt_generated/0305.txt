@@ -1,0 +1,34 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>화봉동 영어 수학 학원을 찾고 있다면, 와와학습코칭센터 송정점이 답입니다. 성적이 오르는 수업은 “문제를 푸는 방법”뿐 아니라 학습 습관과 취약 개념을 체계적으로 잡는 코칭에서 시작됩니다. 수업-점검-처방의 흐름으로 학생의 현재 수준을 정확히 진단하고, 목표 성적까지 꾸준히 끌고 갑니다.</h1>
+  </section>
+  <section class="article-section">
+    <h2>자주 묻는 질문(FAQ)</h2>
+    <div class="article-faq-list">
+      <details class="article-faq" open>
+        <summary>Q1. 화봉동에서 다니기 좋은 영어 수학 학원이 어디에 있나요?</summary>
+        <p>A. 와와학습코칭센터 송정점은 화봉동에서 접근 가능한 영어 수학 학원으로, 영어와 수학 중심의 맞춤 코칭 수업을 제공합니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q2. 성적이 안 나오는 원인을 어떻게 진단하나요?</summary>
+        <p>A. 단순히 점수만 보지 않고, 오답 유형(어떤 개념에서 막히는지/어떤 실수 패턴이 반복되는지)을 바탕으로 수준과 방향을 정합니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q3. 영어/수학 중 한 과목만 다녀도 괜찮나요?</summary>
+        <p>A. 네. 약점 과목을 먼저 잡는 방식도 가능합니다. 다만 영어&#183;수학 학습 습관을 같이 정리하면 더 빠르게 좋아지는 학생도 많아 상담을 통해 최적 조합을 안내드립니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q4. 숙제와 복습은 어떻게 관리되나요?</summary>
+        <p>A. 학생이 스스로 할 수 있도록 숙제량과 복습 루틴을 계획하고, 오답 정리를 통해 다음 시험에서 같은 실수가 반복되지 않게 관리합니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q5. 내신 대비와 선행 중 어떤 수업이 맞을까요?</summary>
+        <p>A. 현재 학년의 성취 수준과 목표(내신/선행)에 따라 달라집니다. 와와학습코칭센터 송정점은 목표에 맞춰 단계를 나누어 진행합니다.</p>
+      </details>
+    </div>
+  </section>
+  <section class="article-closing">
+    <p>와와학습코칭센터 송정점에서 화봉동 영어 수학 학원으로 고민을 해결하세요. “어디가 약한지”부터 정확히 잡고, 점수로 연결되는 학습 코칭을 시작합니다. 상담을 통해 목표와 현재 수준을 함께 점검해보세요.</p>
+  </section>
+</main>

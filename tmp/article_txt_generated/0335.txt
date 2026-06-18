@@ -1,0 +1,60 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>장성동 영어 수학 학원, 와와학습코칭센터 두호점</h1>
+  </section>
+  <p class="article-intro">장성동에서 영어&#183;수학을 제대로 잡고 싶다면 “문제 풀이”만이 아니라 학습 습관과 성취 전략까지 함께 설계해주는 와와학습코칭센터 두호점을 추천합니다. 학생의 수준과 학습 태도, 오답 패턴을 분석해 개인별 로드맵을 만들고, 수업-숙제-점검의 흐름이 끊기지 않도록 관리합니다.</p>
+  <section class="article-section">
+    <h2>우리 학원을 선택해야 하는 이유</h2>
+    <div class="article-card-grid">
+      <article class="article-card">
+        <strong>과목별 실력에 맞춘 맞춤 코칭</strong>
+        <p>영어는 독해&#183;문법&#183;어휘, 수학은 개념&#183;문제유형&#183;풀이과정까지 단계적으로 지도</p>
+      </article>
+      <article class="article-card">
+        <strong>오답을 성적으로 연결</strong>
+        <p>틀린 이유를 “다음엔 맞히는 법”으로 바꾸는 복습 설계</p>
+      </article>
+      <article class="article-card">
+        <strong>학습 습관과 시간 관리까지 지도</strong>
+        <p>숙제량보다 “어떻게 공부하는지”를 점검</p>
+      </article>
+      <article class="article-card">
+        <strong>정기 점검으로 성장 방향을 조정</strong>
+        <p>단순 진도 체크가 아닌, 성취도 기준으로 수업 방향을 개선</p>
+      </article>
+    </div>
+  </section>
+  <section class="article-section">
+    <h2>과목별 선택 기준</h2>
+    <div class="article-subject-grid">
+      <article class="article-subject-card">
+        <h3>영어가 고민이라면</h3>
+          <ul>
+            <li>단어는 외우는데 독해가 안 된다</li>
+            <li>문법을 알아도 문제에서 적용이 어렵다</li>
+            <li>서술형/지문형 문제에서 근거 찾기가 힘들다</li>
+          </ul>
+      </article>
+      <article class="article-subject-card">
+        <h3>수학이 고민이라면</h3>
+          <ul>
+            <li>개념은 아는데 유형만 바뀌면 틀린다</li>
+            <li>계산 실수로 점수가 깎인다</li>
+            <li>풀이과정이 흔들려 부분점수도 놓친다</li>
+          </ul>
+      </article>
+      <article class="article-subject-card">
+        <h3>영어&#183;수학을 함께 올리고 싶다면</h3>
+          <ul>
+            <li>서로 다른 과목을 “공부하는 방식”까지 통일해 효율을 높이고 싶다</li>
+            <li>시간표에 맞춰 매일 학습 루틴을 만들고 싶다</li>
+            <li>시험 대비 기간에 방향을 잡아 성적을 끌어올리고 싶다</li>
+          </ul>
+      </article>
+    </div>
+  </section>
+  <section class="article-closing">
+    <p>장성동 영어 수학 학원 찾고 있다면, 와와학습코칭센터 두호점에서 학생 맞춤 코칭으로 성적 상승의 “방향”을 만들어보세요.</p>
+  </section>
+</main>

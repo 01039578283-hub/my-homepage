@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>왜 와와학습코칭센터(천천점)인가요?</h1>
+  </section>
+  <p class="article-intro">정자동 영어 수학 학원을 찾고 있다면, 체계적인 학습 코칭으로 성적이 오르는 길을 설계해주는 와와학습코칭센터 천천점 을 추천드립니다. 단순 문제풀이만이 아니라 학생의 학습 습관, 약점, 이해도 상태를 먼저 진단하고 개인별 맞춤 로드맵을 구성해 꾸준히 성과로 연결되도록 돕습니다.</p>
+  <section class="article-closing">
+    <p>정자동 영어 수학 학원을 찾는다면, 와와학습코칭센터 천천점 에서 학생의 현재 수준을 진단하고 성적 향상에 필요한 학습 전략을 함께 설계해보세요. 상담을 통해 과목별 목표와 진행 방향을 구체적으로 안내드립니다.</p>
+  </section>
+</main>

@@ -1,0 +1,85 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>범어동 영어&#183;수학 학원, 와와학습코칭센터 수성만촌점에서 성적 상승의 “방법”을 잡아보세요</h1>
+  </section>
+  <p class="article-intro">범어동에서 영어와 수학을 중점으로 학습하는 학생이라면, 단순한 문제풀이보다 “현재 수준 진단 → 원인 분석 → 맞춤 처방 → 꾸준한 관리”가 성적을 좌우합니다. 와와학습코칭센터 수성만촌점은 학습코칭을 바탕으로 학습 습관과 공부 전략을 함께 설계해, 이해부터 성과까지 연결되도록 돕습니다.</p>
+  <section class="article-section">
+    <h2>우리 학원을 선택해야 하는 이유</h2>
+    <div class="article-card-grid">
+      <article class="article-card">
+        <strong>학습코칭 기반 맞춤 학습 설계</strong>
+        <p>진단 결과에 따라 학생별로 필요한 유형과 학습 순서를 체계화합니다.</p>
+      </article>
+      <article class="article-card">
+        <strong>영어&#183;수학 “약점 원인”을 먼저 잡습니다</strong>
+        <p>단원별 틀린 이유(어휘/문법/개념/계산/문제해결)를 구체적으로 정리합니다.</p>
+      </article>
+      <article class="article-card">
+        <strong>성적을 만드는 루틴 관리</strong>
+        <p>숙제&#183;복습&#183;오답의 흐름을 학생이 따라갈 수 있게 구성합니다.</p>
+      </article>
+      <article class="article-card">
+        <strong>수업+관리의 균형</strong>
+        <p>수업에서만 끝나지 않고, 학습 과정 전반을 점검하며 성과로 연결되게 지도합니다.</p>
+      </article>
+    </div>
+  </section>
+  <section class="article-section">
+    <h2>수업 대상 학생 &amp; 학년별 학습 고민</h2>
+    <div class="article-target-list">
+      <article class="article-target-card">
+        <h3>초등(초1~초6)</h3>
+          <ul>
+            <li>영어: 단어는 외우는데 독해가 안 됨, 문법 기초가 약함</li>
+            <li>수학: 개념은 아는 듯하지만 문제만 보면 틀림, 계산 실수가 잦음</li>
+            <li>공통: 숙제는 하지만 복습이 부족해 실력이 고정되지 않음</li>
+          </ul>
+      </article>
+      <article class="article-target-card">
+        <h3>중등(중1~중3)</h3>
+          <ul>
+            <li>영어: 문법/독해가 동시에 약해 문제 풀이 시간이 오래 걸림</li>
+            <li>수학: 단원 간 연결이 안 되어 응용문제에서 막힘</li>
+            <li>공통: 오답이 반복되고, 시험 전 집중만으로는 성적이 오르지 않음</li>
+          </ul>
+      </article>
+      <article class="article-target-card">
+        <h3>고등(고1~고2~고3 준비)</h3>
+          <ul>
+            <li>영어: 구문/해석 속도 저하, 서술형&#183;유형별 전략 부족</li>
+            <li>수학: 문제 접근이 느리고, 유형별 해결 루틴이 없음</li>
+            <li>공통: 모의고사에서 점수 편차가 커 계획과 피드백이 필요함</li>
+          </ul>
+      </article>
+    </div>
+  </section>
+  <section class="article-section">
+    <h2>자주 묻는 질문(FAQ)</h2>
+    <div class="article-faq-list">
+      <details class="article-faq" open>
+        <summary>1) 상담은 어떻게 진행되나요?</summary>
+        <p>학생의 현재 학습 상태(성적/오답/학습 습관)를 기준으로 간단한 진단과 상담을 진행하며, 영어&#183;수학 학습 방향을 함께 설계합니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>2) 수업은 성적이 목표인 학생에게만 필요한가요?</summary>
+        <p>성적 향상 목적이 있는 학생뿐 아니라, 기초가 흔들리는 학생&#183;학습 습관이 필요한 학생도 충분히 가능합니다. 먼저 약점의 원인을 정리하는 방식으로 접근합니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>3) 영어와 수학을 함께 다니면 효과가 더 있나요?</summary>
+        <p>학습 코칭 관점에서 시간 관리와 복습 루틴을 함께 잡아주기 때문에, 영어&#183;수학을 병행하면 학습 흐름이 더 안정적으로 잡힐 수 있습니다. 다만 학생의 상태에 따라 우선순위를 조정할 수 있습니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>4) 숙제/복습 관리는 어떻게 하나요?</summary>
+        <p>수업 내용을 바탕으로 복습과 오답 정리 방향을 안내하며, 학생이 실제로 지킬 수 있는 루틴 형태로 관리합니다. 시험 전에는 약점 유형 중심으로 점검합니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>5) 어떤 학생이 와와학습코칭센터와 잘 맞나요?</summary>
+        <p>공부를 열심히 하려는 의지가 있지만 성적이 잘 안 오르는 학생, 오답이 반복되는 학생, 영어&#183;수학 중 한 과목이라도 원인 분석과 맞춤 전략이 필요한 학생에게 특히 잘 맞습니다.</p>
+      </details>
+    </div>
+  </section>
+  <section class="article-closing">
+    <p>범어동 인근에서 영어&#183;수학 성적을 올리고 싶다면 “무엇을, 어떤 순서로, 어떻게 복습할지”가 중요합니다. 와와학습코칭센터 수성만촌점은 학습코칭 기반으로 학생의 현재를 진단하고, 맞춤 전략으로 성과까지 연결되게 지도합니다.</p>
+  </section>
+</main>

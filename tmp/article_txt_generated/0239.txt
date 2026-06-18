@@ -1,0 +1,35 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>유천동 영어&#183;수학 학원, 와와학습코칭센터 태평점에서 학습이 “정답”이 되다</h1>
+  </section>
+  <p class="article-intro">유천동에서 영어&#183;수학 학원을 찾고 있다면, 단순 문제풀이보다 “왜 틀리는지”를 찾아 학습 방향을 바꾸는 코칭이 중요합니다. 와와학습코칭센터 태평점은 학생의 현재 수준과 학습 습관을 진단해 개념-문제-오답까지 연결되는 학습 로드맵을 제공합니다. 꾸준히 실력이 쌓이는 구조를 통해 성적 상승을 목표로 합니다.</p>
+  <section class="article-section">
+    <h2>우리 학원을 선택해야 하는 이유</h2>
+    <div class="article-card-grid">
+      <article class="article-card">
+        <strong>학습 코칭 기반 진단</strong>
+        <p>현재 약점(개념/속도/실수/유형)을 원인별로 파악</p>
+      </article>
+      <article class="article-card">
+        <strong>영어&#183;수학을 한 번에 잡는 설계</strong>
+        <p>과목별 학습 계획을 체계적으로 운영</p>
+      </article>
+      <article class="article-card">
+        <strong>오답 관리로 실력 고정</strong>
+        <p>틀린 문제를 다시 풀지 않게 ‘재발 방지’ 중심으로 지도</p>
+      </article>
+      <article class="article-card">
+        <strong>목표 달성형 피드백</strong>
+        <p>단기 목표-중간 점검-성취 확인까지 진행</p>
+      </article>
+      <article class="article-card">
+        <strong>유천동 학습 로컬 최적화</strong>
+        <p>학생/학부모의 학습 리듬에 맞춘 커리큘럼 운영</p>
+      </article>
+    </div>
+  </section>
+  <section class="article-closing">
+    <p>※ 본문 내 표현(유천동 영어 수학 학원, 와와학습코칭센터 태평점, 영어&#183;수학 학습 코칭)은 검색 노출을 위한 문구로 자연스럽게 구성했습니다.</p>
+  </section>
+</main>

@@ -1,0 +1,109 @@
+/* Shared floating contact buttons */
+.wawa-fixed-fab-container {
+  position: fixed !important;
+  right: 20px !important;
+  bottom: 30px !important;
+  z-index: 999999 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-end !important;
+  gap: 10px !important;
+  font-family: "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif !important;
+}
+
+.wawa-fab-item {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;
+  box-sizing: border-box !important;
+  width: auto !important;
+  min-width: 0 !important;
+  max-width: max-content !important;
+  min-height: 38px !important;
+  height: auto !important;
+  padding: 10px 14px !important;
+  border: 0 !important;
+  border-radius: 999px !important;
+  color: #ffffff !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  line-height: 1 !important;
+  letter-spacing: 0 !important;
+  text-decoration: none !important;
+  white-space: nowrap !important;
+  transition: transform 0.2s ease, background-color 0.2s ease !important;
+}
+
+.wawa-fab-item:active {
+  transform: scale(0.95) !important;
+}
+
+.wawa-fab-item .fab-icon {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 16px !important;
+  height: 16px !important;
+  font-size: 14px !important;
+  line-height: 1 !important;
+}
+
+.wawa-fab-item .fab-text {
+  display: inline-block !important;
+  line-height: 1 !important;
+}
+
+.fab-call {
+  background-color: #f97316 !important;
+}
+
+.fab-sms {
+  background-color: #334155 !important;
+}
+
+.fab-consult {
+  background-color: #1e3a8a !important;
+}
+
+.pulse-effect {
+  animation: wawaBluePulse 2s infinite !important;
+}
+
+@keyframes wawaBluePulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(30, 58, 138, 0.6);
+  }
+  70% {
+    box-shadow: 0 0 0 12px rgba(30, 58, 138, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(30, 58, 138, 0);
+  }
+}
+
+@media (max-width: 480px) {
+  .wawa-fixed-fab-container {
+    right: 15px !important;
+    bottom: 20px !important;
+    gap: 8px !important;
+  }
+
+  .wawa-fab-item {
+    width: auto !important;
+    min-width: 0 !important;
+    max-width: max-content !important;
+    min-height: 38px !important;
+    height: auto !important;
+    padding: 10px 14px !important;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15) !important;
+    font-size: 13px !important;
+  }
+
+  .wawa-fab-item .fab-icon {
+    width: 16px !important;
+    height: 16px !important;
+    font-size: 14px !important;
+  }
+}

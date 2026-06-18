@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>약사동 영어 수학 학원 추천: 와와학습코칭센터 복산점</h1>
+  </section>
+  <p class="article-intro">약사동에서 영어&#183;수학 성적이 고민이라면, 학습 전략부터 바로 잡아줄 “약사동 영어 수학 학원”을 찾는 게 중요합니다. 와와학습코칭센터 복산점은 학생의 현재 수준과 학습 습관을 진단해 개인별 로드맵을 설계하고, 영어와 수학을 중심으로 꾸준한 성장을 만들도록 코칭합니다.</p>
+  <section class="article-closing">
+    <p>영어&#183;수학 성적은 “열심히”보다 “방식”이 좌우합니다. 약사동 영어 수학 학원을 찾고 있다면, 와와학습코칭센터 복산점에서 진단 기반 맞춤 코칭으로 확실한 성장 로드맵을 만들어보세요.</p>
+  </section>
+</main>

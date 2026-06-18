@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>재송동 영어&#183;수학 학원, 와와학습코칭센터 반여점에서 시작하세요</h1>
+  </section>
+  <p class="article-intro">재송동에서 영어와 수학이 성적의 핵심인 학생들이 가장 먼저 찾는 곳이 “어떻게 공부해야 성적이 오르는지”를 잡아주는 학습 코칭입니다. 와와학습코칭센터 반여점은 단순 문제풀이가 아닌, 학생의 현재 수준과 학습 습관을 점검해 학습 전략을 함께 세우는 코칭형 학원입니다.</p>
+  <section class="article-closing">
+    <p>재송동 영어 수학 학원을 찾는 이유가 “성적 향상”이라면, 그 성적이 오르는 공부 방식부터 시작해야 합니다. 와와학습코칭센터 반여점에서 학생에게 맞는 학습 전략으로 꾸준한 성장을 만들어가세요.</p>
+  </section>
+</main>

@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>상대원동 영어 수학 학원을 찾고 있다면, 와와학습코칭센터 수진점이 답입니다. 단순 문제 풀이를 넘어 학생의 학습 습관과 약점을 정확히 진단해 맞춤 로드맵을 설계합니다. 영어와 수학은 성적이 한 번에 오르기보다 “기초?개념?풀이?정리”가 쌓여야 성과가 나오는데, 와와학습코칭센터 수진점은 코칭 기반 학습으로 그 흐름을 끝까지 잡아드립니다.</h1>
+  </section>
+  <p class="article-intro">1. 우리 학원을 선택해야 하는 이유</p>
+  <section class="article-closing">
+    <p>상대원동 영어 수학 학원, 와와학습코칭센터 수진점에서 학생 맞춤 학습 코칭으로 영어&#183;수학 성적의 흐름을 바꿔보세요.</p>
+  </section>
+</main>

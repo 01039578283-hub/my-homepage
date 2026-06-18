@@ -1,0 +1,33 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>[상현동 영어 수학 학원] 와와학습코칭센터 상현점 원고</h1>
+  </section>
+  <section class="article-section">
+    <h2>수업 대상 학생 &amp; 학년별 학습 고민</h2>
+    <div class="article-target-list">
+      <article class="article-target-card">
+        <h3>초등(초등 3~6)</h3>
+          <ul>
+            <li>영어: 단어&#183;문장 만들기 부족, 독해가 안 되는 문제 반복</li>
+            <li>수학: 연산 속도 저하, 개념은 아는데 문제에서 자주 실수</li>
+            <li>고민 포인트: 기초를 제대로 다지고 “공부하는 방법”을 습관화하기</li>
+            <li>영어: 문법/독해의 연결 부족, 내신 지문에서 약점 발생</li>
+            <li>수학: 유형 적응 부족, 서술형&#183;단답형에서 실수로 점수 손해</li>
+            <li>고민 포인트: 내신 대비를 위한 개념-유형-오답 루프를 완성하기</li>
+          </ul>
+      </article>
+      <article class="article-target-card">
+        <h3>고등(고1~고2~고3은 상담)</h3>
+          <ul>
+            <li>영어: 독해 속도 저하, 문법 실전 적용이 어려움</li>
+            <li>수학: 단원 간 연결 부족, 문제 접근이 늦어지는 문제</li>
+            <li>고민 포인트: 약점 단원 집중과 실전 풀이 훈련으로 점수 끌어올리기</li>
+          </ul>
+      </article>
+    </div>
+  </section>
+  <section class="article-closing">
+    <p>상현동 영어 수학 학원을 찾는다면, 성적만이 아니라 공부 방법까지 바꿔주는 와와학습코칭센터 상현점에 문의해보세요. 진단 기반 맞춤 코칭으로 내신과 실력 향상을 함께 준비할 수 있습니다.</p>
+  </section>
+</main>

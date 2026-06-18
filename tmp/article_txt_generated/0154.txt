@@ -1,0 +1,35 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>[동백동 영어 수학 학원 추천] 와와학습코칭센터 동백점이 필요한 이유</h1>
+  </section>
+  <p class="article-intro">동백동에서 영어&#183;수학 학원을 찾고 있다면 “실력 점검→맞춤 처방→꾸준한 관리”가 가능한 곳을 선택해야 합니다. 와와학습코칭센터 동백점은 단순히 문제를 푸는 수업을 넘어, 학생의 현재 수준과 학습 습관을 진단해 목표에 맞게 학습 방향을 설계하는 학습코칭 시스템을 제공합니다. 영어와 수학을 함께 준비하는 학생에게 특히 효율적인 로드맵으로 성적 향상과 자신감을 동시에 챙길 수 있습니다.</p>
+  <section class="article-section">
+    <h2>자주 묻는 질문(FAQ)</h2>
+    <div class="article-faq-list">
+      <details class="article-faq" open>
+        <summary>Q1. 동백동 영어 수학 학원, 학습코칭은 수업에 어떻게 반영되나요?</summary>
+        <p>A. 현재 수준 진단 후 목표를 설정하고, 취약 원인을 바탕으로 수업&#183;과제&#183;복습 방향을 조정합니다. 단순 강의가 아니라 학습 습관과 오답 관리까지 연결해 지속 성장이 되도록 운영합니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q2. 내신 대비가 가능한가요?</summary>
+        <p>A. 가능합니다. 학교 시험 범위와 유형을 반영해 학습 계획을 구성하고, 반복 점검과 오답 정리를 통해 시험에서 실수하지 않도록 준비합니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q3. 초등/중등 중 어떤 학생에게 더 적합한가요?</summary>
+        <p>A. 초등(초4~초6)은 기초 문장 이해와 서술형 기초를, 중등(중1~중3)은 내신형 독해&#183;서술형과 수학 단원 유형&#183;오답 관리에 집중해 맞춤 운영합니다. 성적이 필요한 모든 단계의 학생에게 적합합니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q4. 숙제는 어느 정도로 진행되나요?</summary>
+        <p>A. 무조건 많이가 아니라 “효과 있는 복습” 중심으로 설계합니다. 수업에서 다룬 내용이 과제로 이어지고, 다시 점검하면서 약점이 굳지 않게 구성됩니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q5. 상담은 어떻게 진행되나요?</summary>
+        <p>A. 학생의 현재 학습 상태와 목표를 바탕으로 진단 상담을 진행하며, 그 결과에 따라 영어/수학 학습 방향과 수업 운영 방식을 안내드립니다.</p>
+      </details>
+    </div>
+  </section>
+  <section class="article-closing">
+    <p>동백동에서 영어&#183;수학 학원을 찾을 때는 “성적이 오르는 구조”가 있는지 확인해야 합니다. 와와학습코칭센터 동백점은 진단 기반 맞춤 학습 설계와 과목별 취약 원인 처방, 그리고 학습 습관 관리까지 함께 제공합니다. 영어와 수학을 동시에 안정적으로 끌어올리고 싶다면 지금 상담을 통해 목표에 맞는 로드맵을 확인해보세요.</p>
+  </section>
+</main>

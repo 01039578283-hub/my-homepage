@@ -1,0 +1,34 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>비산동 영어 수학 학원을 찾고 있다면 와와학습코칭센터 비산점에 주목하세요. 단순 문제풀이가 아니라 학생별 학습 수준과 약점을 진단해 맞춤 코칭으로 학습 습관과 성적 향상을 함께 만듭니다. 영어와 수학은 기초가 쌓여야 성적이 안정적으로 오르는 과목인 만큼, 와와학습코칭센터 비산점은 진단-처방-점검 구조로 아이가 “왜 틀렸는지, 다음엔 어떻게 해야 하는지”까지 정리해 줍니다.</h1>
+  </section>
+  <section class="article-section">
+    <h2>자주 묻는 질문(FAQ)</h2>
+    <div class="article-faq-list">
+      <details class="article-faq" open>
+        <summary>Q1. 비산동 영어 수학 학원으로 처음 다니면 어떤 식으로 상담/진단하나요?</summary>
+        <p>A. 현재 실력과 약점을 파악하기 위해 학습 현황과 성적/오답 패턴을 기준으로 진단하고, 목표(내신/기초/상위권)와 학습 계획을 함께 세웁니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q2. 영어와 수학을 같이 다니면 더 효과적인가요?</summary>
+        <p>A. 네. 두 과목은 학습 습관과 복습 방식이 연결됩니다. 영어의 독해/문장 훈련과 수학의 개념/유형 훈련을 같은 루틴으로 관리하면 성취가 더 안정적으로 쌓입니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q3. 숙제는 많은 편인가요?</summary>
+        <p>A. 양을 무조건 늘리는 방식이 아니라, 목표에 맞는 핵심 과제로 구성하고 학습 점검을 통해 “해야 하는 것”에 집중하도록 돕습니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q4. 성적이 오르는 데 보통 얼마나 걸리나요?</summary>
+        <p>A. 학생마다 속도는 다르지만, 진단 기반 처방과 오답 재정비가 함께 진행되면 단원별 체감이 먼저 생기고 이후 성적이 안정적으로 올라가는 흐름을 기대할 수 있습니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q5. 어떤 학생이 와와학습코칭센터 비산점에 특히 잘 맞나요?</summary>
+        <p>A. 기초가 흔들려서 불안한 학생, 시험 대비가 계획대로 되지 않는 학생, 오답이 반복되어 개선이 필요한 학생, 그리고 영어&#183;수학을 꾸준히 관리받고 싶은 학생에게 특히 추천합니다.</p>
+      </details>
+    </div>
+  </section>
+  <section class="article-closing">
+    <p>원하시면 “초등/중등 중 어떤 학년 중심”인지, “내신 대비/기초 강화/상위권 목표” 중 무엇이 목표인지 알려주세요. 그에 맞춰 원고 문장을 더 정확하게(학년&#183;상황 키워드 반영) 다듬어 드리겠습니다.</p>
+  </section>
+</main>

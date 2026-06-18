@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>와와학습코칭센터 거제수월점, 고현동 영어&#183;수학 학원으로 선택해야 하는 이유</h1>
+  </section>
+  <p class="article-intro">고현동 영어 수학 학원을 찾고 있다면, 와와학습코칭센터 거제수월점에서 아이의 현재 수준과 학습 습관을 진단한 뒤 맞춤 학습 로드맵으로 성적을 끌어올려보세요. 단순 문제풀이만이 아니라, 왜 틀리는지&#183;어떤 부분이 취약한지까지 코칭하여 다음 학습이 이어지도록 돕습니다.</p>
+  <section class="article-closing">
+    <p>“열심히 하는데 성적이 안 오르는 이유”는 보통 공부 방법과 반복 구조에 있습니다. 와와학습코칭센터 거제수월점은 아이의 현재 상태를 진단하고, 영어와 수학을 시험 성과로 연결되도록 코칭합니다. 상담으로 정확한 방향을 잡아보세요.</p>
+  </section>
+</main>

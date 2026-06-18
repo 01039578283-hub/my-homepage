@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>토당동 영어 수학 학원 찾고 있다면, 와와학습코칭센터 화정점이 학습 진단부터 로드맵 설계, 성적 관리까지 한 번에 도와드립니다. 단순 문제풀이가 아니라 학생의 학습 습관과 현재 수준을 기준으로 계획을 세우고, 영어&#183;수학의 약점을 빠르게 보완해 성과로 연결합니다. 학원 선택이 고민이라면 “어떻게 가르치냐”보다 “어떻게 관리하냐”를 먼저 보셔야 합니다.</h1>
+  </section>
+  <p class="article-intro">와와학습코칭센터 화정점 선택 이유</p>
+  <section class="article-closing">
+    <p>(원고 키워드 반영: 토당동 영어 수학 학원, 와와학습코칭센터 화정점, 영어 내신 대비, 수학 개념 유형, 맞춤 학습 코칭)</p>
+  </section>
+</main>

@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>석동 영어 수학 학원, 와와학습코칭센터 석동점으로 학습 습관부터 잡아보세요</h1>
+  </section>
+  <p class="article-intro">“영어는 단어가 부족한 것 같고, 수학은 문제를 보면 멈춰요.” 석동에서 영어&#183;수학 학원을 찾는 학생/학부모님이라면, 단순한 문제풀이보다 ‘왜 틀리는지’를 찾아 학습 방법을 바꾸는 과정이 중요합니다. 와와학습코칭센터 석동점은 석동 영어 수학 학원 중에서도 학습 코칭을 기반으로 학생의 수준과 상태에 맞춰 학습 전략을 설계합니다.</p>
+  <section class="article-closing">
+    <p>석동에서 영어 수학 실력과 학습 습관을 함께 잡고 싶다면 와와학습코칭센터 석동점을 추천드립니다. 상담을 통해 학생에게 맞는 학습 전략을 먼저 확인해보세요.</p>
+  </section>
+</main>

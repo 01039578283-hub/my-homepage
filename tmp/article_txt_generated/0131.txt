@@ -1,0 +1,34 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>배곧 영어 수학 학원 찾고 있다면, 와와학습코칭센터 배곧점이 답입니다. 단순히 문제를 푸는 수업이 아니라 학생의 현재 수준을 정확히 진단하고, 약점과 학습 습관을 함께 점검해 성적이 오를 수 있는 학습 전략을 설계합니다. 영어&#183;수학을 중심으로 꼼꼼한 코칭과 관리가 가능한 곳을 찾는 학부모님께 추천드립니다.</h1>
+  </section>
+  <section class="article-section">
+    <h2>자주 묻는 질문(FAQ)</h2>
+    <div class="article-faq-list">
+      <details class="article-faq" open>
+        <summary>Q1. 배곧 영어 수학 학원을 알아보고 있는데, 우리 아이 수준 진단은 어떻게 진행되나요?</summary>
+        <p>A. 학습 수준과 약점(개념 이해도, 오답 유형, 풀이 습관)을 확인한 뒤 목표에 맞는 학습 방향을 설계합니다. 단순 평균 성적이 아니라 “어디서 틀리는지”를 중심으로 점검합니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q2. 영어와 수학 중 한 과목만 다녀도 되나요?</summary>
+        <p>A. 네. 원하는 과목부터 시작할 수 있습니다. 현재 성적과 약점에 따라 영어/수학 중 우선순위를 정하고, 필요 시 연계 학습도 함께 설계합니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q3. 숙제나 복습 관리는 어떻게 되나요?</summary>
+        <p>A. 학생이 수업 후 혼자 방치되지 않도록 복습 루틴을 잡고, 과제의 목적이 무엇인지 확인하며 피드백을 제공합니다. 단순 과제량보다 “복습이 실력으로 연결되는 방식”을 중심으로 관리합니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q4. 내신 대비(중간&#183;기말)에는 어떤 방식으로 준비하나요?</summary>
+        <p>A. 단원별 출제 포인트와 약점 유형을 기준으로 학습 계획을 세우고, 수업-복습-점검 흐름으로 시험까지 안정적으로 갈 수 있도록 구성합니다.</p>
+      </details>
+      <details class="article-faq">
+        <summary>Q5. 성적이 오르는 데 보통 얼마나 걸리나요?</summary>
+        <p>A. 개인차가 있으며, 현재 수준과 학습 습관에 따라 달라집니다. 다만 약점 원인을 정확히 짚고 루틴을 만들면 단기 목표(단원/시험)부터 점진적으로 개선되는 흐름을 만들어갈 수 있습니다.</p>
+      </details>
+    </div>
+  </section>
+  <section class="article-closing">
+    <p>원고 키워드 자연 삽입: 배곧 영어 수학 학원, 와와학습코칭센터 배곧점, 영어 코칭, 수학 코칭, 내신 대비, 초등/중등/고등, 맞춤 학습, 오답 관리</p>
+  </section>
+</main>

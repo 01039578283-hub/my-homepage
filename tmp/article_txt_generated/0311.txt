@@ -1,0 +1,10 @@
+﻿<main class="article-main">
+  <section class="article-hero">
+    <p class="article-eyebrow">LOCAL ACADEMY GUIDE</p>
+    <h1>[도입 소개]</h1>
+  </section>
+  <p class="article-intro">반구동 영어 수학 학원을 찾고 있다면, 와와학습코칭센터 복산점이 답이 될 수 있습니다. 기본기부터 내신&#183;수행&#183;문제풀이까지 한 번에 잡는 학습 코칭으로, “공부는 하는데 성적이 안 오르는 이유”를 찾아 학습 습관과 성취를 함께 설계합니다. [우리 학원을 선택해야 하는 이유]</p>
+  <section class="article-closing">
+    <p>반구동 영어 수학 학원, “어떻게 공부해야 성적이 오르는지”가 필요한 학생이라면 와와학습코칭센터 복산점에 문의해보세요. 현재 수준 진단부터 영어&#183;수학 학습 로드맵까지, 목표에 맞춘 학습 설계를 시작할 수 있습니다.</p>
+  </section>
+</main>
