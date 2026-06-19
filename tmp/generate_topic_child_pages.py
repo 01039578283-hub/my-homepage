@@ -292,6 +292,11 @@ def hidden_image_markup(value: str) -> str:
     return f"  {value}\n"
 
 
+def hidden_image_src(value: str) -> str:
+    match = re.search(r'''src=["']([^"']+)["']''', value or "", flags=re.I)
+    return html.unescape(match.group(1).strip()) if match else ""
+
+
 def asset_src(page_dir: Path, folder: str, filename: str) -> str:
     filename = (filename or "").strip()
     if not filename:
@@ -387,6 +392,8 @@ def create_child_page(row):
     page_dir = parent_dir / slug
     page_dir.mkdir(parents=True, exist_ok=True)
 
+    url = page_url(page_dir)
+    og_image = hidden_image_src(hidden_image)
     class_src = asset_src(page_dir, "assets/centers/common", class_image)
     map_src = asset_src(page_dir, "assets/maps", map_image)
     crumbs = breadcrumb_items(page_dir, parent_dir, title)
@@ -414,6 +421,9 @@ def create_child_page(row):
   <title>{html.escape(title)} | {SITE_NAME}</title>
 {seo_meta_tags(title, description)}  <meta name="application-name" content="{SITE_NAME}">
   <meta name="tagline" content="{SITE_DESCRIPTION}">
+  <link rel="canonical" href="{html.escape(url)}">
+  <meta property="og:url" content="{html.escape(url)}">
+  <meta property="og:image" content="{html.escape(og_image)}">
   <link rel="icon" type="image/png" href="{rr}/assets/favicon.png">
   <link rel="apple-touch-icon" href="{rr}/assets/favicon.png">
   <link rel="stylesheet" href="{rr}/assets/fab.css">
@@ -422,7 +432,7 @@ def create_child_page(row):
   <link rel="stylesheet" href="{rr}/assets/local-center.css">
   <link rel="stylesheet" href="{rr}/assets/header.css">
 {parent_faq_json_ld(faqs)}
-{parent_review_json_ld(title, page_url(page_dir), reviews)}
+{parent_review_json_ld(title, url, reviews)}
 {breadcrumb_json_ld(crumbs)}</head>
 <body>
   <header class="site-header">
