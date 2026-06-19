@@ -8,3 +8,5 @@ User-agent: NaverBot
 Allow: /
 
 Sitemap: https://wawa-center.kr/sitemap.xml
+
+#DaumWebMasterTool:ce10aaf64b835ac349a327ff2bd30b384171b6e4dffe2de1f2d09a46f69b288c:hHIVtzJR7ujGxgcEz1Nf6w==
