@@ -60,6 +60,32 @@ def strip_tags(value: str) -> str:
     return re.sub(r"\s+", " ", value).strip()
 
 
+def seo_h1(title: str) -> str:
+    if "와와학습코칭센터" in title or "와와학습코칭학원" in title:
+        return f"{title} 학습 안내"
+    return f"{title} 와와학습코칭센터 학습 안내"
+
+
+def sharpen_article_headings(article_html: str, title: str) -> str:
+    if not article_html.strip():
+        return ""
+    updated = re.sub(
+        r"<h1(?P<attrs>[^>]*)>.*?</h1>",
+        lambda m: f"<h1{m.group('attrs')}>{html.escape(seo_h1(title))}</h1>",
+        article_html,
+        count=1,
+        flags=re.S | re.I,
+    )
+    updated = re.sub(
+        r'(<section\s+class=["\'][^"\']*\barticle-local-feature-section\b[^"\']*["\'][^>]*>.*?<h2(?P<attrs>[^>]*)>).*?(</h2>)',
+        lambda m: f"{m.group(1)}{html.escape(title)} 핵심 포인트{m.group(3)}",
+        updated,
+        count=1,
+        flags=re.S | re.I,
+    )
+    return updated
+
+
 def load_parent_faqs():
     if not FAQS_PATH.exists():
         return []
@@ -278,11 +304,12 @@ def create_page(row):
 
     class_src = asset_src(root_rel, "assets/centers/common", class_image)
     map_src = asset_src(root_rel, "assets/maps", map_image)
+    article_html = sharpen_article_headings(article_html, title)
 
     content_parts = [
         f"    {hidden_image}\n" if hidden_image else "",
-        image_block("수업 안내", class_src, f"{title} 수업 안내"),
-        image_block("센터 지도", map_src, f"{title} 지도"),
+        image_block(f"{title} 수업 안내", class_src, f"{title} 수업 안내"),
+        image_block(f"{title} 센터 지도", map_src, f"{title} 센터 지도"),
         article_html + "\n" if article_html else "",
         center_html + "\n" if center_html else "",
     ]

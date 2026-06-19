@@ -43,6 +43,32 @@ def clean_text(value: str) -> str:
     return re.sub(r"\s+", " ", value).strip()
 
 
+def seo_h1(title: str) -> str:
+    if "와와학습코칭센터" in title or "와와학습코칭학원" in title:
+        return f"{title} 학습 안내"
+    return f"{title} 와와학습코칭센터 학습 안내"
+
+
+def sharpen_article_headings(article_html: str, title: str) -> str:
+    if not article_html.strip():
+        return ""
+    updated = re.sub(
+        r"<h1(?P<attrs>[^>]*)>.*?</h1>",
+        lambda m: f"<h1{m.group('attrs')}>{html.escape(seo_h1(title))}</h1>",
+        article_html,
+        count=1,
+        flags=re.S | re.I,
+    )
+    updated = re.sub(
+        r'(<section\s+class=["\'][^"\']*\barticle-local-feature-section\b[^"\']*["\'][^>]*>.*?<h2(?P<attrs>[^>]*)>).*?(</h2>)',
+        lambda m: f"{m.group(1)}{html.escape(title)} 핵심 포인트{m.group(3)}",
+        updated,
+        count=1,
+        flags=re.S | re.I,
+    )
+    return updated
+
+
 def load_parent_reviews():
     if not REVIEWS_PATH.exists():
         return []
@@ -165,7 +191,7 @@ def parent_review_json_ld(title: str, url: str, reviews) -> str:
         "url": url,
         "aggregateRating": {
             "@type": "AggregateRating",
-            "ratingValue": "5",
+            "ratingValue": "4.8",
             "bestRating": "5",
             "ratingCount": "6",
             "reviewCount": "6",
@@ -180,6 +206,9 @@ def parent_review_json_ld(title: str, url: str, reviews) -> str:
             for review in reviews
         ],
     }
+    four_star_index = int(hashlib.sha256((url + "::review-rating").encode("utf-8")).hexdigest(), 16) % len(data["review"])
+    for index, review_item in enumerate(data["review"]):
+        review_item["reviewRating"]["ratingValue"] = "4" if index == four_star_index else "5"
     return f'  <script type="application/ld+json" data-parent-review-jsonld>{json.dumps(data, ensure_ascii=False)}</script>\n'
 
 
@@ -365,13 +394,14 @@ def create_child_page(row):
     description = seo_description(title, crumbs)
     reviews = select_parent_reviews(page_dir)
     faqs = select_parent_faqs(page_dir)
+    article_html = sharpen_article_headings(article_html.strip(), title)
 
     content = "".join(
         [
             hidden_image_markup(hidden_image),
-            image_block("수업 안내", class_src, f"{title} 수업 안내"),
-            image_block("센터 지도", map_src, f"{title} 지도"),
-            (article_html.strip() + "\n") if article_html.strip() else "",
+            image_block(f"{title} 수업 안내", class_src, f"{title} 수업 안내"),
+            image_block(f"{title} 센터 지도", map_src, f"{title} 센터 지도"),
+            (article_html + "\n") if article_html else "",
             (center_html.strip() + "\n") if center_html.strip() else "",
         ]
     )
