@@ -1,5 +1,16 @@
 {
+  "cleanUrls": true,
   "redirects": [
+    {
+      "source": "/overview.html",
+      "destination": "/overview/",
+      "permanent": true
+    },
+    {
+      "source": "/center.html",
+      "destination": "/center/",
+      "permanent": true
+    },
     {
       "source": "/index.html",
       "destination": "/",

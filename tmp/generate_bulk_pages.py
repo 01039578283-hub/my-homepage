@@ -207,7 +207,7 @@ def breadcrumb_items(page_dir: Path, parent_dir: Path, current_title: str):
 
     current_name = extract_place_name(current_title)
 
-    items = [{"name": "전국센터", "url": rel_href(page_dir, ROOT / "center.html")}]
+    items = [{"name": "전국센터", "url": rel_href(page_dir, ROOT / "center" / "index.html")}]
     for index, part in enumerate(parts):
         item_dir = ROOT / "center" / Path(*parts[: index + 1])
         if index == 0:
@@ -338,8 +338,8 @@ def create_page(row):
       <a class="logo" href="{root_rel}/"><span class="brand-orange">와와</span>학습<span class="brand-orange">코칭</span>센터 <span class="brand-tail">영어수학 전문학원</span></a>
       <div class="nav-links" aria-label="페이지 이동">
         <a href="{root_rel}/">홈</a>
-        <a href="{root_rel}/overview.html">학원소개</a>
-        <a class="active" href="{root_rel}/center.html">전국센터</a>
+        <a href="{root_rel}/overview/">학원소개</a>
+        <a class="active" href="{root_rel}/center/">전국센터</a>
       </div>
     </nav>
   </header>

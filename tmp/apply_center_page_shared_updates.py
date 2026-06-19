@@ -4,7 +4,7 @@ import re
 from pathlib import Path
 
 ROOT = Path.cwd()
-OVERVIEW = ROOT / "overview.html"
+OVERVIEW = ROOT / "overview" / "index.html"
 
 
 def rel_href(from_file: Path, target: Path) -> str:

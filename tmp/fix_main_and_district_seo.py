@@ -78,8 +78,8 @@ def set_district_page_title(path: Path) -> bool:
 def main():
     main_pages = [
         (ROOT / "index.html", "와와학습코칭센터 영어수학 전문학원", "초등, 중등, 고등 영어·수학 학습코칭을 안내하는 와와학습코칭센터 문의 홈페이지입니다."),
-        (ROOT / "overview.html", "학원소개 | 와와학습코칭센터 영어수학 전문학원", "와와학습코칭센터의 영어·수학 학습코칭 방향, 수업 특징, 학습 관리 방식을 확인해보세요."),
-        (ROOT / "center.html", "전국센터 | 와와학습코칭센터 영어수학 전문학원", "전국 주요 지역의 와와학습코칭센터와 동네별 영어·수학 학원 정보를 확인해보세요."),
+        (ROOT / "overview" / "index.html", "학원소개 | 와와학습코칭센터 영어수학 전문학원", "와와학습코칭센터의 영어·수학 학습코칭 방향, 수업 특징, 학습 관리 방식을 확인해보세요."),
+        (ROOT / "center" / "index.html", "전국센터 | 와와학습코칭센터 영어수학 전문학원", "전국 주요 지역의 와와학습코칭센터와 동네별 영어·수학 학원 정보를 확인해보세요."),
     ]
     main_updated = sum(set_main_page_seo(*item) for item in main_pages)
 

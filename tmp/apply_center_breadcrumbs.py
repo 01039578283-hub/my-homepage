@@ -6,7 +6,7 @@ from pathlib import Path
 
 ROOT = Path.cwd()
 CENTER_ROOT = ROOT / "center"
-CENTER_PAGE = ROOT / "center.html"
+CENTER_PAGE = ROOT / "center" / "index.html"
 
 REGION_NAMES = {
     "seoul": "서울",

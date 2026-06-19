@@ -330,7 +330,7 @@ def image_block(label: str, src: str, alt: str) -> str:
 
 
 def breadcrumb_items(page_dir: Path, parent_dir: Path, title: str):
-    items = [{"name": "전국센터", "url": rel_href(page_dir, ROOT / "center.html")}]
+    items = [{"name": "전국센터", "url": rel_href(page_dir, ROOT / "center" / "index.html")}]
     try:
         parts = parent_dir.relative_to(ROOT / "center").parts
     except ValueError:
@@ -430,8 +430,8 @@ def create_child_page(row):
       <a class="logo" href="{rr}/"><span class="brand-orange">와와</span>학습<span class="brand-orange">코칭</span>센터 <span class="brand-tail">영어수학 전문학원</span></a>
       <div class="nav-links" aria-label="페이지 이동">
         <a href="{rr}/">홈</a>
-        <a href="{rr}/overview.html">학원소개</a>
-        <a class="active" href="{rr}/center.html">전국센터</a>
+        <a href="{rr}/overview/">학원소개</a>
+        <a class="active" href="{rr}/center/">전국센터</a>
       </div>
     </nav>
   </header>
