@@ -153,6 +153,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "강릉교동 중학생학원 강원 강원 / 강원 강릉시 gangwon gangneungsi gyodong middleschool"
   },
   {
+    "title": "강릉교동 초등 수학학원",
+    "region": "gangwon",
+    "regionName": "강원",
+    "kind": "local",
+    "parent": "강원 / 강원 강릉시",
+    "url": "/center/gangwon/gangneungsi/gyodong/elementarymath/",
+    "search": "강릉교동 초등 수학학원 강원 강원 / 강원 강릉시 gangwon gangneungsi gyodong elementarymath"
+  },
+  {
+    "title": "강릉교동 초등 영어학원",
+    "region": "gangwon",
+    "regionName": "강원",
+    "kind": "local",
+    "parent": "강원 / 강원 강릉시",
+    "url": "/center/gangwon/gangneungsi/gyodong/elementaryenglish/",
+    "search": "강릉교동 초등 영어학원 강원 강원 / 강원 강릉시 gangwon gangneungsi gyodong elementaryenglish"
+  },
+  {
     "title": "강릉교동 초등학생학원",
     "region": "gangwon",
     "regionName": "강원",
@@ -277,6 +295,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "강원 / 강원 원주시",
     "url": "/center/gangwon/wonjusi/gaeundong/middleschool/",
     "search": "개운동 중학생학원 강원 강원 / 강원 원주시 gangwon wonjusi gaeundong middleschool"
+  },
+  {
+    "title": "개운동 초등 수학학원",
+    "region": "gangwon",
+    "regionName": "강원",
+    "kind": "local",
+    "parent": "강원 / 강원 원주시",
+    "url": "/center/gangwon/wonjusi/gaeundong/elementarymath/",
+    "search": "개운동 초등 수학학원 강원 강원 / 강원 원주시 gangwon wonjusi gaeundong elementarymath"
+  },
+  {
+    "title": "개운동 초등 영어학원",
+    "region": "gangwon",
+    "regionName": "강원",
+    "kind": "local",
+    "parent": "강원 / 강원 원주시",
+    "url": "/center/gangwon/wonjusi/gaeundong/elementaryenglish/",
+    "search": "개운동 초등 영어학원 강원 강원 / 강원 원주시 gangwon wonjusi gaeundong elementaryenglish"
   },
   {
     "title": "개운동 초등학생학원",
@@ -405,6 +441,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "단계동 중학생학원 강원 강원 / 강원 원주시 gangwon wonjusi dangyedong middleschool"
   },
   {
+    "title": "단계동 초등 수학학원",
+    "region": "gangwon",
+    "regionName": "강원",
+    "kind": "local",
+    "parent": "강원 / 강원 원주시",
+    "url": "/center/gangwon/wonjusi/dangyedong/elementarymath/",
+    "search": "단계동 초등 수학학원 강원 강원 / 강원 원주시 gangwon wonjusi dangyedong elementarymath"
+  },
+  {
+    "title": "단계동 초등 영어학원",
+    "region": "gangwon",
+    "regionName": "강원",
+    "kind": "local",
+    "parent": "강원 / 강원 원주시",
+    "url": "/center/gangwon/wonjusi/dangyedong/elementaryenglish/",
+    "search": "단계동 초등 영어학원 강원 강원 / 강원 원주시 gangwon wonjusi dangyedong elementaryenglish"
+  },
+  {
     "title": "단계동 초등학생학원",
     "region": "gangwon",
     "regionName": "강원",
@@ -529,6 +583,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "강원 / 강원 원주시",
     "url": "/center/gangwon/wonjusi/dangudong/middleschool/",
     "search": "단구동 중학생학원 강원 강원 / 강원 원주시 gangwon wonjusi dangudong middleschool"
+  },
+  {
+    "title": "단구동 초등 수학학원",
+    "region": "gangwon",
+    "regionName": "강원",
+    "kind": "local",
+    "parent": "강원 / 강원 원주시",
+    "url": "/center/gangwon/wonjusi/dangudong/elementarymath/",
+    "search": "단구동 초등 수학학원 강원 강원 / 강원 원주시 gangwon wonjusi dangudong elementarymath"
+  },
+  {
+    "title": "단구동 초등 영어학원",
+    "region": "gangwon",
+    "regionName": "강원",
+    "kind": "local",
+    "parent": "강원 / 강원 원주시",
+    "url": "/center/gangwon/wonjusi/dangudong/elementaryenglish/",
+    "search": "단구동 초등 영어학원 강원 강원 / 강원 원주시 gangwon wonjusi dangudong elementaryenglish"
   },
   {
     "title": "단구동 초등학생학원",
@@ -657,6 +729,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "명륜동 중학생학원 강원 강원 / 강원 원주시 gangwon wonjusi myeongryundong middleschool"
   },
   {
+    "title": "명륜동 초등 수학학원",
+    "region": "gangwon",
+    "regionName": "강원",
+    "kind": "local",
+    "parent": "강원 / 강원 원주시",
+    "url": "/center/gangwon/wonjusi/myeongryundong/elementarymath/",
+    "search": "명륜동 초등 수학학원 강원 강원 / 강원 원주시 gangwon wonjusi myeongryundong elementarymath"
+  },
+  {
+    "title": "명륜동 초등 영어학원",
+    "region": "gangwon",
+    "regionName": "강원",
+    "kind": "local",
+    "parent": "강원 / 강원 원주시",
+    "url": "/center/gangwon/wonjusi/myeongryundong/elementaryenglish/",
+    "search": "명륜동 초등 영어학원 강원 강원 / 강원 원주시 gangwon wonjusi myeongryundong elementaryenglish"
+  },
+  {
     "title": "명륜동 초등학생학원",
     "region": "gangwon",
     "regionName": "강원",
@@ -781,6 +871,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "강원 / 강원 원주시",
     "url": "/center/gangwon/wonjusi/musildong/middleschool/",
     "search": "무실동 중학생학원 강원 강원 / 강원 원주시 gangwon wonjusi musildong middleschool"
+  },
+  {
+    "title": "무실동 초등 수학학원",
+    "region": "gangwon",
+    "regionName": "강원",
+    "kind": "local",
+    "parent": "강원 / 강원 원주시",
+    "url": "/center/gangwon/wonjusi/musildong/elementarymath/",
+    "search": "무실동 초등 수학학원 강원 강원 / 강원 원주시 gangwon wonjusi musildong elementarymath"
+  },
+  {
+    "title": "무실동 초등 영어학원",
+    "region": "gangwon",
+    "regionName": "강원",
+    "kind": "local",
+    "parent": "강원 / 강원 원주시",
+    "url": "/center/gangwon/wonjusi/musildong/elementaryenglish/",
+    "search": "무실동 초등 영어학원 강원 강원 / 강원 원주시 gangwon wonjusi musildong elementaryenglish"
   },
   {
     "title": "무실동 초등학생학원",
@@ -909,6 +1017,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "반곡동 중학생학원 강원 강원 / 강원 원주시 gangwon wonjusi bangokdong middleschool"
   },
   {
+    "title": "반곡동 초등 수학학원",
+    "region": "gangwon",
+    "regionName": "강원",
+    "kind": "local",
+    "parent": "강원 / 강원 원주시",
+    "url": "/center/gangwon/wonjusi/bangokdong/elementarymath/",
+    "search": "반곡동 초등 수학학원 강원 강원 / 강원 원주시 gangwon wonjusi bangokdong elementarymath"
+  },
+  {
+    "title": "반곡동 초등 영어학원",
+    "region": "gangwon",
+    "regionName": "강원",
+    "kind": "local",
+    "parent": "강원 / 강원 원주시",
+    "url": "/center/gangwon/wonjusi/bangokdong/elementaryenglish/",
+    "search": "반곡동 초등 영어학원 강원 강원 / 강원 원주시 gangwon wonjusi bangokdong elementaryenglish"
+  },
+  {
     "title": "반곡동 초등학생학원",
     "region": "gangwon",
     "regionName": "강원",
@@ -1033,6 +1159,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "강원 / 강원 춘천시",
     "url": "/center/gangwon/chuncheonsi/seoksadong/middleschool/",
     "search": "석사동 중학생학원 강원 강원 / 강원 춘천시 gangwon chuncheonsi seoksadong middleschool"
+  },
+  {
+    "title": "석사동 초등 수학학원",
+    "region": "gangwon",
+    "regionName": "강원",
+    "kind": "local",
+    "parent": "강원 / 강원 춘천시",
+    "url": "/center/gangwon/chuncheonsi/seoksadong/elementarymath/",
+    "search": "석사동 초등 수학학원 강원 강원 / 강원 춘천시 gangwon chuncheonsi seoksadong elementarymath"
+  },
+  {
+    "title": "석사동 초등 영어학원",
+    "region": "gangwon",
+    "regionName": "강원",
+    "kind": "local",
+    "parent": "강원 / 강원 춘천시",
+    "url": "/center/gangwon/chuncheonsi/seoksadong/elementaryenglish/",
+    "search": "석사동 초등 영어학원 강원 강원 / 강원 춘천시 gangwon chuncheonsi seoksadong elementaryenglish"
   },
   {
     "title": "석사동 초등학생학원",
@@ -1161,6 +1305,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "원주혁신도시 중학생학원 강원 강원 / 강원 원주시 gangwon wonjusi wonjuhyeoksindosi middleschool"
   },
   {
+    "title": "원주혁신도시 초등 수학학원",
+    "region": "gangwon",
+    "regionName": "강원",
+    "kind": "local",
+    "parent": "강원 / 강원 원주시",
+    "url": "/center/gangwon/wonjusi/wonjuhyeoksindosi/elementarymath/",
+    "search": "원주혁신도시 초등 수학학원 강원 강원 / 강원 원주시 gangwon wonjusi wonjuhyeoksindosi elementarymath"
+  },
+  {
+    "title": "원주혁신도시 초등 영어학원",
+    "region": "gangwon",
+    "regionName": "강원",
+    "kind": "local",
+    "parent": "강원 / 강원 원주시",
+    "url": "/center/gangwon/wonjusi/wonjuhyeoksindosi/elementaryenglish/",
+    "search": "원주혁신도시 초등 영어학원 강원 강원 / 강원 원주시 gangwon wonjusi wonjuhyeoksindosi elementaryenglish"
+  },
+  {
     "title": "원주혁신도시 초등학생학원",
     "region": "gangwon",
     "regionName": "강원",
@@ -1287,6 +1449,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "퇴계동 중학생학원 강원 강원 / 강원 춘천시 gangwon chuncheonsi toegyedong middleschool"
   },
   {
+    "title": "퇴계동 초등 수학학원",
+    "region": "gangwon",
+    "regionName": "강원",
+    "kind": "local",
+    "parent": "강원 / 강원 춘천시",
+    "url": "/center/gangwon/chuncheonsi/toegyedong/elementarymath/",
+    "search": "퇴계동 초등 수학학원 강원 강원 / 강원 춘천시 gangwon chuncheonsi toegyedong elementarymath"
+  },
+  {
+    "title": "퇴계동 초등 영어학원",
+    "region": "gangwon",
+    "regionName": "강원",
+    "kind": "local",
+    "parent": "강원 / 강원 춘천시",
+    "url": "/center/gangwon/chuncheonsi/toegyedong/elementaryenglish/",
+    "search": "퇴계동 초등 영어학원 강원 강원 / 강원 춘천시 gangwon chuncheonsi toegyedong elementaryenglish"
+  },
+  {
     "title": "퇴계동 초등학생학원",
     "region": "gangwon",
     "regionName": "강원",
@@ -1411,6 +1591,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "강원 / 강원 춘천시",
     "url": "/center/gangwon/chuncheonsi/hupyeongdong/middleschool/",
     "search": "후평동 중학생학원 강원 강원 / 강원 춘천시 gangwon chuncheonsi hupyeongdong middleschool"
+  },
+  {
+    "title": "후평동 초등 수학학원",
+    "region": "gangwon",
+    "regionName": "강원",
+    "kind": "local",
+    "parent": "강원 / 강원 춘천시",
+    "url": "/center/gangwon/chuncheonsi/hupyeongdong/elementarymath/",
+    "search": "후평동 초등 수학학원 강원 강원 / 강원 춘천시 gangwon chuncheonsi hupyeongdong elementarymath"
+  },
+  {
+    "title": "후평동 초등 영어학원",
+    "region": "gangwon",
+    "regionName": "강원",
+    "kind": "local",
+    "parent": "강원 / 강원 춘천시",
+    "url": "/center/gangwon/chuncheonsi/hupyeongdong/elementaryenglish/",
+    "search": "후평동 초등 영어학원 강원 강원 / 강원 춘천시 gangwon chuncheonsi hupyeongdong elementaryenglish"
   },
   {
     "title": "후평동 초등학생학원",
@@ -1746,6 +1944,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "갈매동 중학생학원 경기 경기 / 경기 구리시 gyeonggi gurisi galmaedong middleschool"
   },
   {
+    "title": "갈매동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 구리시",
+    "url": "/center/gyeonggi/gurisi/galmaedong/elementarymath/",
+    "search": "갈매동 초등 수학학원 경기 경기 / 경기 구리시 gyeonggi gurisi galmaedong elementarymath"
+  },
+  {
+    "title": "갈매동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 구리시",
+    "url": "/center/gyeonggi/gurisi/galmaedong/elementaryenglish/",
+    "search": "갈매동 초등 영어학원 경기 경기 / 경기 구리시 gyeonggi gurisi galmaedong elementaryenglish"
+  },
+  {
     "title": "갈매동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -1870,6 +2086,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 이천시",
     "url": "/center/gyeonggi/icheonsi/galsandong/middleschool/",
     "search": "갈산동 중학생학원 경기 경기 / 경기 이천시 gyeonggi icheonsi galsandong middleschool"
+  },
+  {
+    "title": "갈산동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 이천시",
+    "url": "/center/gyeonggi/icheonsi/galsandong/elementarymath/",
+    "search": "갈산동 초등 수학학원 경기 경기 / 경기 이천시 gyeonggi icheonsi galsandong elementarymath"
+  },
+  {
+    "title": "갈산동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 이천시",
+    "url": "/center/gyeonggi/icheonsi/galsandong/elementaryenglish/",
+    "search": "갈산동 초등 영어학원 경기 경기 / 경기 이천시 gyeonggi icheonsi galsandong elementaryenglish"
   },
   {
     "title": "갈산동 초등학생학원",
@@ -1998,6 +2232,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "경안동 중학생학원 경기 경기 / 경기 광주시 gyeonggi gwangjusi gyeongandong middleschool"
   },
   {
+    "title": "경안동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 광주시",
+    "url": "/center/gyeonggi/gwangjusi/gyeongandong/elementarymath/",
+    "search": "경안동 초등 수학학원 경기 경기 / 경기 광주시 gyeonggi gwangjusi gyeongandong elementarymath"
+  },
+  {
+    "title": "경안동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 광주시",
+    "url": "/center/gyeonggi/gwangjusi/gyeongandong/elementaryenglish/",
+    "search": "경안동 초등 영어학원 경기 경기 / 경기 광주시 gyeonggi gwangjusi gyeongandong elementaryenglish"
+  },
+  {
     "title": "경안동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -2122,6 +2374,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 안산시",
     "url": "/center/gyeonggi/ansansi/gojandong/middleschool/",
     "search": "고잔동 중학생학원 경기 경기 / 경기 안산시 gyeonggi ansansi gojandong middleschool"
+  },
+  {
+    "title": "고잔동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 안산시",
+    "url": "/center/gyeonggi/ansansi/gojandong/elementarymath/",
+    "search": "고잔동 초등 수학학원 경기 경기 / 경기 안산시 gyeonggi ansansi gojandong elementarymath"
+  },
+  {
+    "title": "고잔동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 안산시",
+    "url": "/center/gyeonggi/ansansi/gojandong/elementaryenglish/",
+    "search": "고잔동 초등 영어학원 경기 경기 / 경기 안산시 gyeonggi ansansi gojandong elementaryenglish"
   },
   {
     "title": "고잔동 초등학생학원",
@@ -2250,6 +2520,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "광명동 중학생학원 경기 경기 / 경기 광명시 gyeonggi gwangmyeongsi gwangmyeongdong middleschool"
   },
   {
+    "title": "광명동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 광명시",
+    "url": "/center/gyeonggi/gwangmyeongsi/gwangmyeongdong/elementarymath/",
+    "search": "광명동 초등 수학학원 경기 경기 / 경기 광명시 gyeonggi gwangmyeongsi gwangmyeongdong elementarymath"
+  },
+  {
+    "title": "광명동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 광명시",
+    "url": "/center/gyeonggi/gwangmyeongsi/gwangmyeongdong/elementaryenglish/",
+    "search": "광명동 초등 영어학원 경기 경기 / 경기 광명시 gyeonggi gwangmyeongsi gwangmyeongdong elementaryenglish"
+  },
+  {
     "title": "광명동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -2374,6 +2662,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 부천시",
     "url": "/center/gyeonggi/bucheonsi/goeandong/middleschool/",
     "search": "괴안동 중학생학원 경기 경기 / 경기 부천시 gyeonggi bucheonsi goeandong middleschool"
+  },
+  {
+    "title": "괴안동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 부천시",
+    "url": "/center/gyeonggi/bucheonsi/goeandong/elementarymath/",
+    "search": "괴안동 초등 수학학원 경기 경기 / 경기 부천시 gyeonggi bucheonsi goeandong elementarymath"
+  },
+  {
+    "title": "괴안동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 부천시",
+    "url": "/center/gyeonggi/bucheonsi/goeandong/elementaryenglish/",
+    "search": "괴안동 초등 영어학원 경기 경기 / 경기 부천시 gyeonggi bucheonsi goeandong elementaryenglish"
   },
   {
     "title": "괴안동 초등학생학원",
@@ -2502,6 +2808,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "교문동 중학생학원 경기 경기 / 경기 구리시 gyeonggi gurisi gyomundong middleschool"
   },
   {
+    "title": "교문동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 구리시",
+    "url": "/center/gyeonggi/gurisi/gyomundong/elementarymath/",
+    "search": "교문동 초등 수학학원 경기 경기 / 경기 구리시 gyeonggi gurisi gyomundong elementarymath"
+  },
+  {
+    "title": "교문동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 구리시",
+    "url": "/center/gyeonggi/gurisi/gyomundong/elementaryenglish/",
+    "search": "교문동 초등 영어학원 경기 경기 / 경기 구리시 gyeonggi gurisi gyomundong elementaryenglish"
+  },
+  {
     "title": "교문동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -2626,6 +2950,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 파주시",
     "url": "/center/gyeonggi/pajusi/gyoha/middleschool/",
     "search": "교하 중학생학원 경기 경기 / 경기 파주시 gyeonggi pajusi gyoha middleschool"
+  },
+  {
+    "title": "교하 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 파주시",
+    "url": "/center/gyeonggi/pajusi/gyoha/elementarymath/",
+    "search": "교하 초등 수학학원 경기 경기 / 경기 파주시 gyeonggi pajusi gyoha elementarymath"
+  },
+  {
+    "title": "교하 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 파주시",
+    "url": "/center/gyeonggi/pajusi/gyoha/elementaryenglish/",
+    "search": "교하 초등 영어학원 경기 경기 / 경기 파주시 gyeonggi pajusi gyoha elementaryenglish"
   },
   {
     "title": "교하 초등학생학원",
@@ -2754,6 +3096,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "구갈동 중학생학원 경기 경기 / 경기 용인시 gyeonggi yonginsi gugaldong middleschool"
   },
   {
+    "title": "구갈동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 용인시",
+    "url": "/center/gyeonggi/yonginsi/gugaldong/elementarymath/",
+    "search": "구갈동 초등 수학학원 경기 경기 / 경기 용인시 gyeonggi yonginsi gugaldong elementarymath"
+  },
+  {
+    "title": "구갈동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 용인시",
+    "url": "/center/gyeonggi/yonginsi/gugaldong/elementaryenglish/",
+    "search": "구갈동 초등 영어학원 경기 경기 / 경기 용인시 gyeonggi yonginsi gugaldong elementaryenglish"
+  },
+  {
     "title": "구갈동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -2878,6 +3238,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 성남시",
     "url": "/center/gyeonggi/seongnamsi/gumidong/middleschool/",
     "search": "구미동 중학생학원 경기 경기 / 경기 성남시 gyeonggi seongnamsi gumidong middleschool"
+  },
+  {
+    "title": "구미동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 성남시",
+    "url": "/center/gyeonggi/seongnamsi/gumidong/elementarymath/",
+    "search": "구미동 초등 수학학원 경기 경기 / 경기 성남시 gyeonggi seongnamsi gumidong elementarymath"
+  },
+  {
+    "title": "구미동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 성남시",
+    "url": "/center/gyeonggi/seongnamsi/gumidong/elementaryenglish/",
+    "search": "구미동 초등 영어학원 경기 경기 / 경기 성남시 gyeonggi seongnamsi gumidong elementaryenglish"
   },
   {
     "title": "구미동 초등학생학원",
@@ -3006,6 +3384,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "권선동 중학생학원 경기 경기 / 경기 수원시 gyeonggi suwonsi gwonseondong middleschool"
   },
   {
+    "title": "권선동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 수원시",
+    "url": "/center/gyeonggi/suwonsi/gwonseondong/elementarymath/",
+    "search": "권선동 초등 수학학원 경기 경기 / 경기 수원시 gyeonggi suwonsi gwonseondong elementarymath"
+  },
+  {
+    "title": "권선동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 수원시",
+    "url": "/center/gyeonggi/suwonsi/gwonseondong/elementaryenglish/",
+    "search": "권선동 초등 영어학원 경기 경기 / 경기 수원시 gyeonggi suwonsi gwonseondong elementaryenglish"
+  },
+  {
     "title": "권선동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -3130,6 +3526,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 수원시",
     "url": "/center/gyeonggi/suwonsi/geumgokdong/middleschool/",
     "search": "금곡동 중학생학원 경기 경기 / 경기 수원시 gyeonggi suwonsi geumgokdong middleschool"
+  },
+  {
+    "title": "금곡동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 수원시",
+    "url": "/center/gyeonggi/suwonsi/geumgokdong/elementarymath/",
+    "search": "금곡동 초등 수학학원 경기 경기 / 경기 수원시 gyeonggi suwonsi geumgokdong elementarymath"
+  },
+  {
+    "title": "금곡동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 수원시",
+    "url": "/center/gyeonggi/suwonsi/geumgokdong/elementaryenglish/",
+    "search": "금곡동 초등 영어학원 경기 경기 / 경기 수원시 gyeonggi suwonsi geumgokdong elementaryenglish"
   },
   {
     "title": "금곡동 초등학생학원",
@@ -3258,6 +3672,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "금광동 중학생학원 경기 경기 / 경기 성남시 gyeonggi seongnamsi geumgwangdong middleschool"
   },
   {
+    "title": "금광동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 성남시",
+    "url": "/center/gyeonggi/seongnamsi/geumgwangdong/elementarymath/",
+    "search": "금광동 초등 수학학원 경기 경기 / 경기 성남시 gyeonggi seongnamsi geumgwangdong elementarymath"
+  },
+  {
+    "title": "금광동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 성남시",
+    "url": "/center/gyeonggi/seongnamsi/geumgwangdong/elementaryenglish/",
+    "search": "금광동 초등 영어학원 경기 경기 / 경기 성남시 gyeonggi seongnamsi geumgwangdong elementaryenglish"
+  },
+  {
     "title": "금광동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -3382,6 +3814,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 파주시",
     "url": "/center/gyeonggi/pajusi/geumreung/middleschool/",
     "search": "금릉 중학생학원 경기 경기 / 경기 파주시 gyeonggi pajusi geumreung middleschool"
+  },
+  {
+    "title": "금릉 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 파주시",
+    "url": "/center/gyeonggi/pajusi/geumreung/elementarymath/",
+    "search": "금릉 초등 수학학원 경기 경기 / 경기 파주시 gyeonggi pajusi geumreung elementarymath"
+  },
+  {
+    "title": "금릉 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 파주시",
+    "url": "/center/gyeonggi/pajusi/geumreung/elementaryenglish/",
+    "search": "금릉 초등 영어학원 경기 경기 / 경기 파주시 gyeonggi pajusi geumreung elementaryenglish"
   },
   {
     "title": "금릉 초등학생학원",
@@ -3510,6 +3960,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "금암동 중학생학원 경기 경기 / 경기 오산시 gyeonggi osansi geumamdong middleschool"
   },
   {
+    "title": "금암동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 오산시",
+    "url": "/center/gyeonggi/osansi/geumamdong/elementarymath/",
+    "search": "금암동 초등 수학학원 경기 경기 / 경기 오산시 gyeonggi osansi geumamdong elementarymath"
+  },
+  {
+    "title": "금암동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 오산시",
+    "url": "/center/gyeonggi/osansi/geumamdong/elementaryenglish/",
+    "search": "금암동 초등 영어학원 경기 경기 / 경기 오산시 gyeonggi osansi geumamdong elementaryenglish"
+  },
+  {
     "title": "금암동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -3634,6 +4102,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 의정부시",
     "url": "/center/gyeonggi/uijeongbusi/geumodong/middleschool/",
     "search": "금오동 중학생학원 경기 경기 / 경기 의정부시 gyeonggi uijeongbusi geumodong middleschool"
+  },
+  {
+    "title": "금오동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 의정부시",
+    "url": "/center/gyeonggi/uijeongbusi/geumodong/elementarymath/",
+    "search": "금오동 초등 수학학원 경기 경기 / 경기 의정부시 gyeonggi uijeongbusi geumodong elementarymath"
+  },
+  {
+    "title": "금오동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 의정부시",
+    "url": "/center/gyeonggi/uijeongbusi/geumodong/elementaryenglish/",
+    "search": "금오동 초등 영어학원 경기 경기 / 경기 의정부시 gyeonggi uijeongbusi geumodong elementaryenglish"
   },
   {
     "title": "금오동 초등학생학원",
@@ -3762,6 +4248,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "금정동 중학생학원 경기 경기 / 경기 군포시 gyeonggi gunposi geumjeongdong middleschool"
   },
   {
+    "title": "금정동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 군포시",
+    "url": "/center/gyeonggi/gunposi/geumjeongdong/elementarymath/",
+    "search": "금정동 초등 수학학원 경기 경기 / 경기 군포시 gyeonggi gunposi geumjeongdong elementarymath"
+  },
+  {
+    "title": "금정동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 군포시",
+    "url": "/center/gyeonggi/gunposi/geumjeongdong/elementaryenglish/",
+    "search": "금정동 초등 영어학원 경기 경기 / 경기 군포시 gyeonggi gunposi geumjeongdong elementaryenglish"
+  },
+  {
     "title": "금정동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -3886,6 +4390,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 파주시",
     "url": "/center/gyeonggi/pajusi/geumchondong/middleschool/",
     "search": "금촌동 중학생학원 경기 경기 / 경기 파주시 gyeonggi pajusi geumchondong middleschool"
+  },
+  {
+    "title": "금촌동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 파주시",
+    "url": "/center/gyeonggi/pajusi/geumchondong/elementarymath/",
+    "search": "금촌동 초등 수학학원 경기 경기 / 경기 파주시 gyeonggi pajusi geumchondong elementarymath"
+  },
+  {
+    "title": "금촌동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 파주시",
+    "url": "/center/gyeonggi/pajusi/geumchondong/elementaryenglish/",
+    "search": "금촌동 초등 영어학원 경기 경기 / 경기 파주시 gyeonggi pajusi geumchondong elementaryenglish"
   },
   {
     "title": "금촌동 초등학생학원",
@@ -4014,6 +4536,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "김량장동 중학생학원 경기 경기 / 경기 용인시 gyeonggi yonginsi gimryangjangdong middleschool"
   },
   {
+    "title": "김량장동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 용인시",
+    "url": "/center/gyeonggi/yonginsi/gimryangjangdong/elementarymath/",
+    "search": "김량장동 초등 수학학원 경기 경기 / 경기 용인시 gyeonggi yonginsi gimryangjangdong elementarymath"
+  },
+  {
+    "title": "김량장동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 용인시",
+    "url": "/center/gyeonggi/yonginsi/gimryangjangdong/elementaryenglish/",
+    "search": "김량장동 초등 영어학원 경기 경기 / 경기 용인시 gyeonggi yonginsi gimryangjangdong elementaryenglish"
+  },
+  {
     "title": "김량장동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -4138,6 +4678,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 오산시",
     "url": "/center/gyeonggi/osansi/naesammidong/middleschool/",
     "search": "내삼미동 중학생학원 경기 경기 / 경기 오산시 gyeonggi osansi naesammidong middleschool"
+  },
+  {
+    "title": "내삼미동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 오산시",
+    "url": "/center/gyeonggi/osansi/naesammidong/elementarymath/",
+    "search": "내삼미동 초등 수학학원 경기 경기 / 경기 오산시 gyeonggi osansi naesammidong elementarymath"
+  },
+  {
+    "title": "내삼미동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 오산시",
+    "url": "/center/gyeonggi/osansi/naesammidong/elementaryenglish/",
+    "search": "내삼미동 초등 영어학원 경기 경기 / 경기 오산시 gyeonggi osansi naesammidong elementaryenglish"
   },
   {
     "title": "내삼미동 초등학생학원",
@@ -4266,6 +4824,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "다산동 중학생학원 경기 경기 / 경기 남양주시 gyeonggi namyangjusi dasandong middleschool"
   },
   {
+    "title": "다산동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 남양주시",
+    "url": "/center/gyeonggi/namyangjusi/dasandong/elementarymath/",
+    "search": "다산동 초등 수학학원 경기 경기 / 경기 남양주시 gyeonggi namyangjusi dasandong elementarymath"
+  },
+  {
+    "title": "다산동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 남양주시",
+    "url": "/center/gyeonggi/namyangjusi/dasandong/elementaryenglish/",
+    "search": "다산동 초등 영어학원 경기 경기 / 경기 남양주시 gyeonggi namyangjusi dasandong elementaryenglish"
+  },
+  {
     "title": "다산동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -4390,6 +4966,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 남양주시",
     "url": "/center/gyeonggi/namyangjusi/dasansindosi/middleschool/",
     "search": "다산신도시 중학생학원 경기 경기 / 경기 남양주시 gyeonggi namyangjusi dasansindosi middleschool"
+  },
+  {
+    "title": "다산신도시 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 남양주시",
+    "url": "/center/gyeonggi/namyangjusi/dasansindosi/elementarymath/",
+    "search": "다산신도시 초등 수학학원 경기 경기 / 경기 남양주시 gyeonggi namyangjusi dasansindosi elementarymath"
+  },
+  {
+    "title": "다산신도시 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 남양주시",
+    "url": "/center/gyeonggi/namyangjusi/dasansindosi/elementaryenglish/",
+    "search": "다산신도시 초등 영어학원 경기 경기 / 경기 남양주시 gyeonggi namyangjusi dasansindosi elementaryenglish"
   },
   {
     "title": "다산신도시 초등학생학원",
@@ -4518,6 +5112,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "단대동 중학생학원 경기 경기 / 경기 성남시 gyeonggi seongnamsi dandaedong middleschool"
   },
   {
+    "title": "단대동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 성남시",
+    "url": "/center/gyeonggi/seongnamsi/dandaedong/elementarymath/",
+    "search": "단대동 초등 수학학원 경기 경기 / 경기 성남시 gyeonggi seongnamsi dandaedong elementarymath"
+  },
+  {
+    "title": "단대동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 성남시",
+    "url": "/center/gyeonggi/seongnamsi/dandaedong/elementaryenglish/",
+    "search": "단대동 초등 영어학원 경기 경기 / 경기 성남시 gyeonggi seongnamsi dandaedong elementaryenglish"
+  },
+  {
     "title": "단대동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -4642,6 +5254,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 시흥시",
     "url": "/center/gyeonggi/siheungsi/daeyadong/middleschool/",
     "search": "대야동 중학생학원 경기 경기 / 경기 시흥시 gyeonggi siheungsi daeyadong middleschool"
+  },
+  {
+    "title": "대야동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 시흥시",
+    "url": "/center/gyeonggi/siheungsi/daeyadong/elementarymath/",
+    "search": "대야동 초등 수학학원 경기 경기 / 경기 시흥시 gyeonggi siheungsi daeyadong elementarymath"
+  },
+  {
+    "title": "대야동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 시흥시",
+    "url": "/center/gyeonggi/siheungsi/daeyadong/elementaryenglish/",
+    "search": "대야동 초등 영어학원 경기 경기 / 경기 시흥시 gyeonggi siheungsi daeyadong elementaryenglish"
   },
   {
     "title": "대야동 초등학생학원",
@@ -4770,6 +5400,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "대화동 중학생학원 경기 경기 / 경기 고양시 gyeonggi goyangsi daehwadong middleschool"
   },
   {
+    "title": "대화동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 고양시",
+    "url": "/center/gyeonggi/goyangsi/daehwadong/elementarymath/",
+    "search": "대화동 초등 수학학원 경기 경기 / 경기 고양시 gyeonggi goyangsi daehwadong elementarymath"
+  },
+  {
+    "title": "대화동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 고양시",
+    "url": "/center/gyeonggi/goyangsi/daehwadong/elementaryenglish/",
+    "search": "대화동 초등 영어학원 경기 경기 / 경기 고양시 gyeonggi goyangsi daehwadong elementaryenglish"
+  },
+  {
     "title": "대화동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -4894,6 +5542,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 고양시",
     "url": "/center/gyeonggi/goyangsi/deokidong/middleschool/",
     "search": "덕이동 중학생학원 경기 경기 / 경기 고양시 gyeonggi goyangsi deokidong middleschool"
+  },
+  {
+    "title": "덕이동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 고양시",
+    "url": "/center/gyeonggi/goyangsi/deokidong/elementarymath/",
+    "search": "덕이동 초등 수학학원 경기 경기 / 경기 고양시 gyeonggi goyangsi deokidong elementarymath"
+  },
+  {
+    "title": "덕이동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 고양시",
+    "url": "/center/gyeonggi/goyangsi/deokidong/elementaryenglish/",
+    "search": "덕이동 초등 영어학원 경기 경기 / 경기 고양시 gyeonggi goyangsi deokidong elementaryenglish"
   },
   {
     "title": "덕이동 초등학생학원",
@@ -5022,6 +5688,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "덕이지구 중학생학원 경기 경기 / 경기 고양시 gyeonggi goyangsi deokijigu middleschool"
   },
   {
+    "title": "덕이지구 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 고양시",
+    "url": "/center/gyeonggi/goyangsi/deokijigu/elementarymath/",
+    "search": "덕이지구 초등 수학학원 경기 경기 / 경기 고양시 gyeonggi goyangsi deokijigu elementarymath"
+  },
+  {
+    "title": "덕이지구 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 고양시",
+    "url": "/center/gyeonggi/goyangsi/deokijigu/elementaryenglish/",
+    "search": "덕이지구 초등 영어학원 경기 경기 / 경기 고양시 gyeonggi goyangsi deokijigu elementaryenglish"
+  },
+  {
     "title": "덕이지구 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -5146,6 +5830,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 하남시",
     "url": "/center/gyeonggi/hanamsi/deokpungdong/middleschool/",
     "search": "덕풍동 중학생학원 경기 경기 / 경기 하남시 gyeonggi hanamsi deokpungdong middleschool"
+  },
+  {
+    "title": "덕풍동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 하남시",
+    "url": "/center/gyeonggi/hanamsi/deokpungdong/elementarymath/",
+    "search": "덕풍동 초등 수학학원 경기 경기 / 경기 하남시 gyeonggi hanamsi deokpungdong elementarymath"
+  },
+  {
+    "title": "덕풍동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 하남시",
+    "url": "/center/gyeonggi/hanamsi/deokpungdong/elementaryenglish/",
+    "search": "덕풍동 초등 영어학원 경기 경기 / 경기 하남시 gyeonggi hanamsi deokpungdong elementaryenglish"
   },
   {
     "title": "덕풍동 초등학생학원",
@@ -5274,6 +5976,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "도농동 중학생학원 경기 경기 / 경기 남양주시 gyeonggi namyangjusi donongdong middleschool"
   },
   {
+    "title": "도농동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 남양주시",
+    "url": "/center/gyeonggi/namyangjusi/donongdong/elementarymath/",
+    "search": "도농동 초등 수학학원 경기 경기 / 경기 남양주시 gyeonggi namyangjusi donongdong elementarymath"
+  },
+  {
+    "title": "도농동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 남양주시",
+    "url": "/center/gyeonggi/namyangjusi/donongdong/elementaryenglish/",
+    "search": "도농동 초등 영어학원 경기 경기 / 경기 남양주시 gyeonggi namyangjusi donongdong elementaryenglish"
+  },
+  {
     "title": "도농동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -5398,6 +6118,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 구리시",
     "url": "/center/gyeonggi/gurisi/donggudong/middleschool/",
     "search": "동구동 중학생학원 경기 경기 / 경기 구리시 gyeonggi gurisi donggudong middleschool"
+  },
+  {
+    "title": "동구동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 구리시",
+    "url": "/center/gyeonggi/gurisi/donggudong/elementarymath/",
+    "search": "동구동 초등 수학학원 경기 경기 / 경기 구리시 gyeonggi gurisi donggudong elementarymath"
+  },
+  {
+    "title": "동구동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 구리시",
+    "url": "/center/gyeonggi/gurisi/donggudong/elementaryenglish/",
+    "search": "동구동 초등 영어학원 경기 경기 / 경기 구리시 gyeonggi gurisi donggudong elementaryenglish"
   },
   {
     "title": "동구동 초등학생학원",
@@ -5526,6 +6264,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "동백동 중학생학원 경기 경기 / 경기 용인시 gyeonggi yonginsi dongbaekdong middleschool"
   },
   {
+    "title": "동백동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 용인시",
+    "url": "/center/gyeonggi/yonginsi/dongbaekdong/elementarymath/",
+    "search": "동백동 초등 수학학원 경기 경기 / 경기 용인시 gyeonggi yonginsi dongbaekdong elementarymath"
+  },
+  {
+    "title": "동백동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 용인시",
+    "url": "/center/gyeonggi/yonginsi/dongbaekdong/elementaryenglish/",
+    "search": "동백동 초등 영어학원 경기 경기 / 경기 용인시 gyeonggi yonginsi dongbaekdong elementaryenglish"
+  },
+  {
     "title": "동백동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -5650,6 +6406,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 평택시",
     "url": "/center/gyeonggi/pyeongtaeksi/dongsakdong/middleschool/",
     "search": "동삭동 중학생학원 경기 경기 / 경기 평택시 gyeonggi pyeongtaeksi dongsakdong middleschool"
+  },
+  {
+    "title": "동삭동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 평택시",
+    "url": "/center/gyeonggi/pyeongtaeksi/dongsakdong/elementarymath/",
+    "search": "동삭동 초등 수학학원 경기 경기 / 경기 평택시 gyeonggi pyeongtaeksi dongsakdong elementarymath"
+  },
+  {
+    "title": "동삭동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 평택시",
+    "url": "/center/gyeonggi/pyeongtaeksi/dongsakdong/elementaryenglish/",
+    "search": "동삭동 초등 영어학원 경기 경기 / 경기 평택시 gyeonggi pyeongtaeksi dongsakdong elementaryenglish"
   },
   {
     "title": "동삭동 초등학생학원",
@@ -5778,6 +6552,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "동탄목동 중학생학원 경기 경기 / 경기 화성시 gyeonggi hwaseongsi dongtanmokdong middleschool"
   },
   {
+    "title": "동탄목동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 화성시",
+    "url": "/center/gyeonggi/hwaseongsi/dongtanmokdong/elementarymath/",
+    "search": "동탄목동 초등 수학학원 경기 경기 / 경기 화성시 gyeonggi hwaseongsi dongtanmokdong elementarymath"
+  },
+  {
+    "title": "동탄목동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 화성시",
+    "url": "/center/gyeonggi/hwaseongsi/dongtanmokdong/elementaryenglish/",
+    "search": "동탄목동 초등 영어학원 경기 경기 / 경기 화성시 gyeonggi hwaseongsi dongtanmokdong elementaryenglish"
+  },
+  {
     "title": "동탄목동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -5902,6 +6694,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 파주시",
     "url": "/center/gyeonggi/pajusi/dongpaedong/middleschool/",
     "search": "동패동 중학생학원 경기 경기 / 경기 파주시 gyeonggi pajusi dongpaedong middleschool"
+  },
+  {
+    "title": "동패동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 파주시",
+    "url": "/center/gyeonggi/pajusi/dongpaedong/elementarymath/",
+    "search": "동패동 초등 수학학원 경기 경기 / 경기 파주시 gyeonggi pajusi dongpaedong elementarymath"
+  },
+  {
+    "title": "동패동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 파주시",
+    "url": "/center/gyeonggi/pajusi/dongpaedong/elementaryenglish/",
+    "search": "동패동 초등 영어학원 경기 경기 / 경기 파주시 gyeonggi pajusi dongpaedong elementaryenglish"
   },
   {
     "title": "동패동 초등학생학원",
@@ -6030,6 +6840,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "마두동 중학생학원 경기 경기 / 경기 고양시 gyeonggi goyangsi madudong middleschool"
   },
   {
+    "title": "마두동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 고양시",
+    "url": "/center/gyeonggi/goyangsi/madudong/elementarymath/",
+    "search": "마두동 초등 수학학원 경기 경기 / 경기 고양시 gyeonggi goyangsi madudong elementarymath"
+  },
+  {
+    "title": "마두동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 고양시",
+    "url": "/center/gyeonggi/goyangsi/madudong/elementaryenglish/",
+    "search": "마두동 초등 영어학원 경기 경기 / 경기 고양시 gyeonggi goyangsi madudong elementaryenglish"
+  },
+  {
     "title": "마두동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -6154,6 +6982,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 김포시",
     "url": "/center/gyeonggi/gimposi/masandong/middleschool/",
     "search": "마산동 중학생학원 경기 경기 / 경기 김포시 gyeonggi gimposi masandong middleschool"
+  },
+  {
+    "title": "마산동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 김포시",
+    "url": "/center/gyeonggi/gimposi/masandong/elementarymath/",
+    "search": "마산동 초등 수학학원 경기 경기 / 경기 김포시 gyeonggi gimposi masandong elementarymath"
+  },
+  {
+    "title": "마산동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 김포시",
+    "url": "/center/gyeonggi/gimposi/masandong/elementaryenglish/",
+    "search": "마산동 초등 영어학원 경기 경기 / 경기 김포시 gyeonggi gimposi masandong elementaryenglish"
   },
   {
     "title": "마산동 초등학생학원",
@@ -6282,6 +7128,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "망월동 중학생학원 경기 경기 / 경기 하남시 gyeonggi hanamsi mangwoldong middleschool"
   },
   {
+    "title": "망월동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 하남시",
+    "url": "/center/gyeonggi/hanamsi/mangwoldong/elementarymath/",
+    "search": "망월동 초등 수학학원 경기 경기 / 경기 하남시 gyeonggi hanamsi mangwoldong elementarymath"
+  },
+  {
+    "title": "망월동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 하남시",
+    "url": "/center/gyeonggi/hanamsi/mangwoldong/elementaryenglish/",
+    "search": "망월동 초등 영어학원 경기 경기 / 경기 하남시 gyeonggi hanamsi mangwoldong elementaryenglish"
+  },
+  {
     "title": "망월동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -6406,6 +7270,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 수원시",
     "url": "/center/gyeonggi/suwonsi/mangpodong/middleschool/",
     "search": "망포동 중학생학원 경기 경기 / 경기 수원시 gyeonggi suwonsi mangpodong middleschool"
+  },
+  {
+    "title": "망포동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 수원시",
+    "url": "/center/gyeonggi/suwonsi/mangpodong/elementarymath/",
+    "search": "망포동 초등 수학학원 경기 경기 / 경기 수원시 gyeonggi suwonsi mangpodong elementarymath"
+  },
+  {
+    "title": "망포동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 수원시",
+    "url": "/center/gyeonggi/suwonsi/mangpodong/elementaryenglish/",
+    "search": "망포동 초등 영어학원 경기 경기 / 경기 수원시 gyeonggi suwonsi mangpodong elementaryenglish"
   },
   {
     "title": "망포동 초등학생학원",
@@ -6534,6 +7416,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "매탄동 중학생학원 경기 경기 / 경기 수원시 gyeonggi suwonsi maetandong middleschool"
   },
   {
+    "title": "매탄동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 수원시",
+    "url": "/center/gyeonggi/suwonsi/maetandong/elementarymath/",
+    "search": "매탄동 초등 수학학원 경기 경기 / 경기 수원시 gyeonggi suwonsi maetandong elementarymath"
+  },
+  {
+    "title": "매탄동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 수원시",
+    "url": "/center/gyeonggi/suwonsi/maetandong/elementaryenglish/",
+    "search": "매탄동 초등 영어학원 경기 경기 / 경기 수원시 gyeonggi suwonsi maetandong elementaryenglish"
+  },
+  {
     "title": "매탄동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -6658,6 +7558,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 시흥시",
     "url": "/center/gyeonggi/siheungsi/mokgam/middleschool/",
     "search": "목감 중학생학원 경기 경기 / 경기 시흥시 gyeonggi siheungsi mokgam middleschool"
+  },
+  {
+    "title": "목감 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 시흥시",
+    "url": "/center/gyeonggi/siheungsi/mokgam/elementarymath/",
+    "search": "목감 초등 수학학원 경기 경기 / 경기 시흥시 gyeonggi siheungsi mokgam elementarymath"
+  },
+  {
+    "title": "목감 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 시흥시",
+    "url": "/center/gyeonggi/siheungsi/mokgam/elementaryenglish/",
+    "search": "목감 초등 영어학원 경기 경기 / 경기 시흥시 gyeonggi siheungsi mokgam elementaryenglish"
   },
   {
     "title": "목감 초등학생학원",
@@ -6786,6 +7704,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "목동동 중학생학원 경기 경기 / 경기 파주시 gyeonggi pajusi mokdongdong middleschool"
   },
   {
+    "title": "목동동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 파주시",
+    "url": "/center/gyeonggi/pajusi/mokdongdong/elementarymath/",
+    "search": "목동동 초등 수학학원 경기 경기 / 경기 파주시 gyeonggi pajusi mokdongdong elementarymath"
+  },
+  {
+    "title": "목동동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 파주시",
+    "url": "/center/gyeonggi/pajusi/mokdongdong/elementaryenglish/",
+    "search": "목동동 초등 영어학원 경기 경기 / 경기 파주시 gyeonggi pajusi mokdongdong elementaryenglish"
+  },
+  {
     "title": "목동동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -6910,6 +7846,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 성남시",
     "url": "/center/gyeonggi/seongnamsi/migeum/middleschool/",
     "search": "미금 중학생학원 경기 경기 / 경기 성남시 gyeonggi seongnamsi migeum middleschool"
+  },
+  {
+    "title": "미금 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 성남시",
+    "url": "/center/gyeonggi/seongnamsi/migeum/elementarymath/",
+    "search": "미금 초등 수학학원 경기 경기 / 경기 성남시 gyeonggi seongnamsi migeum elementarymath"
+  },
+  {
+    "title": "미금 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 성남시",
+    "url": "/center/gyeonggi/seongnamsi/migeum/elementaryenglish/",
+    "search": "미금 초등 영어학원 경기 경기 / 경기 성남시 gyeonggi seongnamsi migeum elementaryenglish"
   },
   {
     "title": "미금 초등학생학원",
@@ -7038,6 +7992,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "미사 중학생학원 경기 경기 / 경기 하남시 gyeonggi hanamsi misa middleschool"
   },
   {
+    "title": "미사 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 하남시",
+    "url": "/center/gyeonggi/hanamsi/misa/elementarymath/",
+    "search": "미사 초등 수학학원 경기 경기 / 경기 하남시 gyeonggi hanamsi misa elementarymath"
+  },
+  {
+    "title": "미사 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 하남시",
+    "url": "/center/gyeonggi/hanamsi/misa/elementaryenglish/",
+    "search": "미사 초등 영어학원 경기 경기 / 경기 하남시 gyeonggi hanamsi misa elementaryenglish"
+  },
+  {
     "title": "미사 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -7162,6 +8134,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 하남시",
     "url": "/center/gyeonggi/hanamsi/misasindosi/middleschool/",
     "search": "미사신도시 중학생학원 경기 경기 / 경기 하남시 gyeonggi hanamsi misasindosi middleschool"
+  },
+  {
+    "title": "미사신도시 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 하남시",
+    "url": "/center/gyeonggi/hanamsi/misasindosi/elementarymath/",
+    "search": "미사신도시 초등 수학학원 경기 경기 / 경기 하남시 gyeonggi hanamsi misasindosi elementarymath"
+  },
+  {
+    "title": "미사신도시 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 하남시",
+    "url": "/center/gyeonggi/hanamsi/misasindosi/elementaryenglish/",
+    "search": "미사신도시 초등 영어학원 경기 경기 / 경기 하남시 gyeonggi hanamsi misasindosi elementaryenglish"
   },
   {
     "title": "미사신도시 초등학생학원",
@@ -7290,6 +8280,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "반달마을 중학생학원 경기 경기 / 경기 부천시 gyeonggi bucheonsi bandalmaeul middleschool"
   },
   {
+    "title": "반달마을 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 부천시",
+    "url": "/center/gyeonggi/bucheonsi/bandalmaeul/elementarymath/",
+    "search": "반달마을 초등 수학학원 경기 경기 / 경기 부천시 gyeonggi bucheonsi bandalmaeul elementarymath"
+  },
+  {
+    "title": "반달마을 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 부천시",
+    "url": "/center/gyeonggi/bucheonsi/bandalmaeul/elementaryenglish/",
+    "search": "반달마을 초등 영어학원 경기 경기 / 경기 부천시 gyeonggi bucheonsi bandalmaeul elementaryenglish"
+  },
+  {
     "title": "반달마을 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -7414,6 +8422,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 화성시",
     "url": "/center/gyeonggi/hwaseongsi/bansongdong/middleschool/",
     "search": "반송동 중학생학원 경기 경기 / 경기 화성시 gyeonggi hwaseongsi bansongdong middleschool"
+  },
+  {
+    "title": "반송동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 화성시",
+    "url": "/center/gyeonggi/hwaseongsi/bansongdong/elementarymath/",
+    "search": "반송동 초등 수학학원 경기 경기 / 경기 화성시 gyeonggi hwaseongsi bansongdong elementarymath"
+  },
+  {
+    "title": "반송동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 화성시",
+    "url": "/center/gyeonggi/hwaseongsi/bansongdong/elementaryenglish/",
+    "search": "반송동 초등 영어학원 경기 경기 / 경기 화성시 gyeonggi hwaseongsi bansongdong elementaryenglish"
   },
   {
     "title": "반송동 초등학생학원",
@@ -7542,6 +8568,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "배곧 중학생학원 경기 경기 / 경기 시흥시 gyeonggi siheungsi baegot middleschool"
   },
   {
+    "title": "배곧 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 시흥시",
+    "url": "/center/gyeonggi/siheungsi/baegot/elementarymath/",
+    "search": "배곧 초등 수학학원 경기 경기 / 경기 시흥시 gyeonggi siheungsi baegot elementarymath"
+  },
+  {
+    "title": "배곧 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 시흥시",
+    "url": "/center/gyeonggi/siheungsi/baegot/elementaryenglish/",
+    "search": "배곧 초등 영어학원 경기 경기 / 경기 시흥시 gyeonggi siheungsi baegot elementaryenglish"
+  },
+  {
     "title": "배곧 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -7666,6 +8710,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 시흥시",
     "url": "/center/gyeonggi/siheungsi/baegotdong/middleschool/",
     "search": "배곧동 중학생학원 경기 경기 / 경기 시흥시 gyeonggi siheungsi baegotdong middleschool"
+  },
+  {
+    "title": "배곧동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 시흥시",
+    "url": "/center/gyeonggi/siheungsi/baegotdong/elementarymath/",
+    "search": "배곧동 초등 수학학원 경기 경기 / 경기 시흥시 gyeonggi siheungsi baegotdong elementarymath"
+  },
+  {
+    "title": "배곧동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 시흥시",
+    "url": "/center/gyeonggi/siheungsi/baegotdong/elementaryenglish/",
+    "search": "배곧동 초등 영어학원 경기 경기 / 경기 시흥시 gyeonggi siheungsi baegotdong elementaryenglish"
   },
   {
     "title": "배곧동 초등학생학원",
@@ -7794,6 +8856,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "백석동 중학생학원 경기 경기 / 경기 고양시 gyeonggi goyangsi baekseokdong middleschool"
   },
   {
+    "title": "백석동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 고양시",
+    "url": "/center/gyeonggi/goyangsi/baekseokdong/elementarymath/",
+    "search": "백석동 초등 수학학원 경기 경기 / 경기 고양시 gyeonggi goyangsi baekseokdong elementarymath"
+  },
+  {
+    "title": "백석동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 고양시",
+    "url": "/center/gyeonggi/goyangsi/baekseokdong/elementaryenglish/",
+    "search": "백석동 초등 영어학원 경기 경기 / 경기 고양시 gyeonggi goyangsi baekseokdong elementaryenglish"
+  },
+  {
     "title": "백석동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -7918,6 +8998,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 부천시",
     "url": "/center/gyeonggi/bucheonsi/beombakdong/middleschool/",
     "search": "범박동 중학생학원 경기 경기 / 경기 부천시 gyeonggi bucheonsi beombakdong middleschool"
+  },
+  {
+    "title": "범박동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 부천시",
+    "url": "/center/gyeonggi/bucheonsi/beombakdong/elementarymath/",
+    "search": "범박동 초등 수학학원 경기 경기 / 경기 부천시 gyeonggi bucheonsi beombakdong elementarymath"
+  },
+  {
+    "title": "범박동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 부천시",
+    "url": "/center/gyeonggi/bucheonsi/beombakdong/elementaryenglish/",
+    "search": "범박동 초등 영어학원 경기 경기 / 경기 부천시 gyeonggi bucheonsi beombakdong elementaryenglish"
   },
   {
     "title": "범박동 초등학생학원",
@@ -8046,6 +9144,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "별내 중학생학원 경기 경기 / 경기 남양주시 gyeonggi namyangjusi byeolnae middleschool"
   },
   {
+    "title": "별내 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 남양주시",
+    "url": "/center/gyeonggi/namyangjusi/byeolnae/elementarymath/",
+    "search": "별내 초등 수학학원 경기 경기 / 경기 남양주시 gyeonggi namyangjusi byeolnae elementarymath"
+  },
+  {
+    "title": "별내 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 남양주시",
+    "url": "/center/gyeonggi/namyangjusi/byeolnae/elementaryenglish/",
+    "search": "별내 초등 영어학원 경기 경기 / 경기 남양주시 gyeonggi namyangjusi byeolnae elementaryenglish"
+  },
+  {
     "title": "별내 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -8170,6 +9286,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 남양주시",
     "url": "/center/gyeonggi/namyangjusi/byeolnaedong/middleschool/",
     "search": "별내동 중학생학원 경기 경기 / 경기 남양주시 gyeonggi namyangjusi byeolnaedong middleschool"
+  },
+  {
+    "title": "별내동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 남양주시",
+    "url": "/center/gyeonggi/namyangjusi/byeolnaedong/elementarymath/",
+    "search": "별내동 초등 수학학원 경기 경기 / 경기 남양주시 gyeonggi namyangjusi byeolnaedong elementarymath"
+  },
+  {
+    "title": "별내동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 남양주시",
+    "url": "/center/gyeonggi/namyangjusi/byeolnaedong/elementaryenglish/",
+    "search": "별내동 초등 영어학원 경기 경기 / 경기 남양주시 gyeonggi namyangjusi byeolnaedong elementaryenglish"
   },
   {
     "title": "별내동 초등학생학원",
@@ -8298,6 +9432,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "별내신도시 중학생학원 경기 경기 / 경기 남양주시 gyeonggi namyangjusi byeolnaesindosi middleschool"
   },
   {
+    "title": "별내신도시 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 남양주시",
+    "url": "/center/gyeonggi/namyangjusi/byeolnaesindosi/elementarymath/",
+    "search": "별내신도시 초등 수학학원 경기 경기 / 경기 남양주시 gyeonggi namyangjusi byeolnaesindosi elementarymath"
+  },
+  {
+    "title": "별내신도시 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 남양주시",
+    "url": "/center/gyeonggi/namyangjusi/byeolnaesindosi/elementaryenglish/",
+    "search": "별내신도시 초등 영어학원 경기 경기 / 경기 남양주시 gyeonggi namyangjusi byeolnaesindosi elementaryenglish"
+  },
+  {
     "title": "별내신도시 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -8422,6 +9574,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 남양주시",
     "url": "/center/gyeonggi/namyangjusi/byeolnaejungang/middleschool/",
     "search": "별내중앙 중학생학원 경기 경기 / 경기 남양주시 gyeonggi namyangjusi byeolnaejungang middleschool"
+  },
+  {
+    "title": "별내중앙 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 남양주시",
+    "url": "/center/gyeonggi/namyangjusi/byeolnaejungang/elementarymath/",
+    "search": "별내중앙 초등 수학학원 경기 경기 / 경기 남양주시 gyeonggi namyangjusi byeolnaejungang elementarymath"
+  },
+  {
+    "title": "별내중앙 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 남양주시",
+    "url": "/center/gyeonggi/namyangjusi/byeolnaejungang/elementaryenglish/",
+    "search": "별내중앙 초등 영어학원 경기 경기 / 경기 남양주시 gyeonggi namyangjusi byeolnaejungang elementaryenglish"
   },
   {
     "title": "별내중앙 초등학생학원",
@@ -8550,6 +9720,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "병점 중학생학원 경기 경기 / 경기 화성시 gyeonggi hwaseongsi byeongjeom middleschool"
   },
   {
+    "title": "병점 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 화성시",
+    "url": "/center/gyeonggi/hwaseongsi/byeongjeom/elementarymath/",
+    "search": "병점 초등 수학학원 경기 경기 / 경기 화성시 gyeonggi hwaseongsi byeongjeom elementarymath"
+  },
+  {
+    "title": "병점 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 화성시",
+    "url": "/center/gyeonggi/hwaseongsi/byeongjeom/elementaryenglish/",
+    "search": "병점 초등 영어학원 경기 경기 / 경기 화성시 gyeonggi hwaseongsi byeongjeom elementaryenglish"
+  },
+  {
     "title": "병점 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -8674,6 +9862,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 화성시",
     "url": "/center/gyeonggi/hwaseongsi/byeongjeomdong/middleschool/",
     "search": "병점동 중학생학원 경기 경기 / 경기 화성시 gyeonggi hwaseongsi byeongjeomdong middleschool"
+  },
+  {
+    "title": "병점동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 화성시",
+    "url": "/center/gyeonggi/hwaseongsi/byeongjeomdong/elementarymath/",
+    "search": "병점동 초등 수학학원 경기 경기 / 경기 화성시 gyeonggi hwaseongsi byeongjeomdong elementarymath"
+  },
+  {
+    "title": "병점동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 화성시",
+    "url": "/center/gyeonggi/hwaseongsi/byeongjeomdong/elementaryenglish/",
+    "search": "병점동 초등 영어학원 경기 경기 / 경기 화성시 gyeonggi hwaseongsi byeongjeomdong elementaryenglish"
   },
   {
     "title": "병점동 초등학생학원",
@@ -8802,6 +10008,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "보라동 중학생학원 경기 경기 / 경기 용인시 gyeonggi yonginsi boradong middleschool"
   },
   {
+    "title": "보라동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 용인시",
+    "url": "/center/gyeonggi/yonginsi/boradong/elementarymath/",
+    "search": "보라동 초등 수학학원 경기 경기 / 경기 용인시 gyeonggi yonginsi boradong elementarymath"
+  },
+  {
+    "title": "보라동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 용인시",
+    "url": "/center/gyeonggi/yonginsi/boradong/elementaryenglish/",
+    "search": "보라동 초등 영어학원 경기 경기 / 경기 용인시 gyeonggi yonginsi boradong elementaryenglish"
+  },
+  {
     "title": "보라동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -8926,6 +10150,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 화성시",
     "url": "/center/gyeonggi/hwaseongsi/bongdam2jigu/middleschool/",
     "search": "봉담2지구 중학생학원 경기 경기 / 경기 화성시 gyeonggi hwaseongsi bongdam2jigu middleschool"
+  },
+  {
+    "title": "봉담2지구 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 화성시",
+    "url": "/center/gyeonggi/hwaseongsi/bongdam2jigu/elementarymath/",
+    "search": "봉담2지구 초등 수학학원 경기 경기 / 경기 화성시 gyeonggi hwaseongsi bongdam2jigu elementarymath"
+  },
+  {
+    "title": "봉담2지구 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 화성시",
+    "url": "/center/gyeonggi/hwaseongsi/bongdam2jigu/elementaryenglish/",
+    "search": "봉담2지구 초등 영어학원 경기 경기 / 경기 화성시 gyeonggi hwaseongsi bongdam2jigu elementaryenglish"
   },
   {
     "title": "봉담2지구 초등학생학원",
@@ -9054,6 +10296,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "봉담읍 중학생학원 경기 경기 / 경기 화성시 gyeonggi hwaseongsi bongdameup middleschool"
   },
   {
+    "title": "봉담읍 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 화성시",
+    "url": "/center/gyeonggi/hwaseongsi/bongdameup/elementarymath/",
+    "search": "봉담읍 초등 수학학원 경기 경기 / 경기 화성시 gyeonggi hwaseongsi bongdameup elementarymath"
+  },
+  {
+    "title": "봉담읍 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 화성시",
+    "url": "/center/gyeonggi/hwaseongsi/bongdameup/elementaryenglish/",
+    "search": "봉담읍 초등 영어학원 경기 경기 / 경기 화성시 gyeonggi hwaseongsi bongdameup elementaryenglish"
+  },
+  {
     "title": "봉담읍 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -9178,6 +10438,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 이천시",
     "url": "/center/gyeonggi/icheonsi/bubaleup/middleschool/",
     "search": "부발읍 중학생학원 경기 경기 / 경기 이천시 gyeonggi icheonsi bubaleup middleschool"
+  },
+  {
+    "title": "부발읍 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 이천시",
+    "url": "/center/gyeonggi/icheonsi/bubaleup/elementarymath/",
+    "search": "부발읍 초등 수학학원 경기 경기 / 경기 이천시 gyeonggi icheonsi bubaleup elementarymath"
+  },
+  {
+    "title": "부발읍 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 이천시",
+    "url": "/center/gyeonggi/icheonsi/bubaleup/elementaryenglish/",
+    "search": "부발읍 초등 영어학원 경기 경기 / 경기 이천시 gyeonggi icheonsi bubaleup elementaryenglish"
   },
   {
     "title": "부발읍 초등학생학원",
@@ -9306,6 +10584,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "부산동 중학생학원 경기 경기 / 경기 오산시 gyeonggi osansi busandong middleschool"
   },
   {
+    "title": "부산동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 오산시",
+    "url": "/center/gyeonggi/osansi/busandong/elementarymath/",
+    "search": "부산동 초등 수학학원 경기 경기 / 경기 오산시 gyeonggi osansi busandong elementarymath"
+  },
+  {
+    "title": "부산동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 오산시",
+    "url": "/center/gyeonggi/osansi/busandong/elementaryenglish/",
+    "search": "부산동 초등 영어학원 경기 경기 / 경기 오산시 gyeonggi osansi busandong elementaryenglish"
+  },
+  {
     "title": "부산동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -9430,6 +10726,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 부천시",
     "url": "/center/gyeonggi/bucheonsi/bucheon-sangdong/middleschool/",
     "search": "부천 상동 중학생학원 경기 경기 / 경기 부천시 gyeonggi bucheonsi bucheon-sangdong middleschool"
+  },
+  {
+    "title": "부천 상동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 부천시",
+    "url": "/center/gyeonggi/bucheonsi/bucheon-sangdong/elementarymath/",
+    "search": "부천 상동 초등 수학학원 경기 경기 / 경기 부천시 gyeonggi bucheonsi bucheon-sangdong elementarymath"
+  },
+  {
+    "title": "부천 상동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 부천시",
+    "url": "/center/gyeonggi/bucheonsi/bucheon-sangdong/elementaryenglish/",
+    "search": "부천 상동 초등 영어학원 경기 경기 / 경기 부천시 gyeonggi bucheonsi bucheon-sangdong elementaryenglish"
   },
   {
     "title": "부천 상동 초등학생학원",
@@ -9558,6 +10872,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "부천 중동 중학생학원 경기 경기 / 경기 부천시 gyeonggi bucheonsi bucheon-jungdong middleschool"
   },
   {
+    "title": "부천 중동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 부천시",
+    "url": "/center/gyeonggi/bucheonsi/bucheon-jungdong/elementarymath/",
+    "search": "부천 중동 초등 수학학원 경기 경기 / 경기 부천시 gyeonggi bucheonsi bucheon-jungdong elementarymath"
+  },
+  {
+    "title": "부천 중동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 부천시",
+    "url": "/center/gyeonggi/bucheonsi/bucheon-jungdong/elementaryenglish/",
+    "search": "부천 중동 초등 영어학원 경기 경기 / 경기 부천시 gyeonggi bucheonsi bucheon-jungdong elementaryenglish"
+  },
+  {
     "title": "부천 중동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -9682,6 +11014,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 김포시",
     "url": "/center/gyeonggi/gimposi/bukbyeondong/middleschool/",
     "search": "북변동 중학생학원 경기 경기 / 경기 김포시 gyeonggi gimposi bukbyeondong middleschool"
+  },
+  {
+    "title": "북변동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 김포시",
+    "url": "/center/gyeonggi/gimposi/bukbyeondong/elementarymath/",
+    "search": "북변동 초등 수학학원 경기 경기 / 경기 김포시 gyeonggi gimposi bukbyeondong elementarymath"
+  },
+  {
+    "title": "북변동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 김포시",
+    "url": "/center/gyeonggi/gimposi/bukbyeondong/elementaryenglish/",
+    "search": "북변동 초등 영어학원 경기 경기 / 경기 김포시 gyeonggi gimposi bukbyeondong elementaryenglish"
   },
   {
     "title": "북변동 초등학생학원",
@@ -9810,6 +11160,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "비산동 중학생학원 경기 경기 / 경기 안양시 gyeonggi anyangsi bisandong middleschool"
   },
   {
+    "title": "비산동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 안양시",
+    "url": "/center/gyeonggi/anyangsi/bisandong/elementarymath/",
+    "search": "비산동 초등 수학학원 경기 경기 / 경기 안양시 gyeonggi anyangsi bisandong elementarymath"
+  },
+  {
+    "title": "비산동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 안양시",
+    "url": "/center/gyeonggi/anyangsi/bisandong/elementaryenglish/",
+    "search": "비산동 초등 영어학원 경기 경기 / 경기 안양시 gyeonggi anyangsi bisandong elementaryenglish"
+  },
+  {
     "title": "비산동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -9934,6 +11302,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 평택시",
     "url": "/center/gyeonggi/pyeongtaeksi/bijeondong/middleschool/",
     "search": "비전동 중학생학원 경기 경기 / 경기 평택시 gyeonggi pyeongtaeksi bijeondong middleschool"
+  },
+  {
+    "title": "비전동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 평택시",
+    "url": "/center/gyeonggi/pyeongtaeksi/bijeondong/elementarymath/",
+    "search": "비전동 초등 수학학원 경기 경기 / 경기 평택시 gyeonggi pyeongtaeksi bijeondong elementarymath"
+  },
+  {
+    "title": "비전동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 평택시",
+    "url": "/center/gyeonggi/pyeongtaeksi/bijeondong/elementaryenglish/",
+    "search": "비전동 초등 영어학원 경기 경기 / 경기 평택시 gyeonggi pyeongtaeksi bijeondong elementaryenglish"
   },
   {
     "title": "비전동 초등학생학원",
@@ -10062,6 +11448,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "사우동 중학생학원 경기 경기 / 경기 김포시 gyeonggi gimposi saudong middleschool"
   },
   {
+    "title": "사우동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 김포시",
+    "url": "/center/gyeonggi/gimposi/saudong/elementarymath/",
+    "search": "사우동 초등 수학학원 경기 경기 / 경기 김포시 gyeonggi gimposi saudong elementarymath"
+  },
+  {
+    "title": "사우동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 김포시",
+    "url": "/center/gyeonggi/gimposi/saudong/elementaryenglish/",
+    "search": "사우동 초등 영어학원 경기 경기 / 경기 김포시 gyeonggi gimposi saudong elementaryenglish"
+  },
+  {
     "title": "사우동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -10186,6 +11590,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 파주시",
     "url": "/center/gyeonggi/pajusi/sannaemaeul/middleschool/",
     "search": "산내마을 중학생학원 경기 경기 / 경기 파주시 gyeonggi pajusi sannaemaeul middleschool"
+  },
+  {
+    "title": "산내마을 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 파주시",
+    "url": "/center/gyeonggi/pajusi/sannaemaeul/elementarymath/",
+    "search": "산내마을 초등 수학학원 경기 경기 / 경기 파주시 gyeonggi pajusi sannaemaeul elementarymath"
+  },
+  {
+    "title": "산내마을 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 파주시",
+    "url": "/center/gyeonggi/pajusi/sannaemaeul/elementaryenglish/",
+    "search": "산내마을 초등 영어학원 경기 경기 / 경기 파주시 gyeonggi pajusi sannaemaeul elementaryenglish"
   },
   {
     "title": "산내마을 초등학생학원",
@@ -10314,6 +11736,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "산본동 중학생학원 경기 경기 / 경기 군포시 gyeonggi gunposi sanbondong middleschool"
   },
   {
+    "title": "산본동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 군포시",
+    "url": "/center/gyeonggi/gunposi/sanbondong/elementarymath/",
+    "search": "산본동 초등 수학학원 경기 경기 / 경기 군포시 gyeonggi gunposi sanbondong elementarymath"
+  },
+  {
+    "title": "산본동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 군포시",
+    "url": "/center/gyeonggi/gunposi/sanbondong/elementaryenglish/",
+    "search": "산본동 초등 영어학원 경기 경기 / 경기 군포시 gyeonggi gunposi sanbondong elementaryenglish"
+  },
+  {
     "title": "산본동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -10438,6 +11878,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 화성시",
     "url": "/center/gyeonggi/hwaseongsi/sancheokdong/middleschool/",
     "search": "산척동 중학생학원 경기 경기 / 경기 화성시 gyeonggi hwaseongsi sancheokdong middleschool"
+  },
+  {
+    "title": "산척동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 화성시",
+    "url": "/center/gyeonggi/hwaseongsi/sancheokdong/elementarymath/",
+    "search": "산척동 초등 수학학원 경기 경기 / 경기 화성시 gyeonggi hwaseongsi sancheokdong elementarymath"
+  },
+  {
+    "title": "산척동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 화성시",
+    "url": "/center/gyeonggi/hwaseongsi/sancheokdong/elementaryenglish/",
+    "search": "산척동 초등 영어학원 경기 경기 / 경기 화성시 gyeonggi hwaseongsi sancheokdong elementaryenglish"
   },
   {
     "title": "산척동 초등학생학원",
@@ -10566,6 +12024,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "삼송 중학생학원 경기 경기 / 경기 고양시 gyeonggi goyangsi samsong middleschool"
   },
   {
+    "title": "삼송 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 고양시",
+    "url": "/center/gyeonggi/goyangsi/samsong/elementarymath/",
+    "search": "삼송 초등 수학학원 경기 경기 / 경기 고양시 gyeonggi goyangsi samsong elementarymath"
+  },
+  {
+    "title": "삼송 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 고양시",
+    "url": "/center/gyeonggi/goyangsi/samsong/elementaryenglish/",
+    "search": "삼송 초등 영어학원 경기 경기 / 경기 고양시 gyeonggi goyangsi samsong elementaryenglish"
+  },
+  {
     "title": "삼송 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -10690,6 +12166,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 고양시",
     "url": "/center/gyeonggi/goyangsi/samsongdong/middleschool/",
     "search": "삼송동 중학생학원 경기 경기 / 경기 고양시 gyeonggi goyangsi samsongdong middleschool"
+  },
+  {
+    "title": "삼송동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 고양시",
+    "url": "/center/gyeonggi/goyangsi/samsongdong/elementarymath/",
+    "search": "삼송동 초등 수학학원 경기 경기 / 경기 고양시 gyeonggi goyangsi samsongdong elementarymath"
+  },
+  {
+    "title": "삼송동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 고양시",
+    "url": "/center/gyeonggi/goyangsi/samsongdong/elementaryenglish/",
+    "search": "삼송동 초등 영어학원 경기 경기 / 경기 고양시 gyeonggi goyangsi samsongdong elementaryenglish"
   },
   {
     "title": "삼송동 초등학생학원",
@@ -10818,6 +12312,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "상대원동 중학생학원 경기 경기 / 경기 성남시 gyeonggi seongnamsi sangdaewondong middleschool"
   },
   {
+    "title": "상대원동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 성남시",
+    "url": "/center/gyeonggi/seongnamsi/sangdaewondong/elementarymath/",
+    "search": "상대원동 초등 수학학원 경기 경기 / 경기 성남시 gyeonggi seongnamsi sangdaewondong elementarymath"
+  },
+  {
+    "title": "상대원동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 성남시",
+    "url": "/center/gyeonggi/seongnamsi/sangdaewondong/elementaryenglish/",
+    "search": "상대원동 초등 영어학원 경기 경기 / 경기 성남시 gyeonggi seongnamsi sangdaewondong elementaryenglish"
+  },
+  {
     "title": "상대원동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -10942,6 +12454,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 용인시",
     "url": "/center/gyeonggi/yonginsi/sanghyeondong/middleschool/",
     "search": "상현동 중학생학원 경기 경기 / 경기 용인시 gyeonggi yonginsi sanghyeondong middleschool"
+  },
+  {
+    "title": "상현동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 용인시",
+    "url": "/center/gyeonggi/yonginsi/sanghyeondong/elementarymath/",
+    "search": "상현동 초등 수학학원 경기 경기 / 경기 용인시 gyeonggi yonginsi sanghyeondong elementarymath"
+  },
+  {
+    "title": "상현동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 용인시",
+    "url": "/center/gyeonggi/yonginsi/sanghyeondong/elementaryenglish/",
+    "search": "상현동 초등 영어학원 경기 경기 / 경기 용인시 gyeonggi yonginsi sanghyeondong elementaryenglish"
   },
   {
     "title": "상현동 초등학생학원",
@@ -11070,6 +12600,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "서정동 중학생학원 경기 경기 / 경기 평택시 gyeonggi pyeongtaeksi seojeongdong middleschool"
   },
   {
+    "title": "서정동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 평택시",
+    "url": "/center/gyeonggi/pyeongtaeksi/seojeongdong/elementarymath/",
+    "search": "서정동 초등 수학학원 경기 경기 / 경기 평택시 gyeonggi pyeongtaeksi seojeongdong elementarymath"
+  },
+  {
+    "title": "서정동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 평택시",
+    "url": "/center/gyeonggi/pyeongtaeksi/seojeongdong/elementaryenglish/",
+    "search": "서정동 초등 영어학원 경기 경기 / 경기 평택시 gyeonggi pyeongtaeksi seojeongdong elementaryenglish"
+  },
+  {
     "title": "서정동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -11194,6 +12742,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 화성시",
     "url": "/center/gyeonggi/hwaseongsi/seokudong/middleschool/",
     "search": "석우동 중학생학원 경기 경기 / 경기 화성시 gyeonggi hwaseongsi seokudong middleschool"
+  },
+  {
+    "title": "석우동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 화성시",
+    "url": "/center/gyeonggi/hwaseongsi/seokudong/elementarymath/",
+    "search": "석우동 초등 수학학원 경기 경기 / 경기 화성시 gyeonggi hwaseongsi seokudong elementarymath"
+  },
+  {
+    "title": "석우동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 화성시",
+    "url": "/center/gyeonggi/hwaseongsi/seokudong/elementaryenglish/",
+    "search": "석우동 초등 영어학원 경기 경기 / 경기 화성시 gyeonggi hwaseongsi seokudong elementaryenglish"
   },
   {
     "title": "석우동 초등학생학원",
@@ -11322,6 +12888,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "성남 금곡동 중학생학원 경기 경기 / 경기 성남시 gyeonggi seongnamsi seongnam-geumgokdong middleschool"
   },
   {
+    "title": "성남 금곡동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 성남시",
+    "url": "/center/gyeonggi/seongnamsi/seongnam-geumgokdong/elementarymath/",
+    "search": "성남 금곡동 초등 수학학원 경기 경기 / 경기 성남시 gyeonggi seongnamsi seongnam-geumgokdong elementarymath"
+  },
+  {
+    "title": "성남 금곡동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 성남시",
+    "url": "/center/gyeonggi/seongnamsi/seongnam-geumgokdong/elementaryenglish/",
+    "search": "성남 금곡동 초등 영어학원 경기 경기 / 경기 성남시 gyeonggi seongnamsi seongnam-geumgokdong elementaryenglish"
+  },
+  {
     "title": "성남 금곡동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -11446,6 +13030,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 성남시",
     "url": "/center/gyeonggi/seongnamsi/seongnamdong/middleschool/",
     "search": "성남동 중학생학원 경기 경기 / 경기 성남시 gyeonggi seongnamsi seongnamdong middleschool"
+  },
+  {
+    "title": "성남동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 성남시",
+    "url": "/center/gyeonggi/seongnamsi/seongnamdong/elementarymath/",
+    "search": "성남동 초등 수학학원 경기 경기 / 경기 성남시 gyeonggi seongnamsi seongnamdong elementarymath"
+  },
+  {
+    "title": "성남동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 성남시",
+    "url": "/center/gyeonggi/seongnamsi/seongnamdong/elementaryenglish/",
+    "search": "성남동 초등 영어학원 경기 경기 / 경기 성남시 gyeonggi seongnamsi seongnamdong elementaryenglish"
   },
   {
     "title": "성남동 초등학생학원",
@@ -11574,6 +13176,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "성복동 중학생학원 경기 경기 / 경기 용인시 gyeonggi yonginsi seongbokdong middleschool"
   },
   {
+    "title": "성복동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 용인시",
+    "url": "/center/gyeonggi/yonginsi/seongbokdong/elementarymath/",
+    "search": "성복동 초등 수학학원 경기 경기 / 경기 용인시 gyeonggi yonginsi seongbokdong elementarymath"
+  },
+  {
+    "title": "성복동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 용인시",
+    "url": "/center/gyeonggi/yonginsi/seongbokdong/elementaryenglish/",
+    "search": "성복동 초등 영어학원 경기 경기 / 경기 용인시 gyeonggi yonginsi seongbokdong elementaryenglish"
+  },
+  {
     "title": "성복동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -11698,6 +13318,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 고양시",
     "url": "/center/gyeonggi/goyangsi/seongsadong/middleschool/",
     "search": "성사동 중학생학원 경기 경기 / 경기 고양시 gyeonggi goyangsi seongsadong middleschool"
+  },
+  {
+    "title": "성사동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 고양시",
+    "url": "/center/gyeonggi/goyangsi/seongsadong/elementarymath/",
+    "search": "성사동 초등 수학학원 경기 경기 / 경기 고양시 gyeonggi goyangsi seongsadong elementarymath"
+  },
+  {
+    "title": "성사동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 고양시",
+    "url": "/center/gyeonggi/goyangsi/seongsadong/elementaryenglish/",
+    "search": "성사동 초등 영어학원 경기 경기 / 경기 고양시 gyeonggi goyangsi seongsadong elementaryenglish"
   },
   {
     "title": "성사동 초등학생학원",
@@ -11826,6 +13464,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "세교 중학생학원 경기 경기 / 경기 오산시 gyeonggi osansi segyo middleschool"
   },
   {
+    "title": "세교 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 오산시",
+    "url": "/center/gyeonggi/osansi/segyo/elementarymath/",
+    "search": "세교 초등 수학학원 경기 경기 / 경기 오산시 gyeonggi osansi segyo elementarymath"
+  },
+  {
+    "title": "세교 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 오산시",
+    "url": "/center/gyeonggi/osansi/segyo/elementaryenglish/",
+    "search": "세교 초등 영어학원 경기 경기 / 경기 오산시 gyeonggi osansi segyo elementaryenglish"
+  },
+  {
     "title": "세교 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -11950,6 +13606,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 평택시",
     "url": "/center/gyeonggi/pyeongtaeksi/sosabeol/middleschool/",
     "search": "소사벌 중학생학원 경기 경기 / 경기 평택시 gyeonggi pyeongtaeksi sosabeol middleschool"
+  },
+  {
+    "title": "소사벌 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 평택시",
+    "url": "/center/gyeonggi/pyeongtaeksi/sosabeol/elementarymath/",
+    "search": "소사벌 초등 수학학원 경기 경기 / 경기 평택시 gyeonggi pyeongtaeksi sosabeol elementarymath"
+  },
+  {
+    "title": "소사벌 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 평택시",
+    "url": "/center/gyeonggi/pyeongtaeksi/sosabeol/elementaryenglish/",
+    "search": "소사벌 초등 영어학원 경기 경기 / 경기 평택시 gyeonggi pyeongtaeksi sosabeol elementaryenglish"
   },
   {
     "title": "소사벌 초등학생학원",
@@ -12078,6 +13752,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "소사본동 중학생학원 경기 경기 / 경기 부천시 gyeonggi bucheonsi sosabondong middleschool"
   },
   {
+    "title": "소사본동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 부천시",
+    "url": "/center/gyeonggi/bucheonsi/sosabondong/elementarymath/",
+    "search": "소사본동 초등 수학학원 경기 경기 / 경기 부천시 gyeonggi bucheonsi sosabondong elementarymath"
+  },
+  {
+    "title": "소사본동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 부천시",
+    "url": "/center/gyeonggi/bucheonsi/sosabondong/elementaryenglish/",
+    "search": "소사본동 초등 영어학원 경기 경기 / 경기 부천시 gyeonggi bucheonsi sosabondong elementaryenglish"
+  },
+  {
     "title": "소사본동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -12202,6 +13894,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 광명시",
     "url": "/center/gyeonggi/gwangmyeongsi/sohadong/middleschool/",
     "search": "소하동 중학생학원 경기 경기 / 경기 광명시 gyeonggi gwangmyeongsi sohadong middleschool"
+  },
+  {
+    "title": "소하동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 광명시",
+    "url": "/center/gyeonggi/gwangmyeongsi/sohadong/elementarymath/",
+    "search": "소하동 초등 수학학원 경기 경기 / 경기 광명시 gyeonggi gwangmyeongsi sohadong elementarymath"
+  },
+  {
+    "title": "소하동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 광명시",
+    "url": "/center/gyeonggi/gwangmyeongsi/sohadong/elementaryenglish/",
+    "search": "소하동 초등 영어학원 경기 경기 / 경기 광명시 gyeonggi gwangmyeongsi sohadong elementaryenglish"
   },
   {
     "title": "소하동 초등학생학원",
@@ -12330,6 +14040,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "송동 중학생학원 경기 경기 / 경기 화성시 gyeonggi hwaseongsi songdong middleschool"
   },
   {
+    "title": "송동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 화성시",
+    "url": "/center/gyeonggi/hwaseongsi/songdong/elementarymath/",
+    "search": "송동 초등 수학학원 경기 경기 / 경기 화성시 gyeonggi hwaseongsi songdong elementarymath"
+  },
+  {
+    "title": "송동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 화성시",
+    "url": "/center/gyeonggi/hwaseongsi/songdong/elementaryenglish/",
+    "search": "송동 초등 영어학원 경기 경기 / 경기 화성시 gyeonggi hwaseongsi songdong elementaryenglish"
+  },
+  {
     "title": "송동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -12454,6 +14182,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 평택시",
     "url": "/center/gyeonggi/pyeongtaeksi/songtan/middleschool/",
     "search": "송탄 중학생학원 경기 경기 / 경기 평택시 gyeonggi pyeongtaeksi songtan middleschool"
+  },
+  {
+    "title": "송탄 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 평택시",
+    "url": "/center/gyeonggi/pyeongtaeksi/songtan/elementarymath/",
+    "search": "송탄 초등 수학학원 경기 경기 / 경기 평택시 gyeonggi pyeongtaeksi songtan elementarymath"
+  },
+  {
+    "title": "송탄 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 평택시",
+    "url": "/center/gyeonggi/pyeongtaeksi/songtan/elementaryenglish/",
+    "search": "송탄 초등 영어학원 경기 경기 / 경기 평택시 gyeonggi pyeongtaeksi songtan elementaryenglish"
   },
   {
     "title": "송탄 초등학생학원",
@@ -12582,6 +14328,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "수원 금곡동 중학생학원 경기 경기 / 경기 수원시 gyeonggi suwonsi suwon-geumgokdong middleschool"
   },
   {
+    "title": "수원 금곡동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 수원시",
+    "url": "/center/gyeonggi/suwonsi/suwon-geumgokdong/elementarymath/",
+    "search": "수원 금곡동 초등 수학학원 경기 경기 / 경기 수원시 gyeonggi suwonsi suwon-geumgokdong elementarymath"
+  },
+  {
+    "title": "수원 금곡동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 수원시",
+    "url": "/center/gyeonggi/suwonsi/suwon-geumgokdong/elementaryenglish/",
+    "search": "수원 금곡동 초등 영어학원 경기 경기 / 경기 수원시 gyeonggi suwonsi suwon-geumgokdong elementaryenglish"
+  },
+  {
     "title": "수원 금곡동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -12706,6 +14470,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 성남시",
     "url": "/center/gyeonggi/seongnamsi/sujindong/middleschool/",
     "search": "수진동 중학생학원 경기 경기 / 경기 성남시 gyeonggi seongnamsi sujindong middleschool"
+  },
+  {
+    "title": "수진동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 성남시",
+    "url": "/center/gyeonggi/seongnamsi/sujindong/elementarymath/",
+    "search": "수진동 초등 수학학원 경기 경기 / 경기 성남시 gyeonggi seongnamsi sujindong elementarymath"
+  },
+  {
+    "title": "수진동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 성남시",
+    "url": "/center/gyeonggi/seongnamsi/sujindong/elementaryenglish/",
+    "search": "수진동 초등 영어학원 경기 경기 / 경기 성남시 gyeonggi seongnamsi sujindong elementaryenglish"
   },
   {
     "title": "수진동 초등학생학원",
@@ -12834,6 +14616,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "수청동 중학생학원 경기 경기 / 경기 오산시 gyeonggi osansi sucheongdong middleschool"
   },
   {
+    "title": "수청동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 오산시",
+    "url": "/center/gyeonggi/osansi/sucheongdong/elementarymath/",
+    "search": "수청동 초등 수학학원 경기 경기 / 경기 오산시 gyeonggi osansi sucheongdong elementarymath"
+  },
+  {
+    "title": "수청동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 오산시",
+    "url": "/center/gyeonggi/osansi/sucheongdong/elementaryenglish/",
+    "search": "수청동 초등 영어학원 경기 경기 / 경기 오산시 gyeonggi osansi sucheongdong elementaryenglish"
+  },
+  {
     "title": "수청동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -12958,6 +14758,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 구리시",
     "url": "/center/gyeonggi/gurisi/sutaekdong/middleschool/",
     "search": "수택동 중학생학원 경기 경기 / 경기 구리시 gyeonggi gurisi sutaekdong middleschool"
+  },
+  {
+    "title": "수택동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 구리시",
+    "url": "/center/gyeonggi/gurisi/sutaekdong/elementarymath/",
+    "search": "수택동 초등 수학학원 경기 경기 / 경기 구리시 gyeonggi gurisi sutaekdong elementarymath"
+  },
+  {
+    "title": "수택동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 구리시",
+    "url": "/center/gyeonggi/gurisi/sutaekdong/elementaryenglish/",
+    "search": "수택동 초등 영어학원 경기 경기 / 경기 구리시 gyeonggi gurisi sutaekdong elementaryenglish"
   },
   {
     "title": "수택동 초등학생학원",
@@ -13086,6 +14904,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "식사동 중학생학원 경기 경기 / 경기 고양시 gyeonggi goyangsi siksadong middleschool"
   },
   {
+    "title": "식사동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 고양시",
+    "url": "/center/gyeonggi/goyangsi/siksadong/elementarymath/",
+    "search": "식사동 초등 수학학원 경기 경기 / 경기 고양시 gyeonggi goyangsi siksadong elementarymath"
+  },
+  {
+    "title": "식사동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 고양시",
+    "url": "/center/gyeonggi/goyangsi/siksadong/elementaryenglish/",
+    "search": "식사동 초등 영어학원 경기 경기 / 경기 고양시 gyeonggi goyangsi siksadong elementaryenglish"
+  },
+  {
     "title": "식사동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -13210,6 +15046,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 용인시",
     "url": "/center/gyeonggi/yonginsi/singaldong/middleschool/",
     "search": "신갈동 중학생학원 경기 경기 / 경기 용인시 gyeonggi yonginsi singaldong middleschool"
+  },
+  {
+    "title": "신갈동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 용인시",
+    "url": "/center/gyeonggi/yonginsi/singaldong/elementarymath/",
+    "search": "신갈동 초등 수학학원 경기 경기 / 경기 용인시 gyeonggi yonginsi singaldong elementarymath"
+  },
+  {
+    "title": "신갈동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 용인시",
+    "url": "/center/gyeonggi/yonginsi/singaldong/elementaryenglish/",
+    "search": "신갈동 초등 영어학원 경기 경기 / 경기 용인시 gyeonggi yonginsi singaldong elementaryenglish"
   },
   {
     "title": "신갈동 초등학생학원",
@@ -13338,6 +15192,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "신곡동 중학생학원 경기 경기 / 경기 의정부시 gyeonggi uijeongbusi singokdong middleschool"
   },
   {
+    "title": "신곡동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 의정부시",
+    "url": "/center/gyeonggi/uijeongbusi/singokdong/elementarymath/",
+    "search": "신곡동 초등 수학학원 경기 경기 / 경기 의정부시 gyeonggi uijeongbusi singokdong elementarymath"
+  },
+  {
+    "title": "신곡동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 의정부시",
+    "url": "/center/gyeonggi/uijeongbusi/singokdong/elementaryenglish/",
+    "search": "신곡동 초등 영어학원 경기 경기 / 경기 의정부시 gyeonggi uijeongbusi singokdong elementaryenglish"
+  },
+  {
     "title": "신곡동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -13462,6 +15334,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 용인시",
     "url": "/center/gyeonggi/yonginsi/sinbongdong/middleschool/",
     "search": "신봉동 중학생학원 경기 경기 / 경기 용인시 gyeonggi yonginsi sinbongdong middleschool"
+  },
+  {
+    "title": "신봉동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 용인시",
+    "url": "/center/gyeonggi/yonginsi/sinbongdong/elementarymath/",
+    "search": "신봉동 초등 수학학원 경기 경기 / 경기 용인시 gyeonggi yonginsi sinbongdong elementarymath"
+  },
+  {
+    "title": "신봉동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 용인시",
+    "url": "/center/gyeonggi/yonginsi/sinbongdong/elementaryenglish/",
+    "search": "신봉동 초등 영어학원 경기 경기 / 경기 용인시 gyeonggi yonginsi sinbongdong elementaryenglish"
   },
   {
     "title": "신봉동 초등학생학원",
@@ -13590,6 +15480,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "신원동 중학생학원 경기 경기 / 경기 고양시 gyeonggi goyangsi sinwondong middleschool"
   },
   {
+    "title": "신원동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 고양시",
+    "url": "/center/gyeonggi/goyangsi/sinwondong/elementarymath/",
+    "search": "신원동 초등 수학학원 경기 경기 / 경기 고양시 gyeonggi goyangsi sinwondong elementarymath"
+  },
+  {
+    "title": "신원동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 고양시",
+    "url": "/center/gyeonggi/goyangsi/sinwondong/elementaryenglish/",
+    "search": "신원동 초등 영어학원 경기 경기 / 경기 고양시 gyeonggi goyangsi sinwondong elementaryenglish"
+  },
+  {
     "title": "신원동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -13714,6 +15622,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 부천시",
     "url": "/center/gyeonggi/bucheonsi/sinjungdong/middleschool/",
     "search": "신중동 중학생학원 경기 경기 / 경기 부천시 gyeonggi bucheonsi sinjungdong middleschool"
+  },
+  {
+    "title": "신중동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 부천시",
+    "url": "/center/gyeonggi/bucheonsi/sinjungdong/elementarymath/",
+    "search": "신중동 초등 수학학원 경기 경기 / 경기 부천시 gyeonggi bucheonsi sinjungdong elementarymath"
+  },
+  {
+    "title": "신중동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 부천시",
+    "url": "/center/gyeonggi/bucheonsi/sinjungdong/elementaryenglish/",
+    "search": "신중동 초등 영어학원 경기 경기 / 경기 부천시 gyeonggi bucheonsi sinjungdong elementaryenglish"
   },
   {
     "title": "신중동 초등학생학원",
@@ -13842,6 +15768,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "심곡동 중학생학원 경기 경기 / 경기 부천시 gyeonggi bucheonsi simgokdong middleschool"
   },
   {
+    "title": "심곡동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 부천시",
+    "url": "/center/gyeonggi/bucheonsi/simgokdong/elementarymath/",
+    "search": "심곡동 초등 수학학원 경기 경기 / 경기 부천시 gyeonggi bucheonsi simgokdong elementarymath"
+  },
+  {
+    "title": "심곡동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 부천시",
+    "url": "/center/gyeonggi/bucheonsi/simgokdong/elementaryenglish/",
+    "search": "심곡동 초등 영어학원 경기 경기 / 경기 부천시 gyeonggi bucheonsi simgokdong elementaryenglish"
+  },
+  {
     "title": "심곡동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -13966,6 +15910,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 안양시",
     "url": "/center/gyeonggi/anyangsi/anyangdong/middleschool/",
     "search": "안양동 중학생학원 경기 경기 / 경기 안양시 gyeonggi anyangsi anyangdong middleschool"
+  },
+  {
+    "title": "안양동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 안양시",
+    "url": "/center/gyeonggi/anyangsi/anyangdong/elementarymath/",
+    "search": "안양동 초등 수학학원 경기 경기 / 경기 안양시 gyeonggi anyangsi anyangdong elementarymath"
+  },
+  {
+    "title": "안양동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 안양시",
+    "url": "/center/gyeonggi/anyangsi/anyangdong/elementaryenglish/",
+    "search": "안양동 초등 영어학원 경기 경기 / 경기 안양시 gyeonggi anyangsi anyangdong elementaryenglish"
   },
   {
     "title": "안양동 초등학생학원",
@@ -14094,6 +16056,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "안흥동 중학생학원 경기 경기 / 경기 이천시 gyeonggi icheonsi anheungdong middleschool"
   },
   {
+    "title": "안흥동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 이천시",
+    "url": "/center/gyeonggi/icheonsi/anheungdong/elementarymath/",
+    "search": "안흥동 초등 수학학원 경기 경기 / 경기 이천시 gyeonggi icheonsi anheungdong elementarymath"
+  },
+  {
+    "title": "안흥동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 이천시",
+    "url": "/center/gyeonggi/icheonsi/anheungdong/elementaryenglish/",
+    "search": "안흥동 초등 영어학원 경기 경기 / 경기 이천시 gyeonggi icheonsi anheungdong elementaryenglish"
+  },
+  {
     "title": "안흥동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -14218,6 +16198,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 파주시",
     "url": "/center/gyeonggi/pajusi/yadangdong/middleschool/",
     "search": "야당동 중학생학원 경기 경기 / 경기 파주시 gyeonggi pajusi yadangdong middleschool"
+  },
+  {
+    "title": "야당동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 파주시",
+    "url": "/center/gyeonggi/pajusi/yadangdong/elementarymath/",
+    "search": "야당동 초등 수학학원 경기 경기 / 경기 파주시 gyeonggi pajusi yadangdong elementarymath"
+  },
+  {
+    "title": "야당동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 파주시",
+    "url": "/center/gyeonggi/pajusi/yadangdong/elementaryenglish/",
+    "search": "야당동 초등 영어학원 경기 경기 / 경기 파주시 gyeonggi pajusi yadangdong elementaryenglish"
   },
   {
     "title": "야당동 초등학생학원",
@@ -14346,6 +16344,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "야탑 중학생학원 경기 경기 / 경기 성남시 gyeonggi seongnamsi yatap middleschool"
   },
   {
+    "title": "야탑 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 성남시",
+    "url": "/center/gyeonggi/seongnamsi/yatap/elementarymath/",
+    "search": "야탑 초등 수학학원 경기 경기 / 경기 성남시 gyeonggi seongnamsi yatap elementarymath"
+  },
+  {
+    "title": "야탑 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 성남시",
+    "url": "/center/gyeonggi/seongnamsi/yatap/elementaryenglish/",
+    "search": "야탑 초등 영어학원 경기 경기 / 경기 성남시 gyeonggi seongnamsi yatap elementaryenglish"
+  },
+  {
     "title": "야탑 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -14470,6 +16486,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 성남시",
     "url": "/center/gyeonggi/seongnamsi/yatapdong/middleschool/",
     "search": "야탑동 중학생학원 경기 경기 / 경기 성남시 gyeonggi seongnamsi yatapdong middleschool"
+  },
+  {
+    "title": "야탑동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 성남시",
+    "url": "/center/gyeonggi/seongnamsi/yatapdong/elementarymath/",
+    "search": "야탑동 초등 수학학원 경기 경기 / 경기 성남시 gyeonggi seongnamsi yatapdong elementarymath"
+  },
+  {
+    "title": "야탑동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 성남시",
+    "url": "/center/gyeonggi/seongnamsi/yatapdong/elementaryenglish/",
+    "search": "야탑동 초등 영어학원 경기 경기 / 경기 성남시 gyeonggi seongnamsi yatapdong elementaryenglish"
   },
   {
     "title": "야탑동 초등학생학원",
@@ -14598,6 +16632,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "약대동 중학생학원 경기 경기 / 경기 부천시 gyeonggi bucheonsi yakdaedong middleschool"
   },
   {
+    "title": "약대동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 부천시",
+    "url": "/center/gyeonggi/bucheonsi/yakdaedong/elementarymath/",
+    "search": "약대동 초등 수학학원 경기 경기 / 경기 부천시 gyeonggi bucheonsi yakdaedong elementarymath"
+  },
+  {
+    "title": "약대동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 부천시",
+    "url": "/center/gyeonggi/bucheonsi/yakdaedong/elementaryenglish/",
+    "search": "약대동 초등 영어학원 경기 경기 / 경기 부천시 gyeonggi bucheonsi yakdaedong elementaryenglish"
+  },
+  {
     "title": "약대동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -14722,6 +16774,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 성남시",
     "url": "/center/gyeonggi/seongnamsi/yeosudong/middleschool/",
     "search": "여수동 중학생학원 경기 경기 / 경기 성남시 gyeonggi seongnamsi yeosudong middleschool"
+  },
+  {
+    "title": "여수동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 성남시",
+    "url": "/center/gyeonggi/seongnamsi/yeosudong/elementarymath/",
+    "search": "여수동 초등 수학학원 경기 경기 / 경기 성남시 gyeonggi seongnamsi yeosudong elementarymath"
+  },
+  {
+    "title": "여수동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 성남시",
+    "url": "/center/gyeonggi/seongnamsi/yeosudong/elementaryenglish/",
+    "search": "여수동 초등 영어학원 경기 경기 / 경기 성남시 gyeonggi seongnamsi yeosudong elementaryenglish"
   },
   {
     "title": "여수동 초등학생학원",
@@ -14850,6 +16920,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "역북동 중학생학원 경기 경기 / 경기 용인시 gyeonggi yonginsi yeokbukdong middleschool"
   },
   {
+    "title": "역북동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 용인시",
+    "url": "/center/gyeonggi/yonginsi/yeokbukdong/elementarymath/",
+    "search": "역북동 초등 수학학원 경기 경기 / 경기 용인시 gyeonggi yonginsi yeokbukdong elementarymath"
+  },
+  {
+    "title": "역북동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 용인시",
+    "url": "/center/gyeonggi/yonginsi/yeokbukdong/elementaryenglish/",
+    "search": "역북동 초등 영어학원 경기 경기 / 경기 용인시 gyeonggi yonginsi yeokbukdong elementaryenglish"
+  },
+  {
     "title": "역북동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -14974,6 +17062,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 용인시",
     "url": "/center/gyeonggi/yonginsi/yeongdeokdong/middleschool/",
     "search": "영덕동 중학생학원 경기 경기 / 경기 용인시 gyeonggi yonginsi yeongdeokdong middleschool"
+  },
+  {
+    "title": "영덕동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 용인시",
+    "url": "/center/gyeonggi/yonginsi/yeongdeokdong/elementarymath/",
+    "search": "영덕동 초등 수학학원 경기 경기 / 경기 용인시 gyeonggi yonginsi yeongdeokdong elementarymath"
+  },
+  {
+    "title": "영덕동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 용인시",
+    "url": "/center/gyeonggi/yonginsi/yeongdeokdong/elementaryenglish/",
+    "search": "영덕동 초등 영어학원 경기 경기 / 경기 용인시 gyeonggi yonginsi yeongdeokdong elementaryenglish"
   },
   {
     "title": "영덕동 초등학생학원",
@@ -15102,6 +17208,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "영천동 중학생학원 경기 경기 / 경기 화성시 gyeonggi hwaseongsi yeongcheondong middleschool"
   },
   {
+    "title": "영천동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 화성시",
+    "url": "/center/gyeonggi/hwaseongsi/yeongcheondong/elementarymath/",
+    "search": "영천동 초등 수학학원 경기 경기 / 경기 화성시 gyeonggi hwaseongsi yeongcheondong elementarymath"
+  },
+  {
+    "title": "영천동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 화성시",
+    "url": "/center/gyeonggi/hwaseongsi/yeongcheondong/elementaryenglish/",
+    "search": "영천동 초등 영어학원 경기 경기 / 경기 화성시 gyeonggi hwaseongsi yeongcheondong elementaryenglish"
+  },
+  {
     "title": "영천동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -15226,6 +17350,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 수원시",
     "url": "/center/gyeonggi/suwonsi/yeongtongdong/middleschool/",
     "search": "영통동 중학생학원 경기 경기 / 경기 수원시 gyeonggi suwonsi yeongtongdong middleschool"
+  },
+  {
+    "title": "영통동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 수원시",
+    "url": "/center/gyeonggi/suwonsi/yeongtongdong/elementarymath/",
+    "search": "영통동 초등 수학학원 경기 경기 / 경기 수원시 gyeonggi suwonsi yeongtongdong elementarymath"
+  },
+  {
+    "title": "영통동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 수원시",
+    "url": "/center/gyeonggi/suwonsi/yeongtongdong/elementaryenglish/",
+    "search": "영통동 초등 영어학원 경기 경기 / 경기 수원시 gyeonggi suwonsi yeongtongdong elementaryenglish"
   },
   {
     "title": "영통동 초등학생학원",
@@ -15354,6 +17496,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "오산동 중학생학원 경기 경기 / 경기 오산시 gyeonggi osansi osandong middleschool"
   },
   {
+    "title": "오산동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 오산시",
+    "url": "/center/gyeonggi/osansi/osandong/elementarymath/",
+    "search": "오산동 초등 수학학원 경기 경기 / 경기 오산시 gyeonggi osansi osandong elementarymath"
+  },
+  {
+    "title": "오산동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 오산시",
+    "url": "/center/gyeonggi/osansi/osandong/elementaryenglish/",
+    "search": "오산동 초등 영어학원 경기 경기 / 경기 오산시 gyeonggi osansi osandong elementaryenglish"
+  },
+  {
     "title": "오산동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -15478,6 +17638,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 부천시",
     "url": "/center/gyeonggi/bucheonsi/okgildong/middleschool/",
     "search": "옥길동 중학생학원 경기 경기 / 경기 부천시 gyeonggi bucheonsi okgildong middleschool"
+  },
+  {
+    "title": "옥길동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 부천시",
+    "url": "/center/gyeonggi/bucheonsi/okgildong/elementarymath/",
+    "search": "옥길동 초등 수학학원 경기 경기 / 경기 부천시 gyeonggi bucheonsi okgildong elementarymath"
+  },
+  {
+    "title": "옥길동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 부천시",
+    "url": "/center/gyeonggi/bucheonsi/okgildong/elementaryenglish/",
+    "search": "옥길동 초등 영어학원 경기 경기 / 경기 부천시 gyeonggi bucheonsi okgildong elementaryenglish"
   },
   {
     "title": "옥길동 초등학생학원",
@@ -15606,6 +17784,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "옥정동 중학생학원 경기 경기 / 경기 양주시 gyeonggi yangjusi okjeongdong middleschool"
   },
   {
+    "title": "옥정동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 양주시",
+    "url": "/center/gyeonggi/yangjusi/okjeongdong/elementarymath/",
+    "search": "옥정동 초등 수학학원 경기 경기 / 경기 양주시 gyeonggi yangjusi okjeongdong elementarymath"
+  },
+  {
+    "title": "옥정동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 양주시",
+    "url": "/center/gyeonggi/yangjusi/okjeongdong/elementaryenglish/",
+    "search": "옥정동 초등 영어학원 경기 경기 / 경기 양주시 gyeonggi yangjusi okjeongdong elementaryenglish"
+  },
+  {
     "title": "옥정동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -15730,6 +17926,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 양주시",
     "url": "/center/gyeonggi/yangjusi/okjeongsindosi/middleschool/",
     "search": "옥정신도시 중학생학원 경기 경기 / 경기 양주시 gyeonggi yangjusi okjeongsindosi middleschool"
+  },
+  {
+    "title": "옥정신도시 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 양주시",
+    "url": "/center/gyeonggi/yangjusi/okjeongsindosi/elementarymath/",
+    "search": "옥정신도시 초등 수학학원 경기 경기 / 경기 양주시 gyeonggi yangjusi okjeongsindosi elementarymath"
+  },
+  {
+    "title": "옥정신도시 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 양주시",
+    "url": "/center/gyeonggi/yangjusi/okjeongsindosi/elementaryenglish/",
+    "search": "옥정신도시 초등 영어학원 경기 경기 / 경기 양주시 gyeonggi yangjusi okjeongsindosi elementaryenglish"
   },
   {
     "title": "옥정신도시 초등학생학원",
@@ -15858,6 +18072,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "용인 중동 중학생학원 경기 경기 / 경기 용인시 gyeonggi yonginsi yongin-jungdong middleschool"
   },
   {
+    "title": "용인 중동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 용인시",
+    "url": "/center/gyeonggi/yonginsi/yongin-jungdong/elementarymath/",
+    "search": "용인 중동 초등 수학학원 경기 경기 / 경기 용인시 gyeonggi yonginsi yongin-jungdong elementarymath"
+  },
+  {
+    "title": "용인 중동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 용인시",
+    "url": "/center/gyeonggi/yonginsi/yongin-jungdong/elementaryenglish/",
+    "search": "용인 중동 초등 영어학원 경기 경기 / 경기 용인시 gyeonggi yonginsi yongin-jungdong elementaryenglish"
+  },
+  {
     "title": "용인 중동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -15982,6 +18214,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 김포시",
     "url": "/center/gyeonggi/gimposi/unyangdong/middleschool/",
     "search": "운양동 중학생학원 경기 경기 / 경기 김포시 gyeonggi gimposi unyangdong middleschool"
+  },
+  {
+    "title": "운양동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 김포시",
+    "url": "/center/gyeonggi/gimposi/unyangdong/elementarymath/",
+    "search": "운양동 초등 수학학원 경기 경기 / 경기 김포시 gyeonggi gimposi unyangdong elementarymath"
+  },
+  {
+    "title": "운양동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 김포시",
+    "url": "/center/gyeonggi/gimposi/unyangdong/elementaryenglish/",
+    "search": "운양동 초등 영어학원 경기 경기 / 경기 김포시 gyeonggi gimposi unyangdong elementaryenglish"
   },
   {
     "title": "운양동 초등학생학원",
@@ -16110,6 +18360,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "운정 중학생학원 경기 경기 / 경기 파주시 gyeonggi pajusi unjeong middleschool"
   },
   {
+    "title": "운정 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 파주시",
+    "url": "/center/gyeonggi/pajusi/unjeong/elementarymath/",
+    "search": "운정 초등 수학학원 경기 경기 / 경기 파주시 gyeonggi pajusi unjeong elementarymath"
+  },
+  {
+    "title": "운정 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 파주시",
+    "url": "/center/gyeonggi/pajusi/unjeong/elementaryenglish/",
+    "search": "운정 초등 영어학원 경기 경기 / 경기 파주시 gyeonggi pajusi unjeong elementaryenglish"
+  },
+  {
     "title": "운정 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -16234,6 +18502,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 파주시",
     "url": "/center/gyeonggi/pajusi/unjeongsindosi/middleschool/",
     "search": "운정신도시 중학생학원 경기 경기 / 경기 파주시 gyeonggi pajusi unjeongsindosi middleschool"
+  },
+  {
+    "title": "운정신도시 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 파주시",
+    "url": "/center/gyeonggi/pajusi/unjeongsindosi/elementarymath/",
+    "search": "운정신도시 초등 수학학원 경기 경기 / 경기 파주시 gyeonggi pajusi unjeongsindosi elementarymath"
+  },
+  {
+    "title": "운정신도시 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 파주시",
+    "url": "/center/gyeonggi/pajusi/unjeongsindosi/elementaryenglish/",
+    "search": "운정신도시 초등 영어학원 경기 경기 / 경기 파주시 gyeonggi pajusi unjeongsindosi elementaryenglish"
   },
   {
     "title": "운정신도시 초등학생학원",
@@ -16362,6 +18648,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "운정중앙 중학생학원 경기 경기 / 경기 파주시 gyeonggi pajusi unjeongjungang middleschool"
   },
   {
+    "title": "운정중앙 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 파주시",
+    "url": "/center/gyeonggi/pajusi/unjeongjungang/elementarymath/",
+    "search": "운정중앙 초등 수학학원 경기 경기 / 경기 파주시 gyeonggi pajusi unjeongjungang elementarymath"
+  },
+  {
+    "title": "운정중앙 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 파주시",
+    "url": "/center/gyeonggi/pajusi/unjeongjungang/elementaryenglish/",
+    "search": "운정중앙 초등 영어학원 경기 경기 / 경기 파주시 gyeonggi pajusi unjeongjungang elementaryenglish"
+  },
+  {
     "title": "운정중앙 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -16486,6 +18790,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 파주시",
     "url": "/center/gyeonggi/pajusi/unjeonghosu/middleschool/",
     "search": "운정호수 중학생학원 경기 경기 / 경기 파주시 gyeonggi pajusi unjeonghosu middleschool"
+  },
+  {
+    "title": "운정호수 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 파주시",
+    "url": "/center/gyeonggi/pajusi/unjeonghosu/elementarymath/",
+    "search": "운정호수 초등 수학학원 경기 경기 / 경기 파주시 gyeonggi pajusi unjeonghosu elementarymath"
+  },
+  {
+    "title": "운정호수 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 파주시",
+    "url": "/center/gyeonggi/pajusi/unjeonghosu/elementaryenglish/",
+    "search": "운정호수 초등 영어학원 경기 경기 / 경기 파주시 gyeonggi pajusi unjeonghosu elementaryenglish"
   },
   {
     "title": "운정호수 초등학생학원",
@@ -16614,6 +18936,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "원동 중학생학원 경기 경기 / 경기 오산시 gyeonggi osansi wondong middleschool"
   },
   {
+    "title": "원동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 오산시",
+    "url": "/center/gyeonggi/osansi/wondong/elementarymath/",
+    "search": "원동 초등 수학학원 경기 경기 / 경기 오산시 gyeonggi osansi wondong elementarymath"
+  },
+  {
+    "title": "원동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 오산시",
+    "url": "/center/gyeonggi/osansi/wondong/elementaryenglish/",
+    "search": "원동 초등 영어학원 경기 경기 / 경기 오산시 gyeonggi osansi wondong elementaryenglish"
+  },
+  {
     "title": "원동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -16738,6 +19078,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 고양시",
     "url": "/center/gyeonggi/goyangsi/wonheungdong/middleschool/",
     "search": "원흥동 중학생학원 경기 경기 / 경기 고양시 gyeonggi goyangsi wonheungdong middleschool"
+  },
+  {
+    "title": "원흥동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 고양시",
+    "url": "/center/gyeonggi/goyangsi/wonheungdong/elementarymath/",
+    "search": "원흥동 초등 수학학원 경기 경기 / 경기 고양시 gyeonggi goyangsi wonheungdong elementarymath"
+  },
+  {
+    "title": "원흥동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 고양시",
+    "url": "/center/gyeonggi/goyangsi/wonheungdong/elementaryenglish/",
+    "search": "원흥동 초등 영어학원 경기 경기 / 경기 고양시 gyeonggi goyangsi wonheungdong elementaryenglish"
   },
   {
     "title": "원흥동 초등학생학원",
@@ -16866,6 +19224,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "은계지구 중학생학원 경기 경기 / 경기 시흥시 gyeonggi siheungsi eungyejigu middleschool"
   },
   {
+    "title": "은계지구 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 시흥시",
+    "url": "/center/gyeonggi/siheungsi/eungyejigu/elementarymath/",
+    "search": "은계지구 초등 수학학원 경기 경기 / 경기 시흥시 gyeonggi siheungsi eungyejigu elementarymath"
+  },
+  {
+    "title": "은계지구 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 시흥시",
+    "url": "/center/gyeonggi/siheungsi/eungyejigu/elementaryenglish/",
+    "search": "은계지구 초등 영어학원 경기 경기 / 경기 시흥시 gyeonggi siheungsi eungyejigu elementaryenglish"
+  },
+  {
     "title": "은계지구 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -16990,6 +19366,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 시흥시",
     "url": "/center/gyeonggi/siheungsi/eunhaengdong/middleschool/",
     "search": "은행동 중학생학원 경기 경기 / 경기 시흥시 gyeonggi siheungsi eunhaengdong middleschool"
+  },
+  {
+    "title": "은행동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 시흥시",
+    "url": "/center/gyeonggi/siheungsi/eunhaengdong/elementarymath/",
+    "search": "은행동 초등 수학학원 경기 경기 / 경기 시흥시 gyeonggi siheungsi eunhaengdong elementarymath"
+  },
+  {
+    "title": "은행동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 시흥시",
+    "url": "/center/gyeonggi/siheungsi/eunhaengdong/elementaryenglish/",
+    "search": "은행동 초등 영어학원 경기 경기 / 경기 시흥시 gyeonggi siheungsi eunhaengdong elementaryenglish"
   },
   {
     "title": "은행동 초등학생학원",
@@ -17118,6 +19512,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "이매동 중학생학원 경기 경기 / 경기 성남시 gyeonggi seongnamsi imaedong middleschool"
   },
   {
+    "title": "이매동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 성남시",
+    "url": "/center/gyeonggi/seongnamsi/imaedong/elementarymath/",
+    "search": "이매동 초등 수학학원 경기 경기 / 경기 성남시 gyeonggi seongnamsi imaedong elementarymath"
+  },
+  {
+    "title": "이매동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 성남시",
+    "url": "/center/gyeonggi/seongnamsi/imaedong/elementaryenglish/",
+    "search": "이매동 초등 영어학원 경기 경기 / 경기 성남시 gyeonggi seongnamsi imaedong elementaryenglish"
+  },
+  {
     "title": "이매동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -17242,6 +19654,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 평택시",
     "url": "/center/gyeonggi/pyeongtaeksi/ichungdong/middleschool/",
     "search": "이충동 중학생학원 경기 경기 / 경기 평택시 gyeonggi pyeongtaeksi ichungdong middleschool"
+  },
+  {
+    "title": "이충동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 평택시",
+    "url": "/center/gyeonggi/pyeongtaeksi/ichungdong/elementarymath/",
+    "search": "이충동 초등 수학학원 경기 경기 / 경기 평택시 gyeonggi pyeongtaeksi ichungdong elementarymath"
+  },
+  {
+    "title": "이충동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 평택시",
+    "url": "/center/gyeonggi/pyeongtaeksi/ichungdong/elementaryenglish/",
+    "search": "이충동 초등 영어학원 경기 경기 / 경기 평택시 gyeonggi pyeongtaeksi ichungdong elementaryenglish"
   },
   {
     "title": "이충동 초등학생학원",
@@ -17370,6 +19800,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "인창동 중학생학원 경기 경기 / 경기 구리시 gyeonggi gurisi inchangdong middleschool"
   },
   {
+    "title": "인창동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 구리시",
+    "url": "/center/gyeonggi/gurisi/inchangdong/elementarymath/",
+    "search": "인창동 초등 수학학원 경기 경기 / 경기 구리시 gyeonggi gurisi inchangdong elementarymath"
+  },
+  {
+    "title": "인창동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 구리시",
+    "url": "/center/gyeonggi/gurisi/inchangdong/elementaryenglish/",
+    "search": "인창동 초등 영어학원 경기 경기 / 경기 구리시 gyeonggi gurisi inchangdong elementaryenglish"
+  },
+  {
     "title": "인창동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -17494,6 +19942,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 고양시",
     "url": "/center/gyeonggi/goyangsi/ilsandong/middleschool/",
     "search": "일산동 중학생학원 경기 경기 / 경기 고양시 gyeonggi goyangsi ilsandong middleschool"
+  },
+  {
+    "title": "일산동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 고양시",
+    "url": "/center/gyeonggi/goyangsi/ilsandong/elementarymath/",
+    "search": "일산동 초등 수학학원 경기 경기 / 경기 고양시 gyeonggi goyangsi ilsandong elementarymath"
+  },
+  {
+    "title": "일산동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 고양시",
+    "url": "/center/gyeonggi/goyangsi/ilsandong/elementaryenglish/",
+    "search": "일산동 초등 영어학원 경기 경기 / 경기 고양시 gyeonggi goyangsi ilsandong elementaryenglish"
   },
   {
     "title": "일산동 초등학생학원",
@@ -17622,6 +20088,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "일직동 중학생학원 경기 경기 / 경기 광명시 gyeonggi gwangmyeongsi iljikdong middleschool"
   },
   {
+    "title": "일직동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 광명시",
+    "url": "/center/gyeonggi/gwangmyeongsi/iljikdong/elementarymath/",
+    "search": "일직동 초등 수학학원 경기 경기 / 경기 광명시 gyeonggi gwangmyeongsi iljikdong elementarymath"
+  },
+  {
+    "title": "일직동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 광명시",
+    "url": "/center/gyeonggi/gwangmyeongsi/iljikdong/elementaryenglish/",
+    "search": "일직동 초등 영어학원 경기 경기 / 경기 광명시 gyeonggi gwangmyeongsi iljikdong elementaryenglish"
+  },
+  {
     "title": "일직동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -17746,6 +20230,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 시흥시",
     "url": "/center/gyeonggi/siheungsi/janggokdong/middleschool/",
     "search": "장곡동 중학생학원 경기 경기 / 경기 시흥시 gyeonggi siheungsi janggokdong middleschool"
+  },
+  {
+    "title": "장곡동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 시흥시",
+    "url": "/center/gyeonggi/siheungsi/janggokdong/elementarymath/",
+    "search": "장곡동 초등 수학학원 경기 경기 / 경기 시흥시 gyeonggi siheungsi janggokdong elementarymath"
+  },
+  {
+    "title": "장곡동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 시흥시",
+    "url": "/center/gyeonggi/siheungsi/janggokdong/elementaryenglish/",
+    "search": "장곡동 초등 영어학원 경기 경기 / 경기 시흥시 gyeonggi siheungsi janggokdong elementaryenglish"
   },
   {
     "title": "장곡동 초등학생학원",
@@ -17874,6 +20376,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "장기동 중학생학원 경기 경기 / 경기 김포시 gyeonggi gimposi janggidong middleschool"
   },
   {
+    "title": "장기동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 김포시",
+    "url": "/center/gyeonggi/gimposi/janggidong/elementarymath/",
+    "search": "장기동 초등 수학학원 경기 경기 / 경기 김포시 gyeonggi gimposi janggidong elementarymath"
+  },
+  {
+    "title": "장기동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 김포시",
+    "url": "/center/gyeonggi/gimposi/janggidong/elementaryenglish/",
+    "search": "장기동 초등 영어학원 경기 경기 / 경기 김포시 gyeonggi gimposi janggidong elementaryenglish"
+  },
+  {
     "title": "장기동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -17998,6 +20518,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 화성시",
     "url": "/center/gyeonggi/hwaseongsi/jangjidong/middleschool/",
     "search": "장지동 중학생학원 경기 경기 / 경기 화성시 gyeonggi hwaseongsi jangjidong middleschool"
+  },
+  {
+    "title": "장지동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 화성시",
+    "url": "/center/gyeonggi/hwaseongsi/jangjidong/elementarymath/",
+    "search": "장지동 초등 수학학원 경기 경기 / 경기 화성시 gyeonggi hwaseongsi jangjidong elementarymath"
+  },
+  {
+    "title": "장지동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 화성시",
+    "url": "/center/gyeonggi/hwaseongsi/jangjidong/elementaryenglish/",
+    "search": "장지동 초등 영어학원 경기 경기 / 경기 화성시 gyeonggi hwaseongsi jangjidong elementaryenglish"
   },
   {
     "title": "장지동 초등학생학원",
@@ -18126,6 +20664,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "장항동 중학생학원 경기 경기 / 경기 고양시 gyeonggi goyangsi janghangdong middleschool"
   },
   {
+    "title": "장항동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 고양시",
+    "url": "/center/gyeonggi/goyangsi/janghangdong/elementarymath/",
+    "search": "장항동 초등 수학학원 경기 경기 / 경기 고양시 gyeonggi goyangsi janghangdong elementarymath"
+  },
+  {
+    "title": "장항동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 고양시",
+    "url": "/center/gyeonggi/goyangsi/janghangdong/elementaryenglish/",
+    "search": "장항동 초등 영어학원 경기 경기 / 경기 고양시 gyeonggi goyangsi janghangdong elementaryenglish"
+  },
+  {
     "title": "장항동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -18250,6 +20806,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 시흥시",
     "url": "/center/gyeonggi/siheungsi/janghyeondong/middleschool/",
     "search": "장현동 중학생학원 경기 경기 / 경기 시흥시 gyeonggi siheungsi janghyeondong middleschool"
+  },
+  {
+    "title": "장현동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 시흥시",
+    "url": "/center/gyeonggi/siheungsi/janghyeondong/elementarymath/",
+    "search": "장현동 초등 수학학원 경기 경기 / 경기 시흥시 gyeonggi siheungsi janghyeondong elementarymath"
+  },
+  {
+    "title": "장현동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 시흥시",
+    "url": "/center/gyeonggi/siheungsi/janghyeondong/elementaryenglish/",
+    "search": "장현동 초등 영어학원 경기 경기 / 경기 시흥시 gyeonggi siheungsi janghyeondong elementaryenglish"
   },
   {
     "title": "장현동 초등학생학원",
@@ -18378,6 +20952,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "정발산동 중학생학원 경기 경기 / 경기 고양시 gyeonggi goyangsi jeongbalsandong middleschool"
   },
   {
+    "title": "정발산동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 고양시",
+    "url": "/center/gyeonggi/goyangsi/jeongbalsandong/elementarymath/",
+    "search": "정발산동 초등 수학학원 경기 경기 / 경기 고양시 gyeonggi goyangsi jeongbalsandong elementarymath"
+  },
+  {
+    "title": "정발산동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 고양시",
+    "url": "/center/gyeonggi/goyangsi/jeongbalsandong/elementaryenglish/",
+    "search": "정발산동 초등 영어학원 경기 경기 / 경기 고양시 gyeonggi goyangsi jeongbalsandong elementaryenglish"
+  },
+  {
     "title": "정발산동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -18502,6 +21094,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 시흥시",
     "url": "/center/gyeonggi/siheungsi/jeongwangdong/middleschool/",
     "search": "정왕동 중학생학원 경기 경기 / 경기 시흥시 gyeonggi siheungsi jeongwangdong middleschool"
+  },
+  {
+    "title": "정왕동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 시흥시",
+    "url": "/center/gyeonggi/siheungsi/jeongwangdong/elementarymath/",
+    "search": "정왕동 초등 수학학원 경기 경기 / 경기 시흥시 gyeonggi siheungsi jeongwangdong elementarymath"
+  },
+  {
+    "title": "정왕동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 시흥시",
+    "url": "/center/gyeonggi/siheungsi/jeongwangdong/elementaryenglish/",
+    "search": "정왕동 초등 영어학원 경기 경기 / 경기 시흥시 gyeonggi siheungsi jeongwangdong elementaryenglish"
   },
   {
     "title": "정왕동 초등학생학원",
@@ -18630,6 +21240,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "정자동 중학생학원 경기 경기 / 경기 수원시 gyeonggi suwonsi jeongjadong middleschool"
   },
   {
+    "title": "정자동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 수원시",
+    "url": "/center/gyeonggi/suwonsi/jeongjadong/elementarymath/",
+    "search": "정자동 초등 수학학원 경기 경기 / 경기 수원시 gyeonggi suwonsi jeongjadong elementarymath"
+  },
+  {
+    "title": "정자동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 수원시",
+    "url": "/center/gyeonggi/suwonsi/jeongjadong/elementaryenglish/",
+    "search": "정자동 초등 영어학원 경기 경기 / 경기 수원시 gyeonggi suwonsi jeongjadong elementaryenglish"
+  },
+  {
     "title": "정자동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -18754,6 +21382,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 시흥시",
     "url": "/center/gyeonggi/siheungsi/jonamdong/middleschool/",
     "search": "조남동 중학생학원 경기 경기 / 경기 시흥시 gyeonggi siheungsi jonamdong middleschool"
+  },
+  {
+    "title": "조남동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 시흥시",
+    "url": "/center/gyeonggi/siheungsi/jonamdong/elementarymath/",
+    "search": "조남동 초등 수학학원 경기 경기 / 경기 시흥시 gyeonggi siheungsi jonamdong elementarymath"
+  },
+  {
+    "title": "조남동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 시흥시",
+    "url": "/center/gyeonggi/siheungsi/jonamdong/elementaryenglish/",
+    "search": "조남동 초등 영어학원 경기 경기 / 경기 시흥시 gyeonggi siheungsi jonamdong elementaryenglish"
   },
   {
     "title": "조남동 초등학생학원",
@@ -18882,6 +21528,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "주교동 중학생학원 경기 경기 / 경기 고양시 gyeonggi goyangsi jugyodong middleschool"
   },
   {
+    "title": "주교동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 고양시",
+    "url": "/center/gyeonggi/goyangsi/jugyodong/elementarymath/",
+    "search": "주교동 초등 수학학원 경기 경기 / 경기 고양시 gyeonggi goyangsi jugyodong elementarymath"
+  },
+  {
+    "title": "주교동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 고양시",
+    "url": "/center/gyeonggi/goyangsi/jugyodong/elementaryenglish/",
+    "search": "주교동 초등 영어학원 경기 경기 / 경기 고양시 gyeonggi goyangsi jugyodong elementaryenglish"
+  },
+  {
     "title": "주교동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -19006,6 +21670,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 고양시",
     "url": "/center/gyeonggi/goyangsi/juyeopdong/middleschool/",
     "search": "주엽동 중학생학원 경기 경기 / 경기 고양시 gyeonggi goyangsi juyeopdong middleschool"
+  },
+  {
+    "title": "주엽동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 고양시",
+    "url": "/center/gyeonggi/goyangsi/juyeopdong/elementarymath/",
+    "search": "주엽동 초등 수학학원 경기 경기 / 경기 고양시 gyeonggi goyangsi juyeopdong elementarymath"
+  },
+  {
+    "title": "주엽동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 고양시",
+    "url": "/center/gyeonggi/goyangsi/juyeopdong/elementaryenglish/",
+    "search": "주엽동 초등 영어학원 경기 경기 / 경기 고양시 gyeonggi goyangsi juyeopdong elementaryenglish"
   },
   {
     "title": "주엽동 초등학생학원",
@@ -19134,6 +21816,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "죽백동 중학생학원 경기 경기 / 경기 평택시 gyeonggi pyeongtaeksi jukbaekdong middleschool"
   },
   {
+    "title": "죽백동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 평택시",
+    "url": "/center/gyeonggi/pyeongtaeksi/jukbaekdong/elementarymath/",
+    "search": "죽백동 초등 수학학원 경기 경기 / 경기 평택시 gyeonggi pyeongtaeksi jukbaekdong elementarymath"
+  },
+  {
+    "title": "죽백동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 평택시",
+    "url": "/center/gyeonggi/pyeongtaeksi/jukbaekdong/elementaryenglish/",
+    "search": "죽백동 초등 영어학원 경기 경기 / 경기 평택시 gyeonggi pyeongtaeksi jukbaekdong elementaryenglish"
+  },
+  {
     "title": "죽백동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -19258,6 +21958,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 고양시",
     "url": "/center/gyeonggi/goyangsi/jungsandong/middleschool/",
     "search": "중산동 중학생학원 경기 경기 / 경기 고양시 gyeonggi goyangsi jungsandong middleschool"
+  },
+  {
+    "title": "중산동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 고양시",
+    "url": "/center/gyeonggi/goyangsi/jungsandong/elementarymath/",
+    "search": "중산동 초등 수학학원 경기 경기 / 경기 고양시 gyeonggi goyangsi jungsandong elementarymath"
+  },
+  {
+    "title": "중산동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 고양시",
+    "url": "/center/gyeonggi/goyangsi/jungsandong/elementaryenglish/",
+    "search": "중산동 초등 영어학원 경기 경기 / 경기 고양시 gyeonggi goyangsi jungsandong elementaryenglish"
   },
   {
     "title": "중산동 초등학생학원",
@@ -19386,6 +22104,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "진안동 중학생학원 경기 경기 / 경기 화성시 gyeonggi hwaseongsi jinandong middleschool"
   },
   {
+    "title": "진안동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 화성시",
+    "url": "/center/gyeonggi/hwaseongsi/jinandong/elementarymath/",
+    "search": "진안동 초등 수학학원 경기 경기 / 경기 화성시 gyeonggi hwaseongsi jinandong elementarymath"
+  },
+  {
+    "title": "진안동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 화성시",
+    "url": "/center/gyeonggi/hwaseongsi/jinandong/elementaryenglish/",
+    "search": "진안동 초등 영어학원 경기 경기 / 경기 화성시 gyeonggi hwaseongsi jinandong elementaryenglish"
+  },
+  {
     "title": "진안동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -19510,6 +22246,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 남양주시",
     "url": "/center/gyeonggi/namyangjusi/jinjeopeup/middleschool/",
     "search": "진접읍 중학생학원 경기 경기 / 경기 남양주시 gyeonggi namyangjusi jinjeopeup middleschool"
+  },
+  {
+    "title": "진접읍 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 남양주시",
+    "url": "/center/gyeonggi/namyangjusi/jinjeopeup/elementarymath/",
+    "search": "진접읍 초등 수학학원 경기 경기 / 경기 남양주시 gyeonggi namyangjusi jinjeopeup elementarymath"
+  },
+  {
+    "title": "진접읍 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 남양주시",
+    "url": "/center/gyeonggi/namyangjusi/jinjeopeup/elementaryenglish/",
+    "search": "진접읍 초등 영어학원 경기 경기 / 경기 남양주시 gyeonggi namyangjusi jinjeopeup elementaryenglish"
   },
   {
     "title": "진접읍 초등학생학원",
@@ -19638,6 +22392,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "천천동 중학생학원 경기 경기 / 경기 수원시 gyeonggi suwonsi cheoncheondong middleschool"
   },
   {
+    "title": "천천동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 수원시",
+    "url": "/center/gyeonggi/suwonsi/cheoncheondong/elementarymath/",
+    "search": "천천동 초등 수학학원 경기 경기 / 경기 수원시 gyeonggi suwonsi cheoncheondong elementarymath"
+  },
+  {
+    "title": "천천동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 수원시",
+    "url": "/center/gyeonggi/suwonsi/cheoncheondong/elementaryenglish/",
+    "search": "천천동 초등 영어학원 경기 경기 / 경기 수원시 gyeonggi suwonsi cheoncheondong elementaryenglish"
+  },
+  {
     "title": "천천동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -19762,6 +22534,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 광명시",
     "url": "/center/gyeonggi/gwangmyeongsi/cheolsandong/middleschool/",
     "search": "철산동 중학생학원 경기 경기 / 경기 광명시 gyeonggi gwangmyeongsi cheolsandong middleschool"
+  },
+  {
+    "title": "철산동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 광명시",
+    "url": "/center/gyeonggi/gwangmyeongsi/cheolsandong/elementarymath/",
+    "search": "철산동 초등 수학학원 경기 경기 / 경기 광명시 gyeonggi gwangmyeongsi cheolsandong elementarymath"
+  },
+  {
+    "title": "철산동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 광명시",
+    "url": "/center/gyeonggi/gwangmyeongsi/cheolsandong/elementaryenglish/",
+    "search": "철산동 초등 영어학원 경기 경기 / 경기 광명시 gyeonggi gwangmyeongsi cheolsandong elementaryenglish"
   },
   {
     "title": "철산동 초등학생학원",
@@ -19890,6 +22680,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "청계동 중학생학원 경기 경기 / 경기 화성시 gyeonggi hwaseongsi cheonggyedong middleschool"
   },
   {
+    "title": "청계동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 화성시",
+    "url": "/center/gyeonggi/hwaseongsi/cheonggyedong/elementarymath/",
+    "search": "청계동 초등 수학학원 경기 경기 / 경기 화성시 gyeonggi hwaseongsi cheonggyedong elementarymath"
+  },
+  {
+    "title": "청계동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 화성시",
+    "url": "/center/gyeonggi/hwaseongsi/cheonggyedong/elementaryenglish/",
+    "search": "청계동 초등 영어학원 경기 경기 / 경기 화성시 gyeonggi hwaseongsi cheonggyedong elementaryenglish"
+  },
+  {
     "title": "청계동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -20014,6 +22822,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 안산시",
     "url": "/center/gyeonggi/ansansi/chojidong/middleschool/",
     "search": "초지동 중학생학원 경기 경기 / 경기 안산시 gyeonggi ansansi chojidong middleschool"
+  },
+  {
+    "title": "초지동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 안산시",
+    "url": "/center/gyeonggi/ansansi/chojidong/elementarymath/",
+    "search": "초지동 초등 수학학원 경기 경기 / 경기 안산시 gyeonggi ansansi chojidong elementarymath"
+  },
+  {
+    "title": "초지동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 안산시",
+    "url": "/center/gyeonggi/ansansi/chojidong/elementaryenglish/",
+    "search": "초지동 초등 영어학원 경기 경기 / 경기 안산시 gyeonggi ansansi chojidong elementaryenglish"
   },
   {
     "title": "초지동 초등학생학원",
@@ -20142,6 +22968,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "탄벌동 중학생학원 경기 경기 / 경기 광주시 gyeonggi gwangjusi tanbeoldong middleschool"
   },
   {
+    "title": "탄벌동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 광주시",
+    "url": "/center/gyeonggi/gwangjusi/tanbeoldong/elementarymath/",
+    "search": "탄벌동 초등 수학학원 경기 경기 / 경기 광주시 gyeonggi gwangjusi tanbeoldong elementarymath"
+  },
+  {
+    "title": "탄벌동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 광주시",
+    "url": "/center/gyeonggi/gwangjusi/tanbeoldong/elementaryenglish/",
+    "search": "탄벌동 초등 영어학원 경기 경기 / 경기 광주시 gyeonggi gwangjusi tanbeoldong elementaryenglish"
+  },
+  {
     "title": "탄벌동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -20266,6 +23110,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 고양시",
     "url": "/center/gyeonggi/goyangsi/tanhyeondong/middleschool/",
     "search": "탄현동 중학생학원 경기 경기 / 경기 고양시 gyeonggi goyangsi tanhyeondong middleschool"
+  },
+  {
+    "title": "탄현동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 고양시",
+    "url": "/center/gyeonggi/goyangsi/tanhyeondong/elementarymath/",
+    "search": "탄현동 초등 수학학원 경기 경기 / 경기 고양시 gyeonggi goyangsi tanhyeondong elementarymath"
+  },
+  {
+    "title": "탄현동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 고양시",
+    "url": "/center/gyeonggi/goyangsi/tanhyeondong/elementaryenglish/",
+    "search": "탄현동 초등 영어학원 경기 경기 / 경기 고양시 gyeonggi goyangsi tanhyeondong elementaryenglish"
   },
   {
     "title": "탄현동 초등학생학원",
@@ -20394,6 +23256,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "토당동 중학생학원 경기 경기 / 경기 고양시 gyeonggi goyangsi todangdong middleschool"
   },
   {
+    "title": "토당동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 고양시",
+    "url": "/center/gyeonggi/goyangsi/todangdong/elementarymath/",
+    "search": "토당동 초등 수학학원 경기 경기 / 경기 고양시 gyeonggi goyangsi todangdong elementarymath"
+  },
+  {
+    "title": "토당동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 고양시",
+    "url": "/center/gyeonggi/goyangsi/todangdong/elementaryenglish/",
+    "search": "토당동 초등 영어학원 경기 경기 / 경기 고양시 gyeonggi goyangsi todangdong elementaryenglish"
+  },
+  {
     "title": "토당동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -20518,6 +23398,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 남양주시",
     "url": "/center/gyeonggi/namyangjusi/toegyewoneup/middleschool/",
     "search": "퇴계원읍 중학생학원 경기 경기 / 경기 남양주시 gyeonggi namyangjusi toegyewoneup middleschool"
+  },
+  {
+    "title": "퇴계원읍 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 남양주시",
+    "url": "/center/gyeonggi/namyangjusi/toegyewoneup/elementarymath/",
+    "search": "퇴계원읍 초등 수학학원 경기 경기 / 경기 남양주시 gyeonggi namyangjusi toegyewoneup elementarymath"
+  },
+  {
+    "title": "퇴계원읍 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 남양주시",
+    "url": "/center/gyeonggi/namyangjusi/toegyewoneup/elementaryenglish/",
+    "search": "퇴계원읍 초등 영어학원 경기 경기 / 경기 남양주시 gyeonggi namyangjusi toegyewoneup elementaryenglish"
   },
   {
     "title": "퇴계원읍 초등학생학원",
@@ -20646,6 +23544,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "평내동 중학생학원 경기 경기 / 경기 남양주시 gyeonggi namyangjusi pyeongnaedong middleschool"
   },
   {
+    "title": "평내동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 남양주시",
+    "url": "/center/gyeonggi/namyangjusi/pyeongnaedong/elementarymath/",
+    "search": "평내동 초등 수학학원 경기 경기 / 경기 남양주시 gyeonggi namyangjusi pyeongnaedong elementarymath"
+  },
+  {
+    "title": "평내동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 남양주시",
+    "url": "/center/gyeonggi/namyangjusi/pyeongnaedong/elementaryenglish/",
+    "search": "평내동 초등 영어학원 경기 경기 / 경기 남양주시 gyeonggi namyangjusi pyeongnaedong elementaryenglish"
+  },
+  {
     "title": "평내동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -20770,6 +23686,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 용인시",
     "url": "/center/gyeonggi/yonginsi/pungdeokcheondong/middleschool/",
     "search": "풍덕천동 중학생학원 경기 경기 / 경기 용인시 gyeonggi yonginsi pungdeokcheondong middleschool"
+  },
+  {
+    "title": "풍덕천동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 용인시",
+    "url": "/center/gyeonggi/yonginsi/pungdeokcheondong/elementarymath/",
+    "search": "풍덕천동 초등 수학학원 경기 경기 / 경기 용인시 gyeonggi yonginsi pungdeokcheondong elementarymath"
+  },
+  {
+    "title": "풍덕천동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 용인시",
+    "url": "/center/gyeonggi/yonginsi/pungdeokcheondong/elementaryenglish/",
+    "search": "풍덕천동 초등 영어학원 경기 경기 / 경기 용인시 gyeonggi yonginsi pungdeokcheondong elementaryenglish"
   },
   {
     "title": "풍덕천동 초등학생학원",
@@ -20898,6 +23832,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "풍동 중학생학원 경기 경기 / 경기 고양시 gyeonggi goyangsi pungdong middleschool"
   },
   {
+    "title": "풍동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 고양시",
+    "url": "/center/gyeonggi/goyangsi/pungdong/elementarymath/",
+    "search": "풍동 초등 수학학원 경기 경기 / 경기 고양시 gyeonggi goyangsi pungdong elementarymath"
+  },
+  {
+    "title": "풍동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 고양시",
+    "url": "/center/gyeonggi/goyangsi/pungdong/elementaryenglish/",
+    "search": "풍동 초등 영어학원 경기 경기 / 경기 고양시 gyeonggi goyangsi pungdong elementaryenglish"
+  },
+  {
     "title": "풍동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -21022,6 +23974,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 하남시",
     "url": "/center/gyeonggi/hanamsi/pungsandong/middleschool/",
     "search": "풍산동 중학생학원 경기 경기 / 경기 하남시 gyeonggi hanamsi pungsandong middleschool"
+  },
+  {
+    "title": "풍산동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 하남시",
+    "url": "/center/gyeonggi/hanamsi/pungsandong/elementarymath/",
+    "search": "풍산동 초등 수학학원 경기 경기 / 경기 하남시 gyeonggi hanamsi pungsandong elementarymath"
+  },
+  {
+    "title": "풍산동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 하남시",
+    "url": "/center/gyeonggi/hanamsi/pungsandong/elementaryenglish/",
+    "search": "풍산동 초등 영어학원 경기 경기 / 경기 하남시 gyeonggi hanamsi pungsandong elementaryenglish"
   },
   {
     "title": "풍산동 초등학생학원",
@@ -21150,6 +24120,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "하대원동 중학생학원 경기 경기 / 경기 성남시 gyeonggi seongnamsi hadaewondong middleschool"
   },
   {
+    "title": "하대원동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 성남시",
+    "url": "/center/gyeonggi/seongnamsi/hadaewondong/elementarymath/",
+    "search": "하대원동 초등 수학학원 경기 경기 / 경기 성남시 gyeonggi seongnamsi hadaewondong elementarymath"
+  },
+  {
+    "title": "하대원동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 성남시",
+    "url": "/center/gyeonggi/seongnamsi/hadaewondong/elementaryenglish/",
+    "search": "하대원동 초등 영어학원 경기 경기 / 경기 성남시 gyeonggi seongnamsi hadaewondong elementaryenglish"
+  },
+  {
     "title": "하대원동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -21274,6 +24262,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 광명시",
     "url": "/center/gyeonggi/gwangmyeongsi/haandong/middleschool/",
     "search": "하안동 중학생학원 경기 경기 / 경기 광명시 gyeonggi gwangmyeongsi haandong middleschool"
+  },
+  {
+    "title": "하안동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 광명시",
+    "url": "/center/gyeonggi/gwangmyeongsi/haandong/elementarymath/",
+    "search": "하안동 초등 수학학원 경기 경기 / 경기 광명시 gyeonggi gwangmyeongsi haandong elementarymath"
+  },
+  {
+    "title": "하안동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 광명시",
+    "url": "/center/gyeonggi/gwangmyeongsi/haandong/elementaryenglish/",
+    "search": "하안동 초등 영어학원 경기 경기 / 경기 광명시 gyeonggi gwangmyeongsi haandong elementaryenglish"
   },
   {
     "title": "하안동 초등학생학원",
@@ -21402,6 +24408,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "행신동 중학생학원 경기 경기 / 경기 고양시 gyeonggi goyangsi haengsindong middleschool"
   },
   {
+    "title": "행신동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 고양시",
+    "url": "/center/gyeonggi/goyangsi/haengsindong/elementarymath/",
+    "search": "행신동 초등 수학학원 경기 경기 / 경기 고양시 gyeonggi goyangsi haengsindong elementarymath"
+  },
+  {
+    "title": "행신동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 고양시",
+    "url": "/center/gyeonggi/goyangsi/haengsindong/elementaryenglish/",
+    "search": "행신동 초등 영어학원 경기 경기 / 경기 고양시 gyeonggi goyangsi haengsindong elementaryenglish"
+  },
+  {
     "title": "행신동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -21526,6 +24550,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 화성시",
     "url": "/center/gyeonggi/hwaseongsi/hyangnameup/middleschool/",
     "search": "향남읍 중학생학원 경기 경기 / 경기 화성시 gyeonggi hwaseongsi hyangnameup middleschool"
+  },
+  {
+    "title": "향남읍 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 화성시",
+    "url": "/center/gyeonggi/hwaseongsi/hyangnameup/elementarymath/",
+    "search": "향남읍 초등 수학학원 경기 경기 / 경기 화성시 gyeonggi hwaseongsi hyangnameup elementarymath"
+  },
+  {
+    "title": "향남읍 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 화성시",
+    "url": "/center/gyeonggi/hwaseongsi/hyangnameup/elementaryenglish/",
+    "search": "향남읍 초등 영어학원 경기 경기 / 경기 화성시 gyeonggi hwaseongsi hyangnameup elementaryenglish"
   },
   {
     "title": "향남읍 초등학생학원",
@@ -21654,6 +24696,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "호매실 중학생학원 경기 경기 / 경기 수원시 gyeonggi suwonsi homaesil middleschool"
   },
   {
+    "title": "호매실 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 수원시",
+    "url": "/center/gyeonggi/suwonsi/homaesil/elementarymath/",
+    "search": "호매실 초등 수학학원 경기 경기 / 경기 수원시 gyeonggi suwonsi homaesil elementarymath"
+  },
+  {
+    "title": "호매실 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 수원시",
+    "url": "/center/gyeonggi/suwonsi/homaesil/elementaryenglish/",
+    "search": "호매실 초등 영어학원 경기 경기 / 경기 수원시 gyeonggi suwonsi homaesil elementaryenglish"
+  },
+  {
     "title": "호매실 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -21778,6 +24838,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 수원시",
     "url": "/center/gyeonggi/suwonsi/homaesildong/middleschool/",
     "search": "호매실동 중학생학원 경기 경기 / 경기 수원시 gyeonggi suwonsi homaesildong middleschool"
+  },
+  {
+    "title": "호매실동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 수원시",
+    "url": "/center/gyeonggi/suwonsi/homaesildong/elementarymath/",
+    "search": "호매실동 초등 수학학원 경기 경기 / 경기 수원시 gyeonggi suwonsi homaesildong elementarymath"
+  },
+  {
+    "title": "호매실동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 수원시",
+    "url": "/center/gyeonggi/suwonsi/homaesildong/elementaryenglish/",
+    "search": "호매실동 초등 영어학원 경기 경기 / 경기 수원시 gyeonggi suwonsi homaesildong elementaryenglish"
   },
   {
     "title": "호매실동 초등학생학원",
@@ -21906,6 +24984,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "호평동 중학생학원 경기 경기 / 경기 남양주시 gyeonggi namyangjusi hopyeongdong middleschool"
   },
   {
+    "title": "호평동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 남양주시",
+    "url": "/center/gyeonggi/namyangjusi/hopyeongdong/elementarymath/",
+    "search": "호평동 초등 수학학원 경기 경기 / 경기 남양주시 gyeonggi namyangjusi hopyeongdong elementarymath"
+  },
+  {
+    "title": "호평동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 남양주시",
+    "url": "/center/gyeonggi/namyangjusi/hopyeongdong/elementaryenglish/",
+    "search": "호평동 초등 영어학원 경기 경기 / 경기 남양주시 gyeonggi namyangjusi hopyeongdong elementaryenglish"
+  },
+  {
     "title": "호평동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -22030,6 +25126,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 화성시",
     "url": "/center/gyeonggi/hwaseongsi/hwaseongtaean/middleschool/",
     "search": "화성태안 중학생학원 경기 경기 / 경기 화성시 gyeonggi hwaseongsi hwaseongtaean middleschool"
+  },
+  {
+    "title": "화성태안 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 화성시",
+    "url": "/center/gyeonggi/hwaseongsi/hwaseongtaean/elementarymath/",
+    "search": "화성태안 초등 수학학원 경기 경기 / 경기 화성시 gyeonggi hwaseongsi hwaseongtaean elementarymath"
+  },
+  {
+    "title": "화성태안 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 화성시",
+    "url": "/center/gyeonggi/hwaseongsi/hwaseongtaean/elementaryenglish/",
+    "search": "화성태안 초등 영어학원 경기 경기 / 경기 화성시 gyeonggi hwaseongsi hwaseongtaean elementaryenglish"
   },
   {
     "title": "화성태안 초등학생학원",
@@ -22158,6 +25272,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "화정동 중학생학원 경기 경기 / 경기 고양시 gyeonggi goyangsi hwajeongdong middleschool"
   },
   {
+    "title": "화정동 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 고양시",
+    "url": "/center/gyeonggi/goyangsi/hwajeongdong/elementarymath/",
+    "search": "화정동 초등 수학학원 경기 경기 / 경기 고양시 gyeonggi goyangsi hwajeongdong elementarymath"
+  },
+  {
+    "title": "화정동 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 고양시",
+    "url": "/center/gyeonggi/goyangsi/hwajeongdong/elementaryenglish/",
+    "search": "화정동 초등 영어학원 경기 경기 / 경기 고양시 gyeonggi goyangsi hwajeongdong elementaryenglish"
+  },
+  {
     "title": "화정동 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -22284,6 +25416,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "후곡마을 중학생학원 경기 경기 / 경기 고양시 gyeonggi goyangsi hugokmaeul middleschool"
   },
   {
+    "title": "후곡마을 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 고양시",
+    "url": "/center/gyeonggi/goyangsi/hugokmaeul/elementarymath/",
+    "search": "후곡마을 초등 수학학원 경기 경기 / 경기 고양시 gyeonggi goyangsi hugokmaeul elementarymath"
+  },
+  {
+    "title": "후곡마을 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 고양시",
+    "url": "/center/gyeonggi/goyangsi/hugokmaeul/elementaryenglish/",
+    "search": "후곡마을 초등 영어학원 경기 경기 / 경기 고양시 gyeonggi goyangsi hugokmaeul elementaryenglish"
+  },
+  {
     "title": "후곡마을 초등학생학원",
     "region": "gyeonggi",
     "regionName": "경기",
@@ -22408,6 +25558,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경기 / 경기 용인시",
     "url": "/center/gyeonggi/yonginsi/heungdeokmaeul/middleschool/",
     "search": "흥덕마을 중학생학원 경기 경기 / 경기 용인시 gyeonggi yonginsi heungdeokmaeul middleschool"
+  },
+  {
+    "title": "흥덕마을 초등 수학학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 용인시",
+    "url": "/center/gyeonggi/yonginsi/heungdeokmaeul/elementarymath/",
+    "search": "흥덕마을 초등 수학학원 경기 경기 / 경기 용인시 gyeonggi yonginsi heungdeokmaeul elementarymath"
+  },
+  {
+    "title": "흥덕마을 초등 영어학원",
+    "region": "gyeonggi",
+    "regionName": "경기",
+    "kind": "local",
+    "parent": "경기 / 경기 용인시",
+    "url": "/center/gyeonggi/yonginsi/heungdeokmaeul/elementaryenglish/",
+    "search": "흥덕마을 초등 영어학원 경기 경기 / 경기 용인시 gyeonggi yonginsi heungdeokmaeul elementaryenglish"
   },
   {
     "title": "흥덕마을 초등학생학원",
@@ -22590,6 +25758,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "경산사동 중학생학원 경상 경상 / 경상 경산시 gyeongsang gyeongsansi gyeongsansadong middleschool"
   },
   {
+    "title": "경산사동 초등 수학학원",
+    "region": "gyeongsang",
+    "regionName": "경상",
+    "kind": "local",
+    "parent": "경상 / 경상 경산시",
+    "url": "/center/gyeongsang/gyeongsansi/gyeongsansadong/elementarymath/",
+    "search": "경산사동 초등 수학학원 경상 경상 / 경상 경산시 gyeongsang gyeongsansi gyeongsansadong elementarymath"
+  },
+  {
+    "title": "경산사동 초등 영어학원",
+    "region": "gyeongsang",
+    "regionName": "경상",
+    "kind": "local",
+    "parent": "경상 / 경상 경산시",
+    "url": "/center/gyeongsang/gyeongsansi/gyeongsansadong/elementaryenglish/",
+    "search": "경산사동 초등 영어학원 경상 경상 / 경상 경산시 gyeongsang gyeongsansi gyeongsansadong elementaryenglish"
+  },
+  {
     "title": "경산사동 초등학생학원",
     "region": "gyeongsang",
     "regionName": "경상",
@@ -22714,6 +25900,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경상 / 경상 창원시",
     "url": "/center/gyeongsang/changwonsi/gyeonghwadong/middleschool/",
     "search": "경화동 중학생학원 경상 경상 / 경상 창원시 gyeongsang changwonsi gyeonghwadong middleschool"
+  },
+  {
+    "title": "경화동 초등 수학학원",
+    "region": "gyeongsang",
+    "regionName": "경상",
+    "kind": "local",
+    "parent": "경상 / 경상 창원시",
+    "url": "/center/gyeongsang/changwonsi/gyeonghwadong/elementarymath/",
+    "search": "경화동 초등 수학학원 경상 경상 / 경상 창원시 gyeongsang changwonsi gyeonghwadong elementarymath"
+  },
+  {
+    "title": "경화동 초등 영어학원",
+    "region": "gyeongsang",
+    "regionName": "경상",
+    "kind": "local",
+    "parent": "경상 / 경상 창원시",
+    "url": "/center/gyeongsang/changwonsi/gyeonghwadong/elementaryenglish/",
+    "search": "경화동 초등 영어학원 경상 경상 / 경상 창원시 gyeongsang changwonsi gyeonghwadong elementaryenglish"
   },
   {
     "title": "경화동 초등학생학원",
@@ -22842,6 +26046,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "고현동 중학생학원 경상 경상 / 경상 거제시 gyeongsang geojesi gohyeondong middleschool"
   },
   {
+    "title": "고현동 초등 수학학원",
+    "region": "gyeongsang",
+    "regionName": "경상",
+    "kind": "local",
+    "parent": "경상 / 경상 거제시",
+    "url": "/center/gyeongsang/geojesi/gohyeondong/elementarymath/",
+    "search": "고현동 초등 수학학원 경상 경상 / 경상 거제시 gyeongsang geojesi gohyeondong elementarymath"
+  },
+  {
+    "title": "고현동 초등 영어학원",
+    "region": "gyeongsang",
+    "regionName": "경상",
+    "kind": "local",
+    "parent": "경상 / 경상 거제시",
+    "url": "/center/gyeongsang/geojesi/gohyeondong/elementaryenglish/",
+    "search": "고현동 초등 영어학원 경상 경상 / 경상 거제시 gyeongsang geojesi gohyeondong elementaryenglish"
+  },
+  {
     "title": "고현동 초등학생학원",
     "region": "gyeongsang",
     "regionName": "경상",
@@ -22966,6 +26188,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경상 / 경상 포항시",
     "url": "/center/gyeongsang/pohangsi/duhodong/middleschool/",
     "search": "두호동 중학생학원 경상 경상 / 경상 포항시 gyeongsang pohangsi duhodong middleschool"
+  },
+  {
+    "title": "두호동 초등 수학학원",
+    "region": "gyeongsang",
+    "regionName": "경상",
+    "kind": "local",
+    "parent": "경상 / 경상 포항시",
+    "url": "/center/gyeongsang/pohangsi/duhodong/elementarymath/",
+    "search": "두호동 초등 수학학원 경상 경상 / 경상 포항시 gyeongsang pohangsi duhodong elementarymath"
+  },
+  {
+    "title": "두호동 초등 영어학원",
+    "region": "gyeongsang",
+    "regionName": "경상",
+    "kind": "local",
+    "parent": "경상 / 경상 포항시",
+    "url": "/center/gyeongsang/pohangsi/duhodong/elementaryenglish/",
+    "search": "두호동 초등 영어학원 경상 경상 / 경상 포항시 gyeongsang pohangsi duhodong elementaryenglish"
   },
   {
     "title": "두호동 초등학생학원",
@@ -23094,6 +26334,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "사파동 중학생학원 경상 경상 / 경상 창원시 gyeongsang changwonsi sapadong middleschool"
   },
   {
+    "title": "사파동 초등 수학학원",
+    "region": "gyeongsang",
+    "regionName": "경상",
+    "kind": "local",
+    "parent": "경상 / 경상 창원시",
+    "url": "/center/gyeongsang/changwonsi/sapadong/elementarymath/",
+    "search": "사파동 초등 수학학원 경상 경상 / 경상 창원시 gyeongsang changwonsi sapadong elementarymath"
+  },
+  {
+    "title": "사파동 초등 영어학원",
+    "region": "gyeongsang",
+    "regionName": "경상",
+    "kind": "local",
+    "parent": "경상 / 경상 창원시",
+    "url": "/center/gyeongsang/changwonsi/sapadong/elementaryenglish/",
+    "search": "사파동 초등 영어학원 경상 경상 / 경상 창원시 gyeongsang changwonsi sapadong elementaryenglish"
+  },
+  {
     "title": "사파동 초등학생학원",
     "region": "gyeongsang",
     "regionName": "경상",
@@ -23218,6 +26476,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경상 / 경상 창원시",
     "url": "/center/gyeongsang/changwonsi/sangnamdong/middleschool/",
     "search": "상남동 중학생학원 경상 경상 / 경상 창원시 gyeongsang changwonsi sangnamdong middleschool"
+  },
+  {
+    "title": "상남동 초등 수학학원",
+    "region": "gyeongsang",
+    "regionName": "경상",
+    "kind": "local",
+    "parent": "경상 / 경상 창원시",
+    "url": "/center/gyeongsang/changwonsi/sangnamdong/elementarymath/",
+    "search": "상남동 초등 수학학원 경상 경상 / 경상 창원시 gyeongsang changwonsi sangnamdong elementarymath"
+  },
+  {
+    "title": "상남동 초등 영어학원",
+    "region": "gyeongsang",
+    "regionName": "경상",
+    "kind": "local",
+    "parent": "경상 / 경상 창원시",
+    "url": "/center/gyeongsang/changwonsi/sangnamdong/elementaryenglish/",
+    "search": "상남동 초등 영어학원 경상 경상 / 경상 창원시 gyeongsang changwonsi sangnamdong elementaryenglish"
   },
   {
     "title": "상남동 초등학생학원",
@@ -23346,6 +26622,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "석동 중학생학원 경상 경상 / 경상 창원시 gyeongsang changwonsi seokdong middleschool"
   },
   {
+    "title": "석동 초등 수학학원",
+    "region": "gyeongsang",
+    "regionName": "경상",
+    "kind": "local",
+    "parent": "경상 / 경상 창원시",
+    "url": "/center/gyeongsang/changwonsi/seokdong/elementarymath/",
+    "search": "석동 초등 수학학원 경상 경상 / 경상 창원시 gyeongsang changwonsi seokdong elementarymath"
+  },
+  {
+    "title": "석동 초등 영어학원",
+    "region": "gyeongsang",
+    "regionName": "경상",
+    "kind": "local",
+    "parent": "경상 / 경상 창원시",
+    "url": "/center/gyeongsang/changwonsi/seokdong/elementaryenglish/",
+    "search": "석동 초등 영어학원 경상 경상 / 경상 창원시 gyeongsang changwonsi seokdong elementaryenglish"
+  },
+  {
     "title": "석동 초등학생학원",
     "region": "gyeongsang",
     "regionName": "경상",
@@ -23470,6 +26764,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경상 / 경상 거제시",
     "url": "/center/gyeongsang/geojesi/suwoldong/middleschool/",
     "search": "수월동 중학생학원 경상 경상 / 경상 거제시 gyeongsang geojesi suwoldong middleschool"
+  },
+  {
+    "title": "수월동 초등 수학학원",
+    "region": "gyeongsang",
+    "regionName": "경상",
+    "kind": "local",
+    "parent": "경상 / 경상 거제시",
+    "url": "/center/gyeongsang/geojesi/suwoldong/elementarymath/",
+    "search": "수월동 초등 수학학원 경상 경상 / 경상 거제시 gyeongsang geojesi suwoldong elementarymath"
+  },
+  {
+    "title": "수월동 초등 영어학원",
+    "region": "gyeongsang",
+    "regionName": "경상",
+    "kind": "local",
+    "parent": "경상 / 경상 거제시",
+    "url": "/center/gyeongsang/geojesi/suwoldong/elementaryenglish/",
+    "search": "수월동 초등 영어학원 경상 경상 / 경상 거제시 gyeongsang geojesi suwoldong elementaryenglish"
   },
   {
     "title": "수월동 초등학생학원",
@@ -23598,6 +26910,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "신월동 중학생학원 경상 경상 / 경상 창원시 gyeongsang changwonsi sinwoldong middleschool"
   },
   {
+    "title": "신월동 초등 수학학원",
+    "region": "gyeongsang",
+    "regionName": "경상",
+    "kind": "local",
+    "parent": "경상 / 경상 창원시",
+    "url": "/center/gyeongsang/changwonsi/sinwoldong/elementarymath/",
+    "search": "신월동 초등 수학학원 경상 경상 / 경상 창원시 gyeongsang changwonsi sinwoldong elementarymath"
+  },
+  {
+    "title": "신월동 초등 영어학원",
+    "region": "gyeongsang",
+    "regionName": "경상",
+    "kind": "local",
+    "parent": "경상 / 경상 창원시",
+    "url": "/center/gyeongsang/changwonsi/sinwoldong/elementaryenglish/",
+    "search": "신월동 초등 영어학원 경상 경상 / 경상 창원시 gyeongsang changwonsi sinwoldong elementaryenglish"
+  },
+  {
     "title": "신월동 초등학생학원",
     "region": "gyeongsang",
     "regionName": "경상",
@@ -23722,6 +27052,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경상 / 경상 포항시",
     "url": "/center/gyeongsang/pohangsi/yangdeokdong/middleschool/",
     "search": "양덕동 중학생학원 경상 경상 / 경상 포항시 gyeongsang pohangsi yangdeokdong middleschool"
+  },
+  {
+    "title": "양덕동 초등 수학학원",
+    "region": "gyeongsang",
+    "regionName": "경상",
+    "kind": "local",
+    "parent": "경상 / 경상 포항시",
+    "url": "/center/gyeongsang/pohangsi/yangdeokdong/elementarymath/",
+    "search": "양덕동 초등 수학학원 경상 경상 / 경상 포항시 gyeongsang pohangsi yangdeokdong elementarymath"
+  },
+  {
+    "title": "양덕동 초등 영어학원",
+    "region": "gyeongsang",
+    "regionName": "경상",
+    "kind": "local",
+    "parent": "경상 / 경상 포항시",
+    "url": "/center/gyeongsang/pohangsi/yangdeokdong/elementaryenglish/",
+    "search": "양덕동 초등 영어학원 경상 경상 / 경상 포항시 gyeongsang pohangsi yangdeokdong elementaryenglish"
   },
   {
     "title": "양덕동 초등학생학원",
@@ -23850,6 +27198,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "양정동 중학생학원 경상 경상 / 경상 거제시 gyeongsang geojesi yangjeongdong middleschool"
   },
   {
+    "title": "양정동 초등 수학학원",
+    "region": "gyeongsang",
+    "regionName": "경상",
+    "kind": "local",
+    "parent": "경상 / 경상 거제시",
+    "url": "/center/gyeongsang/geojesi/yangjeongdong/elementarymath/",
+    "search": "양정동 초등 수학학원 경상 경상 / 경상 거제시 gyeongsang geojesi yangjeongdong elementarymath"
+  },
+  {
+    "title": "양정동 초등 영어학원",
+    "region": "gyeongsang",
+    "regionName": "경상",
+    "kind": "local",
+    "parent": "경상 / 경상 거제시",
+    "url": "/center/gyeongsang/geojesi/yangjeongdong/elementaryenglish/",
+    "search": "양정동 초등 영어학원 경상 경상 / 경상 거제시 gyeongsang geojesi yangjeongdong elementaryenglish"
+  },
+  {
     "title": "양정동 초등학생학원",
     "region": "gyeongsang",
     "regionName": "경상",
@@ -23974,6 +27340,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경상 / 경상 구미시",
     "url": "/center/gyeongsang/gumisi/okgyedong/middleschool/",
     "search": "옥계동 중학생학원 경상 경상 / 경상 구미시 gyeongsang gumisi okgyedong middleschool"
+  },
+  {
+    "title": "옥계동 초등 수학학원",
+    "region": "gyeongsang",
+    "regionName": "경상",
+    "kind": "local",
+    "parent": "경상 / 경상 구미시",
+    "url": "/center/gyeongsang/gumisi/okgyedong/elementarymath/",
+    "search": "옥계동 초등 수학학원 경상 경상 / 경상 구미시 gyeongsang gumisi okgyedong elementarymath"
+  },
+  {
+    "title": "옥계동 초등 영어학원",
+    "region": "gyeongsang",
+    "regionName": "경상",
+    "kind": "local",
+    "parent": "경상 / 경상 구미시",
+    "url": "/center/gyeongsang/gumisi/okgyedong/elementaryenglish/",
+    "search": "옥계동 초등 영어학원 경상 경상 / 경상 구미시 gyeongsang gumisi okgyedong elementaryenglish"
   },
   {
     "title": "옥계동 초등학생학원",
@@ -24102,6 +27486,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "옥산동 중학생학원 경상 경상 / 경상 경산시 gyeongsang gyeongsansi oksandong middleschool"
   },
   {
+    "title": "옥산동 초등 수학학원",
+    "region": "gyeongsang",
+    "regionName": "경상",
+    "kind": "local",
+    "parent": "경상 / 경상 경산시",
+    "url": "/center/gyeongsang/gyeongsansi/oksandong/elementarymath/",
+    "search": "옥산동 초등 수학학원 경상 경상 / 경상 경산시 gyeongsang gyeongsansi oksandong elementarymath"
+  },
+  {
+    "title": "옥산동 초등 영어학원",
+    "region": "gyeongsang",
+    "regionName": "경상",
+    "kind": "local",
+    "parent": "경상 / 경상 경산시",
+    "url": "/center/gyeongsang/gyeongsansi/oksandong/elementaryenglish/",
+    "search": "옥산동 초등 영어학원 경상 경상 / 경상 경산시 gyeongsang gyeongsansi oksandong elementaryenglish"
+  },
+  {
     "title": "옥산동 초등학생학원",
     "region": "gyeongsang",
     "regionName": "경상",
@@ -24226,6 +27628,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경상 / 경상 창원시",
     "url": "/center/gyeongsang/changwonsi/jaeundong/middleschool/",
     "search": "자은동 중학생학원 경상 경상 / 경상 창원시 gyeongsang changwonsi jaeundong middleschool"
+  },
+  {
+    "title": "자은동 초등 수학학원",
+    "region": "gyeongsang",
+    "regionName": "경상",
+    "kind": "local",
+    "parent": "경상 / 경상 창원시",
+    "url": "/center/gyeongsang/changwonsi/jaeundong/elementarymath/",
+    "search": "자은동 초등 수학학원 경상 경상 / 경상 창원시 gyeongsang changwonsi jaeundong elementarymath"
+  },
+  {
+    "title": "자은동 초등 영어학원",
+    "region": "gyeongsang",
+    "regionName": "경상",
+    "kind": "local",
+    "parent": "경상 / 경상 창원시",
+    "url": "/center/gyeongsang/changwonsi/jaeundong/elementaryenglish/",
+    "search": "자은동 초등 영어학원 경상 경상 / 경상 창원시 gyeongsang changwonsi jaeundong elementaryenglish"
   },
   {
     "title": "자은동 초등학생학원",
@@ -24354,6 +27774,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "장량동 중학생학원 경상 경상 / 경상 포항시 gyeongsang pohangsi jangryangdong middleschool"
   },
   {
+    "title": "장량동 초등 수학학원",
+    "region": "gyeongsang",
+    "regionName": "경상",
+    "kind": "local",
+    "parent": "경상 / 경상 포항시",
+    "url": "/center/gyeongsang/pohangsi/jangryangdong/elementarymath/",
+    "search": "장량동 초등 수학학원 경상 경상 / 경상 포항시 gyeongsang pohangsi jangryangdong elementarymath"
+  },
+  {
+    "title": "장량동 초등 영어학원",
+    "region": "gyeongsang",
+    "regionName": "경상",
+    "kind": "local",
+    "parent": "경상 / 경상 포항시",
+    "url": "/center/gyeongsang/pohangsi/jangryangdong/elementaryenglish/",
+    "search": "장량동 초등 영어학원 경상 경상 / 경상 포항시 gyeongsang pohangsi jangryangdong elementaryenglish"
+  },
+  {
     "title": "장량동 초등학생학원",
     "region": "gyeongsang",
     "regionName": "경상",
@@ -24480,6 +27918,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "장성동 중학생학원 경상 경상 / 경상 포항시 gyeongsang pohangsi jangseongdong middleschool"
   },
   {
+    "title": "장성동 초등 수학학원",
+    "region": "gyeongsang",
+    "regionName": "경상",
+    "kind": "local",
+    "parent": "경상 / 경상 포항시",
+    "url": "/center/gyeongsang/pohangsi/jangseongdong/elementarymath/",
+    "search": "장성동 초등 수학학원 경상 경상 / 경상 포항시 gyeongsang pohangsi jangseongdong elementarymath"
+  },
+  {
+    "title": "장성동 초등 영어학원",
+    "region": "gyeongsang",
+    "regionName": "경상",
+    "kind": "local",
+    "parent": "경상 / 경상 포항시",
+    "url": "/center/gyeongsang/pohangsi/jangseongdong/elementaryenglish/",
+    "search": "장성동 초등 영어학원 경상 경상 / 경상 포항시 gyeongsang pohangsi jangseongdong elementaryenglish"
+  },
+  {
     "title": "장성동 초등학생학원",
     "region": "gyeongsang",
     "regionName": "경상",
@@ -24604,6 +28060,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "경상 / 경상 경산시",
     "url": "/center/gyeongsang/gyeongsansi/jeongpyeongdong/middleschool/",
     "search": "정평동 중학생학원 경상 경상 / 경상 경산시 gyeongsang gyeongsansi jeongpyeongdong middleschool"
+  },
+  {
+    "title": "정평동 초등 수학학원",
+    "region": "gyeongsang",
+    "regionName": "경상",
+    "kind": "local",
+    "parent": "경상 / 경상 경산시",
+    "url": "/center/gyeongsang/gyeongsansi/jeongpyeongdong/elementarymath/",
+    "search": "정평동 초등 수학학원 경상 경상 / 경상 경산시 gyeongsang gyeongsansi jeongpyeongdong elementarymath"
+  },
+  {
+    "title": "정평동 초등 영어학원",
+    "region": "gyeongsang",
+    "regionName": "경상",
+    "kind": "local",
+    "parent": "경상 / 경상 경산시",
+    "url": "/center/gyeongsang/gyeongsansi/jeongpyeongdong/elementaryenglish/",
+    "search": "정평동 초등 영어학원 경상 경상 / 경상 경산시 gyeongsang gyeongsansi jeongpyeongdong elementaryenglish"
   },
   {
     "title": "정평동 초등학생학원",
@@ -24768,6 +28242,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "산월동 중학생학원 광주 광주 / 광주 광산구 gwangju gwangsangu sanwoldong middleschool"
   },
   {
+    "title": "산월동 초등 수학학원",
+    "region": "gwangju",
+    "regionName": "광주",
+    "kind": "local",
+    "parent": "광주 / 광주 광산구",
+    "url": "/center/gwangju/gwangsangu/sanwoldong/elementarymath/",
+    "search": "산월동 초등 수학학원 광주 광주 / 광주 광산구 gwangju gwangsangu sanwoldong elementarymath"
+  },
+  {
+    "title": "산월동 초등 영어학원",
+    "region": "gwangju",
+    "regionName": "광주",
+    "kind": "local",
+    "parent": "광주 / 광주 광산구",
+    "url": "/center/gwangju/gwangsangu/sanwoldong/elementaryenglish/",
+    "search": "산월동 초등 영어학원 광주 광주 / 광주 광산구 gwangju gwangsangu sanwoldong elementaryenglish"
+  },
+  {
     "title": "산월동 초등학생학원",
     "region": "gwangju",
     "regionName": "광주",
@@ -24892,6 +28384,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "광주 / 광주 서구",
     "url": "/center/gwangju/seogu/sangmujigu/middleschool/",
     "search": "상무지구 중학생학원 광주 광주 / 광주 서구 gwangju seogu sangmujigu middleschool"
+  },
+  {
+    "title": "상무지구 초등 수학학원",
+    "region": "gwangju",
+    "regionName": "광주",
+    "kind": "local",
+    "parent": "광주 / 광주 서구",
+    "url": "/center/gwangju/seogu/sangmujigu/elementarymath/",
+    "search": "상무지구 초등 수학학원 광주 광주 / 광주 서구 gwangju seogu sangmujigu elementarymath"
+  },
+  {
+    "title": "상무지구 초등 영어학원",
+    "region": "gwangju",
+    "regionName": "광주",
+    "kind": "local",
+    "parent": "광주 / 광주 서구",
+    "url": "/center/gwangju/seogu/sangmujigu/elementaryenglish/",
+    "search": "상무지구 초등 영어학원 광주 광주 / 광주 서구 gwangju seogu sangmujigu elementaryenglish"
   },
   {
     "title": "상무지구 초등학생학원",
@@ -25020,6 +28530,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "선암동 중학생학원 광주 광주 / 광주 광산구 gwangju gwangsangu seonamdong middleschool"
   },
   {
+    "title": "선암동 초등 수학학원",
+    "region": "gwangju",
+    "regionName": "광주",
+    "kind": "local",
+    "parent": "광주 / 광주 광산구",
+    "url": "/center/gwangju/gwangsangu/seonamdong/elementarymath/",
+    "search": "선암동 초등 수학학원 광주 광주 / 광주 광산구 gwangju gwangsangu seonamdong elementarymath"
+  },
+  {
+    "title": "선암동 초등 영어학원",
+    "region": "gwangju",
+    "regionName": "광주",
+    "kind": "local",
+    "parent": "광주 / 광주 광산구",
+    "url": "/center/gwangju/gwangsangu/seonamdong/elementaryenglish/",
+    "search": "선암동 초등 영어학원 광주 광주 / 광주 광산구 gwangju gwangsangu seonamdong elementaryenglish"
+  },
+  {
     "title": "선암동 초등학생학원",
     "region": "gwangju",
     "regionName": "광주",
@@ -25144,6 +28672,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "광주 / 광주 광산구",
     "url": "/center/gwangju/gwangsangu/suwandong/middleschool/",
     "search": "수완동 중학생학원 광주 광주 / 광주 광산구 gwangju gwangsangu suwandong middleschool"
+  },
+  {
+    "title": "수완동 초등 수학학원",
+    "region": "gwangju",
+    "regionName": "광주",
+    "kind": "local",
+    "parent": "광주 / 광주 광산구",
+    "url": "/center/gwangju/gwangsangu/suwandong/elementarymath/",
+    "search": "수완동 초등 수학학원 광주 광주 / 광주 광산구 gwangju gwangsangu suwandong elementarymath"
+  },
+  {
+    "title": "수완동 초등 영어학원",
+    "region": "gwangju",
+    "regionName": "광주",
+    "kind": "local",
+    "parent": "광주 / 광주 광산구",
+    "url": "/center/gwangju/gwangsangu/suwandong/elementaryenglish/",
+    "search": "수완동 초등 영어학원 광주 광주 / 광주 광산구 gwangju gwangsangu suwandong elementaryenglish"
   },
   {
     "title": "수완동 초등학생학원",
@@ -25272,6 +28818,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "수완지구 중학생학원 광주 광주 / 광주 광산구 gwangju gwangsangu suwanjigu middleschool"
   },
   {
+    "title": "수완지구 초등 수학학원",
+    "region": "gwangju",
+    "regionName": "광주",
+    "kind": "local",
+    "parent": "광주 / 광주 광산구",
+    "url": "/center/gwangju/gwangsangu/suwanjigu/elementarymath/",
+    "search": "수완지구 초등 수학학원 광주 광주 / 광주 광산구 gwangju gwangsangu suwanjigu elementarymath"
+  },
+  {
+    "title": "수완지구 초등 영어학원",
+    "region": "gwangju",
+    "regionName": "광주",
+    "kind": "local",
+    "parent": "광주 / 광주 광산구",
+    "url": "/center/gwangju/gwangsangu/suwanjigu/elementaryenglish/",
+    "search": "수완지구 초등 영어학원 광주 광주 / 광주 광산구 gwangju gwangsangu suwanjigu elementaryenglish"
+  },
+  {
     "title": "수완지구 초등학생학원",
     "region": "gwangju",
     "regionName": "광주",
@@ -25396,6 +28960,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "광주 / 광주 광산구",
     "url": "/center/gwangju/gwangsangu/singadong/middleschool/",
     "search": "신가동 중학생학원 광주 광주 / 광주 광산구 gwangju gwangsangu singadong middleschool"
+  },
+  {
+    "title": "신가동 초등 수학학원",
+    "region": "gwangju",
+    "regionName": "광주",
+    "kind": "local",
+    "parent": "광주 / 광주 광산구",
+    "url": "/center/gwangju/gwangsangu/singadong/elementarymath/",
+    "search": "신가동 초등 수학학원 광주 광주 / 광주 광산구 gwangju gwangsangu singadong elementarymath"
+  },
+  {
+    "title": "신가동 초등 영어학원",
+    "region": "gwangju",
+    "regionName": "광주",
+    "kind": "local",
+    "parent": "광주 / 광주 광산구",
+    "url": "/center/gwangju/gwangsangu/singadong/elementaryenglish/",
+    "search": "신가동 초등 영어학원 광주 광주 / 광주 광산구 gwangju gwangsangu singadong elementaryenglish"
   },
   {
     "title": "신가동 초등학생학원",
@@ -25524,6 +29106,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "신창동 중학생학원 광주 광주 / 광주 광산구 gwangju gwangsangu sinchangdong middleschool"
   },
   {
+    "title": "신창동 초등 수학학원",
+    "region": "gwangju",
+    "regionName": "광주",
+    "kind": "local",
+    "parent": "광주 / 광주 광산구",
+    "url": "/center/gwangju/gwangsangu/sinchangdong/elementarymath/",
+    "search": "신창동 초등 수학학원 광주 광주 / 광주 광산구 gwangju gwangsangu sinchangdong elementarymath"
+  },
+  {
+    "title": "신창동 초등 영어학원",
+    "region": "gwangju",
+    "regionName": "광주",
+    "kind": "local",
+    "parent": "광주 / 광주 광산구",
+    "url": "/center/gwangju/gwangsangu/sinchangdong/elementaryenglish/",
+    "search": "신창동 초등 영어학원 광주 광주 / 광주 광산구 gwangju gwangsangu sinchangdong elementaryenglish"
+  },
+  {
     "title": "신창동 초등학생학원",
     "region": "gwangju",
     "regionName": "광주",
@@ -25648,6 +29248,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "광주 / 광주 광산구",
     "url": "/center/gwangju/gwangsangu/sinchangjigu/middleschool/",
     "search": "신창지구 중학생학원 광주 광주 / 광주 광산구 gwangju gwangsangu sinchangjigu middleschool"
+  },
+  {
+    "title": "신창지구 초등 수학학원",
+    "region": "gwangju",
+    "regionName": "광주",
+    "kind": "local",
+    "parent": "광주 / 광주 광산구",
+    "url": "/center/gwangju/gwangsangu/sinchangjigu/elementarymath/",
+    "search": "신창지구 초등 수학학원 광주 광주 / 광주 광산구 gwangju gwangsangu sinchangjigu elementarymath"
+  },
+  {
+    "title": "신창지구 초등 영어학원",
+    "region": "gwangju",
+    "regionName": "광주",
+    "kind": "local",
+    "parent": "광주 / 광주 광산구",
+    "url": "/center/gwangju/gwangsangu/sinchangjigu/elementaryenglish/",
+    "search": "신창지구 초등 영어학원 광주 광주 / 광주 광산구 gwangju gwangsangu sinchangjigu elementaryenglish"
   },
   {
     "title": "신창지구 초등학생학원",
@@ -25776,6 +29394,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "쌍암동 중학생학원 광주 광주 / 광주 광산구 gwangju gwangsangu ssangamdong middleschool"
   },
   {
+    "title": "쌍암동 초등 수학학원",
+    "region": "gwangju",
+    "regionName": "광주",
+    "kind": "local",
+    "parent": "광주 / 광주 광산구",
+    "url": "/center/gwangju/gwangsangu/ssangamdong/elementarymath/",
+    "search": "쌍암동 초등 수학학원 광주 광주 / 광주 광산구 gwangju gwangsangu ssangamdong elementarymath"
+  },
+  {
+    "title": "쌍암동 초등 영어학원",
+    "region": "gwangju",
+    "regionName": "광주",
+    "kind": "local",
+    "parent": "광주 / 광주 광산구",
+    "url": "/center/gwangju/gwangsangu/ssangamdong/elementaryenglish/",
+    "search": "쌍암동 초등 영어학원 광주 광주 / 광주 광산구 gwangju gwangsangu ssangamdong elementaryenglish"
+  },
+  {
     "title": "쌍암동 초등학생학원",
     "region": "gwangju",
     "regionName": "광주",
@@ -25900,6 +29536,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "광주 / 광주 광산구",
     "url": "/center/gwangju/gwangsangu/wolgyedong/middleschool/",
     "search": "월계동 중학생학원 광주 광주 / 광주 광산구 gwangju gwangsangu wolgyedong middleschool"
+  },
+  {
+    "title": "월계동 초등 수학학원",
+    "region": "gwangju",
+    "regionName": "광주",
+    "kind": "local",
+    "parent": "광주 / 광주 광산구",
+    "url": "/center/gwangju/gwangsangu/wolgyedong/elementarymath/",
+    "search": "월계동 초등 수학학원 광주 광주 / 광주 광산구 gwangju gwangsangu wolgyedong elementarymath"
+  },
+  {
+    "title": "월계동 초등 영어학원",
+    "region": "gwangju",
+    "regionName": "광주",
+    "kind": "local",
+    "parent": "광주 / 광주 광산구",
+    "url": "/center/gwangju/gwangsangu/wolgyedong/elementaryenglish/",
+    "search": "월계동 초등 영어학원 광주 광주 / 광주 광산구 gwangju gwangsangu wolgyedong elementaryenglish"
   },
   {
     "title": "월계동 초등학생학원",
@@ -26028,6 +29682,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "주월동 중학생학원 광주 광주 / 광주 남구 gwangju namgu juwoldong middleschool"
   },
   {
+    "title": "주월동 초등 수학학원",
+    "region": "gwangju",
+    "regionName": "광주",
+    "kind": "local",
+    "parent": "광주 / 광주 남구",
+    "url": "/center/gwangju/namgu/juwoldong/elementarymath/",
+    "search": "주월동 초등 수학학원 광주 광주 / 광주 남구 gwangju namgu juwoldong elementarymath"
+  },
+  {
+    "title": "주월동 초등 영어학원",
+    "region": "gwangju",
+    "regionName": "광주",
+    "kind": "local",
+    "parent": "광주 / 광주 남구",
+    "url": "/center/gwangju/namgu/juwoldong/elementaryenglish/",
+    "search": "주월동 초등 영어학원 광주 광주 / 광주 남구 gwangju namgu juwoldong elementaryenglish"
+  },
+  {
     "title": "주월동 초등학생학원",
     "region": "gwangju",
     "regionName": "광주",
@@ -26152,6 +29824,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "광주 / 광주 남구",
     "url": "/center/gwangju/namgu/jinwoldong/middleschool/",
     "search": "진월동 중학생학원 광주 광주 / 광주 남구 gwangju namgu jinwoldong middleschool"
+  },
+  {
+    "title": "진월동 초등 수학학원",
+    "region": "gwangju",
+    "regionName": "광주",
+    "kind": "local",
+    "parent": "광주 / 광주 남구",
+    "url": "/center/gwangju/namgu/jinwoldong/elementarymath/",
+    "search": "진월동 초등 수학학원 광주 광주 / 광주 남구 gwangju namgu jinwoldong elementarymath"
+  },
+  {
+    "title": "진월동 초등 영어학원",
+    "region": "gwangju",
+    "regionName": "광주",
+    "kind": "local",
+    "parent": "광주 / 광주 남구",
+    "url": "/center/gwangju/namgu/jinwoldong/elementaryenglish/",
+    "search": "진월동 초등 영어학원 광주 광주 / 광주 남구 gwangju namgu jinwoldong elementaryenglish"
   },
   {
     "title": "진월동 초등학생학원",
@@ -26280,6 +29970,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "첨단 중학생학원 광주 광주 / 광주 광산구 gwangju gwangsangu cheomdan middleschool"
   },
   {
+    "title": "첨단 초등 수학학원",
+    "region": "gwangju",
+    "regionName": "광주",
+    "kind": "local",
+    "parent": "광주 / 광주 광산구",
+    "url": "/center/gwangju/gwangsangu/cheomdan/elementarymath/",
+    "search": "첨단 초등 수학학원 광주 광주 / 광주 광산구 gwangju gwangsangu cheomdan elementarymath"
+  },
+  {
+    "title": "첨단 초등 영어학원",
+    "region": "gwangju",
+    "regionName": "광주",
+    "kind": "local",
+    "parent": "광주 / 광주 광산구",
+    "url": "/center/gwangju/gwangsangu/cheomdan/elementaryenglish/",
+    "search": "첨단 초등 영어학원 광주 광주 / 광주 광산구 gwangju gwangsangu cheomdan elementaryenglish"
+  },
+  {
     "title": "첨단 초등학생학원",
     "region": "gwangju",
     "regionName": "광주",
@@ -26406,6 +30114,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "첨단지구 중학생학원 광주 광주 / 광주 광산구 gwangju gwangsangu cheomdanjigu middleschool"
   },
   {
+    "title": "첨단지구 초등 수학학원",
+    "region": "gwangju",
+    "regionName": "광주",
+    "kind": "local",
+    "parent": "광주 / 광주 광산구",
+    "url": "/center/gwangju/gwangsangu/cheomdanjigu/elementarymath/",
+    "search": "첨단지구 초등 수학학원 광주 광주 / 광주 광산구 gwangju gwangsangu cheomdanjigu elementarymath"
+  },
+  {
+    "title": "첨단지구 초등 영어학원",
+    "region": "gwangju",
+    "regionName": "광주",
+    "kind": "local",
+    "parent": "광주 / 광주 광산구",
+    "url": "/center/gwangju/gwangsangu/cheomdanjigu/elementaryenglish/",
+    "search": "첨단지구 초등 영어학원 광주 광주 / 광주 광산구 gwangju gwangsangu cheomdanjigu elementaryenglish"
+  },
+  {
     "title": "첨단지구 초등학생학원",
     "region": "gwangju",
     "regionName": "광주",
@@ -26530,6 +30256,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "광주 / 광주 서구",
     "url": "/center/gwangju/seogu/chipyeongdong/middleschool/",
     "search": "치평동 중학생학원 광주 광주 / 광주 서구 gwangju seogu chipyeongdong middleschool"
+  },
+  {
+    "title": "치평동 초등 수학학원",
+    "region": "gwangju",
+    "regionName": "광주",
+    "kind": "local",
+    "parent": "광주 / 광주 서구",
+    "url": "/center/gwangju/seogu/chipyeongdong/elementarymath/",
+    "search": "치평동 초등 수학학원 광주 광주 / 광주 서구 gwangju seogu chipyeongdong elementarymath"
+  },
+  {
+    "title": "치평동 초등 영어학원",
+    "region": "gwangju",
+    "regionName": "광주",
+    "kind": "local",
+    "parent": "광주 / 광주 서구",
+    "url": "/center/gwangju/seogu/chipyeongdong/elementaryenglish/",
+    "search": "치평동 초등 영어학원 광주 광주 / 광주 서구 gwangju seogu chipyeongdong elementaryenglish"
   },
   {
     "title": "치평동 초등학생학원",
@@ -26712,6 +30456,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "감삼동 중학생학원 대구 대구 / 대구 달서구 daegu dalseogu gamsamdong middleschool"
   },
   {
+    "title": "감삼동 초등 수학학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 달서구",
+    "url": "/center/daegu/dalseogu/gamsamdong/elementarymath/",
+    "search": "감삼동 초등 수학학원 대구 대구 / 대구 달서구 daegu dalseogu gamsamdong elementarymath"
+  },
+  {
+    "title": "감삼동 초등 영어학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 달서구",
+    "url": "/center/daegu/dalseogu/gamsamdong/elementaryenglish/",
+    "search": "감삼동 초등 영어학원 대구 대구 / 대구 달서구 daegu dalseogu gamsamdong elementaryenglish"
+  },
+  {
     "title": "감삼동 초등학생학원",
     "region": "daegu",
     "regionName": "대구",
@@ -26836,6 +30598,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "대구 / 대구 북구",
     "url": "/center/daegu/bukgu/goseongdong/middleschool/",
     "search": "고성동 중학생학원 대구 대구 / 대구 북구 daegu bukgu goseongdong middleschool"
+  },
+  {
+    "title": "고성동 초등 수학학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 북구",
+    "url": "/center/daegu/bukgu/goseongdong/elementarymath/",
+    "search": "고성동 초등 수학학원 대구 대구 / 대구 북구 daegu bukgu goseongdong elementarymath"
+  },
+  {
+    "title": "고성동 초등 영어학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 북구",
+    "url": "/center/daegu/bukgu/goseongdong/elementaryenglish/",
+    "search": "고성동 초등 영어학원 대구 대구 / 대구 북구 daegu bukgu goseongdong elementaryenglish"
   },
   {
     "title": "고성동 초등학생학원",
@@ -26964,6 +30744,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "구암동 중학생학원 대구 대구 / 대구 북구 daegu bukgu guamdong middleschool"
   },
   {
+    "title": "구암동 초등 수학학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 북구",
+    "url": "/center/daegu/bukgu/guamdong/elementarymath/",
+    "search": "구암동 초등 수학학원 대구 대구 / 대구 북구 daegu bukgu guamdong elementarymath"
+  },
+  {
+    "title": "구암동 초등 영어학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 북구",
+    "url": "/center/daegu/bukgu/guamdong/elementaryenglish/",
+    "search": "구암동 초등 영어학원 대구 대구 / 대구 북구 daegu bukgu guamdong elementaryenglish"
+  },
+  {
     "title": "구암동 초등학생학원",
     "region": "daegu",
     "regionName": "대구",
@@ -27088,6 +30886,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "대구 / 대구 북구",
     "url": "/center/daegu/bukgu/gukudong/middleschool/",
     "search": "국우동 중학생학원 대구 대구 / 대구 북구 daegu bukgu gukudong middleschool"
+  },
+  {
+    "title": "국우동 초등 수학학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 북구",
+    "url": "/center/daegu/bukgu/gukudong/elementarymath/",
+    "search": "국우동 초등 수학학원 대구 대구 / 대구 북구 daegu bukgu gukudong elementarymath"
+  },
+  {
+    "title": "국우동 초등 영어학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 북구",
+    "url": "/center/daegu/bukgu/gukudong/elementaryenglish/",
+    "search": "국우동 초등 영어학원 대구 대구 / 대구 북구 daegu bukgu gukudong elementaryenglish"
   },
   {
     "title": "국우동 초등학생학원",
@@ -27216,6 +31032,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "노변동 중학생학원 대구 대구 / 대구 수성구 daegu suseonggu nobyeondong middleschool"
   },
   {
+    "title": "노변동 초등 수학학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 수성구",
+    "url": "/center/daegu/suseonggu/nobyeondong/elementarymath/",
+    "search": "노변동 초등 수학학원 대구 대구 / 대구 수성구 daegu suseonggu nobyeondong elementarymath"
+  },
+  {
+    "title": "노변동 초등 영어학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 수성구",
+    "url": "/center/daegu/suseonggu/nobyeondong/elementaryenglish/",
+    "search": "노변동 초등 영어학원 대구 대구 / 대구 수성구 daegu suseonggu nobyeondong elementaryenglish"
+  },
+  {
     "title": "노변동 초등학생학원",
     "region": "daegu",
     "regionName": "대구",
@@ -27340,6 +31174,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "대구 / 대구 달서구",
     "url": "/center/daegu/dalseogu/daegu-yucheondong/middleschool/",
     "search": "대구 유천동 중학생학원 대구 대구 / 대구 달서구 daegu dalseogu daegu-yucheondong middleschool"
+  },
+  {
+    "title": "대구 유천동 초등 수학학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 달서구",
+    "url": "/center/daegu/dalseogu/daegu-yucheondong/elementarymath/",
+    "search": "대구 유천동 초등 수학학원 대구 대구 / 대구 달서구 daegu dalseogu daegu-yucheondong elementarymath"
+  },
+  {
+    "title": "대구 유천동 초등 영어학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 달서구",
+    "url": "/center/daegu/dalseogu/daegu-yucheondong/elementaryenglish/",
+    "search": "대구 유천동 초등 영어학원 대구 대구 / 대구 달서구 daegu dalseogu daegu-yucheondong elementaryenglish"
   },
   {
     "title": "대구 유천동 초등학생학원",
@@ -27468,6 +31320,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "대구 장기동 중학생학원 대구 대구 / 대구 달서구 daegu dalseogu daegu-janggidong middleschool"
   },
   {
+    "title": "대구 장기동 초등 수학학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 달서구",
+    "url": "/center/daegu/dalseogu/daegu-janggidong/elementarymath/",
+    "search": "대구 장기동 초등 수학학원 대구 대구 / 대구 달서구 daegu dalseogu daegu-janggidong elementarymath"
+  },
+  {
+    "title": "대구 장기동 초등 영어학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 달서구",
+    "url": "/center/daegu/dalseogu/daegu-janggidong/elementaryenglish/",
+    "search": "대구 장기동 초등 영어학원 대구 대구 / 대구 달서구 daegu dalseogu daegu-janggidong elementaryenglish"
+  },
+  {
     "title": "대구 장기동 초등학생학원",
     "region": "daegu",
     "regionName": "대구",
@@ -27592,6 +31462,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "대구 / 대구 중구",
     "url": "/center/daegu/junggu/daebongdong/middleschool/",
     "search": "대봉동 중학생학원 대구 대구 / 대구 중구 daegu junggu daebongdong middleschool"
+  },
+  {
+    "title": "대봉동 초등 수학학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 중구",
+    "url": "/center/daegu/junggu/daebongdong/elementarymath/",
+    "search": "대봉동 초등 수학학원 대구 대구 / 대구 중구 daegu junggu daebongdong elementarymath"
+  },
+  {
+    "title": "대봉동 초등 영어학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 중구",
+    "url": "/center/daegu/junggu/daebongdong/elementaryenglish/",
+    "search": "대봉동 초등 영어학원 대구 대구 / 대구 중구 daegu junggu daebongdong elementaryenglish"
   },
   {
     "title": "대봉동 초등학생학원",
@@ -27720,6 +31608,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "도남동 중학생학원 대구 대구 / 대구 북구 daegu bukgu donam middleschool"
   },
   {
+    "title": "도남동 초등 수학학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 북구",
+    "url": "/center/daegu/bukgu/donam/elementarymath/",
+    "search": "도남동 초등 수학학원 대구 대구 / 대구 북구 daegu bukgu donam elementarymath"
+  },
+  {
+    "title": "도남동 초등 영어학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 북구",
+    "url": "/center/daegu/bukgu/donam/elementaryenglish/",
+    "search": "도남동 초등 영어학원 대구 대구 / 대구 북구 daegu bukgu donam elementaryenglish"
+  },
+  {
     "title": "도남동 초등학생학원",
     "region": "daegu",
     "regionName": "대구",
@@ -27844,6 +31750,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "대구 / 대구 북구",
     "url": "/center/daegu/bukgu/donamjigu/middleschool/",
     "search": "도남지구 중학생학원 대구 대구 / 대구 북구 daegu bukgu donamjigu middleschool"
+  },
+  {
+    "title": "도남지구 초등 수학학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 북구",
+    "url": "/center/daegu/bukgu/donamjigu/elementarymath/",
+    "search": "도남지구 초등 수학학원 대구 대구 / 대구 북구 daegu bukgu donamjigu elementarymath"
+  },
+  {
+    "title": "도남지구 초등 영어학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 북구",
+    "url": "/center/daegu/bukgu/donamjigu/elementaryenglish/",
+    "search": "도남지구 초등 영어학원 대구 대구 / 대구 북구 daegu bukgu donamjigu elementaryenglish"
   },
   {
     "title": "도남지구 초등학생학원",
@@ -27972,6 +31896,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "동천동 중학생학원 대구 대구 / 대구 북구 daegu bukgu dongcheondong middleschool"
   },
   {
+    "title": "동천동 초등 수학학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 북구",
+    "url": "/center/daegu/bukgu/dongcheondong/elementarymath/",
+    "search": "동천동 초등 수학학원 대구 대구 / 대구 북구 daegu bukgu dongcheondong elementarymath"
+  },
+  {
+    "title": "동천동 초등 영어학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 북구",
+    "url": "/center/daegu/bukgu/dongcheondong/elementaryenglish/",
+    "search": "동천동 초등 영어학원 대구 대구 / 대구 북구 daegu bukgu dongcheondong elementaryenglish"
+  },
+  {
     "title": "동천동 초등학생학원",
     "region": "daegu",
     "regionName": "대구",
@@ -28096,6 +32038,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "대구 / 대구 수성구",
     "url": "/center/daegu/suseonggu/manchondong/middleschool/",
     "search": "만촌동 중학생학원 대구 대구 / 대구 수성구 daegu suseonggu manchondong middleschool"
+  },
+  {
+    "title": "만촌동 초등 수학학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 수성구",
+    "url": "/center/daegu/suseonggu/manchondong/elementarymath/",
+    "search": "만촌동 초등 수학학원 대구 대구 / 대구 수성구 daegu suseonggu manchondong elementarymath"
+  },
+  {
+    "title": "만촌동 초등 영어학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 수성구",
+    "url": "/center/daegu/suseonggu/manchondong/elementaryenglish/",
+    "search": "만촌동 초등 영어학원 대구 대구 / 대구 수성구 daegu suseonggu manchondong elementaryenglish"
   },
   {
     "title": "만촌동 초등학생학원",
@@ -28224,6 +32184,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "범어동 중학생학원 대구 대구 / 대구 수성구 daegu suseonggu beomeodong middleschool"
   },
   {
+    "title": "범어동 초등 수학학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 수성구",
+    "url": "/center/daegu/suseonggu/beomeodong/elementarymath/",
+    "search": "범어동 초등 수학학원 대구 대구 / 대구 수성구 daegu suseonggu beomeodong elementarymath"
+  },
+  {
+    "title": "범어동 초등 영어학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 수성구",
+    "url": "/center/daegu/suseonggu/beomeodong/elementaryenglish/",
+    "search": "범어동 초등 영어학원 대구 대구 / 대구 수성구 daegu suseonggu beomeodong elementaryenglish"
+  },
+  {
     "title": "범어동 초등학생학원",
     "region": "daegu",
     "regionName": "대구",
@@ -28348,6 +32326,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "대구 / 대구 북구",
     "url": "/center/daegu/bukgu/bokhyeondong/middleschool/",
     "search": "복현동 중학생학원 대구 대구 / 대구 북구 daegu bukgu bokhyeondong middleschool"
+  },
+  {
+    "title": "복현동 초등 수학학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 북구",
+    "url": "/center/daegu/bukgu/bokhyeondong/elementarymath/",
+    "search": "복현동 초등 수학학원 대구 대구 / 대구 북구 daegu bukgu bokhyeondong elementarymath"
+  },
+  {
+    "title": "복현동 초등 영어학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 북구",
+    "url": "/center/daegu/bukgu/bokhyeondong/elementaryenglish/",
+    "search": "복현동 초등 영어학원 대구 대구 / 대구 북구 daegu bukgu bokhyeondong elementaryenglish"
   },
   {
     "title": "복현동 초등학생학원",
@@ -28476,6 +32472,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "본리동 중학생학원 대구 대구 / 대구 달서구 daegu dalseogu bonridong middleschool"
   },
   {
+    "title": "본리동 초등 수학학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 달서구",
+    "url": "/center/daegu/dalseogu/bonridong/elementarymath/",
+    "search": "본리동 초등 수학학원 대구 대구 / 대구 달서구 daegu dalseogu bonridong elementarymath"
+  },
+  {
+    "title": "본리동 초등 영어학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 달서구",
+    "url": "/center/daegu/dalseogu/bonridong/elementaryenglish/",
+    "search": "본리동 초등 영어학원 대구 대구 / 대구 달서구 daegu dalseogu bonridong elementaryenglish"
+  },
+  {
     "title": "본리동 초등학생학원",
     "region": "daegu",
     "regionName": "대구",
@@ -28600,6 +32614,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "대구 / 대구 동구",
     "url": "/center/daegu/donggu/bongmudong/middleschool/",
     "search": "봉무동 중학생학원 대구 대구 / 대구 동구 daegu donggu bongmudong middleschool"
+  },
+  {
+    "title": "봉무동 초등 수학학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 동구",
+    "url": "/center/daegu/donggu/bongmudong/elementarymath/",
+    "search": "봉무동 초등 수학학원 대구 대구 / 대구 동구 daegu donggu bongmudong elementarymath"
+  },
+  {
+    "title": "봉무동 초등 영어학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 동구",
+    "url": "/center/daegu/donggu/bongmudong/elementaryenglish/",
+    "search": "봉무동 초등 영어학원 대구 대구 / 대구 동구 daegu donggu bongmudong elementaryenglish"
   },
   {
     "title": "봉무동 초등학생학원",
@@ -28728,6 +32760,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "봉산동 중학생학원 대구 대구 / 대구 중구 daegu junggu bongsandong middleschool"
   },
   {
+    "title": "봉산동 초등 수학학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 중구",
+    "url": "/center/daegu/junggu/bongsandong/elementarymath/",
+    "search": "봉산동 초등 수학학원 대구 대구 / 대구 중구 daegu junggu bongsandong elementarymath"
+  },
+  {
+    "title": "봉산동 초등 영어학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 중구",
+    "url": "/center/daegu/junggu/bongsandong/elementaryenglish/",
+    "search": "봉산동 초등 영어학원 대구 대구 / 대구 중구 daegu junggu bongsandong elementaryenglish"
+  },
+  {
     "title": "봉산동 초등학생학원",
     "region": "daegu",
     "regionName": "대구",
@@ -28852,6 +32902,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "대구 / 대구 북구",
     "url": "/center/daegu/bukgu/sangyeokdong/middleschool/",
     "search": "산격동 중학생학원 대구 대구 / 대구 북구 daegu bukgu sangyeokdong middleschool"
+  },
+  {
+    "title": "산격동 초등 수학학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 북구",
+    "url": "/center/daegu/bukgu/sangyeokdong/elementarymath/",
+    "search": "산격동 초등 수학학원 대구 대구 / 대구 북구 daegu bukgu sangyeokdong elementarymath"
+  },
+  {
+    "title": "산격동 초등 영어학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 북구",
+    "url": "/center/daegu/bukgu/sangyeokdong/elementaryenglish/",
+    "search": "산격동 초등 영어학원 대구 대구 / 대구 북구 daegu bukgu sangyeokdong elementaryenglish"
   },
   {
     "title": "산격동 초등학생학원",
@@ -28980,6 +33048,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "상인동 중학생학원 대구 대구 / 대구 달서구 daegu dalseogu sangindong middleschool"
   },
   {
+    "title": "상인동 초등 수학학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 달서구",
+    "url": "/center/daegu/dalseogu/sangindong/elementarymath/",
+    "search": "상인동 초등 수학학원 대구 대구 / 대구 달서구 daegu dalseogu sangindong elementarymath"
+  },
+  {
+    "title": "상인동 초등 영어학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 달서구",
+    "url": "/center/daegu/dalseogu/sangindong/elementaryenglish/",
+    "search": "상인동 초등 영어학원 대구 대구 / 대구 달서구 daegu dalseogu sangindong elementaryenglish"
+  },
+  {
     "title": "상인동 초등학생학원",
     "region": "daegu",
     "regionName": "대구",
@@ -29104,6 +33190,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "대구 / 대구 달서구",
     "url": "/center/daegu/dalseogu/seongseo/middleschool/",
     "search": "성서 중학생학원 대구 대구 / 대구 달서구 daegu dalseogu seongseo middleschool"
+  },
+  {
+    "title": "성서 초등 수학학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 달서구",
+    "url": "/center/daegu/dalseogu/seongseo/elementarymath/",
+    "search": "성서 초등 수학학원 대구 대구 / 대구 달서구 daegu dalseogu seongseo elementarymath"
+  },
+  {
+    "title": "성서 초등 영어학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 달서구",
+    "url": "/center/daegu/dalseogu/seongseo/elementaryenglish/",
+    "search": "성서 초등 영어학원 대구 대구 / 대구 달서구 daegu dalseogu seongseo elementaryenglish"
   },
   {
     "title": "성서 초등학생학원",
@@ -29232,6 +33336,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "수성동 중학생학원 대구 대구 / 대구 수성구 daegu suseonggu suseongdong middleschool"
   },
   {
+    "title": "수성동 초등 수학학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 수성구",
+    "url": "/center/daegu/suseonggu/suseongdong/elementarymath/",
+    "search": "수성동 초등 수학학원 대구 대구 / 대구 수성구 daegu suseonggu suseongdong elementarymath"
+  },
+  {
+    "title": "수성동 초등 영어학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 수성구",
+    "url": "/center/daegu/suseonggu/suseongdong/elementaryenglish/",
+    "search": "수성동 초등 영어학원 대구 대구 / 대구 수성구 daegu suseonggu suseongdong elementaryenglish"
+  },
+  {
     "title": "수성동 초등학생학원",
     "region": "daegu",
     "regionName": "대구",
@@ -29356,6 +33478,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "대구 / 대구 중구",
     "url": "/center/daegu/junggu/suchangdong/middleschool/",
     "search": "수창동 중학생학원 대구 대구 / 대구 중구 daegu junggu suchangdong middleschool"
+  },
+  {
+    "title": "수창동 초등 수학학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 중구",
+    "url": "/center/daegu/junggu/suchangdong/elementarymath/",
+    "search": "수창동 초등 수학학원 대구 대구 / 대구 중구 daegu junggu suchangdong elementarymath"
+  },
+  {
+    "title": "수창동 초등 영어학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 중구",
+    "url": "/center/daegu/junggu/suchangdong/elementaryenglish/",
+    "search": "수창동 초등 영어학원 대구 대구 / 대구 중구 daegu junggu suchangdong elementaryenglish"
   },
   {
     "title": "수창동 초등학생학원",
@@ -29484,6 +33624,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "시지동 중학생학원 대구 대구 / 대구 수성구 daegu suseonggu sijidong middleschool"
   },
   {
+    "title": "시지동 초등 수학학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 수성구",
+    "url": "/center/daegu/suseonggu/sijidong/elementarymath/",
+    "search": "시지동 초등 수학학원 대구 대구 / 대구 수성구 daegu suseonggu sijidong elementarymath"
+  },
+  {
+    "title": "시지동 초등 영어학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 수성구",
+    "url": "/center/daegu/suseonggu/sijidong/elementaryenglish/",
+    "search": "시지동 초등 영어학원 대구 대구 / 대구 수성구 daegu suseonggu sijidong elementaryenglish"
+  },
+  {
     "title": "시지동 초등학생학원",
     "region": "daegu",
     "regionName": "대구",
@@ -29608,6 +33766,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "대구 / 대구 동구",
     "url": "/center/daegu/donggu/singidong/middleschool/",
     "search": "신기동 중학생학원 대구 대구 / 대구 동구 daegu donggu singidong middleschool"
+  },
+  {
+    "title": "신기동 초등 수학학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 동구",
+    "url": "/center/daegu/donggu/singidong/elementarymath/",
+    "search": "신기동 초등 수학학원 대구 대구 / 대구 동구 daegu donggu singidong elementarymath"
+  },
+  {
+    "title": "신기동 초등 영어학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 동구",
+    "url": "/center/daegu/donggu/singidong/elementaryenglish/",
+    "search": "신기동 초등 영어학원 대구 대구 / 대구 동구 daegu donggu singidong elementaryenglish"
   },
   {
     "title": "신기동 초등학생학원",
@@ -29736,6 +33912,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "신당동 중학생학원 대구 대구 / 대구 달서구 daegu dalseogu sindangdong middleschool"
   },
   {
+    "title": "신당동 초등 수학학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 달서구",
+    "url": "/center/daegu/dalseogu/sindangdong/elementarymath/",
+    "search": "신당동 초등 수학학원 대구 대구 / 대구 달서구 daegu dalseogu sindangdong elementarymath"
+  },
+  {
+    "title": "신당동 초등 영어학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 달서구",
+    "url": "/center/daegu/dalseogu/sindangdong/elementaryenglish/",
+    "search": "신당동 초등 영어학원 대구 대구 / 대구 달서구 daegu dalseogu sindangdong elementaryenglish"
+  },
+  {
     "title": "신당동 초등학생학원",
     "region": "daegu",
     "regionName": "대구",
@@ -29860,6 +34054,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "대구 / 대구 달서구",
     "url": "/center/daegu/dalseogu/sinwolseong/middleschool/",
     "search": "신월성 중학생학원 대구 대구 / 대구 달서구 daegu dalseogu sinwolseong middleschool"
+  },
+  {
+    "title": "신월성 초등 수학학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 달서구",
+    "url": "/center/daegu/dalseogu/sinwolseong/elementarymath/",
+    "search": "신월성 초등 수학학원 대구 대구 / 대구 달서구 daegu dalseogu sinwolseong elementarymath"
+  },
+  {
+    "title": "신월성 초등 영어학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 달서구",
+    "url": "/center/daegu/dalseogu/sinwolseong/elementaryenglish/",
+    "search": "신월성 초등 영어학원 대구 대구 / 대구 달서구 daegu dalseogu sinwolseong elementaryenglish"
   },
   {
     "title": "신월성 초등학생학원",
@@ -29988,6 +34200,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "신천동 중학생학원 대구 대구 / 대구 수성구 daegu suseonggu sincheondong middleschool"
   },
   {
+    "title": "신천동 초등 수학학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 수성구",
+    "url": "/center/daegu/suseonggu/sincheondong/elementarymath/",
+    "search": "신천동 초등 수학학원 대구 대구 / 대구 수성구 daegu suseonggu sincheondong elementarymath"
+  },
+  {
+    "title": "신천동 초등 영어학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 수성구",
+    "url": "/center/daegu/suseonggu/sincheondong/elementaryenglish/",
+    "search": "신천동 초등 영어학원 대구 대구 / 대구 수성구 daegu suseonggu sincheondong elementaryenglish"
+  },
+  {
     "title": "신천동 초등학생학원",
     "region": "daegu",
     "regionName": "대구",
@@ -30112,6 +34342,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "대구 / 대구 달서구",
     "url": "/center/daegu/dalseogu/yongsandong/middleschool/",
     "search": "용산동 중학생학원 대구 대구 / 대구 달서구 daegu dalseogu yongsandong middleschool"
+  },
+  {
+    "title": "용산동 초등 수학학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 달서구",
+    "url": "/center/daegu/dalseogu/yongsandong/elementarymath/",
+    "search": "용산동 초등 수학학원 대구 대구 / 대구 달서구 daegu dalseogu yongsandong elementarymath"
+  },
+  {
+    "title": "용산동 초등 영어학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 달서구",
+    "url": "/center/daegu/dalseogu/yongsandong/elementaryenglish/",
+    "search": "용산동 초등 영어학원 대구 대구 / 대구 달서구 daegu dalseogu yongsandong elementaryenglish"
   },
   {
     "title": "용산동 초등학생학원",
@@ -30240,6 +34488,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "월성동 중학생학원 대구 대구 / 대구 달서구 daegu dalseogu wolseongdong middleschool"
   },
   {
+    "title": "월성동 초등 수학학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 달서구",
+    "url": "/center/daegu/dalseogu/wolseongdong/elementarymath/",
+    "search": "월성동 초등 수학학원 대구 대구 / 대구 달서구 daegu dalseogu wolseongdong elementarymath"
+  },
+  {
+    "title": "월성동 초등 영어학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 달서구",
+    "url": "/center/daegu/dalseogu/wolseongdong/elementaryenglish/",
+    "search": "월성동 초등 영어학원 대구 대구 / 대구 달서구 daegu dalseogu wolseongdong elementaryenglish"
+  },
+  {
     "title": "월성동 초등학생학원",
     "region": "daegu",
     "regionName": "대구",
@@ -30364,6 +34630,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "대구 / 대구 동구",
     "url": "/center/daegu/donggu/yulhadong/middleschool/",
     "search": "율하동 중학생학원 대구 대구 / 대구 동구 daegu donggu yulhadong middleschool"
+  },
+  {
+    "title": "율하동 초등 수학학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 동구",
+    "url": "/center/daegu/donggu/yulhadong/elementarymath/",
+    "search": "율하동 초등 수학학원 대구 대구 / 대구 동구 daegu donggu yulhadong elementarymath"
+  },
+  {
+    "title": "율하동 초등 영어학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 동구",
+    "url": "/center/daegu/donggu/yulhadong/elementaryenglish/",
+    "search": "율하동 초등 영어학원 대구 대구 / 대구 동구 daegu donggu yulhadong elementaryenglish"
   },
   {
     "title": "율하동 초등학생학원",
@@ -30492,6 +34776,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "이곡동 중학생학원 대구 대구 / 대구 달서구 daegu dalseogu igokdong middleschool"
   },
   {
+    "title": "이곡동 초등 수학학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 달서구",
+    "url": "/center/daegu/dalseogu/igokdong/elementarymath/",
+    "search": "이곡동 초등 수학학원 대구 대구 / 대구 달서구 daegu dalseogu igokdong elementarymath"
+  },
+  {
+    "title": "이곡동 초등 영어학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 달서구",
+    "url": "/center/daegu/dalseogu/igokdong/elementaryenglish/",
+    "search": "이곡동 초등 영어학원 대구 대구 / 대구 달서구 daegu dalseogu igokdong elementaryenglish"
+  },
+  {
     "title": "이곡동 초등학생학원",
     "region": "daegu",
     "regionName": "대구",
@@ -30616,6 +34918,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "대구 / 대구 동구",
     "url": "/center/daegu/donggu/isiapolriseu/middleschool/",
     "search": "이시아폴리스 중학생학원 대구 대구 / 대구 동구 daegu donggu isiapolriseu middleschool"
+  },
+  {
+    "title": "이시아폴리스 초등 수학학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 동구",
+    "url": "/center/daegu/donggu/isiapolriseu/elementarymath/",
+    "search": "이시아폴리스 초등 수학학원 대구 대구 / 대구 동구 daegu donggu isiapolriseu elementarymath"
+  },
+  {
+    "title": "이시아폴리스 초등 영어학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 동구",
+    "url": "/center/daegu/donggu/isiapolriseu/elementaryenglish/",
+    "search": "이시아폴리스 초등 영어학원 대구 대구 / 대구 동구 daegu donggu isiapolriseu elementaryenglish"
   },
   {
     "title": "이시아폴리스 초등학생학원",
@@ -30744,6 +35064,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "죽전동 중학생학원 대구 대구 / 대구 달서구 daegu dalseogu jukjeondong middleschool"
   },
   {
+    "title": "죽전동 초등 수학학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 달서구",
+    "url": "/center/daegu/dalseogu/jukjeondong/elementarymath/",
+    "search": "죽전동 초등 수학학원 대구 대구 / 대구 달서구 daegu dalseogu jukjeondong elementarymath"
+  },
+  {
+    "title": "죽전동 초등 영어학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 달서구",
+    "url": "/center/daegu/dalseogu/jukjeondong/elementaryenglish/",
+    "search": "죽전동 초등 영어학원 대구 대구 / 대구 달서구 daegu dalseogu jukjeondong elementaryenglish"
+  },
+  {
     "title": "죽전동 초등학생학원",
     "region": "daegu",
     "regionName": "대구",
@@ -30868,6 +35206,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "대구 / 대구 달서구",
     "url": "/center/daegu/dalseogu/jincheondong/middleschool/",
     "search": "진천동 중학생학원 대구 대구 / 대구 달서구 daegu dalseogu jincheondong middleschool"
+  },
+  {
+    "title": "진천동 초등 수학학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 달서구",
+    "url": "/center/daegu/dalseogu/jincheondong/elementarymath/",
+    "search": "진천동 초등 수학학원 대구 대구 / 대구 달서구 daegu dalseogu jincheondong elementarymath"
+  },
+  {
+    "title": "진천동 초등 영어학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 달서구",
+    "url": "/center/daegu/dalseogu/jincheondong/elementaryenglish/",
+    "search": "진천동 초등 영어학원 대구 대구 / 대구 달서구 daegu dalseogu jincheondong elementaryenglish"
   },
   {
     "title": "진천동 초등학생학원",
@@ -30996,6 +35352,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "칠곡 중학생학원 대구 대구 / 대구 북구 daegu bukgu chilgok middleschool"
   },
   {
+    "title": "칠곡 초등 수학학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 북구",
+    "url": "/center/daegu/bukgu/chilgok/elementarymath/",
+    "search": "칠곡 초등 수학학원 대구 대구 / 대구 북구 daegu bukgu chilgok elementarymath"
+  },
+  {
+    "title": "칠곡 초등 영어학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 북구",
+    "url": "/center/daegu/bukgu/chilgok/elementaryenglish/",
+    "search": "칠곡 초등 영어학원 대구 대구 / 대구 북구 daegu bukgu chilgok elementaryenglish"
+  },
+  {
     "title": "칠곡 초등학생학원",
     "region": "daegu",
     "regionName": "대구",
@@ -31122,6 +35496,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "칠성동 중학생학원 대구 대구 / 대구 북구 daegu bukgu chilseongdong middleschool"
   },
   {
+    "title": "칠성동 초등 수학학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 북구",
+    "url": "/center/daegu/bukgu/chilseongdong/elementarymath/",
+    "search": "칠성동 초등 수학학원 대구 대구 / 대구 북구 daegu bukgu chilseongdong elementarymath"
+  },
+  {
+    "title": "칠성동 초등 영어학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 북구",
+    "url": "/center/daegu/bukgu/chilseongdong/elementaryenglish/",
+    "search": "칠성동 초등 영어학원 대구 대구 / 대구 북구 daegu bukgu chilseongdong elementaryenglish"
+  },
+  {
     "title": "칠성동 초등학생학원",
     "region": "daegu",
     "regionName": "대구",
@@ -31246,6 +35638,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "대구 / 대구 북구",
     "url": "/center/daegu/bukgu/chimsandong/middleschool/",
     "search": "침산동 중학생학원 대구 대구 / 대구 북구 daegu bukgu chimsandong middleschool"
+  },
+  {
+    "title": "침산동 초등 수학학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 북구",
+    "url": "/center/daegu/bukgu/chimsandong/elementarymath/",
+    "search": "침산동 초등 수학학원 대구 대구 / 대구 북구 daegu bukgu chimsandong elementarymath"
+  },
+  {
+    "title": "침산동 초등 영어학원",
+    "region": "daegu",
+    "regionName": "대구",
+    "kind": "local",
+    "parent": "대구 / 대구 북구",
+    "url": "/center/daegu/bukgu/chimsandong/elementaryenglish/",
+    "search": "침산동 초등 영어학원 대구 대구 / 대구 북구 daegu bukgu chimsandong elementaryenglish"
   },
   {
     "title": "침산동 초등학생학원",
@@ -31419,6 +35829,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "관저동 중학생학원 대전 대전 / 대전 서구 daejeon seogu gwanjeodong middleschool"
   },
   {
+    "title": "관저동 초등 수학학원",
+    "region": "daejeon",
+    "regionName": "대전",
+    "kind": "local",
+    "parent": "대전 / 대전 서구",
+    "url": "/center/daejeon/seogu/gwanjeodong/elementarymath/",
+    "search": "관저동 초등 수학학원 대전 대전 / 대전 서구 daejeon seogu gwanjeodong elementarymath"
+  },
+  {
+    "title": "관저동 초등 영어학원",
+    "region": "daejeon",
+    "regionName": "대전",
+    "kind": "local",
+    "parent": "대전 / 대전 서구",
+    "url": "/center/daejeon/seogu/gwanjeodong/elementaryenglish/",
+    "search": "관저동 초등 영어학원 대전 대전 / 대전 서구 daejeon seogu gwanjeodong elementaryenglish"
+  },
+  {
     "title": "관저동 초등학생학원",
     "region": "daejeon",
     "regionName": "대전",
@@ -31543,6 +35971,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "대전 / 대전 유성구",
     "url": "/center/daejeon/yuseonggu/gwanpyeongdong/middleschool/",
     "search": "관평동 중학생학원 대전 대전 / 대전 유성구 daejeon yuseonggu gwanpyeongdong middleschool"
+  },
+  {
+    "title": "관평동 초등 수학학원",
+    "region": "daejeon",
+    "regionName": "대전",
+    "kind": "local",
+    "parent": "대전 / 대전 유성구",
+    "url": "/center/daejeon/yuseonggu/gwanpyeongdong/elementarymath/",
+    "search": "관평동 초등 수학학원 대전 대전 / 대전 유성구 daejeon yuseonggu gwanpyeongdong elementarymath"
+  },
+  {
+    "title": "관평동 초등 영어학원",
+    "region": "daejeon",
+    "regionName": "대전",
+    "kind": "local",
+    "parent": "대전 / 대전 유성구",
+    "url": "/center/daejeon/yuseonggu/gwanpyeongdong/elementaryenglish/",
+    "search": "관평동 초등 영어학원 대전 대전 / 대전 유성구 daejeon yuseonggu gwanpyeongdong elementaryenglish"
   },
   {
     "title": "관평동 초등학생학원",
@@ -31671,6 +36117,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "노은동 중학생학원 대전 대전 / 대전 유성구 daejeon yuseonggu noeundong middleschool"
   },
   {
+    "title": "노은동 초등 수학학원",
+    "region": "daejeon",
+    "regionName": "대전",
+    "kind": "local",
+    "parent": "대전 / 대전 유성구",
+    "url": "/center/daejeon/yuseonggu/noeundong/elementarymath/",
+    "search": "노은동 초등 수학학원 대전 대전 / 대전 유성구 daejeon yuseonggu noeundong elementarymath"
+  },
+  {
+    "title": "노은동 초등 영어학원",
+    "region": "daejeon",
+    "regionName": "대전",
+    "kind": "local",
+    "parent": "대전 / 대전 유성구",
+    "url": "/center/daejeon/yuseonggu/noeundong/elementaryenglish/",
+    "search": "노은동 초등 영어학원 대전 대전 / 대전 유성구 daejeon yuseonggu noeundong elementaryenglish"
+  },
+  {
     "title": "노은동 초등학생학원",
     "region": "daejeon",
     "regionName": "대전",
@@ -31795,6 +36259,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "대전 / 대전 중구",
     "url": "/center/daejeon/junggu/domadong/middleschool/",
     "search": "도마동 중학생학원 대전 대전 / 대전 중구 daejeon junggu domadong middleschool"
+  },
+  {
+    "title": "도마동 초등 수학학원",
+    "region": "daejeon",
+    "regionName": "대전",
+    "kind": "local",
+    "parent": "대전 / 대전 중구",
+    "url": "/center/daejeon/junggu/domadong/elementarymath/",
+    "search": "도마동 초등 수학학원 대전 대전 / 대전 중구 daejeon junggu domadong elementarymath"
+  },
+  {
+    "title": "도마동 초등 영어학원",
+    "region": "daejeon",
+    "regionName": "대전",
+    "kind": "local",
+    "parent": "대전 / 대전 중구",
+    "url": "/center/daejeon/junggu/domadong/elementaryenglish/",
+    "search": "도마동 초등 영어학원 대전 대전 / 대전 중구 daejeon junggu domadong elementaryenglish"
   },
   {
     "title": "도마동 초등학생학원",
@@ -31923,6 +36405,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "도안동 중학생학원 대전 대전 / 대전 서구 daejeon seogu doandong middleschool"
   },
   {
+    "title": "도안동 초등 수학학원",
+    "region": "daejeon",
+    "regionName": "대전",
+    "kind": "local",
+    "parent": "대전 / 대전 서구",
+    "url": "/center/daejeon/seogu/doandong/elementarymath/",
+    "search": "도안동 초등 수학학원 대전 대전 / 대전 서구 daejeon seogu doandong elementarymath"
+  },
+  {
+    "title": "도안동 초등 영어학원",
+    "region": "daejeon",
+    "regionName": "대전",
+    "kind": "local",
+    "parent": "대전 / 대전 서구",
+    "url": "/center/daejeon/seogu/doandong/elementaryenglish/",
+    "search": "도안동 초등 영어학원 대전 대전 / 대전 서구 daejeon seogu doandong elementaryenglish"
+  },
+  {
     "title": "도안동 초등학생학원",
     "region": "daejeon",
     "regionName": "대전",
@@ -32047,6 +36547,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "대전 / 대전 서구",
     "url": "/center/daejeon/seogu/doansindosi/middleschool/",
     "search": "도안신도시 중학생학원 대전 대전 / 대전 서구 daejeon seogu doansindosi middleschool"
+  },
+  {
+    "title": "도안신도시 초등 수학학원",
+    "region": "daejeon",
+    "regionName": "대전",
+    "kind": "local",
+    "parent": "대전 / 대전 서구",
+    "url": "/center/daejeon/seogu/doansindosi/elementarymath/",
+    "search": "도안신도시 초등 수학학원 대전 대전 / 대전 서구 daejeon seogu doansindosi elementarymath"
+  },
+  {
+    "title": "도안신도시 초등 영어학원",
+    "region": "daejeon",
+    "regionName": "대전",
+    "kind": "local",
+    "parent": "대전 / 대전 서구",
+    "url": "/center/daejeon/seogu/doansindosi/elementaryenglish/",
+    "search": "도안신도시 초등 영어학원 대전 대전 / 대전 서구 daejeon seogu doansindosi elementaryenglish"
   },
   {
     "title": "도안신도시 초등학생학원",
@@ -32175,6 +36693,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "둔산동 중학생학원 대전 대전 / 대전 서구 daejeon seogu dunsandong middleschool"
   },
   {
+    "title": "둔산동 초등 수학학원",
+    "region": "daejeon",
+    "regionName": "대전",
+    "kind": "local",
+    "parent": "대전 / 대전 서구",
+    "url": "/center/daejeon/seogu/dunsandong/elementarymath/",
+    "search": "둔산동 초등 수학학원 대전 대전 / 대전 서구 daejeon seogu dunsandong elementarymath"
+  },
+  {
+    "title": "둔산동 초등 영어학원",
+    "region": "daejeon",
+    "regionName": "대전",
+    "kind": "local",
+    "parent": "대전 / 대전 서구",
+    "url": "/center/daejeon/seogu/dunsandong/elementaryenglish/",
+    "search": "둔산동 초등 영어학원 대전 대전 / 대전 서구 daejeon seogu dunsandong elementaryenglish"
+  },
+  {
     "title": "둔산동 초등학생학원",
     "region": "daejeon",
     "regionName": "대전",
@@ -32299,6 +36835,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "대전 / 대전 유성구",
     "url": "/center/daejeon/yuseonggu/banseokdong/middleschool/",
     "search": "반석동 중학생학원 대전 대전 / 대전 유성구 daejeon yuseonggu banseokdong middleschool"
+  },
+  {
+    "title": "반석동 초등 수학학원",
+    "region": "daejeon",
+    "regionName": "대전",
+    "kind": "local",
+    "parent": "대전 / 대전 유성구",
+    "url": "/center/daejeon/yuseonggu/banseokdong/elementarymath/",
+    "search": "반석동 초등 수학학원 대전 대전 / 대전 유성구 daejeon yuseonggu banseokdong elementarymath"
+  },
+  {
+    "title": "반석동 초등 영어학원",
+    "region": "daejeon",
+    "regionName": "대전",
+    "kind": "local",
+    "parent": "대전 / 대전 유성구",
+    "url": "/center/daejeon/yuseonggu/banseokdong/elementaryenglish/",
+    "search": "반석동 초등 영어학원 대전 대전 / 대전 유성구 daejeon yuseonggu banseokdong elementaryenglish"
   },
   {
     "title": "반석동 초등학생학원",
@@ -32427,6 +36981,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "법동 중학생학원 대전 대전 / 대전 대덕구 daejeon daedeokgu beopdong middleschool"
   },
   {
+    "title": "법동 초등 수학학원",
+    "region": "daejeon",
+    "regionName": "대전",
+    "kind": "local",
+    "parent": "대전 / 대전 대덕구",
+    "url": "/center/daejeon/daedeokgu/beopdong/elementarymath/",
+    "search": "법동 초등 수학학원 대전 대전 / 대전 대덕구 daejeon daedeokgu beopdong elementarymath"
+  },
+  {
+    "title": "법동 초등 영어학원",
+    "region": "daejeon",
+    "regionName": "대전",
+    "kind": "local",
+    "parent": "대전 / 대전 대덕구",
+    "url": "/center/daejeon/daedeokgu/beopdong/elementaryenglish/",
+    "search": "법동 초등 영어학원 대전 대전 / 대전 대덕구 daejeon daedeokgu beopdong elementaryenglish"
+  },
+  {
     "title": "법동 초등학생학원",
     "region": "daejeon",
     "regionName": "대전",
@@ -32551,6 +37123,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "대전 / 대전 대덕구",
     "url": "/center/daejeon/daedeokgu/biraedong/middleschool/",
     "search": "비래동 중학생학원 대전 대전 / 대전 대덕구 daejeon daedeokgu biraedong middleschool"
+  },
+  {
+    "title": "비래동 초등 수학학원",
+    "region": "daejeon",
+    "regionName": "대전",
+    "kind": "local",
+    "parent": "대전 / 대전 대덕구",
+    "url": "/center/daejeon/daedeokgu/biraedong/elementarymath/",
+    "search": "비래동 초등 수학학원 대전 대전 / 대전 대덕구 daejeon daedeokgu biraedong elementarymath"
+  },
+  {
+    "title": "비래동 초등 영어학원",
+    "region": "daejeon",
+    "regionName": "대전",
+    "kind": "local",
+    "parent": "대전 / 대전 대덕구",
+    "url": "/center/daejeon/daedeokgu/biraedong/elementaryenglish/",
+    "search": "비래동 초등 영어학원 대전 대전 / 대전 대덕구 daejeon daedeokgu biraedong elementaryenglish"
   },
   {
     "title": "비래동 초등학생학원",
@@ -32679,6 +37269,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "송강동 중학생학원 대전 대전 / 대전 유성구 daejeon yuseonggu songgangdong middleschool"
   },
   {
+    "title": "송강동 초등 수학학원",
+    "region": "daejeon",
+    "regionName": "대전",
+    "kind": "local",
+    "parent": "대전 / 대전 유성구",
+    "url": "/center/daejeon/yuseonggu/songgangdong/elementarymath/",
+    "search": "송강동 초등 수학학원 대전 대전 / 대전 유성구 daejeon yuseonggu songgangdong elementarymath"
+  },
+  {
+    "title": "송강동 초등 영어학원",
+    "region": "daejeon",
+    "regionName": "대전",
+    "kind": "local",
+    "parent": "대전 / 대전 유성구",
+    "url": "/center/daejeon/yuseonggu/songgangdong/elementaryenglish/",
+    "search": "송강동 초등 영어학원 대전 대전 / 대전 유성구 daejeon yuseonggu songgangdong elementaryenglish"
+  },
+  {
     "title": "송강동 초등학생학원",
     "region": "daejeon",
     "regionName": "대전",
@@ -32803,6 +37411,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "대전 / 대전 대덕구",
     "url": "/center/daejeon/daedeokgu/songchondong/middleschool/",
     "search": "송촌동 중학생학원 대전 대전 / 대전 대덕구 daejeon daedeokgu songchondong middleschool"
+  },
+  {
+    "title": "송촌동 초등 수학학원",
+    "region": "daejeon",
+    "regionName": "대전",
+    "kind": "local",
+    "parent": "대전 / 대전 대덕구",
+    "url": "/center/daejeon/daedeokgu/songchondong/elementarymath/",
+    "search": "송촌동 초등 수학학원 대전 대전 / 대전 대덕구 daejeon daedeokgu songchondong elementarymath"
+  },
+  {
+    "title": "송촌동 초등 영어학원",
+    "region": "daejeon",
+    "regionName": "대전",
+    "kind": "local",
+    "parent": "대전 / 대전 대덕구",
+    "url": "/center/daejeon/daedeokgu/songchondong/elementaryenglish/",
+    "search": "송촌동 초등 영어학원 대전 대전 / 대전 대덕구 daejeon daedeokgu songchondong elementaryenglish"
   },
   {
     "title": "송촌동 초등학생학원",
@@ -32931,6 +37557,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "원내동 중학생학원 대전 대전 / 대전 서구 daejeon seogu wonnaedong middleschool"
   },
   {
+    "title": "원내동 초등 수학학원",
+    "region": "daejeon",
+    "regionName": "대전",
+    "kind": "local",
+    "parent": "대전 / 대전 서구",
+    "url": "/center/daejeon/seogu/wonnaedong/elementarymath/",
+    "search": "원내동 초등 수학학원 대전 대전 / 대전 서구 daejeon seogu wonnaedong elementarymath"
+  },
+  {
+    "title": "원내동 초등 영어학원",
+    "region": "daejeon",
+    "regionName": "대전",
+    "kind": "local",
+    "parent": "대전 / 대전 서구",
+    "url": "/center/daejeon/seogu/wonnaedong/elementaryenglish/",
+    "search": "원내동 초등 영어학원 대전 대전 / 대전 서구 daejeon seogu wonnaedong elementaryenglish"
+  },
+  {
     "title": "원내동 초등학생학원",
     "region": "daejeon",
     "regionName": "대전",
@@ -33055,6 +37699,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "대전 / 대전 서구",
     "url": "/center/daejeon/seogu/wonsinheungdong/middleschool/",
     "search": "원신흥동 중학생학원 대전 대전 / 대전 서구 daejeon seogu wonsinheungdong middleschool"
+  },
+  {
+    "title": "원신흥동 초등 수학학원",
+    "region": "daejeon",
+    "regionName": "대전",
+    "kind": "local",
+    "parent": "대전 / 대전 서구",
+    "url": "/center/daejeon/seogu/wonsinheungdong/elementarymath/",
+    "search": "원신흥동 초등 수학학원 대전 대전 / 대전 서구 daejeon seogu wonsinheungdong elementarymath"
+  },
+  {
+    "title": "원신흥동 초등 영어학원",
+    "region": "daejeon",
+    "regionName": "대전",
+    "kind": "local",
+    "parent": "대전 / 대전 서구",
+    "url": "/center/daejeon/seogu/wonsinheungdong/elementaryenglish/",
+    "search": "원신흥동 초등 영어학원 대전 대전 / 대전 서구 daejeon seogu wonsinheungdong elementaryenglish"
   },
   {
     "title": "원신흥동 초등학생학원",
@@ -33183,6 +37845,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "유천동 중학생학원 대전 대전 / 대전 중구 daejeon junggu yucheondong middleschool"
   },
   {
+    "title": "유천동 초등 수학학원",
+    "region": "daejeon",
+    "regionName": "대전",
+    "kind": "local",
+    "parent": "대전 / 대전 중구",
+    "url": "/center/daejeon/junggu/yucheondong/elementarymath/",
+    "search": "유천동 초등 수학학원 대전 대전 / 대전 중구 daejeon junggu yucheondong elementarymath"
+  },
+  {
+    "title": "유천동 초등 영어학원",
+    "region": "daejeon",
+    "regionName": "대전",
+    "kind": "local",
+    "parent": "대전 / 대전 중구",
+    "url": "/center/daejeon/junggu/yucheondong/elementaryenglish/",
+    "search": "유천동 초등 영어학원 대전 대전 / 대전 중구 daejeon junggu yucheondong elementaryenglish"
+  },
+  {
     "title": "유천동 초등학생학원",
     "region": "daejeon",
     "regionName": "대전",
@@ -33307,6 +37987,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "대전 / 대전 유성구",
     "url": "/center/daejeon/yuseonggu/jijokdong/middleschool/",
     "search": "지족동 중학생학원 대전 대전 / 대전 유성구 daejeon yuseonggu jijokdong middleschool"
+  },
+  {
+    "title": "지족동 초등 수학학원",
+    "region": "daejeon",
+    "regionName": "대전",
+    "kind": "local",
+    "parent": "대전 / 대전 유성구",
+    "url": "/center/daejeon/yuseonggu/jijokdong/elementarymath/",
+    "search": "지족동 초등 수학학원 대전 대전 / 대전 유성구 daejeon yuseonggu jijokdong elementarymath"
+  },
+  {
+    "title": "지족동 초등 영어학원",
+    "region": "daejeon",
+    "regionName": "대전",
+    "kind": "local",
+    "parent": "대전 / 대전 유성구",
+    "url": "/center/daejeon/yuseonggu/jijokdong/elementaryenglish/",
+    "search": "지족동 초등 영어학원 대전 대전 / 대전 유성구 daejeon yuseonggu jijokdong elementaryenglish"
   },
   {
     "title": "지족동 초등학생학원",
@@ -33435,6 +38133,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "탄방동 중학생학원 대전 대전 / 대전 서구 daejeon seogu tanbangdong middleschool"
   },
   {
+    "title": "탄방동 초등 수학학원",
+    "region": "daejeon",
+    "regionName": "대전",
+    "kind": "local",
+    "parent": "대전 / 대전 서구",
+    "url": "/center/daejeon/seogu/tanbangdong/elementarymath/",
+    "search": "탄방동 초등 수학학원 대전 대전 / 대전 서구 daejeon seogu tanbangdong elementarymath"
+  },
+  {
+    "title": "탄방동 초등 영어학원",
+    "region": "daejeon",
+    "regionName": "대전",
+    "kind": "local",
+    "parent": "대전 / 대전 서구",
+    "url": "/center/daejeon/seogu/tanbangdong/elementaryenglish/",
+    "search": "탄방동 초등 영어학원 대전 대전 / 대전 서구 daejeon seogu tanbangdong elementaryenglish"
+  },
+  {
     "title": "탄방동 초등학생학원",
     "region": "daejeon",
     "regionName": "대전",
@@ -33559,6 +38275,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "대전 / 대전 중구",
     "url": "/center/daejeon/junggu/taepyeongdong/middleschool/",
     "search": "태평동 중학생학원 대전 대전 / 대전 중구 daejeon junggu taepyeongdong middleschool"
+  },
+  {
+    "title": "태평동 초등 수학학원",
+    "region": "daejeon",
+    "regionName": "대전",
+    "kind": "local",
+    "parent": "대전 / 대전 중구",
+    "url": "/center/daejeon/junggu/taepyeongdong/elementarymath/",
+    "search": "태평동 초등 수학학원 대전 대전 / 대전 중구 daejeon junggu taepyeongdong elementarymath"
+  },
+  {
+    "title": "태평동 초등 영어학원",
+    "region": "daejeon",
+    "regionName": "대전",
+    "kind": "local",
+    "parent": "대전 / 대전 중구",
+    "url": "/center/daejeon/junggu/taepyeongdong/elementaryenglish/",
+    "search": "태평동 초등 영어학원 대전 대전 / 대전 중구 daejeon junggu taepyeongdong elementaryenglish"
   },
   {
     "title": "태평동 초등학생학원",
@@ -33723,6 +38457,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "거제동 중학생학원 부산 부산 / 부산 동래구 busan dongnaegu geojedong middleschool"
   },
   {
+    "title": "거제동 초등 수학학원",
+    "region": "busan",
+    "regionName": "부산",
+    "kind": "local",
+    "parent": "부산 / 부산 동래구",
+    "url": "/center/busan/dongnaegu/geojedong/elementarymath/",
+    "search": "거제동 초등 수학학원 부산 부산 / 부산 동래구 busan dongnaegu geojedong elementarymath"
+  },
+  {
+    "title": "거제동 초등 영어학원",
+    "region": "busan",
+    "regionName": "부산",
+    "kind": "local",
+    "parent": "부산 / 부산 동래구",
+    "url": "/center/busan/dongnaegu/geojedong/elementaryenglish/",
+    "search": "거제동 초등 영어학원 부산 부산 / 부산 동래구 busan dongnaegu geojedong elementaryenglish"
+  },
+  {
     "title": "거제동 초등학생학원",
     "region": "busan",
     "regionName": "부산",
@@ -33847,6 +38599,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "부산 / 부산 해운대구",
     "url": "/center/busan/haeundaegu/banyeodong/middleschool/",
     "search": "반여동 중학생학원 부산 부산 / 부산 해운대구 busan haeundaegu banyeodong middleschool"
+  },
+  {
+    "title": "반여동 초등 수학학원",
+    "region": "busan",
+    "regionName": "부산",
+    "kind": "local",
+    "parent": "부산 / 부산 해운대구",
+    "url": "/center/busan/haeundaegu/banyeodong/elementarymath/",
+    "search": "반여동 초등 수학학원 부산 부산 / 부산 해운대구 busan haeundaegu banyeodong elementarymath"
+  },
+  {
+    "title": "반여동 초등 영어학원",
+    "region": "busan",
+    "regionName": "부산",
+    "kind": "local",
+    "parent": "부산 / 부산 해운대구",
+    "url": "/center/busan/haeundaegu/banyeodong/elementaryenglish/",
+    "search": "반여동 초등 영어학원 부산 부산 / 부산 해운대구 busan haeundaegu banyeodong elementaryenglish"
   },
   {
     "title": "반여동 초등학생학원",
@@ -33975,6 +38745,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "사직동 중학생학원 부산 부산 / 부산 동래구 busan dongnaegu sajikdong middleschool"
   },
   {
+    "title": "사직동 초등 수학학원",
+    "region": "busan",
+    "regionName": "부산",
+    "kind": "local",
+    "parent": "부산 / 부산 동래구",
+    "url": "/center/busan/dongnaegu/sajikdong/elementarymath/",
+    "search": "사직동 초등 수학학원 부산 부산 / 부산 동래구 busan dongnaegu sajikdong elementarymath"
+  },
+  {
+    "title": "사직동 초등 영어학원",
+    "region": "busan",
+    "regionName": "부산",
+    "kind": "local",
+    "parent": "부산 / 부산 동래구",
+    "url": "/center/busan/dongnaegu/sajikdong/elementaryenglish/",
+    "search": "사직동 초등 영어학원 부산 부산 / 부산 동래구 busan dongnaegu sajikdong elementaryenglish"
+  },
+  {
     "title": "사직동 초등학생학원",
     "region": "busan",
     "regionName": "부산",
@@ -34099,6 +38887,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "부산 / 부산 동래구",
     "url": "/center/busan/dongnaegu/oncheondong/middleschool/",
     "search": "온천동 중학생학원 부산 부산 / 부산 동래구 busan dongnaegu oncheondong middleschool"
+  },
+  {
+    "title": "온천동 초등 수학학원",
+    "region": "busan",
+    "regionName": "부산",
+    "kind": "local",
+    "parent": "부산 / 부산 동래구",
+    "url": "/center/busan/dongnaegu/oncheondong/elementarymath/",
+    "search": "온천동 초등 수학학원 부산 부산 / 부산 동래구 busan dongnaegu oncheondong elementarymath"
+  },
+  {
+    "title": "온천동 초등 영어학원",
+    "region": "busan",
+    "regionName": "부산",
+    "kind": "local",
+    "parent": "부산 / 부산 동래구",
+    "url": "/center/busan/dongnaegu/oncheondong/elementaryenglish/",
+    "search": "온천동 초등 영어학원 부산 부산 / 부산 동래구 busan dongnaegu oncheondong elementaryenglish"
   },
   {
     "title": "온천동 초등학생학원",
@@ -34227,6 +39033,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "재송동 중학생학원 부산 부산 / 부산 해운대구 busan haeundaegu jaesongdong middleschool"
   },
   {
+    "title": "재송동 초등 수학학원",
+    "region": "busan",
+    "regionName": "부산",
+    "kind": "local",
+    "parent": "부산 / 부산 해운대구",
+    "url": "/center/busan/haeundaegu/jaesongdong/elementarymath/",
+    "search": "재송동 초등 수학학원 부산 부산 / 부산 해운대구 busan haeundaegu jaesongdong elementarymath"
+  },
+  {
+    "title": "재송동 초등 영어학원",
+    "region": "busan",
+    "regionName": "부산",
+    "kind": "local",
+    "parent": "부산 / 부산 해운대구",
+    "url": "/center/busan/haeundaegu/jaesongdong/elementaryenglish/",
+    "search": "재송동 초등 영어학원 부산 부산 / 부산 해운대구 busan haeundaegu jaesongdong elementaryenglish"
+  },
+  {
     "title": "재송동 초등학생학원",
     "region": "busan",
     "regionName": "부산",
@@ -34351,6 +39175,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "부산 / 부산 해운대구",
     "url": "/center/busan/haeundaegu/jwadong/middleschool/",
     "search": "좌동 중학생학원 부산 부산 / 부산 해운대구 busan haeundaegu jwadong middleschool"
+  },
+  {
+    "title": "좌동 초등 수학학원",
+    "region": "busan",
+    "regionName": "부산",
+    "kind": "local",
+    "parent": "부산 / 부산 해운대구",
+    "url": "/center/busan/haeundaegu/jwadong/elementarymath/",
+    "search": "좌동 초등 수학학원 부산 부산 / 부산 해운대구 busan haeundaegu jwadong elementarymath"
+  },
+  {
+    "title": "좌동 초등 영어학원",
+    "region": "busan",
+    "regionName": "부산",
+    "kind": "local",
+    "parent": "부산 / 부산 해운대구",
+    "url": "/center/busan/haeundaegu/jwadong/elementaryenglish/",
+    "search": "좌동 초등 영어학원 부산 부산 / 부산 해운대구 busan haeundaegu jwadong elementaryenglish"
   },
   {
     "title": "좌동 초등학생학원",
@@ -34479,6 +39321,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "해운대 중동 중학생학원 부산 부산 / 부산 해운대구 busan haeundaegu haeundae-jungdong middleschool"
   },
   {
+    "title": "해운대 중동 초등 수학학원",
+    "region": "busan",
+    "regionName": "부산",
+    "kind": "local",
+    "parent": "부산 / 부산 해운대구",
+    "url": "/center/busan/haeundaegu/haeundae-jungdong/elementarymath/",
+    "search": "해운대 중동 초등 수학학원 부산 부산 / 부산 해운대구 busan haeundaegu haeundae-jungdong elementarymath"
+  },
+  {
+    "title": "해운대 중동 초등 영어학원",
+    "region": "busan",
+    "regionName": "부산",
+    "kind": "local",
+    "parent": "부산 / 부산 해운대구",
+    "url": "/center/busan/haeundaegu/haeundae-jungdong/elementaryenglish/",
+    "search": "해운대 중동 초등 영어학원 부산 부산 / 부산 해운대구 busan haeundaegu haeundae-jungdong elementaryenglish"
+  },
+  {
     "title": "해운대 중동 초등학생학원",
     "region": "busan",
     "regionName": "부산",
@@ -34605,6 +39465,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "화명동 중학생학원 부산 부산 / 부산 북구 busan bukgu hwamyeongdong middleschool"
   },
   {
+    "title": "화명동 초등 수학학원",
+    "region": "busan",
+    "regionName": "부산",
+    "kind": "local",
+    "parent": "부산 / 부산 북구",
+    "url": "/center/busan/bukgu/hwamyeongdong/elementarymath/",
+    "search": "화명동 초등 수학학원 부산 부산 / 부산 북구 busan bukgu hwamyeongdong elementarymath"
+  },
+  {
+    "title": "화명동 초등 영어학원",
+    "region": "busan",
+    "regionName": "부산",
+    "kind": "local",
+    "parent": "부산 / 부산 북구",
+    "url": "/center/busan/bukgu/hwamyeongdong/elementaryenglish/",
+    "search": "화명동 초등 영어학원 부산 부산 / 부산 북구 busan bukgu hwamyeongdong elementaryenglish"
+  },
+  {
     "title": "화명동 초등학생학원",
     "region": "busan",
     "regionName": "부산",
@@ -34729,6 +39607,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "부산 / 부산 북구",
     "url": "/center/busan/bukgu/hwamyeongsindosi/middleschool/",
     "search": "화명신도시 중학생학원 부산 부산 / 부산 북구 busan bukgu hwamyeongsindosi middleschool"
+  },
+  {
+    "title": "화명신도시 초등 수학학원",
+    "region": "busan",
+    "regionName": "부산",
+    "kind": "local",
+    "parent": "부산 / 부산 북구",
+    "url": "/center/busan/bukgu/hwamyeongsindosi/elementarymath/",
+    "search": "화명신도시 초등 수학학원 부산 부산 / 부산 북구 busan bukgu hwamyeongsindosi elementarymath"
+  },
+  {
+    "title": "화명신도시 초등 영어학원",
+    "region": "busan",
+    "regionName": "부산",
+    "kind": "local",
+    "parent": "부산 / 부산 북구",
+    "url": "/center/busan/bukgu/hwamyeongsindosi/elementaryenglish/",
+    "search": "화명신도시 초등 영어학원 부산 부산 / 부산 북구 busan bukgu hwamyeongsindosi elementaryenglish"
   },
   {
     "title": "화명신도시 초등학생학원",
@@ -35001,6 +39897,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "갈현동 중학생학원 서울 서울 / 서울 은평구 seoul eunpyeonggu galhyeondong middleschool"
   },
   {
+    "title": "갈현동 초등 수학학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 은평구",
+    "url": "/center/seoul/eunpyeonggu/galhyeondong/elementarymath/",
+    "search": "갈현동 초등 수학학원 서울 서울 / 서울 은평구 seoul eunpyeonggu galhyeondong elementarymath"
+  },
+  {
+    "title": "갈현동 초등 영어학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 은평구",
+    "url": "/center/seoul/eunpyeonggu/galhyeondong/elementaryenglish/",
+    "search": "갈현동 초등 영어학원 서울 서울 / 서울 은평구 seoul eunpyeonggu galhyeondong elementaryenglish"
+  },
+  {
     "title": "갈현동 초등학생학원",
     "region": "seoul",
     "regionName": "서울",
@@ -35125,6 +40039,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "서울 / 서울 마포구",
     "url": "/center/seoul/mapogu/gongdeokdong/middleschool/",
     "search": "공덕동 중학생학원 서울 서울 / 서울 마포구 seoul mapogu gongdeokdong middleschool"
+  },
+  {
+    "title": "공덕동 초등 수학학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 마포구",
+    "url": "/center/seoul/mapogu/gongdeokdong/elementarymath/",
+    "search": "공덕동 초등 수학학원 서울 서울 / 서울 마포구 seoul mapogu gongdeokdong elementarymath"
+  },
+  {
+    "title": "공덕동 초등 영어학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 마포구",
+    "url": "/center/seoul/mapogu/gongdeokdong/elementaryenglish/",
+    "search": "공덕동 초등 영어학원 서울 서울 / 서울 마포구 seoul mapogu gongdeokdong elementaryenglish"
   },
   {
     "title": "공덕동 초등학생학원",
@@ -35253,6 +40185,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "광장동 중학생학원 서울 서울 / 서울 광진구 seoul gwangjingu gwangjangdong middleschool"
   },
   {
+    "title": "광장동 초등 수학학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 광진구",
+    "url": "/center/seoul/gwangjingu/gwangjangdong/elementarymath/",
+    "search": "광장동 초등 수학학원 서울 서울 / 서울 광진구 seoul gwangjingu gwangjangdong elementarymath"
+  },
+  {
+    "title": "광장동 초등 영어학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 광진구",
+    "url": "/center/seoul/gwangjingu/gwangjangdong/elementaryenglish/",
+    "search": "광장동 초등 영어학원 서울 서울 / 서울 광진구 seoul gwangjingu gwangjangdong elementaryenglish"
+  },
+  {
     "title": "광장동 초등학생학원",
     "region": "seoul",
     "regionName": "서울",
@@ -35377,6 +40327,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "서울 / 서울 은평구",
     "url": "/center/seoul/eunpyeonggu/gusandong/middleschool/",
     "search": "구산동 중학생학원 서울 서울 / 서울 은평구 seoul eunpyeonggu gusandong middleschool"
+  },
+  {
+    "title": "구산동 초등 수학학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 은평구",
+    "url": "/center/seoul/eunpyeonggu/gusandong/elementarymath/",
+    "search": "구산동 초등 수학학원 서울 서울 / 서울 은평구 seoul eunpyeonggu gusandong elementarymath"
+  },
+  {
+    "title": "구산동 초등 영어학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 은평구",
+    "url": "/center/seoul/eunpyeonggu/gusandong/elementaryenglish/",
+    "search": "구산동 초등 영어학원 서울 서울 / 서울 은평구 seoul eunpyeonggu gusandong elementaryenglish"
   },
   {
     "title": "구산동 초등학생학원",
@@ -35505,6 +40473,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "구의동 중학생학원 서울 서울 / 서울 광진구 seoul gwangjingu guuidong middleschool"
   },
   {
+    "title": "구의동 초등 수학학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 광진구",
+    "url": "/center/seoul/gwangjingu/guuidong/elementarymath/",
+    "search": "구의동 초등 수학학원 서울 서울 / 서울 광진구 seoul gwangjingu guuidong elementarymath"
+  },
+  {
+    "title": "구의동 초등 영어학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 광진구",
+    "url": "/center/seoul/gwangjingu/guuidong/elementaryenglish/",
+    "search": "구의동 초등 영어학원 서울 서울 / 서울 광진구 seoul gwangjingu guuidong elementaryenglish"
+  },
+  {
     "title": "구의동 초등학생학원",
     "region": "seoul",
     "regionName": "서울",
@@ -35629,6 +40615,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "서울 / 서울 은평구",
     "url": "/center/seoul/eunpyeonggu/gupabal/middleschool/",
     "search": "구파발 중학생학원 서울 서울 / 서울 은평구 seoul eunpyeonggu gupabal middleschool"
+  },
+  {
+    "title": "구파발 초등 수학학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 은평구",
+    "url": "/center/seoul/eunpyeonggu/gupabal/elementarymath/",
+    "search": "구파발 초등 수학학원 서울 서울 / 서울 은평구 seoul eunpyeonggu gupabal elementarymath"
+  },
+  {
+    "title": "구파발 초등 영어학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 은평구",
+    "url": "/center/seoul/eunpyeonggu/gupabal/elementaryenglish/",
+    "search": "구파발 초등 영어학원 서울 서울 / 서울 은평구 seoul eunpyeonggu gupabal elementaryenglish"
   },
   {
     "title": "구파발 초등학생학원",
@@ -35757,6 +40761,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "길음동 중학생학원 서울 서울 / 서울 성북구 seoul seongbukgu gileumdong middleschool"
   },
   {
+    "title": "길음동 초등 수학학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 성북구",
+    "url": "/center/seoul/seongbukgu/gileumdong/elementarymath/",
+    "search": "길음동 초등 수학학원 서울 서울 / 서울 성북구 seoul seongbukgu gileumdong elementarymath"
+  },
+  {
+    "title": "길음동 초등 영어학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 성북구",
+    "url": "/center/seoul/seongbukgu/gileumdong/elementaryenglish/",
+    "search": "길음동 초등 영어학원 서울 서울 / 서울 성북구 seoul seongbukgu gileumdong elementaryenglish"
+  },
+  {
     "title": "길음동 초등학생학원",
     "region": "seoul",
     "regionName": "서울",
@@ -35881,6 +40903,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "서울 / 서울 서대문구",
     "url": "/center/seoul/seodaemungu/namgajwadong/middleschool/",
     "search": "남가좌동 중학생학원 서울 서울 / 서울 서대문구 seoul seodaemungu namgajwadong middleschool"
+  },
+  {
+    "title": "남가좌동 초등 수학학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 서대문구",
+    "url": "/center/seoul/seodaemungu/namgajwadong/elementarymath/",
+    "search": "남가좌동 초등 수학학원 서울 서울 / 서울 서대문구 seoul seodaemungu namgajwadong elementarymath"
+  },
+  {
+    "title": "남가좌동 초등 영어학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 서대문구",
+    "url": "/center/seoul/seodaemungu/namgajwadong/elementaryenglish/",
+    "search": "남가좌동 초등 영어학원 서울 서울 / 서울 서대문구 seoul seodaemungu namgajwadong elementaryenglish"
   },
   {
     "title": "남가좌동 초등학생학원",
@@ -36009,6 +41049,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "내발산동 중학생학원 서울 서울 / 서울 강서구 seoul gangseogu naebalsandong middleschool"
   },
   {
+    "title": "내발산동 초등 수학학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 강서구",
+    "url": "/center/seoul/gangseogu/naebalsandong/elementarymath/",
+    "search": "내발산동 초등 수학학원 서울 서울 / 서울 강서구 seoul gangseogu naebalsandong elementarymath"
+  },
+  {
+    "title": "내발산동 초등 영어학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 강서구",
+    "url": "/center/seoul/gangseogu/naebalsandong/elementaryenglish/",
+    "search": "내발산동 초등 영어학원 서울 서울 / 서울 강서구 seoul gangseogu naebalsandong elementaryenglish"
+  },
+  {
     "title": "내발산동 초등학생학원",
     "region": "seoul",
     "regionName": "서울",
@@ -36133,6 +41191,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "서울 / 서울 영등포구",
     "url": "/center/seoul/yeongdeungpogu/dangsandong/middleschool/",
     "search": "당산동 중학생학원 서울 서울 / 서울 영등포구 seoul yeongdeungpogu dangsandong middleschool"
+  },
+  {
+    "title": "당산동 초등 수학학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 영등포구",
+    "url": "/center/seoul/yeongdeungpogu/dangsandong/elementarymath/",
+    "search": "당산동 초등 수학학원 서울 서울 / 서울 영등포구 seoul yeongdeungpogu dangsandong elementarymath"
+  },
+  {
+    "title": "당산동 초등 영어학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 영등포구",
+    "url": "/center/seoul/yeongdeungpogu/dangsandong/elementaryenglish/",
+    "search": "당산동 초등 영어학원 서울 서울 / 서울 영등포구 seoul yeongdeungpogu dangsandong elementaryenglish"
   },
   {
     "title": "당산동 초등학생학원",
@@ -36261,6 +41337,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "돈암동 중학생학원 서울 서울 / 서울 성북구 seoul seongbukgu donamdong middleschool"
   },
   {
+    "title": "돈암동 초등 수학학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 성북구",
+    "url": "/center/seoul/seongbukgu/donamdong/elementarymath/",
+    "search": "돈암동 초등 수학학원 서울 서울 / 서울 성북구 seoul seongbukgu donamdong elementarymath"
+  },
+  {
+    "title": "돈암동 초등 영어학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 성북구",
+    "url": "/center/seoul/seongbukgu/donamdong/elementaryenglish/",
+    "search": "돈암동 초등 영어학원 서울 서울 / 서울 성북구 seoul seongbukgu donamdong elementaryenglish"
+  },
+  {
     "title": "돈암동 초등학생학원",
     "region": "seoul",
     "regionName": "서울",
@@ -36385,6 +41479,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "서울 / 서울 성북구",
     "url": "/center/seoul/seongbukgu/dongsomundong/middleschool/",
     "search": "동소문동 중학생학원 서울 서울 / 서울 성북구 seoul seongbukgu dongsomundong middleschool"
+  },
+  {
+    "title": "동소문동 초등 수학학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 성북구",
+    "url": "/center/seoul/seongbukgu/dongsomundong/elementarymath/",
+    "search": "동소문동 초등 수학학원 서울 서울 / 서울 성북구 seoul seongbukgu dongsomundong elementarymath"
+  },
+  {
+    "title": "동소문동 초등 영어학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 성북구",
+    "url": "/center/seoul/seongbukgu/dongsomundong/elementaryenglish/",
+    "search": "동소문동 초등 영어학원 서울 서울 / 서울 성북구 seoul seongbukgu dongsomundong elementaryenglish"
   },
   {
     "title": "동소문동 초등학생학원",
@@ -36513,6 +41625,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "등촌동 중학생학원 서울 서울 / 서울 강서구 seoul gangseogu deungchondong middleschool"
   },
   {
+    "title": "등촌동 초등 수학학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 강서구",
+    "url": "/center/seoul/gangseogu/deungchondong/elementarymath/",
+    "search": "등촌동 초등 수학학원 서울 서울 / 서울 강서구 seoul gangseogu deungchondong elementarymath"
+  },
+  {
+    "title": "등촌동 초등 영어학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 강서구",
+    "url": "/center/seoul/gangseogu/deungchondong/elementaryenglish/",
+    "search": "등촌동 초등 영어학원 서울 서울 / 서울 강서구 seoul gangseogu deungchondong elementaryenglish"
+  },
+  {
     "title": "등촌동 초등학생학원",
     "region": "seoul",
     "regionName": "서울",
@@ -36637,6 +41767,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "서울 / 서울 강서구",
     "url": "/center/seoul/gangseogu/magokdong/middleschool/",
     "search": "마곡동 중학생학원 서울 서울 / 서울 강서구 seoul gangseogu magokdong middleschool"
+  },
+  {
+    "title": "마곡동 초등 수학학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 강서구",
+    "url": "/center/seoul/gangseogu/magokdong/elementarymath/",
+    "search": "마곡동 초등 수학학원 서울 서울 / 서울 강서구 seoul gangseogu magokdong elementarymath"
+  },
+  {
+    "title": "마곡동 초등 영어학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 강서구",
+    "url": "/center/seoul/gangseogu/magokdong/elementaryenglish/",
+    "search": "마곡동 초등 영어학원 서울 서울 / 서울 강서구 seoul gangseogu magokdong elementaryenglish"
   },
   {
     "title": "마곡동 초등학생학원",
@@ -36765,6 +41913,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "명일동 중학생학원 서울 서울 / 서울 강동구 seoul gangdonggu myeongildong middleschool"
   },
   {
+    "title": "명일동 초등 수학학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 강동구",
+    "url": "/center/seoul/gangdonggu/myeongildong/elementarymath/",
+    "search": "명일동 초등 수학학원 서울 서울 / 서울 강동구 seoul gangdonggu myeongildong elementarymath"
+  },
+  {
+    "title": "명일동 초등 영어학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 강동구",
+    "url": "/center/seoul/gangdonggu/myeongildong/elementaryenglish/",
+    "search": "명일동 초등 영어학원 서울 서울 / 서울 강동구 seoul gangdonggu myeongildong elementaryenglish"
+  },
+  {
     "title": "명일동 초등학생학원",
     "region": "seoul",
     "regionName": "서울",
@@ -36889,6 +42055,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "서울 / 서울 양천구",
     "url": "/center/seoul/yangcheongu/mokdong/middleschool/",
     "search": "목동 중학생학원 서울 서울 / 서울 양천구 seoul yangcheongu mokdong middleschool"
+  },
+  {
+    "title": "목동 초등 수학학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 양천구",
+    "url": "/center/seoul/yangcheongu/mokdong/elementarymath/",
+    "search": "목동 초등 수학학원 서울 서울 / 서울 양천구 seoul yangcheongu mokdong elementarymath"
+  },
+  {
+    "title": "목동 초등 영어학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 양천구",
+    "url": "/center/seoul/yangcheongu/mokdong/elementaryenglish/",
+    "search": "목동 초등 영어학원 서울 서울 / 서울 양천구 seoul yangcheongu mokdong elementaryenglish"
   },
   {
     "title": "목동 초등학생학원",
@@ -37017,6 +42201,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "미아동 중학생학원 서울 서울 / 서울 강북구 seoul gangbukgu miadong middleschool"
   },
   {
+    "title": "미아동 초등 수학학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 강북구",
+    "url": "/center/seoul/gangbukgu/miadong/elementarymath/",
+    "search": "미아동 초등 수학학원 서울 서울 / 서울 강북구 seoul gangbukgu miadong elementarymath"
+  },
+  {
+    "title": "미아동 초등 영어학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 강북구",
+    "url": "/center/seoul/gangbukgu/miadong/elementaryenglish/",
+    "search": "미아동 초등 영어학원 서울 서울 / 서울 강북구 seoul gangbukgu miadong elementaryenglish"
+  },
+  {
     "title": "미아동 초등학생학원",
     "region": "seoul",
     "regionName": "서울",
@@ -37141,6 +42343,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "서울 / 서울 강서구",
     "url": "/center/seoul/gangseogu/banghwadong/middleschool/",
     "search": "방화동 중학생학원 서울 서울 / 서울 강서구 seoul gangseogu banghwadong middleschool"
+  },
+  {
+    "title": "방화동 초등 수학학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 강서구",
+    "url": "/center/seoul/gangseogu/banghwadong/elementarymath/",
+    "search": "방화동 초등 수학학원 서울 서울 / 서울 강서구 seoul gangseogu banghwadong elementarymath"
+  },
+  {
+    "title": "방화동 초등 영어학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 강서구",
+    "url": "/center/seoul/gangseogu/banghwadong/elementaryenglish/",
+    "search": "방화동 초등 영어학원 서울 서울 / 서울 강서구 seoul gangseogu banghwadong elementaryenglish"
   },
   {
     "title": "방화동 초등학생학원",
@@ -37269,6 +42489,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "북가좌동 중학생학원 서울 서울 / 서울 서대문구 seoul seodaemungu bukgajwadong middleschool"
   },
   {
+    "title": "북가좌동 초등 수학학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 서대문구",
+    "url": "/center/seoul/seodaemungu/bukgajwadong/elementarymath/",
+    "search": "북가좌동 초등 수학학원 서울 서울 / 서울 서대문구 seoul seodaemungu bukgajwadong elementarymath"
+  },
+  {
+    "title": "북가좌동 초등 영어학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 서대문구",
+    "url": "/center/seoul/seodaemungu/bukgajwadong/elementaryenglish/",
+    "search": "북가좌동 초등 영어학원 서울 서울 / 서울 서대문구 seoul seodaemungu bukgajwadong elementaryenglish"
+  },
+  {
     "title": "북가좌동 초등학생학원",
     "region": "seoul",
     "regionName": "서울",
@@ -37393,6 +42631,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "서울 / 서울 강북구",
     "url": "/center/seoul/gangbukgu/samgaksandong/middleschool/",
     "search": "삼각산동 중학생학원 서울 서울 / 서울 강북구 seoul gangbukgu samgaksandong middleschool"
+  },
+  {
+    "title": "삼각산동 초등 수학학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 강북구",
+    "url": "/center/seoul/gangbukgu/samgaksandong/elementarymath/",
+    "search": "삼각산동 초등 수학학원 서울 서울 / 서울 강북구 seoul gangbukgu samgaksandong elementarymath"
+  },
+  {
+    "title": "삼각산동 초등 영어학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 강북구",
+    "url": "/center/seoul/gangbukgu/samgaksandong/elementaryenglish/",
+    "search": "삼각산동 초등 영어학원 서울 서울 / 서울 강북구 seoul gangbukgu samgaksandong elementaryenglish"
   },
   {
     "title": "삼각산동 초등학생학원",
@@ -37521,6 +42777,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "상암동 중학생학원 서울 서울 / 서울 마포구 seoul mapogu sangamdong middleschool"
   },
   {
+    "title": "상암동 초등 수학학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 마포구",
+    "url": "/center/seoul/mapogu/sangamdong/elementarymath/",
+    "search": "상암동 초등 수학학원 서울 서울 / 서울 마포구 seoul mapogu sangamdong elementarymath"
+  },
+  {
+    "title": "상암동 초등 영어학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 마포구",
+    "url": "/center/seoul/mapogu/sangamdong/elementaryenglish/",
+    "search": "상암동 초등 영어학원 서울 서울 / 서울 마포구 seoul mapogu sangamdong elementaryenglish"
+  },
+  {
     "title": "상암동 초등학생학원",
     "region": "seoul",
     "regionName": "서울",
@@ -37645,6 +42919,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "서울 / 서울 금천구",
     "url": "/center/seoul/geumcheongu/siheungdong/middleschool/",
     "search": "시흥동 중학생학원 서울 서울 / 서울 금천구 seoul geumcheongu siheungdong middleschool"
+  },
+  {
+    "title": "시흥동 초등 수학학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 금천구",
+    "url": "/center/seoul/geumcheongu/siheungdong/elementarymath/",
+    "search": "시흥동 초등 수학학원 서울 서울 / 서울 금천구 seoul geumcheongu siheungdong elementarymath"
+  },
+  {
+    "title": "시흥동 초등 영어학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 금천구",
+    "url": "/center/seoul/geumcheongu/siheungdong/elementaryenglish/",
+    "search": "시흥동 초등 영어학원 서울 서울 / 서울 금천구 seoul geumcheongu siheungdong elementaryenglish"
   },
   {
     "title": "시흥동 초등학생학원",
@@ -37773,6 +43065,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "신도림동 중학생학원 서울 서울 / 서울 구로구 seoul gurogu sindorimdong middleschool"
   },
   {
+    "title": "신도림동 초등 수학학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 구로구",
+    "url": "/center/seoul/gurogu/sindorimdong/elementarymath/",
+    "search": "신도림동 초등 수학학원 서울 서울 / 서울 구로구 seoul gurogu sindorimdong elementarymath"
+  },
+  {
+    "title": "신도림동 초등 영어학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 구로구",
+    "url": "/center/seoul/gurogu/sindorimdong/elementaryenglish/",
+    "search": "신도림동 초등 영어학원 서울 서울 / 서울 구로구 seoul gurogu sindorimdong elementaryenglish"
+  },
+  {
     "title": "신도림동 초등학생학원",
     "region": "seoul",
     "regionName": "서울",
@@ -37897,6 +43207,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "서울 / 서울 강서구",
     "url": "/center/seoul/gangseogu/sinbanghwa/middleschool/",
     "search": "신방화 중학생학원 서울 서울 / 서울 강서구 seoul gangseogu sinbanghwa middleschool"
+  },
+  {
+    "title": "신방화 초등 수학학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 강서구",
+    "url": "/center/seoul/gangseogu/sinbanghwa/elementarymath/",
+    "search": "신방화 초등 수학학원 서울 서울 / 서울 강서구 seoul gangseogu sinbanghwa elementarymath"
+  },
+  {
+    "title": "신방화 초등 영어학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 강서구",
+    "url": "/center/seoul/gangseogu/sinbanghwa/elementaryenglish/",
+    "search": "신방화 초등 영어학원 서울 서울 / 서울 강서구 seoul gangseogu sinbanghwa elementaryenglish"
   },
   {
     "title": "신방화 초등학생학원",
@@ -38025,6 +43353,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "신수동 중학생학원 서울 서울 / 서울 마포구 seoul mapogu sinsudong middleschool"
   },
   {
+    "title": "신수동 초등 수학학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 마포구",
+    "url": "/center/seoul/mapogu/sinsudong/elementarymath/",
+    "search": "신수동 초등 수학학원 서울 서울 / 서울 마포구 seoul mapogu sinsudong elementarymath"
+  },
+  {
+    "title": "신수동 초등 영어학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 마포구",
+    "url": "/center/seoul/mapogu/sinsudong/elementaryenglish/",
+    "search": "신수동 초등 영어학원 서울 서울 / 서울 마포구 seoul mapogu sinsudong elementaryenglish"
+  },
+  {
     "title": "신수동 초등학생학원",
     "region": "seoul",
     "regionName": "서울",
@@ -38149,6 +43495,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "서울 / 서울 양천구",
     "url": "/center/seoul/yangcheongu/sinjeongdong/middleschool/",
     "search": "신정동 중학생학원 서울 서울 / 서울 양천구 seoul yangcheongu sinjeongdong middleschool"
+  },
+  {
+    "title": "신정동 초등 수학학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 양천구",
+    "url": "/center/seoul/yangcheongu/sinjeongdong/elementarymath/",
+    "search": "신정동 초등 수학학원 서울 서울 / 서울 양천구 seoul yangcheongu sinjeongdong elementarymath"
+  },
+  {
+    "title": "신정동 초등 영어학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 양천구",
+    "url": "/center/seoul/yangcheongu/sinjeongdong/elementaryenglish/",
+    "search": "신정동 초등 영어학원 서울 서울 / 서울 양천구 seoul yangcheongu sinjeongdong elementaryenglish"
   },
   {
     "title": "신정동 초등학생학원",
@@ -38277,6 +43641,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "양평동 중학생학원 서울 서울 / 서울 영등포구 seoul yeongdeungpogu yangpyeongdong middleschool"
   },
   {
+    "title": "양평동 초등 수학학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 영등포구",
+    "url": "/center/seoul/yeongdeungpogu/yangpyeongdong/elementarymath/",
+    "search": "양평동 초등 수학학원 서울 서울 / 서울 영등포구 seoul yeongdeungpogu yangpyeongdong elementarymath"
+  },
+  {
+    "title": "양평동 초등 영어학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 영등포구",
+    "url": "/center/seoul/yeongdeungpogu/yangpyeongdong/elementaryenglish/",
+    "search": "양평동 초등 영어학원 서울 서울 / 서울 영등포구 seoul yeongdeungpogu yangpyeongdong elementaryenglish"
+  },
+  {
     "title": "양평동 초등학생학원",
     "region": "seoul",
     "regionName": "서울",
@@ -38401,6 +43783,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "서울 / 서울 은평구",
     "url": "/center/seoul/eunpyeonggu/yeokchondong/middleschool/",
     "search": "역촌동 중학생학원 서울 서울 / 서울 은평구 seoul eunpyeonggu yeokchondong middleschool"
+  },
+  {
+    "title": "역촌동 초등 수학학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 은평구",
+    "url": "/center/seoul/eunpyeonggu/yeokchondong/elementarymath/",
+    "search": "역촌동 초등 수학학원 서울 서울 / 서울 은평구 seoul eunpyeonggu yeokchondong elementarymath"
+  },
+  {
+    "title": "역촌동 초등 영어학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 은평구",
+    "url": "/center/seoul/eunpyeonggu/yeokchondong/elementaryenglish/",
+    "search": "역촌동 초등 영어학원 서울 서울 / 서울 은평구 seoul eunpyeonggu yeokchondong elementaryenglish"
   },
   {
     "title": "역촌동 초등학생학원",
@@ -38529,6 +43929,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "염리동 중학생학원 서울 서울 / 서울 마포구 seoul mapogu yeomridong middleschool"
   },
   {
+    "title": "염리동 초등 수학학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 마포구",
+    "url": "/center/seoul/mapogu/yeomridong/elementarymath/",
+    "search": "염리동 초등 수학학원 서울 서울 / 서울 마포구 seoul mapogu yeomridong elementarymath"
+  },
+  {
+    "title": "염리동 초등 영어학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 마포구",
+    "url": "/center/seoul/mapogu/yeomridong/elementaryenglish/",
+    "search": "염리동 초등 영어학원 서울 서울 / 서울 마포구 seoul mapogu yeomridong elementaryenglish"
+  },
+  {
     "title": "염리동 초등학생학원",
     "region": "seoul",
     "regionName": "서울",
@@ -38653,6 +44071,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "서울 / 서울 강서구",
     "url": "/center/seoul/gangseogu/yeomchangdong/middleschool/",
     "search": "염창동 중학생학원 서울 서울 / 서울 강서구 seoul gangseogu yeomchangdong middleschool"
+  },
+  {
+    "title": "염창동 초등 수학학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 강서구",
+    "url": "/center/seoul/gangseogu/yeomchangdong/elementarymath/",
+    "search": "염창동 초등 수학학원 서울 서울 / 서울 강서구 seoul gangseogu yeomchangdong elementarymath"
+  },
+  {
+    "title": "염창동 초등 영어학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 강서구",
+    "url": "/center/seoul/gangseogu/yeomchangdong/elementaryenglish/",
+    "search": "염창동 초등 영어학원 서울 서울 / 서울 강서구 seoul gangseogu yeomchangdong elementaryenglish"
   },
   {
     "title": "염창동 초등학생학원",
@@ -38781,6 +44217,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "용강동 중학생학원 서울 서울 / 서울 마포구 seoul mapogu yonggangdong middleschool"
   },
   {
+    "title": "용강동 초등 수학학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 마포구",
+    "url": "/center/seoul/mapogu/yonggangdong/elementarymath/",
+    "search": "용강동 초등 수학학원 서울 서울 / 서울 마포구 seoul mapogu yonggangdong elementarymath"
+  },
+  {
+    "title": "용강동 초등 영어학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 마포구",
+    "url": "/center/seoul/mapogu/yonggangdong/elementaryenglish/",
+    "search": "용강동 초등 영어학원 서울 서울 / 서울 마포구 seoul mapogu yonggangdong elementaryenglish"
+  },
+  {
     "title": "용강동 초등학생학원",
     "region": "seoul",
     "regionName": "서울",
@@ -38905,6 +44359,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "서울 / 서울 동대문구",
     "url": "/center/seoul/dongdaemungu/yongdudong/middleschool/",
     "search": "용두동 중학생학원 서울 서울 / 서울 동대문구 seoul dongdaemungu yongdudong middleschool"
+  },
+  {
+    "title": "용두동 초등 수학학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 동대문구",
+    "url": "/center/seoul/dongdaemungu/yongdudong/elementarymath/",
+    "search": "용두동 초등 수학학원 서울 서울 / 서울 동대문구 seoul dongdaemungu yongdudong elementarymath"
+  },
+  {
+    "title": "용두동 초등 영어학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 동대문구",
+    "url": "/center/seoul/dongdaemungu/yongdudong/elementaryenglish/",
+    "search": "용두동 초등 영어학원 서울 서울 / 서울 동대문구 seoul dongdaemungu yongdudong elementaryenglish"
   },
   {
     "title": "용두동 초등학생학원",
@@ -39033,6 +44505,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "위례 중학생학원 서울 서울 / 서울 송파구 seoul songpagu wirye middleschool"
   },
   {
+    "title": "위례 초등 수학학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 송파구",
+    "url": "/center/seoul/songpagu/wirye/elementarymath/",
+    "search": "위례 초등 수학학원 서울 서울 / 서울 송파구 seoul songpagu wirye elementarymath"
+  },
+  {
+    "title": "위례 초등 영어학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 송파구",
+    "url": "/center/seoul/songpagu/wirye/elementaryenglish/",
+    "search": "위례 초등 영어학원 서울 서울 / 서울 송파구 seoul songpagu wirye elementaryenglish"
+  },
+  {
     "title": "위례 초등학생학원",
     "region": "seoul",
     "regionName": "서울",
@@ -39157,6 +44647,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "서울 / 서울 송파구",
     "url": "/center/seoul/songpagu/wiryesindosi/middleschool/",
     "search": "위례신도시 중학생학원 서울 서울 / 서울 송파구 seoul songpagu wiryesindosi middleschool"
+  },
+  {
+    "title": "위례신도시 초등 수학학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 송파구",
+    "url": "/center/seoul/songpagu/wiryesindosi/elementarymath/",
+    "search": "위례신도시 초등 수학학원 서울 서울 / 서울 송파구 seoul songpagu wiryesindosi elementarymath"
+  },
+  {
+    "title": "위례신도시 초등 영어학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 송파구",
+    "url": "/center/seoul/songpagu/wiryesindosi/elementaryenglish/",
+    "search": "위례신도시 초등 영어학원 서울 서울 / 서울 송파구 seoul songpagu wiryesindosi elementaryenglish"
   },
   {
     "title": "위례신도시 초등학생학원",
@@ -39285,6 +44793,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "제기동 중학생학원 서울 서울 / 서울 동대문구 seoul dongdaemungu jegidong middleschool"
   },
   {
+    "title": "제기동 초등 수학학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 동대문구",
+    "url": "/center/seoul/dongdaemungu/jegidong/elementarymath/",
+    "search": "제기동 초등 수학학원 서울 서울 / 서울 동대문구 seoul dongdaemungu jegidong elementarymath"
+  },
+  {
+    "title": "제기동 초등 영어학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 동대문구",
+    "url": "/center/seoul/dongdaemungu/jegidong/elementaryenglish/",
+    "search": "제기동 초등 영어학원 서울 서울 / 서울 동대문구 seoul dongdaemungu jegidong elementaryenglish"
+  },
+  {
     "title": "제기동 초등학생학원",
     "region": "seoul",
     "regionName": "서울",
@@ -39409,6 +44935,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "서울 / 서울 성북구",
     "url": "/center/seoul/seongbukgu/jongamdong/middleschool/",
     "search": "종암동 중학생학원 서울 서울 / 서울 성북구 seoul seongbukgu jongamdong middleschool"
+  },
+  {
+    "title": "종암동 초등 수학학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 성북구",
+    "url": "/center/seoul/seongbukgu/jongamdong/elementarymath/",
+    "search": "종암동 초등 수학학원 서울 서울 / 서울 성북구 seoul seongbukgu jongamdong elementarymath"
+  },
+  {
+    "title": "종암동 초등 영어학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 성북구",
+    "url": "/center/seoul/seongbukgu/jongamdong/elementaryenglish/",
+    "search": "종암동 초등 영어학원 서울 서울 / 서울 성북구 seoul seongbukgu jongamdong elementaryenglish"
   },
   {
     "title": "종암동 초등학생학원",
@@ -39537,6 +45081,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "중계동 중학생학원 서울 서울 / 서울 노원구 seoul nowongu junggyedong middleschool"
   },
   {
+    "title": "중계동 초등 수학학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 노원구",
+    "url": "/center/seoul/nowongu/junggyedong/elementarymath/",
+    "search": "중계동 초등 수학학원 서울 서울 / 서울 노원구 seoul nowongu junggyedong elementarymath"
+  },
+  {
+    "title": "중계동 초등 영어학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 노원구",
+    "url": "/center/seoul/nowongu/junggyedong/elementaryenglish/",
+    "search": "중계동 초등 영어학원 서울 서울 / 서울 노원구 seoul nowongu junggyedong elementaryenglish"
+  },
+  {
     "title": "중계동 초등학생학원",
     "region": "seoul",
     "regionName": "서울",
@@ -39661,6 +45223,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "서울 / 서울 은평구",
     "url": "/center/seoul/eunpyeonggu/jingwandong/middleschool/",
     "search": "진관동 중학생학원 서울 서울 / 서울 은평구 seoul eunpyeonggu jingwandong middleschool"
+  },
+  {
+    "title": "진관동 초등 수학학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 은평구",
+    "url": "/center/seoul/eunpyeonggu/jingwandong/elementarymath/",
+    "search": "진관동 초등 수학학원 서울 서울 / 서울 은평구 seoul eunpyeonggu jingwandong elementarymath"
+  },
+  {
+    "title": "진관동 초등 영어학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 은평구",
+    "url": "/center/seoul/eunpyeonggu/jingwandong/elementaryenglish/",
+    "search": "진관동 초등 영어학원 서울 서울 / 서울 은평구 seoul eunpyeonggu jingwandong elementaryenglish"
   },
   {
     "title": "진관동 초등학생학원",
@@ -39789,6 +45369,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "창곡동 중학생학원 서울 서울 / 서울 송파구 seoul songpagu changgokdong middleschool"
   },
   {
+    "title": "창곡동 초등 수학학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 송파구",
+    "url": "/center/seoul/songpagu/changgokdong/elementarymath/",
+    "search": "창곡동 초등 수학학원 서울 서울 / 서울 송파구 seoul songpagu changgokdong elementarymath"
+  },
+  {
+    "title": "창곡동 초등 영어학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 송파구",
+    "url": "/center/seoul/songpagu/changgokdong/elementaryenglish/",
+    "search": "창곡동 초등 영어학원 서울 서울 / 서울 송파구 seoul songpagu changgokdong elementaryenglish"
+  },
+  {
     "title": "창곡동 초등학생학원",
     "region": "seoul",
     "regionName": "서울",
@@ -39913,6 +45511,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "서울 / 서울 강동구",
     "url": "/center/seoul/gangdonggu/cheonhodong/middleschool/",
     "search": "천호동 중학생학원 서울 서울 / 서울 강동구 seoul gangdonggu cheonhodong middleschool"
+  },
+  {
+    "title": "천호동 초등 수학학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 강동구",
+    "url": "/center/seoul/gangdonggu/cheonhodong/elementarymath/",
+    "search": "천호동 초등 수학학원 서울 서울 / 서울 강동구 seoul gangdonggu cheonhodong elementarymath"
+  },
+  {
+    "title": "천호동 초등 영어학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 강동구",
+    "url": "/center/seoul/gangdonggu/cheonhodong/elementaryenglish/",
+    "search": "천호동 초등 영어학원 서울 서울 / 서울 강동구 seoul gangdonggu cheonhodong elementaryenglish"
   },
   {
     "title": "천호동 초등학생학원",
@@ -40041,6 +45657,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "하계동 중학생학원 서울 서울 / 서울 노원구 seoul nowongu hagyedong middleschool"
   },
   {
+    "title": "하계동 초등 수학학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 노원구",
+    "url": "/center/seoul/nowongu/hagyedong/elementarymath/",
+    "search": "하계동 초등 수학학원 서울 서울 / 서울 노원구 seoul nowongu hagyedong elementarymath"
+  },
+  {
+    "title": "하계동 초등 영어학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 노원구",
+    "url": "/center/seoul/nowongu/hagyedong/elementaryenglish/",
+    "search": "하계동 초등 영어학원 서울 서울 / 서울 노원구 seoul nowongu hagyedong elementaryenglish"
+  },
+  {
     "title": "하계동 초등학생학원",
     "region": "seoul",
     "regionName": "서울",
@@ -40165,6 +45799,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "서울 / 서울 강서구",
     "url": "/center/seoul/gangseogu/hwagokdong/middleschool/",
     "search": "화곡동 중학생학원 서울 서울 / 서울 강서구 seoul gangseogu hwagokdong middleschool"
+  },
+  {
+    "title": "화곡동 초등 수학학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 강서구",
+    "url": "/center/seoul/gangseogu/hwagokdong/elementarymath/",
+    "search": "화곡동 초등 수학학원 서울 서울 / 서울 강서구 seoul gangseogu hwagokdong elementarymath"
+  },
+  {
+    "title": "화곡동 초등 영어학원",
+    "region": "seoul",
+    "regionName": "서울",
+    "kind": "local",
+    "parent": "서울 / 서울 강서구",
+    "url": "/center/seoul/gangseogu/hwagokdong/elementaryenglish/",
+    "search": "화곡동 초등 영어학원 서울 서울 / 서울 강서구 seoul gangseogu hwagokdong elementaryenglish"
   },
   {
     "title": "화곡동 초등학생학원",
@@ -40329,6 +45981,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "남외동 중학생학원 울산 울산 / 울산 중구 ulsan junggu namoedong middleschool"
   },
   {
+    "title": "남외동 초등 수학학원",
+    "region": "ulsan",
+    "regionName": "울산",
+    "kind": "local",
+    "parent": "울산 / 울산 중구",
+    "url": "/center/ulsan/junggu/namoedong/elementarymath/",
+    "search": "남외동 초등 수학학원 울산 울산 / 울산 중구 ulsan junggu namoedong elementarymath"
+  },
+  {
+    "title": "남외동 초등 영어학원",
+    "region": "ulsan",
+    "regionName": "울산",
+    "kind": "local",
+    "parent": "울산 / 울산 중구",
+    "url": "/center/ulsan/junggu/namoedong/elementaryenglish/",
+    "search": "남외동 초등 영어학원 울산 울산 / 울산 중구 ulsan junggu namoedong elementaryenglish"
+  },
+  {
     "title": "남외동 초등학생학원",
     "region": "ulsan",
     "regionName": "울산",
@@ -40453,6 +46123,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "울산 / 울산 남구",
     "url": "/center/ulsan/namgu/daldong/middleschool/",
     "search": "달동 중학생학원 울산 울산 / 울산 남구 ulsan namgu daldong middleschool"
+  },
+  {
+    "title": "달동 초등 수학학원",
+    "region": "ulsan",
+    "regionName": "울산",
+    "kind": "local",
+    "parent": "울산 / 울산 남구",
+    "url": "/center/ulsan/namgu/daldong/elementarymath/",
+    "search": "달동 초등 수학학원 울산 울산 / 울산 남구 ulsan namgu daldong elementarymath"
+  },
+  {
+    "title": "달동 초등 영어학원",
+    "region": "ulsan",
+    "regionName": "울산",
+    "kind": "local",
+    "parent": "울산 / 울산 남구",
+    "url": "/center/ulsan/namgu/daldong/elementaryenglish/",
+    "search": "달동 초등 영어학원 울산 울산 / 울산 남구 ulsan namgu daldong elementaryenglish"
   },
   {
     "title": "달동 초등학생학원",
@@ -40581,6 +46269,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "반구동 중학생학원 울산 울산 / 울산 중구 ulsan junggu bangudong middleschool"
   },
   {
+    "title": "반구동 초등 수학학원",
+    "region": "ulsan",
+    "regionName": "울산",
+    "kind": "local",
+    "parent": "울산 / 울산 중구",
+    "url": "/center/ulsan/junggu/bangudong/elementarymath/",
+    "search": "반구동 초등 수학학원 울산 울산 / 울산 중구 ulsan junggu bangudong elementarymath"
+  },
+  {
+    "title": "반구동 초등 영어학원",
+    "region": "ulsan",
+    "regionName": "울산",
+    "kind": "local",
+    "parent": "울산 / 울산 중구",
+    "url": "/center/ulsan/junggu/bangudong/elementaryenglish/",
+    "search": "반구동 초등 영어학원 울산 울산 / 울산 중구 ulsan junggu bangudong elementaryenglish"
+  },
+  {
     "title": "반구동 초등학생학원",
     "region": "ulsan",
     "regionName": "울산",
@@ -40705,6 +46411,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "울산 / 울산 중구",
     "url": "/center/ulsan/junggu/byeongyeongdong/middleschool/",
     "search": "병영동 중학생학원 울산 울산 / 울산 중구 ulsan junggu byeongyeongdong middleschool"
+  },
+  {
+    "title": "병영동 초등 수학학원",
+    "region": "ulsan",
+    "regionName": "울산",
+    "kind": "local",
+    "parent": "울산 / 울산 중구",
+    "url": "/center/ulsan/junggu/byeongyeongdong/elementarymath/",
+    "search": "병영동 초등 수학학원 울산 울산 / 울산 중구 ulsan junggu byeongyeongdong elementarymath"
+  },
+  {
+    "title": "병영동 초등 영어학원",
+    "region": "ulsan",
+    "regionName": "울산",
+    "kind": "local",
+    "parent": "울산 / 울산 중구",
+    "url": "/center/ulsan/junggu/byeongyeongdong/elementaryenglish/",
+    "search": "병영동 초등 영어학원 울산 울산 / 울산 중구 ulsan junggu byeongyeongdong elementaryenglish"
   },
   {
     "title": "병영동 초등학생학원",
@@ -40833,6 +46557,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "복산동 중학생학원 울산 울산 / 울산 중구 ulsan junggu boksandong middleschool"
   },
   {
+    "title": "복산동 초등 수학학원",
+    "region": "ulsan",
+    "regionName": "울산",
+    "kind": "local",
+    "parent": "울산 / 울산 중구",
+    "url": "/center/ulsan/junggu/boksandong/elementarymath/",
+    "search": "복산동 초등 수학학원 울산 울산 / 울산 중구 ulsan junggu boksandong elementarymath"
+  },
+  {
+    "title": "복산동 초등 영어학원",
+    "region": "ulsan",
+    "regionName": "울산",
+    "kind": "local",
+    "parent": "울산 / 울산 중구",
+    "url": "/center/ulsan/junggu/boksandong/elementaryenglish/",
+    "search": "복산동 초등 영어학원 울산 울산 / 울산 중구 ulsan junggu boksandong elementaryenglish"
+  },
+  {
     "title": "복산동 초등학생학원",
     "region": "ulsan",
     "regionName": "울산",
@@ -40957,6 +46699,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "울산 / 울산 북구",
     "url": "/center/ulsan/bukgu/songjeongdong/middleschool/",
     "search": "송정동 중학생학원 울산 울산 / 울산 북구 ulsan bukgu songjeongdong middleschool"
+  },
+  {
+    "title": "송정동 초등 수학학원",
+    "region": "ulsan",
+    "regionName": "울산",
+    "kind": "local",
+    "parent": "울산 / 울산 북구",
+    "url": "/center/ulsan/bukgu/songjeongdong/elementarymath/",
+    "search": "송정동 초등 수학학원 울산 울산 / 울산 북구 ulsan bukgu songjeongdong elementarymath"
+  },
+  {
+    "title": "송정동 초등 영어학원",
+    "region": "ulsan",
+    "regionName": "울산",
+    "kind": "local",
+    "parent": "울산 / 울산 북구",
+    "url": "/center/ulsan/bukgu/songjeongdong/elementaryenglish/",
+    "search": "송정동 초등 영어학원 울산 울산 / 울산 북구 ulsan bukgu songjeongdong elementaryenglish"
   },
   {
     "title": "송정동 초등학생학원",
@@ -41085,6 +46845,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "약사동 중학생학원 울산 울산 / 울산 중구 ulsan junggu yaksadong middleschool"
   },
   {
+    "title": "약사동 초등 수학학원",
+    "region": "ulsan",
+    "regionName": "울산",
+    "kind": "local",
+    "parent": "울산 / 울산 중구",
+    "url": "/center/ulsan/junggu/yaksadong/elementarymath/",
+    "search": "약사동 초등 수학학원 울산 울산 / 울산 중구 ulsan junggu yaksadong elementarymath"
+  },
+  {
+    "title": "약사동 초등 영어학원",
+    "region": "ulsan",
+    "regionName": "울산",
+    "kind": "local",
+    "parent": "울산 / 울산 중구",
+    "url": "/center/ulsan/junggu/yaksadong/elementaryenglish/",
+    "search": "약사동 초등 영어학원 울산 울산 / 울산 중구 ulsan junggu yaksadong elementaryenglish"
+  },
+  {
     "title": "약사동 초등학생학원",
     "region": "ulsan",
     "regionName": "울산",
@@ -41211,6 +46989,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "울산 삼산동 중학생학원 울산 울산 / 울산 남구 ulsan namgu ulsan-samsandong middleschool"
   },
   {
+    "title": "울산 삼산동 초등 수학학원",
+    "region": "ulsan",
+    "regionName": "울산",
+    "kind": "local",
+    "parent": "울산 / 울산 남구",
+    "url": "/center/ulsan/namgu/ulsan-samsandong/elementarymath/",
+    "search": "울산 삼산동 초등 수학학원 울산 울산 / 울산 남구 ulsan namgu ulsan-samsandong elementarymath"
+  },
+  {
+    "title": "울산 삼산동 초등 영어학원",
+    "region": "ulsan",
+    "regionName": "울산",
+    "kind": "local",
+    "parent": "울산 / 울산 남구",
+    "url": "/center/ulsan/namgu/ulsan-samsandong/elementaryenglish/",
+    "search": "울산 삼산동 초등 영어학원 울산 울산 / 울산 남구 ulsan namgu ulsan-samsandong elementaryenglish"
+  },
+  {
     "title": "울산 삼산동 초등학생학원",
     "region": "ulsan",
     "regionName": "울산",
@@ -41335,6 +47131,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "울산 / 울산 북구",
     "url": "/center/ulsan/bukgu/hwabongdong/middleschool/",
     "search": "화봉동 중학생학원 울산 울산 / 울산 북구 ulsan bukgu hwabongdong middleschool"
+  },
+  {
+    "title": "화봉동 초등 수학학원",
+    "region": "ulsan",
+    "regionName": "울산",
+    "kind": "local",
+    "parent": "울산 / 울산 북구",
+    "url": "/center/ulsan/bukgu/hwabongdong/elementarymath/",
+    "search": "화봉동 초등 수학학원 울산 울산 / 울산 북구 ulsan bukgu hwabongdong elementarymath"
+  },
+  {
+    "title": "화봉동 초등 영어학원",
+    "region": "ulsan",
+    "regionName": "울산",
+    "kind": "local",
+    "parent": "울산 / 울산 북구",
+    "url": "/center/ulsan/bukgu/hwabongdong/elementaryenglish/",
+    "search": "화봉동 초등 영어학원 울산 울산 / 울산 북구 ulsan bukgu hwabongdong elementaryenglish"
   },
   {
     "title": "화봉동 초등학생학원",
@@ -41508,6 +47322,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "가정동 중학생학원 인천 인천 / 인천 서구 incheon seogu gajeongdong middleschool"
   },
   {
+    "title": "가정동 초등 수학학원",
+    "region": "incheon",
+    "regionName": "인천",
+    "kind": "local",
+    "parent": "인천 / 인천 서구",
+    "url": "/center/incheon/seogu/gajeongdong/elementarymath/",
+    "search": "가정동 초등 수학학원 인천 인천 / 인천 서구 incheon seogu gajeongdong elementarymath"
+  },
+  {
+    "title": "가정동 초등 영어학원",
+    "region": "incheon",
+    "regionName": "인천",
+    "kind": "local",
+    "parent": "인천 / 인천 서구",
+    "url": "/center/incheon/seogu/gajeongdong/elementaryenglish/",
+    "search": "가정동 초등 영어학원 인천 인천 / 인천 서구 incheon seogu gajeongdong elementaryenglish"
+  },
+  {
     "title": "가정동 초등학생학원",
     "region": "incheon",
     "regionName": "인천",
@@ -41632,6 +47464,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "인천 / 인천 남동구",
     "url": "/center/incheon/namdonggu/gwangyodong/middleschool/",
     "search": "관교동 중학생학원 인천 인천 / 인천 남동구 incheon namdonggu gwangyodong middleschool"
+  },
+  {
+    "title": "관교동 초등 수학학원",
+    "region": "incheon",
+    "regionName": "인천",
+    "kind": "local",
+    "parent": "인천 / 인천 남동구",
+    "url": "/center/incheon/namdonggu/gwangyodong/elementarymath/",
+    "search": "관교동 초등 수학학원 인천 인천 / 인천 남동구 incheon namdonggu gwangyodong elementarymath"
+  },
+  {
+    "title": "관교동 초등 영어학원",
+    "region": "incheon",
+    "regionName": "인천",
+    "kind": "local",
+    "parent": "인천 / 인천 남동구",
+    "url": "/center/incheon/namdonggu/gwangyodong/elementaryenglish/",
+    "search": "관교동 초등 영어학원 인천 인천 / 인천 남동구 incheon namdonggu gwangyodong elementaryenglish"
   },
   {
     "title": "관교동 초등학생학원",
@@ -41760,6 +47610,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "구월동 중학생학원 인천 인천 / 인천 남동구 incheon namdonggu guwoldong middleschool"
   },
   {
+    "title": "구월동 초등 수학학원",
+    "region": "incheon",
+    "regionName": "인천",
+    "kind": "local",
+    "parent": "인천 / 인천 남동구",
+    "url": "/center/incheon/namdonggu/guwoldong/elementarymath/",
+    "search": "구월동 초등 수학학원 인천 인천 / 인천 남동구 incheon namdonggu guwoldong elementarymath"
+  },
+  {
+    "title": "구월동 초등 영어학원",
+    "region": "incheon",
+    "regionName": "인천",
+    "kind": "local",
+    "parent": "인천 / 인천 남동구",
+    "url": "/center/incheon/namdonggu/guwoldong/elementaryenglish/",
+    "search": "구월동 초등 영어학원 인천 인천 / 인천 남동구 incheon namdonggu guwoldong elementaryenglish"
+  },
+  {
     "title": "구월동 초등학생학원",
     "region": "incheon",
     "regionName": "인천",
@@ -41884,6 +47752,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "인천 / 인천 남동구",
     "url": "/center/incheon/namdonggu/nonhyeondong/middleschool/",
     "search": "논현동 중학생학원 인천 인천 / 인천 남동구 incheon namdonggu nonhyeondong middleschool"
+  },
+  {
+    "title": "논현동 초등 수학학원",
+    "region": "incheon",
+    "regionName": "인천",
+    "kind": "local",
+    "parent": "인천 / 인천 남동구",
+    "url": "/center/incheon/namdonggu/nonhyeondong/elementarymath/",
+    "search": "논현동 초등 수학학원 인천 인천 / 인천 남동구 incheon namdonggu nonhyeondong elementarymath"
+  },
+  {
+    "title": "논현동 초등 영어학원",
+    "region": "incheon",
+    "regionName": "인천",
+    "kind": "local",
+    "parent": "인천 / 인천 남동구",
+    "url": "/center/incheon/namdonggu/nonhyeondong/elementaryenglish/",
+    "search": "논현동 초등 영어학원 인천 인천 / 인천 남동구 incheon namdonggu nonhyeondong elementaryenglish"
   },
   {
     "title": "논현동 초등학생학원",
@@ -42012,6 +47898,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "동춘동 중학생학원 인천 인천 / 인천 연수구 incheon yeonsugu dongchundong middleschool"
   },
   {
+    "title": "동춘동 초등 수학학원",
+    "region": "incheon",
+    "regionName": "인천",
+    "kind": "local",
+    "parent": "인천 / 인천 연수구",
+    "url": "/center/incheon/yeonsugu/dongchundong/elementarymath/",
+    "search": "동춘동 초등 수학학원 인천 인천 / 인천 연수구 incheon yeonsugu dongchundong elementarymath"
+  },
+  {
+    "title": "동춘동 초등 영어학원",
+    "region": "incheon",
+    "regionName": "인천",
+    "kind": "local",
+    "parent": "인천 / 인천 연수구",
+    "url": "/center/incheon/yeonsugu/dongchundong/elementaryenglish/",
+    "search": "동춘동 초등 영어학원 인천 인천 / 인천 연수구 incheon yeonsugu dongchundong elementaryenglish"
+  },
+  {
     "title": "동춘동 초등학생학원",
     "region": "incheon",
     "regionName": "인천",
@@ -42136,6 +48040,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "인천 / 인천 부평구",
     "url": "/center/incheon/bupyeonggu/bugaedong/middleschool/",
     "search": "부개동 중학생학원 인천 인천 / 인천 부평구 incheon bupyeonggu bugaedong middleschool"
+  },
+  {
+    "title": "부개동 초등 수학학원",
+    "region": "incheon",
+    "regionName": "인천",
+    "kind": "local",
+    "parent": "인천 / 인천 부평구",
+    "url": "/center/incheon/bupyeonggu/bugaedong/elementarymath/",
+    "search": "부개동 초등 수학학원 인천 인천 / 인천 부평구 incheon bupyeonggu bugaedong elementarymath"
+  },
+  {
+    "title": "부개동 초등 영어학원",
+    "region": "incheon",
+    "regionName": "인천",
+    "kind": "local",
+    "parent": "인천 / 인천 부평구",
+    "url": "/center/incheon/bupyeonggu/bugaedong/elementaryenglish/",
+    "search": "부개동 초등 영어학원 인천 인천 / 인천 부평구 incheon bupyeonggu bugaedong elementaryenglish"
   },
   {
     "title": "부개동 초등학생학원",
@@ -42264,6 +48186,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "부평동 중학생학원 인천 인천 / 인천 부평구 incheon bupyeonggu bupyeongdong middleschool"
   },
   {
+    "title": "부평동 초등 수학학원",
+    "region": "incheon",
+    "regionName": "인천",
+    "kind": "local",
+    "parent": "인천 / 인천 부평구",
+    "url": "/center/incheon/bupyeonggu/bupyeongdong/elementarymath/",
+    "search": "부평동 초등 수학학원 인천 인천 / 인천 부평구 incheon bupyeonggu bupyeongdong elementarymath"
+  },
+  {
+    "title": "부평동 초등 영어학원",
+    "region": "incheon",
+    "regionName": "인천",
+    "kind": "local",
+    "parent": "인천 / 인천 부평구",
+    "url": "/center/incheon/bupyeonggu/bupyeongdong/elementaryenglish/",
+    "search": "부평동 초등 영어학원 인천 인천 / 인천 부평구 incheon bupyeonggu bupyeongdong elementaryenglish"
+  },
+  {
     "title": "부평동 초등학생학원",
     "region": "incheon",
     "regionName": "인천",
@@ -42388,6 +48328,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "인천 / 인천 부평구",
     "url": "/center/incheon/bupyeonggu/sangokdong/middleschool/",
     "search": "산곡동 중학생학원 인천 인천 / 인천 부평구 incheon bupyeonggu sangokdong middleschool"
+  },
+  {
+    "title": "산곡동 초등 수학학원",
+    "region": "incheon",
+    "regionName": "인천",
+    "kind": "local",
+    "parent": "인천 / 인천 부평구",
+    "url": "/center/incheon/bupyeonggu/sangokdong/elementarymath/",
+    "search": "산곡동 초등 수학학원 인천 인천 / 인천 부평구 incheon bupyeonggu sangokdong elementarymath"
+  },
+  {
+    "title": "산곡동 초등 영어학원",
+    "region": "incheon",
+    "regionName": "인천",
+    "kind": "local",
+    "parent": "인천 / 인천 부평구",
+    "url": "/center/incheon/bupyeonggu/sangokdong/elementaryenglish/",
+    "search": "산곡동 초등 영어학원 인천 인천 / 인천 부평구 incheon bupyeonggu sangokdong elementaryenglish"
   },
   {
     "title": "산곡동 초등학생학원",
@@ -42516,6 +48474,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "삼산동 중학생학원 인천 인천 / 인천 부평구 incheon bupyeonggu samsandong middleschool"
   },
   {
+    "title": "삼산동 초등 수학학원",
+    "region": "incheon",
+    "regionName": "인천",
+    "kind": "local",
+    "parent": "인천 / 인천 부평구",
+    "url": "/center/incheon/bupyeonggu/samsandong/elementarymath/",
+    "search": "삼산동 초등 수학학원 인천 인천 / 인천 부평구 incheon bupyeonggu samsandong elementarymath"
+  },
+  {
+    "title": "삼산동 초등 영어학원",
+    "region": "incheon",
+    "regionName": "인천",
+    "kind": "local",
+    "parent": "인천 / 인천 부평구",
+    "url": "/center/incheon/bupyeonggu/samsandong/elementaryenglish/",
+    "search": "삼산동 초등 영어학원 인천 인천 / 인천 부평구 incheon bupyeonggu samsandong elementaryenglish"
+  },
+  {
     "title": "삼산동 초등학생학원",
     "region": "incheon",
     "regionName": "인천",
@@ -42640,6 +48616,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "인천 / 인천 연수구",
     "url": "/center/incheon/yeonsugu/songdo/middleschool/",
     "search": "송도 중학생학원 인천 인천 / 인천 연수구 incheon yeonsugu songdo middleschool"
+  },
+  {
+    "title": "송도 초등 수학학원",
+    "region": "incheon",
+    "regionName": "인천",
+    "kind": "local",
+    "parent": "인천 / 인천 연수구",
+    "url": "/center/incheon/yeonsugu/songdo/elementarymath/",
+    "search": "송도 초등 수학학원 인천 인천 / 인천 연수구 incheon yeonsugu songdo elementarymath"
+  },
+  {
+    "title": "송도 초등 영어학원",
+    "region": "incheon",
+    "regionName": "인천",
+    "kind": "local",
+    "parent": "인천 / 인천 연수구",
+    "url": "/center/incheon/yeonsugu/songdo/elementaryenglish/",
+    "search": "송도 초등 영어학원 인천 인천 / 인천 연수구 incheon yeonsugu songdo elementaryenglish"
   },
   {
     "title": "송도 초등학생학원",
@@ -42768,6 +48762,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "송도동 중학생학원 인천 인천 / 인천 연수구 incheon yeonsugu songdodong middleschool"
   },
   {
+    "title": "송도동 초등 수학학원",
+    "region": "incheon",
+    "regionName": "인천",
+    "kind": "local",
+    "parent": "인천 / 인천 연수구",
+    "url": "/center/incheon/yeonsugu/songdodong/elementarymath/",
+    "search": "송도동 초등 수학학원 인천 인천 / 인천 연수구 incheon yeonsugu songdodong elementarymath"
+  },
+  {
+    "title": "송도동 초등 영어학원",
+    "region": "incheon",
+    "regionName": "인천",
+    "kind": "local",
+    "parent": "인천 / 인천 연수구",
+    "url": "/center/incheon/yeonsugu/songdodong/elementaryenglish/",
+    "search": "송도동 초등 영어학원 인천 인천 / 인천 연수구 incheon yeonsugu songdodong elementaryenglish"
+  },
+  {
     "title": "송도동 초등학생학원",
     "region": "incheon",
     "regionName": "인천",
@@ -42892,6 +48904,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "인천 / 인천 서구",
     "url": "/center/incheon/seogu/sinhyeondong/middleschool/",
     "search": "신현동 중학생학원 인천 인천 / 인천 서구 incheon seogu sinhyeondong middleschool"
+  },
+  {
+    "title": "신현동 초등 수학학원",
+    "region": "incheon",
+    "regionName": "인천",
+    "kind": "local",
+    "parent": "인천 / 인천 서구",
+    "url": "/center/incheon/seogu/sinhyeondong/elementarymath/",
+    "search": "신현동 초등 수학학원 인천 인천 / 인천 서구 incheon seogu sinhyeondong elementarymath"
+  },
+  {
+    "title": "신현동 초등 영어학원",
+    "region": "incheon",
+    "regionName": "인천",
+    "kind": "local",
+    "parent": "인천 / 인천 서구",
+    "url": "/center/incheon/seogu/sinhyeondong/elementaryenglish/",
+    "search": "신현동 초등 영어학원 인천 인천 / 인천 서구 incheon seogu sinhyeondong elementaryenglish"
   },
   {
     "title": "신현동 초등학생학원",
@@ -43020,6 +49050,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "연수동 중학생학원 인천 인천 / 인천 연수구 incheon yeonsugu yeonsudong middleschool"
   },
   {
+    "title": "연수동 초등 수학학원",
+    "region": "incheon",
+    "regionName": "인천",
+    "kind": "local",
+    "parent": "인천 / 인천 연수구",
+    "url": "/center/incheon/yeonsugu/yeonsudong/elementarymath/",
+    "search": "연수동 초등 수학학원 인천 인천 / 인천 연수구 incheon yeonsugu yeonsudong elementarymath"
+  },
+  {
+    "title": "연수동 초등 영어학원",
+    "region": "incheon",
+    "regionName": "인천",
+    "kind": "local",
+    "parent": "인천 / 인천 연수구",
+    "url": "/center/incheon/yeonsugu/yeonsudong/elementaryenglish/",
+    "search": "연수동 초등 영어학원 인천 인천 / 인천 연수구 incheon yeonsugu yeonsudong elementaryenglish"
+  },
+  {
     "title": "연수동 초등학생학원",
     "region": "incheon",
     "regionName": "인천",
@@ -43146,6 +49194,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "인천 갈산동 중학생학원 인천 인천 / 인천 부평구 incheon bupyeonggu incheon-galsandong middleschool"
   },
   {
+    "title": "인천 갈산동 초등 수학학원",
+    "region": "incheon",
+    "regionName": "인천",
+    "kind": "local",
+    "parent": "인천 / 인천 부평구",
+    "url": "/center/incheon/bupyeonggu/incheon-galsandong/elementarymath/",
+    "search": "인천 갈산동 초등 수학학원 인천 인천 / 인천 부평구 incheon bupyeonggu incheon-galsandong elementarymath"
+  },
+  {
+    "title": "인천 갈산동 초등 영어학원",
+    "region": "incheon",
+    "regionName": "인천",
+    "kind": "local",
+    "parent": "인천 / 인천 부평구",
+    "url": "/center/incheon/bupyeonggu/incheon-galsandong/elementaryenglish/",
+    "search": "인천 갈산동 초등 영어학원 인천 인천 / 인천 부평구 incheon bupyeonggu incheon-galsandong elementaryenglish"
+  },
+  {
     "title": "인천 갈산동 초등학생학원",
     "region": "incheon",
     "regionName": "인천",
@@ -43270,6 +49336,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "인천 / 인천 서구",
     "url": "/center/incheon/seogu/cheongra/middleschool/",
     "search": "청라 중학생학원 인천 인천 / 인천 서구 incheon seogu cheongra middleschool"
+  },
+  {
+    "title": "청라 초등 수학학원",
+    "region": "incheon",
+    "regionName": "인천",
+    "kind": "local",
+    "parent": "인천 / 인천 서구",
+    "url": "/center/incheon/seogu/cheongra/elementarymath/",
+    "search": "청라 초등 수학학원 인천 인천 / 인천 서구 incheon seogu cheongra elementarymath"
+  },
+  {
+    "title": "청라 초등 영어학원",
+    "region": "incheon",
+    "regionName": "인천",
+    "kind": "local",
+    "parent": "인천 / 인천 서구",
+    "url": "/center/incheon/seogu/cheongra/elementaryenglish/",
+    "search": "청라 초등 영어학원 인천 인천 / 인천 서구 incheon seogu cheongra elementaryenglish"
   },
   {
     "title": "청라 초등학생학원",
@@ -43425,6 +49509,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "서신동 중학생학원 전라 전라 / 전라 전주시 jeolla jeonjusi seosindong middleschool"
   },
   {
+    "title": "서신동 초등 수학학원",
+    "region": "jeolla",
+    "regionName": "전라",
+    "kind": "local",
+    "parent": "전라 / 전라 전주시",
+    "url": "/center/jeolla/jeonjusi/seosindong/elementarymath/",
+    "search": "서신동 초등 수학학원 전라 전라 / 전라 전주시 jeolla jeonjusi seosindong elementarymath"
+  },
+  {
+    "title": "서신동 초등 영어학원",
+    "region": "jeolla",
+    "regionName": "전라",
+    "kind": "local",
+    "parent": "전라 / 전라 전주시",
+    "url": "/center/jeolla/jeonjusi/seosindong/elementaryenglish/",
+    "search": "서신동 초등 영어학원 전라 전라 / 전라 전주시 jeolla jeonjusi seosindong elementaryenglish"
+  },
+  {
     "title": "서신동 초등학생학원",
     "region": "jeolla",
     "regionName": "전라",
@@ -43549,6 +49651,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "전라 / 전라 전주시",
     "url": "/center/jeolla/jeonjusi/songcheondong/middleschool/",
     "search": "송천동 중학생학원 전라 전라 / 전라 전주시 jeolla jeonjusi songcheondong middleschool"
+  },
+  {
+    "title": "송천동 초등 수학학원",
+    "region": "jeolla",
+    "regionName": "전라",
+    "kind": "local",
+    "parent": "전라 / 전라 전주시",
+    "url": "/center/jeolla/jeonjusi/songcheondong/elementarymath/",
+    "search": "송천동 초등 수학학원 전라 전라 / 전라 전주시 jeolla jeonjusi songcheondong elementarymath"
+  },
+  {
+    "title": "송천동 초등 영어학원",
+    "region": "jeolla",
+    "regionName": "전라",
+    "kind": "local",
+    "parent": "전라 / 전라 전주시",
+    "url": "/center/jeolla/jeonjusi/songcheondong/elementaryenglish/",
+    "search": "송천동 초등 영어학원 전라 전라 / 전라 전주시 jeolla jeonjusi songcheondong elementaryenglish"
   },
   {
     "title": "송천동 초등학생학원",
@@ -43677,6 +49797,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "전주 장동 중학생학원 전라 전라 / 전라 완주군 jeolla wanjugun jeonju-jangdong middleschool"
   },
   {
+    "title": "전주 장동 초등 수학학원",
+    "region": "jeolla",
+    "regionName": "전라",
+    "kind": "local",
+    "parent": "전라 / 전라 완주군",
+    "url": "/center/jeolla/wanjugun/jeonju-jangdong/elementarymath/",
+    "search": "전주 장동 초등 수학학원 전라 전라 / 전라 완주군 jeolla wanjugun jeonju-jangdong elementarymath"
+  },
+  {
+    "title": "전주 장동 초등 영어학원",
+    "region": "jeolla",
+    "regionName": "전라",
+    "kind": "local",
+    "parent": "전라 / 전라 완주군",
+    "url": "/center/jeolla/wanjugun/jeonju-jangdong/elementaryenglish/",
+    "search": "전주 장동 초등 영어학원 전라 전라 / 전라 완주군 jeolla wanjugun jeonju-jangdong elementaryenglish"
+  },
+  {
     "title": "전주 장동 초등학생학원",
     "region": "jeolla",
     "regionName": "전라",
@@ -43801,6 +49939,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "전라 / 전라 완주군",
     "url": "/center/jeolla/wanjugun/jeonjuhyeoksindosi/middleschool/",
     "search": "전주혁신도시 중학생학원 전라 전라 / 전라 완주군 jeolla wanjugun jeonjuhyeoksindosi middleschool"
+  },
+  {
+    "title": "전주혁신도시 초등 수학학원",
+    "region": "jeolla",
+    "regionName": "전라",
+    "kind": "local",
+    "parent": "전라 / 전라 완주군",
+    "url": "/center/jeolla/wanjugun/jeonjuhyeoksindosi/elementarymath/",
+    "search": "전주혁신도시 초등 수학학원 전라 전라 / 전라 완주군 jeolla wanjugun jeonjuhyeoksindosi elementarymath"
+  },
+  {
+    "title": "전주혁신도시 초등 영어학원",
+    "region": "jeolla",
+    "regionName": "전라",
+    "kind": "local",
+    "parent": "전라 / 전라 완주군",
+    "url": "/center/jeolla/wanjugun/jeonjuhyeoksindosi/elementaryenglish/",
+    "search": "전주혁신도시 초등 영어학원 전라 전라 / 전라 완주군 jeolla wanjugun jeonjuhyeoksindosi elementaryenglish"
   },
   {
     "title": "전주혁신도시 초등학생학원",
@@ -43929,6 +50085,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "중화산동 중학생학원 전라 전라 / 전라 전주시 jeolla jeonjusi junghwasandong middleschool"
   },
   {
+    "title": "중화산동 초등 수학학원",
+    "region": "jeolla",
+    "regionName": "전라",
+    "kind": "local",
+    "parent": "전라 / 전라 전주시",
+    "url": "/center/jeolla/jeonjusi/junghwasandong/elementarymath/",
+    "search": "중화산동 초등 수학학원 전라 전라 / 전라 전주시 jeolla jeonjusi junghwasandong elementarymath"
+  },
+  {
+    "title": "중화산동 초등 영어학원",
+    "region": "jeolla",
+    "regionName": "전라",
+    "kind": "local",
+    "parent": "전라 / 전라 전주시",
+    "url": "/center/jeolla/jeonjusi/junghwasandong/elementaryenglish/",
+    "search": "중화산동 초등 영어학원 전라 전라 / 전라 전주시 jeolla jeonjusi junghwasandong elementaryenglish"
+  },
+  {
     "title": "중화산동 초등학생학원",
     "region": "jeolla",
     "regionName": "전라",
@@ -44053,6 +50227,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "전라 / 전라 전주시",
     "url": "/center/jeolla/jeonjusi/hyojadong/middleschool/",
     "search": "효자동 중학생학원 전라 전라 / 전라 전주시 jeolla jeonjusi hyojadong middleschool"
+  },
+  {
+    "title": "효자동 초등 수학학원",
+    "region": "jeolla",
+    "regionName": "전라",
+    "kind": "local",
+    "parent": "전라 / 전라 전주시",
+    "url": "/center/jeolla/jeonjusi/hyojadong/elementarymath/",
+    "search": "효자동 초등 수학학원 전라 전라 / 전라 전주시 jeolla jeonjusi hyojadong elementarymath"
+  },
+  {
+    "title": "효자동 초등 영어학원",
+    "region": "jeolla",
+    "regionName": "전라",
+    "kind": "local",
+    "parent": "전라 / 전라 전주시",
+    "url": "/center/jeolla/jeonjusi/hyojadong/elementaryenglish/",
+    "search": "효자동 초등 영어학원 전라 전라 / 전라 전주시 jeolla jeonjusi hyojadong elementaryenglish"
   },
   {
     "title": "효자동 초등학생학원",
@@ -44199,6 +50391,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "노형동 중학생학원 제주 제주 / 제주 제주시 jeju jejusi nohyeongdong middleschool"
   },
   {
+    "title": "노형동 초등 수학학원",
+    "region": "jeju",
+    "regionName": "제주",
+    "kind": "local",
+    "parent": "제주 / 제주 제주시",
+    "url": "/center/jeju/jejusi/nohyeongdong/elementarymath/",
+    "search": "노형동 초등 수학학원 제주 제주 / 제주 제주시 jeju jejusi nohyeongdong elementarymath"
+  },
+  {
+    "title": "노형동 초등 영어학원",
+    "region": "jeju",
+    "regionName": "제주",
+    "kind": "local",
+    "parent": "제주 / 제주 제주시",
+    "url": "/center/jeju/jejusi/nohyeongdong/elementaryenglish/",
+    "search": "노형동 초등 영어학원 제주 제주 / 제주 제주시 jeju jejusi nohyeongdong elementaryenglish"
+  },
+  {
     "title": "노형동 초등학생학원",
     "region": "jeju",
     "regionName": "제주",
@@ -44323,6 +50533,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "제주 / 제주 제주시",
     "url": "/center/jeju/jejusi/yeondong/middleschool/",
     "search": "연동 중학생학원 제주 제주 / 제주 제주시 jeju jejusi yeondong middleschool"
+  },
+  {
+    "title": "연동 초등 수학학원",
+    "region": "jeju",
+    "regionName": "제주",
+    "kind": "local",
+    "parent": "제주 / 제주 제주시",
+    "url": "/center/jeju/jejusi/yeondong/elementarymath/",
+    "search": "연동 초등 수학학원 제주 제주 / 제주 제주시 jeju jejusi yeondong elementarymath"
+  },
+  {
+    "title": "연동 초등 영어학원",
+    "region": "jeju",
+    "regionName": "제주",
+    "kind": "local",
+    "parent": "제주 / 제주 제주시",
+    "url": "/center/jeju/jejusi/yeondong/elementaryenglish/",
+    "search": "연동 초등 영어학원 제주 제주 / 제주 제주시 jeju jejusi yeondong elementaryenglish"
   },
   {
     "title": "연동 초등학생학원",
@@ -44514,6 +50742,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "가경동 중학생학원 충청 충청 / 충청 청주시 chungcheong cheongjusi gagyeongdong middleschool"
   },
   {
+    "title": "가경동 초등 수학학원",
+    "region": "chungcheong",
+    "regionName": "충청",
+    "kind": "local",
+    "parent": "충청 / 충청 청주시",
+    "url": "/center/chungcheong/cheongjusi/gagyeongdong/elementarymath/",
+    "search": "가경동 초등 수학학원 충청 충청 / 충청 청주시 chungcheong cheongjusi gagyeongdong elementarymath"
+  },
+  {
+    "title": "가경동 초등 영어학원",
+    "region": "chungcheong",
+    "regionName": "충청",
+    "kind": "local",
+    "parent": "충청 / 충청 청주시",
+    "url": "/center/chungcheong/cheongjusi/gagyeongdong/elementaryenglish/",
+    "search": "가경동 초등 영어학원 충청 충청 / 충청 청주시 chungcheong cheongjusi gagyeongdong elementaryenglish"
+  },
+  {
     "title": "가경동 초등학생학원",
     "region": "chungcheong",
     "regionName": "충청",
@@ -44638,6 +50884,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "충청 / 충청 청주시",
     "url": "/center/chungcheong/cheongjusi/gangseodong/middleschool/",
     "search": "강서동 중학생학원 충청 충청 / 충청 청주시 chungcheong cheongjusi gangseodong middleschool"
+  },
+  {
+    "title": "강서동 초등 수학학원",
+    "region": "chungcheong",
+    "regionName": "충청",
+    "kind": "local",
+    "parent": "충청 / 충청 청주시",
+    "url": "/center/chungcheong/cheongjusi/gangseodong/elementarymath/",
+    "search": "강서동 초등 수학학원 충청 충청 / 충청 청주시 chungcheong cheongjusi gangseodong elementarymath"
+  },
+  {
+    "title": "강서동 초등 영어학원",
+    "region": "chungcheong",
+    "regionName": "충청",
+    "kind": "local",
+    "parent": "충청 / 충청 청주시",
+    "url": "/center/chungcheong/cheongjusi/gangseodong/elementaryenglish/",
+    "search": "강서동 초등 영어학원 충청 충청 / 충청 청주시 chungcheong cheongjusi gangseodong elementaryenglish"
   },
   {
     "title": "강서동 초등학생학원",
@@ -44766,6 +51030,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "개신동 중학생학원 충청 충청 / 충청 청주시 chungcheong cheongjusi gaesindong middleschool"
   },
   {
+    "title": "개신동 초등 수학학원",
+    "region": "chungcheong",
+    "regionName": "충청",
+    "kind": "local",
+    "parent": "충청 / 충청 청주시",
+    "url": "/center/chungcheong/cheongjusi/gaesindong/elementarymath/",
+    "search": "개신동 초등 수학학원 충청 충청 / 충청 청주시 chungcheong cheongjusi gaesindong elementarymath"
+  },
+  {
+    "title": "개신동 초등 영어학원",
+    "region": "chungcheong",
+    "regionName": "충청",
+    "kind": "local",
+    "parent": "충청 / 충청 청주시",
+    "url": "/center/chungcheong/cheongjusi/gaesindong/elementaryenglish/",
+    "search": "개신동 초등 영어학원 충청 충청 / 충청 청주시 chungcheong cheongjusi gaesindong elementaryenglish"
+  },
+  {
     "title": "개신동 초등학생학원",
     "region": "chungcheong",
     "regionName": "충청",
@@ -44890,6 +51172,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "충청 / 충청 새롬중앙로",
     "url": "/center/chungcheong/saeromjungangro/dajeongdong/middleschool/",
     "search": "다정동 중학생학원 충청 충청 / 충청 새롬중앙로 chungcheong saeromjungangro dajeongdong middleschool"
+  },
+  {
+    "title": "다정동 초등 수학학원",
+    "region": "chungcheong",
+    "regionName": "충청",
+    "kind": "local",
+    "parent": "충청 / 충청 새롬중앙로",
+    "url": "/center/chungcheong/saeromjungangro/dajeongdong/elementarymath/",
+    "search": "다정동 초등 수학학원 충청 충청 / 충청 새롬중앙로 chungcheong saeromjungangro dajeongdong elementarymath"
+  },
+  {
+    "title": "다정동 초등 영어학원",
+    "region": "chungcheong",
+    "regionName": "충청",
+    "kind": "local",
+    "parent": "충청 / 충청 새롬중앙로",
+    "url": "/center/chungcheong/saeromjungangro/dajeongdong/elementaryenglish/",
+    "search": "다정동 초등 영어학원 충청 충청 / 충청 새롬중앙로 chungcheong saeromjungangro dajeongdong elementaryenglish"
   },
   {
     "title": "다정동 초등학생학원",
@@ -45018,6 +51318,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "당진 읍내동 중학생학원 충청 충청 / 충청 당진시 chungcheong dangjinsi dangjin-eupnaedong middleschool"
   },
   {
+    "title": "당진 읍내동 초등 수학학원",
+    "region": "chungcheong",
+    "regionName": "충청",
+    "kind": "local",
+    "parent": "충청 / 충청 당진시",
+    "url": "/center/chungcheong/dangjinsi/dangjin-eupnaedong/elementarymath/",
+    "search": "당진 읍내동 초등 수학학원 충청 충청 / 충청 당진시 chungcheong dangjinsi dangjin-eupnaedong elementarymath"
+  },
+  {
+    "title": "당진 읍내동 초등 영어학원",
+    "region": "chungcheong",
+    "regionName": "충청",
+    "kind": "local",
+    "parent": "충청 / 충청 당진시",
+    "url": "/center/chungcheong/dangjinsi/dangjin-eupnaedong/elementaryenglish/",
+    "search": "당진 읍내동 초등 영어학원 충청 충청 / 충청 당진시 chungcheong dangjinsi dangjin-eupnaedong elementaryenglish"
+  },
+  {
     "title": "당진 읍내동 초등학생학원",
     "region": "chungcheong",
     "regionName": "충청",
@@ -45142,6 +51460,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "충청 / 충청 천안시",
     "url": "/center/chungcheong/cheonansi/dujeongdong/middleschool/",
     "search": "두정동 중학생학원 충청 충청 / 충청 천안시 chungcheong cheonansi dujeongdong middleschool"
+  },
+  {
+    "title": "두정동 초등 수학학원",
+    "region": "chungcheong",
+    "regionName": "충청",
+    "kind": "local",
+    "parent": "충청 / 충청 천안시",
+    "url": "/center/chungcheong/cheonansi/dujeongdong/elementarymath/",
+    "search": "두정동 초등 수학학원 충청 충청 / 충청 천안시 chungcheong cheonansi dujeongdong elementarymath"
+  },
+  {
+    "title": "두정동 초등 영어학원",
+    "region": "chungcheong",
+    "regionName": "충청",
+    "kind": "local",
+    "parent": "충청 / 충청 천안시",
+    "url": "/center/chungcheong/cheonansi/dujeongdong/elementaryenglish/",
+    "search": "두정동 초등 영어학원 충청 충청 / 충청 천안시 chungcheong cheonansi dujeongdong elementaryenglish"
   },
   {
     "title": "두정동 초등학생학원",
@@ -45270,6 +51606,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "복대동 중학생학원 충청 충청 / 충청 청주시 chungcheong cheongjusi bokdaedong middleschool"
   },
   {
+    "title": "복대동 초등 수학학원",
+    "region": "chungcheong",
+    "regionName": "충청",
+    "kind": "local",
+    "parent": "충청 / 충청 청주시",
+    "url": "/center/chungcheong/cheongjusi/bokdaedong/elementarymath/",
+    "search": "복대동 초등 수학학원 충청 충청 / 충청 청주시 chungcheong cheongjusi bokdaedong elementarymath"
+  },
+  {
+    "title": "복대동 초등 영어학원",
+    "region": "chungcheong",
+    "regionName": "충청",
+    "kind": "local",
+    "parent": "충청 / 충청 청주시",
+    "url": "/center/chungcheong/cheongjusi/bokdaedong/elementaryenglish/",
+    "search": "복대동 초등 영어학원 충청 충청 / 충청 청주시 chungcheong cheongjusi bokdaedong elementaryenglish"
+  },
+  {
     "title": "복대동 초등학생학원",
     "region": "chungcheong",
     "regionName": "충청",
@@ -45394,6 +51748,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "충청 / 충청 천안시",
     "url": "/center/chungcheong/cheonansi/bongmyeongdong/middleschool/",
     "search": "봉명동 중학생학원 충청 충청 / 충청 천안시 chungcheong cheonansi bongmyeongdong middleschool"
+  },
+  {
+    "title": "봉명동 초등 수학학원",
+    "region": "chungcheong",
+    "regionName": "충청",
+    "kind": "local",
+    "parent": "충청 / 충청 천안시",
+    "url": "/center/chungcheong/cheonansi/bongmyeongdong/elementarymath/",
+    "search": "봉명동 초등 수학학원 충청 충청 / 충청 천안시 chungcheong cheonansi bongmyeongdong elementarymath"
+  },
+  {
+    "title": "봉명동 초등 영어학원",
+    "region": "chungcheong",
+    "regionName": "충청",
+    "kind": "local",
+    "parent": "충청 / 충청 천안시",
+    "url": "/center/chungcheong/cheonansi/bongmyeongdong/elementaryenglish/",
+    "search": "봉명동 초등 영어학원 충청 충청 / 충청 천안시 chungcheong cheonansi bongmyeongdong elementaryenglish"
   },
   {
     "title": "봉명동 초등학생학원",
@@ -45522,6 +51894,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "봉방동 중학생학원 충청 충청 / 충청 충주시 chungcheong chungjusi bongbangdong middleschool"
   },
   {
+    "title": "봉방동 초등 수학학원",
+    "region": "chungcheong",
+    "regionName": "충청",
+    "kind": "local",
+    "parent": "충청 / 충청 충주시",
+    "url": "/center/chungcheong/chungjusi/bongbangdong/elementarymath/",
+    "search": "봉방동 초등 수학학원 충청 충청 / 충청 충주시 chungcheong chungjusi bongbangdong elementarymath"
+  },
+  {
+    "title": "봉방동 초등 영어학원",
+    "region": "chungcheong",
+    "regionName": "충청",
+    "kind": "local",
+    "parent": "충청 / 충청 충주시",
+    "url": "/center/chungcheong/chungjusi/bongbangdong/elementaryenglish/",
+    "search": "봉방동 초등 영어학원 충청 충청 / 충청 충주시 chungcheong chungjusi bongbangdong elementaryenglish"
+  },
+  {
     "title": "봉방동 초등학생학원",
     "region": "chungcheong",
     "regionName": "충청",
@@ -45646,6 +52036,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "충청 / 충청 천안시",
     "url": "/center/chungcheong/cheonansi/buldangdong/middleschool/",
     "search": "불당동 중학생학원 충청 충청 / 충청 천안시 chungcheong cheonansi buldangdong middleschool"
+  },
+  {
+    "title": "불당동 초등 수학학원",
+    "region": "chungcheong",
+    "regionName": "충청",
+    "kind": "local",
+    "parent": "충청 / 충청 천안시",
+    "url": "/center/chungcheong/cheonansi/buldangdong/elementarymath/",
+    "search": "불당동 초등 수학학원 충청 충청 / 충청 천안시 chungcheong cheonansi buldangdong elementarymath"
+  },
+  {
+    "title": "불당동 초등 영어학원",
+    "region": "chungcheong",
+    "regionName": "충청",
+    "kind": "local",
+    "parent": "충청 / 충청 천안시",
+    "url": "/center/chungcheong/cheonansi/buldangdong/elementaryenglish/",
+    "search": "불당동 초등 영어학원 충청 충청 / 충청 천안시 chungcheong cheonansi buldangdong elementaryenglish"
   },
   {
     "title": "불당동 초등학생학원",
@@ -45774,6 +52182,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "비하동 중학생학원 충청 충청 / 충청 청주시 chungcheong cheongjusi bihadong middleschool"
   },
   {
+    "title": "비하동 초등 수학학원",
+    "region": "chungcheong",
+    "regionName": "충청",
+    "kind": "local",
+    "parent": "충청 / 충청 청주시",
+    "url": "/center/chungcheong/cheongjusi/bihadong/elementarymath/",
+    "search": "비하동 초등 수학학원 충청 충청 / 충청 청주시 chungcheong cheongjusi bihadong elementarymath"
+  },
+  {
+    "title": "비하동 초등 영어학원",
+    "region": "chungcheong",
+    "regionName": "충청",
+    "kind": "local",
+    "parent": "충청 / 충청 청주시",
+    "url": "/center/chungcheong/cheongjusi/bihadong/elementaryenglish/",
+    "search": "비하동 초등 영어학원 충청 충청 / 충청 청주시 chungcheong cheongjusi bihadong elementaryenglish"
+  },
+  {
     "title": "비하동 초등학생학원",
     "region": "chungcheong",
     "regionName": "충청",
@@ -45898,6 +52324,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "충청 / 충청 청주시",
     "url": "/center/chungcheong/cheongjusi/sannamdong/middleschool/",
     "search": "산남동 중학생학원 충청 충청 / 충청 청주시 chungcheong cheongjusi sannamdong middleschool"
+  },
+  {
+    "title": "산남동 초등 수학학원",
+    "region": "chungcheong",
+    "regionName": "충청",
+    "kind": "local",
+    "parent": "충청 / 충청 청주시",
+    "url": "/center/chungcheong/cheongjusi/sannamdong/elementarymath/",
+    "search": "산남동 초등 수학학원 충청 충청 / 충청 청주시 chungcheong cheongjusi sannamdong elementarymath"
+  },
+  {
+    "title": "산남동 초등 영어학원",
+    "region": "chungcheong",
+    "regionName": "충청",
+    "kind": "local",
+    "parent": "충청 / 충청 청주시",
+    "url": "/center/chungcheong/cheongjusi/sannamdong/elementaryenglish/",
+    "search": "산남동 초등 영어학원 충청 충청 / 충청 청주시 chungcheong cheongjusi sannamdong elementaryenglish"
   },
   {
     "title": "산남동 초등학생학원",
@@ -46026,6 +52470,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "새롬동 중학생학원 충청 충청 / 충청 새롬중앙로 chungcheong saeromjungangro saeromdong middleschool"
   },
   {
+    "title": "새롬동 초등 수학학원",
+    "region": "chungcheong",
+    "regionName": "충청",
+    "kind": "local",
+    "parent": "충청 / 충청 새롬중앙로",
+    "url": "/center/chungcheong/saeromjungangro/saeromdong/elementarymath/",
+    "search": "새롬동 초등 수학학원 충청 충청 / 충청 새롬중앙로 chungcheong saeromjungangro saeromdong elementarymath"
+  },
+  {
+    "title": "새롬동 초등 영어학원",
+    "region": "chungcheong",
+    "regionName": "충청",
+    "kind": "local",
+    "parent": "충청 / 충청 새롬중앙로",
+    "url": "/center/chungcheong/saeromjungangro/saeromdong/elementaryenglish/",
+    "search": "새롬동 초등 영어학원 충청 충청 / 충청 새롬중앙로 chungcheong saeromjungangro saeromdong elementaryenglish"
+  },
+  {
     "title": "새롬동 초등학생학원",
     "region": "chungcheong",
     "regionName": "충청",
@@ -46150,6 +52612,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "충청 / 충청 천안시",
     "url": "/center/chungcheong/cheonansi/seongjeongdong/middleschool/",
     "search": "성정동 중학생학원 충청 충청 / 충청 천안시 chungcheong cheonansi seongjeongdong middleschool"
+  },
+  {
+    "title": "성정동 초등 수학학원",
+    "region": "chungcheong",
+    "regionName": "충청",
+    "kind": "local",
+    "parent": "충청 / 충청 천안시",
+    "url": "/center/chungcheong/cheonansi/seongjeongdong/elementarymath/",
+    "search": "성정동 초등 수학학원 충청 충청 / 충청 천안시 chungcheong cheonansi seongjeongdong elementarymath"
+  },
+  {
+    "title": "성정동 초등 영어학원",
+    "region": "chungcheong",
+    "regionName": "충청",
+    "kind": "local",
+    "parent": "충청 / 충청 천안시",
+    "url": "/center/chungcheong/cheonansi/seongjeongdong/elementaryenglish/",
+    "search": "성정동 초등 영어학원 충청 충청 / 충청 천안시 chungcheong cheonansi seongjeongdong elementaryenglish"
   },
   {
     "title": "성정동 초등학생학원",
@@ -46278,6 +52758,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "성화동 중학생학원 충청 충청 / 충청 청주시 chungcheong cheongjusi seonghwadong middleschool"
   },
   {
+    "title": "성화동 초등 수학학원",
+    "region": "chungcheong",
+    "regionName": "충청",
+    "kind": "local",
+    "parent": "충청 / 충청 청주시",
+    "url": "/center/chungcheong/cheongjusi/seonghwadong/elementarymath/",
+    "search": "성화동 초등 수학학원 충청 충청 / 충청 청주시 chungcheong cheongjusi seonghwadong elementarymath"
+  },
+  {
+    "title": "성화동 초등 영어학원",
+    "region": "chungcheong",
+    "regionName": "충청",
+    "kind": "local",
+    "parent": "충청 / 충청 청주시",
+    "url": "/center/chungcheong/cheongjusi/seonghwadong/elementaryenglish/",
+    "search": "성화동 초등 영어학원 충청 충청 / 충청 청주시 chungcheong cheongjusi seonghwadong elementaryenglish"
+  },
+  {
     "title": "성화동 초등학생학원",
     "region": "chungcheong",
     "regionName": "충청",
@@ -46402,6 +52900,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "충청 / 충청 청주시",
     "url": "/center/chungcheong/cheongjusi/sugokdong/middleschool/",
     "search": "수곡동 중학생학원 충청 충청 / 충청 청주시 chungcheong cheongjusi sugokdong middleschool"
+  },
+  {
+    "title": "수곡동 초등 수학학원",
+    "region": "chungcheong",
+    "regionName": "충청",
+    "kind": "local",
+    "parent": "충청 / 충청 청주시",
+    "url": "/center/chungcheong/cheongjusi/sugokdong/elementarymath/",
+    "search": "수곡동 초등 수학학원 충청 충청 / 충청 청주시 chungcheong cheongjusi sugokdong elementarymath"
+  },
+  {
+    "title": "수곡동 초등 영어학원",
+    "region": "chungcheong",
+    "regionName": "충청",
+    "kind": "local",
+    "parent": "충청 / 충청 청주시",
+    "url": "/center/chungcheong/cheongjusi/sugokdong/elementaryenglish/",
+    "search": "수곡동 초등 영어학원 충청 충청 / 충청 청주시 chungcheong cheongjusi sugokdong elementaryenglish"
   },
   {
     "title": "수곡동 초등학생학원",
@@ -46530,6 +53046,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "신방동 중학생학원 충청 충청 / 충청 천안시 chungcheong cheonansi sinbangdong middleschool"
   },
   {
+    "title": "신방동 초등 수학학원",
+    "region": "chungcheong",
+    "regionName": "충청",
+    "kind": "local",
+    "parent": "충청 / 충청 천안시",
+    "url": "/center/chungcheong/cheonansi/sinbangdong/elementarymath/",
+    "search": "신방동 초등 수학학원 충청 충청 / 충청 천안시 chungcheong cheonansi sinbangdong elementarymath"
+  },
+  {
+    "title": "신방동 초등 영어학원",
+    "region": "chungcheong",
+    "regionName": "충청",
+    "kind": "local",
+    "parent": "충청 / 충청 천안시",
+    "url": "/center/chungcheong/cheonansi/sinbangdong/elementaryenglish/",
+    "search": "신방동 초등 영어학원 충청 충청 / 충청 천안시 chungcheong cheonansi sinbangdong elementaryenglish"
+  },
+  {
     "title": "신방동 초등학생학원",
     "region": "chungcheong",
     "regionName": "충청",
@@ -46654,6 +53188,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "충청 / 충청 천안시",
     "url": "/center/chungcheong/cheonansi/sinbuldang/middleschool/",
     "search": "신불당 중학생학원 충청 충청 / 충청 천안시 chungcheong cheonansi sinbuldang middleschool"
+  },
+  {
+    "title": "신불당 초등 수학학원",
+    "region": "chungcheong",
+    "regionName": "충청",
+    "kind": "local",
+    "parent": "충청 / 충청 천안시",
+    "url": "/center/chungcheong/cheonansi/sinbuldang/elementarymath/",
+    "search": "신불당 초등 수학학원 충청 충청 / 충청 천안시 chungcheong cheonansi sinbuldang elementarymath"
+  },
+  {
+    "title": "신불당 초등 영어학원",
+    "region": "chungcheong",
+    "regionName": "충청",
+    "kind": "local",
+    "parent": "충청 / 충청 천안시",
+    "url": "/center/chungcheong/cheonansi/sinbuldang/elementaryenglish/",
+    "search": "신불당 초등 영어학원 충청 충청 / 충청 천안시 chungcheong cheonansi sinbuldang elementaryenglish"
   },
   {
     "title": "신불당 초등학생학원",
@@ -46782,6 +53334,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "쌍용동 중학생학원 충청 충청 / 충청 천안시 chungcheong cheonansi ssangyongdong middleschool"
   },
   {
+    "title": "쌍용동 초등 수학학원",
+    "region": "chungcheong",
+    "regionName": "충청",
+    "kind": "local",
+    "parent": "충청 / 충청 천안시",
+    "url": "/center/chungcheong/cheonansi/ssangyongdong/elementarymath/",
+    "search": "쌍용동 초등 수학학원 충청 충청 / 충청 천안시 chungcheong cheonansi ssangyongdong elementarymath"
+  },
+  {
+    "title": "쌍용동 초등 영어학원",
+    "region": "chungcheong",
+    "regionName": "충청",
+    "kind": "local",
+    "parent": "충청 / 충청 천안시",
+    "url": "/center/chungcheong/cheonansi/ssangyongdong/elementaryenglish/",
+    "search": "쌍용동 초등 영어학원 충청 충청 / 충청 천안시 chungcheong cheonansi ssangyongdong elementaryenglish"
+  },
+  {
     "title": "쌍용동 초등학생학원",
     "region": "chungcheong",
     "regionName": "충청",
@@ -46906,6 +53476,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "충청 / 충청 천안시",
     "url": "/center/chungcheong/cheonansi/yonggokdong/middleschool/",
     "search": "용곡동 중학생학원 충청 충청 / 충청 천안시 chungcheong cheonansi yonggokdong middleschool"
+  },
+  {
+    "title": "용곡동 초등 수학학원",
+    "region": "chungcheong",
+    "regionName": "충청",
+    "kind": "local",
+    "parent": "충청 / 충청 천안시",
+    "url": "/center/chungcheong/cheonansi/yonggokdong/elementarymath/",
+    "search": "용곡동 초등 수학학원 충청 충청 / 충청 천안시 chungcheong cheonansi yonggokdong elementarymath"
+  },
+  {
+    "title": "용곡동 초등 영어학원",
+    "region": "chungcheong",
+    "regionName": "충청",
+    "kind": "local",
+    "parent": "충청 / 충청 천안시",
+    "url": "/center/chungcheong/cheonansi/yonggokdong/elementaryenglish/",
+    "search": "용곡동 초등 영어학원 충청 충청 / 충청 천안시 chungcheong cheonansi yonggokdong elementaryenglish"
   },
   {
     "title": "용곡동 초등학생학원",
@@ -47034,6 +53622,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "천안 백석동 중학생학원 충청 충청 / 충청 천안시 chungcheong cheonansi cheonan-baekseokdong middleschool"
   },
   {
+    "title": "천안 백석동 초등 수학학원",
+    "region": "chungcheong",
+    "regionName": "충청",
+    "kind": "local",
+    "parent": "충청 / 충청 천안시",
+    "url": "/center/chungcheong/cheonansi/cheonan-baekseokdong/elementarymath/",
+    "search": "천안 백석동 초등 수학학원 충청 충청 / 충청 천안시 chungcheong cheonansi cheonan-baekseokdong elementarymath"
+  },
+  {
+    "title": "천안 백석동 초등 영어학원",
+    "region": "chungcheong",
+    "regionName": "충청",
+    "kind": "local",
+    "parent": "충청 / 충청 천안시",
+    "url": "/center/chungcheong/cheonansi/cheonan-baekseokdong/elementaryenglish/",
+    "search": "천안 백석동 초등 영어학원 충청 충청 / 충청 천안시 chungcheong cheonansi cheonan-baekseokdong elementaryenglish"
+  },
+  {
     "title": "천안 백석동 초등학생학원",
     "region": "chungcheong",
     "regionName": "충청",
@@ -47158,6 +53764,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "충청 / 충청 충주시",
     "url": "/center/chungcheong/chungjusi/chungju-yongsandong/middleschool/",
     "search": "충주 용산동 중학생학원 충청 충청 / 충청 충주시 chungcheong chungjusi chungju-yongsandong middleschool"
+  },
+  {
+    "title": "충주 용산동 초등 수학학원",
+    "region": "chungcheong",
+    "regionName": "충청",
+    "kind": "local",
+    "parent": "충청 / 충청 충주시",
+    "url": "/center/chungcheong/chungjusi/chungju-yongsandong/elementarymath/",
+    "search": "충주 용산동 초등 수학학원 충청 충청 / 충청 충주시 chungcheong chungjusi chungju-yongsandong elementarymath"
+  },
+  {
+    "title": "충주 용산동 초등 영어학원",
+    "region": "chungcheong",
+    "regionName": "충청",
+    "kind": "local",
+    "parent": "충청 / 충청 충주시",
+    "url": "/center/chungcheong/chungjusi/chungju-yongsandong/elementaryenglish/",
+    "search": "충주 용산동 초등 영어학원 충청 충청 / 충청 충주시 chungcheong chungjusi chungju-yongsandong elementaryenglish"
   },
   {
     "title": "충주 용산동 초등학생학원",
@@ -47286,6 +53910,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "칠금동 중학생학원 충청 충청 / 충청 충주시 chungcheong chungjusi chilgeumdong middleschool"
   },
   {
+    "title": "칠금동 초등 수학학원",
+    "region": "chungcheong",
+    "regionName": "충청",
+    "kind": "local",
+    "parent": "충청 / 충청 충주시",
+    "url": "/center/chungcheong/chungjusi/chilgeumdong/elementarymath/",
+    "search": "칠금동 초등 수학학원 충청 충청 / 충청 충주시 chungcheong chungjusi chilgeumdong elementarymath"
+  },
+  {
+    "title": "칠금동 초등 영어학원",
+    "region": "chungcheong",
+    "regionName": "충청",
+    "kind": "local",
+    "parent": "충청 / 충청 충주시",
+    "url": "/center/chungcheong/chungjusi/chilgeumdong/elementaryenglish/",
+    "search": "칠금동 초등 영어학원 충청 충청 / 충청 충주시 chungcheong chungjusi chilgeumdong elementaryenglish"
+  },
+  {
     "title": "칠금동 초등학생학원",
     "region": "chungcheong",
     "regionName": "충청",
@@ -47412,6 +54054,24 @@ window.WAWA_CENTER_INDEX = [
     "search": "탕정 중학생학원 충청 충청 / 충청 아산시 chungcheong asansi tangjeong middleschool"
   },
   {
+    "title": "탕정 초등 수학학원",
+    "region": "chungcheong",
+    "regionName": "충청",
+    "kind": "local",
+    "parent": "충청 / 충청 아산시",
+    "url": "/center/chungcheong/asansi/tangjeong/elementarymath/",
+    "search": "탕정 초등 수학학원 충청 충청 / 충청 아산시 chungcheong asansi tangjeong elementarymath"
+  },
+  {
+    "title": "탕정 초등 영어학원",
+    "region": "chungcheong",
+    "regionName": "충청",
+    "kind": "local",
+    "parent": "충청 / 충청 아산시",
+    "url": "/center/chungcheong/asansi/tangjeong/elementaryenglish/",
+    "search": "탕정 초등 영어학원 충청 충청 / 충청 아산시 chungcheong asansi tangjeong elementaryenglish"
+  },
+  {
     "title": "탕정 초등학생학원",
     "region": "chungcheong",
     "regionName": "충청",
@@ -47536,6 +54196,24 @@ window.WAWA_CENTER_INDEX = [
     "parent": "충청 / 충청 충주시",
     "url": "/center/chungcheong/chungjusi/hoamdong/middleschool/",
     "search": "호암동 중학생학원 충청 충청 / 충청 충주시 chungcheong chungjusi hoamdong middleschool"
+  },
+  {
+    "title": "호암동 초등 수학학원",
+    "region": "chungcheong",
+    "regionName": "충청",
+    "kind": "local",
+    "parent": "충청 / 충청 충주시",
+    "url": "/center/chungcheong/chungjusi/hoamdong/elementarymath/",
+    "search": "호암동 초등 수학학원 충청 충청 / 충청 충주시 chungcheong chungjusi hoamdong elementarymath"
+  },
+  {
+    "title": "호암동 초등 영어학원",
+    "region": "chungcheong",
+    "regionName": "충청",
+    "kind": "local",
+    "parent": "충청 / 충청 충주시",
+    "url": "/center/chungcheong/chungjusi/hoamdong/elementaryenglish/",
+    "search": "호암동 초등 영어학원 충청 충청 / 충청 충주시 chungcheong chungjusi hoamdong elementaryenglish"
   },
   {
     "title": "호암동 초등학생학원",
