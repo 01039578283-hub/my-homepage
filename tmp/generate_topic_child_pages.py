@@ -10,6 +10,7 @@ from pathlib import Path
 ROOT = Path.cwd()
 CSV_PATH = Path(r"C:\Users\얼짱김종범\Desktop\홈페이지 새로할거 자료\대량 등록할 파일.csv")
 REVIEWS_PATH = ROOT / "tmp" / "parent_reviews.json"
+FAQS_PATH = ROOT / "tmp" / "parent_faqs.json"
 SITE_URL = "https://wawa-center.kr"
 SITE_NAME = "와와학습코칭센터 영어수학 전문학원"
 SITE_DESCRIPTION = "초등, 중등, 고등 영어·수학 학습코칭을 안내하는 와와학습코칭센터 문의 홈페이지입니다."
@@ -48,7 +49,19 @@ def load_parent_reviews():
     return json.loads(REVIEWS_PATH.read_text(encoding="utf-8"))
 
 
+def load_parent_faqs():
+    if not FAQS_PATH.exists():
+        return []
+    data = json.loads(FAQS_PATH.read_text(encoding="utf-8"))
+    return [
+        {"question": clean_text(item.get("question", "")), "answer": clean_text(item.get("answer", ""))}
+        for item in data
+        if clean_text(item.get("question", "")) and clean_text(item.get("answer", ""))
+    ]
+
+
 PARENT_REVIEWS = load_parent_reviews()
+PARENT_FAQS = load_parent_faqs()
 
 
 def page_url(page_dir: Path) -> str:
@@ -62,6 +75,57 @@ def select_parent_reviews(page_dir: Path):
     rel = page_dir.relative_to(ROOT).as_posix()
     seed = int(hashlib.sha256(rel.encode("utf-8")).hexdigest(), 16)
     return random.Random(seed).sample(PARENT_REVIEWS, 6)
+
+
+def select_parent_faqs(page_dir: Path):
+    if len(PARENT_FAQS) < 4:
+        return []
+    rel = page_dir.relative_to(ROOT).as_posix()
+    seed = int(hashlib.sha256((rel + "::faq").encode("utf-8")).hexdigest(), 16)
+    return random.Random(seed).sample(PARENT_FAQS, 4)
+
+
+def parent_faq_markup(title: str, faqs) -> str:
+    if not faqs:
+        return ""
+    items = []
+    for index, item in enumerate(faqs):
+        open_attr = " open" if index == 0 else ""
+        items.append(
+            f'''    <details class="parent-faq-item"{open_attr}>
+      <summary><span class="parent-faq-q">Q</span>{html.escape(item["question"])}</summary>
+      <p class="parent-faq-answer">{html.escape(item["answer"])}</p>
+    </details>'''
+        )
+    return f'''<section class="parent-faq-section" aria-labelledby="parent-faq-title">
+  <div class="parent-faq-head">
+    <p class="parent-faq-eyebrow">PARENT FAQ</p>
+    <h2 id="parent-faq-title">학부모 FAQ</h2>
+    <p>{html.escape(title)} 상담 전 자주 확인하시는 질문과 답변입니다.</p>
+  </div>
+  <div class="parent-faq-list">
+{chr(10).join(items)}
+  </div>
+</section>
+'''
+
+
+def parent_faq_json_ld(faqs) -> str:
+    if not faqs:
+        return ""
+    data = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": item["question"],
+                "acceptedAnswer": {"@type": "Answer", "text": item["answer"]},
+            }
+            for item in faqs
+        ],
+    }
+    return f'  <script type="application/ld+json" data-parent-faq-jsonld>{json.dumps(data, ensure_ascii=False)}</script>\n'
 
 
 def parent_review_markup(title: str, reviews) -> str:
@@ -300,6 +364,7 @@ def create_child_page(row):
     rr = root_rel(page_dir)
     description = seo_description(title, crumbs)
     reviews = select_parent_reviews(page_dir)
+    faqs = select_parent_faqs(page_dir)
 
     content = "".join(
         [
@@ -326,6 +391,7 @@ def create_child_page(row):
   <link rel="stylesheet" href="{rr}/assets/article.css">
   <link rel="stylesheet" href="{rr}/assets/local-center.css">
   <link rel="stylesheet" href="{rr}/assets/header.css">
+{parent_faq_json_ld(faqs)}
 {parent_review_json_ld(title, page_url(page_dir), reviews)}
 {breadcrumb_json_ld(crumbs)}</head>
 <body>
@@ -341,6 +407,7 @@ def create_child_page(row):
   </header>
 {breadcrumb_markup(crumbs)}
 {content}
+{parent_faq_markup(title, faqs)}
 {parent_review_markup(title, reviews)}
 {fab_markup()}
 </body>

@@ -1,12 +1,15 @@
 import csv
+import hashlib
 import html
 import json
 import os
+import random
 import re
 from pathlib import Path
 
 ROOT = Path.cwd()
 CSV_PATH = ROOT / "tmp" / "bulk_pages.csv"
+FAQS_PATH = ROOT / "tmp" / "parent_faqs.json"
 
 SITE_NAME = "와와학습코칭센터 영어수학 전문학원"
 SITE_DESCRIPTION = "초등, 중등, 고등 영어·수학 학습코칭을 안내하는 와와학습코칭센터 문의 홈페이지입니다."
@@ -55,6 +58,71 @@ def strip_tags(value: str) -> str:
     value = re.sub(r"<[^>]+>", " ", value)
     value = html.unescape(value)
     return re.sub(r"\s+", " ", value).strip()
+
+
+def load_parent_faqs():
+    if not FAQS_PATH.exists():
+        return []
+    data = json.loads(FAQS_PATH.read_text(encoding="utf-8"))
+    return [
+        {"question": strip_tags(item.get("question", "")), "answer": strip_tags(item.get("answer", ""))}
+        for item in data
+        if strip_tags(item.get("question", "")) and strip_tags(item.get("answer", ""))
+    ]
+
+
+PARENT_FAQS = load_parent_faqs()
+
+
+def select_parent_faqs(page_dir: Path):
+    if len(PARENT_FAQS) < 4:
+        return []
+    rel = page_dir.relative_to(ROOT).as_posix()
+    seed = int(hashlib.sha256((rel + "::faq").encode("utf-8")).hexdigest(), 16)
+    return random.Random(seed).sample(PARENT_FAQS, 4)
+
+
+def parent_faq_markup(title: str, faqs) -> str:
+    if not faqs:
+        return ""
+    items = []
+    for index, item in enumerate(faqs):
+        open_attr = " open" if index == 0 else ""
+        items.append(
+            f'''    <details class="parent-faq-item"{open_attr}>
+      <summary><span class="parent-faq-q">Q</span>{html.escape(item["question"])}</summary>
+      <p class="parent-faq-answer">{html.escape(item["answer"])}</p>
+    </details>'''
+        )
+    return f'''<section class="parent-faq-section" aria-labelledby="parent-faq-title">
+  <div class="parent-faq-head">
+    <p class="parent-faq-eyebrow">PARENT FAQ</p>
+    <h2 id="parent-faq-title">학부모 FAQ</h2>
+    <p>{html.escape(title)} 상담 전 자주 확인하시는 질문과 답변입니다.</p>
+  </div>
+  <div class="parent-faq-list">
+{chr(10).join(items)}
+  </div>
+</section>
+'''
+
+
+def parent_faq_json_ld(faqs) -> str:
+    if not faqs:
+        return ""
+    data = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": item["question"],
+                "acceptedAnswer": {"@type": "Answer", "text": item["answer"]},
+            }
+            for item in faqs
+        ],
+    }
+    return f'  <script type="application/ld+json" data-parent-faq-jsonld>{json.dumps(data, ensure_ascii=False)}</script>\n'
 
 
 def extract_place_name(title: str) -> str:
@@ -203,6 +271,7 @@ def create_page(row):
     page_dir.mkdir(parents=True, exist_ok=True)
     root_rel = rel_to_root(page_dir)
     crumbs = breadcrumb_items(page_dir, parent_dir, title)
+    faqs = select_parent_faqs(page_dir)
 
     hidden_image = hidden_image.replace('style="display:none;"', 'class="bulk-hidden-image"')
     hidden_image = hidden_image.replace("style='display:none;'", "class='bulk-hidden-image'")
@@ -234,6 +303,7 @@ def create_page(row):
   <link rel="stylesheet" href="{root_rel}/assets/article.css">
   <link rel="stylesheet" href="{root_rel}/assets/local-center.css">
   <link rel="stylesheet" href="{root_rel}/assets/header.css">
+{parent_faq_json_ld(faqs)}
 {breadcrumb_json_ld(crumbs)}</head>
 <body>
   <header class="site-header">
@@ -248,6 +318,7 @@ def create_page(row):
   </header>
 {breadcrumb_markup(crumbs)}
 {''.join(content_parts)}
+{parent_faq_markup(title, faqs)}
 
   <div class="wawa-fixed-fab-container">
     <a href="tel:010-3957-8283" class="wawa-fab-item fab-call"><span class="fab-icon">📞</span><span class="fab-text">전화문의</span></a>
