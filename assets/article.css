@@ -481,6 +481,24 @@ img {
     padding: 56px 0 96px;
   }
 
+  .bulk-image-section {
+    padding: 0;
+    border-right: 0;
+    border-left: 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .bulk-image-section h2 {
+    margin: 0;
+    padding: 24px 16px 16px;
+  }
+
+  .bulk-page-image {
+    border: 0;
+    border-radius: 0;
+  }
+
   .article-hero {
     padding: 38px 22px;
   }
