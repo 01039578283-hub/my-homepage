@@ -60,7 +60,7 @@ def opening_hours(value: str) -> str:
     match = re.fullmatch(r"\s*(\d{1,2})시\s*-\s*(\d{1,2})시\s*", value or "")
     if not match:
         return value.strip()
-    return f"{int(match.group(1)):02d}:00-{int(match.group(2)):02d}:00"
+    return f"Mo-Sa {int(match.group(1)):02d}:00-{int(match.group(2)):02d}:00"
 
 
 def organization_id(center_name: str, address: str) -> str:
