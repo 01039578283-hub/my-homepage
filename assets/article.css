@@ -1,3 +1,23 @@
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
 .article-main {
   width: min(1180px, calc(100% - 40px));
   margin: 0 auto;
