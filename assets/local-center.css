@@ -952,3 +952,312 @@
   }
 }
 
+/* Unified local page content design below map images */
+:root {
+  --wawa-local-max: 1120px;
+  --wawa-local-page-x: 32px;
+  --wawa-local-ink: #17233a;
+  --wawa-local-muted: #64748b;
+  --wawa-local-blue: #17306f;
+  --wawa-local-orange: #f26d21;
+  --wawa-local-green: #16846d;
+  --wawa-local-line: rgba(203, 213, 225, 0.86);
+  --wawa-local-soft: #f7f9fc;
+  --wawa-local-radius: 28px;
+  --wawa-local-shadow: 0 18px 48px rgba(15, 23, 42, 0.08);
+}
+
+.bulk-image-section {
+  width: min(var(--wawa-local-max), calc(100% - var(--wawa-local-page-x)));
+  margin: 24px auto 0;
+  padding: clamp(18px, 3vw, 26px);
+  border: 1px solid var(--wawa-local-line);
+  border-radius: var(--wawa-local-radius);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(247, 250, 252, 0.96));
+  box-shadow: var(--wawa-local-shadow);
+}
+
+.bulk-image-section h2 {
+  margin-bottom: 14px;
+  padding-left: 14px;
+  border-left: 4px solid var(--wawa-local-orange);
+  color: var(--wawa-local-ink);
+  font-size: clamp(20px, 2.5vw, 28px);
+  letter-spacing: -0.03em;
+}
+
+.bulk-page-image {
+  border-radius: 22px;
+  border-color: rgba(203, 213, 225, 0.82);
+  background: #eef3f8;
+  box-shadow: 0 10px 28px rgba(15, 23, 42, 0.06);
+}
+
+.article-main {
+  width: min(var(--wawa-local-max), calc(100% - var(--wawa-local-page-x)));
+  padding: 34px 0 0;
+}
+
+.article-hero,
+.article-intro,
+.article-section,
+.article-closing,
+.wawa-center-snippet,
+.seo-geo-section,
+.seo-context-section,
+.seo-answer-section,
+.seo-checklist-section,
+.child-page-links,
+.parent-faq-section,
+.parent-review-section {
+  border-radius: var(--wawa-local-radius);
+}
+
+.article-hero {
+  margin-bottom: 22px;
+  padding: clamp(34px, 5vw, 54px);
+  background:
+    radial-gradient(circle at 12% 10%, rgba(242, 109, 33, 0.26), transparent 28%),
+    linear-gradient(135deg, rgba(9, 24, 54, 0.98), rgba(23, 48, 111, 0.94)),
+    url("academy-hero.png") center / cover no-repeat;
+}
+
+.article-intro,
+.article-section,
+.article-closing {
+  border: 1px solid var(--wawa-local-line);
+  background: rgba(255, 255, 255, 0.98);
+  box-shadow: var(--wawa-local-shadow);
+}
+
+.article-intro {
+  margin: 0 0 22px;
+  padding: clamp(22px, 3vw, 30px);
+  color: #334155;
+  font-size: clamp(15px, 1.6vw, 17px);
+}
+
+.article-section {
+  margin-top: 22px;
+  padding: clamp(24px, 4vw, 34px);
+}
+
+.article-section h2,
+.wawa-title,
+.parent-faq-head h2,
+.parent-review-head h2,
+.seo-geo-head h2,
+.seo-context-copy h2,
+.seo-answer-copy h2,
+.child-page-links-head h2 {
+  color: var(--wawa-local-ink);
+  letter-spacing: -0.04em;
+}
+
+.article-card,
+.article-target-card,
+.article-subject-card,
+.article-faq,
+.wawa-info-card,
+.wawa-school-card,
+.wawa-register-card,
+.wawa-fee-accordion,
+.seo-geo-card,
+.seo-context-points article,
+.seo-answer-list article,
+.seo-checklist li,
+.child-link-card,
+.parent-faq-item,
+.parent-review-card {
+  border: 1px solid rgba(203, 213, 225, 0.82);
+  border-radius: 22px;
+  background:
+    linear-gradient(180deg, #ffffff, #f8fafc);
+  box-shadow: 0 10px 28px rgba(15, 23, 42, 0.055);
+}
+
+.article-card strong,
+.article-target-card h3,
+.article-subject-card h3,
+.wawa-school-card h3,
+.seo-geo-card strong,
+.seo-context-points strong,
+.child-link-card strong {
+  color: var(--wawa-local-ink);
+}
+
+.article-card p,
+.article-target-card p,
+.article-subject-card p,
+.article-faq p,
+.wawa-text.is-normal,
+.wawa-register-line,
+.seo-geo-card p,
+.seo-context-points p,
+.seo-answer-list p,
+.seo-checklist span,
+.child-link-card p,
+.parent-faq-answer,
+.parent-review-text {
+  color: var(--wawa-local-muted);
+}
+
+.wawa-center-snippet,
+.seo-geo-section,
+.seo-context-section,
+.seo-answer-section,
+.seo-checklist-section,
+.child-page-links,
+.parent-faq-section,
+.parent-review-section {
+  width: min(var(--wawa-local-max), calc(100% - var(--wawa-local-page-x)));
+  margin: 28px auto 0;
+  padding: clamp(24px, 4vw, 36px);
+  border: 1px solid rgba(203, 213, 225, 0.86);
+  background:
+    radial-gradient(circle at 8% 0%, rgba(242, 109, 33, 0.08), transparent 26%),
+    radial-gradient(circle at 96% 8%, rgba(23, 48, 111, 0.08), transparent 30%),
+    rgba(255, 255, 255, 0.97);
+  box-shadow: var(--wawa-local-shadow);
+}
+
+.wawa-center-snippet {
+  gap: 22px;
+}
+
+.wawa-title {
+  margin-top: 26px;
+  font-size: clamp(22px, 2.7vw, 30px);
+}
+
+.wawa-title:first-child {
+  margin-top: 0;
+}
+
+.wawa-title::before,
+.article-section h2::before {
+  background: linear-gradient(180deg, var(--wawa-local-orange), var(--wawa-local-blue));
+}
+
+.wawa-info-card {
+  align-items: center;
+}
+
+.wawa-school-grid,
+.article-card-grid,
+.article-subject-grid,
+.seo-geo-grid,
+.seo-context-points,
+.seo-answer-list,
+.child-link-grid {
+  gap: 14px;
+}
+
+.wawa-map-cta {
+  border-radius: 24px;
+  background:
+    radial-gradient(circle at 14% 16%, rgba(255, 255, 255, 0.18), transparent 26%),
+    linear-gradient(135deg, rgba(23, 48, 111, 0.98), rgba(12, 23, 41, 0.96)),
+    url("academy-hero.png") center / cover no-repeat;
+}
+
+.wawa-tuition-link,
+.wawa-map-button {
+  border-radius: 999px;
+}
+
+.parent-faq-section,
+.parent-review-section {
+  margin-top: 28px;
+}
+
+.parent-faq-list,
+.parent-review-grid {
+  gap: 14px;
+}
+
+.child-link-card {
+  min-height: 0;
+  padding: 20px 58px 20px 20px;
+  text-decoration: none !important;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+
+.child-link-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(242, 109, 33, 0.42);
+  box-shadow: 0 16px 34px rgba(15, 23, 42, 0.1);
+}
+
+.child-link-card::after,
+.hub-seo-link-card::after {
+  content: "\203A";
+  background: linear-gradient(135deg, var(--wawa-local-orange), var(--wawa-local-blue));
+}
+
+@media (max-width: 860px) {
+  .wawa-school-grid,
+  .article-card-grid,
+  .article-subject-grid,
+  .parent-faq-list,
+  .parent-review-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 560px) {
+  :root {
+    --wawa-local-page-x: 24px;
+    --wawa-local-radius: 22px;
+  }
+
+  .bulk-image-section {
+    padding: 14px;
+  }
+
+  .bulk-image-section h2 {
+    margin-bottom: 12px;
+    padding-left: 12px;
+    font-size: 19px;
+  }
+
+  .bulk-page-image {
+    border-radius: 18px;
+  }
+
+  .article-main {
+    padding-top: 24px;
+  }
+
+  .article-hero {
+    padding: 30px 22px;
+  }
+
+  .article-intro,
+  .article-section,
+  .wawa-center-snippet,
+  .seo-geo-section,
+  .seo-context-section,
+  .seo-answer-section,
+  .seo-checklist-section,
+  .child-page-links,
+  .parent-faq-section,
+  .parent-review-section {
+    padding: 22px 18px;
+  }
+
+  .wawa-info-card,
+  .wawa-grade-row {
+    grid-template-columns: 1fr;
+  }
+
+  .wawa-map-cta {
+    padding: 28px 20px;
+  }
+
+  .parent-faq-answer {
+    padding-left: 18px;
+  }
+}
+
