@@ -453,19 +453,6 @@ def render_geo_section(ctx: dict) -> str:
   </div>
 </section>
 
-<section class="seo-grade-section" aria-labelledby="seo-grade-title">
-  <div class="seo-geo-head">
-    <p class="parent-faq-eyebrow">GRADE STRATEGY</p>
-    <h2 id="seo-grade-title">{html.escape(title)} 학년별 관리 포인트</h2>
-    <p>같은 {html.escape(area)} 학생이라도 초등·중등·고등 단계에 따라 필요한 관리 방식은 달라집니다.</p>
-  </div>
-  <div class="seo-grade-grid">
-    <article><em>Elementary</em><strong>초등 과정</strong><p>기초 개념, 연산 정확도, 어휘 이해, 문제를 끝까지 읽는 습관을 먼저 안정화합니다.</p></article>
-    <article><em>Middle School</em><strong>중등 과정</strong><p>학교별 시험 범위와 교과서 흐름을 기준으로 내신 대비와 서술형·응용 문제를 함께 점검합니다.</p></article>
-    <article><em>High School</em><strong>고등 과정</strong><p>내신과 모의고사 대비를 나눠 보고, 부족 단원·시간 관리·반복 실수 유형을 우선순위로 관리합니다.</p></article>
-  </div>
-</section>
-
 <section class="seo-checklist-section" aria-labelledby="seo-checklist-title">
   <div class="seo-geo-head">
     <p class="parent-faq-eyebrow">CONSULTING CHECKLIST</p>
@@ -511,9 +498,9 @@ def render_internal_links(page_dir: Path, ctx: dict) -> str:
     return f"""<!-- child-page-links:start -->
     <section class="child-page-links" aria-labelledby="child-page-links-title">
       <div class="child-page-links-head">
-        <p class="parent-faq-eyebrow">LOCAL DETAIL LINKS</p>
-        <h2 id="child-page-links-title">{html.escape(ctx['neighborhood'])} 관련 학습 페이지 바로가기</h2>
-        <p>같은 동네 안에서 함께 보면 좋은 학년·과목별 학습 안내 페이지를 정리했습니다.</p>
+        <p class="parent-faq-eyebrow">LOCAL LINKS</p>
+        <h2 id="child-page-links-title">{html.escape(ctx['neighborhood'])} 관련 학원 페이지</h2>
+        <p>같은 동네의 학년·과목별 안내를 한 곳에 모아, 필요한 상세 페이지로 바로 이동할 수 있게 정리했습니다.</p>
       </div>
       <div class="child-link-grid">
 {chr(10).join(cards)}
@@ -739,6 +726,7 @@ def replace_section(source: str, class_name: str, replacement: str) -> str:
 def upsert_visible_sections(source: str, page_dir: Path, ctx: dict) -> str:
     source = re.sub(r"\n?\s*<!-- seo-geo-enhancement:start -->[\s\S]*?<!-- seo-geo-enhancement:end -->", "", source, flags=re.I)
     source = re.sub(r"\n?\s*<!-- child-page-links:start -->[\s\S]*?<!-- child-page-links:end -->", "", source, flags=re.I)
+    source = re.sub(r"\n?\s*<section\s+class=[\"']center-section\s+local-topic-links-section[\"'][\s\S]*?</section>", "", source, flags=re.I)
     source = replace_section(source, "parent-faq-section", render_faq_section(ctx))
     source = replace_section(source, "parent-review-section", render_review_section(ctx))
     geo = render_geo_section(ctx)
@@ -1313,7 +1301,13 @@ def main() -> None:
     changed = 0
     for page_dir in targets:
         current = (page_dir / "index.html").read_text(encoding="utf-8", errors="ignore")
-        if "seo-context-section" in current and "data-seo-geo-jsonld" in current:
+        if (
+            "seo-context-section" in current
+            and "data-seo-geo-jsonld" in current
+            and "local-topic-links-section" not in current
+            and "seo-grade-section" not in current
+            and "LOCAL DETAIL LINKS" not in current
+        ):
             continue
         if process_page(page_dir):
             changed += 1
