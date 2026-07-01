@@ -415,56 +415,24 @@ def render_geo_section(ctx: dict) -> str:
     return f"""<!-- seo-geo-enhancement:start -->
 <section class="seo-geo-section" aria-labelledby="seo-geo-summary-title">
   <div class="seo-geo-head">
-    <p class="parent-faq-eyebrow">SEO · GEO SUMMARY</p>
-    <h2 id="seo-geo-summary-title">{html.escape(title)} 핵심 요약</h2>
-    <p>{html.escape(ctx['region'])} {html.escape(ctx['district'])} {html.escape(area)}에서 {html.escape(title)} 정보를 찾는 학부모님이 바로 판단할 수 있도록, 상담·진단·플래너·오답 재학습 흐름을 지역 기준으로 정리했습니다.</p>
+    <p class="parent-faq-eyebrow">LOCAL STUDY SUMMARY</p>
+    <h2 id="seo-geo-summary-title">{html.escape(title)} 학습 안내 요약</h2>
+    <p>{html.escape(ctx['region'])} {html.escape(ctx['district'])} {html.escape(area)}에서 {html.escape(title)} 정보를 찾는 학부모님이 핵심만 빠르게 볼 수 있도록, 지역 기준·관리 과목·상담 전 확인사항을 한 영역으로 정리했습니다.</p>
   </div>
   <div class="seo-geo-grid">
-    <article class="seo-geo-card"><span>지역 기준</span><strong>{html.escape(ctx['region'])} {html.escape(ctx['district'])} {html.escape(area)}</strong><p>페이지의 Breadcrumb와 센터 정보를 기준으로 검색어와 실제 지역 맥락이 이어지도록 정리했습니다.</p></article>
-    <article class="seo-geo-card"><span>관리 과목</span><strong>{html.escape(subject)}</strong><p>개념 이해, 문제 적용, 반복 오답, 시험 전 복습 순서를 한 흐름으로 확인합니다.</p></article>
-    <article class="seo-geo-card"><span>대상 학년</span><strong>{html.escape(grade)}</strong><p>초등·중등·고등 단계별로 필요한 진단 기준과 관리 밀도를 다르게 봅니다.</p></article>
+    <article class="seo-geo-card"><span>지역 기준</span><strong>{html.escape(ctx['region'])} {html.escape(ctx['district'])} {html.escape(area)}</strong><p>{html.escape(school_sentence)}</p></article>
+    <article class="seo-geo-card"><span>수업 대상</span><strong>{html.escape(subject)} · {html.escape(grade)}</strong><p>현재 교재, 학교 진도, 반복 오답, 시험 범위를 함께 보고 학생에게 필요한 관리 순서를 정리합니다.</p></article>
+    <article class="seo-geo-card"><span>관리 흐름</span><strong>진단 → 계획 → 재학습</strong><p>개념 공백을 먼저 확인하고, 주간 플래너와 오답 재학습으로 수업 이후의 실행까지 연결합니다.</p></article>
   </div>
-</section>
-
-<section class="seo-context-section" aria-labelledby="seo-context-title">
-  <div class="seo-context-copy">
-    <p class="parent-faq-eyebrow">LOCAL CONTEXT</p>
-    <h2 id="seo-context-title">{html.escape(area)}에서 학원을 찾을 때 먼저 봐야 할 기준</h2>
-    <p>{html.escape(title)}를 알아볼 때는 단순히 수업 횟수나 과목명만 비교하기보다, 학생이 현재 어디에서 막히는지 확인하는 과정이 먼저 필요합니다. 같은 {html.escape(area)} 학생이라도 학교 진도, 과제 습관, 시험 범위, 오답 유형이 다르기 때문에 상담에서는 현재 교재와 최근 평가지를 함께 보며 관리 방향을 잡는 편이 안전합니다.</p>
-    <p>{html.escape(school_sentence)}</p>
-  </div>
-  <div class="seo-context-points">
-    <article><span>01</span><strong>진단</strong><p>개념 공백, 풀이 습관, 독해 속도, 계산 실수처럼 성적을 막는 원인을 먼저 분리합니다.</p></article>
-    <article><span>02</span><strong>계획</strong><p>주간 플래너를 통해 학교 진도와 개인 복습을 함께 맞추고, 무리한 계획보다 실행 가능한 순서를 잡습니다.</p></article>
-    <article><span>03</span><strong>재학습</strong><p>틀린 문제를 다시 푸는 데서 끝내지 않고, 왜 틀렸는지 확인한 뒤 유사 문제로 연결합니다.</p></article>
-  </div>
-</section>
-
-<section class="seo-answer-section" aria-labelledby="seo-answer-title">
-  <div class="seo-answer-copy">
-    <p class="parent-faq-eyebrow">ANSWER READY</p>
-    <h2 id="seo-answer-title">{html.escape(title)}를 알아볼 때 바로 확인할 내용</h2>
-    <p>{html.escape(title)} 페이지는 단순 소개보다 “어떤 학생에게 필요한지, 상담 때 무엇을 확인하는지, 학부모가 어떤 기준으로 비교하면 좋은지”를 바로 답할 수 있도록 구성했습니다.</p>
-  </div>
-  <div class="seo-answer-list">
-    <article><b>추천 학생</b><p>계획은 세우지만 실행이 흔들리거나, 같은 유형의 오답이 반복되는 학생에게 적합합니다.</p></article>
-    <article><b>상담 기준</b><p>최근 학습 흐름, 현재 교재, 시험지, 숙제 수행 정도를 바탕으로 필요한 관리 순서를 정합니다.</p></article>
-    <article><b>관리 방식</b><p>진단 → 계획 → 수업 확인 → 오답 재학습 → 학부모 피드백 흐름으로 이어지도록 정리합니다.</p></article>
-  </div>
-</section>
-
-<section class="seo-checklist-section" aria-labelledby="seo-checklist-title">
-  <div class="seo-geo-head">
-    <p class="parent-faq-eyebrow">CONSULTING CHECKLIST</p>
-    <h2 id="seo-checklist-title">{html.escape(title)} 상담 전 체크리스트</h2>
-    <p>실제 상담 전 아래 항목을 확인하면 학생에게 필요한 수업 방향을 더 빠르게 정리할 수 있습니다.</p>
-  </div>
+  <div class="seo-compact-checklist" aria-label="{html.escape(title)} 상담 전 체크리스트">
+    <h3>상담 전 체크리스트</h3>
   <ol class="seo-checklist">
     <li><b>현재 교재</b><span>사용 중인 교재와 진도를 확인합니다.</span></li>
     <li><b>최근 시험지</b><span>점수보다 반복되는 오답 유형을 확인합니다.</span></li>
     <li><b>공부 시간</b><span>평소 공부 시간과 숙제 수행 정도를 봅니다.</span></li>
     <li><b>상담 목표</b><span>성적, 습관, 오답, 시험 대비 중 우선순위를 정합니다.</span></li>
   </ol>
+  </div>
 </section>
 <!-- seo-geo-enhancement:end -->"""
 
@@ -631,11 +599,10 @@ def build_json_ld(ctx: dict, image_url: str, old_org: dict) -> dict:
             "about": about,
             "mentions": mentions,
             "hasPart": [
-                {"@type": "WebPageElement", "name": "핵심 요약"},
-                {"@type": "WebPageElement", "name": "지역 학습 문맥"},
-                {"@type": "WebPageElement", "name": "답변형 학습 안내"},
-                {"@type": "WebPageElement", "name": "지역·학년·추천학생 안내"},
+                {"@type": "WebPageElement", "name": "학습 안내 요약"},
+                {"@type": "WebPageElement", "name": "수업 진행방식"},
                 {"@type": "WebPageElement", "name": "학년별 학습 전략"},
+                {"@type": "WebPageElement", "name": "센터 위치 안내"},
                 {"@type": "WebPageElement", "name": "상담 전 체크리스트"},
                 {"@type": "WebPageElement", "name": "FAQ"},
                 {"@type": "WebPageElement", "name": "학부모 후기"},
@@ -666,7 +633,7 @@ def build_json_ld(ctx: dict, image_url: str, old_org: dict) -> dict:
             "mainEntityOfPage": {"@id": page_id},
             "about": about,
             "mentions": mentions,
-            "articleSection": ["핵심 요약", "지역 학습 문맥", "학습 진단", "플래너 관리", "오답 재학습", "학년별 학습 전략", "상담 체크리스트", "FAQ", "학부모 후기"],
+            "articleSection": ["학습 안내 요약", "수업 진행방식", "학년별 학습 전략", "센터 위치 안내", "상담 체크리스트", "FAQ", "학부모 후기", "내부링크"],
         },
         {
             "@type": "Service",
@@ -727,6 +694,7 @@ def upsert_visible_sections(source: str, page_dir: Path, ctx: dict) -> str:
     source = re.sub(r"\n?\s*<!-- seo-geo-enhancement:start -->[\s\S]*?<!-- seo-geo-enhancement:end -->", "", source, flags=re.I)
     source = re.sub(r"\n?\s*<!-- child-page-links:start -->[\s\S]*?<!-- child-page-links:end -->", "", source, flags=re.I)
     source = re.sub(r"\n?\s*<section\s+class=[\"']center-section\s+local-topic-links-section[\"'][\s\S]*?</section>", "", source, flags=re.I)
+    source = re.sub(r"\n?\s*<section\s+class=[\"'][^\"']*\barticle-closing\b[^\"']*[\"'][\s\S]*?</section>", "", source, flags=re.I)
     source = replace_section(source, "parent-faq-section", render_faq_section(ctx))
     source = replace_section(source, "parent-review-section", render_review_section(ctx))
     geo = render_geo_section(ctx)
@@ -736,7 +704,12 @@ def upsert_visible_sections(source: str, page_dir: Path, ctx: dict) -> str:
         source = source.replace("</main>", geo + "\n</main>", 1)
     links = render_internal_links(page_dir, ctx)
     if links:
-        source = source.replace("</main>", links + "\n</main>", 1)
+        if '<section class="center-section local-guide-links-section"' in source:
+            source = source.replace('<section class="center-section local-guide-links-section"', links + '\n<section class="center-section local-guide-links-section"', 1)
+        elif '<div class="wawa-fixed-fab-container">' in source:
+            source = source.replace('<div class="wawa-fixed-fab-container">', links + '\n<div class="wawa-fixed-fab-container">', 1)
+        else:
+            source = source.replace("</body>", links + "\n</body>", 1)
     return source
 
 
@@ -1302,8 +1275,12 @@ def main() -> None:
     for page_dir in targets:
         current = (page_dir / "index.html").read_text(encoding="utf-8", errors="ignore")
         if (
-            "seo-context-section" in current
+            "seo-compact-checklist" in current
             and "data-seo-geo-jsonld" in current
+            and "seo-context-section" not in current
+            and "seo-answer-section" not in current
+            and "seo-checklist-section" not in current
+            and "article-closing" not in current
             and "local-topic-links-section" not in current
             and "seo-grade-section" not in current
             and "LOCAL DETAIL LINKS" not in current
