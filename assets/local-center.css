@@ -628,3 +628,327 @@
   }
 }
 
+/* SEO/GEO enhancement blocks v2 */
+.seo-geo-section,
+.seo-context-section,
+.seo-answer-section,
+.seo-grade-section,
+.seo-checklist-section,
+.child-page-links {
+  width: min(1120px, calc(100% - 32px));
+  margin: 32px auto 0;
+  padding: clamp(22px, 4vw, 34px);
+  border: 1px solid rgba(24, 45, 36, 0.12);
+  border-radius: 28px;
+  background:
+    radial-gradient(circle at 12% 0%, rgba(35, 184, 148, 0.12), transparent 30%),
+    radial-gradient(circle at 96% 8%, rgba(252, 207, 104, 0.16), transparent 28%),
+    rgba(255, 255, 255, 0.94);
+  box-shadow: 0 20px 54px rgba(24, 45, 36, 0.08);
+}
+
+.seo-geo-head,
+.seo-context-copy,
+.seo-answer-copy,
+.child-page-links-head {
+  max-width: 860px;
+  margin-bottom: 22px;
+}
+
+.seo-geo-head h2,
+.seo-context-copy h2,
+.seo-answer-copy h2,
+.child-page-links-head h2 {
+  margin: 0 0 10px;
+  color: #182d24;
+  font-size: clamp(24px, 3vw, 34px);
+  letter-spacing: -0.045em;
+  line-height: 1.25;
+}
+
+.seo-geo-head p:not(.parent-faq-eyebrow),
+.seo-context-copy p,
+.seo-answer-copy p,
+.child-page-links-head p:not(.parent-faq-eyebrow) {
+  margin: 0;
+  color: #65756d;
+  font-weight: 700;
+  line-height: 1.75;
+}
+
+.seo-geo-grid,
+.seo-context-points,
+.seo-answer-list,
+.seo-grade-grid,
+.child-link-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.seo-geo-card,
+.seo-context-points article,
+.seo-answer-list article,
+.seo-grade-grid article,
+.child-link-card {
+  position: relative;
+  overflow: hidden;
+  padding: 20px;
+  border: 1px solid rgba(24, 45, 36, 0.1);
+  border-radius: 22px;
+  background: linear-gradient(135deg, rgba(255,255,255,0.98), rgba(247,250,244,0.86));
+}
+
+.child-link-card {
+  display: grid;
+  gap: 8px;
+  min-height: 158px;
+  padding-right: 56px;
+}
+
+.child-link-card::after {
+  position: absolute;
+  right: 18px;
+  bottom: 18px;
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 999px;
+  color: #fff;
+  background: #182d24;
+  content: "→";
+  font-weight: 950;
+}
+
+.seo-geo-card span,
+.seo-context-points span,
+.seo-answer-list b,
+.seo-grade-grid em,
+.child-link-card span {
+  display: inline-flex;
+  margin-bottom: 9px;
+  color: #15846c;
+  font-size: 12px;
+  font-weight: 950;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.seo-geo-card strong,
+.seo-context-points strong,
+.seo-grade-grid strong,
+.child-link-card strong {
+  display: block;
+  color: #182d24;
+  font-size: 19px;
+  line-height: 1.4;
+}
+
+.seo-geo-card p,
+.seo-context-points p,
+.seo-answer-list p,
+.seo-grade-grid p,
+.child-link-card p {
+  margin: 10px 0 0;
+  color: #65756d;
+  line-height: 1.65;
+}
+
+.seo-grade-grid em {
+  font-style: normal;
+}
+
+.child-link-card small {
+  display: inline-flex;
+  width: max-content;
+  margin-top: 4px;
+  padding: 6px 11px;
+  border-radius: 999px;
+  color: #15846c;
+  background: rgba(35, 184, 148, 0.11);
+  border: 1px solid rgba(35, 184, 148, 0.16);
+  font-size: 12px;
+  font-weight: 950;
+}
+
+.hub-seo-geo-section,
+.hub-seo-link-section,
+.hub-faq-section {
+  width: min(1120px, calc(100% - 32px));
+  margin: 32px auto 0;
+  padding: clamp(22px, 4vw, 34px);
+  border: 1px solid rgba(24, 45, 36, 0.12);
+  border-radius: 28px;
+  background:
+    radial-gradient(circle at 10% 0%, rgba(35, 184, 148, 0.1), transparent 30%),
+    radial-gradient(circle at 96% 8%, rgba(252, 207, 104, 0.14), transparent 28%),
+    rgba(255, 255, 255, 0.94);
+  box-shadow: 0 20px 54px rgba(24, 45, 36, 0.08);
+}
+
+.hub-seo-head {
+  max-width: 880px;
+  margin-bottom: 22px;
+}
+
+.hub-seo-head h2 {
+  margin: 0 0 10px;
+  color: #182d24;
+  font-size: clamp(24px, 3vw, 34px);
+  letter-spacing: -0.045em;
+  line-height: 1.25;
+}
+
+.hub-seo-head p:not(.parent-faq-eyebrow) {
+  margin: 0;
+  color: #65756d;
+  font-weight: 700;
+  line-height: 1.75;
+}
+
+.hub-seo-grid,
+.hub-seo-link-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.hub-seo-grid article,
+.hub-seo-link-card {
+  position: relative;
+  overflow: hidden;
+  padding: 20px;
+  border: 1px solid rgba(24, 45, 36, 0.1);
+  border-radius: 22px;
+  background: linear-gradient(135deg, rgba(255,255,255,0.98), rgba(247,250,244,0.86));
+}
+
+.hub-seo-grid span,
+.hub-seo-link-card span {
+  display: inline-flex;
+  margin-bottom: 9px;
+  color: #15846c;
+  font-size: 12px;
+  font-weight: 950;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.hub-seo-grid strong,
+.hub-seo-link-card strong {
+  display: block;
+  color: #182d24;
+  font-size: 19px;
+  line-height: 1.4;
+}
+
+.hub-seo-grid p {
+  margin: 10px 0 0;
+  color: #65756d;
+  line-height: 1.65;
+}
+
+.hub-seo-link-card {
+  display: grid;
+  gap: 8px;
+  min-height: 132px;
+  padding-right: 56px;
+}
+
+.hub-seo-link-card::after {
+  position: absolute;
+  right: 18px;
+  bottom: 18px;
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 999px;
+  color: #fff;
+  background: #182d24;
+  content: "→";
+  font-weight: 950;
+}
+
+.hub-seo-link-card small {
+  display: inline-flex;
+  width: max-content;
+  margin-top: 4px;
+  padding: 6px 11px;
+  border-radius: 999px;
+  color: #15846c;
+  background: rgba(35, 184, 148, 0.11);
+  border: 1px solid rgba(35, 184, 148, 0.16);
+  font-size: 12px;
+  font-weight: 950;
+}
+
+.hub-faq-list {
+  display: grid;
+  gap: 12px;
+}
+
+.hub-faq-item {
+  border: 1px solid rgba(24, 45, 36, 0.1);
+  border-radius: 18px;
+  background: rgba(255,255,255,0.82);
+  overflow: hidden;
+}
+
+.hub-faq-item summary {
+  cursor: pointer;
+  padding: 18px 20px;
+  color: #182d24;
+  font-weight: 950;
+}
+
+.hub-faq-item p {
+  margin: 0;
+  padding: 0 20px 20px;
+  color: #65756d;
+  line-height: 1.7;
+}
+
+.seo-checklist {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.seo-checklist li {
+  padding: 18px;
+  border: 1px solid rgba(24, 45, 36, 0.1);
+  border-radius: 20px;
+  background: rgba(235, 247, 241, 0.72);
+}
+
+.seo-checklist b {
+  display: block;
+  color: #182d24;
+  font-size: 17px;
+}
+
+.seo-checklist span {
+  display: block;
+  margin-top: 8px;
+  color: #65756d;
+  line-height: 1.6;
+}
+
+@media (max-width: 860px) {
+  .seo-geo-grid,
+  .seo-context-points,
+  .seo-answer-list,
+  .seo-grade-grid,
+  .hub-seo-grid,
+  .hub-seo-link-grid,
+  .child-link-grid,
+  .seo-checklist {
+    grid-template-columns: 1fr;
+  }
+}
+
