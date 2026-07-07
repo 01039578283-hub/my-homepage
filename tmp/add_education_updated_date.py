@@ -9,6 +9,12 @@ PAGES = [
     ROOT / "교육정보" / "초등학생-공부법" / "index.html",
     ROOT / "교육정보" / "중학생-공부법" / "index.html",
     ROOT / "교육정보" / "고등학생-공부법" / "index.html",
+    ROOT / "교육정보" / "시험기간-공부법" / "index.html",
+    ROOT / "교육정보" / "수학-공부법" / "index.html",
+    ROOT / "교육정보" / "영어-공부법" / "index.html",
+    ROOT / "교육정보" / "학부모-상담-체크리스트" / "index.html",
+    ROOT / "교육정보" / "오답노트-작성법" / "index.html",
+    ROOT / "교육정보" / "자기주도학습-방법" / "index.html",
 ]
 
 
@@ -21,8 +27,8 @@ def fix_page(path: Path) -> bool:
     date = m.group(1) if m else "2026-07-08"
 
     updated, count = re.subn(
-        r"(</p>\s*<div class=\"edu-actions\">)",
-        f'<p class="edu-updated">최종 업데이트 {date}</p>\\1',
+        r"(</p>)(\s*<div class=\"edu-actions\">)",
+        f'\\1<p class="edu-updated">최종 업데이트 {date}</p>\\2',
         source,
         count=1,
     )

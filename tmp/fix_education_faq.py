@@ -10,6 +10,12 @@ PAGES = [
     ROOT / "교육정보" / "초등학생-공부법" / "index.html",
     ROOT / "교육정보" / "중학생-공부법" / "index.html",
     ROOT / "교육정보" / "고등학생-공부법" / "index.html",
+    ROOT / "교육정보" / "시험기간-공부법" / "index.html",
+    ROOT / "교육정보" / "수학-공부법" / "index.html",
+    ROOT / "교육정보" / "영어-공부법" / "index.html",
+    ROOT / "교육정보" / "학부모-상담-체크리스트" / "index.html",
+    ROOT / "교육정보" / "오답노트-작성법" / "index.html",
+    ROOT / "교육정보" / "자기주도학습-방법" / "index.html",
 ]
 
 
