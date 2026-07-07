@@ -80,6 +80,14 @@ a { color: inherit; text-decoration: none; }
 }
 .edu-breadcrumb a { color: var(--edu-blue); font-weight: 800; }
 .edu-breadcrumb span { margin: 0 7px; color: #a6b0bf; }
+.edu-updated {
+  width: min(1040px, 100%);
+  margin: 0 auto;
+  padding: 0 0 18px;
+  color: rgba(255, 255, 255, .68);
+  font-size: 13px;
+  font-weight: 700;
+}
 .edu-main { width: min(1080px, calc(100% - 40px)); margin: 0 auto; padding: 54px 0 82px; }
 
 .edu-lead {
