@@ -123,12 +123,12 @@
     height: 58px !important;
     min-height: 58px !important;
     max-height: 58px !important;
-    gap: 10px !important;
+    gap: 6px !important;
   }
 
   .site-header .logo {
     gap: 7px !important;
-    font-size: 14px !important;
+    font-size: 13px !important;
   }
 
   .site-header .brand-tail {
@@ -141,17 +141,21 @@
   }
 
   .site-header .nav-links {
+    flex: 1 1 auto !important;
+    min-width: 0 !important;
+    justify-content: space-between !important;
     height: 38px !important;
     padding: 3px !important;
     font-size: 12px !important;
   }
 
   .site-header .nav-links a {
+    flex: 1 1 auto !important;
     height: 32px !important;
     min-height: 32px !important;
     max-height: 32px !important;
-    padding: 0 7px !important;
-    font-size: 12px !important;
+    padding: 0 4px !important;
+    font-size: 11px !important;
   }
 }
 
@@ -165,7 +169,7 @@
   }
 
   .site-header .nav-links a {
-    padding: 0 7px !important;
-    font-size: 12px !important;
+    padding: 0 3px !important;
+    font-size: 10px !important;
   }
 }
