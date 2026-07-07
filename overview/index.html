@@ -14,7 +14,7 @@
   <link rel="canonical" href="https://wawa-center.kr/overview/">
   <meta property="og:url" content="https://wawa-center.kr/overview/">
   <meta property="og:image" content="https://wawa-center.kr/assets/academy-hero.png">
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "홈", "item": "/"}, {"@type": "ListItem", "position": 2, "name": "학원소개"}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://wawa-center.kr/overview/#webpage","url":"https://wawa-center.kr/overview/","name":"학원소개 | 와와학습코칭센터 영어수학 전문학원","description":"초등, 중등, 고등 영어·수학 학습코칭을 안내하는 와와학습코칭센터 문의 홈페이지입니다.","inLanguage":"ko-KR","isPartOf":{"@id":"https://wawa-center.kr/#website"},"about":{"@id":"https://wawa-center.kr/#organization"},"breadcrumb":{"@id":"https://wawa-center.kr/overview/#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://wawa-center.kr/overview/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"홈","item":"/"},{"@type":"ListItem","position":2,"name":"학원소개","item":"https://wawa-center.kr/overview/"}]},{"@type":"FAQPage","@id":"https://wawa-center.kr/overview/#faq","mainEntity":[{"@type":"Question","name":"와와학습코칭센터는 다른 학원과 무엇이 다른가요?","acceptedAnswer":{"@type":"Answer","text":"지식을 주입하는 수업이 아니라 학생이 스스로 학습 계획을 세우고 실행하는 힘을 기르는 코칭형 학습 관리를 제공합니다. 학습 플래너 작성, 메타인지 훈련, 월간 성장 리포트로 관리 흐름을 이어갑니다."}},{"@type":"Question","name":"국어, 영어, 수학을 모두 지도하나요?","acceptedAnswer":{"@type":"Answer","text":"네. 초등·중등·고등 학생을 대상으로 국어·영어·수학 3개 핵심 과목을 과목별 전문 코치진이 지도합니다."}},{"@type":"Question","name":"상담은 어떻게 신청하나요?","acceptedAnswer":{"@type":"Answer","text":"온라인 상담 신청 양식 또는 전화, 문자로 문의하시면 가까운 지점의 코칭 선생님이 학생의 학습 성향과 현재 상태를 확인한 뒤 안내해 드립니다."}}]}]}</script>
   <link rel="icon" type="image/png" href="../assets/favicon.png">
   <link rel="apple-touch-icon" href="../assets/favicon.png">
   <link rel="stylesheet" href="../assets/fab.css">
@@ -694,6 +694,13 @@
         padding: 0 5px;
       }
     }
+
+    .overview-faq { padding: 96px 0; }
+    .overview-faq-list { display: grid; gap: 14px; margin-top: 12px; }
+    .overview-faq-item { border: 1px solid rgba(217, 225, 236, 0.95); border-radius: 8px; background: rgba(255, 255, 255, 0.96); box-shadow: var(--shadow-soft); overflow: hidden; }
+    .overview-faq-item summary { cursor: pointer; padding: 20px 24px; color: #0c1729; font-size: 17px; font-weight: 900; list-style: none; }
+    .overview-faq-item summary::-webkit-details-marker { display: none; }
+    .overview-faq-item p { margin: 0; padding: 0 24px 22px; color: #5f6b7a; font-size: 15px; line-height: 1.7; }
   </style>
   <link rel="stylesheet" href="../assets/header.css">
 </head>
@@ -707,7 +714,7 @@
         
         <a href="../guide/">학습가이드</a>
         <a href="../교육정보/">교육정보</a>
-        <a href="/center/">전국센터</a>
+        <a href="/학부모후기/">학부모후기</a><a href="/center/">전국센터</a>
       </div>
     </nav>
   </header>
@@ -833,6 +840,19 @@
                     <h4>월간 종합 성장 리포트 발행</h4>
                     <p>학생의 출결, 성취도 평가 결과, 플래너 달성률, 과목별 진도 현황을 정밀 분석한 정기 리포트를 매월 학부모님께 발행하고 맞춤 피드백 상담을 진행합니다.</p>
                 </div>
+            </div>
+        </section>
+
+
+        <section class="overview-faq">
+            <div class="p-section-title">
+                <h3>학원소개 자주 묻는 질문</h3>
+                <p>학원 선택 전 보호자님들이 많이 궁금해하시는 내용을 정리했습니다.</p>
+            </div>
+            <div class="overview-faq-list">
+          <details class="overview-faq-item"><summary>와와학습코칭센터는 다른 학원과 무엇이 다른가요?</summary><p>지식을 주입하는 수업이 아니라 학생이 스스로 학습 계획을 세우고 실행하는 힘을 기르는 코칭형 학습 관리를 제공합니다. 학습 플래너 작성, 메타인지 훈련, 월간 성장 리포트로 관리 흐름을 이어갑니다.</p></details>
+          <details class="overview-faq-item"><summary>국어, 영어, 수학을 모두 지도하나요?</summary><p>네. 초등·중등·고등 학생을 대상으로 국어·영어·수학 3개 핵심 과목을 과목별 전문 코치진이 지도합니다.</p></details>
+          <details class="overview-faq-item"><summary>상담은 어떻게 신청하나요?</summary><p>온라인 상담 신청 양식 또는 전화, 문자로 문의하시면 가까운 지점의 코칭 선생님이 학생의 학습 성향과 현재 상태를 확인한 뒤 안내해 드립니다.</p></details>
             </div>
         </section>
 
