@@ -184,6 +184,119 @@ img {
   line-height: 1.7;
 }
 
+.article-ai-summary {
+  position: relative;
+  overflow: hidden;
+  border-color: rgba(242, 109, 33, 0.22);
+  background:
+    radial-gradient(circle at top right, rgba(242, 109, 33, 0.11), transparent 34%),
+    linear-gradient(135deg, #ffffff 0%, #fff9f3 48%, #f7fbff 100%);
+}
+
+.article-ai-summary::after {
+  position: absolute;
+  right: -72px;
+  bottom: -86px;
+  width: 220px;
+  height: 220px;
+  border: 1px solid rgba(23, 48, 111, 0.1);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.42);
+  content: "";
+}
+
+.article-ai-kicker {
+  display: inline-flex;
+  margin: 0 0 12px;
+  padding: 7px 12px;
+  border: 1px solid rgba(242, 109, 33, 0.24);
+  border-radius: 999px;
+  color: #f26d21;
+  background: rgba(255, 255, 255, 0.76);
+  font-size: 12px;
+  font-weight: 950;
+  letter-spacing: 0.08em;
+}
+
+.article-ai-summary h2 {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 14px;
+}
+
+.article-ai-lead {
+  position: relative;
+  z-index: 1;
+  max-width: 880px;
+  margin: 0 0 22px;
+  color: #3e4a5c;
+  font-size: 16px;
+  line-height: 1.82;
+  font-weight: 700;
+}
+
+.article-ai-grid {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.article-ai-card {
+  padding: 20px;
+  border: 1px solid rgba(217, 225, 236, 0.95);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.84);
+  box-shadow: 0 12px 26px rgba(16, 24, 39, 0.06);
+}
+
+.article-ai-card strong {
+  display: block;
+  margin-bottom: 8px;
+  color: #10275c;
+  font-size: 15px;
+  font-weight: 950;
+}
+
+.article-ai-card p {
+  margin: 0;
+  color: #526071;
+  font-size: 14px;
+  line-height: 1.72;
+  font-weight: 650;
+}
+
+.article-ai-links {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.article-ai-links a {
+  display: inline-flex;
+  min-height: 42px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 16px;
+  border: 1px solid rgba(23, 48, 111, 0.18);
+  border-radius: 999px;
+  color: #17306f;
+  background: rgba(255, 255, 255, 0.86);
+  font-size: 14px;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.article-ai-links a:hover {
+  color: #ffffff;
+  border-color: #17306f;
+  background: #17306f;
+}
+
 .article-target-list {
   display: grid;
   gap: 16px;
@@ -469,6 +582,7 @@ img {
 @media (max-width: 820px) {
   .article-card-grid,
   .article-subject-grid,
+  .article-ai-grid,
   .parent-review-grid,
   .parent-faq-list {
     grid-template-columns: 1fr;
