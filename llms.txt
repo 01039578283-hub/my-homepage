@@ -8,6 +8,7 @@
 - 학원소개: https://wawa-center.kr/overview/
 - 학습가이드: https://wawa-center.kr/guide/
 - 교육정보: https://wawa-center.kr/교육정보/
+- 학부모후기: https://wawa-center.kr/학부모후기/
 - 전국센터: https://wawa-center.kr/center/
 
 ## 사이트의 핵심 주제
