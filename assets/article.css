@@ -86,6 +86,84 @@ img {
   line-height: 1.8;
 }
 
+.article-search-answer {
+  margin-top: 18px;
+  padding: 28px;
+  border: 1px solid rgba(23, 48, 111, 0.12);
+  border-radius: 8px;
+  background:
+    linear-gradient(135deg, rgba(23, 48, 111, 0.96), rgba(15, 32, 76, 0.94)),
+    radial-gradient(circle at top right, rgba(242, 109, 33, 0.22), transparent 34%);
+  box-shadow: 0 16px 34px rgba(16, 24, 39, 0.13);
+  color: #fff;
+}
+
+.article-answer-kicker {
+  display: inline-flex;
+  align-items: center;
+  margin: 0 0 12px;
+  padding: 7px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.26);
+  border-radius: 999px;
+  color: #ffd7bd;
+  background: rgba(255, 255, 255, 0.08);
+  font-size: 12px;
+  font-weight: 950;
+  letter-spacing: 0.08em;
+}
+
+.article-search-answer h2 {
+  margin: 0 0 14px;
+  color: #fff;
+  font-size: clamp(22px, 3vw, 31px);
+  line-height: 1.3;
+  font-weight: 950;
+}
+
+.article-search-answer h2::before {
+  display: none;
+}
+
+.article-answer-lead {
+  max-width: 920px;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.88);
+  font-size: 16px;
+  font-weight: 650;
+  line-height: 1.8;
+}
+
+.article-answer-points {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin: 20px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.article-answer-points li {
+  padding: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.09);
+}
+
+.article-answer-points span {
+  display: block;
+  margin-bottom: 8px;
+  color: #ffd7bd;
+  font-size: 13px;
+  font-weight: 950;
+}
+
+.article-answer-points p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.86);
+  font-size: 14px;
+  line-height: 1.65;
+}
+
 .bulk-hidden-image {
   display: none !important;
 }
@@ -631,6 +709,18 @@ img {
   .article-intro {
     font-size: 15px;
     line-height: 1.75;
+  }
+
+  .article-search-answer {
+    padding: 22px 20px;
+  }
+
+  .article-answer-lead {
+    font-size: 15px;
+  }
+
+  .article-answer-points {
+    grid-template-columns: 1fr;
   }
 
   .article-intro,
