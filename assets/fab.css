@@ -1,4 +1,21 @@
-/* Shared floating contact buttons */
+/* Shared floating contact buttons — editorial/minimal redesign */
+:root {
+  --ink: #26282b;
+  --ink-soft: #6d6f72;
+  --ink-faint: #9a9b9d;
+  --stone: #f3efe6;
+  --card: #fffefb;
+  --teal: #2f5d5a;
+  --teal-deep: #1c3d3b;
+  --teal-pale: #e2ebe9;
+  --line: rgba(38, 40, 43, 0.14);
+  --line-soft: rgba(38, 40, 43, 0.08);
+  --radius: 6px;
+  --radius-sm: 3px;
+  --serif: "Noto Serif KR", serif;
+  --sans: "Noto Sans KR", sans-serif;
+}
+
 .wawa-fixed-fab-container {
   position: fixed !important;
   right: 20px !important;
@@ -7,8 +24,8 @@
   display: flex !important;
   flex-direction: column !important;
   align-items: flex-end !important;
-  gap: 10px !important;
-  font-family: "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif !important;
+  gap: 8px !important;
+  font-family: var(--sans) !important;
 }
 
 .wawa-fab-item {
@@ -20,24 +37,25 @@
   width: auto !important;
   min-width: 0 !important;
   max-width: max-content !important;
-  min-height: 38px !important;
+  min-height: 40px !important;
   height: auto !important;
-  padding: 10px 14px !important;
-  border: 0 !important;
-  border-radius: 999px !important;
-  color: #ffffff !important;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+  padding: 10px 16px !important;
+  border: 1px solid var(--ink) !important;
+  border-radius: var(--radius-sm) !important;
+  color: var(--stone) !important;
+  background-color: var(--ink) !important;
+  box-shadow: none !important;
   font-size: 13px !important;
   font-weight: 700 !important;
   line-height: 1 !important;
-  letter-spacing: 0 !important;
+  letter-spacing: 0.01em !important;
   text-decoration: none !important;
   white-space: nowrap !important;
   transition: transform 0.2s ease, background-color 0.2s ease !important;
 }
 
 .wawa-fab-item:active {
-  transform: scale(0.95) !important;
+  transform: scale(0.96) !important;
 }
 
 .wawa-fab-item .fab-icon {
@@ -48,6 +66,7 @@
   height: 16px !important;
   font-size: 14px !important;
   line-height: 1 !important;
+  filter: grayscale(1) brightness(2.4) !important;
 }
 
 .wawa-fab-item .fab-text {
@@ -56,30 +75,38 @@
 }
 
 .fab-call {
-  background-color: #f97316 !important;
+  background-color: var(--teal) !important;
+  border-color: var(--teal) !important;
 }
 
 .fab-sms {
-  background-color: #334155 !important;
+  background-color: var(--card) !important;
+  border-color: var(--ink) !important;
+  color: var(--ink) !important;
+}
+
+.fab-sms .fab-icon {
+  filter: none !important;
 }
 
 .fab-consult {
-  background-color: #1e3a8a !important;
+  background-color: var(--ink) !important;
+  border-color: var(--ink) !important;
 }
 
 .pulse-effect {
-  animation: wawaBluePulse 2s infinite !important;
+  animation: wawaTealPulse 2s infinite !important;
 }
 
-@keyframes wawaBluePulse {
+@keyframes wawaTealPulse {
   0% {
-    box-shadow: 0 0 0 0 rgba(30, 58, 138, 0.6);
+    box-shadow: 0 0 0 0 rgba(47, 93, 90, 0.45);
   }
   70% {
-    box-shadow: 0 0 0 12px rgba(30, 58, 138, 0);
+    box-shadow: 0 0 0 10px rgba(47, 93, 90, 0);
   }
   100% {
-    box-shadow: 0 0 0 0 rgba(30, 58, 138, 0);
+    box-shadow: 0 0 0 0 rgba(47, 93, 90, 0);
   }
 }
 
@@ -87,7 +114,7 @@
   .wawa-fixed-fab-container {
     right: 15px !important;
     bottom: 20px !important;
-    gap: 8px !important;
+    gap: 7px !important;
   }
 
   .wawa-fab-item {
@@ -96,14 +123,13 @@
     max-width: max-content !important;
     min-height: 38px !important;
     height: auto !important;
-    padding: 10px 14px !important;
-    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15) !important;
-    font-size: 13px !important;
+    padding: 9px 13px !important;
+    font-size: 12px !important;
   }
 
   .wawa-fab-item .fab-icon {
-    width: 16px !important;
-    height: 16px !important;
-    font-size: 14px !important;
+    width: 15px !important;
+    height: 15px !important;
+    font-size: 13px !important;
   }
 }
