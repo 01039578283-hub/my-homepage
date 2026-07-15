@@ -1,14 +1,17 @@
 :root {
-  --ink: #26282b;
-  --ink-soft: #6d6f72;
-  --ink-faint: #9a9b9d;
-  --stone: #f3efe6;
-  --card: #fffefb;
-  --teal: #2f5d5a;
-  --teal-deep: #1c3d3b;
-  --teal-pale: #e2ebe9;
-  --line: rgba(38, 40, 43, 0.14);
-  --line-soft: rgba(38, 40, 43, 0.08);
+  --ink: #202a32;
+  --ink-soft: #57646d;
+  --ink-faint: #92a0a8;
+  --stone: #f3f7f6;
+  --card: #ffffff;
+  --blue: #2f6fed;
+  --blue-deep: #1d4fb8;
+  --blue-pale: #e4edfc;
+  --green: #4caf7d;
+  --green-deep: #2f7d55;
+  --green-pale: #e1f3e8;
+  --line: rgba(32, 42, 50, 0.14);
+  --line-soft: rgba(32, 42, 50, 0.08);
   --radius: 6px;
   --radius-sm: 3px;
   --serif: "Noto Serif KR", serif;
@@ -68,7 +71,7 @@ img {
   padding: 0;
   border: none;
   border-radius: 0;
-  color: var(--teal);
+  color: var(--blue);
   background: none;
   font-size: 0.7rem;
   font-weight: 700;
@@ -81,7 +84,7 @@ img {
   display: inline-block;
   width: 18px;
   height: 1px;
-  background: var(--teal);
+  background: var(--blue);
 }
 
 .article-hero h1 {
@@ -128,7 +131,7 @@ img {
   padding: 0;
   border: none;
   border-radius: 0;
-  color: var(--teal-pale);
+  color: var(--blue-pale);
   background: none;
   font-size: 0.7rem;
   font-weight: 700;
@@ -178,7 +181,7 @@ img {
 .article-answer-points span {
   display: block;
   margin-bottom: 8px;
-  color: var(--teal-pale);
+  color: var(--blue-pale);
   font-size: 0.76rem;
   font-weight: 700;
   letter-spacing: 0.02em;
@@ -305,7 +308,7 @@ img {
   padding: 0;
   border: none;
   border-radius: 0;
-  color: var(--teal);
+  color: var(--blue);
   background: none;
   font-size: 0.7rem;
   font-weight: 700;
@@ -389,9 +392,9 @@ img {
 }
 
 .article-ai-links a:hover {
-  color: var(--teal-deep);
+  color: var(--blue-deep);
   border-color: transparent;
-  background: var(--teal-pale);
+  background: var(--blue-pale);
 }
 
 .article-target-list {
@@ -458,10 +461,10 @@ img {
   margin-top: 14px !important;
   padding: 14px 16px;
   border: 1px solid var(--line);
-  border-left: 3px solid var(--teal);
+  border-left: 3px solid var(--blue);
   border-radius: 0;
   color: var(--ink) !important;
-  background: var(--teal-pale);
+  background: var(--blue-pale);
   font-weight: 700;
 }
 
@@ -508,7 +511,7 @@ img {
 
 .article-faq summary::after {
   content: "+";
-  color: var(--teal);
+  color: var(--blue);
   font-family: var(--serif);
   font-size: 1.3rem;
   flex-shrink: 0;
@@ -560,7 +563,7 @@ img {
 
 .parent-review-eyebrow {
   margin: 0 0 2px;
-  color: var(--teal);
+  color: var(--blue);
   font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 0.2em;
@@ -619,7 +622,7 @@ img {
 }
 
 .parent-review-stars {
-  color: var(--teal);
+  color: var(--green);
   font-size: 0.8rem;
   letter-spacing: 1px;
   white-space: nowrap;
@@ -650,7 +653,7 @@ img {
 
 .parent-faq-eyebrow {
   margin: 0 0 2px;
-  color: var(--teal);
+  color: var(--blue);
   font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 0.2em;
@@ -707,7 +710,7 @@ img {
 
 .parent-faq-item summary::after {
   margin-left: auto;
-  color: var(--teal);
+  color: var(--blue);
   content: "+";
   font-family: var(--serif);
   font-size: 1.3rem;

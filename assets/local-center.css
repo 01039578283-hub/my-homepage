@@ -1,15 +1,18 @@
 /* Local center detail block — editorial/minimal redesign */
 :root {
-  --ink: #26282b;
-  --ink-soft: #6d6f72;
-  --ink-faint: #9a9b9d;
-  --stone: #f3efe6;
-  --card: #fffefb;
-  --teal: #2f5d5a;
-  --teal-deep: #1c3d3b;
-  --teal-pale: #e2ebe9;
-  --line: rgba(38, 40, 43, 0.14);
-  --line-soft: rgba(38, 40, 43, 0.08);
+  --ink: #202a32;
+  --ink-soft: #57646d;
+  --ink-faint: #92a0a8;
+  --stone: #f3f7f6;
+  --card: #ffffff;
+  --blue: #2f6fed;
+  --blue-deep: #1d4fb8;
+  --blue-pale: #e4edfc;
+  --green: #4caf7d;
+  --green-deep: #2f7d55;
+  --green-pale: #e1f3e8;
+  --line: rgba(32, 42, 50, 0.14);
+  --line-soft: rgba(32, 42, 50, 0.08);
   --radius: 6px;
   --radius-sm: 3px;
   --serif: "Noto Serif KR", serif;
@@ -41,7 +44,7 @@
   padding: 0;
   border: none;
   border-radius: 0;
-  color: var(--teal);
+  color: var(--blue);
   background: none;
   font-size: 0.7rem;
   font-weight: 700;
@@ -54,7 +57,7 @@
   display: inline-block;
   width: 18px;
   height: 1px;
-  background: var(--teal);
+  background: var(--blue);
 }
 
 .local-detail-hero h1 {
@@ -192,15 +195,15 @@
 }
 
 .wawa-pill {
-  color: var(--teal-deep);
-  background: var(--teal-pale);
+  color: var(--green-deep);
+  background: var(--green-pale);
 }
 
 .wawa-pill.is-elementary,
 .wawa-pill.is-middle,
 .wawa-pill.is-high {
-  color: var(--teal-deep);
-  background: var(--teal-pale);
+  color: var(--green-deep);
+  background: var(--green-pale);
 }
 
 .wawa-empty {
@@ -464,7 +467,7 @@
 .local-guide-card span {
   display: inline-flex;
   margin-bottom: 9px;
-  color: var(--teal);
+  color: var(--blue);
   font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 0.12em;
@@ -553,7 +556,7 @@
   align-items: center;
   gap: 8px;
   margin: 0 0 10px;
-  color: var(--teal);
+  color: var(--blue);
   font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 0.22em;
@@ -565,7 +568,7 @@
   display: inline-block;
   width: 18px;
   height: 1px;
-  background: var(--teal);
+  background: var(--blue);
 }
 
 .seo-geo-grid,
@@ -609,7 +612,7 @@
 
 .child-link-card:hover,
 .hub-seo-link-card:hover {
-  background: var(--teal-pale);
+  background: var(--blue-pale);
 }
 
 .child-link-card::after,
@@ -638,7 +641,7 @@
 .hub-seo-link-card span {
   display: inline-flex;
   margin-bottom: 9px;
-  color: var(--teal);
+  color: var(--blue);
   font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 0.1em;
@@ -678,9 +681,9 @@
   width: max-content;
   margin-top: 4px;
   padding: 5px 11px;
-  border: 1px solid var(--teal);
+  border: 1px solid var(--blue);
   border-radius: var(--radius-sm);
-  color: var(--teal-deep);
+  color: var(--blue-deep);
   background: none;
   font-size: 0.72rem;
   font-weight: 700;

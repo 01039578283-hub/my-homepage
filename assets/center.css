@@ -1,15 +1,18 @@
 /* Center hub pages (region/district/dong listings) — editorial/minimal redesign */
 :root {
-  --ink: #26282b;
-  --ink-soft: #6d6f72;
-  --ink-faint: #9a9b9d;
-  --stone: #f3efe6;
-  --card: #fffefb;
-  --teal: #2f5d5a;
-  --teal-deep: #1c3d3b;
-  --teal-pale: #e2ebe9;
-  --line: rgba(38, 40, 43, 0.14);
-  --line-soft: rgba(38, 40, 43, 0.08);
+  --ink: #202a32;
+  --ink-soft: #57646d;
+  --ink-faint: #92a0a8;
+  --stone: #f3f7f6;
+  --card: #ffffff;
+  --blue: #2f6fed;
+  --blue-deep: #1d4fb8;
+  --blue-pale: #e4edfc;
+  --green: #4caf7d;
+  --green-deep: #2f7d55;
+  --green-pale: #e1f3e8;
+  --line: rgba(32, 42, 50, 0.14);
+  --line-soft: rgba(32, 42, 50, 0.08);
   --radius: 6px;
   --radius-sm: 3px;
   --serif: "Noto Serif KR", serif;
@@ -62,7 +65,7 @@ main.center-main {
 }
 
 .breadcrumb-list a:hover {
-  color: var(--teal);
+  color: var(--blue);
 }
 
 .breadcrumb-list [aria-current="page"] {
@@ -87,7 +90,7 @@ main.center-main {
   padding: 0;
   border: none;
   border-radius: 0;
-  color: var(--teal);
+  color: var(--blue);
   background: none;
   font-size: 0.7rem;
   font-weight: 700;
@@ -100,7 +103,7 @@ main.center-main {
   display: inline-block;
   width: 18px;
   height: 1px;
-  background: var(--teal);
+  background: var(--blue);
 }
 
 .center-hero h1 {
@@ -182,7 +185,7 @@ main.center-main {
   padding: 0;
   border: none;
   border-radius: 0;
-  color: var(--teal);
+  color: var(--blue);
   background: none;
   font-size: 0.7rem;
   font-weight: 700;
@@ -195,7 +198,7 @@ main.center-main {
   display: inline-block;
   width: 18px;
   height: 1px;
-  background: var(--teal);
+  background: var(--blue);
 }
 
 .center-finder-overview h3 {
@@ -240,9 +243,9 @@ main.center-main {
 }
 
 .center-search-form input:focus {
-  border-color: var(--teal);
+  border-color: var(--blue);
   background: var(--card);
-  box-shadow: 0 0 0 3px var(--teal-pale);
+  box-shadow: 0 0 0 3px var(--blue-pale);
 }
 
 .center-search-form button,
@@ -286,8 +289,8 @@ main.center-main {
 .center-region-tabs button:hover,
 .center-region-tabs button.active {
   border-color: transparent;
-  color: var(--teal-deep);
-  background: var(--teal-pale);
+  color: var(--blue-deep);
+  background: var(--blue-pale);
   box-shadow: none;
 }
 
@@ -348,7 +351,7 @@ main.center-main {
 .center-result-card:hover,
 .center-result-card:focus {
   text-decoration: none !important;
-  background: var(--teal-pale);
+  background: var(--blue-pale);
 }
 
 .center-result-card::before {
@@ -378,7 +381,7 @@ main.center-main {
 
 .center-result-card em {
   margin-top: 12px;
-  color: var(--teal);
+  color: var(--blue);
   font-size: 0.78rem;
   font-style: normal;
   font-weight: 700;
@@ -391,7 +394,7 @@ main.center-main {
 
 .center-region-page-card {
   border-color: transparent;
-  background: var(--teal-pale);
+  background: var(--blue-pale);
 }
 
 .center-result-desc {
@@ -424,9 +427,9 @@ main.center-main {
 }
 
 .center-local-pill.more {
-  color: var(--teal-deep);
+  color: var(--blue-deep);
   border-color: transparent;
-  background: var(--teal-pale);
+  background: var(--blue-pale);
 }
 
 .center-local-pill.muted {
@@ -464,7 +467,7 @@ main.center-main {
 }
 
 .region-card:hover {
-  background: var(--teal-pale);
+  background: var(--blue-pale);
 }
 
 .region-card::before {
@@ -490,7 +493,7 @@ main.center-main {
 .region-card em {
   display: block;
   margin-top: 16px;
-  color: var(--teal);
+  color: var(--blue);
   font-style: normal;
   font-size: 0.78rem;
   font-weight: 700;
@@ -567,7 +570,7 @@ main.center-main {
 }
 
 .district-card:hover {
-  background: var(--teal-pale);
+  background: var(--blue-pale);
 }
 
 .district-card::before {
@@ -610,7 +613,7 @@ main.center-main {
 .district-card span {
   display: block;
   margin-top: 12px;
-  color: var(--teal);
+  color: var(--blue);
   font-size: 0.78rem;
   font-weight: 700;
 }
@@ -632,9 +635,9 @@ main.center-main {
 }
 
 .district-card .center-local-pill.more {
-  color: var(--teal-deep) !important;
+  color: var(--blue-deep) !important;
   border-color: transparent;
-  background: var(--teal-pale);
+  background: var(--blue-pale);
 }
 
 .district-card .center-local-pill.muted {
@@ -652,7 +655,7 @@ main.center-main {
 .district-card em {
   display: block;
   margin-top: 14px;
-  color: var(--teal);
+  color: var(--blue);
   font-size: 0.78rem;
   font-style: normal;
   font-weight: 700;
@@ -682,7 +685,7 @@ main.center-main {
 .local-center-card:hover,
 .local-center-card:focus {
   text-decoration: none !important;
-  background: var(--teal-pale);
+  background: var(--blue-pale);
 }
 
 .local-center-card::before {
@@ -696,7 +699,7 @@ main.center-main {
   padding: 0;
   border: none;
   border-radius: 0;
-  color: var(--teal);
+  color: var(--blue);
   background: none;
   font-size: 0.68rem;
   font-weight: 700;
@@ -725,7 +728,7 @@ main.center-main {
 .local-center-card em {
   display: block;
   margin-top: 14px;
-  color: var(--teal);
+  color: var(--blue);
   font-size: 0.78rem;
   font-style: normal;
   font-weight: 700;
@@ -763,7 +766,7 @@ main.center-main {
 
 .local-topic-button:hover,
 .local-topic-button:focus {
-  background: var(--teal-pale);
+  background: var(--blue-pale);
   text-decoration: none !important;
 }
 
@@ -780,7 +783,7 @@ main.center-main {
   padding: 0;
   border: none;
   border-radius: 0;
-  color: var(--teal);
+  color: var(--blue);
   background: none;
   font-size: 0.68rem;
   font-weight: 700;
@@ -799,7 +802,7 @@ main.center-main {
 
 .local-topic-button.is-active {
   border-color: transparent;
-  background: var(--teal-pale);
+  background: var(--blue-pale);
 }
 
 .center-button {
@@ -846,7 +849,7 @@ main.center-main {
 
 .summary-eyebrow {
   margin-bottom: 16px;
-  color: var(--teal);
+  color: var(--blue);
   background: none;
   border-color: transparent;
 }
@@ -1056,7 +1059,7 @@ main.center-main {
   padding: 0;
   border: none;
   border-radius: 0;
-  color: var(--teal);
+  color: var(--blue);
   background: none;
   font-size: 0.7rem;
   font-weight: 700;
@@ -1069,7 +1072,7 @@ main.center-main {
   display: inline-block;
   width: 18px;
   height: 1px;
-  background: var(--teal);
+  background: var(--blue);
 }
 
 .hub-seo-head h2 {
@@ -1129,7 +1132,7 @@ main.center-main {
   padding: 0;
   border: none;
   border-radius: 0;
-  color: var(--teal);
+  color: var(--blue);
   background: none;
   font-size: 0.68rem;
   font-weight: 700;
@@ -1163,9 +1166,9 @@ main.center-main {
   align-items: center;
   margin-top: 14px;
   padding: 5px 11px;
-  border: 1px solid var(--teal);
+  border: 1px solid var(--blue);
   border-radius: var(--radius-sm);
-  color: var(--teal-deep);
+  color: var(--blue-deep);
   background: none;
   font-size: 0.72rem;
   font-weight: 700;
@@ -1175,7 +1178,7 @@ main.center-main {
 .hub-seo-link-card:focus,
 .local-guide-card:hover,
 .local-guide-card:focus {
-  background: var(--teal-pale);
+  background: var(--blue-pale);
   text-decoration: none !important;
 }
 
@@ -1209,7 +1212,7 @@ main.center-main {
 
 .hub-faq-item summary::after {
   flex: 0 0 auto;
-  color: var(--teal);
+  color: var(--blue);
   font-family: var(--serif);
   font-weight: 700;
   font-size: 1.2rem;

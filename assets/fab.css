@@ -1,15 +1,18 @@
 /* Shared floating contact buttons — editorial/minimal redesign */
 :root {
-  --ink: #26282b;
-  --ink-soft: #6d6f72;
-  --ink-faint: #9a9b9d;
-  --stone: #f3efe6;
-  --card: #fffefb;
-  --teal: #2f5d5a;
-  --teal-deep: #1c3d3b;
-  --teal-pale: #e2ebe9;
-  --line: rgba(38, 40, 43, 0.14);
-  --line-soft: rgba(38, 40, 43, 0.08);
+  --ink: #202a32;
+  --ink-soft: #57646d;
+  --ink-faint: #92a0a8;
+  --stone: #f3f7f6;
+  --card: #ffffff;
+  --blue: #2f6fed;
+  --blue-deep: #1d4fb8;
+  --blue-pale: #e4edfc;
+  --green: #4caf7d;
+  --green-deep: #2f7d55;
+  --green-pale: #e1f3e8;
+  --line: rgba(32, 42, 50, 0.14);
+  --line-soft: rgba(32, 42, 50, 0.08);
   --radius: 6px;
   --radius-sm: 3px;
   --serif: "Noto Serif KR", serif;
@@ -75,8 +78,8 @@
 }
 
 .fab-call {
-  background-color: var(--teal) !important;
-  border-color: var(--teal) !important;
+  background-color: var(--blue) !important;
+  border-color: var(--blue) !important;
 }
 
 .fab-sms {
