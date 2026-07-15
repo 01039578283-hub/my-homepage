@@ -1,18 +1,18 @@
 /* Center hub pages (region/district/dong listings) — editorial/minimal redesign */
 :root {
-  --ink: #202a32;
-  --ink-soft: #57646d;
-  --ink-faint: #92a0a8;
-  --stone: #f3f7f6;
+  --ink: #1a2440;
+  --ink-soft: #4d5770;
+  --ink-faint: #8891a3;
+  --stone: #f6f2e9;
   --card: #ffffff;
-  --blue: #2f6fed;
-  --blue-deep: #1d4fb8;
-  --blue-pale: #e4edfc;
-  --green: #4caf7d;
-  --green-deep: #2f7d55;
-  --green-pale: #e1f3e8;
-  --line: rgba(32, 42, 50, 0.14);
-  --line-soft: rgba(32, 42, 50, 0.08);
+  --blue: #b8863b;
+  --blue-deep: #8a6329;
+  --blue-pale: #f3e7d0;
+  --green: #b8863b;
+  --green-deep: #8a6329;
+  --green-pale: #f3e7d0;
+  --line: rgba(26, 36, 64, 0.14);
+  --line-soft: rgba(26, 36, 64, 0.08);
   --radius: 6px;
   --radius-sm: 3px;
   --serif: "Noto Serif KR", serif;
