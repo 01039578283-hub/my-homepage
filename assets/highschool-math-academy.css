@@ -1,0 +1,31 @@
+.math-case-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 12px;
+}
+
+.math-case-item {
+  min-width: 0;
+  padding: 22px;
+  border: 1px solid var(--math-line);
+  border-left: 4px solid var(--math-gold);
+  background: #fbf8f1;
+}
+
+.math-case-item strong {
+  display: block;
+  margin-bottom: 10px;
+  color: var(--math-gold-deep);
+  font-size: 12px;
+}
+
+.math-case-item p {
+  margin: 0;
+  color: #344059;
+  font-size: 15px;
+  line-height: 1.85;
+}
+
+@media (max-width: 560px) {
+  .math-case-item { padding: 18px; }
+}
