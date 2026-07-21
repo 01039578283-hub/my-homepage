@@ -22,6 +22,8 @@ body.subject-page {
   font-family: "Noto Sans KR", sans-serif;
   line-height: 1.75;
   overflow-x: hidden;
+  word-break: keep-all;
+  overflow-wrap: break-word;
 }
 
 .subject-page a { color: inherit; }
@@ -58,7 +60,7 @@ body.subject-page {
 .subject-section-head h2 { margin: 0; font-family: "Noto Serif KR", serif; font-size: clamp(28px, 4vw, 44px); line-height: 1.28; letter-spacing: -.04em; }
 .subject-section-head p { grid-column: 2; margin: -14px 0 0; color: var(--subject-muted); word-break: keep-all; }
 
-.subject-category-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.subject-category-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
 .subject-category-card { display: block; position: relative; min-height: 235px; padding: 28px; border: 1px solid var(--subject-line); color: inherit; background: #fff; overflow: hidden; text-decoration: none; transition: transform .18s ease, border-color .18s ease; }
 a.subject-category-card:hover { transform: translateY(-3px); border-color: var(--subject-gold); }
 .subject-category-card:nth-child(3n+1) { background: var(--subject-blue); }
@@ -116,18 +118,20 @@ a.subject-category-card:hover { transform: translateY(-3px); border-color: var(-
 }
 
 @media (max-width: 560px) {
+  .subject-page .site-header .nav-links a { font-size: 11px !important; }
   .subject-container { width: min(100% - 28px, 1120px); }
   .subject-breadcrumb { padding-top: 20px; }
   .subject-hero { padding: 8px 0 48px; }
   .subject-hero-grid { gap: 22px; }
-  .subject-hero h1 { font-size: 39px; }
-  .subject-hero-copy { margin-top: 18px; font-size: 15px; }
+  .subject-hero h1 { font-size: clamp(31px, 9vw, 36px); line-height: 1.2; letter-spacing: -.045em; }
+  .subject-hero-copy { margin-top: 18px; font-size: 15px; line-height: 1.72; }
   .subject-hero-panel { padding: 22px; }
-  .subject-section { padding: 52px 0; }
+  .subject-section { padding: 46px 0; }
   .subject-section-head { gap: 12px; margin-bottom: 24px; }
   .subject-category-grid, .subject-link-grid { grid-template-columns: 1fr; }
-  .subject-category-card { min-height: 210px; padding: 23px; }
-  .subject-status { left: 23px; bottom: 20px; }
+  .subject-category-card { min-height: 0; padding: 23px; }
+  .subject-category-card p { max-width: none; margin-top: 11px; font-size: 15px; line-height: 1.65; }
+  .subject-status { position: relative; left: auto; bottom: auto; display: inline-block; margin-top: 18px; font-size: 13px; }
   .subject-step { padding: 24px; }
   .subject-step h3 { margin-top: 18px; }
   .subject-cta { padding: 32px 24px; }
