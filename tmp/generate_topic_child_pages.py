@@ -9,6 +9,7 @@ from pathlib import Path
 
 ROOT = Path.cwd()
 CSV_PATH = Path(r"C:\Users\얼짱김종범\Desktop\홈페이지 새로할거 자료\대량 등록할 파일.csv")
+CSV_PATH = Path(os.environ["WAWA_TOPIC_CSV"]) if os.environ.get("WAWA_TOPIC_CSV") else CSV_PATH
 REVIEWS_PATH = ROOT / "tmp" / "parent_reviews.json"
 FAQS_PATH = ROOT / "tmp" / "parent_faqs.json"
 SITE_URL = "https://wawa-center.kr"

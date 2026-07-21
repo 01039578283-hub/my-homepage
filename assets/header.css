@@ -102,7 +102,7 @@
   align-items: center !important;
   justify-content: center !important;
   flex: 0 0 auto !important;
-  gap: 20px !important;
+  gap: 16px !important;
   height: auto !important;
   padding: 0 !important;
   border: none !important;
@@ -144,24 +144,29 @@
   border-bottom-color: var(--blue) !important;
 }
 
-@media (max-width: 560px) {
+@media (max-width: 900px) {
   .site-header {
-    height: 58px !important;
-    min-height: 58px !important;
-    max-height: 58px !important;
+    height: 132px !important;
+    min-height: 132px !important;
+    max-height: 132px !important;
   }
 
   .site-header .nav {
     width: min(100% - 24px, 1180px) !important;
-    height: 58px !important;
-    min-height: 58px !important;
-    max-height: 58px !important;
-    gap: 6px !important;
+    height: 132px !important;
+    min-height: 132px !important;
+    max-height: 132px !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    justify-content: center !important;
+    gap: 7px !important;
+    padding: 8px 0 7px !important;
   }
 
   .site-header .logo {
+    align-self: center !important;
     gap: 7px !important;
-    font-size: 13px !important;
+    font-size: 14px !important;
   }
 
   .site-header .brand-tail {
@@ -175,22 +180,26 @@
   }
 
   .site-header .nav-links {
-    flex: 1 1 auto !important;
+    display: grid !important;
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+    grid-template-rows: repeat(2, 32px) !important;
+    flex: 0 0 auto !important;
+    width: 100% !important;
     min-width: 0 !important;
-    justify-content: space-between !important;
-    height: 38px !important;
+    height: 68px !important;
     padding: 0 !important;
-    gap: 4px !important;
-    font-size: 12px !important;
+    gap: 4px 3px !important;
+    font-size: 11px !important;
   }
 
   .site-header .nav-links a {
-    flex: 1 1 auto !important;
+    width: 100% !important;
     height: 32px !important;
     min-height: 32px !important;
     max-height: 32px !important;
-    padding: 0 4px !important;
-    font-size: 11px !important;
+    padding: 0 3px !important;
+    font-size: 10.5px !important;
+    letter-spacing: -0.025em !important;
   }
 }
 
@@ -200,11 +209,11 @@
   }
 
   .site-header .nav-links {
-    font-size: 12px !important;
+    font-size: 10px !important;
   }
 
   .site-header .nav-links a {
-    padding: 0 3px !important;
+    padding: 0 1px !important;
     font-size: 10px !important;
   }
 }
