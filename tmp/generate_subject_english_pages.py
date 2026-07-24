@@ -405,7 +405,7 @@ def page_schema(
                 {"@type": "ListItem", "position": 1, "name": "홈", "item": SITE_URL + "/"},
                 {"@type": "ListItem", "position": 2, "name": "과목별학원", "item": encoded_url("과목별학원")},
                 {"@type": "ListItem", "position": 3, "name": "영어학원", "item": encoded_url("과목별학원", "영어학원")},
-                {"@type": "ListItem", "position": 4, "name": local, "item": page_url},
+                {"@type": "ListItem", "position": 4, "name": title, "item": page_url},
             ],
         },
         {
@@ -539,7 +539,7 @@ def render_page(
   </header>
   <main>
     <section class="math-hero"><div class="math-container">
-      <nav class="math-breadcrumb" aria-label="현재 위치"><a href="/">홈</a><span>›</span><a href="/과목별학원/">과목별학원</a><span>›</span><a href="/과목별학원/영어학원/">영어학원</a><span>›</span><span aria-current="page">{esc(local)}</span></nav>
+      <nav class="math-breadcrumb" aria-label="현재 위치"><a href="/">홈</a><span>›</span><a href="/과목별학원/">과목별학원</a><span>›</span><a href="/과목별학원/영어학원/">영어학원</a><span>›</span><span aria-current="page">{esc(title)}</span></nav>
       <div class="math-hero-grid"><div><p class="math-eyebrow">LOCAL ENGLISH ACADEMY GUIDE</p><h1>{esc(title)}</h1><p class="math-hero-lead">{esc(description)}</p></div>
       <aside class="math-hero-panel"><strong>{esc(local)} 영어 상담은 현재 읽고 쓰는 과정부터 확인합니다</strong><p>최근 교재와 시험지를 바탕으로 어휘, 문법, 독해 근거, 서술형 표현과 복습 순서를 나누어 살펴보세요.</p><div class="math-step-row"><span>진단</span><span>적용</span><span>복습</span></div></aside></div>
     </div></section>
@@ -625,7 +625,7 @@ def render_hub(order: list[str], directory: str) -> str:
                 "itemListElement": [
                     {"@type": "ListItem", "position": 1, "name": "홈", "item": SITE_URL + "/"},
                     {"@type": "ListItem", "position": 2, "name": "과목별학원", "item": encoded_url("과목별학원")},
-                    {"@type": "ListItem", "position": 3, "name": "영어학원", "item": page_url},
+                    {"@type": "ListItem", "position": 3, "name": "영어학원 지역 안내", "item": page_url},
                 ],
             },
             {"@type": "ItemList", "@id": page_url + "#directory", "name": "동네별 영어학원 안내", "numberOfItems": len(order), "itemListElement": list_items},
@@ -644,7 +644,7 @@ def render_hub(order: list[str], directory: str) -> str:
 </head><body class="math-academy-page english-academy-page">
   <header class="site-header"><nav class="nav" aria-label="주요 메뉴"><a class="logo" href="/"><span class="brand-orange">와와</span>학습<span class="brand-orange">코칭</span>센터 <span class="brand-tail">영어수학 전문학원</span></a><div class="nav-links" aria-label="페이지 이동"><a href="/">홈</a><a href="/overview/">학원소개</a><a href="/guide/">학습가이드</a><a href="/교육정보/">교육정보</a><a href="/학부모후기/">학부모후기</a><a class="active" href="/과목별학원/">과목별학원</a><a href="/center/">전국센터</a></div></nav></header>
   <main>
-    <section class="math-hero"><div class="math-container"><nav class="math-breadcrumb" aria-label="현재 위치"><a href="/">홈</a><span>›</span><a href="/과목별학원/">과목별학원</a><span>›</span><span aria-current="page">영어학원</span></nav><div class="math-hero-grid"><div><p class="math-eyebrow">ENGLISH ACADEMY DIRECTORY</p><h1>동네별 영어학원 안내</h1><p class="math-hero-lead">어휘·문법·독해·서술형을 따로 나열하는 데 그치지 않고, 학생의 학년과 학교 자료, 복습 가능 시간을 함께 놓고 확인할 수 있도록 371개 지역별 안내를 정리했습니다.</p></div><aside class="math-hero-panel"><strong>영어는 현재 읽고 설명하는 과정에서 출발합니다</strong><p>학년보다 앞선 진도만 묻기보다 어휘 누적, 문장 구조 이해, 독해 근거와 오답 재도전 방식을 함께 확인하세요.</p><div class="math-step-row"><span>어휘</span><span>독해</span><span>서술형</span></div></aside></div></div></section>
+    <section class="math-hero"><div class="math-container"><nav class="math-breadcrumb" aria-label="현재 위치"><a href="/">홈</a><span>›</span><a href="/과목별학원/">과목별학원</a><span>›</span><span aria-current="page">영어학원 지역 안내</span></nav><div class="math-hero-grid"><div><p class="math-eyebrow">ENGLISH ACADEMY DIRECTORY</p><h1>동네별 영어학원 안내</h1><p class="math-hero-lead">어휘·문법·독해·서술형을 따로 나열하는 데 그치지 않고, 학생의 학년과 학교 자료, 복습 가능 시간을 함께 놓고 확인할 수 있도록 371개 지역별 안내를 정리했습니다.</p></div><aside class="math-hero-panel"><strong>영어는 현재 읽고 설명하는 과정에서 출발합니다</strong><p>학년보다 앞선 진도만 묻기보다 어휘 누적, 문장 구조 이해, 독해 근거와 오답 재도전 방식을 함께 확인하세요.</p><div class="math-step-row"><span>어휘</span><span>독해</span><span>서술형</span></div></aside></div></div></section>
     <section class="math-section paper"><div class="math-container math-quick-grid"><article class="math-summary-card"><strong>371 LOCAL GUIDES</strong><h2>지역과 학생 상황을 함께 보는 영어학원 안내</h2><p>각 페이지는 제공된 동네별 원고와 센터·학교 자료를 사용합니다. 특정 결과를 약속하기보다 학생이 막히는 영어 영역, 학교 범위 대응, 복습 기록과 상담 준비 기준을 구체적으로 확인하도록 구성했습니다.</p></article><aside class="math-info-card"><h2>영어 상담 핵심 기준</h2><dl><div><dt>어휘</dt><dd>누적 암기와 문장 안에서의 의미 확인</dd></div><div><dt>문법</dt><dd>개념 설명에서 문제 적용까지의 연결</dd></div><div><dt>독해</dt><dd>답의 근거와 문단 관계 표시</dd></div><div><dt>복습</dt><dd>오답 원인 기록과 일정 뒤 재풀이</dd></div></dl></aside></div></section>
     <section class="math-section"><div class="math-container"><p class="math-eyebrow">FIND YOUR LOCAL PAGE</p><h2 style="margin:0;font-family:'Noto Serif KR',serif;font-size:clamp(28px,4vw,44px);">동네명으로 영어학원 찾기</h2><div class="math-directory-tools"><input class="math-search" id="english-local-search" type="search" placeholder="예: 명일동, 불당동, 가경동" aria-label="동네명 검색"><div class="math-count" id="english-search-count">전체 371개 지역</div></div>{directory}</div></section>
     <section class="math-section paper"><div class="math-narrow math-faq-card"><p class="math-eyebrow">FAQ</p><h2>영어학원 안내 이용 전 확인사항</h2><div class="math-faq-list">{''.join(f'<details class="math-faq-item"{" open" if index == 0 else ""}><summary>{esc(item["name"])}</summary><p>{esc(item["acceptedAnswer"]["text"])}</p></details>' for index, item in enumerate(faq))}</div></div></section>
