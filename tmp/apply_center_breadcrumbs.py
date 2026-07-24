@@ -41,7 +41,6 @@ def page_title(page_file: Path, fallback: str) -> str:
     if not match:
         return fallback
     title = clean_text(match.group(1)).split("|", 1)[0].strip()
-    title = re.sub(r"\s*센터\s*$", "", title).strip()
     return title or fallback
 
 
@@ -77,7 +76,9 @@ def breadcrumb_for(page_file: Path):
         if index == 0:
             name = REGION_NAMES.get(part, part)
         elif current:
-            name = place_name(page_file, part)
+            # The current page label should match its actual SEO title.
+            # Intermediate labels stay concise location names.
+            name = page_title(page_file, part)
         else:
             name = place_name(item_file, part)
         items.append({"name": name, "target": None if current else item_file})
