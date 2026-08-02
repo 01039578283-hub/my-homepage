@@ -168,6 +168,60 @@ CATEGORIES = (
         "hero_tags": (("읽기·어휘", "개념·연산", "학습 습관"), ("과제 기록", "질문 과정", "짧은 복습"), ("현재 교재", "설명하기", "오답 재확인"), ("기초 확인", "학습 리듬", "다음 계획")),
         "hub_lead": "초등학생의 영어·수학을 문제 수로만 비교하지 않고 읽기·어휘, 개념·연산, 질문 습관과 짧은 복습이 이어지는 과정을 살펴볼 수 있도록 371개 지역 안내를 정리했습니다.",
     },
+    {
+        "slug": "고등내신학원",
+        "label": "고등 내신학원",
+        "zip": "고등 내신학원.zip",
+        "focus": "combined",
+        "level": "고등",
+        "grade_prefix": "고",
+        "school_marker": "",
+        "eyebrow": "HIGH SCHOOL ACADEMIC RECORD GUIDE",
+        "directory": "HIGH SCHOOL ACADEMIC RECORD DIRECTORY",
+        "card_id": "high-school-record",
+        "card_number": "14",
+        "card_small": "HIGH SCHOOL ACADEMIC RECORD",
+        "representative_seed": "wawa-high-school-record-v1",
+        "card_copy": "학교별 시험 범위와 일정, 영어·수학 취약 단원, 오답 재풀이 기록을 기준으로 고등 내신 준비 과정을 살펴봅니다.",
+        "study_path": "고등학생-공부법",
+        "study_name": "고등학생 공부법",
+        "subjects": ("영어", "수학"),
+        "topics": ("고등 내신 범위", "고등 영어 내신", "고등 수학 내신", "시험 일정 관리", "고등 내신 오답 복습"),
+        "focus_terms": ("고등 내신 준비", "학교별 시험 범위·영어·수학 취약 단원·시험 일정", "최근 시험지·범위표·오답 재풀이 기록"),
+        "title_references": ("{local} 고등 내신 준비", "{local} 고등 시험 대비 상담", "이 고등 내신 과정", "해당 학교 시험 대비 방식", "고등 내신 범위·오답 관리 안내", "지역별 고등 내신 기준"),
+        "related_pages": (("고등전문학원", "고등 전문학원"), ("고등영수학원", "고등 영수학원"), ("중등내신학원", "중등 내신학원"), ("영수전문학원", "영수 전문학원")),
+        "base_page": ("고등전문학원", "고등 전문학원"),
+        "hero_copy": "최근 고등 영어·수학 시험지와 학교 범위표를 바탕으로 과목별 취약 단원, 남은 시험 기간, 오답 재풀이와 다음 점검 순서를 확인합니다.",
+        "hero_tags": (("학교 시험 범위", "과목별 취약 단원", "오답 재풀이"), ("영어 내신", "수학 내신", "시험 일정"), ("학교 자료", "최근 시험지", "주간 계획"), ("현재 상태", "남은 기간", "다음 점검")),
+        "hub_lead": "고등 내신을 단순 문제량이나 선행 진도로 비교하지 않고 학교별 시험 범위와 일정, 영어·수학의 서로 다른 취약 단원, 오답 재풀이 기록을 함께 확인할 수 있도록 371개 지역 안내를 정리했습니다.",
+    },
+    {
+        "slug": "중등내신학원",
+        "label": "중등 내신학원",
+        "zip": "중등 내신학원.zip",
+        "focus": "combined",
+        "level": "중등",
+        "grade_prefix": "중",
+        "school_marker": "",
+        "eyebrow": "MIDDLE SCHOOL ACADEMIC RECORD GUIDE",
+        "directory": "MIDDLE SCHOOL ACADEMIC RECORD DIRECTORY",
+        "card_id": "middle-school-record",
+        "card_number": "15",
+        "card_small": "MIDDLE SCHOOL ACADEMIC RECORD",
+        "representative_seed": "wawa-middle-school-record-v1",
+        "card_copy": "학교 진도와 지필·수행평가 일정, 영어·수학 취약 단원, 과제와 오답 복습 흐름을 기준으로 중등 내신을 살펴봅니다.",
+        "study_path": "중학생-공부법",
+        "study_name": "중학생 공부법",
+        "subjects": ("영어", "수학"),
+        "topics": ("중등 내신 범위", "중등 영어 내신", "중등 수학 내신", "지필·수행평가 준비", "중등 내신 오답 복습"),
+        "focus_terms": ("중등 내신 준비", "학교 진도·지필평가·수행평가·영어·수학 취약 단원", "최근 시험지·학교 자료·과제·오답 복습 기록"),
+        "title_references": ("{local} 중등 내신 준비", "{local} 중등 시험 대비 상담", "이 중등 내신 과정", "해당 학교 시험 대비 방식", "중등 내신 범위·과제 관리 안내", "지역별 중등 내신 기준"),
+        "related_pages": (("중등전문학원", "중등 전문학원"), ("중등영수학원", "중등 영수학원"), ("고등내신학원", "고등 내신학원"), ("영수전문학원", "영수 전문학원")),
+        "base_page": ("중등전문학원", "중등 전문학원"),
+        "hero_copy": "최근 중등 영어·수학 학습 자료와 학교 시험 범위를 바탕으로 지필·수행평가 일정, 과목별 취약 단원, 과제 실행과 오답 복습 순서를 확인합니다.",
+        "hero_tags": (("학교 시험 범위", "지필·수행평가", "오답 복습"), ("영어 내신", "수학 내신", "과제 실행"), ("학교 진도", "최근 시험지", "주간 계획"), ("현재 단원", "취약 영역", "다음 확인")),
+        "hub_lead": "중등 내신을 시험 직전 문제풀이만으로 비교하지 않고 학교 진도와 지필·수행평가 일정, 영어·수학 취약 단원, 과제 실행과 오답 복습의 연결 과정을 확인할 수 있도록 371개 지역 안내를 정리했습니다.",
+    },
 )
 
 
@@ -811,6 +865,12 @@ def final_polish(
         "수행평가 준비을": "수행평가 준비를",
         "수행평가 준비과": "수행평가 준비와",
         "수행평가 준비으로": "수행평가 준비로",
+        "고등 내신 준비은": "고등 내신 준비는",
+        "중등 내신 준비은": "중등 내신 준비는",
+        "관리 안내은": "관리 안내는",
+        "안내은": "안내는",
+        "안내을": "안내를",
+        "기준을 기준으로": "기준으로",
     }
     for old, new in grammar.items():
         text = text.replace(old, new)
@@ -1040,6 +1100,24 @@ def concise_meta(value: str, title: str, config: dict[str, object]) -> str:
     return text
 
 
+def concise_summary(value: str) -> str:
+    text = re.sub(r"\s+", " ", value).strip()
+    if len(text) <= 320:
+        return text
+    sentences = re.split(r"(?<=[.!?])\s+", text)
+    selected: list[str] = []
+    for sentence in sentences:
+        candidate = " ".join([*selected, sentence]).strip()
+        if len(candidate) > 320:
+            break
+        selected.append(sentence)
+    compact = " ".join(selected).strip()
+    if len(compact) >= 160:
+        return compact
+    cropped = text[:317].rsplit(" ", 1)[0].rstrip(" ,·")
+    return cropped + "."
+
+
 def focus_terms(config: dict[str, object]) -> tuple[str, str, str]:
     configured = config.get("focus_terms")
     if configured:
@@ -1105,7 +1183,16 @@ def replace_title_repetition(
         return references[code % len(references)]
 
     text = re.sub(re.escape(title), replace, value)
-    text = text.replace("관리을", "관리를").replace("관리이", "관리가")
+    text = (
+        text.replace("관리을", "관리를")
+        .replace("관리이", "관리가")
+        .replace("안내을", "안내를")
+        .replace("안내은", "안내는")
+        .replace("고등 내신 준비은", "고등 내신 준비는")
+        .replace("중등 내신 준비은", "중등 내신 준비는")
+        .replace("기준을 기준으로", "기준으로")
+    )
+    text = re.sub(r"상담\s+상담(?=(?:자는|자에게|자가|자는지|에서|으로|은|는|이|가|을|를|과|와|의|에|도|만|부터|까지))", "상담", text)
     return collapse_repeated_terms(text)
 
 
@@ -1206,7 +1293,14 @@ def build_summary(local: str, center: dict[str, object], config: dict[str, objec
     evidence_text = evidence_left if evidence_left == evidence_right else f"{evidence_left}, {evidence_right}"
     action = action_bank[(rank // (len(evidence_bank) * len(evidence_bank))) % len(action_bank)]
     detail = f"추가 확인 자료: {evidence_text}. 이 기록으로 {action}."
-    return f"{frames[rank % len(frames)]} {detail}"
+    base = frames[rank % len(frames)]
+    summary = f"{base} {detail}"
+    if len(summary) <= 320:
+        return summary
+    if len(base) <= 320:
+        return base
+    cropped = base[:317].rsplit(" ", 1)[0].rstrip(" ,·")
+    return cropped + "."
 
 
 def build_meta(local: str, center: dict[str, object], config: dict[str, object], rank: int) -> str:
@@ -1426,6 +1520,14 @@ def parse_professional_reviews(value: str) -> list[dict[str, str]]:
             raw = prefix.group(2).strip().strip('“”"')
         if raw:
             reviews.append({"label": label, "content": raw})
+    if not reviews:
+        for index, line in enumerate(value.splitlines(), start=1):
+            match = re.match(r"^\s*-\s+(.+?)\s*$", line)
+            if not match:
+                continue
+            raw = re.sub(r"\s+", " ", match.group(1)).strip().strip('“”"')
+            if raw:
+                reviews.append({"label": f"학부모 상담 후기 {index}", "content": raw})
     return reviews
 
 
@@ -1625,8 +1727,10 @@ def configure_namespace(namespace: dict[str, object], config: dict[str, object])
                     title, local, config, 920 + review_index,
                     keep_first=review_index == 0,
                 )
-            manuscript["summary"] = final_polish(
-                build_summary(local, center, config, rank), local, config, verified_grades, schools,
+            manuscript["summary"] = concise_summary(
+                final_polish(
+                    build_summary(local, center, config, rank), local, config, verified_grades, schools,
+                )
             )
             manuscript["meta"] = final_polish(
                 build_meta(local, center, config, rank), local, config, verified_grades, schools,
