@@ -275,12 +275,16 @@ def main() -> None:
         }
 
     master_source = (ROOT / "과목별학원" / "index.html").read_text(encoding="utf-8")
+    expected_master_items = int(getattr(generator, "EXPECTED_MASTER_ITEMS", 7))
     master_cards = re.findall(r'<a class="subject-category-card"', master_source)
-    if len(master_cards) != 7:
+    if len(master_cards) != expected_master_items:
         fail(f"master subject cards={len(master_cards)}")
     master_data = json.loads(first(r'<script type="application/ld\+json">(.*?)</script>', master_source))
     master_items = node_by_type(master_data, "ItemList")
-    if master_items.get("numberOfItems") != 7 or len(master_items.get("itemListElement", [])) != 7:
+    if (
+        master_items.get("numberOfItems") != expected_master_items
+        or len(master_items.get("itemListElement", [])) != expected_master_items
+    ):
         fail("master subject ItemList mismatch")
 
     sitemap = ET.parse(ROOT / "sitemap.xml").getroot()
