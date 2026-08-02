@@ -43,8 +43,56 @@ ADMIN_PATTERN = re.compile(
 GRAMMAR_PATTERN = re.compile(
     r"학부모라면\s+학부모가|학생\s+학생|상담\s+상담|관리\s+관리|확인\s+확인|"
     r"학교을|학원를|자료을|영어을|수학를|관리을|상담를|수업를|학생를|"
+    r"결과을|변화을|변화과|표시과|계획를|점검를|학습관리 절차자|"
+    r"수행평가 준비을|수행평가 준비과|수행평가 준비으로|"
+    r"제공된 제공된|실제 제공된|입시결과|시험시간관리|성적관리|"
     r"태도가 확인할 필요|과정이 확인할 필요|훈련이 확인할 필요|연습이 확인할 필요|"
     r"시간이 확인할 필요|필요한 유형 학생에게|수업 가능 제공된 학교 자료"
+)
+
+NEW_GRADE_PREFIXES = {
+    "고등전문학원": "고",
+    "중등전문학원": "중",
+    "초등전문학원": "초",
+}
+
+REQUIRED_SCHEMA_TYPES = {
+    "WebPage",
+    "EducationalOrganization",
+    "LocalBusiness",
+    "Article",
+    "Service",
+    "FAQPage",
+    "BreadcrumbList",
+    "ItemList",
+}
+
+SCHOOL_MENTION_SUFFIXES = (
+    "입니다",
+    "에서",
+    "으로",
+    "이며",
+    "이고",
+    "부터",
+    "까지",
+    "보다",
+    "처럼",
+    "은",
+    "는",
+    "이",
+    "가",
+    "을",
+    "를",
+    "과",
+    "와",
+    "의",
+    "도",
+    "만",
+    "에",
+    "등",
+)
+SCHOOL_MENTION_SUFFIX_PATTERN = "|".join(
+    re.escape(value) for value in sorted(SCHOOL_MENTION_SUFFIXES, key=len, reverse=True)
 )
 
 
@@ -74,6 +122,43 @@ def by_type(nodes: list[dict[str, object]], name: str) -> dict[str, object]:
         if value == name or isinstance(value, list) and name in value:
             return node
     return {}
+
+
+def graph_types(nodes: list[dict[str, object]]) -> set[str]:
+    values: set[str] = set()
+    for node in nodes:
+        value = node.get("@type")
+        if isinstance(value, str):
+            values.add(value)
+        elif isinstance(value, list):
+            values.update(str(item) for item in value)
+    return values
+
+
+def schema_faq(nodes: list[dict[str, object]]) -> list[tuple[str, str]]:
+    faq = by_type(nodes, "FAQPage")
+    values: list[tuple[str, str]] = []
+    for item in faq.get("mainEntity", []):
+        if not isinstance(item, dict):
+            continue
+        answer = item.get("acceptedAnswer", {})
+        answer_text = answer.get("text", "") if isinstance(answer, dict) else ""
+        values.append((clean(str(item.get("name", ""))), clean(str(answer_text))))
+    return values
+
+
+def school_claims(value: str, schools: list[str]) -> list[str]:
+    """Return source-known school names found in rendered/manuscript text."""
+    return [
+        school
+        for school in schools
+        if school
+        and re.search(
+            rf"(?<![가-힣A-Za-z0-9]){re.escape(school)}"
+            rf"(?=$|[^가-힣A-Za-z0-9]|(?:{SCHOOL_MENTION_SUFFIX_PATTERN})(?:$|[^가-힣A-Za-z0-9]))",
+            value,
+        )
+    ]
 
 
 def extract_region(source: str, pattern: str) -> str:
@@ -129,7 +214,17 @@ def exact_stats(values: list[str]) -> dict[str, int]:
     }
 
 
-def main() -> None:
+def main(target_slugs: set[str] | None = None) -> None:
+    all_categories = tuple(generator.CATEGORIES)
+    known_slugs = {str(config["slug"]) for config in all_categories}
+    requested = target_slugs or known_slugs
+    unknown = requested - known_slugs
+    if unknown:
+        raise ValueError(f"unknown category slug(s): {', '.join(sorted(unknown))}")
+    selected_categories = tuple(
+        config for config in all_categories if str(config["slug"]) in requested
+    )
+    generator.CATEGORIES = selected_categories
     generator.transformed_namespace = generator.shared.transformed_namespace
     generator.EXPECTED_MASTER_ITEMS = len(generator.ALL_TOPICS)
     base_audit.generator = generator
@@ -141,7 +236,7 @@ def main() -> None:
     report: dict[str, object] = {"categories": {}}
     organization_signatures: dict[str, set[str]] = defaultdict(set)
     business_signatures: dict[str, set[str]] = defaultdict(set)
-    for config in generator.CATEGORIES:
+    for config in selected_categories:
         namespace = generator.shared.transformed_namespace(config)
         generator.configure_namespace(namespace, config)
         manuscripts = namespace["load_manuscripts"]()
@@ -151,6 +246,10 @@ def main() -> None:
         reviews: list[str] = []
         summaries: list[str] = []
         fact_checked = 0
+        strict_grade_pages = 0
+        strict_school_pages = 0
+        strict_schema_pages = 0
+        strict_faq_pages = 0
         bad_term_hits = Counter()
 
         for local in order:
@@ -162,6 +261,22 @@ def main() -> None:
             service = by_type(nodes, "Service")
             article = by_type(nodes, "Article")
             center = namespace["extract_center_data"](local)
+            grade_prefix = NEW_GRADE_PREFIXES.get(str(config["slug"]), "")
+
+            if grade_prefix:
+                missing_schema = REQUIRED_SCHEMA_TYPES - graph_types(nodes)
+                if missing_schema:
+                    errors.append(
+                        f"{config['slug']}/{local}: strict schema missing {sorted(missing_schema)}"
+                    )
+                else:
+                    strict_schema_pages += 1
+                visible_faq = base_audit.visible_faq(source)
+                structured_faq = schema_faq(nodes)
+                if not visible_faq or visible_faq != structured_faq:
+                    errors.append(f"{config['slug']}/{local}: strict visible/schema FAQ mismatch")
+                else:
+                    strict_faq_pages += 1
 
             expected = {
                 "name": center["organization_name"],
@@ -195,6 +310,31 @@ def main() -> None:
             if not article.get("about") or not article.get("mentions") or not article.get("hasPart"):
                 errors.append(f"{config['slug']}/{local}: Article entity links missing")
             verified_grades = [str(item) for item in center.get("verified_grades", [])]
+            if grade_prefix:
+                row = generator.CENTER_ROWS.get(local, {})
+                english_grades = generator.split_values(row.get("가능학년\n(영어)", ""))
+                math_grades = generator.split_values(row.get("가능학년\n(수학)", ""))
+                math_grade_set = set(math_grades)
+                expected_grades = [
+                    grade
+                    for grade in english_grades
+                    if grade in math_grade_set and grade.startswith(grade_prefix)
+                ]
+                invalid_verified_grades = [
+                    grade for grade in verified_grades if not grade.startswith(grade_prefix)
+                ]
+                if invalid_verified_grades:
+                    errors.append(
+                        f"{config['slug']}/{local}: out-of-level verified grades "
+                        f"{invalid_verified_grades}"
+                    )
+                elif verified_grades != expected_grades:
+                    errors.append(
+                        f"{config['slug']}/{local}: verified grade source mismatch "
+                        f"{verified_grades!r} != {expected_grades!r}"
+                    )
+                else:
+                    strict_grade_pages += 1
             expected_audience = " · ".join(verified_grades)
             for node_name, node in (("Article", article), ("Service", service)):
                 audience = node.get("audience")
@@ -223,6 +363,15 @@ def main() -> None:
                 bad_term_hits["standalone 원고"] += 1
 
             manuscript = manuscripts[local]
+            if grade_prefix:
+                expected_faq = [
+                    (clean(str(item["question"])), clean(str(item["answer"])))
+                    for item in manuscript["faqs"]
+                ]
+                if visible_faq != expected_faq or structured_faq != expected_faq:
+                    errors.append(
+                        f"{config['slug']}/{local}: strict manuscript/visible/schema FAQ mismatch"
+                    )
             manuscript_text = " ".join([
                 *[str(item) for item in manuscript["intro"]],
                 str(manuscript.get("meta", "")),
@@ -241,6 +390,56 @@ def main() -> None:
                 generator.canonical_grade(match.group("level"), match.group("number"))
                 for match in generator.GRADE_PATTERN.finditer(manuscript_text)
             }
+            if grade_prefix:
+                invalid_explicit_grades = sorted(
+                    grade for grade in explicit_grades if not grade.startswith(grade_prefix)
+                )
+                if invalid_explicit_grades:
+                    errors.append(
+                        f"{config['slug']}/{local}: out-of-level manuscript grades "
+                        f"{invalid_explicit_grades}"
+                    )
+
+                allowed_schools = generator.schools_for_level(row, grade_prefix)
+                all_source_schools = generator.all_row_schools(row)
+                allowed_school_set = set(allowed_schools)
+                blocked_schools = [
+                    school for school in all_source_schools if school not in allowed_school_set
+                ]
+                center_schools = [str(item) for item in center.get("schools", [])]
+                if center_schools != allowed_schools:
+                    errors.append(
+                        f"{config['slug']}/{local}: allowed school source mismatch "
+                        f"{center_schools!r} != {allowed_schools!r}"
+                    )
+
+                manuscript_school_hits = school_claims(manuscript_text, blocked_schools)
+                schema_text = json.dumps(nodes, ensure_ascii=False, sort_keys=True)
+                schema_school_hits = school_claims(schema_text, blocked_schools)
+                visible_source = re.sub(
+                    r'<script\b[^>]*>.*?</script>|<style\b[^>]*>.*?</style>',
+                    " ",
+                    source,
+                    flags=re.DOTALL | re.IGNORECASE,
+                )
+                visible_school_hits = school_claims(clean(visible_source), blocked_schools)
+                if manuscript_school_hits:
+                    errors.append(
+                        f"{config['slug']}/{local}: out-of-level schools in manuscript "
+                        f"{manuscript_school_hits}"
+                    )
+                if visible_school_hits:
+                    errors.append(
+                        f"{config['slug']}/{local}: out-of-level schools in visible page "
+                        f"{visible_school_hits}"
+                    )
+                if schema_school_hits:
+                    errors.append(
+                        f"{config['slug']}/{local}: out-of-level schools in JSON-LD "
+                        f"{schema_school_hits}"
+                    )
+                if not manuscript_school_hits and not visible_school_hits and not schema_school_hits:
+                    strict_school_pages += 1
             if explicit_grades - set(verified_grades):
                 errors.append(
                     f"{config['slug']}/{local}: unsupported grade claims "
@@ -312,13 +511,33 @@ def main() -> None:
         if bad_term_hits:
             errors.append(f"{config['slug']}: production terms {dict(bad_term_hits)}")
 
+        exact_body = exact_stats([value for _, value in bodies])
+        exact_faq = exact_stats(faqs)
+        exact_reviews = exact_stats(reviews)
+        exact_summary = exact_stats(summaries)
+        for section_name, stats in (
+            ("body", exact_body),
+            ("FAQ", exact_faq),
+            ("reviews", exact_reviews),
+            ("summary", exact_summary),
+        ):
+            if stats["unique"] != len(order):
+                errors.append(
+                    f"{config['slug']}: {section_name} individualization "
+                    f"{stats['unique']}/{len(order)}"
+                )
+
         report["categories"][str(config["slug"])] = {
             "fact_pages_checked": fact_checked,
+            "strict_grade_pages": strict_grade_pages,
+            "strict_school_pages": strict_school_pages,
+            "strict_schema_pages": strict_schema_pages,
+            "strict_faq_pages": strict_faq_pages,
             "bad_term_hits": dict(bad_term_hits),
-            "exact_body": exact_stats([value for _, value in bodies]),
-            "exact_faq": exact_stats(faqs),
-            "exact_reviews": exact_stats(reviews),
-            "exact_summary": exact_stats(summaries),
+            "exact_body": exact_body,
+            "exact_faq": exact_faq,
+            "exact_reviews": exact_reviews,
+            "exact_summary": exact_summary,
             "body_5gram_jaccard": similarity_metrics(bodies, str(config["label"])),
         }
 
@@ -342,4 +561,4 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+    main(set(sys.argv[1:]) if len(sys.argv) > 1 else None)

@@ -1,8 +1,10 @@
 from __future__ import annotations
 
 import csv
+import hashlib
 import html
 import json
+import random
 import re
 import sys
 from pathlib import Path
@@ -14,7 +16,7 @@ import generate_subject_combined_pages as shared
 ROOT = Path(__file__).resolve().parents[1]
 SITE_URL = "https://wawa-center.kr"
 SITE_NAME = "와와학습코칭센터"
-TODAY = "2026-08-02"
+TODAY = "2026-08-03"
 CENTER_INFO_PATH = ROOT.parent / "참고자료" / "공통자료" / "센터정보 정리.csv"
 
 
@@ -85,6 +87,87 @@ CATEGORIES = (
         "hero_tags": (("영어 진단", "수학 진단", "과목별 복습"), ("학교 범위", "두 과목 우선순위", "주간 계획"), ("영어 답안", "수학 풀이", "오답 재학습"), ("현재 상태", "학습량 조정", "다음 점검")),
         "hub_lead": "영어와 수학을 같은 분량으로 묶기보다 두 과목의 현재 차이, 학교 일정, 혼자 복습할 수 있는 시간을 나누어 살펴볼 수 있도록 371개 지역 안내를 정리했습니다.",
     },
+    {
+        "slug": "고등전문학원",
+        "label": "고등 전문학원",
+        "zip": "고등 전문학원.zip",
+        "focus": "combined",
+        "level": "고등",
+        "grade_prefix": "고",
+        "school_marker": "",
+        "eyebrow": "HIGH SCHOOL SPECIALIST ACADEMY GUIDE",
+        "directory": "HIGH SCHOOL SPECIALIST ACADEMY DIRECTORY",
+        "card_id": "high-specialist",
+        "card_number": "11",
+        "card_small": "HIGH SCHOOL SPECIALIST",
+        "representative_seed": "wawa-high-specialist-v1",
+        "card_copy": "고등 영어·수학의 내신 범위, 모의고사 학습, 시험 시간 배분과 오답 재확인 기준을 함께 살펴봅니다.",
+        "study_path": "고등학생-공부법",
+        "study_name": "고등학생 공부법",
+        "subjects": ("영어", "수학"),
+        "topics": ("고등 영어 내신", "고등 수학 내신", "내신·모의고사 균형", "시험 시간 관리", "고등 오답 재학습"),
+        "focus_terms": ("고등 영어·수학", "학교 내신 범위·모의고사 학습·과목별 시간 배분", "시험 일정과 주간 실행 기록"),
+        "title_references": ("{local} 고등 학습 설계", "{local} 고등 과정 상담", "이 고등 학습 과정", "해당 고등 단계 관리 방식", "고등 내신·시간 관리 안내", "지역별 고등 학습 기준"),
+        "related_pages": (("고등영수학원", "고등 영수학원"), ("중등전문학원", "중등 전문학원"), ("초등전문학원", "초등 전문학원"), ("영수전문학원", "영수 전문학원")),
+        "base_page": ("고등영수학원", "고등 영수학원"),
+        "hero_copy": "최근 고등 영어·수학 시험지와 교재를 바탕으로 학교 내신 범위, 모의고사 학습, 과목별 시간 배분과 오답 재확인 순서를 점검합니다.",
+        "hero_tags": (("고등 내신", "모의고사", "시간 배분"), ("영어 답안", "수학 풀이", "오답 재확인"), ("학교 범위", "과목별 우선순위", "주간 계획"), ("현재 상태", "시험 일정", "다음 점검")),
+        "hub_lead": "고등학생의 영어·수학을 같은 진도표로 묶지 않고 학교 내신 범위, 모의고사 학습, 과목별 시간 배분과 오답 재확인 기준을 나누어 볼 수 있도록 371개 지역 안내를 정리했습니다.",
+    },
+    {
+        "slug": "중등전문학원",
+        "label": "중등 전문학원",
+        "zip": "중등 전문학원.zip",
+        "focus": "combined",
+        "level": "중등",
+        "grade_prefix": "중",
+        "school_marker": "",
+        "eyebrow": "MIDDLE SCHOOL SPECIALIST ACADEMY GUIDE",
+        "directory": "MIDDLE SCHOOL SPECIALIST ACADEMY DIRECTORY",
+        "card_id": "middle-specialist",
+        "card_number": "12",
+        "card_small": "MIDDLE SCHOOL SPECIALIST",
+        "representative_seed": "wawa-middle-specialist-v1",
+        "card_copy": "중등 영어·수학의 학교 진도, 지필·수행평가 준비, 과제 루틴과 오답 복습 기준을 확인합니다.",
+        "study_path": "중학생-공부법",
+        "study_name": "중학생 공부법",
+        "subjects": ("영어", "수학"),
+        "topics": ("중등 영어 문법·독해", "중등 수학 개념·유형", "중등 내신 준비", "과제·복습 습관", "중등 오답 재학습"),
+        "focus_terms": ("중등 영어·수학", "학교 진도·지필평가·수행평가 준비", "과제 실행과 주간 복습 기록"),
+        "title_references": ("{local} 중등 학습 설계", "{local} 중등 과정 상담", "이 중등 학습 과정", "해당 중등 단계 관리 방식", "중등 내신·습관 관리 안내", "지역별 중등 학습 기준"),
+        "related_pages": (("중등영수학원", "중등 영수학원"), ("고등전문학원", "고등 전문학원"), ("초등전문학원", "초등 전문학원"), ("영수전문학원", "영수 전문학원")),
+        "base_page": ("중등영수학원", "중등 영수학원"),
+        "hero_copy": "최근 중등 영어·수학 학습 자료를 바탕으로 학교 진도, 지필·수행평가 준비, 과제 실행과 오답 복습 순서를 확인합니다.",
+        "hero_tags": (("중등 내신", "과제 루틴", "오답 복습"), ("영어 문법", "수학 개념", "학교 진도"), ("지필 평가", "수행평가", "주간 계획"), ("현재 단원", "취약 영역", "다음 확인")),
+        "hub_lead": "중학생의 영어·수학을 단순 선행 진도로 비교하지 않고 학교 진도, 지필·수행평가 준비, 과제 실행과 오답 복습의 연결 과정을 살펴볼 수 있도록 371개 지역 안내를 정리했습니다.",
+    },
+    {
+        "slug": "초등전문학원",
+        "label": "초등 전문학원",
+        "zip": "초등 전문학원.zip",
+        "focus": "combined",
+        "level": "초등",
+        "grade_prefix": "초",
+        "school_marker": "",
+        "eyebrow": "ELEMENTARY SPECIALIST ACADEMY GUIDE",
+        "directory": "ELEMENTARY SPECIALIST ACADEMY DIRECTORY",
+        "card_id": "elementary-specialist",
+        "card_number": "13",
+        "card_small": "ELEMENTARY SPECIALIST",
+        "representative_seed": "wawa-elementary-specialist-v1",
+        "card_copy": "초등 영어 읽기·어휘와 수학 개념·연산을 과제 습관, 설명 과정과 짧은 복습 기준으로 살펴봅니다.",
+        "study_path": "초등학생-공부법",
+        "study_name": "초등학생 공부법",
+        "subjects": ("영어", "수학"),
+        "topics": ("초등 영어 읽기·어휘", "초등 수학 개념·연산", "초등 학습 습관", "과제·질문 기록", "초등 오답 재학습"),
+        "focus_terms": ("초등 영어·수학", "읽기·어휘·개념·연산", "과제·질문·짧은 복습 기록"),
+        "title_references": ("{local} 초등 학습 설계", "{local} 초등 과정 상담", "이 초등 학습 과정", "해당 초등 단계 관리 방식", "초등 기초·습관 관리 안내", "지역별 초등 학습 기준"),
+        "related_pages": (("초등영수학원", "초등 영수학원"), ("중등전문학원", "중등 전문학원"), ("고등전문학원", "고등 전문학원"), ("영수전문학원", "영수 전문학원")),
+        "base_page": ("초등영수학원", "초등 영수학원"),
+        "hero_copy": "최근 초등 영어·수학 교재와 과제 기록을 바탕으로 읽기·어휘, 개념·연산, 질문 습관과 짧은 복습 순서를 확인합니다.",
+        "hero_tags": (("읽기·어휘", "개념·연산", "학습 습관"), ("과제 기록", "질문 과정", "짧은 복습"), ("현재 교재", "설명하기", "오답 재확인"), ("기초 확인", "학습 리듬", "다음 계획")),
+        "hub_lead": "초등학생의 영어·수학을 문제 수로만 비교하지 않고 읽기·어휘, 개념·연산, 질문 습관과 짧은 복습이 이어지는 과정을 살펴볼 수 있도록 371개 지역 안내를 정리했습니다.",
+    },
 )
 
 
@@ -102,6 +185,50 @@ ALL_TOPICS = (
 
 def split_values(value: str) -> list[str]:
     return [item.strip() for item in re.split(r"[,，]", value or "") if item.strip()]
+
+
+def split_school_values(value: str) -> list[str]:
+    return [
+        item.strip()
+        for item in re.split(r"[,，.;；/|]+", value or "")
+        if item.strip()
+    ]
+
+
+SCHOOL_FIELDS = {
+    "초": "타깃학교\n(초)",
+    "중": "타깃학교\n(중)",
+    "고": "타깃학교\n(고)",
+}
+
+
+def schools_for_level(row: dict[str, str], prefix: str) -> list[str]:
+    return unique_values(split_school_values(row.get(SCHOOL_FIELDS.get(prefix, ""), "")))
+
+
+def all_row_schools(row: dict[str, str]) -> list[str]:
+    return unique_values(
+        [school for field in SCHOOL_FIELDS.values() for school in split_school_values(row.get(field, ""))]
+    )
+
+
+def representative_mapping(order: list[str], config: dict[str, object]) -> dict[str, str]:
+    candidates: list[tuple[str, Path]] = []
+    seen: set[str] = set()
+    for path in sorted((ROOT / "assets").glob("representative-*/*.gif")):
+        digest = hashlib.sha256(path.read_bytes()).hexdigest()
+        if digest in seen:
+            continue
+        seen.add(digest)
+        candidates.append((digest, path))
+    if len(candidates) < len(order):
+        raise ValueError(f"not enough existing representative images: {len(candidates)}")
+    seed = str(config.get("representative_seed") or f'wawa-{config["slug"]}-{TODAY}')
+    random.Random(seed).shuffle(candidates)
+    return {
+        local: "/" + path.relative_to(ROOT).as_posix()
+        for local, (_, path) in zip(order, candidates)
+    }
 
 
 def unique_values(values: list[str]) -> list[str]:
@@ -335,6 +462,8 @@ def reader_facing_text(value: str, local: str, config: dict[str, object]) -> str
     text = text.replace("제공된 제공된 학교 자료", "확인된 학교 자료")
     text = text.replace("실제 제공된 학교 자료", "실제 학교 자료")
     text = text.replace("입시결과", "학습 결과")
+    text = text.replace("시험시간관리", "시험 시간 관리")
+    text = text.replace("성적관리", "학습 성과 점검")
     text = text.replace("점검’라는", "점검’이라는")
     text = text.replace("점검'라는", "점검'이라는")
     text = text.replace("점검’를", "점검’을")
@@ -490,7 +619,27 @@ def sanitize_grade_claims(value: str, verified_grades: list[str]) -> str:
         return "해당 학년"
 
     text = GRADE_PATTERN.sub(replace, value)
+
+    grade_token = r"(?:초등학교|초등|초|중학교|중등|중|고등학교|고등|고)\s*[1-6]\s*(?:학년)?"
+
+    def dedupe_sequence(match: re.Match[str]) -> str:
+        values: list[tuple[str, str]] = []
+        seen: set[str] = set()
+        for token in GRADE_PATTERN.finditer(match.group(0)):
+            code = canonical_grade(token.group("level"), token.group("number"))
+            if code not in seen:
+                seen.add(code)
+                values.append((code, token.group(0)))
+        return "·".join(display_grade(code, original) for code, original in values)
+
+    text = re.sub(rf"{grade_token}(?:\s*[·,/]\s*{grade_token})+", dedupe_sequence, text)
+    text = re.sub(
+        r"(?<![가-힣])([초중고][1-6])(?:\s*[·,/]?\s*\1)+(?![가-힣])",
+        r"\1",
+        text,
+    )
     text = text.replace("해당 학년 학년", "해당 학년")
+    text = re.sub(r"해당 학년(?:\s*[·,]\s*해당 학년)+", "해당 학년", text)
     return text
 
 
@@ -534,6 +683,74 @@ def normalize_school_separators(value: str, schools: list[str]) -> str:
     return text
 
 
+def sanitize_school_claims(
+    value: str,
+    local: str,
+    allowed_schools: list[str],
+    config: dict[str, object],
+) -> str:
+    """Remove school names outside the requested grade level without inventing replacements."""
+    prefix = str(config.get("grade_prefix", ""))
+    if not prefix:
+        return value
+    row = CENTER_ROWS.get(local, {})
+    all_schools = all_row_schools(row)
+    allowed = set(allowed_schools)
+    blocked = [school for school in all_schools if school not in allowed]
+    if not blocked:
+        return value
+
+    generic_frames = (
+        f"확인된 {config['level']} 학교 정보가 없는 경우에는 자녀 학교의 최근 시험 범위표와 학습 자료를 상담에 준비해야 합니다.",
+        f"{local} {config['label']} 상담에서는 자녀 학교의 실제 시험 범위와 교재를 가져와 학교 자료 활용 범위를 확인하는 편이 좋습니다.",
+        f"이 지역의 {config['level']} 학교 정보가 따로 확인되지 않았다면 학교명을 추정하지 말고 자녀가 받은 최근 자료를 기준으로 상담해야 합니다.",
+        f"수업 가능 {config['level']} 학교는 상담에서 자녀 학교 자료와 함께 확인하고, 확인되지 않은 학교명은 적용 범위로 단정하지 않습니다.",
+    )
+    sentence_pattern = re.compile(r"[^.!?]+(?:[.!?]|$)")
+
+    suffixes = (
+        "입니다", "에서는", "에서", "으로는", "으로", "이라는", "이라고", "이라면",
+        "라는", "이며", "이고", "에는", "부터", "까지", "보다", "처럼",
+        "은", "는", "이", "가", "을", "를", "과", "와", "의", "도", "만", "에", "등",
+    )
+    suffix_pattern = "|".join(re.escape(item) for item in sorted(suffixes, key=len, reverse=True))
+
+    def school_pattern(school: str) -> str:
+        return (
+            rf"(?<![가-힣A-Za-z0-9]){re.escape(school)}"
+            rf"(?=$|[^가-힣A-Za-z0-9]|(?:{suffix_pattern})(?:$|[^가-힣A-Za-z0-9]))"
+        )
+
+    def removable_school_pattern(school: str) -> str:
+        return (
+            rf"(?<![가-힣A-Za-z0-9]){re.escape(school)}"
+            rf"(?:(?:{suffix_pattern})(?=$|[^가-힣A-Za-z0-9])|(?=$|[^가-힣A-Za-z0-9]))"
+        )
+
+    def clean_sentence(match: re.Match[str]) -> str:
+        sentence = match.group(0)
+        hits = [school for school in blocked if school and re.search(school_pattern(school), sentence)]
+        if not hits:
+            return sentence
+        if not any(re.search(school_pattern(school), sentence) for school in allowed):
+            code = shared.stable_number(str(config["slug"]), local, "school-filter", sentence)
+            leading_match = re.match(r"^\s*", sentence)
+            leading = leading_match.group(0) if leading_match else ""
+            return leading + generic_frames[code % len(generic_frames)]
+        cleaned = sentence
+        for school in sorted(hits, key=len, reverse=True):
+            cleaned = re.sub(removable_school_pattern(school), "", cleaned)
+        cleaned = re.sub(r"(?:,\s*){2,}", ", ", cleaned)
+        cleaned = re.sub(r"([:：]|에는)\s*,", r"\1 ", cleaned)
+        cleaned = re.sub(r",\s*(?=[.!?]|$)", "", cleaned)
+        cleaned = re.sub(r"\s+,", ",", cleaned)
+        cleaned = re.sub(r"\s+([.!?])", r"\1", cleaned)
+        cleaned = re.sub(r"[ \t]{2,}", " ", cleaned)
+        return cleaned
+
+    return sentence_pattern.sub(clean_sentence, value)
+
+
 def collapse_repeated_terms(value: str) -> str:
     words = "학생|학부모|상담|관리|확인|자료|학습|수업|학교"
     text = re.sub(
@@ -557,6 +774,7 @@ def final_polish(
 ) -> str:
     text = replace_admin_terms(value, local, config)
     text = sanitize_grade_claims(text, verified_grades)
+    text = sanitize_school_claims(text, local, schools, config)
     text = normalize_school_separators(text, schools)
     grammar = {
         "필요한 유형 학생에게": "필요한 유형의 학생에게",
@@ -589,9 +807,19 @@ def final_polish(
         "표시과": "표시와",
         "계획를": "계획을",
         "점검를": "점검을",
+        "학원로": "학원으로",
+        "수행평가 준비을": "수행평가 준비를",
+        "수행평가 준비과": "수행평가 준비와",
+        "수행평가 준비으로": "수행평가 준비로",
     }
     for old, new in grammar.items():
         text = text.replace(old, new)
+    text = text.replace("두 과목 과목", "두 과목")
+    text = re.sub(
+        r"(?<![가-힣])학원\s+(?=(?:오답 점검|영어 답안 점검|수학 풀이 기록|과제 피드백|주간 시간 배분))",
+        "",
+        text,
+    )
     if config["focus"] == "math":
         text = text.replace("두 과목의 학습 흐름", "수학 풀이와 복습 흐름")
         text = text.replace("영어·수학 복습 간격", "수학 오답 재확인 간격")
@@ -762,6 +990,9 @@ def professional_diversify_text(
                 result.append(rewritten)
                 continue
         varied = shared.lexical_variation(sentence, code)
+        if re.match(r"^[^,.!?]{5,90}(?:하면|보면|살펴볼 때|포함하면|세울 때),", varied):
+            result.append(varied)
+            continue
         opener = f"{objects[code % len(objects)]} {SUBJECT_ACTION_BANK[(code // len(objects)) % len(SUBJECT_ACTION_BANK)]}"
         result.append(f"{opener} {varied}")
     return reader_facing_text(" ".join(result), local, config)
@@ -810,6 +1041,9 @@ def concise_meta(value: str, title: str, config: dict[str, object]) -> str:
 
 
 def focus_terms(config: dict[str, object]) -> tuple[str, str, str]:
+    configured = config.get("focus_terms")
+    if configured:
+        return tuple(str(value) for value in configured)  # type: ignore[return-value]
     if config["focus"] == "math":
         return "수학", "개념·계산·문제 해석", "풀이 흔적과 오답 재확인"
     if config["focus"] == "english":
@@ -828,6 +1062,9 @@ def verified_school_text(center: dict[str, object], limit: int = 3) -> str:
 
 
 def title_references(local: str, config: dict[str, object]) -> tuple[str, ...]:
+    configured = config.get("title_references")
+    if configured:
+        return tuple(str(value).format(local=local) for value in configured)
     subject, _, _ = focus_terms(config)
     if config["focus"] == "combined":
         return (
@@ -888,13 +1125,43 @@ def build_intro(local: str, center: dict[str, object], config: dict[str, object]
         f"{title}을 찾는 학부모라면 수업 횟수보다 진단 결과가 과제·오답·재확인 일정으로 이어지는지를 먼저 질문해 보세요.",
     )
     if center.get("verified_grades"):
-        fact_sentence = f"센터 등록 자료에서 확인된 {config['label']} 수업 가능 학년은 {grade_text}입니다."
+        grade_frames = (
+            f"센터 등록 자료에서 확인된 {config['label']} 수업 가능 학년은 {grade_text}입니다.",
+            f"제공된 센터 자료에는 {grade_text}이 {config['label']} 상담 가능 학년으로 확인됩니다.",
+            f"{config['label']} 수업 범위는 확인 자료상 {grade_text}이며, 세부 진도는 현재 교재를 보고 정합니다.",
+            f"상담 가능한 학년으로 확인된 범위는 {grade_text}입니다. 학년 안에서도 이전 단원 공백은 따로 살펴봅니다.",
+            f"등록 자료 기준 {grade_text} 학생이 {config['label']} 상담 대상에 포함됩니다.",
+            f"현재 확인 가능한 {config['label']} 학년 범위는 {grade_text}입니다. 실제 시작점은 최근 답안으로 나눕니다.",
+            f"센터 정보에서 {grade_text} 수업 가능 여부가 확인되며, 학기 일정과 교재 단계는 상담에서 맞춥니다.",
+            f"{grade_text}이 확인된 수업 가능 학년입니다. 같은 학년이라도 과목별 준비 순서는 달라질 수 있습니다.",
+        )
     else:
-        fact_sentence = f"이 센터의 {config['label']} 수업 가능 학년은 상담에서 먼저 확인해야 합니다."
+        grade_frames = (
+            f"이 센터의 {config['label']} 수업 가능 학년은 상담에서 먼저 확인해야 합니다.",
+            f"등록 자료에 구체적인 {config['label']} 학년 범위가 없어 자녀 학년의 수업 가능 여부를 우선 확인해야 합니다.",
+            f"{config['label']} 상담 전에는 현재 학년이 수업 범위에 포함되는지 먼저 문의하는 편이 안전합니다.",
+            f"확인 자료만으로 학년 범위를 단정하기 어려워 상담에서 자녀 학년과 교재 단계를 함께 확인합니다.",
+        )
+    fact_sentence = grade_frames[(code // 5) % len(grade_frames)]
     if school_text:
-        school_sentence = f"확인된 학교 정보에는 {school_text} 등이 있으며, 실제 시험 범위와 자료 활용 방식은 자녀 학교를 기준으로 상담에서 맞춥니다."
+        school_frames = (
+            f"확인된 학교 정보에는 {school_text} 등이 있으며, 실제 시험 범위와 자료 활용 방식은 자녀 학교를 기준으로 상담에서 맞춥니다.",
+            f"센터 자료에 나온 학교는 {school_text} 등입니다. 학교별 적용 여부는 최근 범위표와 교재를 가져와 다시 확인합니다.",
+            f"수업 가능 학교 참고 자료에는 {school_text} 등이 포함되지만, 실제 내신 준비는 자녀 학교의 현재 자료를 기준으로 정합니다.",
+            f"{school_text} 등의 학교 정보가 확인됩니다. 학교명만으로 수업을 단정하지 않고 시험 범위와 답안을 함께 살펴봅니다.",
+            f"학교 참고 범위로 {school_text} 등이 확인되며, 학기별 범위 변화는 상담 시 최신 자료로 대조합니다.",
+            f"제공 자료에서는 {school_text} 등을 확인할 수 있습니다. 자녀 학교의 프린트와 시험 계획표도 함께 준비하세요.",
+            f"{school_text} 등이 수업 가능 학교 정보에 들어 있습니다. 실제 적용 범위는 학생이 받은 학교 자료로 다시 맞춥니다.",
+            f"확인된 학교 예시는 {school_text} 등이며, 과목별 내신 일정은 최근 공지와 교재를 기준으로 상담합니다.",
+        )
     else:
-        school_sentence = "수업 가능 학교 정보가 따로 확인되지 않은 경우에는 자녀 학교의 최근 시험 범위표와 학습 자료를 준비해 적용 범위를 상담에서 확인해야 합니다."
+        school_frames = (
+            "수업 가능 학교 정보가 따로 확인되지 않은 경우에는 자녀 학교의 최근 시험 범위표와 학습 자료를 준비해 적용 범위를 상담에서 확인해야 합니다.",
+            "제공 자료에 학교명이 없으므로 자녀 학교의 교재와 범위표를 가져와 실제 적용 가능 여부를 먼저 확인합니다.",
+            "학교 참고 정보가 확인되지 않을 때는 학교명을 추정하지 않고 학생이 받은 최신 자료로 상담 범위를 정합니다.",
+            "등록된 학교 정보가 없는 경우에는 최근 학교 공지와 교재를 준비해 내신 자료 활용 여부부터 문의하세요.",
+        )
+    school_sentence = school_frames[(code // 11) % len(school_frames)]
     preparation_frames = (
         f"{fact_sentence} {school_sentence}",
         f"{school_sentence} {fact_sentence}",
@@ -934,8 +1201,11 @@ def build_summary(local: str, center: dict[str, object], config: dict[str, objec
         "혼자 공부할 수 있는 시간과 맞춥니다", "시험 대비와 누적 복습을 구분합니다", "다음 교재 단계의 기준으로 삼습니다",
         "특정 결과보다 실행 과정으로 확인합니다",
     )
-    code = shared.stable_number(config["slug"], local, "summary-detail")
-    detail = f"상담에서는 {evidence_bank[code % len(evidence_bank)]}을 기준으로 {action_bank[(code // len(evidence_bank)) % len(action_bank)]}."
+    evidence_left = evidence_bank[rank % len(evidence_bank)]
+    evidence_right = evidence_bank[(rank // len(evidence_bank)) % len(evidence_bank)]
+    evidence_text = evidence_left if evidence_left == evidence_right else f"{evidence_left}, {evidence_right}"
+    action = action_bank[(rank // (len(evidence_bank) * len(evidence_bank))) % len(action_bank)]
+    detail = f"추가 확인 자료: {evidence_text}. 이 기록으로 {action}."
     return f"{frames[rank % len(frames)]} {detail}"
 
 
@@ -976,29 +1246,125 @@ def build_faqs(local: str, center: dict[str, object], config: dict[str, object],
     subject, diagnostic, evidence = focus_terms(config)
     grades = [str(item) for item in center.get("verified_grades", [])]
     schools = [str(item) for item in center.get("schools", [])]
-    grade_answer = (
-        f"센터 등록 자료에서 확인된 수업 가능 학년은 {'·'.join(grades)}입니다. 학생의 현재 교재와 시험 범위를 함께 준비하면 학년 범위 안에서 적용할 수업 순서를 구체적으로 상담할 수 있습니다."
-        if grades
-        else "등록 자료에서 구체적인 수업 가능 학년이 확인되지 않았으므로 상담에서 자녀 학년의 수업 가능 여부를 먼저 확인해야 합니다. 특정 학년을 미리 단정하지 않습니다."
+    grade_text = "·".join(grades)
+    school_text = "·".join(schools[:3])
+    if grades:
+        grade_answers = (
+            f"확인 자료에 나온 수업 가능 학년은 {grade_text}입니다. 최근 교재와 시험 범위를 함께 보면 학년 범위 안에서 시작 단원을 구체적으로 정할 수 있습니다.",
+            f"센터 등록 정보에서는 {grade_text} 수업이 가능합니다. 같은 학년이라도 이전 단원 공백과 과목별 진도가 달라 현재 자료를 먼저 확인합니다.",
+            f"상담 대상 학년으로 확인된 범위는 {grade_text}입니다. 학년만 맞추지 않고 학생이 혼자 해결할 수 있는 단원까지 함께 살펴봅니다.",
+            f"수업 가능 여부가 확인된 학년은 {grade_text}입니다. 학교 일정과 현재 교재를 준비하면 실제 적용할 학습 순서를 정하기 쉽습니다.",
+            f"등록 자료 기준으로 {grade_text} 학생이 상담할 수 있습니다. 세부 수업 범위는 최근 답안과 과제 기록을 보고 조정합니다.",
+            f"{grade_text}이 확인된 수업 가능 학년입니다. 진도보다 누적된 빈틈과 가정에서 가능한 복습 시간을 먼저 나눕니다.",
+            f"현재 센터 자료에서 확인되는 학년 범위는 {grade_text}입니다. 자녀의 학기 일정과 교재 단계를 대조해 시작점을 정합니다.",
+            f"{grade_text} 수업 가능 정보가 확인됩니다. 상담에서는 학년 범위와 별도로 최근 시험지에서 반복된 어려움을 살펴봅니다.",
+        )
+    else:
+        grade_answers = (
+            "구체적인 수업 가능 학년이 등록 자료에 없어 자녀 학년의 가능 여부를 상담에서 먼저 확인해야 합니다. 확인되지 않은 학년을 미리 단정하지 않습니다.",
+            "제공 정보만으로 학년 범위를 정하기 어려우므로 현재 학년과 교재 단계를 알려 주고 수업 가능 여부부터 문의하세요.",
+            "학년 정보가 확인되지 않은 센터는 자녀 학년의 수업 가능 범위와 시작 단원을 첫 상담에서 함께 확인해야 합니다.",
+            "등록된 학년 범위가 없을 때는 임의로 적용하지 않고 최근 교재와 학교 일정을 준비해 상담 가능 여부를 확인합니다.",
+        )
+    if schools:
+        school_answers = (
+            f"확인된 수업 가능 학교 정보에는 {school_text} 등이 있습니다. 실제 내신 범위는 자녀 학교의 최신 범위표와 교재로 다시 확인합니다.",
+            f"센터 자료에서 {school_text} 등을 학교 참고 범위로 확인할 수 있습니다. 학교별 프린트와 평가 일정은 상담 시 최신 자료로 대조합니다.",
+            f"수업 가능 학교 예시로 {school_text} 등이 확인됩니다. 학교명만 보고 판단하지 않고 학생이 받은 시험 계획표와 답안을 함께 봅니다.",
+            f"제공된 학교 정보는 {school_text} 등입니다. 실제 적용 여부는 자녀 학교의 현재 교과서·프린트·시험 범위를 기준으로 확인합니다.",
+            f"{school_text} 등이 확인된 학교 자료에 포함됩니다. 학기마다 범위가 달라질 수 있어 최근 공지와 교재를 상담에 준비하는 편이 좋습니다.",
+            f"학교 참고 정보에는 {school_text} 등이 있습니다. 자녀 학교의 내신 자료를 어떻게 수업 계획에 반영하는지 상담에서 질문하세요.",
+            f"등록 자료상 {school_text} 등을 확인할 수 있습니다. 실제 수업 범위는 학생이 가져온 학교 자료와 현재 진도를 놓고 정합니다.",
+            f"{school_text} 등이 수업 가능 학교 정보로 확인됩니다. 학교별 평가 방식은 최신 범위표와 최근 답안으로 다시 살펴봅니다.",
+        )
+    else:
+        school_answers = (
+            "확인된 수업 가능 학교 정보가 없어 자녀 학교의 최근 범위표와 교재를 준비해 적용 범위를 먼저 확인해야 합니다. 학교명을 임의로 추정하지 않습니다.",
+            "등록 자료에 학교명이 없는 경우에는 학생이 받은 교과서·프린트·시험 계획표를 가져와 학교 자료 활용 여부를 확인합니다.",
+            "학교 참고 정보가 확인되지 않으므로 자녀 학교명을 알려 주고 최근 내신 자료를 바탕으로 수업 가능 범위를 상담해야 합니다.",
+            "제공된 학교 목록이 없을 때는 특정 학교를 적용 대상으로 단정하지 않고 최신 학교 자료로 가능 여부를 확인합니다.",
+        )
+    question_banks = (
+        (
+            "{subject} 상담 전에 어떤 자료를 준비하면 좋나요?",
+            "{subject} 상담에서 최근 시험지는 어떻게 활용하나요?",
+            "{subject}의 첫 진단에 필요한 학습 기록은 무엇인가요?",
+            "{subject} 상담을 구체적으로 받으려면 무엇을 가져가야 하나요?",
+            "{subject}의 현재 상태를 보여 줄 자료는 어떤 것인가요?",
+            "{subject} 상담 전 교재와 오답 기록을 준비해야 하나요?",
+            "{subject} 수업 문의 때 일주일 학습표도 필요한가요?",
+            "{subject}의 시작점을 확인할 때 어떤 자료부터 보나요?",
+        ),
+        (
+            "{subject}에서 학생의 현재 수준은 어떤 기준으로 진단하나요?",
+            "{subject}의 학습 공백은 어떻게 구분하나요?",
+            "{subject} 상담에서 정답 수 외에 무엇을 확인하나요?",
+            "{subject}의 막힌 단원을 찾는 과정은 어떻게 진행되나요?",
+            "{subject}에서 개념 부족과 실수는 어떻게 나누어 보나요?",
+            "{subject} 수업 전 학생의 설명 과정도 확인하나요?",
+            "{subject}의 현재 진도와 누적 빈틈은 어떻게 구분하나요?",
+            "{subject} 상담에서 오답을 다시 풀어 보게 하나요?",
+        ),
+        (
+            "{subject}의 수업 가능 학교와 내신 자료는 어떻게 확인하나요?",
+            "{subject}에서 학교별 시험 범위는 어떻게 반영하나요?",
+            "{subject} 상담 전 자녀 학교 자료를 준비해야 하나요?",
+            "{subject}의 학교 프린트 활용 여부는 어디서 확인하나요?",
+            "{subject}에서 수업 가능한 학교 정보는 어떤 기준인가요?",
+            "{subject} 상담에서는 학교별 자료를 어떻게 대조하나요?",
+            "{subject}의 내신 준비에 최근 범위표가 필요한가요?",
+            "{subject}에서 학교 정보는 상담 중 어떻게 확인하나요?",
+        ),
+        (
+            "{subject}은 어떤 학년이 상담할 수 있나요?",
+            "{subject}의 수업 가능 학년은 어디서 확인하나요?",
+            "{subject} 상담은 현재 학년부터 확인하나요?",
+            "{subject}에서 학년별 시작점은 어떻게 정하나요?",
+            "{subject}의 학년 범위와 교재 단계는 함께 보나요?",
+            "{subject}은 학년이 같아도 진단 내용이 달라지나요?",
+            "{subject} 상담 전에 수업 가능 학년을 문의해야 하나요?",
+            "{subject}에서 확인된 학년 범위는 어떻게 적용하나요?",
+        ),
+        (
+            "{subject}을 비교할 때 점수보다 먼저 볼 기준은 무엇인가요?",
+            "{subject} 선택에서 수업 횟수보다 중요한 것은 무엇인가요?",
+            "{subject}의 관리 방식을 비교할 때 무엇을 질문해야 하나요?",
+            "{subject}에서 과제량보다 먼저 확인할 과정은 무엇인가요?",
+            "{subject} 상담 후 어떤 기록이 남아야 하나요?",
+            "{subject}을 고를 때 오답 재확인도 비교해야 하나요?",
+            "{subject}의 피드백이 다음 계획으로 이어지는지 어떻게 보나요?",
+            "{subject} 선택 전 학생이 혼자 다시 푸는 과정도 확인하나요?",
+        ),
     )
-    school_answer = (
-        f"확인된 수업 가능 학교 정보에는 {'·'.join(schools[:3])} 등이 있습니다. 실제 내신 범위와 자료 활용 방식은 자녀 학교의 최근 시험 범위표와 교재를 기준으로 상담에서 다시 확인합니다."
-        if schools
-        else "확인된 수업 가능 학교 정보가 없는 경우에는 자녀 학교의 최근 시험 범위표와 교재를 상담에 준비해 수업 적용 범위를 먼저 확인해야 합니다. 확인되지 않은 학교명은 임의로 사용하지 않습니다."
+    preparation_answers = (
+        f"최근 시험지와 현재 교재, 틀린 답안·풀이, 일주일 학습표를 함께 준비하세요. 이 자료로 {diagnostic}과 {evidence}을 나누면 우선 보완할 내용을 정하기 쉽습니다.",
+        f"최근 학교 자료와 교재 진도, 오답 흔적, 실제 공부 시간을 가져가면 좋습니다. {diagnostic}을 확인한 뒤 {evidence}이 다음 계획으로 이어지는지 상담할 수 있습니다.",
+        f"현재 풀고 있는 교재와 최근 평가 자료, 스스로 다시 푼 기록을 준비하세요. 정답률보다 {diagnostic}의 차이를 구체적으로 설명하는 데 도움이 됩니다.",
+        f"시험 범위표·답안·풀이 과정·주간 시간표를 한꺼번에 보면 좋습니다. 수업 전 상태를 확인하고 {evidence}을 연결해 현실적인 복습량을 정할 수 있습니다.",
+        f"최근 틀린 문제와 교재의 표시, 학교 일정, 가정 복습 기록을 챙기세요. 이 자료는 {diagnostic} 중 우선 확인할 지점을 나누는 근거가 됩니다.",
+        f"교재 이름만 알려 주기보다 실제로 푼 페이지와 오답, 일주일 실행 기록을 준비하세요. {evidence}이 남는 수업인지 비교하기 쉬워집니다.",
+        f"학교 시험지나 단원 평가, 현재 교재, 질문 메모를 가져가면 상담이 구체적입니다. {diagnostic}을 학생의 설명과 함께 살펴볼 수 있습니다.",
+        f"최근 답안·풀이와 과제 완료 기록, 시험까지 남은 기간을 정리해 오세요. 이를 통해 {evidence}을 어느 간격으로 확인할지 정할 수 있습니다.",
     )
-    questions = (
-        "{subject} 상담에는 어떤 학습 자료를 준비하면 좋나요?",
-        "{subject}에서 학생의 현재 수준은 어떻게 진단하나요?",
-        "{subject}의 수업 가능 학교와 내신 자료는 어떻게 확인하나요?",
-        "{subject}은 어느 학년이 상담할 수 있나요?",
-        "{subject}을 비교할 때 성적보다 먼저 볼 기준은 무엇인가요?",
+    diagnosis_answers = (
+        f"정답 수만 세지 않고 {diagnostic} 중 어디에서 멈추는지 봅니다. 설명 과정과 일정 뒤 다시 푼 결과를 함께 확인해 필요한 복습 방식을 정합니다.",
+        f"최근 답안에서 반복된 어려움을 {diagnostic}으로 나누어 살펴봅니다. 학생이 도움 없이 다시 설명하고 해결하는지도 중요한 진단 기준입니다.",
+        f"교재 진도보다 실제 풀이·답안에서 {diagnostic}이 어떻게 나타나는지 먼저 확인합니다. 같은 유형의 재도전 결과까지 봐야 공백을 구분할 수 있습니다.",
+        f"틀린 문제를 바로 고치게 하기보다 학생이 막힌 이유를 말하게 합니다. 이후 {diagnostic}과 {evidence}을 대조해 시작 단원을 정합니다.",
+        f"최근 시험지와 과제에서 실수, 개념 공백, 시간 부족을 분리합니다. {diagnostic}을 확인한 뒤 학생이 혼자 할 수 있는 범위를 함께 표시합니다.",
+        f"현재 교재의 첫 풀이와 다시 푼 결과를 비교합니다. {diagnostic} 중 반복되는 지점을 찾으면 과제와 피드백 순서를 구체화할 수 있습니다.",
+        f"점수 한 줄보다 답을 고른 근거와 풀이 흐름을 확인합니다. {evidence}이 실제로 남아 있는지 보면 이해와 일시적 암기를 나누기 쉽습니다.",
+        f"학교 범위와 누적 단원을 따로 놓고 {diagnostic}을 점검합니다. 학생의 설명과 오답 재확인 결과를 함께 보아 다음 학습 순서를 정합니다.",
     )
-    answer_variants = (
-        f"최근 시험지, 현재 교재, 틀린 문제의 답안·풀이, 일주일 학습표를 준비하세요. 이 자료를 통해 {diagnostic}의 현재 상태와 {evidence}의 실행 여부를 나누면 상담에서 우선순위를 구체적으로 정할 수 있습니다.",
-        f"정답 수만 보지 않고 {diagnostic} 중 어디에서 멈추는지 확인합니다. 학생이 혼자 설명한 과정과 일정 뒤 다시 푼 결과를 함께 보면 수업 뒤 필요한 복습 방식을 판단하기 쉽습니다.",
-        school_answer,
-        grade_answer,
-        "특정 점수 상승을 단정하는 표현보다 진단 결과가 수업 계획, 과제 피드백, 오답 재확인 날짜로 이어지는지 확인하세요. 학생이 혼자 다시 해낸 기록을 남기는지도 중요한 비교 기준입니다.",
+    comparison_answers = (
+        "점수 상승을 단정하기보다 진단 결과가 수업 계획, 과제 피드백, 오답 재확인 날짜로 이어지는지 확인하세요. 학생이 혼자 다시 해낸 기록도 비교 기준입니다.",
+        "문제 수보다 틀린 원인이 기록되고 다음 수업에서 다시 확인되는지 살펴보세요. 피드백이 학생의 다음 행동으로 연결되어야 합니다.",
+        "선행 범위만 비교하지 말고 현재 공백을 어떻게 설명하며 주간 계획을 어떻게 조정하는지 질문하세요. 재풀이 결과가 남는지도 중요합니다.",
+        "수업 횟수보다 진단·실행·재확인의 절차를 확인하는 편이 좋습니다. 가정에서 가능한 복습량까지 반영하는지도 함께 비교하세요.",
+        "과제량이 많다는 설명보다 완료 후 어떤 피드백을 받고 언제 다시 푸는지 확인하세요. 특정 결과보다 실제 실행 기록이 판단 근거가 됩니다.",
+        "상담에서 정한 우선순위가 교재·과제·오답 일정에 구체적으로 반영되는지 보세요. 학생의 설명 과정도 정기적으로 확인하는 편이 좋습니다.",
+        "학교 대비와 누적 복습을 구분해 계획하는지, 결석이나 일정 변화 때 어떻게 조정하는지 질문하세요. 관리 방식은 기록으로 확인해야 합니다.",
+        "현재 상태를 과장하지 않고 부족한 부분과 가능한 복습량을 함께 설명하는지 살펴보세요. 다음 점검 시점이 분명한지도 중요한 기준입니다.",
     )
     closers = (
         "준비한 내용은 첫 상담의 진단 순서를 정하는 데 활용합니다.",
@@ -1018,26 +1384,34 @@ def build_faqs(local: str, center: dict[str, object], config: dict[str, object],
         "교재 단계보다 막힌 원인과 다음 확인 시점을 먼저 정하세요.",
         "상담에서 합의한 기준은 주간 기록으로 다시 점검하는 것이 좋습니다.",
     )
-    keep = {rank % len(questions), (rank + 2) % len(questions)}
+    keep = {rank % len(question_banks), (rank + 2) % len(question_banks)}
     short_phrase = f"{local} {subject} 수업"
+    answer_banks = (
+        preparation_answers,
+        diagnosis_answers,
+        school_answers,
+        grade_answers,
+        comparison_answers,
+    )
     result: list[dict[str, str]] = []
-    for index, template in enumerate(questions):
+    for index, templates in enumerate(question_banks):
         phrase = title if index in keep else short_phrase
-        variant = (index + rank) % 3
+        question_code = shared.stable_number(config["slug"], local, "faq-question", index)
+        template = templates[question_code % len(templates)]
         question = template.format(subject=phrase)
-        if variant == 1:
-            question = question.replace("어떻게", "어떤 기준으로").replace("무엇인가요", "어떤 점인가요")
-        elif variant == 2:
-            question = question.replace("어떤 학습 자료", "무슨 자료").replace("어느 학년", "어떤 학년")
         answer_code = shared.stable_number(config["slug"], local, "faq", index)
-        answer = f"{answer_variants[index]} {closers[answer_code % len(closers)]}"
+        answers = answer_banks[index]
+        answer = (
+            f"{answers[answer_code % len(answers)]} "
+            f"{closers[(answer_code // len(answers)) % len(closers)]}"
+        )
         result.append({"question": question, "answer": answer})
     return result
 
 
 def parse_professional_reviews(value: str) -> list[dict[str, str]]:
     marker = re.compile(
-        r"^\s*(?:-\s*)?((?:후기\s*예시|예시\s*후기|상담\s*후\s*기록|보호자\s*추가\s*메모|후기)\s*\d*)\s*(?:[｜|:.\-])\s*",
+        r"^\s*(?:-\s*)?((?:후기\s*예시|예시\s*후기|상담\s*후\s*기록|보호자\s*추가\s*메모|후기)\s*\d*)\s*(?:[｜|:.)\-])\s*",
         re.MULTILINE,
     )
     matches = list(marker.finditer(value.strip()))
@@ -1104,10 +1478,17 @@ def configure_namespace(namespace: dict[str, object], config: dict[str, object])
             math_set = set(math_grades)
             grades = [grade for grade in english_grades if grade in math_set]
             fallback = "영어·수학 공통 수업 가능 학년 상담 확인 필요"
+        grade_prefix = str(config.get("grade_prefix", ""))
+        if grade_prefix:
+            grades = [grade for grade in grades if grade.startswith(grade_prefix)]
+            fallback = f"{config['level']} 영어·수학 공통 수업 가능 학년 상담 확인 필요"
         center["verified_grades"] = grades
         center["grade_status"] = "" if grades else fallback
         center["grades"] = grades or [fallback]
-        center["schools"] = unique_values([str(item) for item in center.get("schools", [])])
+        if grade_prefix:
+            center["schools"] = schools_for_level(row, grade_prefix)
+        else:
+            center["schools"] = unique_values([str(item) for item in center.get("schools", [])])
         return center
 
     def manuscripts() -> dict[str, dict[str, object]]:
@@ -1261,14 +1642,28 @@ def configure_namespace(namespace: dict[str, object], config: dict[str, object])
     def links(local: str, index: int, order: list[str], center_url: str) -> list[dict[str, str]]:
         previous_local = order[index - 1] if index else order[-1]
         next_local = order[index + 1] if index + 1 < len(order) else order[0]
-        sibling_slugs = [item["slug"] for item in CATEGORIES if item["slug"] != config["slug"]]
         items = [{"name": f"{config['label']} 전체 지역", "url": encoded_url("과목별학원", config["slug"])}]
+        configured_related = config.get("related_pages")
+        if configured_related:
+            related_pages = [(str(slug), str(label)) for slug, label in configured_related]
+        else:
+            related_pages = [
+                (str(item["slug"]), str(item["label"]))
+                for item in CATEGORIES
+                if item["slug"] != config["slug"]
+            ]
         items.extend(
-            {"name": f"{local} {next(item['label'] for item in CATEGORIES if item['slug'] == slug)}", "url": encoded_url("과목별학원", slug, local)}
-            for slug in sibling_slugs
+            {"name": f"{local} {label}", "url": encoded_url("과목별학원", slug, local)}
+            for slug, label in related_pages
         )
-        base_slug = "영어학원" if config["focus"] == "english" else "수학학원"
-        items.append({"name": f"{local} {base_slug}", "url": encoded_url("과목별학원", base_slug, local)})
+        configured_base = config.get("base_page")
+        if configured_base:
+            base_slug, base_label = (str(value) for value in configured_base)
+        else:
+            base_slug = "영어학원" if config["focus"] == "english" else "수학학원"
+            base_label = base_slug
+        if all(item["url"] != encoded_url("과목별학원", base_slug, local) for item in items):
+            items.append({"name": f"{local} {base_label}", "url": encoded_url("과목별학원", base_slug, local)})
         if center_url:
             items.append({"name": f"{local} 전국센터 안내", "url": center_url})
         items.extend(
@@ -1363,6 +1758,7 @@ def configure_namespace(namespace: dict[str, object], config: dict[str, object])
     namespace["internal_links"] = links
     namespace["page_schema"] = schema
     namespace["render_page"] = render_page
+    namespace["select_representatives"] = lambda order: representative_mapping(order, config)
     namespace["render_hub"] = lambda order, directory: render_hub(namespace, config, order, directory)
 
 
@@ -1458,10 +1854,23 @@ def update_master_subject_hub(namespaces: dict[str, dict[str, object]]) -> None:
         position = matches[-1].end()
         source = source[:position] + "\n          " + "\n          ".join(cards) + source[position:]
 
-    description = "수학·영어 단과, 학년별 영수학원과 수학·영어·영수 전문학원까지 10개 지역별 안내를 학생의 현재 학습 상황에 맞춰 확인할 수 있습니다."
+    description = f"수학·영어 단과, 학년별 영수학원과 전문학원까지 {len(ALL_TOPICS)}개 지역별 안내를 학생의 현재 학습 상황에 맞춰 확인할 수 있습니다."
     source = re.sub(r'(<meta name="description" content=")[^"]*(">)', rf'\g<1>{description}\g<2>', source, count=1)
     source = re.sub(r'(<meta property="og:description" content=")[^"]*(">)', rf'\g<1>{description}\g<2>', source, count=1)
-    source = re.sub(r"실제 지역 페이지가 준비된 [^<.]+ 분류만 표시합니다\.", "실제 지역 페이지가 준비된 열 가지 분류만 표시합니다.", source)
+    source = re.sub(
+        r"실제 지역 페이지가 준비된 [^<.]+ 분류만 표시합니다\.",
+        f"실제 지역 페이지가 준비된 {len(ALL_TOPICS)}개 분류만 표시합니다.",
+        source,
+    )
+    source = source.replace(
+        "수학·영어 단과와 고등·중등·초등 영수 안내",
+        "수학·영어 단과와 학년별 영수·전문학원 안내",
+    )
+    source = source.replace("필요한 과목 정하기", "필요한 과목·학년 분류 정하기")
+    source = source.replace(
+        "수학·영어 단과 또는 학년별 영수학원을 먼저 선택한 뒤",
+        "단과·학년별 영수·전문학원 분류를 먼저 선택한 뒤",
+    )
 
     match = re.search(r'<script type="application/ld\+json">(.*?)</script>', source, re.DOTALL)
     if not match:
@@ -1485,21 +1894,35 @@ def update_master_subject_hub(namespaces: dict[str, dict[str, object]]) -> None:
                 {"@type": "ListItem", "position": index, "item": {"@type": "Thing", "name": name, "url": encoded_url("과목별학원", slug)}}
                 for index, (name, slug) in enumerate(ALL_TOPICS, start=1)
             ]
+        elif item.get("@type") == "FAQPage":
+            for faq in item.get("mainEntity", []):
+                if faq.get("name") == "과목별학원 페이지는 전국센터 페이지와 무엇이 다른가요?":
+                    faq["acceptedAnswer"]["text"] = (
+                        "전국센터는 지역과 센터를 기준으로 찾는 구조이고, 과목별학원은 "
+                        "단과·학년별 영수·전문학원 분류를 먼저 선택한 뒤 해당 동네의 "
+                        "학습 안내를 확인하는 구조입니다."
+                    )
     source = source[:match.start(1)] + compact_json(data) + source[match.end(1):]
     path.write_text(source, encoding="utf-8", newline="\n")
 
 
-def main() -> None:
+def main(target_slugs: set[str] | None = None) -> None:
+    known_slugs = {str(config["slug"]) for config in CATEGORIES}
+    requested = target_slugs or known_slugs
+    unknown = requested - known_slugs
+    if unknown:
+        raise ValueError(f"unknown category slug(s): {', '.join(sorted(unknown))}")
+    selected = [config for config in CATEGORIES if str(config["slug"]) in requested]
     namespaces: dict[str, dict[str, object]] = {}
-    for config in CATEGORIES:
+    for config in selected:
         namespace = shared.transformed_namespace(config)
         configure_namespace(namespace, config)
         namespace["main"]()
         namespaces[str(config["slug"])] = namespace
         print(f'{config["slug"]}: generated 371 detail pages and one hub')
     update_master_subject_hub(namespaces)
-    print("updated master subject hub with ten live categories")
+    print(f"updated master subject hub with {len(ALL_TOPICS)} live categories")
 
 
 if __name__ == "__main__":
-    main()
+    main(set(sys.argv[1:]) if len(sys.argv) > 1 else None)
