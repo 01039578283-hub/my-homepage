@@ -331,6 +331,19 @@ def reader_facing_text(value: str, local: str, config: dict[str, object]) -> str
     text = text.replace("수학의 주간 계획을 주간 계획과 연결하면", "수학의 주간 계획을 실행 기록과 연결하면")
     text = re.sub(r"(?<![가-힣])페이지(?=(?:에서는|에서|의|는|로|를|가|에|입니다|형식|안내|$|[\s,.]))", "안내", text)
     text = text.replace("안내 안내", "학습 안내")
+    text = text.replace("학습관리 절차자", "학습관리 절차")
+    text = text.replace("제공된 제공된 학교 자료", "확인된 학교 자료")
+    text = text.replace("실제 제공된 학교 자료", "실제 학교 자료")
+    text = text.replace("입시결과", "학습 결과")
+    text = text.replace("점검’라는", "점검’이라는")
+    text = text.replace("점검'라는", "점검'이라는")
+    text = text.replace("점검’를", "점검’을")
+    text = text.replace("점검'를", "점검'을")
+    text = re.sub(
+        r"([^.!?]+?)이며\s*[‘']([^’']+)[’'](?:이라는|라는) 상담 질문까지 함께 점검해야 하는 학생",
+        r"\1이고 ‘\2’ 기준도 함께 확인해야 하는 학생",
+        text,
+    )
 
     if config["focus"] == "math":
         replacements = {
@@ -570,6 +583,12 @@ def final_polish(
         "확인를": "확인을",
         "수업 가능 제공된 학교 자료": "확인된 수업 가능 학교 자료",
         "제공된 수업 가능 제공된 학교 자료": "확인된 수업 가능 학교 자료",
+        "결과을": "결과를",
+        "변화을": "변화를",
+        "변화과": "변화와",
+        "표시과": "표시와",
+        "계획를": "계획을",
+        "점검를": "점검을",
     }
     for old, new in grammar.items():
         text = text.replace(old, new)
@@ -901,7 +920,7 @@ def build_summary(local: str, center: dict[str, object], config: dict[str, objec
     )
     evidence_bank = (
         "최근 시험지의 오답 원인", "현재 교재의 풀이·답안 흔적", "학교 시험 범위와 남은 기간",
-        "과제 완료 뒤 혼자 다시 한 결과", "일주일 학습표와 실제 실행량", "수업 전후의 설명 과정",
+        "과제 완료 뒤 혼자 다시 풀어 본 기록", "일주일 학습표와 실제 실행량", "수업 전후의 설명 과정",
         "같은 유형을 다시 확인한 날짜", "학생이 말로 설명한 내용", "가정에서 확인한 복습 기록",
         "단원별로 반복되는 어려움", "시험 전후 달라진 학습 리듬", "교재 진도와 누적 빈틈",
         "답을 고친 뒤 남은 질문", "학교 일정과 등원 가능 시간", "수업 뒤 과제 피드백",
