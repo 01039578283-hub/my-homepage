@@ -32,9 +32,39 @@ BAD_TERMS = (
     "안내을",
     "안내은",
     "기준을 기준으로",
+    "교재을",
+    "영어 수학를",
+    "준비을",
+    "준비은",
+    "학년학생",
+    "수업을 정보성으로 살펴보면",
+    "상담 오답 관리",
+    "실제 제공된",
+    "날짜을",
+    "를 점검하는 과정이",
+    "기준 기준으로",
+    "확인이 확인할 필요가 있습니다",
+    "예시을",
+    "학습성과표을",
+    "수학과 영어가라는",
+    "처음 첫 상담",
+    "안내 안내",
     "관리이",
     "임의의 학교명",
     "먼저 확인할 필요",
+    "필요합니다면",
+    "적용해야 합니다면",
+    "평가 대비가라는",
+    "시기가라면",
+    "검색에 노출",
+    "제공 값",
+    "진단 진단",
+    "학생의 학생이",
+    "진단 학습을 진단할 때",
+    "수학·영어가라도",
+    "영어·수학가라도",
+    "보완 순서이",
+    "중일반적인 안내처럼",
 )
 
 ADMIN_PATTERN = re.compile(
@@ -48,9 +78,16 @@ GRAMMAR_PATTERN = re.compile(
     r"학교을|학원를|자료을|영어을|수학를|관리을|상담를|수업를|학생를|"
     r"결과을|변화을|변화과|표시과|계획를|점검를|학습관리 절차자|"
     r"수행평가 준비을|수행평가 준비과|수행평가 준비으로|"
+    r"준비을|준비은|학년학생|날짜을|수업을 정보성으로 살펴보면|상담 오답 관리|"
+    r"원인 분류가 먼저 확인할 필요|실제 제공된|를 점검하는 과정이|"
+    r"기준 기준으로|확인이 확인할 필요가 있습니다|예시을|학습성과표을|"
+    r"수학과 영어가라는|처음 첫 상담|안내 안내|"
     r"제공된 제공된|실제 제공된|입시결과|시험시간관리|성적관리|"
     r"태도가 확인할 필요|과정이 확인할 필요|훈련이 확인할 필요|연습이 확인할 필요|"
-    r"시간이 확인할 필요|필요한 유형 학생에게|수업 가능 제공된 학교 자료"
+    r"시간이 확인할 필요|필요한 유형 학생에게|수업 가능 제공된 학교 자료|"
+    r"필요합니다면|적용해야 합니다면|평가 대비가라는|시기가라면|"
+    r"진단 진단|학생의 학생이|진단 학습을 진단할 때|"
+    r"수학·영어가라도|영어·수학가라도|보완 순서이|중일반적인 안내처럼"
 )
 
 NEW_GRADE_PREFIXES = {
@@ -59,6 +96,9 @@ NEW_GRADE_PREFIXES = {
     "초등전문학원": "초",
     "고등내신학원": "고",
     "중등내신학원": "중",
+    "고등영어수학학원": "고",
+    "중등영어수학학원": "중",
+    "초등영어수학학원": "초",
 }
 
 REQUIRED_SCHEMA_TYPES = {
@@ -268,20 +308,19 @@ def main(target_slugs: set[str] | None = None) -> None:
             center = namespace["extract_center_data"](local)
             grade_prefix = NEW_GRADE_PREFIXES.get(str(config["slug"]), "")
 
-            if grade_prefix:
-                missing_schema = REQUIRED_SCHEMA_TYPES - graph_types(nodes)
-                if missing_schema:
-                    errors.append(
-                        f"{config['slug']}/{local}: strict schema missing {sorted(missing_schema)}"
-                    )
-                else:
-                    strict_schema_pages += 1
-                visible_faq = base_audit.visible_faq(source)
-                structured_faq = schema_faq(nodes)
-                if not visible_faq or visible_faq != structured_faq:
-                    errors.append(f"{config['slug']}/{local}: strict visible/schema FAQ mismatch")
-                else:
-                    strict_faq_pages += 1
+            missing_schema = REQUIRED_SCHEMA_TYPES - graph_types(nodes)
+            if missing_schema:
+                errors.append(
+                    f"{config['slug']}/{local}: strict schema missing {sorted(missing_schema)}"
+                )
+            else:
+                strict_schema_pages += 1
+            visible_faq = base_audit.visible_faq(source)
+            structured_faq = schema_faq(nodes)
+            if not visible_faq or visible_faq != structured_faq:
+                errors.append(f"{config['slug']}/{local}: strict visible/schema FAQ mismatch")
+            else:
+                strict_faq_pages += 1
 
             expected = {
                 "name": center["organization_name"],
@@ -315,16 +354,18 @@ def main(target_slugs: set[str] | None = None) -> None:
             if not article.get("about") or not article.get("mentions") or not article.get("hasPart"):
                 errors.append(f"{config['slug']}/{local}: Article entity links missing")
             verified_grades = [str(item) for item in center.get("verified_grades", [])]
-            if grade_prefix:
-                row = generator.CENTER_ROWS.get(local, {})
-                english_grades = generator.split_values(row.get("가능학년\n(영어)", ""))
-                math_grades = generator.split_values(row.get("가능학년\n(수학)", ""))
+            row = generator.CENTER_ROWS.get(local, {})
+            english_grades = generator.split_values(row.get("가능학년\n(영어)", ""))
+            math_grades = generator.split_values(row.get("가능학년\n(수학)", ""))
+            if config["focus"] == "english":
+                expected_grades = english_grades
+            elif config["focus"] == "math":
+                expected_grades = math_grades
+            else:
                 math_grade_set = set(math_grades)
-                expected_grades = [
-                    grade
-                    for grade in english_grades
-                    if grade in math_grade_set and grade.startswith(grade_prefix)
-                ]
+                expected_grades = [grade for grade in english_grades if grade in math_grade_set]
+            if grade_prefix:
+                expected_grades = [grade for grade in expected_grades if grade.startswith(grade_prefix)]
                 invalid_verified_grades = [
                     grade for grade in verified_grades if not grade.startswith(grade_prefix)
                 ]
@@ -333,13 +374,13 @@ def main(target_slugs: set[str] | None = None) -> None:
                         f"{config['slug']}/{local}: out-of-level verified grades "
                         f"{invalid_verified_grades}"
                     )
-                elif verified_grades != expected_grades:
-                    errors.append(
-                        f"{config['slug']}/{local}: verified grade source mismatch "
-                        f"{verified_grades!r} != {expected_grades!r}"
-                    )
-                else:
-                    strict_grade_pages += 1
+            if verified_grades != expected_grades:
+                errors.append(
+                    f"{config['slug']}/{local}: verified grade source mismatch "
+                    f"{verified_grades!r} != {expected_grades!r}"
+                )
+            else:
+                strict_grade_pages += 1
             expected_audience = " · ".join(verified_grades)
             for node_name, node in (("Article", article), ("Service", service)):
                 audience = node.get("audience")
@@ -368,15 +409,29 @@ def main(target_slugs: set[str] | None = None) -> None:
                 bad_term_hits["standalone 원고"] += 1
 
             manuscript = manuscripts[local]
-            if grade_prefix:
-                expected_faq = [
-                    (clean(str(item["question"])), clean(str(item["answer"])))
-                    for item in manuscript["faqs"]
-                ]
-                if visible_faq != expected_faq or structured_faq != expected_faq:
+            meta_value = str(manuscript.get("meta", ""))
+            if not 70 <= len(meta_value) <= 110:
+                errors.append(
+                    f"{config['slug']}/{local}: meta length={len(meta_value)} outside 70..110"
+                )
+            if not re.search(r"[.!?]$", meta_value):
+                errors.append(f"{config['slug']}/{local}: meta has no sentence ending")
+            if "expected_reviews" in config:
+                expected_review_count = int(config["expected_reviews"])
+                actual_review_count = len(manuscript["reviews"])
+                if actual_review_count != expected_review_count:
                     errors.append(
-                        f"{config['slug']}/{local}: strict manuscript/visible/schema FAQ mismatch"
+                        f"{config['slug']}/{local}: manuscript reviews={actual_review_count} "
+                        f"!= expected_reviews={expected_review_count}"
                     )
+            expected_faq = [
+                (clean(str(item["question"])), clean(str(item["answer"])))
+                for item in manuscript["faqs"]
+            ]
+            if visible_faq != expected_faq or structured_faq != expected_faq:
+                errors.append(
+                    f"{config['slug']}/{local}: strict manuscript/visible/schema FAQ mismatch"
+                )
             manuscript_text = " ".join([
                 *[str(item) for item in manuscript["intro"]],
                 str(manuscript.get("meta", "")),

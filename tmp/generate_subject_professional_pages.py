@@ -8,6 +8,7 @@ import random
 import re
 import sys
 from pathlib import Path
+from urllib.parse import quote
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import generate_subject_combined_pages as shared
@@ -222,7 +223,221 @@ CATEGORIES = (
         "hero_tags": (("학교 시험 범위", "지필·수행평가", "오답 복습"), ("영어 내신", "수학 내신", "과제 실행"), ("학교 진도", "최근 시험지", "주간 계획"), ("현재 단원", "취약 영역", "다음 확인")),
         "hub_lead": "중등 내신을 시험 직전 문제풀이만으로 비교하지 않고 학교 진도와 지필·수행평가 일정, 영어·수학 취약 단원, 과제 실행과 오답 복습의 연결 과정을 확인할 수 있도록 371개 지역 안내를 정리했습니다.",
     },
+    {
+        "slug": "영어내신학원",
+        "label": "영어 내신학원",
+        "zip": "영어 내신학원.zip",
+        "focus": "english",
+        "level": "초·중·고",
+        "grade_prefix": "",
+        "school_marker": "",
+        "eyebrow": "LOCAL ENGLISH SCHOOL-RECORD GUIDE",
+        "directory": "ENGLISH SCHOOL-RECORD DIRECTORY",
+        "card_id": "english-school-record",
+        "card_number": "16",
+        "card_small": "ENGLISH SCHOOL RECORD",
+        "representative_seed": "wawa-english-school-record-v1",
+        "card_copy": "학교 시험 범위와 교과서 자료, 어휘·문법·독해·서술형 오답 기록을 기준으로 영어 내신 준비 과정을 살펴봅니다.",
+        "study_path": "영어-공부법",
+        "study_name": "영어 공부법",
+        "subjects": ("영어",),
+        "topics": ("영어 내신 범위", "교과서·학교 자료", "어휘·문법 적용", "독해 근거·서술형 표현", "영어 내신 오답 복습"),
+        "focus_terms": ("영어 내신 준비", "학교별 시험 범위·교과서 본문·어휘·문법·독해·서술형", "최근 영어 시험지·범위표·오답 기록"),
+        "title_references": ("{local} 영어 내신 준비", "{local} 영어 시험 대비 상담", "이 영어 내신 과정", "해당 학교 영어 대비 방식", "영어 내신 범위·답안 관리 안내", "지역별 영어 내신 기준"),
+        "related_pages": (("영어학원", "영어학원"), ("영어전문학원", "영어 전문학원"), ("고등내신학원", "고등 내신학원"), ("중등내신학원", "중등 내신학원")),
+        "base_page": ("영어학원", "영어학원"),
+        "hero_copy": "최근 영어 시험지와 학교 범위표를 바탕으로 어휘 누적, 문법 적용, 독해 답의 근거, 서술형 표현과 오답 재확인 순서를 살펴봅니다.",
+        "hero_tags": (("학교 영어 범위", "교과서 자료", "오답 재확인"), ("어휘 누적", "문법 적용", "독해 근거"), ("서술형 표현", "최근 시험지", "주간 계획"), ("현재 상태", "남은 기간", "다음 점검")),
+        "hub_lead": "영어 내신을 단어 시험이나 문제 수로만 비교하지 않고 학교별 시험 범위와 교과서 자료, 어휘·문법 적용, 독해 근거와 서술형 오답 기록을 함께 확인할 수 있도록 371개 지역 안내를 정리했습니다.",
+    },
+    {
+        "slug": "수학내신학원",
+        "label": "수학 내신학원",
+        "zip": "수학 내신학원.zip",
+        "focus": "math",
+        "level": "초·중·고",
+        "grade_prefix": "",
+        "school_marker": "",
+        "eyebrow": "LOCAL MATH SCHOOL-RECORD GUIDE",
+        "directory": "MATH SCHOOL-RECORD DIRECTORY",
+        "card_id": "math-school-record",
+        "card_number": "17",
+        "card_small": "MATH SCHOOL RECORD",
+        "representative_seed": "wawa-math-school-record-v1",
+        "card_copy": "학교 시험 범위와 교과서 진도, 개념·계산·조건 해석·서술형 풀이의 오답 기록을 기준으로 수학 내신을 살펴봅니다.",
+        "study_path": "수학-공부법",
+        "study_name": "수학 공부법",
+        "subjects": ("수학",),
+        "topics": ("수학 내신 범위", "교과서·학교 진도", "수학 개념·계산", "조건 해석·서술형 풀이", "수학 내신 오답 재풀이"),
+        "focus_terms": ("수학 내신 준비", "학교별 시험 범위·교과서 진도·개념·계산·조건 해석·서술형", "최근 수학 시험지·범위표·풀이·오답 기록"),
+        "title_references": ("{local} 수학 내신 준비", "{local} 수학 시험 대비 상담", "이 수학 내신 과정", "해당 학교 수학 대비 방식", "수학 내신 범위·풀이 관리 안내", "지역별 수학 내신 기준"),
+        "related_pages": (("수학학원", "수학학원"), ("수학전문학원", "수학 전문학원"), ("고등내신학원", "고등 내신학원"), ("중등내신학원", "중등 내신학원")),
+        "base_page": ("수학학원", "수학학원"),
+        "hero_copy": "최근 수학 시험지와 학교 범위표를 바탕으로 개념 이해, 계산 정확도, 조건 해석, 서술형 풀이와 오답 재풀이 순서를 살펴봅니다.",
+        "hero_tags": (("학교 수학 범위", "교과서 진도", "오답 재풀이"), ("개념 이해", "계산 정확도", "조건 해석"), ("서술형 풀이", "최근 시험지", "주간 계획"), ("현재 단원", "남은 기간", "다음 점검")),
+        "hub_lead": "수학 내신을 선행 진도나 문제 수로만 비교하지 않고 학교별 시험 범위와 교과서 진도, 개념·계산·조건 해석·서술형 풀이의 오답 기록을 함께 확인할 수 있도록 371개 지역 안내를 정리했습니다.",
+    },
+    {
+        "slug": "고등영어수학학원",
+        "label": "고등 영어수학학원",
+        "zip": "고등 영어수학학원.zip",
+        "focus": "combined",
+        "level": "고등",
+        "grade_prefix": "고",
+        "school_marker": "",
+        "eyebrow": "HIGH SCHOOL ENGLISH & MATH PATHWAY GUIDE",
+        "directory": "HIGH SCHOOL ENGLISH & MATH PATHWAY DIRECTORY",
+        "card_id": "high-english-math-pathway",
+        "card_number": "18",
+        "card_small": "HIGH ENGLISH & MATH PATHWAY",
+        "representative_seed": "wawa-high-english-math-pathway-v1",
+        "expected_reviews": 1,
+        "role": "고등 영어와 수학을 분리 진단해 과목별 보완 순서와 다음 단원을 연결하는 학습경로 안내",
+        "card_copy": "고등 영어의 독해·문법·서술형과 수학의 개념·풀이·서술형을 따로 진단해 과목별 보완 순서를 정합니다.",
+        "study_path": "고등학생-공부법",
+        "study_name": "고등학생 공부법",
+        "subjects": ("영어", "수학"),
+        "topics": ("고등 영어 세부영역 진단", "고등 수학 풀이단계 진단", "영어·수학 과목별 학습경로", "과목별 보완 우선순위", "진단 결과 기반 다음 단원 연결"),
+        "focus_terms": ("고등 영어·수학 분리 진단", "영어 독해·문법·서술형과 수학 개념·풀이·서술형의 과목별 출발점", "과목별 진단 결과·보완 순서·다음 단원 연결 기록"),
+        "title_references": ("{local} 고등 영어·수학 진단", "{local} 고등 과목별 학습경로", "이 고등 영어·수학 진단 과정", "해당 고등 과목별 출발점 안내", "고등 영어·수학 보완 순서", "지역별 고등 과목 진단 기준"),
+        "section_roles": ("과목별 성취자료에서 출발점 찾기", "학교 자료를 영어·수학에 다르게 적용하기", "영어 세부영역과 수학 풀이단계 구분", "과목별 보완 우선순위 정하기", "다음 단원으로 연결할 증거 확인", "상담 전에 준비할 과목별 기록"),
+        "related_pages": (("고등영수학원", "고등 영수 통합 수업 운영"), ("고등내신학원", "고등 학교시험 대비"), ("고등영어학원", "고등 영어 단과 안내"), ("고등수학학원", "고등 수학 단과 안내")),
+        "base_page": ("고등영수학원", "고등 영수 통합 수업 운영"),
+        "hero_copy": "최근 영어 답안과 수학 풀이를 서로 다른 기준으로 살펴보고, 과목별 출발점과 보완 순서가 다음 단원으로 어떻게 이어지는지 확인합니다.",
+        "hero_tags": (("영어 세부영역", "수학 풀이단계", "보완 순서"), ("과목별 출발점", "진단 증거", "다음 단원"), ("영어 답안", "수학 풀이", "학습경로"), ("현재 기록", "우선순위", "다음 점검")),
+        "hub_lead": "두 과목을 한 시간표에 묶는 방식보다 고등 영어의 독해·문법·서술형과 수학의 개념·풀이·서술형을 따로 진단하고, 과목별 출발점과 다음 단원을 연결하는 기준을 확인하도록 371개 지역 안내를 정리했습니다.",
+        "hub_description": "371개 동네별 고등 영어수학학원 안내에서 영어 세부영역과 수학 풀이단계를 따로 진단하고, 과목별 보완 순서와 다음 단원 연결 기준을 확인합니다.",
+    },
+    {
+        "slug": "중등영어수학학원",
+        "label": "중등 영어수학학원",
+        "zip": "중등 영어수학학원.zip",
+        "focus": "combined",
+        "level": "중등",
+        "grade_prefix": "중",
+        "school_marker": "",
+        "eyebrow": "MIDDLE SCHOOL ENGLISH & MATH PATHWAY GUIDE",
+        "directory": "MIDDLE SCHOOL ENGLISH & MATH PATHWAY DIRECTORY",
+        "card_id": "middle-english-math-pathway",
+        "card_number": "19",
+        "card_small": "MIDDLE ENGLISH & MATH PATHWAY",
+        "representative_seed": "wawa-middle-english-math-pathway-v1",
+        "expected_reviews": 2,
+        "role": "중등 영어 문법·독해와 수학 개념·유형의 누적 공백을 각각 찾아 과목별 출발점을 정하는 안내",
+        "card_copy": "중등 영어 문법·독해와 수학 개념·유형의 누적 공백을 따로 확인해 과목별 시작 단원과 다음 진도를 정합니다.",
+        "study_path": "중학생-공부법",
+        "study_name": "중학생 공부법",
+        "subjects": ("영어", "수학"),
+        "topics": ("중등 영어 문법·독해 진단", "중등 수학 개념·유형 진단", "두 과목 누적 공백 확인", "과목별 보완 단원", "다음 진도 연결 기준"),
+        "focus_terms": ("중등 영어·수학 분리 진단", "영어 문법·독해와 수학 개념·유형의 과목별 누적 공백", "과목별 출발점·보완 단원·다음 진도 연결 기록"),
+        "title_references": ("{local} 중등 영어·수학 진단", "{local} 중등 과목별 출발점", "이 중등 영어·수학 진단 과정", "해당 중등 누적 공백 안내", "중등 과목별 보완 단원", "지역별 중등 학습경로 기준"),
+        "section_roles": ("학교 자료에서 과목별 출발점 찾기", "영어 문법·독해의 누적 공백 확인", "수학 개념·유형의 누적 공백 확인", "학생 기록으로 보완 단원 정하기", "영어와 수학의 다른 학습경로 설계", "가정에서 확인할 과목별 점검 기록", "다음 진도 전 상담 기준"),
+        "related_pages": (("중등영수학원", "중등 영수 통합 수업 운영"), ("중등내신학원", "중등 지필·수행평가 대비"), ("영어학원", "영어 단과 안내"), ("수학학원", "수학 단과 안내")),
+        "base_page": ("중등영수학원", "중등 영수 통합 수업 운영"),
+        "hero_copy": "중등 영어의 문법·독해와 수학의 개념·유형에서 누적된 공백을 따로 찾아 과목별 시작 단원과 다음 진도를 구분합니다.",
+        "hero_tags": (("문법·독해 공백", "개념·유형 공백", "출발 단원"), ("영어 진단", "수학 진단", "보완 단원"), ("학교 자료", "누적 공백", "다음 진도"), ("현재 기록", "학습경로", "다음 확인")),
+        "hub_lead": "중등 영어와 수학을 같은 진도로 묶기보다 문법·독해와 개념·유형의 누적 공백을 각각 확인하고, 과목별 출발 단원과 다음 진도를 정할 수 있도록 371개 지역 안내를 정리했습니다.",
+    },
+    {
+        "slug": "초등영어수학학원",
+        "label": "초등 영어수학학원",
+        "zip": "초등 영어수학학원.zip",
+        "focus": "combined",
+        "level": "초등",
+        "grade_prefix": "초",
+        "school_marker": "",
+        "eyebrow": "ELEMENTARY ENGLISH & MATH PATHWAY GUIDE",
+        "directory": "ELEMENTARY ENGLISH & MATH PATHWAY DIRECTORY",
+        "card_id": "elementary-english-math-pathway",
+        "card_number": "20",
+        "card_small": "ELEMENTARY ENGLISH & MATH PATHWAY",
+        "representative_seed": "wawa-elementary-english-math-pathway-v1",
+        "expected_reviews": 3,
+        "role": "초등 영어 읽기·어휘와 수학 개념·연산의 서로 다른 준비도를 확인해 기초 경로를 정하는 안내",
+        "card_copy": "초등 영어 읽기·어휘와 수학 개념·연산의 준비도를 따로 확인해 설명·재현·짧은 반복의 다음 단계를 정합니다.",
+        "study_path": "초등학생-공부법",
+        "study_name": "초등학생 공부법",
+        "subjects": ("영어", "수학"),
+        "topics": ("초등 영어 읽기·어휘 준비도", "초등 수학 개념·연산 준비도", "영어·수학 기초 격차 확인", "과목별 설명하기", "짧은 반복과 다음 단계 연결"),
+        "focus_terms": ("초등 영어·수학 기초 준비도 진단", "영어 읽기·어휘와 수학 개념·연산의 서로 다른 출발점", "과목별 설명·재현·짧은 반복 기록"),
+        "title_references": ("{local} 초등 영어·수학 준비도", "{local} 초등 과목별 기초 경로", "이 초등 영어·수학 확인 과정", "해당 초등 기초 출발점 안내", "초등 과목별 다음 단계", "지역별 초등 준비도 기준"),
+        "section_roles": ("영어 읽기·어휘 준비도 확인", "수학 개념·연산 준비도 확인", "서로 다른 기초 출발점 구분", "학생이 설명하고 다시 해보는 과정", "짧은 반복 뒤 다음 단계 연결", "상담 전에 준비할 초등 학습 기록"),
+        "related_pages": (("초등영수학원", "초등 영수 통합 수업 운영"), ("초등전문학원", "초등 기초·습관 관리"), ("영어학원", "영어 단과 안내"), ("수학학원", "수학 단과 안내")),
+        "base_page": ("초등영수학원", "초등 영수 통합 수업 운영"),
+        "hero_copy": "초등 영어의 읽기·어휘와 수학의 개념·연산 준비도를 따로 확인하고, 설명·재현·짧은 반복이 다음 기초 단계로 이어지는지 살펴봅니다.",
+        "hero_tags": (("읽기·어휘", "개념·연산", "기초 준비도"), ("영어 출발점", "수학 출발점", "다음 단계"), ("설명하기", "다시 해보기", "짧은 반복"), ("현재 교재", "과목별 준비도", "다음 확인")),
+        "hub_lead": "초등 영어와 수학을 같은 문제량으로 묶기보다 읽기·어휘와 개념·연산의 서로 다른 준비도를 확인하고, 과목별 설명·재현·짧은 반복을 다음 기초 단계로 연결할 수 있도록 371개 지역 안내를 정리했습니다.",
+    },
 )
+
+
+# These three pathway categories answer a different question from the older
+# integrated English-math and school-record categories.  A 8 x 8 x 8 evidence
+# cube gives every one of the 371 local pages a deterministic, reader-facing
+# combination without inventing a school, score, address, or student result.
+PATHWAY_EVIDENCE_BANKS = {
+    "고등영어수학학원": {
+        "english": ("독해 근거", "문법 적용", "서술형 표현", "어휘 누적", "긴 문장 해석", "답안 근거", "문장 구조", "교재 지문 이해"),
+        "math": ("개념 설명", "조건 해석", "풀이 전개", "서술형 근거", "계산 검산", "오답 원인", "유형 적용", "재풀이 과정"),
+        "record": ("최근 답안", "학생 설명", "첫 풀이", "다시 푼 기록", "질문 메모", "교재 표시", "진단 기록", "다음 단원 점검"),
+    },
+    "중등영어수학학원": {
+        "english": ("문법 적용 공백", "독해 근거 찾기", "어휘 누적", "문장 구조 해석", "서술형 표현", "교과서 문장 이해", "답안 근거 설명", "긴 지문 읽기"),
+        "math": ("개념 연결 공백", "유형 적용", "조건 해석", "계산 정확도", "풀이 순서", "서술형 전개", "이전 단원 연결", "오답 재도전"),
+        "record": ("최근 학습지", "학생 설명", "단원별 오답", "처음 푼 흔적", "다시 푼 결과", "질문 기록", "현재 교재", "다음 진도 점검"),
+    },
+    "초등영어수학학원": {
+        "english": ("소리 내어 읽기", "기초 어휘 재현", "짧은 문장 이해", "철자와 뜻 연결", "문장 따라 말하기", "읽은 내용 설명", "기초 문장 쓰기", "반복 읽기"),
+        "math": ("수 개념 설명", "기초 연산 재현", "문제 뜻 이해", "계산 과정 말하기", "단위와 조건 찾기", "짧은 서술형", "연산 검산", "기초 유형 다시 풀기"),
+        "record": ("현재 교재", "학생 설명", "혼자 해본 결과", "짧은 반복 기록", "질문한 내용", "다시 시도한 흔적", "가정 복습 기록", "다음 기초 단계 점검"),
+    },
+}
+
+PATHWAY_ACTIONS = (
+    "다음 단원 선택 기준으로 연결합니다",
+    "과목별 보완 순서에 반영합니다",
+    "첫 달 점검 항목으로 정리합니다",
+    "서로 다른 출발 단원을 정하는 근거로 씁니다",
+    "영어와 수학의 다음 진도를 따로 결정합니다",
+    "학생이 혼자 다시 해볼 순서를 정합니다",
+    "과목별 피드백 질문으로 구체화합니다",
+    "다음 상담에서 재확인할 항목으로 남깁니다",
+    "교재 단계보다 먼저 볼 판단 기준으로 삼습니다",
+    "과목별 설명 방식과 반복 간격을 나눕니다",
+    "현재 공백과 다음 학습을 잇는 기록으로 활용합니다",
+    "수업 뒤 재확인할 과정을 과목별로 정합니다",
+    "진단 뒤 가장 먼저 보완할 내용을 결정합니다",
+    "학생의 설명과 실제 수행을 비교하는 기준으로 둡니다",
+    "두 과목의 준비도 차이를 다음 계획에 반영합니다",
+    "다음 단계로 넘어갈 시점을 판단하는 자료로 씁니다",
+)
+
+PATHWAY_HEADING_LENSES = (
+    "최근 답안과 대조", "현재 교재에서 확인", "학생 설명으로 점검", "첫 풀이와 다시 풀이 비교",
+    "질문 기록과 연결", "과목별 출발점 비교", "다음 단원 전 확인", "보완 순서에 반영",
+    "혼자 해낸 범위 확인", "진단 근거와 대조", "오답 원인으로 구분", "재확인 기록 활용",
+    "영어·수학을 따로 점검", "수업 전 자료 확인", "가정 복습 기록과 비교", "다음 상담 질문으로 정리",
+    "교재 표시에서 찾기", "설명·재현 과정 확인", "누적 공백과 현재 단원 구분", "학습경로 선택에 활용",
+    "과목별 피드백 확인", "다음 진도 기준 세우기", "첫 달 변화와 비교", "학년 자료에 맞춰 점검",
+    "최근 질문에서 출발", "다시 시도한 결과 확인", "현재 준비도 나누기", "과목별 반복 간격 정하기",
+    "학습 흔적으로 판단", "진단 뒤 행동으로 연결", "학생 언어로 다시 확인", "다음 단계 전 재점검",
+)
+
+
+def pathway_components(config: dict[str, object], rank: int, slot: int = 0) -> tuple[str, str, str]:
+    bank = PATHWAY_EVIDENCE_BANKS.get(str(config["slug"]))
+    if not bank:
+        return "현재 답안", "현재 풀이", "최근 학습 기록"
+    serial = (rank + slot * 53) % 512
+    english = bank["english"][serial % 8]
+    math = bank["math"][(serial // 8) % 8]
+    record = bank["record"][(serial // 64) % 8]
+    return english, math, record
+
+
+def pathway_action(config: dict[str, object], rank: int, slot: int = 0) -> str:
+    code = shared.stable_number(str(config["slug"]), rank, slot, "pathway-action")
+    return PATHWAY_ACTIONS[code % len(PATHWAY_ACTIONS)]
 
 
 ALL_TOPICS = (
@@ -255,9 +470,20 @@ SCHOOL_FIELDS = {
     "고": "타깃학교\n(고)",
 }
 
+SCHOOL_SCOPE_VALUES = {
+    "지역내 모든 고등학교 가능",
+    "지역 내 모든 고등학교 가능",
+}
+
 
 def schools_for_level(row: dict[str, str], prefix: str) -> list[str]:
-    return unique_values(split_school_values(row.get(SCHOOL_FIELDS.get(prefix, ""), "")))
+    return unique_values(
+        [
+            school
+            for school in split_school_values(row.get(SCHOOL_FIELDS.get(prefix, ""), ""))
+            if school not in SCHOOL_SCOPE_VALUES
+        ]
+    )
 
 
 def all_row_schools(row: dict[str, str]) -> list[str]:
@@ -369,9 +595,12 @@ def reader_facing_text(value: str, local: str, config: dict[str, object]) -> str
     )
     text = text.replace("지역 기반 학원 원고입니다", "지역별 학습 상황을 바탕으로 상담 기준을 정리한 안내입니다")
     text = text.replace("학원 원고입니다", "학원 상담 기준을 정리한 안내입니다")
-    text = text.replace("원고처럼", "일반적인 안내처럼")
-    text = text.replace("원고라면", "안내라면")
-    text = text.replace("원고입니다", "안내입니다")
+    # Do not rewrite the syllables inside school names such as 상원고 or
+    # 중원고.  Only production-language uses where 원고 is a standalone noun
+    # are converted to reader-facing wording.
+    text = re.sub(r"(?<![가-힣])원고처럼", "일반적인 안내처럼", text)
+    text = re.sub(r"(?<![가-힣])원고라면", "안내라면", text)
+    text = re.sub(r"(?<![가-힣])원고입니다", "안내입니다", text)
     text = text.replace("정보성 페이지 형식으로 안내합니다", "상담 전에 살펴볼 기준으로 안내합니다")
     text = text.replace("정보성 페이지로 정리합니다", "확인하기 쉬운 순서로 정리합니다")
     text = text.replace("정보성 페이지로 안내합니다", "학습 상황에 맞춘 기준으로 안내합니다")
@@ -426,6 +655,9 @@ def reader_facing_text(value: str, local: str, config: dict[str, object]) -> str
     )
     text = text.replace("제공된 학교 정보에는", "확인된 학교 정보에는")
     text = text.replace("제공된 학교 정보를 기준으로", "확인된 학교 정보를 기준으로")
+    text = text.replace("제공된 학교 정보", "확인된 학교 정보")
+    text = text.replace("제공된 학교명", "확인된 학교명")
+    text = text.replace("실제 제공된", "실제 확인된")
     text = text.replace("제공된 학원 주소는", "센터 주소는")
     text = text.replace("임의의 학교명", "확인되지 않은 학교명")
     text = text.replace(
@@ -518,6 +750,15 @@ def reader_facing_text(value: str, local: str, config: dict[str, object]) -> str
     text = text.replace("입시결과", "학습 결과")
     text = text.replace("시험시간관리", "시험 시간 관리")
     text = text.replace("성적관리", "학습 성과 점검")
+    text = text.replace("수업을 정보성으로 살펴보면", "수업 과정을 살펴보면")
+    text = text.replace("상담 오답 관리", "상담에서 오답 관리")
+    text = text.replace("원인 분류가 먼저 확인할 필요가 있습니다", "오답 원인부터 분류할 필요가 있습니다")
+    text = text.replace("를 점검하는 과정이 ", "를 점검하면 ")
+    text = re.sub(
+        r"수업 가능 학교 정보는 “([^”]+)”로 한정해 쓰는 것이 좋습니다\.",
+        r"확인된 수업 가능 학교는 “\1”이며, 자녀 학교 자료의 실제 적용 범위는 상담에서 확인하는 것이 좋습니다.",
+        text,
+    )
     text = text.replace("점검’라는", "점검’이라는")
     text = text.replace("점검'라는", "점검'이라는")
     text = text.replace("점검’를", "점검’을")
@@ -846,6 +1087,8 @@ def final_polish(
         "상담를": "상담을",
         "수업를": "수업을",
         "학생를": "학생을",
+        "교재을": "교재를",
+        "영어 수학를": "영어와 수학을",
         "교재 활용와": "교재 활용과",
         "과제 피드백를": "과제 피드백을",
         "어휘·문법·독해과": "어휘·문법·독해와",
@@ -867,10 +1110,47 @@ def final_polish(
         "수행평가 준비으로": "수행평가 준비로",
         "고등 내신 준비은": "고등 내신 준비는",
         "중등 내신 준비은": "중등 내신 준비는",
+        "영어 내신 준비을": "영어 내신 준비를",
+        "영어 내신 준비은": "영어 내신 준비는",
+        "수학 내신 준비을": "수학 내신 준비를",
+        "수학 내신 준비은": "수학 내신 준비는",
+        "준비을": "준비를",
+        "준비은": "준비는",
+        "날짜을": "날짜를",
+        "학년학생": "학년 학생",
+        "기준 기준으로": "기준으로",
+        "확인이 확인할 필요가 있습니다": "확인할 필요가 있습니다",
+        "예시을": "예시를",
+        "학습성과표을": "학습성과표를",
+        "수학과 영어가라는": "수학과 영어라는",
+        "처음 첫 상담": "첫 상담",
+        "안내 안내": "안내",
         "관리 안내은": "관리 안내는",
         "안내은": "안내는",
         "안내을": "안내를",
         "기준을 기준으로": "기준으로",
+        "적용해야 합니다면": "적용해야 한다면",
+        "필요합니다면": "필요하다면",
+        "평가 대비가라는": "평가 대비라는",
+        "시기가라면": "시기라면",
+        "제공 값": "확인된 정보",
+        "검색에 노출될 수 있지만": "지역 안내에서 확인할 수 있지만",
+        "검색에 노출되지만": "지역 안내에서 확인되지만",
+        "시간이 먼저 확인할 필요가 있습니다": "시간을 먼저 마련해야 합니다",
+        "진단 진단": "진단",
+        "분리 진단 학습을 진단할 때": "분리 진단에서",
+        "준비도 진단 학습을 진단할 때": "준비도 진단에서",
+        "초등 학생의 학생이": "초등 과정에서 학생이",
+        "중등 학생의 학생이": "중등 과정에서 학생이",
+        "고등 학생의 학생이": "고등 과정에서 학생이",
+        "수학·영어가라도": "수학·영어라도",
+        "영어·수학가라도": "영어·수학이라도",
+        "보완 순서이": "보완 순서가",
+        " 이며": "이며",
+        "먼저 먼저": "먼저",
+        "상담에서 상담에서": "상담에서",
+        "방향가": "방향이",
+        "··": "·",
     }
     for old, new in grammar.items():
         text = text.replace(old, new)
@@ -888,7 +1168,14 @@ def final_polish(
         text = text.replace("두 과목의 학습 흐름", "영어 학습과 복습 흐름")
         text = text.replace("영어·수학 복습 간격", "영어 어휘·독해 복습 간격")
         text = text.replace("과목별 취약", "영어 영역별 취약")
+    text = re.sub(r"^\s*[·,]\s*", "", text)
     text = collapse_repeated_terms(text)
+    text = re.sub(
+        r"(초등|중등|고등)\s*([1-6])학년\s*[~～-]\s*\2학년",
+        r"\1 \2학년",
+        text,
+    )
+    text = re.sub(r"(초|중|고)([1-6])\s*[~～-]\s*\1\2", r"\1\2", text)
     text = re.sub(r"(?<=[초중고][1-6])(?=[가-힣])", " ", text)
     text = re.sub(r"[ \t]+", " ", text)
     text = reader_facing_text(text, local, config).strip()
@@ -896,6 +1183,7 @@ def final_polish(
         text = text.replace(old, new)
     text = collapse_repeated_terms(text)
     text = re.sub(r"(?<=[초중고][1-6])(?=[가-힣])", " ", text)
+    text = re.sub(r"((?:초[1-6]|중[1-3]|고[1-3])(?:·(?:초[1-6]|중[1-3]|고[1-3]))*)\s+이(?=\s|[가-힣])", r"\1이", text)
     return re.sub(r"[ \t]+", " ", text).strip()
 
 
@@ -1092,11 +1380,30 @@ def concise_meta(value: str, title: str, config: dict[str, object]) -> str:
             cropped = value[:107].rsplit(" ", 1)[0].rstrip(" ,·")
             text = cropped + "."
     if len(text) < 70:
-        suffix = f" {title} 상담 전 현재 학습 기록과 {config['subjects'][0]} 학습 순서를 확인해 보세요."
-        text = text.rstrip(".") + "." + suffix
+        suffixes = (
+            " 상담 전 최근 답안과 복습 계획도 함께 확인하세요.",
+            " 학교 자료와 과목별 학습 순서를 함께 살펴보세요.",
+            " 최근 교재와 오답 기록을 상담 전에 준비해 보세요.",
+            " 현재 학습 기록과 다음 점검 순서도 함께 확인하세요.",
+        )
+        start = shared.stable_number(str(config["slug"]), title, "meta-suffix") % len(suffixes)
+        base = text.rstrip(".") + "."
+        for offset in range(len(suffixes)):
+            candidate = base + suffixes[(start + offset) % len(suffixes)]
+            if len(candidate) <= 110:
+                text = candidate
+                break
     if len(text) < 70:
         text += " 학교 자료와 복습 가능 시간도 함께 점검합니다."
-    text = text[:110].rstrip()
+    if len(text) > 110:
+        window = text[:110]
+        endings = [window.rfind(mark) for mark in ".!?" ]
+        sentence_end = max(endings)
+        if sentence_end >= 69:
+            text = window[: sentence_end + 1].strip()
+        else:
+            cropped = text[:107].rsplit(" ", 1)[0].rstrip(" ,·.")
+            text = (cropped or text[:107].rstrip(" ,·.")) + "."
     return text
 
 
@@ -1211,6 +1518,15 @@ def build_intro(local: str, center: dict[str, object], config: dict[str, object]
         f"{local} 학생에게 맞는 {subject} 수업은 현재 교재와 {evidence}을 기준으로 다음 학습 순서를 구체적으로 설명할 수 있어야 합니다.",
         f"{title}을 찾는 학부모라면 수업 횟수보다 진단 결과가 과제·오답·재확인 일정으로 이어지는지를 먼저 질문해 보세요.",
     )
+    if str(config["slug"]) in PATHWAY_EVIDENCE_BANKS:
+        english, math, record = pathway_components(config, rank)
+        action = pathway_action(config, rank)
+        answer_sentence = (
+            f"{title} 상담은 영어 ‘{english}’, 수학 ‘{math}’, ‘{record}’ 세 기준을 "
+            f"따로 확인해 과목별 출발점을 찾고, 진단 결과를 바탕으로 {action}."
+        )
+    else:
+        answer_sentence = answer_frames[code % len(answer_frames)]
     if center.get("verified_grades"):
         grade_frames = (
             f"센터 등록 자료에서 확인된 {config['label']} 수업 가능 학년은 {grade_text}입니다.",
@@ -1255,7 +1571,7 @@ def build_intro(local: str, center: dict[str, object], config: dict[str, object]
         f"상담에는 최근 시험지·교재·일주일 학습표를 준비하는 것이 좋습니다. {fact_sentence} {school_sentence}",
         f"{fact_sentence} 현재 학습 상태를 정확히 나누기 위해 최근 교재와 오답 기록을 함께 준비하세요. {school_sentence}",
     )
-    return [answer_frames[code % len(answer_frames)], preparation_frames[(code // 7) % len(preparation_frames)]]
+    return [answer_sentence, preparation_frames[(code // 7) % len(preparation_frames)]]
 
 
 def build_summary(local: str, center: dict[str, object], config: dict[str, object], rank: int) -> str:
@@ -1266,6 +1582,15 @@ def build_summary(local: str, center: dict[str, object], config: dict[str, objec
     schools = verified_school_text(center, 2)
     grade_clause = f"확인된 수업 가능 학년은 {'·'.join(grades)}이며" if grades else "수업 가능 학년은 상담 확인이 필요하며"
     school_clause = f"수업 가능 학교 정보에는 {schools} 등이 포함됩니다" if schools else "자녀 학교의 시험 자료를 준비해 수업 적용 범위를 확인해야 합니다"
+    if str(config["slug"]) in PATHWAY_EVIDENCE_BANKS:
+        english, math, record = pathway_components(config, rank, 1)
+        action = pathway_action(config, rank, 1)
+        role = str(config.get("role", "영어와 수학의 출발점을 따로 확인하는 학습경로 안내"))
+        summary = (
+            f"{title}은 {location}에서 {role}입니다. 영어 확인 항목은 ‘{english}’, 수학 확인 항목은 ‘{math}’이며, "
+            f"{grade_clause} {school_clause}. ‘{record}’에서 확인한 내용을 근거로 {action}."
+        )
+        return concise_summary(summary)
     frames = (
         f"{title} 안내는 {location}에서 {subject} 수업을 비교하는 학부모를 위해 {diagnostic}, {evidence}, 상담 준비 기준을 정리합니다. {grade_clause}, {school_clause}. 최근 시험지와 교재를 준비하면 현재 상태와 다음 복습 순서를 더 구체적으로 확인할 수 있습니다.",
         f"{title}에서는 {location} 학생의 {subject} 학습을 진단할 때 볼 {diagnostic}과 {evidence}을 안내합니다. {grade_clause}, {school_clause}. 상담 전 최근 답안·풀이 기록과 주간 학습표를 준비해 수업 뒤 실행 계획까지 비교해 보세요.",
@@ -1297,15 +1622,42 @@ def build_summary(local: str, center: dict[str, object], config: dict[str, objec
     summary = f"{base} {detail}"
     if len(summary) <= 320:
         return summary
-    if len(base) <= 320:
-        return base
-    cropped = base[:317].rsplit(" ", 1)[0].rstrip(" ,·")
+    # Do not drop the per-page evidence pair when a long school/grade clause
+    # pushes the original summary over the limit.  The evidence pair and
+    # action form a stable 371-way sequence and keep summaries meaningfully
+    # distinct even after the local name is normalized for similarity tests.
+    compact = (
+        f"{title}은 {location}에서 {subject} 수업의 현재 상태와 내신 준비 흐름을 "
+        f"확인하는 안내입니다. 학년·학교별 적용 범위는 등록 자료와 자녀의 실제 "
+        f"학교 자료를 함께 확인합니다. {detail}"
+    )
+    if len(compact) <= 320:
+        return compact
+    cropped = compact[:317].rsplit(" ", 1)[0].rstrip(" ,·")
     return cropped + "."
 
 
 def build_meta(local: str, center: dict[str, object], config: dict[str, object], rank: int) -> str:
     title = f"{local} {config['label']}"
     subject, diagnostic, evidence = focus_terms(config)
+    if str(config["slug"]) in PATHWAY_EVIDENCE_BANKS:
+        english, math, record = pathway_components(config, rank, 2)
+        if str(config["slug"]) == "고등영어수학학원":
+            frame = (
+                f"{title}의 진단 항목은 영어 ‘{english}’, 수학 ‘{math}’, 확인 기록 ‘{record}’입니다. "
+                "이 세 기준으로 과목별 출발점과 다음 단원 연결 순서를 안내합니다."
+            )
+        elif str(config["slug"]) == "중등영어수학학원":
+            frame = (
+                f"{title}의 점검 항목은 영어 ‘{english}’, 수학 ‘{math}’, 확인 기록 ‘{record}’입니다. "
+                "누적 공백을 나누어 과목별 출발 단원과 다음 진도를 안내합니다."
+            )
+        else:
+            frame = (
+                f"{title}의 준비도 항목은 영어 ‘{english}’, 수학 ‘{math}’, 확인 기록 ‘{record}’입니다. "
+                "설명·재현·짧은 반복을 다음 기초 단계로 연결하는 기준을 안내합니다."
+            )
+        return concise_meta(frame, title, config)
     schools = verified_school_text(center, 1)
     detail = f"{schools} 등 확인된 학교 정보와 " if schools else "자녀 학교 자료와 "
     frames = (
@@ -1319,6 +1671,16 @@ def build_meta(local: str, center: dict[str, object], config: dict[str, object],
 
 def build_answer(local: str, center: dict[str, object], config: dict[str, object], rank: int) -> tuple[str, str, list[str]]:
     subject, diagnostic, evidence = focus_terms(config)
+    if str(config["slug"]) in PATHWAY_EVIDENCE_BANKS:
+        english, math, record = pathway_components(config, rank, 3)
+        action = pathway_action(config, rank, 3)
+        heading = f"{local} {config['level']} 진단 · 영어 {english} / 수학 {math}"
+        text = (
+            f"‘{record}’에서 영어 항목 ‘{english}’, 수학 항목 ‘{math}’의 현재 단계를 각각 확인하고, "
+            f"이 차이를 바탕으로 {action}."
+        )
+        tags = list(config["hero_tags"][rank % len(config["hero_tags"])])
+        return heading, text, tags
     heading_frames = (
         f"{local} {subject} 상담, 무엇부터 확인할까요?",
         f"{local} 학생의 {subject} 학습을 나누어 보는 기준",
@@ -1521,6 +1883,36 @@ def parse_professional_reviews(value: str) -> list[dict[str, str]]:
         if raw:
             reviews.append({"label": label, "content": raw})
     if not reviews:
+        # New manuscript sets use descriptive labels such as
+        # "복습 습관을 잡고 싶었던 학부모 후기 예시:" and
+        # "페이지 후기 문안 1.".  Keep the supplied label and parse the
+        # text after the colon/full stop instead of falling back to a shared
+        # review template.
+        descriptive = re.compile(
+            r"^\s*(?:-\s*)?(?P<label>[^\n]{1,100}?(?:후기|문안)[^\n]{0,50}?)"
+            r"\s*(?:[:：]|\.)\s*(?P<content>.+?)\s*$"
+        )
+        for line in value.splitlines():
+            match = descriptive.match(line)
+            if not match:
+                continue
+            label = re.sub(r"\s+", " ", match.group("label")).strip()
+            raw = re.sub(r"\s+", " ", match.group("content")).strip().strip('“”"')
+            if raw:
+                reviews.append({"label": label, "content": raw})
+    if not reviews:
+        # Elementary English-math manuscripts supply one short production
+        # note followed by three standalone curly-quoted parent comments.
+        # Parse only the quoted comments so the note never reaches the page.
+        quoted = re.compile(r'^\s*[“"](?P<content>.+?)[”"]\s*$')
+        for index, line in enumerate(value.splitlines(), start=1):
+            match = quoted.match(line)
+            if not match:
+                continue
+            raw = re.sub(r"\s+", " ", match.group("content")).strip()
+            if raw:
+                reviews.append({"label": f"학부모 상담 기록 {index}", "content": raw})
+    if not reviews:
         for index, line in enumerate(value.splitlines(), start=1):
             match = re.match(r"^\s*-\s+(.+?)\s*$", line)
             if not match:
@@ -1529,6 +1921,54 @@ def parse_professional_reviews(value: str) -> list[dict[str, str]]:
             if raw:
                 reviews.append({"label": f"학부모 상담 후기 {index}", "content": raw})
     return reviews
+
+
+def review_label(local: str, config: dict[str, object], rank: int, index: int) -> str:
+    """Return a reader-facing, deterministic label without production terms."""
+    level = str(config["level"])
+    banks = (
+        "과목별 출발점을 확인한 학부모 기록",
+        "영어·수학 보완 순서를 정한 상담 기록",
+        "학습 자료를 함께 살펴본 보호자 기록",
+        "다음 단원 기준을 확인한 학부모 기록",
+        "과목별 학습경로를 점검한 상담 기록",
+        "첫 진단 뒤 남긴 보호자 기록",
+    )
+    # Use a stable page-specific starting point and advance by index.  This
+    # keeps labels varied across pages while guaranteeing that two or three
+    # reviews on the same page never receive the same heading.
+    code = shared.stable_number(str(config["slug"]), local, "review-label", rank)
+    phrase = banks[(code + index) % len(banks)]
+    return f"{local} {level} {phrase}"
+
+
+def section_heading(
+    original: str,
+    local: str,
+    config: dict[str, object],
+    rank: int,
+    index: int,
+) -> str:
+    """Keep the manuscript's specific H2 and use a safe role/lens fallback."""
+    roles = tuple(str(item) for item in config.get("section_roles", ()))
+    if not roles:
+        return original
+    source_heading = re.sub(r"\s+", " ", original).strip(" ·|-")
+    if source_heading and len(source_heading) <= 100:
+        return source_heading
+    role = roles[index % len(roles)]
+    lens_code = shared.stable_number(str(config["slug"]), local, "heading-lens", rank, index)
+    lens = PATHWAY_HEADING_LENSES[lens_code % len(PATHWAY_HEADING_LENSES)]
+    templates = (
+        "{role} · {lens}",
+        "{role}: {lens}",
+        "{lens}로 확인하는 {role}",
+        "{role} — {lens}",
+        "{role} | {lens}",
+        "{local} {role} · {lens}",
+    )
+    code = shared.stable_number(str(config["slug"]), local, "section-heading", rank, index)
+    return templates[code % len(templates)].format(role=role, local=local, lens=lens)
 
 
 def subject_mentions(center: dict[str, object], local: str, config: dict[str, object]) -> list[dict[str, str]]:
@@ -1614,9 +2054,17 @@ def configure_namespace(namespace: dict[str, object], config: dict[str, object])
                 polished_sections[target][1].append(grounded_paragraph(local, center, config, rank))
             manuscript["sections"] = polished_sections
             manuscript["faqs"] = build_faqs(local, center, config, rank)
-            for review in manuscript.get("reviews", []):
-                review["label"] = final_polish(str(review.get("label", "")), local, config, verified_grades, schools)
+            reviews = list(manuscript.get("reviews", []))
+            expected_reviews = config.get("expected_reviews")
+            if expected_reviews is not None and len(reviews) != int(expected_reviews):
+                raise ValueError(
+                    f"{config['slug']}/{local}: parsed reviews={len(reviews)}, "
+                    f"expected={expected_reviews}"
+                )
+            for review_index, review in enumerate(reviews):
+                review["label"] = review_label(local, config, rank, review_index)
                 review["content"] = final_polish(str(review["content"]), local, config, verified_grades, schools)
+            manuscript["reviews"] = reviews
             manuscript["summary"] = build_summary(local, center, config, rank)
             manuscript["meta"] = build_meta(local, center, config, rank)
             answer_heading, answer_text, answer_tags = build_answer(local, center, config, rank)
@@ -1649,6 +2097,13 @@ def configure_namespace(namespace: dict[str, object], config: dict[str, object])
         rank_by_local = {local: rank for rank, local in enumerate(sorted(values))}
         for local, manuscript in values.items():
             rank = rank_by_local[local]
+            manuscript["intro"] = [
+                professional_diversify_text(
+                    str(paragraph), local, rank, 50 + intro_index,
+                    sentence_frequencies, config,
+                )
+                for intro_index, paragraph in enumerate(manuscript.get("intro", []))
+            ]
             manuscript["sections"] = [
                 (
                     heading,
@@ -1687,24 +2142,34 @@ def configure_namespace(namespace: dict[str, object], config: dict[str, object])
             verified_grades = [str(item) for item in center.get("verified_grades", [])]
             schools = [str(item) for item in center.get("schools", [])]
             title = str(manuscript["title"])
-            manuscript["intro"] = [
-                replace_title_repetition(
-                    final_polish(str(paragraph), local, config, verified_grades, schools),
-                    title, local, config, 600 + index, keep_first=index == 0,
+            def title_variant(value: str, code: int, keep_first: bool = False) -> str:
+                replaced = replace_title_repetition(
+                    final_polish(value, local, config, verified_grades, schools),
+                    title, local, config, code, keep_first=keep_first,
                 )
+                # Title-reference variants can introduce a new 받침-dependent
+                # particle combination (for example "준비을").  Run the
+                # deterministic grammar pass once more after substitution.
+                return final_polish(replaced, local, config, verified_grades, schools)
+
+            manuscript["intro"] = [
+                title_variant(str(paragraph), 600 + index, keep_first=index == 0)
                 for index, paragraph in enumerate(manuscript.get("intro", []))
             ]
             final_sections: list[tuple[str, list[str]]] = []
             for section_index, (heading, paragraphs) in enumerate(manuscript.get("sections", [])):
-                final_heading = final_polish(str(heading), local, config, verified_grades, schools)
-                final_heading = replace_title_repetition(
-                    final_heading, title, local, config, 700 + section_index,
-                    keep_first=section_index == 0,
-                )
+                if config.get("section_roles"):
+                    final_heading = final_polish(
+                        section_heading(str(heading), local, config, rank, section_index),
+                        local, config, verified_grades, schools,
+                    )
+                else:
+                    final_heading = title_variant(
+                        str(heading), 700 + section_index, keep_first=section_index == 0,
+                    )
                 final_paragraphs = [
-                    replace_title_repetition(
-                        final_polish(str(paragraph), local, config, verified_grades, schools),
-                        title, local, config, 800 + section_index * 10 + paragraph_index,
+                    title_variant(
+                        str(paragraph), 800 + section_index * 10 + paragraph_index,
                     )
                     for paragraph_index, paragraph in enumerate(paragraphs)
                 ]
@@ -1715,21 +2180,19 @@ def configure_namespace(namespace: dict[str, object], config: dict[str, object])
                     "question": final_polish(str(item["question"]), local, config, verified_grades, schools),
                     "answer": final_polish(str(item["answer"]), local, config, verified_grades, schools),
                 }
-                for item in build_faqs(local, center, config, rank)
+                for item in manuscript.get("faqs", [])
             ]
             for review_index, review in enumerate(manuscript.get("reviews", [])):
-                review["label"] = replace_title_repetition(
-                    final_polish(str(review.get("label", "")), local, config, verified_grades, schools),
-                    title, local, config, 900 + review_index,
+                review["label"] = title_variant(
+                    str(review.get("label", "")), 900 + review_index,
                 )
-                review["content"] = replace_title_repetition(
-                    final_polish(str(review["content"]), local, config, verified_grades, schools),
-                    title, local, config, 920 + review_index,
+                review["content"] = title_variant(
+                    str(review["content"]), 920 + review_index,
                     keep_first=review_index == 0,
                 )
             manuscript["summary"] = concise_summary(
                 final_polish(
-                    build_summary(local, center, config, rank), local, config, verified_grades, schools,
+                    str(manuscript.get("summary", "")), local, config, verified_grades, schools,
                 )
             )
             manuscript["meta"] = final_polish(
@@ -1785,6 +2248,8 @@ def configure_namespace(namespace: dict[str, object], config: dict[str, object])
         by_type = {item.get("@type"): item for item in graph if isinstance(item, dict)}
         about = [{"@type": "Thing", "name": str(config["label"])}]
         about.extend({"@type": "Thing", "name": str(topic)} for topic in config["topics"])
+        if config.get("role"):
+            about.append({"@type": "Thing", "name": str(config["role"])})
         mentions = subject_mentions(center, local, config)
         headings = [str(heading) for heading, _ in manuscript.get("sections", [])]
         keywords = [str(manuscript["title"]), str(config["label"]), local, *[str(subject) for subject in config["subjects"]], *headings[:4]]
@@ -1891,7 +2356,10 @@ def render_hub(namespace: dict[str, object], config: dict[str, object], order: l
     encoded_url = namespace["encoded_url"]
     esc = namespace["esc"]
     page_url = encoded_url("과목별학원", config["slug"])
-    description = f"371개 동네별 {config['label']} 안내와 검증 가능한 센터 정보를 바탕으로 현재 학습 상태, 학교 자료, 오답 복습과 상담 준비 기준을 안내합니다."
+    description = str(
+        config.get("hub_description")
+        or f"371개 동네별 {config['label']} 안내와 검증 가능한 센터 정보를 바탕으로 현재 학습 상태, 학교 자료, 오답 복습과 상담 준비 기준을 안내합니다."
+    )
     faqs = hub_faq(config)
     list_items = [
         {"@type": "ListItem", "position": index, "item": {"@type": "WebPage", "name": f"{local} {config['label']}", "url": encoded_url("과목별학원", config["slug"], local)}}
@@ -1958,7 +2426,7 @@ def update_master_subject_hub(namespaces: dict[str, dict[str, object]]) -> None:
         position = matches[-1].end()
         source = source[:position] + "\n          " + "\n          ".join(cards) + source[position:]
 
-    description = f"수학·영어 단과, 학년별 영수학원과 전문학원까지 {len(ALL_TOPICS)}개 지역별 안내를 학생의 현재 학습 상황에 맞춰 확인할 수 있습니다."
+    description = f"수학·영어 단과와 학년별 영수·영어수학·전문·내신학원까지 {len(ALL_TOPICS)}개 지역별 안내를 학생의 현재 학습 상황에 맞춰 확인할 수 있습니다."
     source = re.sub(r'(<meta name="description" content=")[^"]*(">)', rf'\g<1>{description}\g<2>', source, count=1)
     source = re.sub(r'(<meta property="og:description" content=")[^"]*(">)', rf'\g<1>{description}\g<2>', source, count=1)
     source = re.sub(
@@ -1968,12 +2436,16 @@ def update_master_subject_hub(namespaces: dict[str, dict[str, object]]) -> None:
     )
     source = source.replace(
         "수학·영어 단과와 고등·중등·초등 영수 안내",
+        "수학·영어 단과와 학년별 영수·영어수학·전문·내신학원 안내",
+    )
+    source = source.replace(
         "수학·영어 단과와 학년별 영수·전문학원 안내",
+        "수학·영어 단과와 학년별 영수·영어수학·전문·내신학원 안내",
     )
     source = source.replace("필요한 과목 정하기", "필요한 과목·학년 분류 정하기")
     source = source.replace(
         "수학·영어 단과 또는 학년별 영수학원을 먼저 선택한 뒤",
-        "단과·학년별 영수·전문학원 분류를 먼저 선택한 뒤",
+        "단과·학년별 영수·영어수학·전문·내신학원 분류를 먼저 선택한 뒤",
     )
 
     match = re.search(r'<script type="application/ld\+json">(.*?)</script>', source, re.DOTALL)
@@ -2003,10 +2475,27 @@ def update_master_subject_hub(namespaces: dict[str, dict[str, object]]) -> None:
                 if faq.get("name") == "과목별학원 페이지는 전국센터 페이지와 무엇이 다른가요?":
                     faq["acceptedAnswer"]["text"] = (
                         "전국센터는 지역과 센터를 기준으로 찾는 구조이고, 과목별학원은 "
-                        "단과·학년별 영수·전문학원 분류를 먼저 선택한 뒤 해당 동네의 "
+                        "단과·학년별 영수·영어수학·전문·내신학원 분류를 먼저 선택한 뒤 해당 동네의 "
                         "학습 안내를 확인하는 구조입니다."
                     )
     source = source[:match.start(1)] + compact_json(data) + source[match.end(1):]
+    path.write_text(source, encoding="utf-8", newline="\n")
+
+
+def refresh_sitemap_lastmod(slugs: list[str]) -> None:
+    """Refresh dates for the categories regenerated in this invocation."""
+    path = ROOT / "sitemap.xml"
+    source = path.read_text(encoding="utf-8")
+    for slug in slugs:
+        prefix = SITE_URL + "/" + "/".join(
+            quote(part, safe="") for part in ("과목별학원", slug)
+        ) + "/"
+        pattern = re.compile(
+            rf"(<url>\s*<loc>{re.escape(prefix)}[^<]*</loc>\s*<lastmod>)[^<]+(</lastmod>)"
+        )
+        source, count = pattern.subn(rf"\g<1>{TODAY}\g<2>", source)
+        if count != 372:
+            raise ValueError(f"{slug}: sitemap lastmod targets={count}, expected=372")
     path.write_text(source, encoding="utf-8", newline="\n")
 
 
@@ -2025,6 +2514,7 @@ def main(target_slugs: set[str] | None = None) -> None:
         namespaces[str(config["slug"])] = namespace
         print(f'{config["slug"]}: generated 371 detail pages and one hub')
     update_master_subject_hub(namespaces)
+    refresh_sitemap_lastmod([str(config["slug"]) for config in selected])
     print(f"updated master subject hub with {len(ALL_TOPICS)} live categories")
 
 

@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 BASE = Path(__file__).with_name("generate_subject_english_pages.py")
 SOURCE_DIR = ROOT.parent / "참고자료" / "사용한 원고" / "wawa-center.kr 추가 원고"
 SITE_URL = "https://wawa-center.kr"
-TODAY = "2026-08-02"
+TODAY = "2026-08-03"
 
 CATEGORIES = (
     {
