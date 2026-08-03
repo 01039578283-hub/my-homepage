@@ -65,6 +65,10 @@ BAD_TERMS = (
     "영어·수학가라도",
     "보완 순서이",
     "중일반적인 안내처럼",
+    "영어 수학는",
+    "후기 예시",
+    "성적향상",
+    "성적 향상",
 )
 
 ADMIN_PATTERN = re.compile(
@@ -513,6 +517,18 @@ def main(target_slugs: set[str] | None = None) -> None:
                 errors.append(f"{config['slug']}/{local}: FAQ title questions={title_question_count}")
             if ADMIN_PATTERN.search(manuscript_text):
                 errors.append(f"{config['slug']}/{local}: administrative keyword remains")
+            if str(config["slug"]) in generator.NEARBY_EVIDENCE_BANKS:
+                proximity_claim = re.search(
+                    r"가장\s*가까운|(?:도보|차량|자동차|버스)\s*\d+\s*분|"
+                    r"\d+(?:\.\d+)?\s*(?:km|킬로미터)",
+                    manuscript_text,
+                    re.IGNORECASE,
+                )
+                if proximity_claim:
+                    errors.append(
+                        f"{config['slug']}/{local}: unsupported proximity claim "
+                        f"{proximity_claim.group(0)!r}"
+                    )
             remaining_context_terms = [
                 term for term in generator.CONTEXT_TERM_REPLACEMENTS if term in manuscript_text
             ]

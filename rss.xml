@@ -5,8 +5,24 @@
   <link>https://wawa-center.kr/</link>
   <description>와와학습코칭센터의 교육정보, 학습가이드, 최근 보강한 공부법 콘텐츠를 중심으로 제공하는 RSS 피드입니다.</description>
   <language>ko-KR</language>
-  <lastBuildDate>Mon, 03 Aug 2026 14:00:00 +0900</lastBuildDate>
+  <lastBuildDate>Tue, 04 Aug 2026 14:00:00 +0900</lastBuildDate>
   <atom:link href="https://wawa-center.kr/rss.xml" rel="self" type="application/rss+xml" />
+  <item>
+    <title>근처 수학학원은 실제 등원 동선과 수학 학습 적합성을 함께 비교합니다</title>
+    <link>https://wawa-center.kr/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B7%BC%EC%B2%98%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/</link>
+    <guid isPermaLink="true">https://wawa-center.kr/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B7%BC%EC%B2%98%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/</guid>
+    <pubDate>Tue, 04 Aug 2026 14:00:00 +0900</pubDate>
+    <description>371개 동네별 안내에서 확인된 센터 주소와 실제 등원 여건, 수학 현재 단원·풀이 기록·복습 가능 시간을 함께 비교합니다.</description>
+    <content:encoded><![CDATA[<p>가깝다는 표현만으로 판단하지 않고 가족이 직접 확인한 이동 경로와 학생의 최근 수학 풀이를 함께 살펴보는 기준을 안내합니다.</p>]]></content:encoded>
+  </item>
+  <item>
+    <title>근처 영어학원은 실제 등원 동선과 영어 학습 적합성을 함께 비교합니다</title>
+    <link>https://wawa-center.kr/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B7%BC%EC%B2%98%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/</link>
+    <guid isPermaLink="true">https://wawa-center.kr/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B7%BC%EC%B2%98%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/</guid>
+    <pubDate>Tue, 04 Aug 2026 14:00:00 +0900</pubDate>
+    <description>371개 동네별 안내에서 확인된 센터 주소와 실제 등원 여건, 영어 어휘·문법·독해 기록과 복습 가능 시간을 함께 비교합니다.</description>
+    <content:encoded><![CDATA[<p>가깝다는 표현만으로 판단하지 않고 가족이 직접 확인한 이동 경로와 학생의 최근 영어 답안을 함께 살펴보는 기준을 안내합니다.</p>]]></content:encoded>
+  </item>
   <item>
     <title>고등 영어수학학원은 두 과목의 출발점과 다음 단원을 따로 확인합니다</title>
     <link>https://wawa-center.kr/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/%EA%B3%A0%EB%93%B1%EC%98%81%EC%96%B4%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/</link>

@@ -17,7 +17,7 @@ import generate_subject_combined_pages as shared
 ROOT = Path(__file__).resolve().parents[1]
 SITE_URL = "https://wawa-center.kr"
 SITE_NAME = "와와학습코칭센터"
-TODAY = "2026-08-03"
+TODAY = "2026-08-04"
 CENTER_INFO_PATH = ROOT.parent / "참고자료" / "공통자료" / "센터정보 정리.csv"
 
 
@@ -368,6 +368,68 @@ CATEGORIES = (
         "hero_tags": (("읽기·어휘", "개념·연산", "기초 준비도"), ("영어 출발점", "수학 출발점", "다음 단계"), ("설명하기", "다시 해보기", "짧은 반복"), ("현재 교재", "과목별 준비도", "다음 확인")),
         "hub_lead": "초등 영어와 수학을 같은 문제량으로 묶기보다 읽기·어휘와 개념·연산의 서로 다른 준비도를 확인하고, 과목별 설명·재현·짧은 반복을 다음 기초 단계로 연결할 수 있도록 371개 지역 안내를 정리했습니다.",
     },
+    {
+        "slug": "근처수학학원",
+        "label": "근처 수학학원",
+        "zip": "근처 수학학원.zip",
+        "focus": "math",
+        "level": "초·중·고",
+        "grade_prefix": "",
+        "school_marker": "",
+        "eyebrow": "NEARBY MATH ACADEMY COMPARISON GUIDE",
+        "directory": "NEARBY MATH ACADEMY DIRECTORY",
+        "card_id": "nearby-math",
+        "card_number": "21",
+        "card_small": "NEARBY MATH",
+        "representative_seed": "wawa-nearby-math-v1",
+        "expected_reviews": 3,
+        "role": "확인된 센터 주소와 실제 등원 여건을 수학의 현재 단원·풀이 기록·복습 시간과 함께 비교하는 안내",
+        "card_copy": "센터 주소와 실제 등원 여건을 확인한 뒤 수학의 현재 단원, 풀이 기록과 주간 복습 시간을 함께 비교합니다.",
+        "study_path": "수학-공부법",
+        "study_name": "수학 공부법",
+        "subjects": ("수학",),
+        "topics": ("센터 주소 확인", "실제 등원 동선", "수학 현재 단원", "풀이·오답 기록", "주간 복습 가능 시간"),
+        "focus_terms": ("수학", "실제 등원 동선·현재 단원·풀이 과정", "센터 주소·최근 풀이·주간 복습 기록"),
+        "title_references": ("{local} 수학 수업 비교", "{local} 수학 등원 상담", "이 지역 수학 학습 안내", "해당 수학 수업 선택 기준", "수학 등원·학습 적합성 안내", "지역별 수학 상담 기준"),
+        "section_roles": ("센터 주소와 실제 이동 경로 확인", "수학 현재 단원과 이전 공백 구분", "최근 풀이에서 막힌 단계 찾기", "학교 일정과 등원 시간표 맞추기", "수업 뒤 복습 가능한 시간 확인", "오답 재풀이와 다음 점검 연결", "상담 전에 준비할 수학 기록"),
+        "related_pages": (("수학학원", "수학학원"), ("수학전문학원", "수학 전문학원"), ("수학내신학원", "수학 내신학원"), ("근처영어학원", "근처 영어학원")),
+        "base_page": ("수학학원", "수학학원"),
+        "hero_copy": "가깝다는 표현만으로 판단하지 않고 확인된 센터 주소에서 실제 이동 경로를 살펴본 뒤, 최근 수학 풀이와 복습 가능한 시간을 함께 비교합니다.",
+        "hero_tags": (("센터 주소", "이동 경로", "수학 진단"), ("등원 시간표", "현재 단원", "복습 시간"), ("최근 풀이", "오답 원인", "재풀이 일정"), ("학교 일정", "수업 적합성", "상담 준비")),
+        "hub_lead": "가까운 곳이라는 표현만 보고 고르지 않고 확인된 센터 주소에서 실제 이동 경로와 등원 시간표를 확인한 뒤, 학생의 수학 현재 단원·풀이 과정·복습 가능 시간을 함께 비교할 수 있도록 371개 지역 안내를 정리했습니다.",
+        "hub_description": "371개 동네별 근처 수학학원 안내에서 확인된 센터 주소와 실제 등원 여건, 수학 현재 단원·풀이 기록·복습 가능 시간을 함께 비교합니다.",
+    },
+    {
+        "slug": "근처영어학원",
+        "label": "근처 영어학원",
+        "zip": "근처 영어학원.zip",
+        "focus": "english",
+        "level": "초·중·고",
+        "grade_prefix": "",
+        "school_marker": "",
+        "eyebrow": "NEARBY ENGLISH ACADEMY COMPARISON GUIDE",
+        "directory": "NEARBY ENGLISH ACADEMY DIRECTORY",
+        "card_id": "nearby-english",
+        "card_number": "22",
+        "card_small": "NEARBY ENGLISH",
+        "representative_seed": "wawa-nearby-english-v1",
+        "expected_reviews": 2,
+        "role": "확인된 센터 주소와 실제 등원 여건을 영어 어휘·문법·독해 기록과 주간 복습 시간에 맞춰 비교하는 안내",
+        "card_copy": "센터 주소와 실제 등원 여건을 확인한 뒤 영어 어휘·문법·독해의 현재 상태와 주간 복습 시간을 함께 비교합니다.",
+        "study_path": "영어-공부법",
+        "study_name": "영어 공부법",
+        "subjects": ("영어",),
+        "topics": ("센터 주소 확인", "실제 등원 동선", "영어 어휘·문법·독해 진단", "최근 영어 답안", "주간 복습 가능 시간"),
+        "focus_terms": ("영어", "실제 등원 동선·어휘·문법·독해 상태", "센터 주소·최근 영어 답안·주간 복습 기록"),
+        "title_references": ("{local} 영어 수업 비교", "{local} 영어 등원 상담", "이 지역 영어 학습 안내", "해당 영어 수업 선택 기준", "영어 등원·학습 적합성 안내", "지역별 영어 상담 기준"),
+        "section_roles": ("센터 주소와 실제 이동 경로 확인", "영어 어휘 누적 상태 살펴보기", "문법 적용과 독해 근거 구분", "학교 일정과 등원 시간표 맞추기", "수업 뒤 영어 복습 시간 확인", "최근 답안과 다음 점검 연결", "상담 전에 준비할 영어 기록"),
+        "related_pages": (("영어학원", "영어학원"), ("영어전문학원", "영어 전문학원"), ("영어내신학원", "영어 내신학원"), ("근처수학학원", "근처 수학학원")),
+        "base_page": ("영어학원", "영어학원"),
+        "hero_copy": "가깝다는 표현만으로 판단하지 않고 확인된 센터 주소에서 실제 이동 경로를 살펴본 뒤, 최근 영어 답안과 복습 가능한 시간을 함께 비교합니다.",
+        "hero_tags": (("센터 주소", "이동 경로", "영어 진단"), ("등원 시간표", "어휘·문법", "독해 근거"), ("최근 답안", "오답 유형", "복습 시간"), ("학교 일정", "수업 적합성", "상담 준비")),
+        "hub_lead": "가까운 곳이라는 표현만 보고 고르지 않고 확인된 센터 주소에서 실제 이동 경로와 등원 시간표를 확인한 뒤, 학생의 영어 어휘·문법·독해 상태와 복습 가능 시간을 함께 비교할 수 있도록 371개 지역 안내를 정리했습니다.",
+        "hub_description": "371개 동네별 근처 영어학원 안내에서 확인된 센터 주소와 실제 등원 여건, 영어 어휘·문법·독해 기록과 복습 가능 시간을 함께 비교합니다.",
+    },
 )
 
 
@@ -422,6 +484,60 @@ PATHWAY_HEADING_LENSES = (
     "최근 질문에서 출발", "다시 시도한 결과 확인", "현재 준비도 나누기", "과목별 반복 간격 정하기",
     "학습 흔적으로 판단", "진단 뒤 행동으로 연결", "학생 언어로 다시 확인", "다음 단계 전 재점검",
 )
+
+
+# Nearby-category pages serve a different intent from the subject, specialist,
+# and school-record pages.  These banks combine a practical commute check, a
+# subject-specific learning check, and a supplied learning record.  The 8 x 8
+# x 8 cube provides 512 deterministic combinations for 371 locations without
+# inventing distance, travel time, school facts, or student outcomes.
+NEARBY_EVIDENCE_BANKS = {
+    "근처수학학원": {
+        "commute": ("평일 등원 가능 시간", "학교 일정 뒤 출발 시점", "주간 등원 횟수", "귀가 뒤 복습 여유", "시험 기간 시간표", "보호자 이동 확인", "학생이 지속할 수 있는 동선", "결석 시 보완 일정"),
+        "subject": ("현재 단원 개념 설명", "조건을 읽는 과정", "첫 풀이의 전개", "계산 뒤 검산", "서술형 풀이 근거", "오답 원인 구분", "다시 푼 결과", "이전 단원 연결"),
+        "record": ("최근 수학 시험지", "현재 수학 교재", "오답 재풀이 기록", "일주일 수학 학습표", "학생의 풀이 설명", "학교 시험 범위표", "과제 완료 기록", "질문으로 남긴 문제"),
+    },
+    "근처영어학원": {
+        "commute": ("평일 등원 가능 시간", "학교 일정 뒤 출발 시점", "주간 등원 횟수", "귀가 뒤 복습 여유", "시험 기간 시간표", "보호자 이동 확인", "학생이 지속할 수 있는 동선", "결석 시 보완 일정"),
+        "subject": ("어휘 누적 상태", "문법을 문장에 적용하는 과정", "독해 답의 근거", "긴 문장 구조 해석", "교과서 문장 이해", "서술형 표현", "오답 문장의 재해석", "읽은 내용을 설명하는 과정"),
+        "record": ("최근 영어 시험지", "현재 영어 교재", "어휘 복습 기록", "일주일 영어 학습표", "학생의 독해 설명", "학교 시험 범위표", "과제 완료 기록", "질문으로 남긴 문장"),
+    },
+}
+
+NEARBY_ACTIONS = (
+    "실제 이동 경로와 수업 뒤 복습 시간을 함께 확인합니다",
+    "가족이 확인한 등원 동선과 학생의 현재 학습 상태를 대조합니다",
+    "학교 일정에 무리 없이 이어지는 수업·복습 순서를 정합니다",
+    "센터 위치만이 아니라 수업 뒤 혼자 실천할 계획까지 비교합니다",
+    "등원 가능 시간과 가장 먼저 보완할 학습 영역을 함께 정리합니다",
+    "주간 시간표에 수업과 재확인 시간을 따로 배치할 수 있는지 살펴봅니다",
+    "센터 주소의 실제 이동 경로를 확인한 뒤 최근 학습 기록과 맞춥니다",
+    "결석이나 시험 일정 변화에도 이어 갈 수 있는 보완 절차를 질문합니다",
+    "통학 부담과 학습 효과를 단정하지 않고 가정이 직접 확인할 항목으로 나눕니다",
+    "등원 전후 사용할 시간과 과제·오답 재확인 시간을 구분합니다",
+    "학생이 지속할 수 있는 주간 리듬인지 상담에서 구체적으로 확인합니다",
+    "가까움보다 실제 동선과 현재 교재에 맞는 학습 계획을 우선합니다",
+    "학교 일정과 센터 안내 주소를 대조해 현실적인 등원 계획을 세웁니다",
+    "최근 답안과 시간표를 함께 놓고 첫 달 점검 기준을 정합니다",
+    "수업 횟수보다 이동·수업·가정 복습이 이어지는 흐름을 비교합니다",
+    "확인된 센터 정보와 학생 기록을 근거로 상담 질문을 구체화합니다",
+)
+
+
+def nearby_components(config: dict[str, object], rank: int, slot: int = 0) -> tuple[str, str, str]:
+    bank = NEARBY_EVIDENCE_BANKS.get(str(config["slug"]))
+    if not bank:
+        return "실제 등원 동선", "현재 학습 상태", "최근 학습 기록"
+    serial = (rank + slot * 67) % 512
+    commute = bank["commute"][serial % 8]
+    subject = bank["subject"][(serial // 8) % 8]
+    record = bank["record"][(serial // 64) % 8]
+    return commute, subject, record
+
+
+def nearby_action(config: dict[str, object], rank: int, slot: int = 0) -> str:
+    code = shared.stable_number(str(config["slug"]), rank, slot, "nearby-action")
+    return NEARBY_ACTIONS[code % len(NEARBY_ACTIONS)]
 
 
 def pathway_components(config: dict[str, object], rank: int, slot: int = 0) -> tuple[str, str, str]:
@@ -553,6 +669,15 @@ def clean_manuscript_text(value: str, local: str) -> str:
         "구조화 데이터 설명문": "페이지 핵심 요약",
         "구조화 데이터 설명": "페이지 핵심 요약",
         "구조화 데이터": "핵심 안내",
+        "검색 의도에 바로 답하면": "학부모가 먼저 확인할 내용을 정리하면",
+        "후기 예시": "상담 참고 기록",
+        "성적향상": "학습 변화 확인",
+        "성적 향상": "학습 변화 확인",
+        "영어 수학는": "영어와 수학은",
+        "영어 수학은": "영어와 수학은",
+        "영어 수학를": "영어와 수학을",
+        "영어 수학을": "영어와 수학을",
+        "영어 수학가": "영어와 수학이",
         "학원로": "학원으로",
     }
     text = value
@@ -576,6 +701,11 @@ def clean_manuscript_text(value: str, local: str) -> str:
     )
     for pattern, replacement in guarded:
         text = re.sub(pattern, replacement, text)
+    text = re.sub(
+        rf"{re.escape(local)}\s*근처(?=\s*(?:영어|수학)학원)",
+        f"{local} 근처",
+        text,
+    )
     text = text.replace(f"{local} {local}", local)
     return re.sub(r"[ \t]+", " ", text)
 
@@ -1102,6 +1232,8 @@ def final_polish(
         "변화을": "변화를",
         "변화과": "변화와",
         "표시과": "표시와",
+        "표시을": "표시를",
+        "답안의 식과 설명과 함께": "답안의 식과 설명을 함께",
         "계획를": "계획을",
         "점검를": "점검을",
         "학원로": "학원으로",
@@ -1184,6 +1316,7 @@ def final_polish(
     text = collapse_repeated_terms(text)
     text = re.sub(r"(?<=[초중고][1-6])(?=[가-힣])", " ", text)
     text = re.sub(r"((?:초[1-6]|중[1-3]|고[1-3])(?:·(?:초[1-6]|중[1-3]|고[1-3]))*)\s+이(?=\s|[가-힣])", r"\1이", text)
+    text = re.sub(r"((?:초[1-6]|중[1-3]|고[1-3])(?:·(?:초[1-6]|중[1-3]|고[1-3]))*)\s+입니다", r"\1입니다", text)
     return re.sub(r"[ \t]+", " ", text).strip()
 
 
@@ -1241,6 +1374,45 @@ def grounded_paragraph(local: str, center: dict[str, object], config: dict[str, 
             f"{local} 영수 수업을 비교할 때 {grade_text} 학생에게 필요한 것은 단순한 과제 묶음보다 영어 답안과 수학 풀이의 피드백이 서로 다른 기준으로 기록되는지 확인하는 일입니다.",
         )
     return frames[rank % len(frames)] + school_clause
+
+
+def nearby_grounded_paragraphs(
+    local: str,
+    center: dict[str, object],
+    config: dict[str, object],
+    rank: int,
+) -> list[str]:
+    """Build cited comparison guidance without asserting unverified proximity."""
+    title = f"{local} {config['label']}"
+    address = verified_address_text(center)
+    address_text = address or "상담에서 확인한 센터 주소"
+    grades = [str(item) for item in center.get("verified_grades", [])]
+    schools = [str(item) for item in center.get("schools", [])]
+    grade_text = "·".join(grades) if grades else "상담 시 확인할 학년"
+    school_text = "·".join(schools[:2]) if schools else "자녀 학교의 실제 자료"
+    first_commute, first_subject, first_record = nearby_components(config, rank, 4)
+    second_commute, second_subject, second_record = nearby_components(config, rank, 5)
+    third_commute, third_subject, third_record = nearby_components(config, rank, 6)
+    first_action = nearby_action(config, rank, 4)
+    second_action = nearby_action(config, rank, 5)
+    third_action = nearby_action(config, rank, 6)
+    return [
+        (
+            f"{title}의 위치를 비교할 때 확인 기준이 되는 센터 안내 주소는 ‘{address_text}’입니다. "
+            f"‘{first_commute}’은 지도만 보고 단정하지 말고 실제 출발 지점과 시간대에 맞춰 가족이 경로를 확인해야 하며, "
+            f"‘{first_record}’도 함께 준비해 {first_action}."
+        ),
+        (
+            f"수업 가능 학년의 확인 범위는 {grade_text}입니다. ‘{second_subject}’의 현재 상태는 "
+            f"‘{second_record}’으로 살펴보고, {school_text}의 최신 일정과 ‘{second_commute}’을 대조해 "
+            f"{second_action}."
+        ),
+        (
+            f"‘근처’라는 표현은 실제 거리나 소요 시간을 보장하지 않습니다. {local}에서 출발하는 경로와 시간대는 "
+            f"가정이 직접 확인하고, 상담에서는 ‘{third_subject}’, ‘{third_record}’, ‘{third_commute}’ 세 항목을 "
+            f"질문해 {third_action}."
+        ),
+    ]
 
 
 SUBJECT_CONTEXT_BANKS = {
@@ -1328,10 +1500,29 @@ def professional_diversify_text(
     objects = SUBJECT_CONTEXT_BANKS[str(config["focus"])]
     for sentence_index, sentence in enumerate(shared.sentence_parts(value)):
         normalized = shared.normalize_for_frequency(sentence, local)
-        if frequencies.get(normalized, 0) < 2 or len(sentence) < 28:
+        frequency = frequencies.get(normalized, 0)
+        if frequency < 2:
             result.append(sentence)
             continue
         code = shared.stable_number(config["slug"], normalized, rank, slot, sentence_index)
+        if str(config["slug"]) in NEARBY_EVIDENCE_BANKS:
+            commute, subject_check, record = nearby_components(
+                config, rank, slot + sentence_index,
+            )
+            varied = shared.lexical_variation(sentence, code)
+            varied = re.sub(
+                r"^[^,.!?]{5,110}(?:하면|보면|살펴볼 때|포함하면|세울 때|대조하면),\s*",
+                "",
+                varied,
+                count=1,
+            ).strip()
+            result.append(
+                f"‘{commute}·{subject_check}·{record}’ 기준으로 보면, {varied}"
+            )
+            continue
+        if len(sentence) < 28:
+            result.append(sentence)
+            continue
         if config["focus"] == "math":
             rewritten = math_rewrite_sentence(sentence, local, code)
             if rewritten:
@@ -1358,6 +1549,13 @@ def professional_diversify_question(
         return value
     code = shared.stable_number(config["slug"], value.replace(local, "{LOCAL}"), rank, slot)
     varied = shared.lexical_variation(value, code)
+    if str(config["slug"]) in NEARBY_EVIDENCE_BANKS:
+        commute, _, record = nearby_components(config, rank, 20 + slot)
+        return reader_facing_text(
+            f"‘{commute}·{record}’ 기준으로 보면, {varied}",
+            local,
+            config,
+        )
     return reader_facing_text(
         f"{QUESTION_CONTEXT_BANK[code % len(QUESTION_CONTEXT_BANK)]} {varied}",
         local,
@@ -1446,6 +1644,13 @@ def verified_school_text(center: dict[str, object], limit: int = 3) -> str:
     return "·".join(schools[:limit])
 
 
+def verified_address_text(center: dict[str, object]) -> str:
+    address = center.get("address", "")
+    if isinstance(address, dict):
+        return str(address.get("streetAddress", "")).strip()
+    return str(address).strip()
+
+
 def title_references(local: str, config: dict[str, object]) -> tuple[str, ...]:
     configured = config.get("title_references")
     if configured:
@@ -1518,7 +1723,16 @@ def build_intro(local: str, center: dict[str, object], config: dict[str, object]
         f"{local} 학생에게 맞는 {subject} 수업은 현재 교재와 {evidence}을 기준으로 다음 학습 순서를 구체적으로 설명할 수 있어야 합니다.",
         f"{title}을 찾는 학부모라면 수업 횟수보다 진단 결과가 과제·오답·재확인 일정으로 이어지는지를 먼저 질문해 보세요.",
     )
-    if str(config["slug"]) in PATHWAY_EVIDENCE_BANKS:
+    if str(config["slug"]) in NEARBY_EVIDENCE_BANKS:
+        commute, subject_check, record = nearby_components(config, rank)
+        action = nearby_action(config, rank)
+        address = verified_address_text(center)
+        address_clause = f"센터 안내 주소 ‘{address}’를 기준으로" if address else "상담에서 확인한 센터 주소를 기준으로"
+        answer_sentence = (
+            f"{title}을 비교할 때 확인할 세 기준은 ‘{commute}’, ‘{subject_check}’, ‘{record}’입니다. "
+            f"{address_clause} {action}."
+        )
+    elif str(config["slug"]) in PATHWAY_EVIDENCE_BANKS:
         english, math, record = pathway_components(config, rank)
         action = pathway_action(config, rank)
         answer_sentence = (
@@ -1582,6 +1796,18 @@ def build_summary(local: str, center: dict[str, object], config: dict[str, objec
     schools = verified_school_text(center, 2)
     grade_clause = f"확인된 수업 가능 학년은 {'·'.join(grades)}이며" if grades else "수업 가능 학년은 상담 확인이 필요하며"
     school_clause = f"수업 가능 학교 정보에는 {schools} 등이 포함됩니다" if schools else "자녀 학교의 시험 자료를 준비해 수업 적용 범위를 확인해야 합니다"
+    if str(config["slug"]) in NEARBY_EVIDENCE_BANKS:
+        commute, subject_check, record = nearby_components(config, rank, 1)
+        action = nearby_action(config, rank, 1)
+        address = verified_address_text(center)
+        address_clause = f"확인된 센터 주소는 {address}이며" if address else "센터 주소는 상담에서 먼저 확인해야 하며"
+        summary = (
+            f"{title}은 {location}에서 위치와 학습 적합성을 함께 비교하는 안내입니다. "
+            f"{address_clause}, 등원 확인 항목은 ‘{commute}’입니다. "
+            f"학습 근거는 ‘{record}’, 점검 항목은 ‘{subject_check}’이며 이를 바탕으로 {action}. "
+            f"{grade_clause}, {school_clause}."
+        )
+        return concise_summary(summary)
     if str(config["slug"]) in PATHWAY_EVIDENCE_BANKS:
         english, math, record = pathway_components(config, rank, 1)
         action = pathway_action(config, rank, 1)
@@ -1640,6 +1866,13 @@ def build_summary(local: str, center: dict[str, object], config: dict[str, objec
 def build_meta(local: str, center: dict[str, object], config: dict[str, object], rank: int) -> str:
     title = f"{local} {config['label']}"
     subject, diagnostic, evidence = focus_terms(config)
+    if str(config["slug"]) in NEARBY_EVIDENCE_BANKS:
+        commute, subject_check, record = nearby_components(config, rank, 2)
+        frame = (
+            f"{title} 비교 기준은 {commute}, {subject_check}, {record}입니다. "
+            "센터 주소의 실제 이동 경로와 수업 뒤 복습 계획을 함께 안내합니다."
+        )
+        return concise_meta(frame, title, config)
     if str(config["slug"]) in PATHWAY_EVIDENCE_BANKS:
         english, math, record = pathway_components(config, rank, 2)
         if str(config["slug"]) == "고등영어수학학원":
@@ -1671,6 +1904,16 @@ def build_meta(local: str, center: dict[str, object], config: dict[str, object],
 
 def build_answer(local: str, center: dict[str, object], config: dict[str, object], rank: int) -> tuple[str, str, list[str]]:
     subject, diagnostic, evidence = focus_terms(config)
+    if str(config["slug"]) in NEARBY_EVIDENCE_BANKS:
+        commute, subject_check, record = nearby_components(config, rank, 3)
+        action = nearby_action(config, rank, 3)
+        heading = f"{local}에서 가까운 수업을 비교할 때 · {commute}"
+        text = (
+            f"확인 자료는 ‘{record}’, 학습 점검 항목은 ‘{subject_check}’입니다. "
+            f"센터 안내 주소에서 가족이 직접 살펴본 이동 경로와 대조해 {action}."
+        )
+        tags = list(config["hero_tags"][rank % len(config["hero_tags"])])
+        return heading, text, tags
     if str(config["slug"]) in PATHWAY_EVIDENCE_BANKS:
         english, math, record = pathway_components(config, rank, 3)
         action = pathway_action(config, rank, 3)
@@ -2037,6 +2280,10 @@ def configure_namespace(namespace: dict[str, object], config: dict[str, object])
         values = parent_load()
         for rank, local in enumerate(sorted(values)):
             manuscript = values[local]
+            # The source ZIP may omit a space between the local name and the
+            # nearby category label.  Titles, H1, breadcrumbs, metadata, and
+            # schema must all use the same canonical reader-facing title.
+            manuscript["title"] = f"{local} {config['label']}"
             center = center_data(local)
             verified_grades = [str(item) for item in center.get("verified_grades", [])]
             schools = [str(item) for item in center.get("schools", [])]
@@ -2050,8 +2297,15 @@ def configure_namespace(namespace: dict[str, object], config: dict[str, object])
                     )
                 )
             if polished_sections:
-                target = rank % len(polished_sections)
-                polished_sections[target][1].append(grounded_paragraph(local, center, config, rank))
+                if str(config["slug"]) in NEARBY_EVIDENCE_BANKS:
+                    for offset, paragraph in enumerate(
+                        nearby_grounded_paragraphs(local, center, config, rank)
+                    ):
+                        target = (rank + offset * 2) % len(polished_sections)
+                        polished_sections[target][1].append(paragraph)
+                else:
+                    target = rank % len(polished_sections)
+                    polished_sections[target][1].append(grounded_paragraph(local, center, config, rank))
             manuscript["sections"] = polished_sections
             manuscript["faqs"] = build_faqs(local, center, config, rank)
             reviews = list(manuscript.get("reviews", []))
@@ -2426,7 +2680,7 @@ def update_master_subject_hub(namespaces: dict[str, dict[str, object]]) -> None:
         position = matches[-1].end()
         source = source[:position] + "\n          " + "\n          ".join(cards) + source[position:]
 
-    description = f"수학·영어 단과와 학년별 영수·영어수학·전문·내신학원까지 {len(ALL_TOPICS)}개 지역별 안내를 학생의 현재 학습 상황에 맞춰 확인할 수 있습니다."
+    description = f"수학·영어 단과와 학년별 영수·영어수학·전문·내신·근처 학원 찾기까지 {len(ALL_TOPICS)}개 지역별 안내를 학생의 현재 학습 상황에 맞춰 확인할 수 있습니다."
     source = re.sub(r'(<meta name="description" content=")[^"]*(">)', rf'\g<1>{description}\g<2>', source, count=1)
     source = re.sub(r'(<meta property="og:description" content=")[^"]*(">)', rf'\g<1>{description}\g<2>', source, count=1)
     source = re.sub(
@@ -2442,10 +2696,14 @@ def update_master_subject_hub(namespaces: dict[str, dict[str, object]]) -> None:
         "수학·영어 단과와 학년별 영수·전문학원 안내",
         "수학·영어 단과와 학년별 영수·영어수학·전문·내신학원 안내",
     )
+    source = source.replace(
+        "수학·영어 단과와 학년별 영수·영어수학·전문·내신학원 안내",
+        "수학·영어 단과와 학년별 영수·영어수학·전문·내신·근처 학원 찾기 안내",
+    )
     source = source.replace("필요한 과목 정하기", "필요한 과목·학년 분류 정하기")
     source = source.replace(
         "수학·영어 단과 또는 학년별 영수학원을 먼저 선택한 뒤",
-        "단과·학년별 영수·영어수학·전문·내신학원 분류를 먼저 선택한 뒤",
+        "단과·학년별 영수·영어수학·전문·내신·근처 학원 찾기 분류를 먼저 선택한 뒤",
     )
 
     match = re.search(r'<script type="application/ld\+json">(.*?)</script>', source, re.DOTALL)
@@ -2475,7 +2733,7 @@ def update_master_subject_hub(namespaces: dict[str, dict[str, object]]) -> None:
                 if faq.get("name") == "과목별학원 페이지는 전국센터 페이지와 무엇이 다른가요?":
                     faq["acceptedAnswer"]["text"] = (
                         "전국센터는 지역과 센터를 기준으로 찾는 구조이고, 과목별학원은 "
-                        "단과·학년별 영수·영어수학·전문·내신학원 분류를 먼저 선택한 뒤 해당 동네의 "
+                        "단과·학년별 영수·영어수학·전문·내신·근처 학원 찾기 분류를 먼저 선택한 뒤 해당 동네의 "
                         "학습 안내를 확인하는 구조입니다."
                     )
     source = source[:match.start(1)] + compact_json(data) + source[match.end(1):]

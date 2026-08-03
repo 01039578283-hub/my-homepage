@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 BASE = Path(__file__).with_name("generate_subject_english_pages.py")
 SOURCE_DIR = ROOT.parent / "참고자료" / "사용한 원고" / "wawa-center.kr 추가 원고"
 SITE_URL = "https://wawa-center.kr"
-TODAY = "2026-08-03"
+TODAY = "2026-08-04"
 
 CATEGORIES = (
     {
@@ -376,6 +376,17 @@ def transformed_namespace(config: dict[str, str]) -> dict[str, object]:
             raise ValueError(f"base generator pattern not found: {old}")
         source = source.replace(old, new)
 
+    # Replace the base category through a sentinel before injecting values
+    # from ``config``.  A direct second-pass replacement used to mutate a
+    # label that itself contains ``영어학원`` (for example
+    # ``근처 영어학원`` -> ``근처 근처 영어학원``), and could also alter the
+    # newly injected ZIP filename.  Keeping generated configuration values
+    # out of the global source transform makes every category label safe.
+    label_sentinel = "__SUBJECT_CATEGORY_LABEL__"
+    source = source.replace('"영어학원"', f'"{label_sentinel}"')
+    source = source.replace("영어학원", label_sentinel)
+    source = source.replace(label_sentinel, config["label"])
+
     source = re.sub(
         r'^ZIP_PATH\s*=.*$',
         f'ZIP_PATH = SOURCE_DIR / {config["zip"]!r}',
@@ -389,8 +400,6 @@ def transformed_namespace(config: dict[str, str]) -> dict[str, object]:
         1,
     )
     source = re.sub(r'^TODAY\s*=\s*"[^"]+"$', f'TODAY = "{TODAY}"', source, count=1, flags=re.MULTILINE)
-    source = source.replace('"영어학원"', f'"{config["label"]}"')
-    source = source.replace("영어학원", config["label"])
     source = source.replace("__COMBINED_SLUG__", config["slug"])
     source = source.replace("LOCAL ENGLISH ACADEMY GUIDE", config["eyebrow"])
     source = source.replace("ENGLISH ACADEMY DIRECTORY", config["directory"])
