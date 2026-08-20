@@ -144,7 +144,7 @@
   border-bottom-color: var(--blue) !important;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1120px) {
   .site-header {
     height: 132px !important;
     min-height: 132px !important;
