@@ -142,7 +142,7 @@ def main() -> None:
             description = first(r'<meta\s+name="description"\s+content="([^"]*)"', source)
             canonical = first(r'<link\s+rel="canonical"\s+href="([^"]+)"', source)
             og_url = first(r'<meta\s+property="og:url"\s+content="([^"]+)"', source)
-            if title_tag != f"{title} | 와와학습코칭센터":
+            if title_tag != f"{title} | 와와학습코칭센터 영어수학 전문학원":
                 fail(f'{config["slug"]}/{local}: title mismatch')
             if h1s != [title]:
                 fail(f'{config["slug"]}/{local}: H1 mismatch/count={len(h1s)}')

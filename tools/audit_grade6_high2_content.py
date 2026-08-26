@@ -1192,7 +1192,7 @@ def validate_parent(view: View, audit: Audit) -> None:
         return
     document = view.text(PARENT_REL)
     validate_head(
-        document, encoded_url("학년별학원"), "학년별학원 안내 | 와와학습코칭센터",
+        document, encoded_url("학년별학원"), "학년별학원 안내 | 와와학습코칭센터 영어수학 전문학원",
         one_text(document, "h1")[0] if len(one_text(document, "h1")) == 1 else "", None, audit, location,
     )
     hrefs = [html.unescape(item) for item in re.findall(r"<a\b[^>]*\bhref=[\"']([^\"']+)[\"']", document, re.IGNORECASE)]
@@ -1229,7 +1229,7 @@ def validate_category(view: View, category: Category, rows: Sequence[CommonRow],
     document = view.text(category.category_rel)
     expected_url = encoded_url("학년별학원", category.slug)
     validate_head(
-        document, expected_url, f"{category.label} 371개 지역 안내 | 와와학습코칭센터",
+        document, expected_url, f"{category.label} 371개 지역 안내 | 와와학습코칭센터 영어수학 전문학원",
         f"{category.label} 371개 지역 안내", None, audit, location,
     )
     main_tags = [tag for tag in re.findall(r"<main\b[^>]*>", document, re.IGNORECASE) if tag_attr(tag, "data-grade-directory") == category.hook]
@@ -1279,7 +1279,7 @@ def validate_detail(
     document = view.text(rel)
     expected_url = encoded_url("학년별학원", category.slug, row.locality)
     validate_head(
-        document, expected_url, f"{manuscript.title} | 와와학습코칭센터",
+        document, expected_url, f"{manuscript.title} | 와와학습코칭센터 영어수학 전문학원",
         manuscript.title, manuscript.meta, audit, location,
     )
     main_tags = [tag for tag in re.findall(r"<main\b[^>]*>", document, re.IGNORECASE) if tag_attr(tag, "data-grade-page") == category.hook]

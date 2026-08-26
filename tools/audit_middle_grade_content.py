@@ -1525,7 +1525,7 @@ def validate_detail_page(
     if dom is None:
         return
     expected_url = encoded_url("학년별학원", category.slug, row.locality)
-    expected_title = f"{item.title} | 와와학습코칭센터"
+    expected_title = f"{item.title} | 와와학습코칭센터 영어수학 전문학원"
     titles = [node.text(visible=False) for node in find_elements(dom, "title")]
     h1 = [node.text() for node in find_elements(dom, "h1")]
     if titles != [expected_title]:

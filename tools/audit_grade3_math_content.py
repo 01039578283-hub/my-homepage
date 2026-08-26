@@ -1252,7 +1252,7 @@ def validate_detail(
     require_single(meta_content(dom, prop="og:url"), audit, "og_url", rel, url)
     require_single(meta_content(dom, name="description"), audit, "meta_description", rel, manuscript.meta)
     titles = [node.text() for node in find_elements(dom, "title")]
-    require_single(titles, audit, "title", rel, f"{manuscript.title} | 와와학습코칭센터")
+    require_single(titles, audit, "title", rel, f"{manuscript.title} | 와와학습코칭센터 영어수학 전문학원")
     h1 = [node.text() for node in find_elements(dom, "h1")]
     require_single(h1, audit, "h1", rel, manuscript.title)
 
@@ -1487,7 +1487,7 @@ def validate_detail(
         if node is not None and node.get("@id") != expected_id:
             audit.error("schema_id", rel, f"type={kind}, actual={node.get('@id')!r}, expected={expected_id!r}")
     if web_page is not None:
-        expected_web_name = f"{manuscript.title} | 와와학습코칭센터"
+        expected_web_name = f"{manuscript.title} | 와와학습코칭센터 영어수학 전문학원"
         if web_page.get("url") != url or norm(web_page.get("name")) != expected_web_name:
             audit.error("schema_webpage_identity", rel, repr({"url": web_page.get("url"), "name": web_page.get("name")}))
         for date_field in ("datePublished", "dateModified"):

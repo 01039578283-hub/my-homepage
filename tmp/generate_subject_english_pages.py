@@ -14,6 +14,7 @@ from zipfile import ZipFile
 ROOT = Path(__file__).resolve().parents[1]
 SITE_URL = "https://wawa-center.kr"
 SITE_NAME = "와와학습코칭센터"
+TITLE_SUFFIX = "와와학습코칭센터 영어수학 전문학원"
 TODAY = "2026-07-21"
 MATH_ROOT = ROOT / "과목별학원" / "수학학원"
 ENGLISH_ROOT = ROOT / "과목별학원" / "영어학원"
@@ -383,7 +384,7 @@ def page_schema(
             "@type": "WebPage",
             "@id": page_id,
             "url": page_url,
-            "name": f"{title} | {SITE_NAME}",
+            "name": f"{title} | {TITLE_SUFFIX}",
             "description": description,
             "inLanguage": "ko-KR",
             "isPartOf": {"@id": SITE_URL + "/#website"},
@@ -520,11 +521,11 @@ def render_page(
     return f'''<!doctype html>
 <html lang="ko"><head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{esc(title)} | {SITE_NAME}</title>
+  <title>{esc(title)} | {TITLE_SUFFIX}</title>
   <meta name="description" content="{esc(description)}">
   <meta name="robots" content="index,follow"><link rel="canonical" href="{page_url}">
-  <meta property="og:type" content="article"><meta property="og:title" content="{esc(title)} | {SITE_NAME}"><meta property="og:description" content="{esc(description)}"><meta property="og:url" content="{page_url}"><meta property="og:image" content="{image_url}">
-  <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{esc(title)} | {SITE_NAME}"><meta name="twitter:description" content="{esc(description)}"><meta name="twitter:image" content="{image_url}">
+  <meta property="og:type" content="article"><meta property="og:title" content="{esc(title)} | {TITLE_SUFFIX}"><meta property="og:description" content="{esc(description)}"><meta property="og:url" content="{page_url}"><meta property="og:image" content="{image_url}">
+  <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{esc(title)} | {TITLE_SUFFIX}"><meta name="twitter:description" content="{esc(description)}"><meta name="twitter:image" content="{image_url}">
   <link rel="icon" href="/assets/favicon.png"><link rel="stylesheet" href="/assets/fab.css"><link rel="stylesheet" href="/assets/header.css"><link rel="stylesheet" href="/assets/math-academy.css"><link rel="stylesheet" href="/assets/english-academy.css">
   <script type="application/ld+json">{compact_json(schema)}</script>
 </head>
@@ -609,7 +610,7 @@ def render_hub(order: list[str], directory: str) -> str:
                 "@type": "CollectionPage",
                 "@id": page_url + "#webpage",
                 "url": page_url,
-                "name": f"영어학원 지역 안내 | {SITE_NAME}",
+                "name": f"영어학원 지역 안내 | {TITLE_SUFFIX}",
                 "description": description,
                 "inLanguage": "ko-KR",
                 "isPartOf": {"@id": SITE_URL + "/#website"},
@@ -635,10 +636,10 @@ def render_hub(order: list[str], directory: str) -> str:
     return f'''<!doctype html>
 <html lang="ko"><head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>영어학원 지역 안내 | 371개 동네별 영어 학습코칭 | {SITE_NAME}</title>
+  <title>영어학원 지역 안내 | 371개 동네별 영어 학습코칭 | {TITLE_SUFFIX}</title>
   <meta name="description" content="{description}">
   <meta name="robots" content="index,follow"><link rel="canonical" href="{page_url}">
-  <meta property="og:type" content="website"><meta property="og:title" content="영어학원 지역 안내 | {SITE_NAME}"><meta property="og:description" content="371개 동네별 영어학원 안내에서 지역과 학생 상황에 맞는 영어 상담 기준을 확인하세요."><meta property="og:url" content="{page_url}"><meta property="og:image" content="{SITE_URL}/assets/title.png">
+  <meta property="og:type" content="website"><meta property="og:title" content="영어학원 지역 안내 | {TITLE_SUFFIX}"><meta property="og:description" content="371개 동네별 영어학원 안내에서 지역과 학생 상황에 맞는 영어 상담 기준을 확인하세요."><meta property="og:url" content="{page_url}"><meta property="og:image" content="{SITE_URL}/assets/title.png">
   <link rel="icon" href="/assets/favicon.png"><link rel="stylesheet" href="/assets/fab.css"><link rel="stylesheet" href="/assets/header.css"><link rel="stylesheet" href="/assets/math-academy.css"><link rel="stylesheet" href="/assets/english-academy.css">
   <script type="application/ld+json">{compact_json(schema)}</script>
 </head><body class="math-academy-page english-academy-page">

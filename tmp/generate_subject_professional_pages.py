@@ -17,6 +17,7 @@ import generate_subject_combined_pages as shared
 ROOT = Path(__file__).resolve().parents[1]
 SITE_URL = "https://wawa-center.kr"
 SITE_NAME = "와와학습코칭센터"
+TITLE_SUFFIX = "와와학습코칭센터 영어수학 전문학원"
 TODAY = "2026-08-04"
 CENTER_INFO_PATH = ROOT.parent / "참고자료" / "공통자료" / "센터정보 정리.csv"
 
@@ -2622,7 +2623,7 @@ def render_hub(namespace: dict[str, object], config: dict[str, object], order: l
     schema = {
         "@context": "https://schema.org",
         "@graph": [
-            {"@type": "CollectionPage", "@id": page_url + "#webpage", "url": page_url, "name": f"{config['label']} 지역 안내 | {SITE_NAME}", "description": description, "inLanguage": "ko-KR", "isPartOf": {"@id": SITE_URL + "/#website"}, "publisher": {"@id": SITE_URL + "/#organization"}, "breadcrumb": {"@id": page_url + "#breadcrumb"}, "about": [{"@type": "Thing", "name": config["label"]}, *[{"@type": "Thing", "name": topic} for topic in config["topics"]]], "datePublished": TODAY, "dateModified": TODAY},
+            {"@type": "CollectionPage", "@id": page_url + "#webpage", "url": page_url, "name": f"{config['label']} 지역 안내 | {TITLE_SUFFIX}", "description": description, "inLanguage": "ko-KR", "isPartOf": {"@id": SITE_URL + "/#website"}, "publisher": {"@id": SITE_URL + "/#organization"}, "breadcrumb": {"@id": page_url + "#breadcrumb"}, "about": [{"@type": "Thing", "name": config["label"]}, *[{"@type": "Thing", "name": topic} for topic in config["topics"]]], "datePublished": TODAY, "dateModified": TODAY},
             {"@type": "BreadcrumbList", "@id": page_url + "#breadcrumb", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "홈", "item": SITE_URL + "/"}, {"@type": "ListItem", "position": 2, "name": "과목별학원", "item": encoded_url("과목별학원")}, {"@type": "ListItem", "position": 3, "name": f"{config['label']} 지역 안내", "item": page_url}]},
             {"@type": "ItemList", "@id": page_url + "#directory", "name": f"동네별 {config['label']} 안내", "numberOfItems": len(order), "itemListElement": list_items},
             {"@type": "FAQPage", "@id": page_url + "#faq", "mainEntity": faqs},
@@ -2638,9 +2639,9 @@ def render_hub(namespace: dict[str, object], config: dict[str, object], order: l
     return f'''<!doctype html>
 <html lang="ko"><head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{esc(config['label'])} 지역 안내 | 371개 동네별 학습관리 | {SITE_NAME}</title>
+  <title>{esc(config['label'])} 지역 안내 | 371개 동네별 학습관리 | {TITLE_SUFFIX}</title>
   <meta name="description" content="{esc(description)}"><meta name="robots" content="index,follow"><link rel="canonical" href="{page_url}">
-  <meta property="og:type" content="website"><meta property="og:title" content="{esc(config['label'])} 지역 안내 | {SITE_NAME}"><meta property="og:description" content="{esc(description)}"><meta property="og:url" content="{page_url}"><meta property="og:image" content="{SITE_URL}/assets/title.png">
+  <meta property="og:type" content="website"><meta property="og:title" content="{esc(config['label'])} 지역 안내 | {TITLE_SUFFIX}"><meta property="og:description" content="{esc(description)}"><meta property="og:url" content="{page_url}"><meta property="og:image" content="{SITE_URL}/assets/title.png">
   <link rel="icon" href="/assets/favicon.png"><link rel="stylesheet" href="/assets/fab.css"><link rel="stylesheet" href="/assets/header.css"><link rel="stylesheet" href="/assets/math-academy.css"><link rel="stylesheet" href="/assets/english-academy.css">
   <script type="application/ld+json">{compact_json(schema)}</script>
 </head><body class="math-academy-page english-academy-page">

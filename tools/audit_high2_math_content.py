@@ -1477,7 +1477,7 @@ def validate_parent_document(view: View, audit: Audit) -> None:
     validate_document_head(
         dom,
         expected_url,
-        "학년별학원 안내 | 와와학습코칭센터",
+        "학년별학원 안내 | 와와학습코칭센터 영어수학 전문학원",
         None,
         audit,
         location,
@@ -1523,7 +1523,7 @@ def validate_category_document(view: View, rows: Sequence[SourceRow], audit: Aud
     validate_document_head(
         dom,
         expected_url,
-        "고2 수학학원 371개 지역 안내 | 와와학습코칭센터",
+        "고2 수학학원 371개 지역 안내 | 와와학습코칭센터 영어수학 전문학원",
         None,
         audit,
         location,
@@ -1592,7 +1592,7 @@ def validate_detail_document(
     validate_document_head(
         dom,
         expected_url,
-        manuscript.title + " | 와와학습코칭센터",
+        manuscript.title + " | 와와학습코칭센터 영어수학 전문학원",
         manuscript.title,
         audit,
         location,
