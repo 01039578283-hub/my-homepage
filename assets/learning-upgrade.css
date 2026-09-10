@@ -1,0 +1,196 @@
+/* Limited to the two .wawa-upgrade pages. Other academy pages keep their styles. */
+.wawa-upgrade { --wu-ink:#1a2440; --wu-muted:#515b6f; --wu-accent:#986621; --wu-line:#dedfdc; --wu-paper:#fffdfa; background:#f7f6f2; color:var(--wu-ink); font-family:"Noto Sans KR","Malgun Gothic",sans-serif; font-size:16px; line-height:1.8; }
+.wawa-upgrade * { box-sizing:border-box; }
+.wawa-upgrade main { overflow-wrap:anywhere; }
+.wawa-upgrade main [id] { scroll-margin-top:100px; }
+.wawa-upgrade :is(h1,h2,h3,p,figure) { margin:0; }
+.wawa-upgrade :is(h1,h2,h3,summary) { word-break:keep-all; overflow-wrap:anywhere; }
+.wawa-upgrade a { color:inherit; text-decoration:none; }
+.wawa-upgrade :is(a,button,summary):focus-visible { outline:3px solid #246be2; outline-offset:4px; }
+.wawa-upgrade .wu-wrap { width:min(1120px,calc(100% - 64px)); margin-inline:auto; }
+.wawa-upgrade .wu-section { padding-block:80px; }
+.wawa-upgrade .wu-band { padding-block:72px; background:#eeefea; border-block:1px solid var(--wu-line); }
+.wawa-upgrade .wu-kicker { font-size:12px; line-height:1.6; font-weight:700; letter-spacing:.11em; color:var(--wu-accent); margin-bottom:14px; }
+.wawa-upgrade .wu-heading { max-width:760px; margin-bottom:32px; }
+.wawa-upgrade .wu-heading h2,.wawa-upgrade .wu-final h2 { font:700 clamp(26px,3vw,36px)/1.4 var(--sans); letter-spacing:-.045em; margin-bottom:16px; }
+.wawa-upgrade .wu-heading>p:not(.wu-kicker) { font-size:17px; color:var(--wu-muted); line-height:1.85; }
+.wawa-upgrade h3 { font:700 21px/1.45 var(--sans); letter-spacing:-.03em; }
+.wawa-upgrade .wu-lead { font-size:18px; color:var(--wu-muted); line-height:1.9; max-width:690px; }
+.wawa-upgrade .wu-small { font-size:13px; color:#586173; line-height:1.8; margin-top:20px; }
+.wawa-upgrade .wu-actions { display:flex; flex-wrap:wrap; gap:10px; margin-top:26px; }
+.wawa-upgrade .wu-button { display:inline-flex; align-items:center; justify-content:center; gap:14px; min-height:48px; padding:12px 22px; border:1px solid #bac0c9; border-radius:8px; background:white; color:var(--wu-ink); font-size:15px; font-weight:700; line-height:1.6; text-align:center; }
+.wawa-upgrade .wu-button:hover { background:#eaece8; border-color:var(--wu-ink); }
+.wawa-upgrade .wu-primary { background:var(--wu-ink); color:#fff; border-color:var(--wu-ink); }
+.wawa-upgrade .wu-primary:hover { background:#303e60; color:#fff; }
+.wawa-upgrade .wu-hero { display:grid; grid-template-columns:1.13fr 1fr; gap:42px; align-items:center; padding-block:70px 60px; }
+.wawa-upgrade :is(.wu-hero h1,.wu-intro h1) { font:700 clamp(32px,3.8vw,48px)/1.4 var(--sans); letter-spacing:-.05em; margin-bottom:24px; }
+.wawa-upgrade h1 em { color:var(--wu-accent); font-style:normal; }
+.wawa-upgrade .wu-hero-art { align-self:center; border:1px solid #ebdbcb; background:#fff0e5; border-radius:24px 24px 72px 24px; overflow:hidden; }
+.wawa-upgrade .wu-hero-art img { width:100%; height:auto; display:block; }
+.wawa-upgrade .wu-hero-art figcaption { padding:0 24px 26px; color:#725132; text-align:center; font-size:14px; }
+.wawa-upgrade .wu-jump { display:flex; flex-wrap:wrap; gap:8px; border-top:1px solid #bec3cb; border-bottom:1px solid #bec3cb; padding:14px 0; }
+.wawa-upgrade .wu-jump a { min-height:44px; padding:9px 18px; display:flex; align-items:center; justify-content:center; font-size:14px; font-weight:700; border-radius:6px; background:#fffdfa; border:1px solid #e6e4dc; }
+.wawa-upgrade .wu-jump a:hover { border-color:#986621; background:#f7e9d6; }
+.wawa-upgrade .wu-grid { display:grid; gap:20px; }
+.wawa-upgrade .wu-three { grid-template-columns:repeat(3,minmax(0,1fr)); }
+.wawa-upgrade .wu-four { grid-template-columns:repeat(4,minmax(0,1fr)); }
+.wawa-upgrade .wu-card { min-width:0; padding:28px; border:1px solid var(--wu-line); border-radius:14px; background:var(--wu-paper); display:flex; flex-direction:column; }
+.wawa-upgrade .wu-label { display:block; color:var(--wu-accent); font-size:12px; font-weight:700; letter-spacing:.04em; margin-bottom:10px; }
+.wawa-upgrade .wu-card p { color:var(--wu-muted); margin:16px 0 20px; }
+.wawa-upgrade .wu-text-link { display:inline-flex; align-items:center; justify-content:space-between; gap:12px; min-height:44px; font-size:14px; font-weight:700; border-top:1px solid var(--wu-line); padding-block:12px 0; margin-top:auto; }
+.wawa-upgrade .wu-text-link:hover { text-decoration:underline; text-underline-offset:4px; }
+.wawa-upgrade .wu-split { display:grid; grid-template-columns:1fr 1fr; gap:48px; align-items:center; }
+.wawa-upgrade .wu-split .wu-heading { margin:0; }
+.wawa-upgrade .wu-split .wu-button { margin-top:24px; }
+.wawa-upgrade .wu-photo { min-width:0; }
+.wawa-upgrade .wu-photo img { display:block; width:100%; height:auto; border-radius:12px; }
+.wawa-upgrade .wu-photo figcaption { margin-top:12px; color:#586173; font-size:13px; line-height:1.7; }
+.wawa-upgrade .wu-video-card { display:flex; flex-direction:column; min-width:0; background:var(--wu-paper); border:1px solid var(--wu-line); border-radius:14px; overflow:hidden; }
+.wawa-upgrade .wu-video-player { position:relative; width:100%; aspect-ratio:4/3; background:#15181e; }
+.wawa-upgrade .wu-video-launch { display:block; position:relative; width:100%; height:100%; }
+.wawa-upgrade .wu-video-launch img { display:block; width:100%; height:auto; }
+.wawa-upgrade .wu-video-launch:focus-visible { outline-offset:-5px; }
+.wawa-upgrade .wu-play { position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); display:grid; place-items:center; width:56px; height:56px; padding-left:3px; border:1px solid #fff9; border-radius:50%; background:#1a2440ee; color:white; font-size:20px; }
+.wawa-upgrade .wu-video-launch:hover .wu-play { background:#a46523; }
+.wawa-upgrade .wu-video-player iframe { position:absolute; inset:0; width:100%; height:100%; border:0; }
+.wawa-upgrade .wu-video-copy { flex:1; display:flex; flex-direction:column; padding:24px; }
+.wawa-upgrade .wu-video-copy p { color:var(--wu-muted); margin:12px 0 18px; }
+.wawa-upgrade .wu-video-actions { display:flex; gap:12px; flex-wrap:wrap; align-items:center; justify-content:space-between; padding:10px 16px; background:#edf0f5; }
+.wawa-upgrade .wu-video-actions :is(a,button) { min-height:44px; padding:10px; font:700 14px/1.5 var(--sans); color:var(--wu-ink); border:1px solid #bdc5d0; border-radius:6px; background:white; cursor:pointer; }
+.wawa-upgrade .wu-ai-band { background:#e9edf3; }
+.wawa-upgrade .wu-ai-link { display:flex; flex-direction:column; position:relative; padding:24px; background:#fff; border:1px solid #d6dce5; border-radius:12px; }
+.wawa-upgrade .wu-ai-link:hover { border-color:#667795; }
+.wawa-upgrade .wu-ai-link>span { font-size:22px; font-weight:700; }
+.wawa-upgrade .wu-ai-link small { color:var(--wu-muted); font-size:14px; }
+.wawa-upgrade .wu-ai-link p { margin-top:14px; font-size:15px; color:var(--wu-muted); }
+.wawa-upgrade .wu-ai-link b { position:absolute; right:20px; top:22px; font-size:20px; }
+.wawa-upgrade .wu-breadcrumb { display:flex; gap:12px; padding-top:24px; font-size:13px; color:var(--wu-muted); }
+.wawa-upgrade .wu-breadcrumb a { text-decoration:underline; text-underline-offset:3px; }
+.wawa-upgrade .wu-intro { padding-block:40px 44px; }
+.wawa-upgrade .wu-pills { display:flex; flex-wrap:wrap; gap:8px; margin-top:24px; }
+.wawa-upgrade .wu-pills span { padding:5px 12px; background:#eeece6; border:1px solid var(--wu-line); border-radius:5px; font-size:13px; }
+.wawa-upgrade .wu-diagram img { max-width:540px; margin-inline:auto; }
+.wawa-upgrade .wu-steps { list-style:none; padding:0; margin:0; display:grid; gap:20px; }
+.wawa-upgrade .wu-steps li { display:flex; gap:16px; align-items:flex-start; padding-bottom:20px; border-bottom:1px solid var(--wu-line); }
+.wawa-upgrade .wu-step-num { flex:none; width:36px; height:36px; display:grid; place-items:center; background:#e8dfcd; border-radius:50%; color:#705021; font-size:13px; font-weight:700; }
+.wawa-upgrade .wu-steps h3 { font-size:18px; }
+.wawa-upgrade .wu-steps h3 small { font-size:16px; display:block; color:var(--wu-muted); font-weight:500; margin-top:3px; }
+.wawa-upgrade .wu-steps p { margin-top:8px; color:var(--wu-muted); }
+.wawa-upgrade .wu-feature { display:grid; grid-template-columns:1fr 1fr; gap:44px; padding:36px 0; border-top:1px solid #ced2cb; align-items:center; }
+.wawa-upgrade .wu-feature h3 { margin-bottom:16px; font-size:25px; }
+.wawa-upgrade .wu-feature>div>p { color:var(--wu-muted); }
+.wawa-upgrade .wu-feature .wu-prompt { margin-top:22px; padding:16px 20px; background:#fffdfa; border-left:3px solid #b48952; border-radius:0 8px 8px 0; font-size:14px; }
+.wawa-upgrade .wu-prompt strong { color:var(--wu-ink); font-weight:500; }
+.wawa-upgrade .wu-subnav { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:28px; }
+.wawa-upgrade .wu-subnav a { display:grid; place-items:center; min-height:44px; min-width:72px; padding:8px 18px; background:#e9edf3; border:1px solid #d6dce5; border-radius:7px; font-size:14px; font-weight:700; }
+.wawa-upgrade .wu-ai-programs { display:grid; gap:24px; }
+.wawa-upgrade .wu-program { display:grid; grid-template-columns:1fr 1fr; gap:40px; align-items:center; border:1px solid var(--wu-line); border-radius:16px; padding:32px; background:#fff; }
+.wawa-upgrade .wu-program h3 { font-size:27px; margin-bottom:16px; }
+.wawa-upgrade .wu-program-copy>p { color:var(--wu-muted); }
+.wawa-upgrade .wu-program ul { padding-left:20px; margin:18px 0 0; font-size:15px; }
+.wawa-upgrade .wu-program li+li { margin-top:6px; }
+.wawa-upgrade .wu-program .wu-photo img { width:100%; height:auto; margin-inline:auto; }
+.wawa-upgrade #ai-english .wu-photo img { max-width:375px; }
+.wawa-upgrade .wu-faq-list { border-top:1px solid #adb4c0; }
+.wawa-upgrade .wu-faq { border-bottom:1px solid #d4d7dd; }
+.wawa-upgrade .wu-faq summary { min-height:56px; display:flex; align-items:center; justify-content:space-between; gap:18px; list-style:none; cursor:pointer; padding:20px 4px; font-size:17px; font-weight:700; line-height:1.65; }
+.wawa-upgrade .wu-faq summary::-webkit-details-marker { display:none; }
+.wawa-upgrade .wu-faq summary::after { content:"+"; flex:none; font-size:24px; font-weight:400; color:#786139; }
+.wawa-upgrade .wu-faq[open] summary::after { content:"−"; }
+.wawa-upgrade .wu-faq>div { padding:0 24px 24px 4px; color:var(--wu-muted); font-size:16px; line-height:1.85; }
+.wawa-upgrade .wu-final { border:1px solid #ded5c5; border-radius:16px; padding:38px; margin-bottom:70px; background:#efe9df; }
+.wawa-upgrade .wu-sr { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip-path:inset(50%); white-space:nowrap; border:0; }
+/* Existing fees, centre links and contact destinations are retained. */
+.wawa-upgrade .section { width:min(1120px,calc(100% - 64px)); padding-block:64px; }
+.wawa-upgrade .section-head h2 { font:700 30px/1.45 var(--sans); margin-bottom:14px; }
+.wawa-upgrade .section-head p { font-size:16px; }
+.wawa-upgrade .faq-layout { max-width:850px; margin-inline:auto; }
+.wawa-upgrade .faq-question { font-size:16px; line-height:1.7; min-height:56px; padding:18px 20px; text-align:left; }
+.wawa-upgrade .faq-answer { display:block; font-size:16px; line-height:1.85; padding:0 20px 24px; }
+.wawa-upgrade .faq-answer[hidden] { display:none !important; }
+.wawa-upgrade .fee-table { overflow-x:auto; }
+.wawa-upgrade .fee-table h3 { font-size:16px; margin:16px 0; line-height:1.7; }
+.wawa-upgrade .fee-table table { font-size:14px; width:100%; min-width:280px; font-variant-numeric:tabular-nums; }
+.wawa-upgrade .fee-table :is(td,th) { padding:12px 5px; word-break:normal; white-space:nowrap; }
+.wawa-upgrade .notice { font-size:13px; line-height:1.8; }
+.wawa-upgrade .home-center-link { min-height:48px; display:grid; place-items:center; font-size:15px; }
+.wawa-upgrade .consult h2 { font:700 28px/1.4 var(--sans); margin-bottom:14px; }
+.wawa-upgrade .consult p { font-size:16px; }
+.wawa-upgrade .consult .button { min-height:48px; white-space:normal; text-align:center; }
+.wawa-upgrade .site-footer { font-size:14px; }
+.wawa-upgrade .site-header .nav-links a { height:44px !important; min-height:44px !important; max-height:none !important; }
+.wawa-upgrade .fab-call { background-color:#88601f !important; border-color:#88601f !important; }
+.wawa-upgrade .wawa-fab-item { min-height:46px !important; }
+@media (max-width:1120px) {
+  .wawa-upgrade main [id] { scroll-margin-top:176px; }
+  .wawa-upgrade .site-header { height:auto !important; min-height:146px !important; max-height:none !important; }
+  .wawa-upgrade .site-header .nav { height:auto !important; min-height:146px !important; max-height:none !important; padding:10px 0 !important; gap:10px !important; }
+  .wawa-upgrade .site-header .logo { font-size:16px !important; }
+  .wawa-upgrade .site-header .nav-links { grid-template-rows:repeat(2,44px) !important; height:auto !important; gap:3px !important; }
+  .wawa-upgrade .site-header .nav-links a { font-size:13px !important; }
+  .wawa-upgrade .wu-four { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .wawa-upgrade .wu-three { gap:14px; }
+  .wawa-upgrade .wu-card { padding:22px; }
+  .wawa-upgrade .wu-hero { gap:28px; }
+}
+@media (max-width:767px) {
+  .wawa-upgrade { padding-bottom:80px; }
+  .wawa-upgrade :is(.wu-wrap,.section) { width:calc(100% - 36px); }
+  .wawa-upgrade .wu-hero { grid-template-columns:1fr; gap:28px; padding-block:32px; }
+  .wawa-upgrade :is(.wu-hero h1,.wu-intro h1) { font-size:32px; line-height:1.42; letter-spacing:-.05em; margin-bottom:18px; }
+  .wawa-upgrade .wu-hero-art { max-width:400px; justify-self:center; border-radius:18px 18px 48px 18px; }
+  .wawa-upgrade .wu-hero-art figcaption { padding:0 16px 18px; font-size:13px; }
+  .wawa-upgrade .wu-lead { font-size:16px; line-height:1.85; }
+  .wawa-upgrade .wu-actions { gap:8px; }
+  .wawa-upgrade .wu-actions .wu-button { flex:1 1 170px; padding:12px 16px; }
+  .wawa-upgrade .wu-small { margin-top:16px; }
+  .wawa-upgrade .wu-section,.wawa-upgrade .wu-band { padding-block:48px; }
+  .wawa-upgrade .wu-heading { margin-bottom:24px; }
+  .wawa-upgrade .wu-heading h2,.wawa-upgrade .wu-final h2 { font-size:27px; }
+  .wawa-upgrade .wu-heading>p:not(.wu-kicker) { font-size:16px; }
+  .wawa-upgrade :is(.wu-three,.wu-split,.wu-feature,.wu-program) { grid-template-columns:1fr; }
+  .wawa-upgrade .wu-three { gap:16px; }
+  .wawa-upgrade .wu-split { gap:28px; }
+  .wawa-upgrade #learning-space .wu-heading { order:-1; }
+  .wawa-upgrade .wu-card { padding:24px; }
+  .wawa-upgrade .wu-jump { gap:8px; padding:12px 0; }
+  .wawa-upgrade .wu-jump a { flex:1 1 40%; padding:10px; }
+  .wawa-upgrade .wu-ai-link { padding:20px 16px; }
+  .wawa-upgrade .wu-ai-link>span { font-size:20px; }
+  .wawa-upgrade .wu-ai-link b { display:none; }
+  .wawa-upgrade .wu-ai-link p { font-size:14px; }
+  .wawa-upgrade .wu-four { gap:12px; }
+  .wawa-upgrade .wu-intro { padding-block:28px 32px; }
+  .wawa-upgrade .wu-feature { gap:24px; padding-block:28px; }
+  .wawa-upgrade .wu-feature>div { order:-1; }
+  .wawa-upgrade .wu-feature h3 { font-size:23px; }
+  .wawa-upgrade .wu-program { padding:24px; gap:24px; }
+  .wawa-upgrade .wu-program h3 { font-size:25px; }
+  .wawa-upgrade .wu-faq summary { font-size:16px; }
+  .wawa-upgrade .wu-final { padding:26px 24px; margin-bottom:40px; }
+  .wawa-upgrade .section { padding-block:48px; }
+  .wawa-upgrade .section-head h2 { font-size:27px; }
+  .wawa-upgrade .faq-question { padding:16px; }
+  .wawa-upgrade .faq-answer { padding:0 12px 20px; }
+  .wawa-upgrade .home-center-grid { grid-template-columns:repeat(3,minmax(0,1fr)); }
+  .wawa-upgrade .consult { padding:26px 20px; }
+  .wawa-upgrade .site-footer { padding:32px 18px; }
+  .wawa-upgrade .footer-logo { font-size:17px; line-height:1.7; }
+  .wawa-upgrade .wawa-fixed-fab-container { left:0 !important; right:0 !important; bottom:0 !important; width:100% !important; display:grid !important; grid-template-columns:repeat(3,minmax(0,1fr)) !important; gap:6px !important; padding:8px 10px calc(8px + env(safe-area-inset-bottom)) !important; border-top:1px solid #d4d7dd; background:#f7f6f2f5; }
+  .wawa-upgrade .wawa-fab-item { width:100% !important; min-width:0 !important; max-width:none !important; min-height:46px !important; font-size:13px !important; gap:5px !important; padding:10px 4px !important; }
+  .wawa-upgrade .pulse-effect { animation:none !important; }
+}
+@media (max-width:359px) {
+  .wawa-upgrade .site-header .nav-links a { font-size:12px !important; }
+  .wawa-upgrade :is(.wu-hero h1,.wu-intro h1) { font-size:29px; }
+  .wawa-upgrade .wu-four { grid-template-columns:1fr; }
+  .wawa-upgrade .wu-subnav { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:6px; }
+  .wawa-upgrade .wu-subnav a { min-width:0; padding:8px; }
+  .wawa-upgrade .wu-card,.wawa-upgrade .wu-program { padding:20px; }
+  .wawa-upgrade .fee-table table { min-width:0; font-size:13px; }
+  .wawa-upgrade .fee-table :is(td,th) { padding-inline:3px; }
+}
+@media (prefers-reduced-motion:reduce) {
+  html:has(.wawa-upgrade) { scroll-behavior:auto; }
+  .wawa-upgrade *, .wawa-upgrade *::before,.wawa-upgrade *::after { animation:none !important; transition:none !important; }
+}
