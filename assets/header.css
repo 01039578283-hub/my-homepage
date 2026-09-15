@@ -217,3 +217,17 @@
     font-size: 10px !important;
   }
 }
+
+/* Consistent, readable navigation on all existing routes. No menu links are hidden. */
+html body .site-header .nav .nav-links a {
+  min-height:44px!important; height:auto!important; max-height:none!important;
+  font-size:14px!important; line-height:1.5!important;
+}
+html body .site-header .nav .nav-links a:focus-visible { outline:3px solid #2166bf!important; outline-offset:2px!important; }
+@media (max-width:1120px) {
+  html body .site-header { height:auto!important; min-height:144px!important; max-height:none!important; }
+  html body .site-header .nav { width:calc(100% - 16px)!important; height:auto!important; min-height:144px!important; max-height:none!important; padding:8px 0!important; gap:8px!important; }
+  html body .site-header .nav .logo { min-height:28px!important; font-size:15px!important; }
+  html body .site-header .nav .nav-links { height:auto!important; grid-template-columns:repeat(4,minmax(0,1fr))!important; grid-template-rows:none!important; grid-auto-rows:minmax(44px,auto)!important; gap:4px 2px!important; }
+  html body .site-header .nav .nav-links a { padding:4px 0!important; letter-spacing:-.045em!important; white-space:normal!important; word-break:keep-all!important; overflow-wrap:anywhere!important; text-align:center!important; }
+}

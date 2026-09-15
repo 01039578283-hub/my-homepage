@@ -1,6 +1,6 @@
 (function () {
   function normalize(value) {
-    return (value || "").toString().trim().toLocaleLowerCase("ko-KR");
+    return (value || "").toString().trim().replace(/\s+/g, " ").toLocaleLowerCase("ko-KR");
   }
 
   function kindLabel(kind) {
@@ -236,6 +236,7 @@
     var activeLabel = document.querySelector("[data-center-active-label]");
     var help = document.querySelector("[data-center-results-help]");
     var empty = document.querySelector("[data-center-search-empty]");
+    var reset = document.querySelector("[data-center-search-reset]");
 
     if (!input || !results || !empty || !chips.length || !index.length) {
       return;
@@ -252,10 +253,16 @@
 
     function filteredItems() {
       var query = normalize(input.value);
+      var tokens = query ? query.split(" ") : [];
       return index.filter(function (item) {
         var regionMatch = activeRegion === "all" || item.region === activeRegion;
-        var queryMatch = !query || normalize(item.search).indexOf(query) !== -1;
+        var haystack = normalize(item.search);
+        var queryMatch = tokens.every(function (token) { return haystack.indexOf(token) !== -1; });
         return regionMatch && queryMatch;
+      }).sort(function (a, b) {
+        // Show the neighborhood's parent before subject/grade pages; never choose for the visitor.
+        var depthDifference = a.url.split("/").filter(Boolean).length - b.url.split("/").filter(Boolean).length;
+        return depthDifference || a.title.localeCompare(b.title, "ko-KR");
       });
     }
 
@@ -299,7 +306,7 @@
             results.appendChild(createResultCard(item));
           });
           if (activeLabel) activeLabel.textContent = selectedRegionLabel() + " 검색 결과";
-          if (help) help.textContent = "검색 결과를 선택하면 해당 센터 페이지로 이동합니다.";
+          if (help) help.textContent = items.length + "개 안내가 있습니다. 원하는 결과를 선택해 주세요.";
         }
       }
 
@@ -320,13 +327,24 @@
 
     input.addEventListener("input", render);
 
+    if (reset) {
+      reset.addEventListener("click", function () {
+        input.value = "";
+        activeRegion = "all";
+        chips.forEach(function (chip) {
+          var selected = chip.dataset.centerRegion === "all";
+          chip.classList.toggle("active", selected);
+          chip.setAttribute("aria-pressed", selected ? "true" : "false");
+        });
+        render();
+        input.focus();
+      });
+    }
+
     if (form) {
       form.addEventListener("submit", function (event) {
         event.preventDefault();
-        var first = results.querySelector("a");
-        if (first) {
-          window.location.href = first.href;
-        }
+        render();
       });
     }
 
