@@ -1,0 +1,97 @@
+{
+  "generatedAt": "2026-09-20",
+  "centerCount": 192,
+  "regionCount": 16,
+  "regionCounts": {
+    "서울": 23,
+    "경기": 91,
+    "인천": 9,
+    "부산": 5,
+    "대구": 15,
+    "광주": 6,
+    "대전": 8,
+    "울산": 4,
+    "세종": 1,
+    "강원": 6,
+    "충북": 6,
+    "충남": 6,
+    "전북": 3,
+    "경북": 5,
+    "경남": 3,
+    "제주": 1
+  },
+  "pageCount": 209,
+  "withPhotos": 192,
+  "withoutPhotos": [],
+  "withCenterPhotos": 96,
+  "withCommonPhotoFallback": 96,
+  "missingTargetMapping": [
+    "송파위례점",
+    "다산지금점",
+    "별가람점",
+    "옥길스타점",
+    "위례창곡점"
+  ],
+  "excluded": [
+    {
+      "sourceRow": "26",
+      "name": "다산점(W+)",
+      "reason": "기존 공개 지점안내 삭제 대상"
+    },
+    {
+      "sourceRow": "34",
+      "name": "대구역점2호관",
+      "reason": "기존 공개 지점안내 삭제 대상"
+    },
+    {
+      "sourceRow": "48",
+      "name": "둔산점(W+)",
+      "reason": "기존 공개 지점안내 삭제 대상"
+    },
+    {
+      "sourceRow": "104",
+      "name": "송도점(W+)",
+      "reason": "기존 공개 지점안내 삭제 대상"
+    },
+    {
+      "sourceRow": "113",
+      "name": "수지점(글로리드)",
+      "reason": "기존 공개 지점안내 삭제 대상"
+    },
+    {
+      "sourceRow": "114",
+      "name": "수지점(W+)",
+      "reason": "기존 공개 지점안내 삭제 대상"
+    },
+    {
+      "sourceRow": "152",
+      "name": "은평점(글로리드)",
+      "reason": "기존 공개 지점안내 삭제 대상"
+    },
+    {
+      "sourceRow": "153",
+      "name": "은평점(W+)",
+      "reason": "기존 공개 지점안내 삭제 대상"
+    },
+    {
+      "sourceRow": "169",
+      "name": "중동점(W+)",
+      "reason": "기존 공개 지점안내 삭제 대상"
+    },
+    {
+      "sourceRow": "200",
+      "name": "화정점(W+)",
+      "reason": "기존 공개 지점안내 삭제 대상"
+    },
+    {
+      "sourceRow": "202",
+      "name": "후곡점(W+)",
+      "reason": "기존 공개 지점안내 삭제 대상"
+    }
+  ],
+  "missingFiles": [],
+  "duplicateCanonicals": [],
+  "missingCanonicalCount": 0,
+  "missingH1Count": 0,
+  "brokenImages": []
+}
