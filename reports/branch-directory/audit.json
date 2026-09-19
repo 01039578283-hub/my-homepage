@@ -25,6 +25,8 @@
   "withoutPhotos": [],
   "withCenterPhotos": 96,
   "withCommonPhotoFallback": 96,
+  "withPrimaryMedia": 192,
+  "verifiedMapMatches": 192,
   "missingTargetMapping": [
     "송파위례점",
     "다산지금점",

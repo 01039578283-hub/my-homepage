@@ -13,6 +13,7 @@ from lxml import html
 
 ROOT = Path(__file__).resolve().parents[1]
 BRANCH_ROOT = ROOT / "지점안내"
+BRANCH_MANIFEST = ROOT / "tools" / "data" / "branch-directory" / "branches.json"
 DOMAIN = "wawa-center.kr"
 EXCLUDED_TERMS = ("(W+)", "글로리드", "대구역점2호관", "홍보 이미지")
 
@@ -32,6 +33,11 @@ def local_path_from_url(value: str) -> Path | None:
 
 
 def main() -> None:
+    branch_data = json.loads(BRANCH_MANIFEST.read_text(encoding="utf-8"))
+    centers_by_path = {
+        f'지점안내/{center["region"]}/{center["routeName"]}/index.html': center
+        for center in branch_data["centers"]
+    }
     files = sorted(BRANCH_ROOT.rglob("index.html"))
     errors: list[str] = []
     warnings: list[str] = []
@@ -40,6 +46,8 @@ def main() -> None:
     descriptions: list[str] = []
     branch_pages = 0
     region_pages = 0
+    primary_media_pages = 0
+    system_hub_pages = 0
 
     for file in files:
         relative = file.relative_to(ROOT).as_posix()
@@ -77,13 +85,82 @@ def main() -> None:
             if len(file.relative_to(BRANCH_ROOT).parts) == 3:
                 branch_pages += 1
                 article = next((item for item in graph if item.get("@type") == "Article"), None)
+                service = next((item for item in graph if item.get("@type") == "Service"), None)
+                academy = next((item for item in graph if item.get("@id", "").endswith("#academy")), None)
+                webpage = next((item for item in graph if item.get("@id", "").endswith("#webpage")), None)
                 if not article:
                     errors.append(f"{relative}: Article 없음")
                 elif article.get("abstract") != description:
                     errors.append(f"{relative}: Article abstract와 meta description 불일치")
+                elif len(article.get("image", [])) != 3:
+                    errors.append(f"{relative}: Article image 3종 미연결")
+                if not service:
+                    errors.append(f"{relative}: Service 없음")
+                if not academy or not academy.get("makesOffer"):
+                    errors.append(f"{relative}: EducationalOrganization makesOffer 없음")
+                if not webpage or not webpage.get("hasPart") or not webpage.get("primaryImageOfPage"):
+                    errors.append(f"{relative}: WebPage 관계 또는 대표 이미지 없음")
+                reviewed_properties = academy.get("additionalProperty", {}) if academy else {}
+                expected_center = centers_by_path.get(relative)
+                reviewed_at = expected_center.get("informationReviewedAt", "") if expected_center else ""
+                if not reviewed_at or reviewed_properties.get("value") != reviewed_at:
+                    errors.append(f"{relative}: 구조화 데이터 정보 확인 기준일 오류")
+                visible_reviewed = document.xpath('//dt[normalize-space()="정보 확인 기준일"]/following-sibling::dd[1]')
+                if not visible_reviewed or reviewed_at not in visible_reviewed[0].text_content():
+                    errors.append(f"{relative}: 표시 정보 확인 기준일 오류")
                 quick_answers = document.xpath('//section[contains(concat(" ", normalize-space(@class), " "), " branch-answer ")]//p[last()]/text()')
                 if not quick_answers or " ".join(quick_answers[0].split()) != description:
                     errors.append(f"{relative}: 첫 요약과 meta description 불일치")
+                primary_sections = document.xpath('//section[contains(concat(" ", normalize-space(@class), " "), " branch-primary-media ")]')
+                if len(primary_sections) != 1:
+                    errors.append(f"{relative}: 대표·본문·지도 섹션 수 {len(primary_sections)}")
+                else:
+                    primary_media_pages += 1
+                    primary = primary_sections[0]
+                    representative = primary.xpath('.//img[contains(concat(" ", normalize-space(@class), " "), " branch-representative-image ")]')
+                    body_images = primary.xpath('.//figure[contains(concat(" ", normalize-space(@class), " "), " branch-body-image ")]//img')
+                    map_images = primary.xpath('.//figure[contains(concat(" ", normalize-space(@class), " "), " branch-map-image ")]//img')
+                    if len(representative) != 1 or representative[0].get("style") != "display:none;":
+                        errors.append(f"{relative}: 숨김 대표이미지 형식 오류")
+                    if len(body_images) != 1 or len(map_images) != 1:
+                        errors.append(f"{relative}: 본문·지도 이미지 수 오류")
+                    pictures = primary.xpath('.//figure[contains(concat(" ", normalize-space(@class), " "), " branch-body-image ")]/picture')
+                    if len(pictures) != 1:
+                        errors.append(f"{relative}: 본문 반응형 picture 없음")
+                    else:
+                        source_types = set(pictures[0].xpath('.//source/@type'))
+                        srcsets = pictures[0].xpath('.//source/@srcset')
+                        if source_types != {"image/avif", "image/webp"} or len(srcsets) != 2:
+                            errors.append(f"{relative}: 본문 AVIF/WebP source 오류")
+                        for srcset in srcsets:
+                            for entry in srcset.split(','):
+                                src = entry.strip().split(' ', 1)[0]
+                                target = local_path_from_url(src)
+                                if target is not None and not target.exists():
+                                    errors.append(f"{relative}: 반응형 이미지 없음 {src}")
+                    ordered_images = primary.xpath('.//img')
+                    if len(ordered_images) != 3 or ordered_images != [*representative, *body_images, *map_images]:
+                        errors.append(f"{relative}: 대표→본문→지도 순서 오류")
+                    page_name = h1s[0] if h1s else ""
+                    for label, images in (("대표", representative), ("본문", body_images), ("지도", map_images)):
+                        if images:
+                            image = images[0]
+                            if page_name not in image.get("alt", "") or label not in image.get("alt", ""):
+                                errors.append(f"{relative}: {label} 이미지 ALT 개별화 오류")
+                            if not image.get("width") or not image.get("height"):
+                                errors.append(f"{relative}: {label} 이미지 크기 속성 없음")
+                    if raw.index('class="branch-primary-media"') > raw.index('class="branch-media'):
+                        errors.append(f"{relative}: 기본 이미지가 LEARNING SPACE 아래에 배치됨")
+                topic_links = document.xpath('//section[@id="learning-pages"]//a/@href')
+                expected_topic_count = len(expected_center.get("neighborhoods", [])) * 6 if expected_center else 0
+                if len(topic_links) != expected_topic_count:
+                    errors.append(f"{relative}: 동네별 하위 페이지 링크 수 {len(topic_links)} (예상 {expected_topic_count})")
+                item_list = next((item for item in graph if item.get("@id", "").endswith("#learning-pages")), None)
+                if expected_topic_count:
+                    if not item_list or item_list.get("numberOfItems") != expected_topic_count:
+                        errors.append(f"{relative}: 하위 페이지 ItemList 수 오류")
+                elif item_list:
+                    errors.append(f"{relative}: 연결 동네 없이 하위 페이지 ItemList 존재")
                 media_sections = document.xpath('//section[contains(concat(" ", normalize-space(@class), " "), " branch-media ")]')
                 if len(media_sections) != 1:
                     errors.append(f"{relative}: 학습 공간 이미지 섹션 수 {len(media_sections)}")
@@ -98,6 +175,21 @@ def main() -> None:
                         errors.append(f"{relative}: 학습 공간 안내 문구 없음")
             elif len(file.relative_to(BRANCH_ROOT).parts) == 2:
                 region_pages += 1
+                system_sections = document.xpath('//section[contains(concat(" ", normalize-space(@class), " "), " branch-system ")]')
+                if len(system_sections) != 1:
+                    errors.append(f"{relative}: 지역 허브 학습 시스템 섹션 수 {len(system_sections)}")
+                else:
+                    system_hub_pages += 1
+                visible_faqs = document.xpath('//section[@id="faq"]//details')
+                if len(visible_faqs) < 3:
+                    errors.append(f"{relative}: 지역 허브 FAQ 부족")
+
+        if len(file.relative_to(BRANCH_ROOT).parts) == 1:
+            system_sections = document.xpath('//section[contains(concat(" ", normalize-space(@class), " "), " branch-system ")]')
+            if len(system_sections) != 1:
+                errors.append(f"{relative}: 전국 허브 학습 시스템 섹션 수 {len(system_sections)}")
+            else:
+                system_hub_pages += 1
 
         for value in document.xpath("//img/@src"):
             target = local_path_from_url(value)
@@ -134,6 +226,8 @@ def main() -> None:
         "files": len(files),
         "branchPages": branch_pages,
         "regionPages": region_pages,
+        "primaryMediaPages": primary_media_pages,
+        "systemHubPages": system_hub_pages,
         "errors": errors,
         "warnings": warnings,
         "duplicateCounts": {key: len(value) for key, value in duplicates.items()},

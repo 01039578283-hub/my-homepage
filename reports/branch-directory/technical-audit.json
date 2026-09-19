@@ -1,7 +1,9 @@
 {
-  "files": 209,
+  "files": 2429,
   "branchPages": 192,
   "regionPages": 16,
+  "primaryMediaPages": 192,
+  "systemHubPages": 17,
   "errors": [],
   "warnings": [],
   "duplicateCounts": {

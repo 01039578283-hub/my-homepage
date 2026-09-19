@@ -1,0 +1,16 @@
+{
+  "pageCount": 2220,
+  "skippedCount": 6,
+  "responsiveBodyImagePages": 2220,
+  "informationReviewedPages": 2220,
+  "serviceSchemaPages": 2178,
+  "availableRecorded": 2178,
+  "availabilityConfirmationNeeded": 42,
+  "errors": [],
+  "warnings": [],
+  "duplicateCounts": {
+    "titles": 0,
+    "descriptions": 0,
+    "canonicals": 0
+  }
+}
