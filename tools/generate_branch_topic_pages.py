@@ -375,7 +375,8 @@ def update_sitemap(paths: list[str]) -> None:
     text = SITEMAP.read_text(encoding="utf-8")
     start = "  <!-- branch-topic-pages:start -->"
     end = "  <!-- branch-topic-pages:end -->"
-    text = re.sub(re.escape(start) + r".*?" + re.escape(end) + r"\s*", "", text, flags=re.S)
+    pattern = r"^[ \t]*" + re.escape(start.strip()) + r".*?" + re.escape(end.strip()) + r"[ \t]*(?:\r?\n|$)"
+    text = re.sub(pattern, "", text, flags=re.S | re.M)
     entries = [f"  <url>\n    <loc>{encoded_url(path)}</loc>\n    <lastmod>{TODAY}</lastmod>\n  </url>" for path in paths]
     block = start + "\n" + "\n".join(entries) + "\n" + end + "\n"
     text = text.replace("</urlset>", block + "</urlset>")

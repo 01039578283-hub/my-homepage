@@ -42,6 +42,7 @@ OUTPUT_ROOT = ROOT / "지점안내"
 MEDIA_ROOT = ROOT / "assets" / "branch-directory"
 DATA_ROOT = ROOT / "tools" / "data" / "branch-directory"
 REPORT_ROOT = ROOT / "reports" / "branch-directory"
+SUPPLEMENTAL_CENTERS_FILE = DATA_ROOT / "supplemental-centers.json"
 
 DOMAIN = "https://wawa-center.kr"
 PHONE_DISPLAY = "010-3957-8283"
@@ -330,6 +331,34 @@ def load_centers() -> tuple[list[dict[str, object]], list[dict[str, str]]]:
         }
         centers.append(center)
 
+    # A separately reviewed source can fill a workbook omission without
+    # changing the original workbook or borrowing a different branch's row.
+    supplemental = json.loads(SUPPLEMENTAL_CENTERS_FILE.read_text(encoding="utf-8"))["centers"]
+    for record in supplemental:
+        center = dict(record)
+        name = center["routeName"]
+        key = branch_key(name)
+        if name in EXCLUDED_NAMES or any(item["routeName"] == name for item in centers):
+            raise ValueError(f"추가 센터가 기존 또는 제외 센터와 중복됩니다: {name}")
+        mapped = target.get(key)
+        if not mapped or not mapped["neighborhoods"]:
+            raise ValueError(f"추가 센터의 타깃 동네가 없습니다: {name}")
+        if center["region"] != region_from_address(center["address"]):
+            raise ValueError(f"추가 센터의 주소와 지역이 다릅니다: {name}")
+        if not center.get("verifiedMediaKey") or not center.get("sourceProvenance"):
+            raise ValueError(f"추가 센터의 검증 출처가 없습니다: {name}")
+        center.update({
+            "sourceRow": None,
+            "sourceName": name,
+            "key": key,
+            "displayName": f'{center["brand"]} {name}',
+            "neighborhoods": list(mapped["neighborhoods"]),
+            "schools": mapped["schools"],
+            "photoSource": str(PHOTO_ROOT / name),
+            "photos": [],
+        })
+        centers.append(center)
+
     centers.sort(key=lambda item: (REGIONS.index(item["region"]), item["routeName"]))
     return centers, excluded
 
@@ -491,15 +520,24 @@ def import_primary_media(centers: list[dict[str, object]]) -> None:
             body_cache[body_name] = responsive_body_asset(body_source)
         body = body_cache[body_name]
 
-        media_key = f'center-row-{int(center["sourceRow"]):03d}'
+        media_key = center.get("verifiedMediaKey") or f'center-row-{int(center["sourceRow"]):03d}'
         map_spec = verified.get(media_key, {}).get("map")
         if not map_spec:
             raise RuntimeError(f'검증 지도 매칭이 없습니다: {center["routeName"]} ({media_key})')
+        if center.get("verifiedMediaKey"):
+            match = verified[media_key].get("mapMatch", {})
+            registration = re.sub(r"\D", "", center["registrationNumber"])
+            if (match.get("reviewStatus") != "confirmed"
+                    or match.get("centerName") != center["routeName"]
+                    or re.sub(r"\D", "", match.get("centerRegistrationNumber", "")) != registration):
+                raise RuntimeError(f'추가 센터 지도 검증 정보가 다릅니다: {center["routeName"]}')
         map_source = MAP_IMAGE_ROOT / Path(map_spec["src"]).name
         if not map_source.is_file():
             map_source = Path(map_spec["sourcePath"])
         if not map_source.is_file():
             raise FileNotFoundError(f'지도 파일을 찾을 수 없습니다: {center["routeName"]} / {map_source}')
+        if center.get("verifiedMediaKey") and hashlib.sha256(map_source.read_bytes()).hexdigest() != map_spec["sha256"]:
+            raise RuntimeError(f'추가 센터 지도 원본이 변경되었습니다: {center["routeName"]}')
         if map_source not in map_cache:
             map_cache[map_source] = copy_primary_asset(map_source, "maps")
         map_asset = map_cache[map_source]
@@ -508,7 +546,7 @@ def import_primary_media(centers: list[dict[str, object]]) -> None:
             "representative": representative,
             "body": body,
             "map": map_asset,
-            "mapMatch": "verified-center-source-row",
+            "mapMatch": "verified-reference-center" if center.get("verifiedMediaKey") else "verified-center-source-row",
         }
         center["informationReviewedAt"] = TODAY
 
@@ -1106,7 +1144,8 @@ def update_sitemap(paths: list[str]) -> None:
     text = sitemap.read_text(encoding="utf-8")
     start = "  <!-- branch-directory:start -->"
     end = "  <!-- branch-directory:end -->"
-    text = re.sub(re.escape(start) + r".*?" + re.escape(end) + r"\s*", "", text, flags=re.S)
+    pattern = r"^[ \t]*" + re.escape(start.strip()) + r".*?" + re.escape(end.strip()) + r"[ \t]*(?:\r?\n|$)"
+    text = re.sub(pattern, "", text, flags=re.S | re.M)
     entries = []
     for path in paths:
         entries.append(f"  <url>\n    <loc>{encoded_url(path)}</loc>\n    <lastmod>{TODAY}</lastmod>\n  </url>")
@@ -1123,7 +1162,7 @@ def write_manifest(centers: list[dict[str, object]], excluded: list[dict[str, st
         public.append(item)
     payload = {
         "generatedAt": TODAY,
-        "sources": [SOURCE_WORKBOOK.name, TARGET_WORKBOOK.name, PHOTO_ROOT.name],
+        "sources": [SOURCE_WORKBOOK.name, TARGET_WORKBOOK.name, PHOTO_ROOT.name, SUPPLEMENTAL_CENTERS_FILE.name],
         "routePattern": "/지점안내/{지역}/{지점명}/",
         "centers": public,
         "excluded": excluded,
@@ -1165,7 +1204,8 @@ def audit(centers: list[dict[str, object]], paths: list[str], excluded: list[dic
         "withCenterPhotos": sum(center.get("photoMode") == "center" for center in centers),
         "withCommonPhotoFallback": sum(center.get("photoMode") == "common" for center in centers),
         "withPrimaryMedia": sum(bool(center.get("primaryMedia")) for center in centers),
-        "verifiedMapMatches": sum(center.get("primaryMedia", {}).get("mapMatch") == "verified-center-source-row" for center in centers),
+        "verifiedMapMatches": sum(center.get("primaryMedia", {}).get("mapMatch") in {"verified-center-source-row", "verified-reference-center"} for center in centers),
+        "supplementalCenters": [center["routeName"] for center in centers if center.get("verifiedMediaKey")],
         "missingTargetMapping": [center["routeName"] for center in centers if not center["neighborhoods"]],
         "excluded": excluded,
         "missingFiles": missing,
@@ -1184,13 +1224,13 @@ def audit(centers: list[dict[str, object]], paths: list[str], excluded: list[dic
 def main() -> None:
     for required in (
         SOURCE_WORKBOOK, TARGET_WORKBOOK, PHOTO_ROOT, COMMON_PHOTO_ROOT,
-        REPRESENTATIVE_ROOT, BODY_IMAGE_ROOT, MAP_IMAGE_ROOT, VERIFIED_MEDIA_MANIFEST,
+        REPRESENTATIVE_ROOT, BODY_IMAGE_ROOT, MAP_IMAGE_ROOT, VERIFIED_MEDIA_MANIFEST, SUPPLEMENTAL_CENTERS_FILE,
     ):
         if not required.exists():
             raise FileNotFoundError(required)
     centers, excluded = load_centers()
-    if len(centers) != 192:
-        raise RuntimeError(f"검토된 센터 수가 예상과 다릅니다: {len(centers)} (예상 192)")
+    if len(centers) != 193:
+        raise RuntimeError(f"검토된 센터 수가 예상과 다릅니다: {len(centers)} (예상 193)")
 
     import_media(centers)
     import_primary_media(centers)

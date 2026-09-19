@@ -1,10 +1,10 @@
 {
   "generatedAt": "2026-09-20",
-  "centerCount": 192,
+  "centerCount": 193,
   "regionCount": 16,
   "regionCounts": {
     "서울": 23,
-    "경기": 91,
+    "경기": 92,
     "인천": 9,
     "부산": 5,
     "대구": 15,
@@ -20,13 +20,16 @@
     "경남": 3,
     "제주": 1
   },
-  "pageCount": 209,
-  "withPhotos": 192,
+  "pageCount": 210,
+  "withPhotos": 193,
   "withoutPhotos": [],
   "withCenterPhotos": 96,
-  "withCommonPhotoFallback": 96,
-  "withPrimaryMedia": 192,
-  "verifiedMapMatches": 192,
+  "withCommonPhotoFallback": 97,
+  "withPrimaryMedia": 193,
+  "verifiedMapMatches": 193,
+  "supplementalCenters": [
+    "화성태안점"
+  ],
   "missingTargetMapping": [
     "송파위례점",
     "다산지금점",

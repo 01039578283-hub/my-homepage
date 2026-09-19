@@ -17,8 +17,8 @@ BRANCH_MANIFEST = ROOT / "tools" / "data" / "branch-directory" / "branches.json"
 SITEMAP = ROOT / "sitemap.xml"
 REPORT = ROOT / "reports" / "branch-topic-pages" / "technical-audit.json"
 DOMAIN = "https://wawa-center.kr"
-EXPECTED_PAGES = 2220
-EXPECTED_SKIPPED = 6
+EXPECTED_PAGES = 2226
+EXPECTED_SKIPPED = 0
 TOPICS = [
     ("초등", "수학"), ("초등", "영어"),
     ("중등", "수학"), ("중등", "영어"),
@@ -87,11 +87,16 @@ def main() -> None:
         errors.append(f"생성 페이지 수 오류: manifest={data.get('pageCount')} list={len(pages)}")
     if data.get("skippedCount") != EXPECTED_SKIPPED or len(skipped) != EXPECTED_SKIPPED:
         errors.append(f"제외 페이지 수 오류: manifest={data.get('skippedCount')} list={len(skipped)}")
-    if any(item.get("locality") != "화성태안" for item in skipped):
-        errors.append("제외 항목에 화성태안 이외 지역 포함")
-    skipped_topics = {(item.get("level"), item.get("subject")) for item in skipped}
-    if skipped_topics != set(TOPICS):
-        errors.append(f"화성태안 제외 주제 구성이 다름: {sorted(skipped_topics)}")
+    if data.get("sourceManuscriptCount") != len(pages):
+        errors.append("원고 수와 생성 페이지 수가 다름")
+    locality_counts = Counter(item.get("locality") for item in pages)
+    if len(locality_counts) != 371 or any(count != len(TOPICS) for count in locality_counts.values()):
+        errors.append("371개 동네별 6개 주제 구성이 다름")
+    taean_pages = [item for item in pages if item.get("locality") == "화성태안"]
+    if {(item.get("level"), item.get("subject")) for item in taean_pages} != set(TOPICS):
+        errors.append("화성태안의 6개 주제 중 누락 또는 중복")
+    if any(item.get("center") != "화성태안점" for item in taean_pages):
+        errors.append("화성태안 원고가 다른 지점에 연결됨")
 
     expected_paths = {item["path"] for item in pages}
     if len(expected_paths) != len(pages):

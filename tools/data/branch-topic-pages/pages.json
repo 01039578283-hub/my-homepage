@@ -1,8 +1,8 @@
 {
   "generatedAt": "2026-09-20",
-  "pageCount": 2220,
+  "pageCount": 2226,
   "sourceManuscriptCount": 2226,
-  "skippedCount": 6,
+  "skippedCount": 0,
   "pages": [
     {
       "path": "/지점안내/충북/가경점/가경동고등수학학원/",
@@ -24095,6 +24095,72 @@
       "informationReviewedAt": "2026-09-20"
     },
     {
+      "path": "/지점안내/경기/화성태안점/화성태안고등수학학원/",
+      "file": "지점안내\\경기\\화성태안점\\화성태안고등수학학원\\index.html",
+      "title": "화성태안 고등 수학학원",
+      "locality": "화성태안",
+      "level": "고등",
+      "subject": "수학",
+      "center": "화성태안점",
+      "availableInCenterData": false,
+      "informationReviewedAt": "2026-09-20"
+    },
+    {
+      "path": "/지점안내/경기/화성태안점/화성태안고등영어학원/",
+      "file": "지점안내\\경기\\화성태안점\\화성태안고등영어학원\\index.html",
+      "title": "화성태안 고등 영어학원",
+      "locality": "화성태안",
+      "level": "고등",
+      "subject": "영어",
+      "center": "화성태안점",
+      "availableInCenterData": true,
+      "informationReviewedAt": "2026-09-20"
+    },
+    {
+      "path": "/지점안내/경기/화성태안점/화성태안중등수학학원/",
+      "file": "지점안내\\경기\\화성태안점\\화성태안중등수학학원\\index.html",
+      "title": "화성태안 중등 수학학원",
+      "locality": "화성태안",
+      "level": "중등",
+      "subject": "수학",
+      "center": "화성태안점",
+      "availableInCenterData": true,
+      "informationReviewedAt": "2026-09-20"
+    },
+    {
+      "path": "/지점안내/경기/화성태안점/화성태안중등영어학원/",
+      "file": "지점안내\\경기\\화성태안점\\화성태안중등영어학원\\index.html",
+      "title": "화성태안 중등 영어학원",
+      "locality": "화성태안",
+      "level": "중등",
+      "subject": "영어",
+      "center": "화성태안점",
+      "availableInCenterData": true,
+      "informationReviewedAt": "2026-09-20"
+    },
+    {
+      "path": "/지점안내/경기/화성태안점/화성태안초등수학학원/",
+      "file": "지점안내\\경기\\화성태안점\\화성태안초등수학학원\\index.html",
+      "title": "화성태안 초등 수학학원",
+      "locality": "화성태안",
+      "level": "초등",
+      "subject": "수학",
+      "center": "화성태안점",
+      "availableInCenterData": true,
+      "informationReviewedAt": "2026-09-20"
+    },
+    {
+      "path": "/지점안내/경기/화성태안점/화성태안초등영어학원/",
+      "file": "지점안내\\경기\\화성태안점\\화성태안초등영어학원\\index.html",
+      "title": "화성태안 초등 영어학원",
+      "locality": "화성태안",
+      "level": "초등",
+      "subject": "영어",
+      "center": "화성태안점",
+      "availableInCenterData": true,
+      "informationReviewedAt": "2026-09-20"
+    },
+    {
       "path": "/지점안내/경기/화정점/화정동고등수학학원/",
       "file": "지점안내\\경기\\화정점\\화정동고등수학학원\\index.html",
       "title": "화정동 고등 수학학원",
@@ -24425,48 +24491,5 @@
       "informationReviewedAt": "2026-09-20"
     }
   ],
-  "skipped": [
-    {
-      "locality": "화성태안",
-      "level": "고등",
-      "subject": "수학",
-      "title": "화성태안 고등 수학학원",
-      "reason": "현재 지점 원본에 대응 센터가 없음"
-    },
-    {
-      "locality": "화성태안",
-      "level": "고등",
-      "subject": "영어",
-      "title": "화성태안 고등 영어학원",
-      "reason": "현재 지점 원본에 대응 센터가 없음"
-    },
-    {
-      "locality": "화성태안",
-      "level": "중등",
-      "subject": "수학",
-      "title": "화성태안 중등 수학학원",
-      "reason": "현재 지점 원본에 대응 센터가 없음"
-    },
-    {
-      "locality": "화성태안",
-      "level": "중등",
-      "subject": "영어",
-      "title": "화성태안 중등 영어학원",
-      "reason": "현재 지점 원본에 대응 센터가 없음"
-    },
-    {
-      "locality": "화성태안",
-      "level": "초등",
-      "subject": "수학",
-      "title": "화성태안 초등 수학학원",
-      "reason": "현재 지점 원본에 대응 센터가 없음"
-    },
-    {
-      "locality": "화성태안",
-      "level": "초등",
-      "subject": "영어",
-      "title": "화성태안 초등 영어학원",
-      "reason": "현재 지점 원본에 대응 센터가 없음"
-    }
-  ]
+  "skipped": []
 }

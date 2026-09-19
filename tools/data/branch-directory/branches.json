@@ -3,7 +3,8 @@
   "sources": [
     "코칭센터_데이터_.xlsx",
     "타깃학교 v2.xlsx",
-    "센터별 사진"
+    "센터별 사진",
+    "supplemental-centers.json"
   ],
   "routePattern": "/지점안내/{지역}/{지점명}/",
   "centers": [
@@ -17382,6 +17383,165 @@
           "sha256": "13ff4f2009bbad4bba92bb66aca35c41406b7da66389f5097aa58c9f59657514"
         },
         "mapMatch": "verified-center-source-row"
+      },
+      "informationReviewedAt": "2026-09-20"
+    },
+    {
+      "routeName": "화성태안점",
+      "brand": "와와학습코칭센터",
+      "region": "경기",
+      "district": "화성시",
+      "address": "경기 화성시 병점중앙로 87 408호",
+      "locationGuide": "병점고등학교 맞은편 건물 4층 408호입니다. 방문 전 출입구와 입실 방법을 확인해 주세요.",
+      "registeredName": "화성태안점와와학습코칭학원",
+      "registrationNumber": "경기도화성오산교육지원청 제4750호",
+      "registrationDate": "",
+      "subjects": {
+        "국어": [
+          "초3",
+          "초4",
+          "초5",
+          "초6"
+        ],
+        "영어": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "수학": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3"
+        ]
+      },
+      "openingReference": "평일 오후 1시 이후",
+      "weekend": "주말 정규 수업은 운영하지 않습니다. 변동 여부는 상담에서 확인해 주세요.",
+      "managementPoints": [
+        [
+          "수준별 교재와 학습량",
+          "현재 이해도에 맞춘 교재 선택과 개별 학습자료 활용이 안내돼 있습니다. 상담할 때 사용 중인 교재와 최근 풀이를 함께 준비해 주세요."
+        ],
+        [
+          "학교 평가 준비",
+          "수행평가와 학교 시험 대비를 함께 관리하는 과정이 안내돼 있습니다. 평가 일정과 범위를 알려주면 우선할 내용을 구체적으로 상담할 수 있습니다."
+        ],
+        [
+          "보호자와 학습 소통",
+          "학생별 학습 진행 상황을 보호자와 공유하는 방식이 안내돼 있습니다. 기록의 내용과 공유 주기는 상담에서 확인해 주세요."
+        ]
+      ],
+      "verifiedMediaKey": "reference-경기-화성태안점",
+      "sourceProvenance": {
+        "reviewedAt": "2026-09-20",
+        "website": "https://xn--9p4bn5e3wjn0a.com/지점안내/경기/화성태안점/",
+        "websiteFields": [
+          "지점명",
+          "등록번호",
+          "과목별 학년",
+          "평일·주말 운영",
+          "학습관리 항목"
+        ],
+        "addressSource": "C:\\Users\\1992k\\Desktop\\홈페이지 정리\\참고자료\\공통자료\\센터정보 정리.csv",
+        "addressSourceLocality": "화성태안",
+        "mapSource": "C:\\Users\\1992k\\Desktop\\WAWA 지도 모음 및 주소\\3 지방 지도\\화성-병점-태안.jpg",
+        "mapSha256": "225f9d6b8938d064c22435c4371bd06a91f7be464386c46ea1cf150e6432a2f9",
+        "notes": "사용자가 지정한 영수코칭 지점안내와 기존 제공 CSV 및 지도 등록번호를 대조했습니다. 병점점(제4050호)과 구분합니다. 고등 수학은 참고 사이트·CSV에 개설 기록이 없어 상담 확인으로 표시합니다."
+      },
+      "sourceRow": null,
+      "sourceName": "화성태안점",
+      "key": "화성태안점",
+      "displayName": "와와학습코칭센터 화성태안점",
+      "neighborhoods": [
+        "화성태안"
+      ],
+      "schools": {
+        "초등": [
+          "병점초등학교",
+          "송화초등학교",
+          "태안초등학교"
+        ],
+        "중등": [
+          "병점중학교",
+          "안용중학교",
+          "안화중학교"
+        ],
+        "고등": [
+          "병점고등학교",
+          "안화고등학교"
+        ]
+      },
+      "photos": [
+        "/assets/branch-directory/common/center-02.webp",
+        "/assets/branch-directory/common/center-03.webp",
+        "/assets/branch-directory/common/center-04.webp",
+        "/assets/branch-directory/common/center-01.webp"
+      ],
+      "photoMode": "common",
+      "primaryMedia": {
+        "representative": {
+          "src": "/assets/branch-directory/representative/b1255f2957615ed0.gif",
+          "width": 511,
+          "height": 511,
+          "sha256": "b1255f2957615ed0ad830c1787864a30e7e80213012cd749432f00510fd546a3"
+        },
+        "body": {
+          "src": "/assets/branch-directory/body/7edd93a2e4756935.jpg",
+          "width": 918,
+          "height": 16116,
+          "sha256": "7edd93a2e47569352cb88f07dca76a3c71912739b96fb492e2a31b816672983e",
+          "variants": {
+            "avif": [
+              {
+                "src": "/assets/branch-directory/body/7edd93a2e4756935-480.avif",
+                "width": 480
+              },
+              {
+                "src": "/assets/branch-directory/body/7edd93a2e4756935-768.avif",
+                "width": 768
+              },
+              {
+                "src": "/assets/branch-directory/body/7edd93a2e4756935-918.avif",
+                "width": 918
+              }
+            ],
+            "webp": [
+              {
+                "src": "/assets/branch-directory/body/7edd93a2e4756935-480.webp",
+                "width": 480
+              },
+              {
+                "src": "/assets/branch-directory/body/7edd93a2e4756935-768.webp",
+                "width": 768
+              },
+              {
+                "src": "/assets/branch-directory/body/7edd93a2e4756935-918.webp",
+                "width": 918
+              }
+            ]
+          }
+        },
+        "map": {
+          "src": "/assets/branch-directory/maps/225f9d6b8938d064.jpg",
+          "width": 590,
+          "height": 696,
+          "sha256": "225f9d6b8938d064c22435c4371bd06a91f7be464386c46ea1cf150e6432a2f9"
+        },
+        "mapMatch": "verified-reference-center"
       },
       "informationReviewedAt": "2026-09-20"
     },
