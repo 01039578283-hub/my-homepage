@@ -22,5 +22,6 @@
       "permanent": true
     }
   ],
-  "buildCommand": "node wawa-analytics-build.mjs wawa-01 ."
+  "buildCommand": "node wawa-analytics-build.mjs wawa-01 .",
+  "outputDirectory": "."
 }
