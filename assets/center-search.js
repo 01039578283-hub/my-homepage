@@ -1,6 +1,7 @@
 (function () {
   function normalize(value) {
-    return (value || "").toString().trim().replace(/\s+/g, " ").toLocaleLowerCase("ko-KR");
+    return (value || "").toString().trim().replace(/\s+/g, " ").toLocaleLowerCase("ko-KR")
+      .replace(/초등학생/g, "초등").replace(/중학생/g, "중등").replace(/고등학생/g, "고등");
   }
 
   function kindLabel(kind) {
@@ -243,6 +244,8 @@
     }
 
     var activeRegion = "all";
+    // Normalize once instead of repeating Korean string conversion for every keystroke.
+    var searchText = new Map(index.map(function (item) { return [item, normalize(item.search)]; }));
 
     function selectedRegionLabel() {
       var selected = chips.find(function (chip) {
@@ -256,7 +259,7 @@
       var tokens = query ? query.split(" ") : [];
       return index.filter(function (item) {
         var regionMatch = activeRegion === "all" || item.region === activeRegion;
-        var haystack = normalize(item.search);
+        var haystack = searchText.get(item);
         var queryMatch = tokens.every(function (token) { return haystack.indexOf(token) !== -1; });
         return regionMatch && queryMatch;
       }).sort(function (a, b) {
@@ -269,7 +272,7 @@
     function render() {
       var rawQuery = input.value.trim();
       var query = normalize(rawQuery);
-      var items = filteredItems();
+      var items = [];
       results.innerHTML = "";
 
       if (!query && activeRegion === "all") {
@@ -302,6 +305,7 @@
           if (activeLabel) activeLabel.textContent = rawQuery + " 관련 지역";
           if (help) help.textContent = "검색어와 연결된 지역 카드에서 하위 동네를 함께 확인할 수 있습니다.";
         } else {
+          items = filteredItems();
           items.forEach(function (item) {
             results.appendChild(createResultCard(item));
           });

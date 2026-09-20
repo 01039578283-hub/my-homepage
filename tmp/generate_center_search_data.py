@@ -1,6 +1,7 @@
 import html
 import json
 import re
+import sys
 from pathlib import Path
 
 ROOT = Path.cwd()
@@ -86,6 +87,9 @@ def main():
         + ";\n",
         encoding="utf-8",
     )
+    sys.path.insert(0, str(ROOT / 'tools'))
+    from compact_center_search import DEST, render
+    DEST.write_text(render(items), encoding='utf-8', newline='\n')
     print(f"items={len(items)}")
     print(OUT.relative_to(ROOT))
 

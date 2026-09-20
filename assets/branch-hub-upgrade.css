@@ -1,17 +1,4 @@
-/* Scoped to reviewed branch pages and their main navigation entry points. */
-html body .site-header[data-branch-navigation="expanded"] .nav-links { gap:12px!important; }
-@media (min-width:1121px) and (max-width:1360px) {
-  html body .site-header[data-branch-navigation="expanded"] .brand-tail { display:none!important; }
-  html body .site-header[data-branch-navigation="expanded"] .nav-links { gap:9px!important; }
-}
-@media (max-width:1120px) {
-  html body .site-header[data-branch-navigation="expanded"] .nav .nav-links { grid-template-columns:repeat(5,minmax(0,1fr))!important; }
-}
-@media (max-width:600px) {
-  html body .site-header[data-branch-navigation="expanded"] .nav .nav-links { grid-template-columns:repeat(3,minmax(0,1fr))!important; gap:2px 4px!important; }
-  html body .site-header[data-branch-navigation="expanded"] .nav .nav-links a { min-height:44px!important; font-size:14px!important; }
-  html:has([data-branch-navigation="expanded"]) { scroll-padding-top:216px; }
-}
+/* Branch learning content only; navigation is owned by assets/header.css. */
 .branch-directory-page .hub-text-link { color:#76501d; text-decoration:underline; text-underline-offset:4px; font-weight:700; }
 .branch-directory-page .hub-text-link:hover { color:#1a2440; }
 .branch-directory-page a:focus-visible { outline:3px solid #2166bf; outline-offset:4px; }

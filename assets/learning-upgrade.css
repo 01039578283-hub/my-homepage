@@ -118,16 +118,10 @@
 .wawa-upgrade .consult p { font-size:16px; }
 .wawa-upgrade .consult .button { min-height:48px; white-space:normal; text-align:center; }
 .wawa-upgrade .site-footer { font-size:14px; }
-.wawa-upgrade .site-header .nav-links a { height:44px !important; min-height:44px !important; max-height:none !important; }
 .wawa-upgrade .fab-call { background-color:#88601f !important; border-color:#88601f !important; }
 .wawa-upgrade .wawa-fab-item { min-height:46px !important; }
 @media (max-width:1120px) {
   .wawa-upgrade main [id] { scroll-margin-top:176px; }
-  .wawa-upgrade .site-header { height:auto !important; min-height:146px !important; max-height:none !important; }
-  .wawa-upgrade .site-header .nav { height:auto !important; min-height:146px !important; max-height:none !important; padding:10px 0 !important; gap:10px !important; }
-  .wawa-upgrade .site-header .logo { font-size:16px !important; }
-  .wawa-upgrade .site-header .nav-links { grid-template-rows:repeat(2,44px) !important; height:auto !important; gap:3px !important; }
-  .wawa-upgrade .site-header .nav-links a { font-size:13px !important; }
   .wawa-upgrade .wu-four { grid-template-columns:repeat(2,minmax(0,1fr)); }
   .wawa-upgrade .wu-three { gap:14px; }
   .wawa-upgrade .wu-card { padding:22px; }
@@ -181,7 +175,6 @@
   .wawa-upgrade .pulse-effect { animation:none !important; }
 }
 @media (max-width:359px) {
-  .wawa-upgrade .site-header .nav-links a { font-size:12px !important; }
   .wawa-upgrade :is(.wu-hero h1,.wu-intro h1) { font-size:29px; }
   .wawa-upgrade .wu-four { grid-template-columns:1fr; }
   .wawa-upgrade .wu-subnav { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:6px; }

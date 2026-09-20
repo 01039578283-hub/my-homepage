@@ -14,15 +14,12 @@ from urllib.parse import quote
 from branch_course_guidance import course_guidance
 from branch_learning_routes import guide_label, paired_routes
 from branch_manuscript_editorial import learning_points
+from site_navigation import NAV, unify_header
 
 ROOT = Path(__file__).resolve().parents[1]
 DOMAIN = "https://wawa-center.kr"
-STYLE = '/assets/branch-hub-upgrade.css?v=20260920'
+STYLE = '/assets/branch-hub-upgrade.css?v=20260920-nav1'
 LEVELS = (("초등", "초"), ("중등", "중"), ("고등", "고"))
-NAV = (("홈", "/"), ("학원소개", "/overview/"), ("학습가이드", "/guide/"),
-       ("교육정보", "/교육정보/"), ("학부모후기", "/학부모후기/"),
-       ("과목별학원", "/과목별학원/"), ("학년별학원", "/학년별학원/"),
-       ("전국센터", "/center/"), ("지점안내", "/지점안내/"))
 PRACTICE = {
     ("초등", "영어"): "소리 내어 읽은 문장과 뜻을 설명하기 어려운 문장을 나누어 보세요. 단어 암기량만 늘리기 전에 읽기와 이해 중 어디에서 막히는지 찾는 데 도움이 됩니다.",
     ("초등", "수학"): "계산은 맞았지만 설명하지 못한 문제와 문장의 조건을 놓친 문제를 따로 표시해 보세요. 풀이를 말로 설명한 뒤 비슷한 문제를 혼자 풀어 보는 순서로 준비할 수 있습니다.",
@@ -71,13 +68,8 @@ def update_graph(raw, callback):
 
 
 def upgrade_header(raw, active="/지점안내/"):
-    links = ''.join(f'<a href="{href}"{(" class=\"active\" aria-current=\"page\"" if href == active else "")}>{name}</a>' for name, href in NAV)
-    header = ('<header class="site-header" data-branch-navigation="expanded"><nav class="nav" aria-label="주요 메뉴">'
-              '<a class="logo" href="/"><span class="brand-orange">와와</span>학습<span class="brand-orange">코칭</span>센터 '
-              '<span class="brand-tail">영어수학 전문학원</span></a>'
-              f'<div class="nav-links" aria-label="페이지 이동">{links}</div></nav></header>')
-    raw = replace_block(raw, "header", "class", "site-header", header) if 'data-branch-navigation="expanded"' not in raw else re.sub(r'<header\b[^>]*data-branch-navigation="expanded"[^>]*>.*?</header>', lambda _: header, raw, count=1, flags=re.S)
-    if STYLE not in raw:
+    raw = unify_header(raw, active)
+    if active.startswith('/지점안내/') and STYLE not in raw:
         if raw.count('</head>') != 1:
             raise ValueError("Missing head")
         raw = raw.replace('</head>', f'<link rel="stylesheet" href="{STYLE}">\n</head>', 1)
