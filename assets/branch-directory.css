@@ -1473,3 +1473,14 @@ body.branch-directory-page {
     overflow-wrap: anywhere;
   }
 }
+
+.branch-page-dates {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 16px;
+  margin: 24px 0 8px;
+  color: #596573;
+  font-size: 13px;
+  line-height: 1.7;
+}
+.branch-page-dates span { white-space: nowrap; }

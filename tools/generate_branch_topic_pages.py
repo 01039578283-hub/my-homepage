@@ -21,6 +21,7 @@ from branch_course_guidance import course_answer, course_guidance
 from branch_manuscript_editorial import edit_manuscript
 from branch_page_summaries import topic_summaries, validate_summaries
 from branch_learning_routes import upgrade_page
+from branch_seo import finalize_page, page_dates, save_dates
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -261,7 +262,7 @@ def schema_graph(center: dict[str, object], item: dict[str, object], path: str, 
         {"@type": "WebPage", "@id": page_url + "#webpage", "url": page_url, "name": item["title"], "description": item["description"], "inLanguage": "ko-KR", "isPartOf": {"@id": DOMAIN + "/#website"}, "breadcrumb": {"@id": page_url + "#breadcrumb"}, "mainEntity": {"@id": page_url + "#article"}, "primaryImageOfPage": {"@type": "ImageObject", "url": image_urls[0]}, "about": [{"@id": academy_id}, {"@type": "Place", "name": item["locality"]}, {"@type": "Thing", "name": f'{item["level"]} {item["subject"]} 학습'}], "mentions": [{"@type": "Place", "name": center["region"]}, {"@type": "Place", "name": center["district"]}, {"@type": "Thing", "name": "학습 진단"}, {"@type": "Thing", "name": "오답 재학습"}]},
         {"@type": "BreadcrumbList", "@id": page_url + "#breadcrumb", "itemListElement": [{"@type": "ListItem", "position": index + 1, "name": name, "item": encoded_url(url)} for index, (name, url) in enumerate(crumbs)]},
         {"@type": ["EducationalOrganization", "LocalBusiness"], "@id": academy_id, "name": center["displayName"], "legalName": center["registeredName"], "url": parent_url, "address": {"@type": "PostalAddress", "streetAddress": center["address"], "addressRegion": center["region"], "addressLocality": center["district"], "addressCountry": "KR"}, "identifier": center["registrationNumber"], "areaServed": [{"@type": "Place", "name": name} for name in center["neighborhoods"]], "additionalProperty": {"@type": "PropertyValue", "name": "센터 정보 확인 기준일", "value": center["informationReviewedAt"]}},
-        {"@type": "Article", "@id": page_url + "#article", "headline": item["title"], "description": item["description"], "abstract": item["abstract"], "inLanguage": "ko-KR", "datePublished": TODAY, "dateModified": TODAY, "mainEntityOfPage": {"@id": page_url + "#webpage"}, "author": {"@id": DOMAIN + "/#organization"}, "publisher": {"@id": DOMAIN + "/#organization"}, "about": [{"@type": "Place", "name": item["locality"]}, {"@type": "Thing", "name": f'{item["level"]} {item["subject"]} 학습'}], "articleSection": [section["heading"] for section in item["sections"]], "image": image_urls},
+        {"@type": "Article", "@id": page_url + "#article", "headline": item["title"], "description": item["description"], "abstract": item["abstract"], "inLanguage": "ko-KR", **page_dates(path), "mainEntityOfPage": {"@id": page_url + "#webpage"}, "author": {"@id": DOMAIN + "/#organization"}, "publisher": {"@id": DOMAIN + "/#organization"}, "about": [{"@type": "Place", "name": item["locality"]}, {"@type": "Thing", "name": f'{item["level"]} {item["subject"]} 학습'}], "articleSection": [section["heading"] for section in item["sections"]], "image": image_urls},
         {"@type": "FAQPage", "@id": page_url + "#faq", "mainEntity": [{"@type": "Question", "name": faq["question"], "acceptedAnswer": {"@type": "Answer", "text": faq["answer"]}} for faq in item["faq"]]},
         {"@type": "ItemList", "@id": page_url + "#related-pages", "name": f'{item["title"]} 관련 안내', "numberOfItems": len(related_schema), "itemListElement": related_schema},
     ]
@@ -348,6 +349,7 @@ def render_page(center: dict[str, object], item: dict[str, object], output_root:
     html = upgrade_page(html, center, item, "child", root=ROOT)
     from branch_hub_upgrade import upgrade_child
     html = upgrade_child(html, center, item)
+    html = finalize_page(html, path)
     destination = output_root or ROOT
     output = destination / path.strip("/") / "index.html"
     output.parent.mkdir(parents=True, exist_ok=True)
@@ -377,7 +379,7 @@ def update_sitemap(paths: list[str]) -> None:
     end = "  <!-- branch-topic-pages:end -->"
     pattern = r"^[ \t]*" + re.escape(start.strip()) + r".*?" + re.escape(end.strip()) + r"[ \t]*(?:\r?\n|$)"
     text = re.sub(pattern, "", text, flags=re.S | re.M)
-    entries = [f"  <url>\n    <loc>{encoded_url(path)}</loc>\n    <lastmod>{TODAY}</lastmod>\n  </url>" for path in paths]
+    entries = [f"  <url>\n    <loc>{encoded_url(path)}</loc>\n    <lastmod>{page_dates(path)['dateModified']}</lastmod>\n  </url>" for path in paths]
     block = start + "\n" + "\n".join(entries) + "\n" + end + "\n"
     text = text.replace("</urlset>", block + "</urlset>")
     SITEMAP.write_text(text, encoding="utf-8")
@@ -420,6 +422,7 @@ def main() -> None:
 
     paths = [item["path"] for item in pages]
     update_sitemap(paths)
+    save_dates()
     DATA_ROOT.mkdir(parents=True, exist_ok=True)
     REPORT_ROOT.mkdir(parents=True, exist_ok=True)
     payload = {

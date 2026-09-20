@@ -187,10 +187,14 @@ def main() -> None:
                 expected_topic_count = len(expected_center.get("neighborhoods", [])) * 6 if expected_center else 0
                 if len(topic_links) != expected_topic_count:
                     errors.append(f"{relative}: 동네별 하위 페이지 링크 수 {len(topic_links)} (예상 {expected_topic_count})")
-                item_list = next((item for item in graph if item.get("@id", "").endswith("#learning-pages")), None)
+                item_list = next((item for item in graph if item.get("@type") == "ItemList" and item.get("@id", "").endswith("#learning-pages-list")), None)
                 if expected_topic_count:
-                    if not item_list or item_list.get("numberOfItems") != expected_topic_count:
+                    if not item_list or item_list.get("numberOfItems") != expected_topic_count or len(item_list.get("itemListElement", [])) != expected_topic_count:
                         errors.append(f"{relative}: 하위 페이지 ItemList 수 오류")
+                    page_node = next((item for item in graph if item.get("@type") == "WebPage"), {})
+                    learning_section = next((part for part in page_node.get("hasPart", []) if part.get("@id", "").endswith("#learning-pages")), {})
+                    if learning_section.get("@type") != "WebPageElement" or not item_list or learning_section.get("mainEntity", {}).get("@id") != item_list["@id"]:
+                        errors.append(f"{relative}: 학습 안내 구역과 ItemList 연결 오류")
                 elif item_list:
                     errors.append(f"{relative}: 연결 동네 없이 하위 페이지 ItemList 존재")
                 media_sections = document.xpath('//section[contains(concat(" ", normalize-space(@class), " "), " branch-media ")]')

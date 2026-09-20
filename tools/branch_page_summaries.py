@@ -108,10 +108,14 @@ def center_summaries(center: dict) -> dict[str, str]:
     """
     areas = "·".join(center["neighborhoods"][:3]) or center["district"]
     name = center["routeName"]
-    description = (
-        f'{center["displayName"]} 지점안내. {center["region"]} {center["district"]}에서 상담을 준비할 때 '
-        "주소, 과목별 안내 학년과 수업 조건, 인근 학교, 복습·피드백 질문을 확인하세요."
-    )
+    views = [course_guidance(center, subject) for subject in ("영어", "수학")]
+    scope = " · ".join(f'{view["subject"]} {view["label"]}' for view in views)
+    needs_check = any(not view['grades'] or view['pendingGrades'] or view['notes'] for view in views)
+    caveat = " 일부 학년·수업 조건은 상담 확인이 필요합니다." if needs_check else " 시간표·등록 가능 여부는 상담에서 확인하세요."
+    description = f'{name}은 {center["address"]}에 있습니다. 안내 학년: {scope}. {areas}의 상담 준비를 확인하세요.{caveat}'
+    # Keep verified grade details intact; shorten location context, not caveats.
+    if len(description) > 165:
+        description = f'{name} · {center["address"]}. 안내 학년: {scope}.{caveat}'
     lead = (
         f"{areas}에서 방문 상담을 준비한다면 학생의 학년과 희망 과목부터 확인해 보세요. "
         f"아래에 {name}의 영어·수학 안내 학년과 확인할 수업 조건을 정리했습니다."
