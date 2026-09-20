@@ -21,5 +21,6 @@
       "destination": "/:path*/",
       "permanent": true
     }
-  ]
+  ],
+  "buildCommand": "node wawa-analytics-build.mjs wawa-01 ."
 }
