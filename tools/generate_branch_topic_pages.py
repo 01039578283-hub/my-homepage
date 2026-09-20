@@ -17,6 +17,11 @@ from html import escape
 from pathlib import Path, PurePosixPath
 from urllib.parse import quote
 
+from branch_course_guidance import course_answer, course_guidance
+from branch_manuscript_editorial import edit_manuscript
+from branch_page_summaries import topic_summaries, validate_summaries
+from branch_learning_routes import upgrade_page
+
 
 ROOT = Path(__file__).resolve().parents[1]
 BRANCH_MANIFEST = ROOT / "tools" / "data" / "branch-directory" / "branches.json"
@@ -280,21 +285,29 @@ def schema_graph(center: dict[str, object], item: dict[str, object], path: str, 
         {"@type": "ItemList", "@id": page_url + "#related-pages", "name": f'{item["title"]} 관련 안내', "numberOfItems": len(related_schema), "itemListElement": related_schema},
     ]
     if available:
-        graph.append({"@type": "Service", "@id": page_url + "#service", "name": f'{item["locality"]} {item["level"]} {item["subject"]} 학습 상담', "serviceType": f'{item["level"]} {item["subject"]} 학습코칭', "provider": {"@id": academy_id}, "areaServed": {"@type": "Place", "name": item["locality"]}, "audience": {"@type": "EducationalAudience", "educationalRole": "student"}, "offers": {"@type": "Offer", "availability": "https://schema.org/InStock", "url": page_url}})
+        view = course_guidance(center, item["subject"], item["prefix"])
+        graph.append({"@type": "Service", "@id": page_url + "#service", "name": f'{item["locality"]} {item["level"]} {item["subject"]} 학습 상담', "serviceType": f'{item["level"]} {item["subject"]} 학습코칭', "description": course_answer(center, item["subject"], item["prefix"]), "provider": {"@id": academy_id}, "areaServed": {"@type": "Place", "name": item["locality"]}, "audience": {"@type": "EducationalAudience", "educationalRole": "student", "audienceType": view["label"]}, "offers": {"@type": "Offer", "url": page_url}})
     return graph
 
 
-def render_page(center: dict[str, object], item: dict[str, object]) -> tuple[str, str]:
+def render_page(center: dict[str, object], item: dict[str, object], output_root: Path | None = None) -> tuple[str, str]:
+    item, _ = edit_manuscript(center, item)
+    summary = topic_summaries(center, item)
+    validate_summaries(center, summary, item)
+    item = {**item, "description": summary["description"], "abstract": summary["abstract"]}
     path = topic_path(center, item["locality"], item["level"], item["subject"])
     page_url = encoded_url(path)
     title = item["title"]
     description = item["description"]
-    available = course_recorded(center, item["prefix"], item["subject"])
-    availability = (
-        f'제공된 센터 자료에 {item["level"]} {item["subject"]} 가능 학년이 기록돼 있습니다.'
-        if available else
-        f'제공된 센터 자료에는 {item["level"]} {item["subject"]} 개설 여부가 기록돼 있지 않습니다. 이 페이지는 학습 선택 정보이며 실제 수업 여부는 상담에서 확인해 주세요.'
-    )
+    view = course_guidance(center, item["subject"], item["prefix"])
+    available = bool(view["grades"])
+    first_answer = course_answer(center, item["subject"], item["prefix"])
+    grade_faq = {
+        "question": f'{center["routeName"]}의 {item["level"]} {item["subject"]} 안내 학년과 수업 조건은 무엇인가요?',
+        "answer": first_answer,
+    }
+    # Work from a copy so regenerating the same manuscript never stacks FAQs.
+    item = {**item, "faq": [grade_faq, *[f for f in item["faq"] if f["question"] != grade_faq["question"]]]}
     related, related_schema = related_markup(center, item)
     graph = schema_graph(center, item, path, available, related_schema)
     schema = json.dumps({"@context": "https://schema.org", "@graph": graph}, ensure_ascii=False, separators=(",", ":"))
@@ -322,7 +335,7 @@ def render_page(center: dict[str, object], item: dict[str, object]) -> tuple[str
   <meta name="twitter:card" content="summary_large_image">
   <link rel="stylesheet" href="/assets/header.css">
   <link rel="stylesheet" href="/assets/fab.css">
-  <link rel="stylesheet" href="/assets/branch-directory.css?v=20260920c">
+  <link rel="stylesheet" href="/assets/branch-directory.css?v=20260920d">
   <script type="application/ld+json">{schema}</script>
 </head>
 <body class="branch-directory-page branch-topic-page">
@@ -332,14 +345,14 @@ def render_page(center: dict[str, object], item: dict[str, object]) -> tuple[str
 <section class="branch-topic-hero">
   <p class="branch-kicker">{esc(center["region"])} · {esc(center["district"])} · {esc(center["routeName"])} LEARNING GUIDE</p>
   <h1>{esc(title)}</h1>
-  <p class="branch-lead">{esc(description)}</p>
-  <dl class="branch-topic-status"><div><dt>연결 센터</dt><dd>{esc(center["displayName"])}</dd></div><div><dt>개설 자료 확인</dt><dd>{esc(availability)}</dd></div><div><dt>정보 확인 기준일</dt><dd>{esc(center["informationReviewedAt"])} · 제공 자료 기준</dd></div></dl>
+  <p class="branch-lead">{esc(summary["lead"])}</p>
+  <dl class="branch-topic-status"><div><dt>연결 센터</dt><dd>{esc(center["displayName"])}</dd></div><div><dt>정보 확인 기준일</dt><dd>{esc(center["informationReviewedAt"])} · 제공 자료 기준</dd></div></dl>
   <div class="branch-hero-actions"><a class="branch-button primary" href="#overview">핵심 안내</a><a class="branch-button" href="/지점안내/{esc(center["region"])}/{esc(center["routeName"])}/">{esc(center["routeName"])} 지점안내</a></div>
 </section>
+<section class="branch-answer branch-course-summary" id="overview" aria-labelledby="overview-title"><p class="branch-kicker">QUICK ANSWER</p><h2 id="overview-title">{esc(center["routeName"])} {esc(item["level"])} {esc(item["subject"])} 수업 안내</h2><p class="branch-first-answer">{esc(first_answer)}</p><a class="branch-inline-link" href="/지점안내/{esc(center["region"])}/{esc(center["routeName"])}/#subjects">{esc(center["routeName"])} 전체 과목·학년 보기</a></section>
 {media_markup(center, title)}
 <nav class="branch-toc" aria-label="페이지 목차"><strong>목차</strong><a href="#overview">핵심 안내</a><a href="#center-reference">센터 정보</a><a href="#article">본문</a><a href="#faq">FAQ</a><a href="#related-pages">관련 페이지</a></nav>
-<section class="branch-answer" id="overview"><p class="branch-kicker">QUICK ANSWER</p><h2>{esc(title)} 핵심 안내</h2><p>{esc(description)}</p><p>{esc(availability)}</p></section>
-<section class="branch-section" id="center-reference" aria-labelledby="center-reference-title"><div class="branch-section-head"><p class="branch-kicker">CENTER REFERENCE</p><h2 id="center-reference-title">{esc(center["routeName"])} 기준 확인 정보</h2><p>원고의 학습 선택 기준과 센터 제공 자료를 구분해 확인할 수 있도록 정리했습니다.</p></div><dl class="info-list"><div><dt>주소</dt><dd>{esc(center["address"])}</dd></div><div><dt>등록 명칭</dt><dd>{esc(center["registeredName"])}</dd></div><div><dt>{esc(item["level"])} 인근 학교</dt><dd>{esc(schools)}</dd></div><div><dt>정보 확인 기준일</dt><dd>{esc(center["informationReviewedAt"])} · 제공 자료 기준</dd></div></dl></section>
+<section class="branch-section" id="center-reference" aria-labelledby="center-reference-title"><div class="branch-section-head"><p class="branch-kicker">CENTER REFERENCE</p><h2 id="center-reference-title">{esc(center["routeName"])} 기준 확인 정보</h2><p>주소와 인근 학교를 확인한 뒤, 학생의 학년·희망 과목에 맞는 수업을 상담해 주세요.</p></div><dl class="info-list"><div><dt>주소</dt><dd>{esc(center["address"])}</dd></div><div><dt>등록 명칭</dt><dd>{esc(center["registeredName"])}</dd></div><div><dt>{esc(item["level"])} 인근 학교</dt><dd>{esc(schools)}</dd></div><div><dt>정보 확인 기준일</dt><dd>{esc(center["informationReviewedAt"])} · 제공 자료 기준</dd></div></dl></section>
 {article_markup(item)}
 {example_markup(item)}
 {faq_markup(item)}
@@ -349,10 +362,14 @@ def render_page(center: dict[str, object], item: dict[str, object]) -> tuple[str
 {footer()}
 </body>
 </html>'''
-    output = ROOT / path.strip("/") / "index.html"
+    # Keep the legacy guide bridge when a branch page is regenerated later.
+    # The postprocessor is a no-op when no exact level/subject/locality guide exists.
+    html = upgrade_page(html, center, item, "child", root=ROOT)
+    destination = output_root or ROOT
+    output = destination / path.strip("/") / "index.html"
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(clean_html(html), encoding="utf-8")
-    return path, str(output.relative_to(ROOT))
+    return path, str(output.relative_to(destination))
 
 
 def delete_previous_pages() -> None:
@@ -413,6 +430,8 @@ def main() -> None:
             "locality": item["locality"], "level": item["level"],
             "subject": item["subject"], "center": center["routeName"],
             "availableInCenterData": course_recorded(center, item["prefix"], item["subject"]),
+            "publishedGrades": course_guidance(center, item["subject"], item["prefix"])["grades"],
+            "confirmationGrades": course_guidance(center, item["subject"], item["prefix"])["pendingGrades"],
             "informationReviewedAt": center["informationReviewedAt"],
         })
 

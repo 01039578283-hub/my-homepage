@@ -10,6 +10,11 @@ from urllib.parse import quote, unquote, urlparse
 
 from lxml import etree, html
 
+from branch_course_guidance import course_answer, course_guidance
+from branch_manuscript_editorial import AUTHORING, corrections, edit_manuscript, other_level_school_names
+from branch_page_summaries import topic_summaries, validate_summaries, summary_document_errors
+from generate_branch_topic_pages import load_manuscripts
+
 
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / "tools" / "data" / "branch-topic-pages" / "pages.json"
@@ -69,6 +74,7 @@ def srcset_entries(value: str) -> list[tuple[str, int]]:
 
 
 def main() -> None:
+    manuscripts = load_manuscripts()
     data = json.loads(MANIFEST.read_text(encoding="utf-8"))
     branches = json.loads(BRANCH_MANIFEST.read_text(encoding="utf-8"))["centers"]
     center_by_route = {center["routeName"]: center for center in branches}
@@ -150,14 +156,21 @@ def main() -> None:
 
         quick = document.xpath('//section[contains(@class,"branch-answer")]')
         quick_paragraphs = quick[0].xpath('./p[not(contains(@class,"branch-kicker"))]') if quick else []
-        if not quick_paragraphs or normalized_text(quick_paragraphs[0]) != description:
-            errors.append(f"{label}: 첫 요약과 meta description 불일치")
+        prefix = record["level"][0]
+        view = course_guidance(center, record["subject"], prefix)
+        expected_answer = course_answer(center, record["subject"], prefix)
+        if not quick_paragraphs or normalized_text(quick_paragraphs[0]) != expected_answer:
+            errors.append(f"{label}: 첫 요약과 검토된 학년·수업 조건 불일치")
+        if record.get("publishedGrades") != view["grades"] or record.get("confirmationGrades") != view["pendingGrades"]:
+            errors.append(f"{label}: 학년 검토 결과 manifest 불일치")
 
         primary = document.xpath('//section[contains(@class,"branch-primary-media")]')
         if len(primary) != 1:
             errors.append(f"{label}: 대표·본문·지도 섹션 수 {len(primary)}")
         else:
             section = primary[0]
+            if not quick or quick[0].sourceline >= section.sourceline:
+                errors.append(f"{label}: 첫 학년 안내가 이미지 아래에 있음")
             representative = section.xpath('.//img[contains(@class,"branch-representative-image")]')
             body_picture = section.xpath('.//figure[contains(@class,"branch-body-image")]/picture')
             body_images = section.xpath('.//figure[contains(@class,"branch-body-image")]//img')
@@ -215,14 +228,27 @@ def main() -> None:
                 errors.append(f"{label}: JSON-LD 파싱 실패 {exc}")
                 graph = []
         types = Counter(kind for node in graph for kind in schema_types(node))
+        source = manuscripts[(record["locality"], record["level"], record["subject"])]
+        edited, _ = edit_manuscript(center, source)
+        expected_summary = topic_summaries(center, edited)
+        try:
+            validate_summaries(center, expected_summary, edited)
+        except ValueError as exc:
+            errors.append(f"{label}: {exc}")
+        errors.extend(f"{label}: {error}" for error in summary_document_errors(document, graph, expected_summary))
         for required in ("WebSite", "WebPage", "BreadcrumbList", "EducationalOrganization", "LocalBusiness", "Article", "FAQPage", "ItemList"):
             if types[required] < 1:
                 errors.append(f"{label}: JSON-LD {required} 없음")
         has_service = types["Service"] > 0
-        if has_service != bool(record["availableInCenterData"]):
-            errors.append(f"{label}: 센터 개설 자료와 Service 스키마 불일치")
+        if has_service != bool(view["grades"]):
+            errors.append(f"{label}: 검토된 과목·학년과 Service 스키마 불일치")
         if has_service:
             service_pages += 1
+            service = next(node for node in graph if "Service" in schema_types(node))
+            if service.get("audience", {}).get("audienceType") != view["label"] or service.get("description") != expected_answer:
+                errors.append(f"{label}: Service 학년·조건 불일치")
+        if "schema.org/InStock" in raw:
+            errors.append(f"{label}: 실제 정원 확인 없는 InStock 표시")
         academy = next((node for node in graph if str(node.get("@id", "")).endswith("#academy")), None)
         properties = academy.get("additionalProperty", {}) if academy else {}
         if not academy or properties.get("value") != reviewed_at:
@@ -232,6 +258,25 @@ def main() -> None:
         schema_faqs = faq_node.get("mainEntity", []) if faq_node else []
         if len(visible_faqs) < 3 or len(visible_faqs) != len(schema_faqs):
             errors.append(f"{label}: FAQ 표시/스키마 수 불일치")
+        for element, entry in zip(visible_faqs, schema_faqs):
+            if normalized_text(element.xpath('./summary')[0]) != entry["name"] or normalized_text(' '.join(element.xpath('./p//text()'))) != entry["acceptedAnswer"]["text"]:
+                errors.append(f"{label}: FAQ 본문/스키마 내용 불일치")
+        if not schema_faqs or schema_faqs[0]["acceptedAnswer"]["text"] != expected_answer:
+            errors.append(f"{label}: 첫 요약과 학년 FAQ 불일치")
+
+        editorial_nodes = document.xpath('//*[@id="article"] | //section[@id="faq"] | //section[contains(@class,"branch-topic-example")]')
+        editorial_text = " ".join(normalized_text(node) for node in editorial_nodes)
+        if AUTHORING.search(editorial_text):
+            errors.append(f"{label}: 작성용 표현 잔존")
+        misplaced_schools = other_level_school_names(center, record["level"], editorial_text)
+        if misplaced_schools:
+            errors.append(f"{label}: 다른 학교급 학교명 잔존 {sorted(misplaced_schools)}")
+        correction = corrections().get((record["locality"], record["level"], record["subject"]))
+        if correction and re.search(correction["pattern"], editorial_text):
+            errors.append(f"{label}: 검토 후 교정한 부적합 예시가 다시 나타남")
+        faq_questions = [entry["name"] for entry in schema_faqs]
+        if len(faq_questions) != len(set(faq_questions)):
+            errors.append(f"{label}: FAQ 질문 중복")
 
         related_hrefs = document.xpath('//section[@id="related-pages"]//a/@href')
         expected_siblings = {

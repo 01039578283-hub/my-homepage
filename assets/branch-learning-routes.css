@@ -1,0 +1,31 @@
+/* Scoped bridges between learning-choice guides and branch course details. */
+.learning-route-panel {
+  color: #243646;
+  background: #f0f6f7;
+  border: 1px solid #d5e3e6;
+  border-radius: 12px;
+  margin: 24px auto;
+  scroll-margin-top: 150px;
+  text-align: left;
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}
+.learning-route-panel--guide { width: min(1120px, calc(100% - 32px)); }
+.learning-route-panel--child { width: 100%; }
+.learning-route-inner { padding: 24px; }
+.learning-route-panel h2 { font: inherit; font-size: 21px; font-weight: 700; line-height: 1.45; margin: 0 0 12px; letter-spacing: -.02em; }
+.learning-route-panel p { font-size: 16px; line-height: 1.8; margin: 0 0 18px; color: #475a65; }
+.learning-route-links { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 12px; }
+.learning-route-panel .learning-route-links a { display: flex; flex-direction: column; justify-content: center; min-width: 0; min-height: 48px; padding: 16px 18px; border: 1px solid #bbd0d5; border-radius: 8px; background: #fff; color: #163c49; text-decoration: none; }
+.learning-route-links strong { font-size: 16px; font-weight: 700; line-height: 1.55; }
+.learning-route-links span { display: block; margin-top: 6px; color: #516671; font-size: 14px; line-height: 1.65; }
+.learning-route-links a:hover { border-color: #37758a; background: #f9fcfd; }
+.learning-route-links a:focus-visible { outline: 3px solid #24657d; outline-offset: 3px; }
+@media (max-width: 600px) {
+  .learning-route-panel { margin-block: 20px; border-radius: 10px; }
+  .learning-route-inner { padding: 20px 16px; }
+  .learning-route-panel h2 { font-size: 19px; }
+  .learning-route-panel p { font-size: 16px; line-height: 1.8; }
+  .learning-route-links { grid-template-columns: minmax(0, 1fr); gap: 10px; }
+  .learning-route-panel .learning-route-links a { padding: 14px; }
+}

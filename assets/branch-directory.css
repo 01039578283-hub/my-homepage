@@ -1395,3 +1395,82 @@ body.branch-directory-page {
     scroll-behavior: auto;
   }
 }
+
+/* Course facts stay readable above the complete, uncollapsed image block. */
+.branch-course-summary {
+  margin: 28px 0;
+}
+
+.branch-grade-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  margin: 22px 0;
+}
+
+.branch-grade-grid > div {
+  min-width: 0;
+  padding: 18px;
+  border: 1px solid var(--branch-line);
+  border-radius: var(--branch-radius);
+  background: var(--branch-white);
+}
+
+.branch-grade-grid dt {
+  margin-bottom: 6px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.branch-grade-grid dd {
+  margin: 0;
+}
+
+.branch-grade-range {
+  font-size: 17px;
+  line-height: 1.7;
+  overflow-wrap: anywhere;
+}
+
+.branch-course-summary .branch-first-answer,
+.branch-course-notes p,
+.branch-course-note {
+  color: var(--branch-muted);
+  font-size: 15px;
+  line-height: 1.8;
+  overflow-wrap: anywhere;
+}
+
+.branch-course-summary .branch-first-answer {
+  font-size: 16px;
+}
+
+.branch-course-note,
+.branch-course-notes p {
+  margin: 10px 0 0;
+}
+
+.branch-inline-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 46px;
+  margin-top: 12px;
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: underline !important;
+  text-underline-offset: 4px;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 600px) {
+  .branch-grade-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .branch-course-summary h2 {
+    font-size: 23px;
+    line-height: 1.5;
+    overflow-wrap: anywhere;
+  }
+}

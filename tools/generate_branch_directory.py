@@ -23,6 +23,11 @@ from urllib.parse import quote
 from openpyxl import load_workbook
 from PIL import Image, ImageOps, ImageStat
 
+from branch_course_guidance import (
+    REGISTRATION_NOTE, branch_course_answer, center_notes, course_guidance,
+    verify_source, weekend_guidance,
+)
+
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE_ROOT = Path(r"C:\Users\1992k\Desktop\센터정보")
@@ -188,6 +193,9 @@ def weekend_summary(value: object, detail: object) -> str:
     normalized = status.replace(" ", "")
     if not status:
         return "주말 수업 여부는 센터 상담에서 확인해 주세요."
+    # A negative for Sunday must not erase an explicitly positive Saturday.
+    if "토요일" in status and "일요일" in status and "과학수업만가능" in normalized:
+        return "토요일은 과학 수업만 운영하며 일요일 수업은 운영하지 않습니다. " + ("안내 시간: " + schedule.rstrip(".") + "." if schedule else "과목별 시간은 상담에서 확인해 주세요.")
     if "불가" in normalized or "둘다불가" in normalized:
         return "주말 정규 수업은 운영하지 않습니다."
     if "시험대비" in status:
@@ -261,6 +269,7 @@ def load_target_rows() -> dict[str, dict[str, object]]:
 
 
 def load_centers() -> tuple[list[dict[str, object]], list[dict[str, str]]]:
+    verify_source(SOURCE_WORKBOOK)
     target = load_target_rows()
     wb = load_workbook(SOURCE_WORKBOOK, read_only=True, data_only=True)
     ws = wb.active
@@ -653,7 +662,7 @@ def page_head(title: str, description: str, canonical_path: str, graph: list[dic
   <meta name="twitter:card" content="summary_large_image">
   <link rel="stylesheet" href="/assets/header.css">
   <link rel="stylesheet" href="/assets/fab.css">
-  <link rel="stylesheet" href="/assets/branch-directory.css?v=20260920c">
+  <link rel="stylesheet" href="/assets/branch-directory.css?v=20260920d">
   <script type="application/ld+json">{json_ld}</script>
 </head>'''
 
@@ -969,38 +978,42 @@ def school_section(center: dict[str, object]) -> str:
 def subject_section(center: dict[str, object]) -> str:
     rows = []
     for subject in SUBJECTS:
-        grades = center["subjects"].get(subject, [])
-        if not grades:
-            continue
-        levels = []
-        for prefix, label in LEVEL_LABELS:
-            values = [g for g in grades if g.startswith(prefix)]
-            if values:
-                levels.append(f"{label} {'·'.join(values)}")
-        rows.append(f'<tr><th scope="row">{subject}</th><td>{esc(" / ".join(levels))}</td></tr>')
-    if not rows:
-        rows.append('<tr><th scope="row">과목</th><td>희망 과목과 학년을 알려주시면 현재 운영 여부를 확인해 드립니다.</td></tr>')
-    return f'''<section class="branch-section" id="subjects" aria-labelledby="subjects-title"><div class="branch-section-head"><p class="branch-kicker">SUBJECTS</p><h2 id="subjects-title">가능 과목과 학년</h2><p>아래 범위는 제공된 센터 운영 자료를 기준으로 정리했습니다. 코치 배정과 시간표에 따라 달라질 수 있어 등록 전 확인이 필요합니다.</p></div><div class="branch-table-wrap"><table><thead><tr><th>과목</th><th>자료상 가능 학년</th></tr></thead><tbody>{''.join(rows)}</tbody></table></div></section>'''
+        view = course_guidance(center, subject)
+        notes = ''.join(f'<p class="branch-course-note">{esc(note)}</p>' for note in view["notes"])
+        rows.append(f'<tr data-subject="{esc(subject)}"><th scope="row">{esc(subject)}</th><td><strong class="branch-grade-range">{esc(view["label"])}</strong>{notes}</td></tr>')
+    conditions = ''.join(f'<p>{esc(note)}</p>' for note in center_notes(center))
+    return f'''<section class="branch-section" id="subjects" aria-labelledby="subjects-title"><div class="branch-section-head"><p class="branch-kicker">SUBJECTS</p><h2 id="subjects-title">과목별 안내 학년과 수업 조건</h2><p>센터 운영 자료의 학년과 과목별 조건을 함께 정리했습니다. 문의로 표시된 범위는 수업 불가를 뜻하지 않으며, 개설 여부를 먼저 확인할 대상입니다.</p></div><div class="branch-table-wrap"><table><thead><tr><th>과목</th><th>안내 학년 · 확인할 조건</th></tr></thead><tbody>{''.join(rows)}</tbody></table></div><div class="branch-course-notes">{conditions}<p>{esc(REGISTRATION_NOTE)}</p></div></section>'''
+
+
+def course_summary(center: dict[str, object]) -> str:
+    cards = []
+    for subject in ("영어", "수학"):
+        view = course_guidance(center, subject)
+        notes = ''.join(f'<p class="branch-course-note">{esc(note)}</p>' for note in view["notes"])
+        cards.append(f'<div data-subject="{esc(subject)}"><dt>{esc(subject)}</dt><dd><strong class="branch-grade-range">{esc(view["label"])}</strong>{notes}</dd></div>')
+    conditions = ''.join(f'<p>{esc(note)}</p>' for note in center_notes(center))
+    return f'''<section class="branch-answer branch-course-summary" id="overview" aria-labelledby="overview-title"><p class="branch-kicker">QUICK ANSWER</p><h2 id="overview-title">{esc(center["routeName"])} 영어·수학 안내 학년</h2><dl class="branch-grade-grid">{''.join(cards)}</dl><div class="branch-course-notes">{conditions}<p>{esc(REGISTRATION_NOTE)}</p></div><a class="branch-inline-link" href="#subjects">국어·과학·사회와 전체 과목 조건 보기</a></section>'''
 
 
 def learning_section(center: dict[str, object]) -> str:
-    points = center["managementPoints"]
-    if not points:
-        points = [
-            ("학습 진단", "최근 시험과 교재를 보고 개념·문제 해석·연습량 중 먼저 보완할 부분을 확인합니다."),
-            ("플래너 실행", "학생이 해야 할 분량과 완료 기준을 구체적으로 정하고 실행 결과를 점검합니다."),
-            ("오답 재학습", "틀린 원인을 분류한 뒤 필요한 개념으로 돌아가 유사 문제까지 다시 확인합니다."),
-        ]
+    from branch_manuscript_editorial import learning_points
+
+    points = learning_points(center)
     point_html = "".join(f'<article><h3>{esc(title)}</h3><p>{esc(copy)}</p></article>' for title, copy in points)
-    return f'''<section class="branch-section" id="learning" aria-labelledby="learning-title"><div class="branch-section-head"><p class="branch-kicker">LEARNING GUIDE</p><h2 id="learning-title">{esc(center["routeName"])}에서 상담할 학습관리 항목</h2><p>학생별 진도 수업과 공부 습관 코칭을 함께 보는 흐름입니다. 실제 점검 주기와 제공 방식은 센터 상담에서 확인해 주세요.</p></div><div class="learning-grid">{point_html}</div><ol class="learning-flow"><li><b>1</b><span><strong>초기 상담</strong>학교·학년·최근 성적과 공부 습관을 확인합니다.</span></li><li><b>2</b><span><strong>계획 설정</strong>시작 교재, 진도, 주간 학습량을 정합니다.</span></li><li><b>3</b><span><strong>실행 점검</strong>수업·과제·플래너 결과를 확인합니다.</span></li><li><b>4</b><span><strong>오답 재학습</strong>틀린 원인을 분류하고 다음 계획에 반영합니다.</span></li></ol></section>'''
+    areas = "·".join(center["neighborhoods"][:4]) or center["district"]
+    return f'''<section class="branch-section" id="learning" aria-labelledby="learning-title"><div class="branch-section-head"><p class="branch-kicker">LEARNING GUIDE</p><h2 id="learning-title">{esc(center["routeName"])}에서 상담할 학습관리 항목</h2><p>{esc(areas)}에서 {esc(center["routeName"])}을 알아본다면, 학생의 최근 학교 자료와 집에서의 복습 기록을 함께 준비해 보세요. 아래 질문으로 필요한 도움을 구체화할 수 있습니다. 실제 제공 방식과 점검 주기는 상담에서 확인해 주세요.</p></div><div class="learning-grid">{point_html}</div><ol class="learning-flow"><li><b>1</b><span><strong>현재 상태 설명</strong>학교·학년과 최근 풀이에서 막힌 부분을 알려주세요.</span></li><li><b>2</b><span><strong>시작할 내용 질문</strong>현재 교재에서 먼저 보완할 단원과 이유를 물어보세요.</span></li><li><b>3</b><span><strong>복습 방법 확인</strong>집에서 혼자 해 볼 분량과 질문 전달 방법을 확인하세요.</span></li><li><b>4</b><span><strong>다음 점검 준비</strong>다시 풀어 본 기록 중 어떤 부분을 가져갈지 정해 보세요.</span></li></ol></section>'''
 
 
 def generate_branch_page(center: dict[str, object]) -> str:
+    from branch_page_summaries import center_summaries, validate_summaries
+
     region = center["region"]
     name = center["routeName"]
     path = f"/지점안내/{region}/{name}/"
     title = f'{center["displayName"]} | {region} {center["district"]} 지점안내'
-    description = f'{center["address"]}에 있는 {center["displayName"]}의 주소, 가능 과목·학년, 인근 학교와 상담 준비사항을 확인하세요.'
+    summary = center_summaries(center)
+    validate_summaries(center, summary)
+    description = summary["description"]
     crumbs = [("홈", "/"), ("지점안내", "/지점안내/"), (region, f"/지점안내/{region}/"), (name, path)]
     graph = graph_base(title, description, path, crumbs)
     page_url = encoded_url(path)
@@ -1010,9 +1023,15 @@ def generate_branch_page(center: dict[str, object]) -> str:
         DOMAIN + quote(media[kind]["src"], safe="/")
         for kind in ("representative", "body", "map")
     ]
+    views = [course_guidance(center, subject) for subject in SUBJECTS]
+    weekend = weekend_guidance(center)
     offers = [
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": f'{center["routeName"]} {subject} 학습코칭', "serviceType": "학습코칭"}}
-        for subject in center["subjects"]
+        {"@type": "Offer", "url": page_url, "itemOffered": {
+            "@type": "Service", "name": f'{name} {view["subject"]} 학습코칭', "serviceType": "학습코칭",
+            "description": " ".join([f'{view["subject"]} 안내 학년: {view["label"]}.', *view["notes"], *center_notes(center), REGISTRATION_NOTE]),
+            "audience": {"@type": "EducationalAudience", "educationalRole": "student", "audienceType": view["label"]},
+        }}
+        for view in views if view["grades"]
     ] or [
         {"@type": "Offer", "itemOffered": {"@type": "Service", "name": f'{center["routeName"]} 학습 상담', "serviceType": "학습코칭 상담"}}
     ]
@@ -1028,7 +1047,7 @@ def generate_branch_page(center: dict[str, object]) -> str:
         "address": postal,
         "parentOrganization": {"@id": DOMAIN + "/#organization"},
         "areaServed": [{"@type": "Place", "name": value} for value in center["neighborhoods"][:12]],
-        "knowsAbout": [f"{subject} 학습코칭" for subject in center["subjects"]],
+        "knowsAbout": [f'{view["subject"]} 학습코칭' for view in views if view["grades"]] or ["학습 상담"],
         "identifier": center["registrationNumber"],
         "additionalProperty": {
             "@type": "PropertyValue",
@@ -1044,7 +1063,8 @@ def generate_branch_page(center: dict[str, object]) -> str:
     webpage["primaryImageOfPage"] = {"@type": "ImageObject", "url": image_urls[0]}
     webpage["hasPart"] = [
         {"@type": "WebPageElement", "@id": page_url + "#center-info", "name": f"{name} 기본정보"},
-        {"@type": "WebPageElement", "@id": page_url + "#subjects", "name": "가능 과목과 학년"},
+        {"@type": "WebPageElement", "@id": page_url + "#overview", "name": f"{name} 영어·수학 안내 학년"},
+        {"@type": "WebPageElement", "@id": page_url + "#subjects", "name": "과목별 안내 학년과 수업 조건"},
         {"@type": "WebPageElement", "@id": page_url + "#schools", "name": "인근 학교와 수업 가능 동네"},
         {"@type": "WebPageElement", "@id": page_url + "#learning", "name": "학습관리 항목"},
         {"@type": "WebPageElement", "@id": page_url + "#faq", "name": f"{name} 자주 묻는 질문"},
@@ -1070,7 +1090,7 @@ def generate_branch_page(center: dict[str, object]) -> str:
         })
     graph.append({
         "@type": "Article", "@id": page_url + "#article", "headline": title,
-        "description": description, "abstract": description, "inLanguage": "ko-KR",
+        "description": description, "abstract": summary["abstract"], "inLanguage": "ko-KR",
         "dateModified": TODAY, "mainEntityOfPage": {"@id": page_url + "#webpage"},
         "about": {"@id": page_url + "#academy"}, "articleSection": ["대표·본문·지도 이미지", "학습 공간", "센터 기본정보", "가능 과목과 학년", "인근 학교", "학습관리", "상담 안내"],
         "image": image_urls,
@@ -1087,13 +1107,12 @@ def generate_branch_page(center: dict[str, object]) -> str:
         "audience": {"@type": "EducationalAudience", "educationalRole": "student"},
     })
 
-    available = subject_level_summary(center["subjects"])
     neighborhoods = " · ".join(center["neighborhoods"][:8]) if center["neighborhoods"] else f'{center["district"]} 인근'
     faq_items = [
         (f'{name}은 어디에 있나요?', f'{center["displayName"]}의 주소는 {center["address"]}입니다. 방문 전 상담으로 건물과 입실 방법을 다시 확인해 주세요.'),
-        (f'{name}에서 어떤 과목과 학년을 상담할 수 있나요?', f'제공된 운영 자료에는 {available} 범위가 기록돼 있습니다. 현재 시간표와 코치 배정은 상담에서 확인해 주세요.'),
+        (f'{name}에서 어떤 과목과 학년을 상담할 수 있나요?', branch_course_answer(center)),
         (f'{name}의 수업 가능 동네와 인근 학교는 어디인가요?', f'{neighborhoods}을 중심으로 상담할 수 있습니다. 학교별 시험 범위와 통학 가능 여부는 학생의 학교를 알려주고 확인해 주세요.'),
-        (f'{name}은 주말에도 수업하나요?', center["weekend"]),
+        (f'{name}은 주말에도 수업하나요?', weekend),
         ("상담 전에 무엇을 준비하면 좋나요?", "학생의 학년과 학교, 최근 시험지, 현재 교재, 어려운 단원, 숙제 수행 정도와 평소 공부 시간을 정리해 오면 학습 계획을 구체적으로 확인하기 좋습니다."),
     ]
     graph.append({"@type": "FAQPage", "@id": page_url + "#faq", "mainEntity": [
@@ -1114,15 +1133,15 @@ def generate_branch_page(center: dict[str, object]) -> str:
 
     body = f'''
 <section class="branch-detail-hero">
-  <div><p class="branch-kicker">{esc(region)} · {esc(center["district"])} BRANCH</p><h1>{esc(center["displayName"])}</h1><p class="branch-lead">{esc(description)}</p></div>
-  <dl class="hero-facts"><div><dt>주소</dt><dd>{esc(center["address"])}</dd></div><div><dt>가능 과목</dt><dd>{esc(" · ".join(center["subjects"].keys()) or "상담 시 확인")}</dd></div><div><dt>수업 가능 동네</dt><dd>{esc(neighborhoods)}</dd></div></dl>
-  <div class="branch-hero-actions"><a class="branch-button primary" href="#center-info">센터 정보</a><a class="branch-button" href="#consult">상담 준비</a></div>
+  <div><p class="branch-kicker">{esc(region)} · {esc(center["district"])} BRANCH</p><h1>{esc(center["displayName"])}</h1><p class="branch-lead">{esc(summary["lead"])}</p></div>
+  <dl class="hero-facts"><div><dt>주소</dt><dd>{esc(center["address"])}</dd></div><div><dt>과목·학년</dt><dd><a href="#subjects">과목별 학년과 수업 조건 확인</a></dd></div><div><dt>수업 가능 동네</dt><dd>{esc(neighborhoods)}</dd></div></dl>
+  <div class="branch-hero-actions"><a class="branch-button primary" href="#overview">학년 먼저 확인</a><a class="branch-button" href="#center-info">센터 정보</a><a class="branch-button" href="#consult">상담 준비</a></div>
 </section>
+{course_summary(center)}
 {primary_media(center)}
 {photo_gallery(center)}
 <nav class="branch-toc" aria-label="페이지 목차"><strong>목차</strong><a href="#center-info">기본정보</a><a href="#subjects">과목·학년</a><a href="#schools">학교·동네</a><a href="#learning">학습관리</a><a href="#faq">자주 묻는 질문</a></nav>
-<section class="branch-answer"><p class="branch-kicker">QUICK ANSWER</p><h2>{esc(name)} 핵심 안내</h2><p>{esc(description)}</p></section>
-<section class="branch-section" id="center-info" aria-labelledby="center-info-title"><div class="branch-section-head"><p class="branch-kicker">CENTER INFORMATION</p><h2 id="center-info-title">{esc(name)} 기본정보</h2><p>센터에서 제공한 등록 정보와 운영 자료를 기준으로 정리했습니다.</p></div><dl class="info-list"><div><dt>주소</dt><dd>{esc(center["address"])}</dd></div><div><dt>등록 명칭</dt><dd>{esc(center["registeredName"])}</dd></div><div><dt>교육지원청 등록번호</dt><dd>{esc(center["registrationNumber"])}</dd></div>{f'<div><dt>등록일</dt><dd>{esc(center["registrationDate"])}</dd></div>' if center["registrationDate"] else ''}<div><dt>정보 확인 기준일</dt><dd>{esc(center["informationReviewedAt"])} · 제공된 센터 자료 기준</dd></div><div><dt>평일 운영 참고</dt><dd>{esc(center["openingReference"])} · 실제 방문·수업 시간은 상담 확인</dd></div><div><dt>주말 운영</dt><dd>{esc(center["weekend"])}</dd></div><div><dt>위치 안내</dt><dd>{esc(location)}</dd></div></dl><div class="info-actions"><a class="branch-button primary" href="https://map.naver.com/p/search/{map_query}" target="_blank" rel="noopener noreferrer">네이버 지도에서 주소 검색</a><a class="branch-button" href="tel:{PHONE_LINK}">전화 상담</a></div></section>
+<section class="branch-section" id="center-info" aria-labelledby="center-info-title"><div class="branch-section-head"><p class="branch-kicker">CENTER INFORMATION</p><h2 id="center-info-title">{esc(name)} 기본정보</h2><p>센터에서 제공한 등록 정보와 운영 자료를 기준으로 정리했습니다.</p></div><dl class="info-list"><div><dt>주소</dt><dd>{esc(center["address"])}</dd></div><div><dt>등록 명칭</dt><dd>{esc(center["registeredName"])}</dd></div><div><dt>교육지원청 등록번호</dt><dd>{esc(center["registrationNumber"])}</dd></div>{f'<div><dt>등록일</dt><dd>{esc(center["registrationDate"])}</dd></div>' if center["registrationDate"] else ''}<div><dt>정보 확인 기준일</dt><dd>{esc(center["informationReviewedAt"])} · 제공된 센터 자료 기준</dd></div><div><dt>평일 운영 참고</dt><dd>{esc(center["openingReference"])} · 실제 방문·수업 시간은 상담 확인</dd></div><div><dt>주말 운영</dt><dd>{esc(weekend)}</dd></div><div><dt>위치 안내</dt><dd>{esc(location)}</dd></div></dl><div class="info-actions"><a class="branch-button primary" href="https://map.naver.com/p/search/{map_query}" target="_blank" rel="noopener noreferrer">네이버 지도에서 주소 검색</a><a class="branch-button" href="tel:{PHONE_LINK}">전화 상담</a></div></section>
 {subject_section(center)}
 {school_section(center)}
 <section class="branch-section service-area" aria-labelledby="service-area-title"><div class="branch-section-head"><p class="branch-kicker">SERVICE AREA</p><h2 id="service-area-title">수업 가능 동네</h2><p>센터 상담 자료에 연결된 동네를 정리했습니다. 실제 통학 거리와 시간표는 주소를 기준으로 다시 확인해 주세요.</p></div><ul>{neighborhood_pills}</ul></section>

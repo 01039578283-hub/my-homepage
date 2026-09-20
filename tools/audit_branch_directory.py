@@ -10,6 +10,9 @@ from urllib.parse import unquote, urlparse
 
 from lxml import html
 
+from branch_course_guidance import branch_course_answer, course_guidance, weekend_guidance
+from branch_page_summaries import center_summaries, summary_document_errors
+
 
 ROOT = Path(__file__).resolve().parents[1]
 BRANCH_ROOT = ROOT / "지점안내"
@@ -90,8 +93,6 @@ def main() -> None:
                 webpage = next((item for item in graph if item.get("@id", "").endswith("#webpage")), None)
                 if not article:
                     errors.append(f"{relative}: Article 없음")
-                elif article.get("abstract") != description:
-                    errors.append(f"{relative}: Article abstract와 meta description 불일치")
                 elif len(article.get("image", [])) != 3:
                     errors.append(f"{relative}: Article image 3종 미연결")
                 if not service:
@@ -102,21 +103,51 @@ def main() -> None:
                     errors.append(f"{relative}: WebPage 관계 또는 대표 이미지 없음")
                 reviewed_properties = academy.get("additionalProperty", {}) if academy else {}
                 expected_center = centers_by_path.get(relative)
+                if expected_center:
+                    errors.extend(f"{relative}: {error}" for error in summary_document_errors(document, graph, center_summaries(expected_center)))
                 reviewed_at = expected_center.get("informationReviewedAt", "") if expected_center else ""
                 if not reviewed_at or reviewed_properties.get("value") != reviewed_at:
                     errors.append(f"{relative}: 구조화 데이터 정보 확인 기준일 오류")
                 visible_reviewed = document.xpath('//dt[normalize-space()="정보 확인 기준일"]/following-sibling::dd[1]')
                 if not visible_reviewed or reviewed_at not in visible_reviewed[0].text_content():
                     errors.append(f"{relative}: 표시 정보 확인 기준일 오류")
-                quick_answers = document.xpath('//section[contains(concat(" ", normalize-space(@class), " "), " branch-answer ")]//p[last()]/text()')
-                if not quick_answers or " ".join(quick_answers[0].split()) != description:
-                    errors.append(f"{relative}: 첫 요약과 meta description 불일치")
+                overview = document.xpath('//section[@id="overview"]')
+                if not overview or not expected_center:
+                    errors.append(f"{relative}: 상단 학년 요약 없음")
+                else:
+                    for subject in ("영어", "수학"):
+                        actual = overview[0].xpath(f'.//div[@data-subject="{subject}"]//strong/text()')
+                        if actual != [course_guidance(expected_center, subject)["label"]]:
+                            errors.append(f"{relative}: 상단 {subject} 학년 범위 불일치")
+                    for subject in ("국어", "영어", "수학", "과학", "사회"):
+                        view = course_guidance(expected_center, subject)
+                        actual = document.xpath(f'//section[@id="subjects"]//tr[@data-subject="{subject}"]//strong/text()')
+                        if actual != [view["label"]]:
+                            errors.append(f"{relative}: {subject} 표의 학년 범위 불일치")
+                    faq = next(item for item in graph if item.get("@type") == "FAQPage")
+                    if faq["mainEntity"][1]["acceptedAnswer"]["text"] != branch_course_answer(expected_center):
+                        errors.append(f"{relative}: 학년 FAQ 내용 불일치")
+                    if faq["mainEntity"][3]["acceptedAnswer"]["text"] != weekend_guidance(expected_center):
+                        errors.append(f"{relative}: 주말 FAQ 내용 불일치")
+                    for element, entry in zip(document.xpath('//section[@id="faq"]//details'), faq["mainEntity"]):
+                        if " ".join(element.xpath('./p')[0].text_content().split()) != entry["acceptedAnswer"]["text"]:
+                            errors.append(f"{relative}: 표시 FAQ와 스키마 불일치")
+                    expected_offers = {v["subject"]: v for v in [course_guidance(expected_center, s) for s in ("국어", "영어", "수학", "과학", "사회")] if v["grades"]}
+                    offers = academy.get("makesOffer", [])
+                    if expected_offers and len(offers) != len(expected_offers):
+                        errors.append(f"{relative}: 검토된 학년과 과목 Offer 수 불일치")
+                    for subject, view in expected_offers.items():
+                        offered = next((o["itemOffered"] for o in offers if o["itemOffered"]["name"] == f'{expected_center["routeName"]} {subject} 학습코칭'), {})
+                        if offered.get("audience", {}).get("audienceType") != view["label"]:
+                            errors.append(f"{relative}: {subject} Offer 학년 범위 불일치")
                 primary_sections = document.xpath('//section[contains(concat(" ", normalize-space(@class), " "), " branch-primary-media ")]')
                 if len(primary_sections) != 1:
                     errors.append(f"{relative}: 대표·본문·지도 섹션 수 {len(primary_sections)}")
                 else:
                     primary_media_pages += 1
                     primary = primary_sections[0]
+                    if overview and overview[0].sourceline >= primary.sourceline:
+                        errors.append(f"{relative}: 상단 학년 요약이 이미지 아래에 있음")
                     representative = primary.xpath('.//img[contains(concat(" ", normalize-space(@class), " "), " branch-representative-image ")]')
                     body_images = primary.xpath('.//figure[contains(concat(" ", normalize-space(@class), " "), " branch-body-image ")]//img')
                     map_images = primary.xpath('.//figure[contains(concat(" ", normalize-space(@class), " "), " branch-map-image ")]//img')
