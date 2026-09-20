@@ -14,6 +14,7 @@ from branch_course_guidance import course_answer, course_guidance
 from branch_manuscript_editorial import AUTHORING, corrections, edit_manuscript, other_level_school_names
 from branch_page_summaries import topic_summaries, validate_summaries, summary_document_errors
 from generate_branch_topic_pages import load_manuscripts
+from branch_hub_upgrade import related_entries
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -279,13 +280,9 @@ def main() -> None:
             errors.append(f"{label}: FAQ 질문 중복")
 
         related_hrefs = document.xpath('//section[@id="related-pages"]//a/@href')
-        expected_siblings = {
-            f'/지점안내/{center["region"]}/{center["routeName"]}/{record["locality"]}{level}{subject}학원/'
-            for level, subject in TOPICS
-            if (level, subject) != (record["level"], record["subject"])
-        }
-        if not expected_siblings.issubset(set(related_hrefs)):
-            errors.append(f"{label}: 같은 동네 5개 관련 페이지 링크 부족")
+        expected_related = [path for _, path, _, _ in related_entries(center, record)]
+        if related_hrefs != expected_related or len(related_hrefs) > 5:
+            errors.append(f"{label}: 관련도 중심 4~5개 내부링크 구성 불일치")
         parent_path = f'/지점안내/{center["region"]}/{center["routeName"]}/'
         if parent_path not in document.xpath('//a/@href'):
             errors.append(f"{label}: 상위 지점 링크 없음")

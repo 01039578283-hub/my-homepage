@@ -27,6 +27,7 @@ from branch_course_guidance import (
     REGISTRATION_NOTE, branch_course_answer, center_notes, course_guidance,
     verify_source, weekend_guidance,
 )
+from branch_hub_upgrade import upgrade_center, upgrade_directory
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -820,7 +821,7 @@ def generate_hub(centers: list[dict[str, object]]) -> str:
 <section class="branch-section branch-method" aria-labelledby="method-title"><div class="branch-section-head"><p class="branch-kicker">COACHING FLOW</p><h2 id="method-title">상담에서 학습 계획까지 확인하는 순서</h2></div><ol class="method-grid"><li><b>01</b><strong>현재 상태 확인</strong><span>학교·학년, 최근 시험, 어려운 과목과 단원을 정리합니다.</span></li><li><b>02</b><strong>진도와 학습량 설정</strong><span>교재와 시작 단원, 주간 학습량을 학생 상황에 맞춰 확인합니다.</span></li><li><b>03</b><strong>실행과 오답 점검</strong><span>플래너와 문제풀이 결과를 보고 막힌 원인을 다시 확인합니다.</span></li><li><b>04</b><strong>다음 계획 조정</strong><span>수업과 과제 결과를 바탕으로 다음 학습 계획을 조정합니다.</span></li></ol></section>
 <section class="branch-section branch-faq" id="faq" aria-labelledby="hub-faq-title"><div class="branch-section-head"><p class="branch-kicker">FAQ</p><h2 id="hub-faq-title">지점 선택 전 자주 묻는 질문</h2></div>{faq_html}</section>
 '''
-    html = page_shell(title, description, path, graph, "/assets/title.png", crumbs, body)
+    html = upgrade_directory(page_shell(title, description, path, graph, "/assets/title.png", crumbs, body), centers)
     output = OUTPUT_ROOT / "index.html"
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(clean_html(html), encoding="utf-8")
@@ -859,7 +860,7 @@ def generate_region_page(region: str, centers: list[dict[str, object]]) -> str:
     districts = Counter(center["district"] for center in centers)
     district_copy = " · ".join(f"{name} {count}곳" for name, count in districts.most_common())
     subject_counts = {
-        subject: sum(bool(center["subjects"].get(subject)) for center in centers)
+        subject: sum(bool(course_guidance(center, subject)["grades"]) for center in centers)
         for subject in SUBJECTS
     }
     subject_copy = " · ".join(
@@ -867,7 +868,7 @@ def generate_region_page(region: str, centers: list[dict[str, object]]) -> str:
     )
     region_faqs = [
         (f"{region}에서 가까운 센터는 어떻게 찾나요?", f"{region} 센터 목록에서 지점명, 시·군·구 또는 수업 가능 동네를 검색하세요. 선택한 센터 페이지에서 주소와 위치 안내를 확인한 뒤 방문 전 상담으로 시간표를 확인하면 됩니다."),
-        (f"{region} 센터에서 상담할 수 있는 과목은 무엇인가요?", f"제공된 운영 자료 기준으로 {subject_copy}이 확인됩니다. 실제 개설 학년과 코치 배정은 센터별로 다를 수 있으므로 상세 페이지와 상담에서 최종 확인해 주세요."),
+        (f"{region} 센터에서 상담할 수 있는 과목은 무엇인가요?", f"센터 자료와 수업 조건을 대조하면 안내 학년이 확인된 곳은 {subject_copy}입니다. 같은 센터가 여러 과목에 포함될 수 있습니다. 현재 시간표와 신규 등록 가능 여부는 상세 페이지와 상담에서 확인해 주세요."),
         ("센터를 비교할 때 무엇을 먼저 보면 좋나요?", "통학 가능한 주소인지 확인한 다음 학생의 학년과 희망 과목, 최근 시험의 반복 오답, 가능한 요일과 시간을 함께 비교하면 상담 범위를 구체화하기 좋습니다."),
     ]
     graph.append({"@type": "FAQPage", "@id": encoded_url(path) + "#faq", "mainEntity": [
@@ -888,7 +889,7 @@ def generate_region_page(region: str, centers: list[dict[str, object]]) -> str:
 <section class="branch-section branch-faq" id="faq" aria-labelledby="region-faq-title"><div class="branch-section-head"><p class="branch-kicker">FAQ</p><h2 id="region-faq-title">{esc(region)} 지점 선택 질문</h2></div>{region_faq_html}</section>
 <section class="branch-section branch-related"><div class="branch-section-head"><p class="branch-kicker">NEXT STEP</p><h2>센터 선택 후 확인할 내용</h2></div><div class="related-grid"><a href="/과목별학원/"><strong>과목별 학습 안내</strong><span>영어·수학·국어 등 과목별 관리 기준 보기</span></a><a href="/학년별학원/"><strong>학년별 학습 안내</strong><span>초등·중등·고등 단계별 학습 기준 보기</span></a><a href="/guide/parent-consultation-checklist/"><strong>상담 체크리스트</strong><span>상담 전 준비할 질문과 자료 확인하기</span></a></div></section>
 '''
-    html = page_shell(title, description, path, graph, "/assets/title.png", crumbs, body)
+    html = upgrade_directory(page_shell(title, description, path, graph, "/assets/title.png", crumbs, body), centers, region)
     output = OUTPUT_ROOT / region / "index.html"
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(clean_html(html), encoding="utf-8")
@@ -1151,7 +1152,7 @@ def generate_branch_page(center: dict[str, object]) -> str:
 {branch_topic_links(center)}
 <section class="branch-section branch-related" aria-labelledby="related-title"><div class="branch-section-head"><p class="branch-kicker">RELATED GUIDE</p><h2 id="related-title">함께 확인할 안내</h2></div><div class="related-grid">{related_html}</div></section>
 '''
-    html = page_shell(title, description, path, graph, image, crumbs, body)
+    html = upgrade_center(page_shell(title, description, path, graph, image, crumbs, body), center)
     output = OUTPUT_ROOT / region / name / "index.html"
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(clean_html(html), encoding="utf-8")

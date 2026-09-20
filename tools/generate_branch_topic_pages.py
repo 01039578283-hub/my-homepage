@@ -240,27 +240,8 @@ def example_markup(item: dict[str, object]) -> str:
 
 
 def related_markup(center: dict[str, object], item: dict[str, object]) -> tuple[str, list[dict[str, object]]]:
-    locality = item["locality"]
-    level = item["level"]
-    subject = item["subject"]
-    links: list[tuple[str, str, str]] = []
-    for topic in TOPICS:
-        if topic["level"] == level and topic["subject"] == subject:
-            continue
-        path = topic_path(center, locality, topic["level"], topic["subject"])
-        links.append((f'{locality} {topic["level"]} {topic["subject"]}학원', path, "같은 동네의 다른 학교급·과목 안내"))
-    links.append((f'{center["routeName"]} 지점안내', f'/지점안내/{center["region"]}/{center["routeName"]}/', "주소·가능 과목·학년·인근 학교 확인"))
-    hub_label, hub_path = subject_hub(subject, level)
-    links.append((hub_label, hub_path, "과목별 학습관리 기준 확인"))
-    for other in center["neighborhoods"]:
-        if other == locality:
-            continue
-        links.append((f"{other} {level} {subject}학원", topic_path(center, other, level, subject), "같은 센터의 다른 수업 가능 동네"))
-    links = links[:9]
-    cards = "".join(f'<a href="{esc(path)}"><strong>{esc(label)}</strong><span>{esc(copy)}</span></a>' for label, path, copy in links)
-    schema = [{"@type": "ListItem", "position": index + 1, "name": label, "url": encoded_url(path)} for index, (label, path, _) in enumerate(links)]
-    markup = f'<section class="branch-section branch-related branch-topic-related" id="related-pages" aria-labelledby="topic-related-title"><div class="branch-section-head"><p class="branch-kicker">RELATED PAGES</p><h2 id="topic-related-title">함께 확인할 학습 안내</h2></div><div class="related-grid">{cards}</div></section>'
-    return markup, schema
+    from branch_hub_upgrade import related_markup as reviewed_related_markup
+    return reviewed_related_markup(center, item)
 
 
 def schema_graph(center: dict[str, object], item: dict[str, object], path: str, available: bool, related_schema: list[dict[str, object]]) -> list[dict[str, object]]:
@@ -365,6 +346,8 @@ def render_page(center: dict[str, object], item: dict[str, object], output_root:
     # Keep the legacy guide bridge when a branch page is regenerated later.
     # The postprocessor is a no-op when no exact level/subject/locality guide exists.
     html = upgrade_page(html, center, item, "child", root=ROOT)
+    from branch_hub_upgrade import upgrade_child
+    html = upgrade_child(html, center, item)
     destination = output_root or ROOT
     output = destination / path.strip("/") / "index.html"
     output.parent.mkdir(parents=True, exist_ok=True)

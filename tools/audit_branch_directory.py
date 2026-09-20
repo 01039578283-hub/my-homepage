@@ -17,6 +17,7 @@ from branch_page_summaries import center_summaries, summary_document_errors
 ROOT = Path(__file__).resolve().parents[1]
 BRANCH_ROOT = ROOT / "지점안내"
 BRANCH_MANIFEST = ROOT / "tools" / "data" / "branch-directory" / "branches.json"
+REPORT = ROOT / "reports" / "branch-directory" / "technical-audit.json"
 DOMAIN = "wawa-center.kr"
 EXCLUDED_TERMS = ("(W+)", "글로리드", "대구역점2호관", "홍보 이미지")
 
@@ -263,7 +264,7 @@ def main() -> None:
         "warnings": warnings,
         "duplicateCounts": {key: len(value) for key, value in duplicates.items()},
     }
-    report = ROOT / "reports" / "branch-directory" / "technical-audit.json"
+    report = REPORT
     report.parent.mkdir(parents=True, exist_ok=True)
     report.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
     print(json.dumps(result, ensure_ascii=False, indent=2))
