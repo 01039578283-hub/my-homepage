@@ -7,21 +7,56 @@ from collections import Counter
 from concurrent.futures import ThreadPoolExecutor,as_completed
 from pathlib import Path
 from urllib.parse import quote,unquote,urlsplit
+from urllib.request import Request,build_opener,HTTPRedirectHandler
+from urllib.error import HTTPError,URLError
 from xml.etree import ElementTree as ET
 
-import requests
 from lxml import html
 from branch_urls import canonical
+from export_branch_subject_urls import ordered_paths
 
 ROOT=Path(__file__).resolve().parents[1]
 OUT=Path(r'C:\Users\1992k\Desktop\CodexData\outputs\wawa-local-subject-hubs-20260921')
 THREAD=threading.local()
 
 
+class NoRedirect(HTTPRedirectHandler):
+    def redirect_request(self,*args,**kwargs):
+        return None
+
+
+class Response:
+    def __init__(self,response,method):
+        self.status_code=response.code
+        self.headers=response.headers
+        self.content=b'' if method=='HEAD' else response.read()
+        self.encoding='utf-8'
+
+    @property
+    def text(self):
+        return self.content.decode(self.encoding)
+
+
+class Session:
+    def __init__(self):
+        self.opener=build_opener(NoRedirect())
+
+    def fetch(self,method,url,timeout):
+        request=Request(url,method=method,headers={'User-Agent':'WawaSiteReleaseCheck/1.0'})
+        try:response=self.opener.open(request,timeout=timeout)
+        except HTTPError as error:response=error
+        with response:return Response(response,method)
+
+    def head(self,url,allow_redirects=False,timeout=25):
+        return self.fetch('HEAD',url,timeout)
+
+    def get(self,url,timeout=30):
+        return self.fetch('GET',url,timeout)
+
+
 def session():
     if not hasattr(THREAD,'session'):
-        THREAD.session=requests.Session()
-        THREAD.session.headers['User-Agent']='WawaSiteReleaseCheck/1.0'
+        THREAD.session=Session()
     return THREAD.session
 
 
@@ -39,7 +74,7 @@ def check(origin,entry):
             else:ok=status==200
             time.sleep(.18)
             return {'kind':kind,'path':path,'status':status,'ok':ok,**({'location':location} if kind=='redirect' else {})}
-        except requests.RequestException as error:
+        except (URLError,TimeoutError,OSError) as error:
             if attempt==2:return {'kind':kind,'path':path,'ok':False,'error':str(error)}
             time.sleep(2*(attempt+1))
 
@@ -49,7 +84,7 @@ def run(origin,full=False):
     courses=json.loads((ROOT/'tools/data/branch-topic-pages/pages.json').read_text(encoding='utf-8'))['pages']
     mapping=json.loads((ROOT/'tools/data/local-subject-hubs/url-migration.json').read_text(encoding='utf-8'))
     if full:
-        targets=[('page',r['path'],None) for r in [*hubs,*courses]]+[('redirect',o,n) for o,n in mapping.items()]
+        targets=[('page',p,None) for p in ordered_paths()]+[('redirect',o,n) for o,n in mapping.items()]
     else:
         # Two subject hubs per region plus every level/subject redirect pattern.
         sample=[];seen=set()

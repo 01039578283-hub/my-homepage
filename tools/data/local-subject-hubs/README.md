@@ -13,6 +13,8 @@ Run `python tools/migrate_local_subject_hubs.py --refresh-hubs` to rebuild only 
 
 Run `python tools/audit_local_subject_hubs.py` and `python -m unittest discover -s tools -p test_local_subject_hubs.py` before release. The bundled Python runtime provides lxml/openpyxl/Pillow. Older manuscript-editorial tests depend on the original six historical archives; do not substitute revised files with identical names.
 
+After publishing, `python tools/verify_local_subject_release.py --full` checks all 3,179 inventory URLs and 2,226 old-address redirects using four rate-limited workers. Its HTTP client uses the Python standard library; no requests package is needed. It also fetches representative page bodies and the published sitemap. Reports are saved outside the public website.
+
 `python tools/export_branch_subject_urls.py` exports a UTF-8 Korean URL list to Desktop: main, branch directory, all regions, all centers, all neighborhood subject hubs, then three school-stage children grouped by hub. The branch tree contains 3,178 URLs; with the main URL the file contains 3,179 lines. Existing non-branch route families are intentionally excluded.
 
 The education-focused RSS remains an article feed; the complete sitemap contains the new hubs and migrated school-stage URLs.
