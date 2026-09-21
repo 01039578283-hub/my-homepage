@@ -246,6 +246,7 @@ def redirects():
             source=prefix+'([^/]+)'+quote(f'{level}{subject}학원',safe='')
             dest=prefix+quote(f'{subject}학원/{level}/',safe='/')
             rules.extend([{'source':source+'/index.html','destination':dest,'permanent':True},
+                          {'source':source+'/','destination':dest,'permanent':True},
                           {'source':source,'destination':dest,'permanent':True}])
     data['redirects']=rules+existing
     write(file,json_text(data))

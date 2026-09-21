@@ -1,8 +1,9 @@
 """Deterministic migration and regenerated-hub contracts (no external writes)."""
 import json
+import re
 import unittest
 from pathlib import Path
-from urllib.parse import quote
+from urllib.parse import quote,unquote
 from lxml import html
 
 from branch_urls import center_path,hub_path,course_path,legacy_path,canonical,crumbs
@@ -62,6 +63,21 @@ class LocalSubjectHubsTests(unittest.TestCase):
         self.assertTrue(all(len(p.strip('/').split('/'))==4 for p in paths[211:953]))
         for i,p in enumerate(paths[211:953]):
             self.assertEqual(paths[953+3*i:956+3*i],[p+g+'/' for g in ('초등','중등','고등')])
+
+    def test_redirect_patterns_cover_every_legacy_url_once(self):
+        rules=json.loads((ROOT/'vercel.json').read_text(encoding='utf-8'))['redirects'][:18]
+        mapping=json.loads((ROOT/'tools/data/local-subject-hubs/url-migration.json').read_text(encoding='utf-8'))
+        for old,new in mapping.items():
+            for source in (old,old.rstrip('/'),old+'index.html'):
+                matches=[]
+                for rule in rules:
+                    pattern=rule['source'].replace(':region','(?P<region>[^/]+)').replace(':center','(?P<center>[^/]+)').replace(':locality([^/]+)','(?P<locality>[^/]+)')
+                    match=re.fullmatch(pattern,quote(source,safe='/'))
+                    if match:
+                        destination=rule['destination']
+                        for name,value in match.groupdict().items():destination=destination.replace(':'+name,value)
+                        matches.append(unquote(destination))
+                self.assertEqual(matches,[new],source)
 
 
 if __name__=='__main__':unittest.main()

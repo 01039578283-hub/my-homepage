@@ -5,7 +5,7 @@
 - `hubs.json` records manuscript provenance and the center mapping.
 - `url-migration.json` records every old and new school-stage URL. The old files are removed only after the article, images and course conditions are checked unchanged.
 - Publication dates of moved articles remain unchanged. New hubs have their own publication history. Rebuilds do not advance modification dates.
-- Twelve Vercel redirect rules use percent-encoded literals to cover the six school-stage/subject patterns and their `index.html` forms. Old and new Korean/encoded URLs must be tested on a deployment.
+- Eighteen Vercel redirect rules use percent-encoded literals to cover the six school-stage/subject patterns, with and without trailing slashes, plus their `index.html` forms. Old and new Korean/encoded URLs must be tested on a deployment.
 
 ## Maintenance
 
