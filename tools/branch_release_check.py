@@ -93,8 +93,11 @@ def scoped_paths(root: Path = ROOT) -> list[Path]:
     expected |= {f'/지점안내/{center["region"]}/' for center in centers}
     expected |= {f'/지점안내/{c["region"]}/{c["routeName"]}/' for c in centers}
     expected |= {record['path'] for record in records}
+    hub_manifest = root / 'tools/data/local-subject-hubs/hubs.json'
+    hubs = json.loads(hub_manifest.read_text(encoding='utf-8'))['pages'] if hub_manifest.exists() else []
+    expected |= {record['path'] for record in hubs}
     actual = {unquote(urlsplit(page_url(p, root)).path) for p in (root / '지점안내').rglob('index.html')}
-    if len(centers) != 193 or len(records) != 2226 or len(expected) != 2436 or expected != actual:
+    if len(centers) != 193 or len(records) != 2226 or len(expected) != 2436 + len(hubs) or expected != actual:
         raise ValueError('branch manifest/file inventory mismatch')
     guides = {paired_routes(by_name[r['center']], r, root)['guide'] for r in records if r['level'] == '고등'}
     if len(guides) != 742:

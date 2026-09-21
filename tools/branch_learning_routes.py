@@ -14,6 +14,7 @@ from pathlib import Path
 from urllib.parse import quote, unquote, urlsplit
 
 from lxml import html
+from branch_urls import course_path
 
 ROOT = Path(__file__).resolve().parents[1]
 DOMAIN = "https://wawa-center.kr"
@@ -43,7 +44,7 @@ def paired_routes(center: dict, item: dict, root: Path = ROOT) -> dict | None:
     if not (root / guide.strip("/") / "index.html").is_file():
         return None
     parent = f"/지점안내/{region}/{name}/"
-    return {"guide": guide, "parent": parent, "child": parent + f'{locality}고등{item["subject"]}학원/'}
+    return {"guide": guide, "parent": parent, "child": course_path(center, locality, '고등', item['subject'])}
 
 
 def block(content: str, position: str) -> str:

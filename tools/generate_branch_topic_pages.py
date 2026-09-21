@@ -22,6 +22,7 @@ from branch_manuscript_editorial import edit_manuscript
 from branch_page_summaries import topic_summaries, validate_summaries
 from branch_learning_routes import upgrade_page
 from branch_seo import finalize_page, page_dates, save_dates
+from branch_urls import course_path, hub_path, crumbs
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -164,8 +165,7 @@ def branch_topic_slug(locality: str, level: str, subject: str) -> str:
 
 
 def topic_path(center: dict[str, object], locality: str, level: str, subject: str) -> str:
-    slug = branch_topic_slug(locality, level, subject)
-    return f'/지점안내/{center["region"]}/{center["routeName"]}/{slug}/'
+    return course_path(center, locality, level, subject)
 
 
 def course_recorded(center: dict[str, object], prefix: str, subject: str) -> bool:
@@ -214,8 +214,10 @@ def footer() -> str:
 <div class="wawa-fixed-fab-container" aria-label="빠른 상담"><a href="tel:{PHONE_DISPLAY}" class="wawa-fab-item fab-call"><span class="fab-icon" aria-hidden="true">☎</span><span class="fab-text">전화문의</span></a><a href="https://blogsms.net/{PHONE_LINK}" target="_blank" rel="noopener noreferrer" class="wawa-fab-item fab-sms"><span class="fab-icon" aria-hidden="true">✉</span><span class="fab-text">문자문의</span></a><a href="{CONSULT_URL}" target="_blank" rel="noopener noreferrer" class="wawa-fab-item fab-consult"><span class="fab-icon" aria-hidden="true">✓</span><span class="fab-text">상담신청</span></a></div>'''
 
 
-def breadcrumb(center: dict[str, object], title: str) -> str:
-    return f'''<nav class="branch-breadcrumb" aria-label="현재 위치"><ol><li><a href="/">홈</a></li><li><a href="/지점안내/">지점안내</a></li><li><a href="/지점안내/{esc(center["region"])}/">{esc(center["region"])}</a></li><li><a href="/지점안내/{esc(center["region"])}/{esc(center["routeName"])}/">{esc(center["routeName"])}</a></li><li><span aria-current="page">{esc(title)}</span></li></ol></nav>'''
+def breadcrumb(center: dict[str, object], item: dict) -> str:
+    rows = crumbs(center, item['locality'], item['subject'], item['level'])
+    links = ''.join(f'<li><a href="{esc(p)}">{esc(n)}</a></li>' for n, p in rows[:-1])
+    return f'<nav class="branch-breadcrumb" aria-label="현재 위치"><ol>{links}<li><span aria-current="page">{esc(rows[-1][0])}</span></li></ol></nav>'
 
 
 def article_markup(item: dict[str, object]) -> str:
@@ -251,16 +253,12 @@ def schema_graph(center: dict[str, object], item: dict[str, object], path: str, 
     parent_url = encoded_url(parent_path)
     media = center["primaryMedia"]
     image_urls = [DOMAIN + quote(media[kind]["src"], safe="/") for kind in ("representative", "body", "map")]
-    crumbs = [
-        ("홈", "/"), ("지점안내", "/지점안내/"),
-        (center["region"], f'/지점안내/{center["region"]}/'),
-        (center["routeName"], parent_path), (item["title"], path),
-    ]
+    breadcrumb_rows = crumbs(center, item['locality'], item['subject'], item['level'])
     academy_id = parent_url + "#academy"
     graph: list[dict[str, object]] = [
         {"@type": "WebSite", "@id": DOMAIN + "/#website", "url": DOMAIN + "/", "name": "와와학습코칭센터", "inLanguage": "ko-KR"},
         {"@type": "WebPage", "@id": page_url + "#webpage", "url": page_url, "name": item["title"], "description": item["description"], "inLanguage": "ko-KR", "isPartOf": {"@id": DOMAIN + "/#website"}, "breadcrumb": {"@id": page_url + "#breadcrumb"}, "mainEntity": {"@id": page_url + "#article"}, "primaryImageOfPage": {"@type": "ImageObject", "url": image_urls[0]}, "about": [{"@id": academy_id}, {"@type": "Place", "name": item["locality"]}, {"@type": "Thing", "name": f'{item["level"]} {item["subject"]} 학습'}], "mentions": [{"@type": "Place", "name": center["region"]}, {"@type": "Place", "name": center["district"]}, {"@type": "Thing", "name": "학습 진단"}, {"@type": "Thing", "name": "오답 재학습"}]},
-        {"@type": "BreadcrumbList", "@id": page_url + "#breadcrumb", "itemListElement": [{"@type": "ListItem", "position": index + 1, "name": name, "item": encoded_url(url)} for index, (name, url) in enumerate(crumbs)]},
+        {"@type": "BreadcrumbList", "@id": page_url + "#breadcrumb", "itemListElement": [{"@type": "ListItem", "position": index + 1, "name": name, "item": encoded_url(url)} for index, (name, url) in enumerate(breadcrumb_rows)]},
         {"@type": ["EducationalOrganization", "LocalBusiness"], "@id": academy_id, "name": center["displayName"], "legalName": center["registeredName"], "url": parent_url, "address": {"@type": "PostalAddress", "streetAddress": center["address"], "addressRegion": center["region"], "addressLocality": center["district"], "addressCountry": "KR"}, "identifier": center["registrationNumber"], "areaServed": [{"@type": "Place", "name": name} for name in center["neighborhoods"]], "additionalProperty": {"@type": "PropertyValue", "name": "센터 정보 확인 기준일", "value": center["informationReviewedAt"]}},
         {"@type": "Article", "@id": page_url + "#article", "headline": item["title"], "description": item["description"], "abstract": item["abstract"], "inLanguage": "ko-KR", **page_dates(path), "mainEntityOfPage": {"@id": page_url + "#webpage"}, "author": {"@id": DOMAIN + "/#organization"}, "publisher": {"@id": DOMAIN + "/#organization"}, "about": [{"@type": "Place", "name": item["locality"]}, {"@type": "Thing", "name": f'{item["level"]} {item["subject"]} 학습'}], "articleSection": [section["heading"] for section in item["sections"]], "image": image_urls},
         {"@type": "FAQPage", "@id": page_url + "#faq", "mainEntity": [{"@type": "Question", "name": faq["question"], "acceptedAnswer": {"@type": "Answer", "text": faq["answer"]}} for faq in item["faq"]]},
@@ -269,6 +267,7 @@ def schema_graph(center: dict[str, object], item: dict[str, object], path: str, 
     if available:
         view = course_guidance(center, item["subject"], item["prefix"])
         graph.append({"@type": "Service", "@id": page_url + "#service", "name": f'{item["locality"]} {item["level"]} {item["subject"]} 학습 상담', "serviceType": f'{item["level"]} {item["subject"]} 학습코칭', "description": course_answer(center, item["subject"], item["prefix"]), "provider": {"@id": academy_id}, "areaServed": {"@type": "Place", "name": item["locality"]}, "audience": {"@type": "EducationalAudience", "educationalRole": "student", "audienceType": view["label"]}, "offers": {"@type": "Offer", "url": page_url}})
+    next(n for n in graph if n.get('@type') == 'WebPage')['isPartOf'] = {'@id': encoded_url(hub_path(center, item['locality'], item['subject'])) + '#webpage'}
     return graph
 
 
@@ -322,7 +321,7 @@ def render_page(center: dict[str, object], item: dict[str, object], output_root:
 </head>
 <body class="branch-directory-page branch-topic-page">
 {header()}
-{breadcrumb(center, title)}
+{breadcrumb(center, item)}
 <main id="main" class="branch-shell">
 <section class="branch-topic-hero">
   <p class="branch-kicker">{esc(center["region"])} · {esc(center["district"])} · {esc(center["routeName"])} LEARNING GUIDE</p>

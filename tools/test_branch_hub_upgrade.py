@@ -12,6 +12,7 @@ from branch_hub_upgrade import (
     related_entries, upgrade_child, upgrade_center, upgrade_header, upgrade_directory,
 )
 from branch_course_guidance import course_guidance
+from branch_urls import hub_path, center_path
 from refresh_branch_hub_upgrade import protected_content, validate_page
 
 
@@ -27,12 +28,13 @@ class BranchHubUpgradeTest(unittest.TestCase):
             center = self.by_name[record['center']]
             links = related_entries(center, record)
             paths = [entry[1] for entry in links]
-            self.assertIn(len(paths), (4,5))
+            self.assertIn(len(paths), (5,6))
             self.assertEqual(len(paths), len(set(paths)))
             self.assertNotIn(record['path'], paths)
-            parent = record['path'].rsplit('/',2)[0] + '/'
-            self.assertEqual(paths[0], parent)
-            for path in paths[1:]:
+            parent = center_path(center)
+            self.assertEqual(paths[0], hub_path(center,record['locality'],record['subject']))
+            self.assertEqual(paths[1],parent)
+            for path in paths[2:]:
                 if path.startswith('/지점안내/'):
                     self.assertTrue(path.startswith(parent + record['locality']))
             if record['level'] == '초등':
@@ -40,7 +42,7 @@ class BranchHubUpgradeTest(unittest.TestCase):
             if record['level'] == '고등':
                 self.assertFalse(any('초등' in p for p in paths))
 
-    def test_all_2226_children_remain_in_parent_directories(self):
+    def test_all_742_subject_hubs_are_in_center_directories(self):
         paths = []
         for center in self.centers:
             if not center['neighborhoods']:
@@ -49,8 +51,8 @@ class BranchHubUpgradeTest(unittest.TestCase):
             doc = html.fromstring(child_directory(center))
             self.assertEqual(len(doc.xpath('//*[@class="hub-neighborhood-group"]')), len(center['neighborhoods']))
             paths.extend(doc.xpath('//a/@href'))
-        self.assertEqual(set(paths), {r['path'] for r in self.records})
-        self.assertEqual(len(paths), 2226)
+        self.assertEqual(set(paths), {hub_path(self.by_name[r['center']],r['locality'],r['subject']) for r in self.records})
+        self.assertEqual(len(paths), 742)
 
     def test_reviewed_grade_ranges_only_in_learning_cards(self):
         for center in self.centers:

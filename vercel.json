@@ -2,6 +2,66 @@
   "cleanUrls": true,
   "redirects": [
     {
+      "source": "/지점안내/:region/:center/:locality([^/]+)초등수학학원/index.html",
+      "destination": "/지점안내/:region/:center/:locality수학학원/초등/",
+      "permanent": true
+    },
+    {
+      "source": "/지점안내/:region/:center/:locality([^/]+)초등수학학원",
+      "destination": "/지점안내/:region/:center/:locality수학학원/초등/",
+      "permanent": true
+    },
+    {
+      "source": "/지점안내/:region/:center/:locality([^/]+)초등영어학원/index.html",
+      "destination": "/지점안내/:region/:center/:locality영어학원/초등/",
+      "permanent": true
+    },
+    {
+      "source": "/지점안내/:region/:center/:locality([^/]+)초등영어학원",
+      "destination": "/지점안내/:region/:center/:locality영어학원/초등/",
+      "permanent": true
+    },
+    {
+      "source": "/지점안내/:region/:center/:locality([^/]+)중등수학학원/index.html",
+      "destination": "/지점안내/:region/:center/:locality수학학원/중등/",
+      "permanent": true
+    },
+    {
+      "source": "/지점안내/:region/:center/:locality([^/]+)중등수학학원",
+      "destination": "/지점안내/:region/:center/:locality수학학원/중등/",
+      "permanent": true
+    },
+    {
+      "source": "/지점안내/:region/:center/:locality([^/]+)중등영어학원/index.html",
+      "destination": "/지점안내/:region/:center/:locality영어학원/중등/",
+      "permanent": true
+    },
+    {
+      "source": "/지점안내/:region/:center/:locality([^/]+)중등영어학원",
+      "destination": "/지점안내/:region/:center/:locality영어학원/중등/",
+      "permanent": true
+    },
+    {
+      "source": "/지점안내/:region/:center/:locality([^/]+)고등수학학원/index.html",
+      "destination": "/지점안내/:region/:center/:locality수학학원/고등/",
+      "permanent": true
+    },
+    {
+      "source": "/지점안내/:region/:center/:locality([^/]+)고등수학학원",
+      "destination": "/지점안내/:region/:center/:locality수학학원/고등/",
+      "permanent": true
+    },
+    {
+      "source": "/지점안내/:region/:center/:locality([^/]+)고등영어학원/index.html",
+      "destination": "/지점안내/:region/:center/:locality영어학원/고등/",
+      "permanent": true
+    },
+    {
+      "source": "/지점안내/:region/:center/:locality([^/]+)고등영어학원",
+      "destination": "/지점안내/:region/:center/:locality영어학원/고등/",
+      "permanent": true
+    },
+    {
       "source": "/overview.html",
       "destination": "/overview/",
       "permanent": true

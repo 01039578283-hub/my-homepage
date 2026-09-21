@@ -84,13 +84,14 @@ def validate_page(raw, kind, center=None, item=None):
     if kind == 'child':
         expected = [path for _, path, _, _ in related_entries(center, item)]
         actual = doc.xpath('//*[@id="related-pages"]//a/@href')
-        assert actual == expected and 4 <= len(actual) <= 5 and len(actual) == len(set(actual))
+        assert actual == expected and 5 <= len(actual) <= 6 and len(actual) == len(set(actual))
         listing = next(n for n in nodes if n.get('@id', '').endswith('#related-pages'))
         assert [unquote(urlsplit(n['url']).path) for n in listing['itemListElement']] == actual
         assert [n['position'] for n in listing['itemListElement']] == list(range(1, len(actual) + 1))
     if kind == 'center':
-        expected = [f'/지점안내/{center["region"]}/{center["routeName"]}/{area}{level}{subject}학원/'
-                    for area in center['neighborhoods'] for level in ('초등','중등','고등') for subject in ('수학','영어')]
+        from branch_urls import hub_path
+        expected = [hub_path(center,area,subject)
+                    for area in center['neighborhoods'] for subject in ('수학','영어')]
         assert doc.xpath('//*[@id="learning-pages"]//a/@href') == expected, 'Child pages must all remain reachable'
         for level, prefix in (('초등','초'),('중등','중'),('고등','고')):
             stage = doc.xpath(f'//*[@id="learning"]//*[@data-learning-level="{level}"]')

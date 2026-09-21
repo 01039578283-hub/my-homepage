@@ -15,6 +15,7 @@ from branch_course_guidance import course_guidance
 from branch_learning_routes import guide_label, paired_routes
 from branch_manuscript_editorial import learning_points
 from site_navigation import NAV, unify_header
+from branch_urls import hub_path, course_path
 
 ROOT = Path(__file__).resolve().parents[1]
 DOMAIN = "https://wawa-center.kr"
@@ -115,12 +116,9 @@ def child_directory(center):
     groups = []
     for locality in center['neighborhoods']:
         cards = []
-        for level, prefix in LEVELS:
-            for subject in ('수학', '영어'):
-                path = f'/지점안내/{center["region"]}/{center["routeName"]}/{locality}{level}{subject}학원/'
-                view = course_guidance(center, subject, prefix)
-                detail = f'{view["label"]} · 학습 준비 확인' if view['grades'] else '개설 여부 확인 · 학습 준비 안내'
-                cards.append(f'<a href="{esc(path)}"><strong>{esc(locality)} {level} {subject}학원</strong><span>{esc(detail)}</span></a>')
+        for subject in ('수학', '영어'):
+            path = hub_path(center, locality, subject)
+            cards.append(f'<a href="{esc(path)}"><strong>{esc(locality)} {subject}학원</strong><span>과목별 학습 점검 · 초등·중등·고등 안내</span></a>')
         groups.append(f'<div class="hub-neighborhood-group"><h3>{esc(locality)} 학습 안내</h3><div class="branch-topic-link-grid">{"".join(cards)}</div></div>')
     if not groups:
         return ''
@@ -130,15 +128,15 @@ def child_directory(center):
 def related_entries(center, item, root=ROOT):
     locality, level, subject = (item[k] for k in ('locality', 'level', 'subject'))
     parent = f'/지점안내/{center["region"]}/{center["routeName"]}/'
-    links = [(f'{center["routeName"]} 지점안내', parent, '주소·전체 과목·학년과 상담 준비를 함께 확인', False)]
+    links = [(f'{locality} {subject}학원 전체 안내', hub_path(center, locality, subject), '학교급별 학습 준비와 다른 단계 안내', False), (f'{center["routeName"]} 지점안내', parent, '주소·전체 과목·학년과 상담 준비를 함께 확인', False)]
     other = '영어' if subject == '수학' else '수학'
-    links.append((f'{locality} {level} {other}학원', parent + f'{locality}{level}{other}학원/', '같은 동네·학교급의 다른 과목 학습 준비', False))
+    links.append((f'{locality} {level} {other}학원', course_path(center, locality, level, other), '같은 동네·학교급의 다른 과목 학습 준비', False))
     levels = [pair[0] for pair in LEVELS]
     current = levels.index(level)
     for index in (current - 1, current + 1):
         if 0 <= index < len(levels):
             target = levels[index]
-            links.append((f'{locality} {target} {subject}학원', parent + f'{locality}{target}{subject}학원/', '같은 과목의 이전 단계 복습' if index < current else '같은 과목의 다음 학교급 준비', False))
+            links.append((f'{locality} {target} {subject}학원', course_path(center, locality, target, subject), '같은 과목의 이전 단계 복습' if index < current else '같은 과목의 다음 학교급 준비', False))
     label, path = GUIDES[(level, subject)]
     links.append((label, path, '상담 전 집에서 실천할 학습 방법', False))
     pair = paired_routes(center, item, root)

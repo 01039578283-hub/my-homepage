@@ -59,10 +59,10 @@ class ReleaseFeedTests(unittest.TestCase):
     def tearDown(self):
         self.directory.cleanup()
 
-    def test_current_scope_is_3178_unique_pages(self):
+    def test_current_scope_is_3920_unique_pages(self):
         scope = scoped_paths()
-        self.assertEqual(len(scope), 3178)
-        self.assertEqual(len(set(scope)), 3178)
+        self.assertEqual(len(scope), 3920)
+        self.assertEqual(len(set(scope)), 3920)
         self.assertTrue(all(p.is_file() for p in scope))
 
     def test_korean_iri_is_same_canonical_not_false_mismatch(self):

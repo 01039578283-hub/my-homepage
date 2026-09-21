@@ -27,8 +27,9 @@ from branch_course_guidance import (
     REGISTRATION_NOTE, branch_course_answer, center_notes, course_guidance,
     verify_source, weekend_guidance,
 )
-from branch_hub_upgrade import upgrade_center, upgrade_directory
+from branch_hub_upgrade import upgrade_center, upgrade_directory, child_directory
 from branch_seo import finalize_page, page_dates, save_dates, checked_source_date
+from branch_urls import hub_path
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -952,18 +953,7 @@ def primary_media(center: dict[str, object]) -> str:
 
 
 def branch_topic_links(center: dict[str, object]) -> str:
-    links = []
-    for neighborhood in center["neighborhoods"]:
-        for level, subject in BRANCH_TOPIC_VARIANTS:
-            slug = f"{neighborhood}{level}{subject}학원"
-            links.append(
-                f'<a href="/지점안내/{esc(center["region"])}/{esc(center["routeName"])}/{esc(slug)}/">'
-                f'<strong>{esc(neighborhood)} {esc(level)} {esc(subject)}학원</strong>'
-                f'<span>{esc(level)} {esc(subject)} 학습 안내 보기</span></a>'
-            )
-    if not links:
-        return ""
-    return f'''<section class="branch-section branch-topic-links" id="learning-pages" aria-labelledby="learning-pages-title"><div class="branch-section-head"><p class="branch-kicker">LOCAL LEARNING PAGES</p><h2 id="learning-pages-title">동네별 영어·수학 학습 안내</h2><p>수업 가능 동네를 기준으로 학교급과 과목별 학습 준비 내용을 확인할 수 있습니다. 실제 개설 과목과 시간표는 상담에서 최종 확인해 주세요.</p></div><div class="branch-topic-link-grid">{''.join(links)}</div></section>'''
+    return child_directory(center)
 
 
 def school_section(center: dict[str, object]) -> str:
@@ -1073,12 +1063,12 @@ def generate_branch_page(center: dict[str, object]) -> str:
     ]
     child_items = []
     for neighborhood in center["neighborhoods"]:
-        for level, subject in BRANCH_TOPIC_VARIANTS:
-            child_path = f'/지점안내/{region}/{name}/{neighborhood}{level}{subject}학원/'
+        for subject in ('수학', '영어'):
+            child_path = hub_path(center, neighborhood, subject)
             child_items.append({
                 "@type": "ListItem",
                 "position": len(child_items) + 1,
-                "name": f"{neighborhood} {level} {subject}학원",
+                "name": f"{neighborhood} {subject}학원",
                 "url": encoded_url(child_path),
             })
     if child_items:
