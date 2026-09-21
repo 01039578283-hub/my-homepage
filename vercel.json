@@ -2,63 +2,63 @@
   "cleanUrls": true,
   "redirects": [
     {
-      "source": "/지점안내/:region/:center/:locality([^/]+)초등수학학원/index.html",
-      "destination": "/지점안내/:region/:center/:locality수학학원/초등/",
+      "source": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/:region/:center/:locality([^/]+)%EC%B4%88%EB%93%B1%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/index.html",
+      "destination": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/:region/:center/:locality%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%B4%88%EB%93%B1/",
       "permanent": true
     },
     {
-      "source": "/지점안내/:region/:center/:locality([^/]+)초등수학학원",
-      "destination": "/지점안내/:region/:center/:locality수학학원/초등/",
+      "source": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/:region/:center/:locality([^/]+)%EC%B4%88%EB%93%B1%EC%88%98%ED%95%99%ED%95%99%EC%9B%90",
+      "destination": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/:region/:center/:locality%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%B4%88%EB%93%B1/",
       "permanent": true
     },
     {
-      "source": "/지점안내/:region/:center/:locality([^/]+)초등영어학원/index.html",
-      "destination": "/지점안내/:region/:center/:locality영어학원/초등/",
+      "source": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/:region/:center/:locality([^/]+)%EC%B4%88%EB%93%B1%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/index.html",
+      "destination": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/:region/:center/:locality%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%B4%88%EB%93%B1/",
       "permanent": true
     },
     {
-      "source": "/지점안내/:region/:center/:locality([^/]+)초등영어학원",
-      "destination": "/지점안내/:region/:center/:locality영어학원/초등/",
+      "source": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/:region/:center/:locality([^/]+)%EC%B4%88%EB%93%B1%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90",
+      "destination": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/:region/:center/:locality%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%B4%88%EB%93%B1/",
       "permanent": true
     },
     {
-      "source": "/지점안내/:region/:center/:locality([^/]+)중등수학학원/index.html",
-      "destination": "/지점안내/:region/:center/:locality수학학원/중등/",
+      "source": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/:region/:center/:locality([^/]+)%EC%A4%91%EB%93%B1%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/index.html",
+      "destination": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/:region/:center/:locality%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%A4%91%EB%93%B1/",
       "permanent": true
     },
     {
-      "source": "/지점안내/:region/:center/:locality([^/]+)중등수학학원",
-      "destination": "/지점안내/:region/:center/:locality수학학원/중등/",
+      "source": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/:region/:center/:locality([^/]+)%EC%A4%91%EB%93%B1%EC%88%98%ED%95%99%ED%95%99%EC%9B%90",
+      "destination": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/:region/:center/:locality%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EC%A4%91%EB%93%B1/",
       "permanent": true
     },
     {
-      "source": "/지점안내/:region/:center/:locality([^/]+)중등영어학원/index.html",
-      "destination": "/지점안내/:region/:center/:locality영어학원/중등/",
+      "source": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/:region/:center/:locality([^/]+)%EC%A4%91%EB%93%B1%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/index.html",
+      "destination": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/:region/:center/:locality%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%A4%91%EB%93%B1/",
       "permanent": true
     },
     {
-      "source": "/지점안내/:region/:center/:locality([^/]+)중등영어학원",
-      "destination": "/지점안내/:region/:center/:locality영어학원/중등/",
+      "source": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/:region/:center/:locality([^/]+)%EC%A4%91%EB%93%B1%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90",
+      "destination": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/:region/:center/:locality%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EC%A4%91%EB%93%B1/",
       "permanent": true
     },
     {
-      "source": "/지점안내/:region/:center/:locality([^/]+)고등수학학원/index.html",
-      "destination": "/지점안내/:region/:center/:locality수학학원/고등/",
+      "source": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/:region/:center/:locality([^/]+)%EA%B3%A0%EB%93%B1%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/index.html",
+      "destination": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/:region/:center/:locality%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EA%B3%A0%EB%93%B1/",
       "permanent": true
     },
     {
-      "source": "/지점안내/:region/:center/:locality([^/]+)고등수학학원",
-      "destination": "/지점안내/:region/:center/:locality수학학원/고등/",
+      "source": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/:region/:center/:locality([^/]+)%EA%B3%A0%EB%93%B1%EC%88%98%ED%95%99%ED%95%99%EC%9B%90",
+      "destination": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/:region/:center/:locality%EC%88%98%ED%95%99%ED%95%99%EC%9B%90/%EA%B3%A0%EB%93%B1/",
       "permanent": true
     },
     {
-      "source": "/지점안내/:region/:center/:locality([^/]+)고등영어학원/index.html",
-      "destination": "/지점안내/:region/:center/:locality영어학원/고등/",
+      "source": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/:region/:center/:locality([^/]+)%EA%B3%A0%EB%93%B1%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/index.html",
+      "destination": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/:region/:center/:locality%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EA%B3%A0%EB%93%B1/",
       "permanent": true
     },
     {
-      "source": "/지점안내/:region/:center/:locality([^/]+)고등영어학원",
-      "destination": "/지점안내/:region/:center/:locality영어학원/고등/",
+      "source": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/:region/:center/:locality([^/]+)%EA%B3%A0%EB%93%B1%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90",
+      "destination": "/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/:region/:center/:locality%EC%98%81%EC%96%B4%ED%95%99%EC%9B%90/%EA%B3%A0%EB%93%B1/",
       "permanent": true
     },
     {

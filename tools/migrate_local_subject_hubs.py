@@ -236,12 +236,15 @@ def sync_sitemap(paths, store, replace):
 
 def redirects():
     file=ROOT/'vercel.json';data=json.loads(file.read_text(encoding='utf-8'))
-    existing=[r for r in data['redirects'] if not r['source'].startswith('/지점안내/:region/:center/:locality')]
+    existing=[r for r in data['redirects'] if not unquote(r['source']).startswith('/지점안내/:region/:center/:locality')]
     rules=[]
     for level in LEVELS:
         for subject in SUBJECTS:
-            source=f'/지점안내/:region/:center/:locality([^/]+){level}{subject}학원'
-            dest=f'/지점안내/:region/:center/:locality{subject}학원/{level}/'
+            # Vercel's static routing matcher receives percent-encoded paths.
+            # Encode only literal segments; captures keep the original values.
+            prefix=quote('/지점안내',safe='/')+'/:region/:center/:locality'
+            source=prefix+'([^/]+)'+quote(f'{level}{subject}학원',safe='')
+            dest=prefix+quote(f'{subject}학원/{level}/',safe='/')
             rules.extend([{'source':source+'/index.html','destination':dest,'permanent':True},
                           {'source':source,'destination':dest,'permanent':True}])
     data['redirects']=rules+existing
