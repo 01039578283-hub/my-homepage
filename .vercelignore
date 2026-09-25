@@ -1,0 +1,13 @@
+.git/
+.public-release/
+.env*
+node_modules/
+tools/
+reports/
+outputs/
+work/
+tmp/
+*.xlsx
+*.xls
+*.csv
+*.zip

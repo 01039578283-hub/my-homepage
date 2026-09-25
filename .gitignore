@@ -2,3 +2,9 @@
 .env*
 /scripts/__pycache__/
 /tools/__pycache__/
+
+# Isolated public release: never commit derived output or private inputs.
+.public-release/
+node_modules/
+.env*
+tools/data/
