@@ -39,7 +39,12 @@ await Promise.all(Array.from({length:12},async()=>{
     const bytes=await fs.promises.readFile(input);
     if(!reviewedBytes(bytes,hash,name))throw Error('Reviewed file changed; refresh release manifest: '+name);
     await fs.promises.mkdir(path.dirname(dest),{recursive:true});
-    await fs.promises.writeFile(dest,bytes);
+    // Git stores text with LF on the Linux builder. These downloadable records
+    // retain their UTF-8 BOM and Windows line endings for the actual download.
+    const outputBytes=name.startsWith('assets/learning-guide-records/')&&name.endsWith('.txt')
+      ? Buffer.from(bytes.toString('utf8').replaceAll('\r\n','\n').replaceAll('\r','\n').replaceAll('\n','\r\n'))
+      : bytes;
+    await fs.promises.writeFile(dest,outputBytes);
   }
 }));
 console.log(JSON.stringify({publicFiles:files.length,sitemapPages:manifest.sitemapPages,output:'.public-release',privateSourcesIncluded:false}));

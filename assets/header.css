@@ -72,5 +72,17 @@ html body .site-header[data-site-navigation="unified"] a:focus-visible { outline
 }
 @media (max-width:600px) {
   :root { --site-nav-offset:208px; }
-  html body .site-header[data-site-navigation="unified"] .nav-links { grid-template-columns:repeat(3,minmax(0,1fr))!important; }
+  html body .site-header[data-site-navigation="unified"] .nav-links { grid-template-columns:repeat(4,minmax(0,1fr))!important; }
 }
+
+/* Related teacher introductions use the actual branch/neighborhood mapping. */
+.teacher-related{box-sizing:border-box;margin:36px auto;padding:24px;max-width:1180px;border:1px solid rgba(26,36,64,.18);background:#fff;color:#1a2440;font-family:"Noto Sans KR","Malgun Gothic",sans-serif;line-height:1.8}
+.teacher-related h2{font-size:22px;line-height:1.5;margin:0 0 12px;font-family:"Noto Serif KR",serif;word-break:keep-all}
+.teacher-related p{font-size:14px;color:#4d5770;margin:0 0 18px}
+.teacher-related-links{display:flex;flex-wrap:wrap;gap:12px}
+.teacher-related-links a{display:block;box-sizing:border-box;padding:12px 16px;background:#f6f2e9;border:1px solid rgba(26,36,64,.14);border-radius:3px;max-width:100%;color:#1a2440;text-decoration:none;font-size:14px;overflow-wrap:anywhere}
+.teacher-related-links a strong,.teacher-related-links a span{display:block}
+.teacher-related-links a span{color:#4d5770;font-size:12px;margin-top:3px}
+.teacher-related-links a:focus-visible{outline:3px solid #2166bf;outline-offset:3px}
+@media(max-width:600px){.teacher-related{padding:20px;margin:28px 0}.teacher-related h2{font-size:20px}.teacher-related-links{display:block}.teacher-related-links a+a{margin-top:10px}}
+@media(max-width:360px){html body .site-header[data-site-navigation="unified"] .nav-links a{font-size:13px!important}}
