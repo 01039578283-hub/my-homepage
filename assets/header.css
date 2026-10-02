@@ -55,7 +55,7 @@ html body .site-header[data-site-navigation="unified"] a:focus-visible { outline
   html body .site-header[data-site-navigation="unified"] .nav-links { gap:9px!important; }
 }
 @media (max-width: 1120px) {
-  :root { --site-nav-offset:160px; }
+  :root { --site-nav-offset:208px; }
   html body .site-header[data-site-navigation="unified"] { height:auto!important; min-height:0!important; max-height:none!important; }
   html body .site-header[data-site-navigation="unified"] .nav {
     width:calc(100% - 16px)!important; height:auto!important; min-height:0!important; max-height:none!important;
@@ -86,3 +86,6 @@ html body .site-header[data-site-navigation="unified"] a:focus-visible { outline
 .teacher-related-links a:focus-visible{outline:3px solid #2166bf;outline-offset:3px}
 @media(max-width:600px){.teacher-related{padding:20px;margin:28px 0}.teacher-related h2{font-size:20px}.teacher-related-links{display:block}.teacher-related-links a+a{margin-top:10px}}
 @media(max-width:360px){html body .site-header[data-site-navigation="unified"] .nav-links a{font-size:13px!important}}
+
+/* Useful information links */
+.useful-related{box-sizing:border-box;width:min(1180px,calc(100% - 32px));margin:32px auto;padding:24px;border:1px solid rgba(26,36,64,.18);background:#fff;color:#1a2440;font:14px/1.85 "Noto Sans KR","Malgun Gothic",sans-serif}.useful-related h2{margin:0 0 12px;font:700 22px/1.55 "Noto Serif KR",serif;word-break:keep-all}.useful-related p{margin:0 0 16px;color:#4d5770}.useful-related-links{display:flex;flex-wrap:wrap;gap:10px}.useful-related-links a{box-sizing:border-box;max-width:100%;display:block;border:1px solid rgba(26,36,64,.18);padding:10px 14px;color:#1a2440;background:#f6f2e9;text-decoration:none;border-radius:3px;overflow-wrap:anywhere}.useful-related-links .useful-related-all{color:#fff;background:#1a2440}.useful-related-links a:focus-visible{outline:3px solid #2166bf;outline-offset:3px}@media(max-width:600px){.useful-related{padding:20px;margin:26px auto}.useful-related h2{font-size:20px}.useful-related-links{flex-direction:column}.useful-related-links a{width:100%}}
