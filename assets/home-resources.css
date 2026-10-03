@@ -1,0 +1,46 @@
+/* Home-only directory: all destinations are ordinary HTML links. */
+.wawa-upgrade .hr-section{margin-top:36px;margin-bottom:56px;color:#1a2440;scroll-margin-top:calc(var(--site-nav-offset,100px) + 20px)}
+.hr-heading{max-width:760px;margin-bottom:24px}
+.hr-kicker{margin:0 0 10px;font-size:13px;letter-spacing:.08em;font-weight:700;color:#79551f}
+.hr-heading h2{margin:0 0 12px;font-family:"Noto Sans KR",sans-serif;font-size:clamp(24px,3vw,34px);line-height:1.45;letter-spacing:-.04em;word-break:keep-all}
+.hr-heading>p:last-child{margin:0;color:#485267;font-size:16px;line-height:1.9;word-break:keep-all}
+.hr-groups{display:grid;grid-template-columns:1fr 1.2fr;gap:20px}
+.hr-group{min-width:0;padding:26px;background:#f6f1e7;border:1px solid #dfd5c2;border-radius:20px}
+.hr-study{background:#edf2f2;border-color:#d4dfdf}
+.hr-group-heading{display:flex;gap:12px;align-items:flex-start;margin-bottom:20px}
+.hr-number{display:grid;place-items:center;flex:0 0 36px;height:36px;border-radius:50%;background:#1a2440;color:#fff;font-size:13px;font-weight:700}
+.hr-group-heading h3{margin:0 0 4px;font-size:21px;line-height:1.5;letter-spacing:-.03em}
+.hr-group-heading p{margin:0;color:#485267;font-size:14px;line-height:1.7}
+.hr-directory{display:grid;gap:12px}
+.hr-card{min-width:0;padding:20px;border:1px solid #deded7;border-radius:14px;background:#fff;display:flex;flex-direction:column;align-items:flex-start}
+.hr-card h4,.hr-card h3{margin:0 0 8px;font-family:"Noto Sans KR",sans-serif;font-size:18px;line-height:1.65;letter-spacing:-.025em;word-break:keep-all;overflow-wrap:anywhere}
+.hr-card>p{margin:0 0 16px;color:#485267;font-size:14px;line-height:1.85;word-break:keep-all;overflow-wrap:anywhere}
+.hr-card .hr-topic{margin-bottom:10px;color:#79551f;font-size:12px;font-weight:700;letter-spacing:.04em}
+.wawa-upgrade .hr-button{display:inline-flex;gap:10px;align-items:center;justify-content:space-between;max-width:100%;min-height:44px;margin-top:auto;padding:10px 14px;background:#1a2440;color:#fff;border:1px solid #1a2440;border-radius:8px;font-size:13px;font-weight:700;line-height:1.65;text-decoration:none;box-sizing:border-box;overflow-wrap:anywhere;transition:background .15s}
+.wawa-upgrade .hr-button:hover{background:#303d5c}
+.hr-button span{flex-shrink:0}
+.hr-shortcuts{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.wawa-upgrade .hr-shortcuts a{display:flex;align-items:center;gap:8px;min-height:44px;padding:9px 12px;border:1px solid #c5c8c3;border-radius:8px;color:#1a2440;background:#fff;font-size:13px;font-weight:700;line-height:1.7;text-decoration:none;box-sizing:border-box}
+.hr-next{margin:18px 0 0;font-size:14px;line-height:1.9;color:#485267}
+.wawa-upgrade .hr-next a,.wawa-upgrade .hr-inline{color:#1a2440;font-weight:700;text-decoration:underline;text-underline-offset:4px}
+.hr-reading{padding-top:12px}
+.hr-reading-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.hr-reading-grid .hr-card{padding:24px}
+.hr-more{display:flex;gap:12px;flex-wrap:wrap;margin:20px 0 0}
+.wawa-upgrade .hr-more a{display:inline-flex;align-items:center;gap:16px;min-height:44px;padding:10px 16px;border:1px solid #b8bdc6;border-radius:8px;color:#1a2440;font-size:14px;font-weight:700;text-decoration:none;background:#fff;box-sizing:border-box}
+.hr-faq{margin-top:32px;padding:24px;border:1px solid #d7dce3;border-radius:16px;background:#fff}
+.hr-faq h3{margin:0 0 14px;font-family:"Noto Sans KR",sans-serif;font-size:20px}
+.hr-faq details{border-top:1px solid #e4e7eb;padding:14px 0}
+.hr-faq details:last-child{padding-bottom:0}
+.hr-faq summary{min-height:44px;cursor:pointer;font-weight:700;line-height:1.85;padding:9px 4px;box-sizing:border-box;word-break:keep-all;overflow-wrap:anywhere}
+.hr-faq details p{margin:10px 0;color:#485267;font-size:14px;line-height:1.9;word-break:keep-all}
+.hr-faq .hr-inline{display:inline-flex;align-items:center;min-height:44px;font-size:14px;line-height:1.8}
+.wawa-upgrade .hr-hero-link{color:#1a2440;border-color:#b8bdc6}
+.hr-section a:focus-visible,.hr-section summary:focus-visible,.hr-hero-link:focus-visible{outline:3px solid #9a6318;outline-offset:4px}
+@media(min-width:1000px){.hr-study .hr-directory{grid-template-columns:repeat(2,minmax(0,1fr))}.hr-study .hr-card{min-height:230px}}
+/* Leave room for the existing fixed contact buttons on narrower desktops. */
+@media(min-width:768px) and (max-width:1399px){.wawa-upgrade .hr-section{padding-inline-end:112px;box-sizing:border-box}}
+@media(max-width:900px){.hr-groups{grid-template-columns:1fr}.hr-directory{grid-template-columns:repeat(2,minmax(0,1fr))}.hr-reading-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:520px){.wawa-upgrade .hr-section{margin-top:28px;margin-bottom:40px}.hr-groups{gap:16px}.hr-group{padding:18px}.hr-directory,.hr-reading-grid{grid-template-columns:1fr}.hr-card,.hr-reading-grid .hr-card{padding:18px}.hr-heading h2{font-size:25px}.hr-group-heading h3{font-size:20px}.hr-faq{padding:18px}.hr-more{display:grid}.hr-next{font-size:13px}}
+@media(prefers-reduced-motion:reduce){.hr-button{transition:none}}
+@media(forced-colors:active){.wawa-upgrade .hr-button,.wawa-upgrade .hr-shortcuts a,.wawa-upgrade .hr-more a{border-color:ButtonText}.hr-section a:focus-visible,.hr-section summary:focus-visible{outline-color:Highlight}}
