@@ -58,6 +58,6 @@
 .wb-source { font-size:13px; color:#586173; margin-top:24px!important; }
 .wb-source a { text-decoration:underline; text-underline-offset:3px; }
 .wb-guide { width:min(1120px,calc(100% - 48px)); margin-inline:auto; }
-@media (min-width:901px) and (max-width:1399px) { .wb-guide { width:min(960px,calc(100% - 180px)); margin-left:32px; } }
+@media (min-width:901px) and (max-width:1399px) { .wb-guide,.wawa-upgrade .wb-section.wu-wrap { width:min(1120px,calc(100% - 200px)); margin-left:32px; margin-right:auto; } }
 @media (max-width:800px) { .wb-grid { grid-template-columns:1fr; gap:15px; } .wb-feature { grid-template-columns:1fr; gap:25px; } .wb-feature .wb-figure { max-width:440px; justify-self:center; } .wb-section { padding-block:45px; } .wb-section .wb-table { font-size:13px; } .wb-section .wb-table :is(th,td) { padding:13px 10px; } .wb-table th:first-child { width:19%; } }
 @media (max-width:480px) { .wb-guide { width:calc(100% - 32px); } .wb-section .wb-table { font-size:12px; line-height:1.75; } .wb-section .wb-table :is(th,td) { padding:11px 7px; word-break:normal; } .wb-table th:first-child { width:18%; } .wb-table caption { font-size:13px; padding:14px 12px; } .wb-lead { font-size:15px; } .wb-card { padding:21px; } .wb-summary { padding:20px; font-size:15px; } .wb-note { padding:16px; } .wb-actions .wb-link { flex:1 1 150px; } .wb-steps li { padding-left:40px; } .wb-related { padding:20px; } }
