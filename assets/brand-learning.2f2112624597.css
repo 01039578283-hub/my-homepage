@@ -1,0 +1,63 @@
+/* Scoped additions: the existing homepage and guide directory keep their layouts. */
+.wb-section { padding-block:68px; color:#1a2440; font-family:"Noto Sans KR","Malgun Gothic",sans-serif; }
+.wb-section * { box-sizing:border-box; }
+.wb-section :is(h1,h2,h3,p,figure) { margin:0; }
+.wb-section :is(h1,h2,h3) { word-break:keep-all; overflow-wrap:anywhere; }
+.wb-section h1 { font-size:clamp(29px,3.5vw,44px); line-height:1.4; letter-spacing:-.045em; max-width:850px; }
+.wb-section h2 { font-size:clamp(25px,2.8vw,34px); line-height:1.45; letter-spacing:-.04em; }
+.wb-section h3 { font-size:20px; line-height:1.5; letter-spacing:-.025em; }
+.wb-section p { line-height:1.85; }
+.wb-kicker { color:#986621; font-weight:700; font-size:12px; letter-spacing:.1em; margin-bottom:12px!important; }
+.wb-lead { color:#515b6f; max-width:780px; font-size:17px; margin-top:18px!important; }
+.wb-section a { color:inherit; text-decoration:none; }
+.wb-section :is(a,summary):focus-visible { outline:3px solid #246be2; outline-offset:4px; }
+.wb-actions { display:flex; flex-wrap:wrap; gap:10px; margin-top:24px; }
+.wb-link { display:inline-flex; align-items:center; justify-content:center; min-height:46px; border:1px solid #b8bdc7; border-radius:7px; padding:11px 18px; background:#fffdfa; font-size:14px; font-weight:700; line-height:1.6; text-align:center; }
+.wb-link:hover { background:#eceee9; border-color:#1a2440; }
+.wb-primary { background:#1a2440; color:#fff!important; border-color:#1a2440; }
+.wb-primary:hover { background:#303e60; }
+.wb-table-wrap { margin-top:30px; border:1px solid #d6d9d7; border-radius:12px; overflow:hidden; background:#fffdfa; }
+.wb-section .wb-table { width:100%; min-width:0; margin:0; border-collapse:collapse; table-layout:fixed; font-size:15px; line-height:1.75; color:#1a2440; }
+.wb-table caption { text-align:left; padding:18px 20px; font-size:15px; font-weight:700; background:#f1f2ed; caption-side:top; }
+.wb-section .wb-table :is(th,td) { padding:17px 20px; border:0; border-bottom:1px solid #dedfdc; text-align:left; vertical-align:top; white-space:normal; word-break:keep-all; overflow-wrap:anywhere; letter-spacing:0; }
+.wb-table thead th { background:#1a2440; color:#fff; font-weight:700; }
+.wb-table th:first-child { width:21%; }
+.wb-table tbody th { background:#f5f4ef; font-weight:700; }
+.wb-table tbody tr:last-child :is(th,td) { border-bottom:0; }
+.wb-note { padding:18px 20px; background:#f0f2ed; border-left:3px solid #986621; font-size:14px; color:#515b6f; margin-top:22px!important; line-height:1.85; }
+.wb-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:22px; margin-top:30px; }
+.wb-card { min-width:0; display:flex; flex-direction:column; padding:25px; border:1px solid #dedfdc; border-radius:12px; background:#fffdfa; }
+.wb-card p { margin-top:13px; color:#515b6f; font-size:15px; }
+.wb-card .wb-link { margin-top:auto; align-self:flex-start; }
+.wb-card .wb-actions { margin-top:20px; }
+.wb-number { font-size:12px; font-weight:700; color:#986621; margin-bottom:12px; }
+.wb-feature { display:grid; grid-template-columns:1.1fr 1fr; align-items:center; gap:40px; margin-top:34px; }
+.wb-figure img { display:block; width:100%; height:auto; border-radius:12px; }
+.wb-figure figcaption { color:#586173; font-size:12px; margin-top:10px; line-height:1.75; }
+.wb-feature .wb-figure { width:100%; max-width:460px; justify-self:end; }
+.wb-list { padding-left:22px; margin:18px 0 0; line-height:1.9; color:#515b6f; }
+.wb-list li+li { margin-top:10px; }
+.wb-content { border-top:1px solid #dedfdc; padding-block:42px; }
+.wb-content .wb-grid { margin-top:24px; }
+.wb-intro { padding-block:50px 36px; }
+.wb-breadcrumb { display:flex; flex-wrap:wrap; gap:9px; font-size:13px; color:#586173; margin-bottom:26px; }
+.wb-breadcrumb a { text-decoration:underline; text-underline-offset:3px; }
+.wb-summary { font-size:17px; border-left:4px solid #986621; background:#efefe8; padding:22px 26px; margin-top:28px!important; max-width:930px; }
+.wb-toc { display:flex; flex-wrap:wrap; gap:10px; margin-top:25px; }
+.wb-toc a { padding:9px 15px; border:1px solid #d6d9d7; border-radius:6px; background:#fffdfa; font-size:14px; min-height:44px; }
+.wb-steps { list-style:none; margin:25px 0 0; padding:0; counter-reset:step; }
+.wb-steps li { counter-increment:step; position:relative; border-top:1px solid #dedfdc; padding:24px 0 24px 55px; }
+.wb-steps li::before { content:counter(step,decimal-leading-zero); position:absolute; left:0; top:27px; font-weight:700; color:#986621; font-size:14px; }
+.wb-steps p { margin-top:10px; color:#515b6f; }
+.wb-faq { border-bottom:1px solid #dedfdc; }
+.wb-faq:first-of-type { border-top:1px solid #dedfdc; margin-top:25px; }
+.wb-faq summary { padding:19px 5px; font-weight:700; cursor:pointer; line-height:1.7; }
+.wb-faq p { padding:0 5px 20px; color:#515b6f; font-size:15px; }
+.wb-related { padding:28px; border:1px solid #dedfdc; border-radius:12px; background:#f1f2ed; margin-top:30px; }
+.wb-related .wb-link { background:white; }
+.wb-source { font-size:13px; color:#586173; margin-top:24px!important; }
+.wb-source a { text-decoration:underline; text-underline-offset:3px; }
+.wb-guide { width:min(1120px,calc(100% - 48px)); margin-inline:auto; }
+@media (min-width:901px) and (max-width:1399px) { .wb-guide,.wawa-upgrade .wb-section.wu-wrap { width:min(1120px,calc(100% - 200px)); margin-left:32px; margin-right:auto; } }
+@media (max-width:800px) { .wb-grid { grid-template-columns:1fr; gap:15px; } .wb-feature { grid-template-columns:1fr; gap:25px; } .wb-feature .wb-figure { max-width:440px; justify-self:center; } .wb-section { padding-block:45px; } .wb-section .wb-table { font-size:13px; } .wb-section .wb-table :is(th,td) { padding:13px 10px; } .wb-table th:first-child { width:19%; } }
+@media (max-width:480px) { .wb-guide { width:calc(100% - 32px); } .wb-section .wb-table { font-size:12px; line-height:1.75; } .wb-section .wb-table :is(th,td) { padding:11px 7px; word-break:normal; } .wb-table th:first-child { width:18%; } .wb-table caption { font-size:13px; padding:14px 12px; } .wb-lead { font-size:15px; } .wb-card { padding:21px; } .wb-summary { padding:20px; font-size:15px; } .wb-note { padding:16px; } .wb-actions .wb-link { flex:1 1 150px; } .wb-steps li { padding-left:40px; } .wb-related { padding:20px; } }

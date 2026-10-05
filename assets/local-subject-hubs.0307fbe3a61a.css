@@ -1,0 +1,27 @@
+.local-subject-page .branch-topic-hero h1{font-size:clamp(28px,5vw,44px);line-height:1.35;letter-spacing:-.045em}
+.local-subject-page .branch-lead{max-width:760px;font-size:17px;line-height:1.8}
+.local-subject-page .branch-topic-article p{font-size:16px;line-height:1.9;overflow-wrap:anywhere}
+.local-subject-page .branch-topic-article h2{font-size:24px;line-height:1.45;margin-top:0}
+.local-subject-page .branch-topic-article section{margin:28px 0;padding:26px;background:#fff;border:1px solid var(--branch-line-soft);border-radius:12px}
+.local-subject-page .hub-step-list{padding-left:22px;display:grid;gap:12px}
+.local-subject-page .hub-stage-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.local-subject-page .hub-stage-grid a{padding:22px;border:1px solid var(--branch-line);border-radius:12px;background:#fff;display:flex;flex-direction:column;gap:8px;min-height:110px}
+.local-subject-page .hub-stage-grid a:hover{border-color:var(--branch-gold-deep);background:#fffaf0}
+.local-subject-page .hub-stage-grid strong{font-size:19px}.local-subject-page .hub-stage-grid span{font-size:14px;line-height:1.65;color:var(--branch-muted)}
+.local-subject-page .hub-case-label{font-size:13px;color:var(--branch-gold-deep);font-weight:700}
+.local-subject-page .hub-inline-link{text-decoration:underline;text-underline-offset:4px;color:#80581e}
+.local-subject-page .branch-primary-media figcaption{position:static;background:transparent;color:var(--branch-muted);padding:12px 4px;font-size:13px}
+.local-subject-page a:focus-visible{outline:3px solid #b8863b;outline-offset:4px}
+@media(max-width:600px){
+ .local-subject-page .branch-shell{width:calc(100% - 32px)}
+ .local-subject-page .branch-topic-hero{padding:30px 0 22px}
+ .local-subject-page .branch-lead{font-size:16px;line-height:1.8}
+ .local-subject-page .branch-topic-article section{padding:20px 17px;margin:20px 0}
+ .local-subject-page .branch-topic-article h2{font-size:21px}
+ .local-subject-page .hub-stage-grid{grid-template-columns:1fr;gap:10px}
+ .local-subject-page .hub-stage-grid a{min-height:88px;padding:18px}
+ .local-subject-page .branch-hero-actions{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+ .local-subject-page .branch-hero-actions a{padding:12px 9px;font-size:14px;min-height:48px;text-align:center}
+ .local-subject-page .branch-breadcrumb{font-size:12px;line-height:1.6}
+ .local-subject-page .branch-toc{gap:8px}
+}

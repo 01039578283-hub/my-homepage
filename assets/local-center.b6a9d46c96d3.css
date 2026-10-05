@@ -1,0 +1,799 @@
+/* Local center detail block — editorial/minimal redesign */
+:root {
+  --ink: #1a2440;
+  --ink-soft: #4d5770;
+  --ink-faint: #8891a3;
+  --stone: #f6f2e9;
+  --card: #ffffff;
+  --blue: #b8863b;
+  --blue-deep: #8a6329;
+  --blue-pale: #f3e7d0;
+  --green: #b8863b;
+  --green-deep: #8a6329;
+  --green-pale: #f3e7d0;
+  --line: rgba(26, 36, 64, 0.14);
+  --line-soft: rgba(26, 36, 64, 0.08);
+  --radius: 6px;
+  --radius-sm: 3px;
+  --serif: "Noto Serif KR", serif;
+  --sans: "Noto Sans KR", sans-serif;
+}
+
+.local-detail-main {
+  width: min(1080px, calc(100% - 40px));
+  margin: 0 auto;
+  padding: 56px 0 100px;
+}
+
+.local-detail-hero {
+  margin-bottom: 34px;
+  padding: 0 0 28px;
+  border-radius: 0;
+  border-bottom: 1px solid var(--ink);
+  color: var(--ink);
+  background: none;
+  box-shadow: none;
+}
+
+.local-detail-hero p {
+  display: inline-flex;
+  min-height: 0;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 14px;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  color: var(--blue);
+  background: none;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+}
+
+.local-detail-hero p::before {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 1px;
+  background: var(--blue);
+}
+
+.local-detail-hero h1 {
+  max-width: 760px;
+  margin: 0;
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: clamp(26px, 4vw, 40px);
+  line-height: 1.3;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.wawa-center-snippet {
+  display: grid;
+  gap: 22px;
+}
+
+.wawa-title {
+  position: relative;
+  margin: 40px 0 0;
+  padding-left: 0;
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: clamp(19px, 2.4vw, 24px);
+  line-height: 1.35;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--line);
+}
+
+.wawa-title:first-child {
+  margin-top: 0;
+}
+
+.wawa-title::before {
+  display: none;
+}
+
+.wawa-info-card,
+.wawa-school-card,
+.wawa-register-card,
+.wawa-fee-accordion {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--card);
+  box-shadow: none;
+}
+
+.wawa-info-card {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  gap: 16px;
+  align-items: center;
+  padding: 22px 24px;
+}
+
+.wawa-label {
+  display: inline-flex;
+  min-height: 28px;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  padding: 0 12px;
+  border: 1px solid var(--ink);
+  border-radius: var(--radius-sm);
+  color: var(--ink);
+  background: none;
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+.wawa-text {
+  margin: 0;
+  color: var(--ink);
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.wawa-text.is-normal {
+  color: var(--ink-soft);
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.wawa-school-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1px;
+  background: var(--line);
+  border: 1px solid var(--line);
+}
+
+.wawa-school-card {
+  position: relative;
+  overflow: hidden;
+  min-height: 160px;
+  padding: 24px 22px;
+  border: none;
+  border-radius: 0;
+}
+
+.wawa-school-card::before {
+  display: none;
+}
+
+.wawa-school-card h3 {
+  margin: 0 0 16px;
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 1.05rem;
+  line-height: 1.35;
+  font-weight: 600;
+}
+
+.wawa-pills,
+.wawa-grade-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.wawa-pill,
+.wawa-empty {
+  display: inline-flex;
+  min-height: 28px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 11px;
+  border-radius: var(--radius-sm);
+  font-size: 0.76rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.wawa-pill {
+  color: var(--green-deep);
+  background: var(--green-pale);
+}
+
+.wawa-pill.is-elementary,
+.wawa-pill.is-middle,
+.wawa-pill.is-high {
+  color: var(--green-deep);
+  background: var(--green-pale);
+}
+
+.wawa-empty {
+  color: var(--ink-faint);
+  background: var(--line-soft);
+}
+
+.wawa-grade-table {
+  display: flex;
+  flex-direction: column;
+}
+
+.wawa-grade-row {
+  display: grid;
+  grid-template-columns: 90px 1fr;
+  gap: 16px;
+  align-items: center;
+  padding: 18px 4px;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid var(--line);
+  background: none;
+  box-shadow: none;
+}
+
+.wawa-grade-table .wawa-grade-row:first-child {
+  border-top: 1px solid var(--line);
+}
+
+.wawa-grade-subject {
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+.wawa-register-card {
+  padding: 26px;
+}
+
+.wawa-register-line {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 0.9rem;
+}
+
+.wawa-register-line + .wawa-register-line {
+  margin-top: 9px;
+}
+
+.wawa-register-line strong {
+  color: var(--ink);
+}
+
+.wawa-tuition-link,
+.wawa-map-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 46px;
+  padding: 0 20px;
+  border: 1px solid var(--ink);
+  border-radius: var(--radius-sm);
+  color: var(--stone) !important;
+  background: var(--ink);
+  box-shadow: none;
+  font-size: 0.86rem;
+  font-weight: 700;
+  text-decoration: none !important;
+}
+
+.wawa-tuition-link {
+  margin-top: 20px;
+}
+
+.wawa-fee-accordion {
+  overflow: hidden;
+}
+
+.wawa-fee-accordion summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 58px;
+  padding: 0 22px;
+  color: var(--ink);
+  background: var(--card);
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.wawa-fee-accordion summary::-webkit-details-marker {
+  display: none;
+}
+
+.wawa-fee-block {
+  padding: 22px;
+  border-top: 1px solid var(--line);
+}
+
+.wawa-fee-block h3 {
+  margin: 0 0 14px;
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 0.98rem;
+  font-weight: 600;
+}
+
+.wawa-table-scroll {
+  overflow-x: auto;
+  border: 1px solid var(--ink);
+  border-radius: 0;
+}
+
+.wawa-fee-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--card);
+  text-align: center;
+  font-size: 0.84rem;
+}
+
+.wawa-fee-table th,
+.wawa-fee-table td {
+  padding: 12px 10px;
+  border-bottom: 1px solid var(--line);
+}
+
+.wawa-fee-table th {
+  color: var(--stone);
+  background: var(--ink);
+  font-weight: 700;
+  font-size: 0.74rem;
+}
+
+.wawa-fee-table td {
+  color: var(--ink-soft);
+  font-weight: 500;
+}
+
+.wawa-fee-table tr:last-child td {
+  border-bottom: 0;
+}
+
+.wawa-fee-note {
+  margin: 0;
+  padding: 14px 22px 22px;
+  color: var(--ink-faint);
+  font-size: 0.76rem;
+}
+
+.wawa-map-cta {
+  padding: 40px 28px;
+  border-radius: var(--radius);
+  color: var(--stone);
+  text-align: center;
+  background: var(--ink);
+  box-shadow: none;
+}
+
+.wawa-map-cta h2 {
+  margin: 0 0 10px;
+  font-family: var(--serif);
+  font-size: clamp(20px, 2.6vw, 26px);
+  line-height: 1.35;
+  font-weight: 600;
+}
+
+.wawa-map-cta p {
+  max-width: 560px;
+  margin: 0 auto 22px;
+  color: rgba(246, 242, 233, 0.76);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 820px) {
+  .wawa-school-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 560px) {
+  .local-detail-main {
+    width: min(100% - 32px, 1080px);
+    padding: 44px 0 80px;
+  }
+
+  .local-detail-hero h1 {
+    font-size: 26px;
+  }
+
+  .wawa-info-card,
+  .wawa-grade-row {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+
+  .wawa-info-card,
+  .wawa-school-card,
+  .wawa-register-card {
+    padding: 20px 18px;
+  }
+
+  .wawa-title {
+    margin-top: 30px;
+  }
+
+  .wawa-fee-accordion summary {
+    min-height: 52px;
+    padding: 0 18px;
+    font-size: 0.92rem;
+  }
+
+  .wawa-fee-block {
+    padding: 18px;
+  }
+
+  .wawa-fee-table {
+    min-width: 0;
+    font-size: clamp(11px, 2.9vw, 13px);
+    table-layout: fixed;
+  }
+
+  .wawa-fee-table th,
+  .wawa-fee-table td {
+    padding: 10px 4px;
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+
+  .wawa-table-scroll {
+    overflow-x: hidden;
+  }
+}
+
+/* ---------- local guide links ---------- */
+
+.local-guide-links-section {
+  margin-top: 40px;
+}
+
+.local-guide-card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1px;
+  background: var(--line);
+  border: 1px solid var(--line);
+}
+
+.local-guide-card {
+  display: block;
+  min-height: 140px;
+  padding: 22px;
+  border: none;
+  border-radius: 0;
+  background: var(--card);
+  box-shadow: none;
+}
+
+.local-guide-card span {
+  display: inline-flex;
+  margin-bottom: 9px;
+  color: var(--blue);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.local-guide-card strong {
+  display: block;
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 1rem;
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+.local-guide-card p {
+  margin: 10px 0 0;
+  color: var(--ink-soft);
+  font-size: 0.84rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 820px) {
+  .local-guide-card-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ---------- SEO / AEO / GEO enhancement blocks + child links + hub blocks ---------- */
+
+.seo-geo-section,
+.seo-context-section,
+.seo-answer-section,
+.seo-grade-section,
+.seo-checklist-section,
+.child-page-links,
+.hub-seo-geo-section,
+.hub-seo-link-section,
+.hub-faq-section {
+  width: min(1080px, calc(100% - 32px));
+  margin: 32px auto 0;
+  padding: clamp(24px, 4vw, 34px) 0 0;
+  border: none;
+  border-top: 1px solid var(--ink);
+  border-radius: 0;
+  background: none;
+  box-shadow: none;
+}
+
+.seo-geo-head,
+.seo-context-copy,
+.seo-answer-copy,
+.child-page-links-head,
+.hub-seo-head {
+  max-width: 720px;
+  margin-bottom: 22px;
+}
+
+.seo-geo-head h2,
+.seo-context-copy h2,
+.seo-answer-copy h2,
+.child-page-links-head h2,
+.hub-seo-head h2 {
+  margin: 0 0 10px;
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: clamp(20px, 2.8vw, 27px);
+  letter-spacing: -0.01em;
+  line-height: 1.35;
+  font-weight: 600;
+}
+
+.seo-geo-head p:not(.parent-faq-eyebrow),
+.seo-context-copy p,
+.seo-answer-copy p,
+.child-page-links-head p:not(.parent-faq-eyebrow),
+.hub-seo-head p:not(.parent-faq-eyebrow) {
+  margin: 0;
+  color: var(--ink-soft);
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+.parent-faq-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 10px;
+  color: var(--blue);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+}
+
+.parent-faq-eyebrow::before {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 1px;
+  background: var(--blue);
+}
+
+.seo-geo-grid,
+.seo-context-points,
+.seo-answer-list,
+.seo-grade-grid,
+.child-link-grid,
+.hub-seo-grid,
+.hub-seo-link-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1px;
+  background: var(--line);
+  border: 1px solid var(--line);
+}
+
+.seo-geo-card,
+.seo-context-points article,
+.seo-answer-list article,
+.seo-grade-grid article,
+.child-link-card,
+.hub-seo-grid article,
+.hub-seo-link-card {
+  position: relative;
+  overflow: hidden;
+  padding: 20px;
+  border: none;
+  border-radius: 0;
+  background: var(--card);
+}
+
+.child-link-card,
+.hub-seo-link-card {
+  display: grid;
+  gap: 8px;
+  min-height: 132px;
+  padding-right: 46px;
+  text-decoration: none !important;
+  transition: background-color 0.18s ease;
+}
+
+.child-link-card:hover,
+.hub-seo-link-card:hover {
+  background: var(--blue-pale);
+}
+
+.child-link-card::after,
+.hub-seo-link-card::after {
+  position: absolute;
+  right: 18px;
+  bottom: 18px;
+  display: grid;
+  place-items: center;
+  width: 26px;
+  height: 26px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--ink);
+  color: var(--ink);
+  background: none;
+  content: "\2192";
+  font-weight: 700;
+}
+
+.seo-geo-card span,
+.seo-context-points span,
+.seo-answer-list b,
+.seo-grade-grid em,
+.child-link-card span,
+.hub-seo-grid span,
+.hub-seo-link-card span {
+  display: inline-flex;
+  margin-bottom: 9px;
+  color: var(--blue);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-style: normal;
+}
+
+.seo-geo-card strong,
+.seo-context-points strong,
+.seo-grade-grid strong,
+.child-link-card strong,
+.hub-seo-grid strong,
+.hub-seo-link-card strong {
+  display: block;
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 1.02rem;
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+.seo-geo-card p,
+.seo-context-points p,
+.seo-answer-list p,
+.seo-grade-grid p,
+.child-link-card p,
+.hub-seo-grid p {
+  margin: 10px 0 0;
+  color: var(--ink-soft);
+  line-height: 1.65;
+  font-size: 0.88rem;
+}
+
+.child-link-card small,
+.hub-seo-link-card small {
+  display: inline-flex;
+  width: max-content;
+  margin-top: 4px;
+  padding: 5px 11px;
+  border: 1px solid var(--blue);
+  border-radius: var(--radius-sm);
+  color: var(--blue-deep);
+  background: none;
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+.seo-checklist {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: var(--line);
+  border: 1px solid var(--line);
+}
+
+.seo-checklist li {
+  padding: 18px;
+  border: none;
+  border-radius: 0;
+  background: var(--card);
+}
+
+.seo-checklist b {
+  display: block;
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 0.96rem;
+  font-weight: 600;
+}
+
+.seo-checklist span {
+  display: block;
+  margin-top: 8px;
+  color: var(--ink-soft);
+  line-height: 1.6;
+  font-size: 0.86rem;
+}
+
+.seo-compact-checklist {
+  margin-top: 24px;
+}
+
+.seo-compact-checklist h3 {
+  margin: 0 0 14px;
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: clamp(16px, 2.1vw, 19px);
+  line-height: 1.35;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.hub-faq-list {
+  display: grid;
+  gap: 0;
+  border-top: 1px solid var(--ink);
+}
+
+.hub-faq-item {
+  border: none;
+  border-bottom: 1px solid var(--line);
+  border-radius: 0;
+  background: none;
+  overflow: hidden;
+}
+
+.hub-faq-item summary {
+  cursor: pointer;
+  padding: 18px 2px;
+  color: var(--ink);
+  font-weight: 700;
+  list-style: none;
+}
+
+.hub-faq-item summary::-webkit-details-marker {
+  display: none;
+}
+
+.hub-faq-item p {
+  margin: 0;
+  padding: 0 2px 18px;
+  color: var(--ink-soft);
+  line-height: 1.7;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 860px) {
+  .seo-geo-grid,
+  .seo-context-points,
+  .seo-answer-list,
+  .seo-grade-grid,
+  .hub-seo-grid,
+  .hub-seo-link-grid,
+  .child-link-grid,
+  .seo-checklist {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 560px) {
+  .seo-geo-section,
+  .seo-context-section,
+  .seo-answer-section,
+  .seo-grade-section,
+  .seo-checklist-section,
+  .child-page-links,
+  .hub-seo-geo-section,
+  .hub-seo-link-section,
+  .hub-faq-section {
+    width: min(100% - 32px, 1080px);
+  }
+}

@@ -1,0 +1,70 @@
+/* Article-to-academy links, scoped to the educational guide additions. */
+main .edu-section p.academy-context-link,
+.education-pilot .pilot-section p.academy-context-link {
+  margin: 24px 0 8px;
+  padding: 16px 18px;
+  border-left: 3px solid #a77830;
+  background: #f3eee5;
+  color: #384155;
+  font-size: 16px;
+  line-height: 1.9;
+  overflow-wrap: anywhere;
+}
+.academy-context-link a {
+  display: inline-block;
+  box-sizing: border-box;
+  max-width: 100%;
+  min-height: 44px;
+  padding: 6px 0;
+  color: #704817;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1px;
+}
+.academy-next-step {
+  box-sizing: border-box;
+  max-width: 100%;
+  margin: 38px 0;
+  padding: 26px;
+  border: 1px solid #d9d1c4;
+  border-radius: 12px;
+  background: #fffdfa;
+  scroll-margin-top: 100px;
+}
+.academy-next-step > h2 {
+  margin: 0 0 12px;
+  font-size: clamp(22px, 2.4vw, 28px);
+  line-height: 1.55;
+  letter-spacing: -.025em;
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}
+.academy-next-step > p { margin: 0 0 20px; color: #4d5770; font-size: 16px; line-height: 1.9; }
+.academy-next-step .academy-link-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+.academy-next-step .academy-link-card {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 0;
+  min-height: 48px;
+  padding: 20px;
+  background: #f5f0e7;
+  border: 1px solid #e0d6c6;
+  border-radius: 8px;
+  color: #283345;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+.academy-next-step .academy-link-card strong { font-size: 18px; line-height: 1.65; word-break: keep-all; }
+.academy-next-step .academy-link-description { color: #4d5770; font-size: 15px; line-height: 1.85; }
+.academy-next-step .academy-link-action { margin-top: auto; color: #704817; font-size: 14px; font-weight: 700; line-height: 1.7; }
+.academy-next-step .academy-link-card:hover { border-color: #a77830; background: #eee5d5; }
+.academy-next-step a:focus-visible, .academy-context-link a:focus-visible { outline: 3px solid #965718; outline-offset: 4px; }
+@media (max-width: 760px) {
+  .academy-context-link { padding: 14px 16px; }
+  .academy-next-step { padding: 20px 18px; margin: 30px 0; scroll-margin-top: 20px; }
+  .academy-next-step .academy-link-grid { grid-template-columns: 1fr; gap: 12px; }
+  .academy-next-step .academy-link-card { padding: 18px; }
+}

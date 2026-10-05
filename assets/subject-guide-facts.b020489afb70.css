@@ -1,0 +1,20 @@
+/* Only the reviewed legacy fact cards and their availability notices. */
+#reviewed-center-info { scroll-margin-top: 170px; }
+#reviewed-center-info dd { font-size: 15px; font-weight: 500; line-height: 1.75; overflow-wrap: anywhere; }
+#reviewed-center-info dt { font-size: 13px; line-height: 1.6; }
+#reviewed-center-info .math-tag-list span { font-size: 14px; }
+#reviewed-center-info [data-guide-fact="conditions"] { grid-template-columns: minmax(0, 1fr); }
+#reviewed-center-info [data-guide-fact="conditions"] p { margin: 0 0 10px; }
+#reviewed-center-info [data-guide-fact="conditions"] p:last-child { margin-bottom: 0; }
+#reviewed-center-info .guide-school-note { margin: 10px 0 0; font-size: 14px; font-weight: 400; }
+.learning-route-panel #guide-course-note { padding: 14px 16px; border-left: 3px solid #9a7136; background: #fffaf0; color: #344451; font-size: 16px; line-height: 1.8; }
+#guide-course-note strong { display: block; margin-bottom: 6px; font-weight: 700; }
+#verified-course-faq { scroll-margin-top: 170px; }
+#verified-course-faq summary { min-height: 48px; font-size: 16px; line-height: 1.65; }
+#verified-course-faq p { font-size: 16px; line-height: 1.85; }
+@media (max-width: 600px) {
+  #reviewed-center-info h2 { font-size: 22px; }
+  #reviewed-center-info dl > div { grid-template-columns: minmax(0, 1fr); gap: 7px; }
+  #reviewed-center-info dd { font-size: 16px; }
+  #reviewed-center-info dt { font-size: 14px; }
+}

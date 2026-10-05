@@ -1,0 +1,75 @@
+/* Compact summaries only: existing directories, images and shared styles stay intact. */
+.wawa-hub-page .wawa-brief {
+  min-width: 0;
+  padding: 20px;
+  border: 1px solid #ccdcd5;
+  border-radius: 16px;
+  background: linear-gradient(145deg, #ffffff, #f2f7f3);
+  color: #172d28;
+  font-family: "Noto Sans KR", sans-serif;
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+  scroll-margin-top: 150px;
+}
+.wawa-hub-page .wawa-brief h2 {
+  margin: 0 0 10px;
+  font: 700 20px/1.5 "Noto Sans KR", sans-serif;
+  color: #173c31;
+  letter-spacing: -.025em;
+}
+.wawa-hub-page .wawa-brief p {
+  max-width: none;
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.8;
+  color: #3e514b;
+}
+.wawa-hub-page .wawa-brief .wcb-links {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 6px;
+  margin: 15px 0 10px;
+}
+.wawa-hub-page .wcb-links a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 0;
+  min-height: 44px;
+  padding: 8px 4px;
+  border: 1px solid #c7d8cf;
+  border-radius: 8px;
+  background: #fff;
+  color: #205444;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+}
+.wawa-hub-page .wcb-links a:hover { background: #e6f1eb; border-color: #6b9584; }
+.wawa-hub-page .wcb-links a:focus-visible {
+  outline: 3px solid #246e57;
+  outline-offset: 3px;
+}
+.wawa-hub-page .wawa-brief .wcb-note {
+  font-size: 13px;
+  line-height: 1.65;
+  color: #52635d;
+}
+.wawa-hub-page .center-hero .wawa-brief { margin-top: 24px; }
+@media (min-width: 900px) {
+  .wawa-hub-page .center-hero .wawa-brief {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 310px;
+    column-gap: 28px;
+    align-items: center;
+  }
+  .wawa-hub-page .center-hero .wcb-copy { grid-row: 1 / 3; }
+  .wawa-hub-page .center-hero .wcb-links { margin-top: 0; }
+}
+@media (max-width: 640px) {
+  .wawa-hub-page .wawa-brief { padding: 17px; border-radius: 14px; }
+  .wawa-hub-page .wawa-brief h2 { font-size: 18px; }
+  .wawa-hub-page .wcb-links a { font-size: 13px; }
+}

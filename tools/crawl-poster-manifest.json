@@ -1,0 +1,502 @@
+{
+  "assets/branch-directory/body/2c9ed11412d574f1.jpg": {
+    "original": {
+      "file": "assets/branch-directory/body/2c9ed11412d574f1.jpg",
+      "width": 918,
+      "height": 16116,
+      "bytes": 1550755,
+      "format": "JPEG",
+      "frames": 1
+    },
+    "parts": [
+      {
+        "trial": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\wawa-crawl-content-20261005\\image-trials\\77146165a01b-01-q92.webp",
+        "start": 0,
+        "end": 2016,
+        "width": 918,
+        "height": 2016,
+        "bytes": 198006,
+        "meanChannelError": [
+          1.0192301457620085,
+          0.8190591823149013,
+          1.2258322310405643
+        ],
+        "src": "/assets/crawl-support/d748936f06faa3cee5e3.webp"
+      },
+      {
+        "trial": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\wawa-crawl-content-20261005\\image-trials\\77146165a01b-02-q92.webp",
+        "start": 2016,
+        "end": 4032,
+        "width": 918,
+        "height": 2016,
+        "bytes": 155316,
+        "meanChannelError": [
+          0.7727661280561607,
+          0.6425923764567555,
+          0.87409709254072
+        ],
+        "src": "/assets/crawl-support/3b5229b5817db73e6217.webp"
+      },
+      {
+        "trial": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\wawa-crawl-content-20261005\\image-trials\\77146165a01b-03-q92.webp",
+        "start": 4032,
+        "end": 6048,
+        "width": 918,
+        "height": 2016,
+        "bytes": 144624,
+        "meanChannelError": [
+          0.5636006717501816,
+          0.4847094702078362,
+          0.6150609935332157
+        ],
+        "src": "/assets/crawl-support/2f0e2aed72955596cb52.webp"
+      },
+      {
+        "trial": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\wawa-crawl-content-20261005\\image-trials\\77146165a01b-04-q92.webp",
+        "start": 6048,
+        "end": 8064,
+        "width": 918,
+        "height": 2016,
+        "bytes": 214074,
+        "meanChannelError": [
+          0.9152390894629456,
+          0.7245229882076287,
+          0.8898182729882076
+        ],
+        "src": "/assets/crawl-support/c0867f9d7d2ea1a948bc.webp"
+      },
+      {
+        "trial": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\wawa-crawl-content-20261005\\image-trials\\77146165a01b-05-q92.webp",
+        "start": 8064,
+        "end": 10080,
+        "width": 918,
+        "height": 2016,
+        "bytes": 206714,
+        "meanChannelError": [
+          0.9612771034339662,
+          0.7525795812152021,
+          0.9524868589411073
+        ],
+        "src": "/assets/crawl-support/c23b860832823932d8ee.webp"
+      },
+      {
+        "trial": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\wawa-crawl-content-20261005\\image-trials\\77146165a01b-06-q92.webp",
+        "start": 10080,
+        "end": 12096,
+        "width": 918,
+        "height": 2016,
+        "bytes": 165840,
+        "meanChannelError": [
+          0.6489294791990871,
+          0.5489671949026524,
+          0.5839401346958536
+        ],
+        "src": "/assets/crawl-support/f047b1930ea7df5c0704.webp"
+      },
+      {
+        "trial": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\wawa-crawl-content-20261005\\image-trials\\77146165a01b-07-q92.webp",
+        "start": 12096,
+        "end": 14112,
+        "width": 918,
+        "height": 2016,
+        "bytes": 192130,
+        "meanChannelError": [
+          0.9355618018812464,
+          0.7440114162949131,
+          0.7873493533215755
+        ],
+        "src": "/assets/crawl-support/ea7838cb23309a6532f6.webp"
+      },
+      {
+        "trial": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\wawa-crawl-content-20261005\\image-trials\\77146165a01b-08-q92.webp",
+        "start": 14112,
+        "end": 16116,
+        "width": 918,
+        "height": 2004,
+        "bytes": 154364,
+        "meanChannelError": [
+          0.8350151548754343,
+          0.6943803025756765,
+          0.7653858948769129
+        ],
+        "src": "/assets/crawl-support/c5a778d3af0a5d836f1d.webp"
+      }
+    ],
+    "totalBytes": 1431068
+  },
+  "assets/branch-directory/body/7edd93a2e4756935.jpg": {
+    "original": {
+      "file": "assets/branch-directory/body/7edd93a2e4756935.jpg",
+      "width": 918,
+      "height": 16116,
+      "bytes": 1549977,
+      "format": "JPEG",
+      "frames": 1
+    },
+    "parts": [
+      {
+        "trial": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\wawa-crawl-content-20261005\\image-trials\\bb273747a586-01-q92.webp",
+        "start": 0,
+        "end": 2016,
+        "width": 918,
+        "height": 2016,
+        "bytes": 198006,
+        "meanChannelError": [
+          1.0192301457620085,
+          0.8190591823149013,
+          1.2258322310405643
+        ],
+        "src": "/assets/crawl-support/d748936f06faa3cee5e3.webp"
+      },
+      {
+        "trial": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\wawa-crawl-content-20261005\\image-trials\\bb273747a586-02-q92.webp",
+        "start": 2016,
+        "end": 4032,
+        "width": 918,
+        "height": 2016,
+        "bytes": 155316,
+        "meanChannelError": [
+          0.7727661280561607,
+          0.6425923764567555,
+          0.87409709254072
+        ],
+        "src": "/assets/crawl-support/3b5229b5817db73e6217.webp"
+      },
+      {
+        "trial": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\wawa-crawl-content-20261005\\image-trials\\bb273747a586-03-q92.webp",
+        "start": 4032,
+        "end": 6048,
+        "width": 918,
+        "height": 2016,
+        "bytes": 144624,
+        "meanChannelError": [
+          0.5636006717501816,
+          0.4847094702078362,
+          0.6150609935332157
+        ],
+        "src": "/assets/crawl-support/2f0e2aed72955596cb52.webp"
+      },
+      {
+        "trial": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\wawa-crawl-content-20261005\\image-trials\\bb273747a586-04-q92.webp",
+        "start": 6048,
+        "end": 8064,
+        "width": 918,
+        "height": 2016,
+        "bytes": 214074,
+        "meanChannelError": [
+          0.9152390894629456,
+          0.7245229882076287,
+          0.8898182729882076
+        ],
+        "src": "/assets/crawl-support/c0867f9d7d2ea1a948bc.webp"
+      },
+      {
+        "trial": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\wawa-crawl-content-20261005\\image-trials\\bb273747a586-05-q92.webp",
+        "start": 8064,
+        "end": 10080,
+        "width": 918,
+        "height": 2016,
+        "bytes": 206714,
+        "meanChannelError": [
+          0.9612771034339662,
+          0.7525795812152021,
+          0.9524868589411073
+        ],
+        "src": "/assets/crawl-support/c23b860832823932d8ee.webp"
+      },
+      {
+        "trial": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\wawa-crawl-content-20261005\\image-trials\\bb273747a586-06-q92.webp",
+        "start": 10080,
+        "end": 12096,
+        "width": 918,
+        "height": 2016,
+        "bytes": 165840,
+        "meanChannelError": [
+          0.6489294791990871,
+          0.5489671949026524,
+          0.5839401346958536
+        ],
+        "src": "/assets/crawl-support/f047b1930ea7df5c0704.webp"
+      },
+      {
+        "trial": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\wawa-crawl-content-20261005\\image-trials\\bb273747a586-07-q92.webp",
+        "start": 12096,
+        "end": 14112,
+        "width": 918,
+        "height": 2016,
+        "bytes": 191820,
+        "meanChannelError": [
+          0.9316319120240689,
+          0.740344671819345,
+          0.7762848194833489
+        ],
+        "src": "/assets/crawl-support/8c14407c0f2460469852.webp"
+      },
+      {
+        "trial": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\wawa-crawl-content-20261005\\image-trials\\bb273747a586-08-q92.webp",
+        "start": 14112,
+        "end": 16116,
+        "width": 918,
+        "height": 2004,
+        "bytes": 154364,
+        "meanChannelError": [
+          0.8350151548754343,
+          0.6943803025756765,
+          0.7653858948769129
+        ],
+        "src": "/assets/crawl-support/c5a778d3af0a5d836f1d.webp"
+      }
+    ],
+    "totalBytes": 1430758
+  },
+  "assets/centers/common/local.webp": {
+    "original": {
+      "file": "assets/centers/common/local.webp",
+      "width": 918,
+      "height": 16116,
+      "bytes": 1313124,
+      "format": "WEBP",
+      "frames": 1
+    },
+    "parts": [
+      {
+        "trial": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\wawa-crawl-content-20261005\\image-trials\\3ec05b7ca7eb-01-q92.webp",
+        "start": 0,
+        "end": 2016,
+        "width": 918,
+        "height": 2016,
+        "bytes": 178574,
+        "meanChannelError": [
+          0.6789977565100114,
+          0.433682500778089,
+          0.7758752420721375
+        ],
+        "src": "/assets/crawl-support/95b10977f84c14a51af6.webp"
+      },
+      {
+        "trial": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\wawa-crawl-content-20261005\\image-trials\\3ec05b7ca7eb-02-q92.webp",
+        "start": 2016,
+        "end": 4032,
+        "width": 918,
+        "height": 2016,
+        "bytes": 142772,
+        "meanChannelError": [
+          0.46807133347166024,
+          0.33240935262994087,
+          0.5391227478645779
+        ],
+        "src": "/assets/crawl-support/ad1251933b79e376ad3b.webp"
+      },
+      {
+        "trial": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\wawa-crawl-content-20261005\\image-trials\\3ec05b7ca7eb-03-q92.webp",
+        "start": 4032,
+        "end": 6048,
+        "width": 918,
+        "height": 2016,
+        "bytes": 128760,
+        "meanChannelError": [
+          0.3331955467372134,
+          0.267736647127987,
+          0.3479057518068956
+        ],
+        "src": "/assets/crawl-support/70f68c512e1d15832a12.webp"
+      },
+      {
+        "trial": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\wawa-crawl-content-20261005\\image-trials\\3ec05b7ca7eb-04-q92.webp",
+        "start": 6048,
+        "end": 8064,
+        "width": 918,
+        "height": 2016,
+        "bytes": 193570,
+        "meanChannelError": [
+          0.5791543469239547,
+          0.4261399004046063,
+          0.5737077238302728
+        ],
+        "src": "/assets/crawl-support/1610a88f763dfe8bd2a3.webp"
+      },
+      {
+        "trial": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\wawa-crawl-content-20261005\\image-trials\\3ec05b7ca7eb-05-q92.webp",
+        "start": 8064,
+        "end": 10080,
+        "width": 918,
+        "height": 2016,
+        "bytes": 184332,
+        "meanChannelError": [
+          0.6063496386208804,
+          0.4520913303593042,
+          0.5748224444098627
+        ],
+        "src": "/assets/crawl-support/dc53bd1d15469c97080a.webp"
+      },
+      {
+        "trial": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\wawa-crawl-content-20261005\\image-trials\\3ec05b7ca7eb-06-q92.webp",
+        "start": 10080,
+        "end": 12096,
+        "width": 918,
+        "height": 2016,
+        "bytes": 146192,
+        "meanChannelError": [
+          0.38652382249195977,
+          0.3173533302209773,
+          0.3187927948957361
+        ],
+        "src": "/assets/crawl-support/12071156d234d884ea14.webp"
+      },
+      {
+        "trial": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\wawa-crawl-content-20261005\\image-trials\\3ec05b7ca7eb-07-q92.webp",
+        "start": 12096,
+        "end": 14112,
+        "width": 918,
+        "height": 2016,
+        "bytes": 166888,
+        "meanChannelError": [
+          0.6106653309471937,
+          0.48785965003285264,
+          0.44435744977003144
+        ],
+        "src": "/assets/crawl-support/46e37c99461426b64233.webp"
+      },
+      {
+        "trial": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\wawa-crawl-content-20261005\\image-trials\\3ec05b7ca7eb-08-q92.webp",
+        "start": 14112,
+        "end": 16116,
+        "width": 918,
+        "height": 2004,
+        "bytes": 137316,
+        "meanChannelError": [
+          0.5885679621149857,
+          0.49220350149374453,
+          0.5137986554124866
+        ],
+        "src": "/assets/crawl-support/c5bc9ee814ed46a9d42b.webp"
+      }
+    ],
+    "totalBytes": 1278404
+  },
+  "assets/centers/common/seoul.webp": {
+    "original": {
+      "file": "assets/centers/common/seoul.webp",
+      "width": 918,
+      "height": 16116,
+      "bytes": 1313296,
+      "format": "WEBP",
+      "frames": 1
+    },
+    "parts": [
+      {
+        "trial": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\wawa-crawl-content-20261005\\image-trials\\043afdfdba7c-01-q92.webp",
+        "start": 0,
+        "end": 2016,
+        "width": 918,
+        "height": 2016,
+        "bytes": 178668,
+        "meanChannelError": [
+          0.6670643566068403,
+          0.4213870733478577,
+          0.7614125125358785
+        ],
+        "src": "/assets/crawl-support/f9d28267b8852d1ee701.webp"
+      },
+      {
+        "trial": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\wawa-crawl-content-20261005\\image-trials\\043afdfdba7c-02-q92.webp",
+        "start": 2016,
+        "end": 4032,
+        "width": 918,
+        "height": 2016,
+        "bytes": 142012,
+        "meanChannelError": [
+          0.4858366185980565,
+          0.3527736711968738,
+          0.5607482190407027
+        ],
+        "src": "/assets/crawl-support/aa19d6e47e514fc5ce2a.webp"
+      },
+      {
+        "trial": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\wawa-crawl-content-20261005\\image-trials\\043afdfdba7c-03-q92.webp",
+        "start": 4032,
+        "end": 6048,
+        "width": 918,
+        "height": 2016,
+        "bytes": 128840,
+        "meanChannelError": [
+          0.3297022512708787,
+          0.2649511965279939,
+          0.3414951628799668
+        ],
+        "src": "/assets/crawl-support/57647d785350147301b7.webp"
+      },
+      {
+        "trial": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\wawa-crawl-content-20261005\\image-trials\\043afdfdba7c-04-q92.webp",
+        "start": 6048,
+        "end": 8064,
+        "width": 918,
+        "height": 2016,
+        "bytes": 193668,
+        "meanChannelError": [
+          0.5731149712971608,
+          0.42109474962824633,
+          0.5678677335131583
+        ],
+        "src": "/assets/crawl-support/cf1e02dde71a6357f804.webp"
+      },
+      {
+        "trial": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\wawa-crawl-content-20261005\\image-trials\\043afdfdba7c-05-q92.webp",
+        "start": 8064,
+        "end": 10080,
+        "width": 918,
+        "height": 2016,
+        "bytes": 184560,
+        "meanChannelError": [
+          0.5935003631082062,
+          0.4398385897568904,
+          0.5561699216723727
+        ],
+        "src": "/assets/crawl-support/c466a0158a041ebb23d9.webp"
+      },
+      {
+        "trial": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\wawa-crawl-content-20261005\\image-trials\\043afdfdba7c-06-q92.webp",
+        "start": 10080,
+        "end": 12096,
+        "width": 918,
+        "height": 2016,
+        "bytes": 146378,
+        "meanChannelError": [
+          0.3802629076321887,
+          0.31021220216481654,
+          0.3112350650136598
+        ],
+        "src": "/assets/crawl-support/80c97b434c85b2edfd2f.webp"
+      },
+      {
+        "trial": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\wawa-crawl-content-20261005\\image-trials\\043afdfdba7c-07-q92.webp",
+        "start": 12096,
+        "end": 14112,
+        "width": 918,
+        "height": 2016,
+        "bytes": 168898,
+        "meanChannelError": [
+          0.6446213516270706,
+          0.48794286233011724,
+          0.473876201715254
+        ],
+        "src": "/assets/crawl-support/d86ef00c9a80e7f7e4c7.webp"
+      },
+      {
+        "trial": "C:\\Users\\1992k\\Desktop\\CodexData\\outputs\\wawa-crawl-content-20261005\\image-trials\\043afdfdba7c-08-q92.webp",
+        "start": 14112,
+        "end": 16116,
+        "width": 918,
+        "height": 2004,
+        "bytes": 137216,
+        "meanChannelError": [
+          0.5815129001256746,
+          0.48704551680951824,
+          0.5024977278558351
+        ],
+        "src": "/assets/crawl-support/cae2525ab7e47a45d9e4.webp"
+      }
+    ],
+    "totalBytes": 1280240
+  }
+}

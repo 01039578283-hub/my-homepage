@@ -1,0 +1,63 @@
+/* Educational article pilot: scoped to the hub and the ten new articles. */
+.education-pilot { overflow-wrap: anywhere; }
+.education-pilot :is(a, summary):focus-visible { outline: 3px solid #965718; outline-offset: 4px; }
+.education-pilot .pilot-skip { position: absolute; top: -100px; left: 16px; z-index: 100001; background: #fff; padding: 12px; }
+.education-pilot .pilot-skip:focus { top: 8px; }
+.education-pilot .pilot-hero { padding: 42px 24px 36px; background: #f5f0e7; border-bottom: 1px solid #d9d1c4; }
+.education-pilot .pilot-hero-inner { max-width: 820px; margin: auto; }
+.education-pilot .pilot-category { color: #80531d; font-size: 14px; font-weight: 700; letter-spacing: .04em; }
+.education-pilot .pilot-hero h1 { font-size: clamp(28px, 3.6vw, 42px); line-height: 1.4; letter-spacing: -.035em; margin: 12px 0 20px; }
+.education-pilot .pilot-summary { font-size: 18px; line-height: 1.9; max-width: 760px; color: #384155; margin-bottom: 20px; }
+.education-pilot .pilot-date { color: #606573; font-size: 14px; }
+.education-pilot .pilot-article { width: min(760px, calc(100% - 40px)); margin: auto; padding: 34px 0 64px; font-size: 17px; line-height: 1.95; }
+.education-pilot .pilot-toc { border: 1px solid #d9d1c4; border-radius: 10px; background: #fffdfa; padding: 24px; margin-bottom: 44px; }
+.education-pilot .pilot-toc h2 { font-size: 19px; margin: 0 0 12px; }
+.education-pilot .pilot-toc ol { margin: 0; padding-left: 24px; }
+.education-pilot .pilot-toc a { display: inline-block; padding: 6px 0; min-height: 44px; text-decoration: underline; text-decoration-color: #c4b496; text-underline-offset: 5px; }
+.education-pilot .pilot-section { margin: 42px 0; scroll-margin-top: 100px; }
+.education-pilot .pilot-section h2 { font-size: clamp(23px, 2.4vw, 29px); line-height: 1.55; letter-spacing: -.025em; margin: 0 0 18px; }
+.education-pilot .pilot-section p { margin: 0 0 18px; }
+.education-pilot .pilot-section ul { padding-left: 24px; margin: 20px 0; }
+.education-pilot .pilot-section li { padding-left: 3px; margin: 10px 0; }
+.education-pilot .pilot-example { padding: 22px 24px; border-left: 4px solid #a77830; background: #f0e9dc; border-radius: 0 8px 8px 0; margin: 24px 0; }
+.education-pilot .pilot-example h3 { font-size: 17px; line-height: 1.6; margin: 0 0 10px; }
+.education-pilot .pilot-example p { margin: 0; white-space: pre-line; }
+.education-pilot .pilot-context-link { font-size: 16px; }
+.education-pilot .pilot-context-link a { text-decoration: underline; text-underline-offset: 4px; color: #774c18; display: inline-block; min-height: 44px; padding: 7px 0; }
+.education-pilot .pilot-figure { margin: 36px 0 44px; }
+.education-pilot .pilot-figure img { display: block; width: 100%; height: auto; border-radius: 8px; }
+.education-pilot .pilot-figure figcaption { font-size: 14px; line-height: 1.75; color: #606573; padding: 10px 2px 0; }
+.education-pilot .pilot-faq { padding-top: 12px; border-top: 1px solid #d9d1c4; }
+.education-pilot .pilot-faq details { border-bottom: 1px solid #d9d1c4; padding: 0 2px; }
+.education-pilot .pilot-faq summary { min-height: 52px; padding: 16px 0; line-height: 1.7; font-weight: 700; cursor: pointer; }
+.education-pilot .pilot-faq details p { padding: 0 0 12px; }
+.education-pilot .pilot-related { padding: 26px; border: 1px solid #d9d1c4; border-radius: 10px; background: #fffdfa; }
+.education-pilot .pilot-related ul { list-style: none; padding: 0; margin-bottom: 0; }
+.education-pilot .pilot-related li { margin: 8px 0; padding: 0; }
+.education-pilot .pilot-related a { display: block; padding: 10px 12px; min-height: 46px; border: 1px solid #d9d1c4; border-radius: 6px; font-size: 16px; }
+.education-pilot .pilot-related a:hover { background: #f0e9dc; }
+.education-pilot .pilot-note { font-size: 14px; color: #606573; padding-top: 18px; }
+.education-pilot .pilot-latest { margin: 30px 0 46px; scroll-margin-top: 100px; }
+.education-pilot .pilot-latest > h2 { font-size: 28px; line-height: 1.5; }
+.education-pilot .pilot-cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.education-pilot .pilot-card { display: block; padding: 24px; background: #fffdfa; border: 1px solid #d9d1c4; border-radius: 10px; }
+.education-pilot .pilot-card:hover { border-color: #8a6329; }
+.education-pilot .pilot-card h3 { font-size: 21px; line-height: 1.6; margin: 9px 0 12px; }
+.education-pilot .pilot-card p { font-size: 16px; line-height: 1.9; margin: 0 0 18px; color: #4d5770; }
+.education-pilot .pilot-card .pilot-more { font-size: 15px; font-weight: 700; color: #80531d; }
+@media (max-width: 760px) {
+  .education-pilot .site-header { position: relative !important; height: auto !important; min-height: 0 !important; max-height: none !important; }
+  .education-pilot .site-header .nav { height: auto !important; min-height: 0 !important; max-height: none !important; padding: 14px 0 !important; gap: 14px !important; }
+  .education-pilot .site-header .nav-links { height: auto !important; grid-template-rows: repeat(2, 44px) !important; gap: 4px !important; }
+  .education-pilot .site-header .nav-links a { font-size: 12px !important; min-height: 44px !important; max-height: none !important; height: 44px !important; padding: 0 1px !important; letter-spacing: -.04em !important; }
+  .education-pilot .edu-breadcrumb { width: calc(100% - 36px); display: flex; flex-wrap: wrap; gap: 6px; font-size: 13px; line-height: 1.7; }
+  .education-pilot .pilot-hero { padding: 28px 18px; }
+  .education-pilot .pilot-summary { font-size: 17px; }
+  .education-pilot .pilot-article { width: calc(100% - 36px); padding-top: 26px; }
+  .education-pilot .pilot-toc { padding: 20px; margin-bottom: 34px; }
+  .education-pilot .pilot-section { scroll-margin-top: 20px; margin: 34px 0; }
+  .education-pilot .pilot-example { padding: 18px; }
+  .education-pilot .pilot-related { padding: 20px; }
+  .education-pilot .pilot-cards { grid-template-columns: 1fr; }
+  .education-pilot .pilot-card { padding: 22px; }
+}

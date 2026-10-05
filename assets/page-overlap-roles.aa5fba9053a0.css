@@ -1,0 +1,33 @@
+/* Scoped to the reviewed overlapping pages. Existing manuscripts and media keep their layout. */
+.overlap-role{--role-ink:#183b39;--role-accent:#08665c;box-sizing:border-box;max-width:1120px;margin:24px auto 32px;padding:28px;background:#f5faf8;border:1px solid #cce0d8;border-radius:18px;color:var(--role-ink);font-size:16px;line-height:1.75;text-align:left;overflow-wrap:anywhere}
+.overlap-role *{box-sizing:border-box}
+.overlap-role h2{font-size:clamp(21px,2.7vw,28px);line-height:1.45;margin:4px 0 12px;color:var(--role-ink);letter-spacing:-.025em}
+.overlap-role h3{font-size:18px;line-height:1.5;margin:0 0 8px;color:var(--role-ink)}
+.overlap-role p{margin:8px 0 16px}
+.overlap-role .overlap-kicker{font-size:13px;font-weight:800;letter-spacing:.04em;color:var(--role-accent);margin:0 0 4px}
+.overlap-role .overlap-intro{max-width:80ch}
+.overlap-criteria{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:20px 0}
+.overlap-criterion{padding:18px;background:#fff;border:1px solid #dbe7e1;border-radius:12px;min-width:0}
+.overlap-criterion p{margin:10px 0 0;font-size:15px}
+.overlap-criterion strong{display:block;font-size:13px;color:var(--role-accent);margin-bottom:3px}
+.overlap-role-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
+.overlap-role-links a,.overlap-role button{min-height:44px;padding:10px 16px;border:1px solid #136458;border-radius:9px;background:#fff;color:#064d44;font:inherit;font-size:15px;font-weight:700;text-decoration:none;cursor:pointer;white-space:normal;text-align:left}
+.overlap-role-links a:first-child,.overlap-role button[data-work-save]{background:#08665c;color:#fff}
+.overlap-role a:hover,.overlap-role button:hover{filter:brightness(.95);text-decoration:underline}
+.overlap-role a:focus-visible,.overlap-role button:focus-visible,.overlap-role textarea:focus-visible{outline:3px solid #b36a00;outline-offset:3px}
+.overlap-role a.overlap-manuscript-link{color:#075a50;text-underline-offset:3px}
+.overlap-work-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin:20px 0}
+.overlap-work-field{display:block;min-width:0;font-weight:700;font-size:16px}
+.overlap-work-field:last-child{grid-column:1/-1}
+.overlap-work-field small{display:block;font-size:14px;font-weight:400;line-height:1.65;margin:5px 0 8px;color:#36554d}
+.overlap-work-field textarea{display:block;width:100%;min-height:112px;padding:12px;border:1px solid #8aa99d;border-radius:9px;background:#fff;color:#183b39;resize:vertical;font:inherit;font-weight:400;font-size:16px;line-height:1.6}
+.overlap-work-actions{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.overlap-role .overlap-work-note,.overlap-role .overlap-work-status{font-size:14px;color:#36554d}
+.overlap-work-status:empty{display:none}
+.overlap-sheet-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;padding:0;margin:20px 0;list-style:none}
+.overlap-sheet-list li{margin:0}
+.overlap-sheet-list a{display:block;padding:16px;border:1px solid #cce0d8;border-radius:10px;background:#fff;color:#075a50;font-weight:700;text-underline-offset:3px}
+.overlap-hero-lead{line-height:1.8;max-width:76ch;margin:16px 0 0}
+@media(max-width:768px){.overlap-role{margin:20px 16px;padding:22px}.overlap-criteria{grid-template-columns:1fr}.overlap-work-grid{gap:16px}}
+@media(max-width:480px){.overlap-role{margin:16px 12px;padding:18px;border-radius:14px}.overlap-work-grid,.overlap-sheet-list{grid-template-columns:1fr}.overlap-role-links{flex-direction:column}.overlap-role-links a{width:100%}.overlap-role h2{font-size:22px}}
+@media print{.overlap-role{max-width:none;border:1px solid #888;background:#fff;break-inside:auto}.overlap-role-links,.overlap-work-actions,.overlap-work-note,.overlap-work-status{display:none}.overlap-work-field{break-inside:avoid}.overlap-work-field textarea{border:1px solid #888;color:#000}}
