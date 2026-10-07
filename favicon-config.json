@@ -1,0 +1,9 @@
+{
+  "domain": "wawa-center.kr",
+  "outputDirectory": ".public-release",
+  "previousBuildCommand": "node release-public-build.mjs && node wawa-analytics-build.mjs wawa-01 .public-release && node seo-descriptions.mjs --root=.public-release",
+  "assets": {
+    "assets/site-favicon.png": "aaf97b7af71956180d35758239b40cdd0d36f01e26c7f48c9dc1bc8b5b8140e1",
+    "assets/site-apple-touch-icon.png": "09e6bcf8968fcdb1e2e418aa3657a029f0b04206ed71cee9e507996ea418e3b3"
+  }
+}

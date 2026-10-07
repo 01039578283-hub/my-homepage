@@ -3,6 +3,8 @@
   "createdAt": "2026-09-28T17:39:43.983519+09:00",
   "sitemapPages": 21906,
   "files": {
+    "assets/site-favicon.png": "aaf97b7af71956180d35758239b40cdd0d36f01e26c7f48c9dc1bc8b5b8140e1",
+    "assets/site-apple-touch-icon.png": "09e6bcf8968fcdb1e2e418aa3657a029f0b04206ed71cee9e507996ea418e3b3",
     "assets/academy-hero.png": "82ee67a9d7cc44885ab71b4a788fb263e6169ebc8c2f8368ef37ecfcad1b86cb",
     "assets/ai-summary.css": "eeb6c4577878368cb45d48ea6bb9c8ad28ca7e5843056b2a72134b36b17ab7a7",
     "assets/article.css": "a0d8484670ebecd1dddcaca4705e9cfa327ffe53ea1cbdd7eb4907033e9e2f7a",
