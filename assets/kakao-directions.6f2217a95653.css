@@ -1,0 +1,27 @@
+/* Scoped directions layout; original posters and map images stay unchanged. */
+.kakao-directions{box-sizing:border-box;grid-column:1/-1;flex:0 0 100%;clear:both;display:block;width:100%;max-width:1120px;min-width:0;margin:28px auto;padding:28px;border:1px solid #e2e7ed;border-radius:20px;background:#fff;color:#253141;scroll-margin-top:170px}
+.kakao-directions .kd-kicker{margin:0 0 10px;font-size:11px;letter-spacing:.18em;font-weight:700;color:#8b6a32}
+.kakao-directions h2{margin:0 0 12px;font-size:clamp(22px,3.5vw,30px);line-height:1.45;color:#162338}
+.kakao-directions .kd-intro,.kakao-directions .kd-address,.kakao-directions .kd-note{line-height:1.8;overflow-wrap:anywhere}
+.kakao-directions .kd-intro{margin:0 0 18px}
+.kakao-directions .kd-surface{overflow:hidden;min-width:0;border:1px solid #e2e7ed;border-radius:14px;background:#fff}
+.kakao-directions .kd-frame{display:block;width:100%;height:392px;border:0;background:#fff}
+.kakao-directions .kd-address{margin:16px 0 8px}
+.kakao-directions .kd-note{margin:0 0 16px;font-size:13px;color:#5d6775}
+.kd-hub-map-link{box-sizing:border-box;display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:10px 16px;border:1px solid #d9dfe7;border-radius:10px;background:#fff;color:#263954;font-size:14px;font-weight:700;line-height:1.6;text-decoration:none;white-space:normal;overflow-wrap:anywhere}
+.kakao-directions a:focus-visible,.kd-hub-map-link:focus-visible{outline:3px solid #8b6a32;outline-offset:4px}
+.branch-card>.kd-hub-map-link{display:flex;width:calc(100% - 32px);margin:0 16px 16px;padding:10px 12px;background:#f2f5f8}
+.cf-card>.kd-hub-map-link{margin-top:14px}
+.kd-hub-guide{box-sizing:border-box;max-width:1120px;margin:28px auto;padding:24px;border:1px solid #e2e7ed;border-radius:16px;background:#fff;color:#253141}
+.kd-hub-guide h2{font-size:22px;line-height:1.5;margin:0 0 10px}
+.kd-hub-guide p{line-height:1.8;margin:0 0 14px}
+@media(max-width:600px){.kakao-directions{padding:18px 14px;margin:22px auto;scroll-margin-top:230px;border-radius:16px}.kakao-directions .kd-frame{height:420px}.kd-hub-guide{margin:22px 16px;padding:20px}}
+
+#branch-location.kakao-directions{scroll-margin-top:96px!important}
+
+/* Reserve the same map area while postponing the third-party download. */
+.kakao-directions .kd-surface{position:relative}
+.kakao-directions .kd-frame[data-kakao-src]:not([src]){visibility:hidden}
+.kakao-directions .kd-loading{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;padding:20px;background:#f5f7fa;text-align:center;line-height:1.7;color:#526175}
+.kakao-directions .kd-loading p{margin:0}
+.kakao-directions .kd-loading[hidden]{display:none}

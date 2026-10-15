@@ -3,6 +3,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {createHash} from 'node:crypto';
 import {fileURLToPath} from 'node:url';
+import {presentKakaoMapHTML,verifyKakaoPresentationCounts} from './kakao-map-presentation.mjs';
 const root=path.dirname(fileURLToPath(import.meta.url));
 const output=path.join(root,'.public-release');
 const manifest=JSON.parse(fs.readFileSync(path.join(root,'release-public-manifest.json'),'utf8'));
@@ -41,10 +42,11 @@ await Promise.all(Array.from({length:12},async()=>{
     await fs.promises.mkdir(path.dirname(dest),{recursive:true});
     // Git stores text with LF on the Linux builder. These downloadable records
     // retain their UTF-8 BOM and Windows line endings for the actual download.
-    const outputBytes=name.startsWith('assets/learning-guide-records/')&&name.endsWith('.txt')
+    let outputBytes=name.startsWith('assets/learning-guide-records/')&&name.endsWith('.txt')
       ? Buffer.from(bytes.toString('utf8').replaceAll('\r\n','\n').replaceAll('\r','\n').replaceAll('\n','\r\n'))
       : bytes;
+    if(name.endsWith('.html')&&!name.startsWith('assets/'))outputBytes=Buffer.from(presentKakaoMapHTML(name,outputBytes.toString('utf8')));
     await fs.promises.writeFile(dest,outputBytes);
   }
 }));
-console.log(JSON.stringify({publicFiles:files.length,sitemapPages:manifest.sitemapPages,output:'.public-release',privateSourcesIncluded:false}));
+console.log(JSON.stringify({publicFiles:files.length,sitemapPages:manifest.sitemapPages,output:'.public-release',privateSourcesIncluded:false,kakaoPresentation:verifyKakaoPresentationCounts()}));
