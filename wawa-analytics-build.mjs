@@ -35,6 +35,8 @@ async function files() {
   return result;
 }
 async function update(file) {
+    // A map frame is part of its parent page, not a second visitor/page view.
+    if(path.relative(root,file).replaceAll('\\','/').startsWith('assets/branch-maps/')) {skipped++;return;}
     const original=await fs.promises.readFile(file), html=original.toString('utf8');
     if(!Buffer.from(html).equals(original)) {errors.push(`Non-UTF8 HTML: ${path.relative(root,file)}`);return;}
     if(!/<html[\s>]/i.test(html)) {skipped++;return;}

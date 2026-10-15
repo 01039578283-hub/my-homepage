@@ -42,7 +42,7 @@ for(const [name,expected] of Object.entries(config.assets)){
  if(!fs.readFileSync(dest).equals(bytes))throw Error('Public favicon differs '+name);
 }
 let pages=0,changed=0,added=0;
-const files=[];function walk(dir){for(const e of fs.readdirSync(dir,{withFileTypes:true})){const p=path.join(dir,e.name);if(e.isSymbolicLink())throw Error('Unexpected output link');if(e.isDirectory())walk(p);else if(e.name.endsWith('.html'))files.push(p)}}walk(output);
+const files=[];function walk(dir){for(const e of fs.readdirSync(dir,{withFileTypes:true})){const p=path.join(dir,e.name);if(e.isSymbolicLink())throw Error('Unexpected output link');if(e.isDirectory())walk(p);else if(e.name.endsWith('.html')&&!path.relative(output,p).replaceAll('\\','/').startsWith('assets/branch-maps/'))files.push(p)}}walk(output);
 let cursor=0;
 await Promise.all(Array.from({length:4},async()=>{while(cursor<files.length){const f=files[cursor++],before=await fs.promises.readFile(f,'utf8');if(!/<html\b/i.test(before))continue;
  headTokens.lastIndex=0;let token,headEnd=-1;while((token=headTokens.exec(before))!==null){if(/^<\/head/i.test(token[0])){headEnd=token.index;break}}

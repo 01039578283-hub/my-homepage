@@ -510,6 +510,28 @@
           "value": "public, max-age=31536000, immutable"
         }
       ]
+    },
+    {
+      "source": "/assets/branch-maps/:path*",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
+    {
+      "source": "/assets/kakao-directions.26a67d447956.css",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
     }
   ]
 }
