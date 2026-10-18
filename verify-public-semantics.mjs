@@ -6,8 +6,10 @@ const root=path.dirname(fileURLToPath(import.meta.url));
 const output=path.join(root,'.public-release');
 const manifest=JSON.parse(fs.readFileSync(path.join(root,'release-public-manifest.json'),'utf8'));
 const names=new Set(Object.keys(manifest.files));
-const centers=JSON.parse(fs.readFileSync(path.join(root,'tools/data/branch-directory/branches.json'),'utf8')).centers;
-const branches=new Map(centers.map(c=>[decodeURI(`https://wawa-center.kr/지점안내/${c.region}/${c.routeName}/#academy`),c]));
+// Only reviewed, already-public facts are needed on the deployment machine.
+// Authoring sources under tools/ deliberately remain excluded by .vercelignore.
+const centers=JSON.parse(fs.readFileSync(path.join(root,'seo-branch-facts.json'),'utf8')).branches;
+const branches=new Map(centers.map(c=>[decodeURI(c.id),c]));
 const decode=s=>s.replace(/&(?:amp|quot|apos|lt|gt|#39);/g,x=>({'&amp;':'&','&quot;':'"','&apos;':"'",'&lt;':'<','&gt;':'>','&#39;':"'"}[x]));
 const attrs=s=>Object.fromEntries([...s.matchAll(/([\w:-]+)\s*=\s*(["'])([\s\S]*?)\2/g)].map(m=>[m[1].toLowerCase(),decode(m[3])]));
 const types=n=>Array.isArray(n['@type'])?n['@type']:[n['@type']];
@@ -39,7 +41,7 @@ await Promise.all(Array.from({length:12},async()=>{while(cursor<pageNames.length
    if('openingHoursSpecification' in n||'openingHours' in n)errors.push([name,'exact operating hours need verified source and visible content']);
    if(types(n).some(t=>t==='EducationalOrganization'||t==='LocalBusiness')&&n['@id']?.endsWith('#academy')){
     const c=branches.get(decodeURI(n['@id']));branchNodes++;
-    if(!c||n.name!==c.displayName||n.address?.streetAddress!==c.address)errors.push([name,'branch entity differs from reviewed source']);
+    if(!c||n.name!==c.name||n.address?.streetAddress!==c.address)errors.push([name,'branch entity differs from reviewed source']);
    }
   }}catch(e){errors.push([name,'JSON-LD',e.message]);}
  }
