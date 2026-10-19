@@ -42,7 +42,10 @@ def save(name,raw):
 def esc(x):return escape(str(x),quote=True)
 def href(p):return quote(p,safe='/#-')
 def link(p,label):return '<a href="'+href(p)+'">'+esc(label)+' →</a>'
-def node(markup):return html.fromstring(markup)
+def node(markup):
+ # fromstring promotes standalone link/script elements to an html/head document.
+ # These callers append a single fragment to an existing document.
+ return html.fragment_fromstring(markup)
 def cpath(c):return f'/지점안내/{c["region"]}/{c["routeName"]}/'
 def regionpath(c):return '/동네안내/'+c['region']+'/'
 def locality_id(c,n):return 'area-'+sha((c['district']+'/'+n).encode())[:12]

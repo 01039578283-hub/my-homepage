@@ -2,6 +2,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
+import {documentStructureErrors} from './verify-document-structure.mjs';
 const root=path.dirname(fileURLToPath(import.meta.url));
 const output=path.join(root,'.public-release');
 const manifest=JSON.parse(fs.readFileSync(path.join(root,'release-public-manifest.json'),'utf8'));
@@ -21,6 +22,7 @@ let cursor=0;
 await Promise.all(Array.from({length:12},async()=>{while(cursor<pageNames.length){
  const name=pageNames[cursor++];
  const s=await fs.promises.readFile(path.join(output,name),'utf8');
+ for(const problem of documentStructureErrors(s))errors.push([name,problem]);
  const canonical=[...s.matchAll(/<link\b[^>]*>/gi)].map(m=>attrs(m[0])).filter(a=>a.rel==='canonical');
  if(canonical.length!==1){errors.push([name,'canonical count']);continue;}
  const url=canonical[0].href;pages++;
