@@ -1,0 +1,13 @@
+{
+  "checkedBranches": 192,
+  "differences": [],
+  "comparisonFields": [
+    "sourceName",
+    "subjects",
+    "address"
+  ],
+  "fileHashDiffers": true,
+  "publishedScopeHeldBackBySourceNotes": true,
+  "reviewedHoldRuleBranches": 18,
+  "otherWorkbookFieldsNotClaimedIdentical": true
+}

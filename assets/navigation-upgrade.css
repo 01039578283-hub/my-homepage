@@ -1,0 +1,31 @@
+/* Navigation and text controls only: no image, figure, iframe or media layout rules. */
+.site-header[data-navigation-upgrade] .wn-groups{display:flex;align-items:center;gap:6px;color:#1a2440;font:700 14px/1.5 "Noto Sans KR","Malgun Gothic",sans-serif}
+.site-header[data-navigation-upgrade] .wn-group{position:relative;margin:0;border:0;padding:0;background:transparent}
+.site-header[data-navigation-upgrade] .wn-group>summary,.site-header[data-navigation-upgrade] .wn-consult{display:flex;align-items:center;justify-content:center;gap:6px;min-height:44px;margin:0;padding:8px 13px;list-style:none;cursor:pointer;color:#1a2440;text-decoration:none;border:1px solid transparent;border-radius:5px;white-space:nowrap;font:inherit}
+.site-header[data-navigation-upgrade] .wn-group>summary::-webkit-details-marker{display:none}
+.site-header[data-navigation-upgrade] .wn-group>summary::after{content:"⌄";font-size:15px;color:#8a6329}
+.site-header[data-navigation-upgrade] .wn-group[open]>summary,.site-header[data-navigation-upgrade] .wn-group[data-section-current]>summary{background:#ebe4d8;border-color:#d8c9af}
+.site-header[data-navigation-upgrade] .wn-group[open]>summary::after{transform:rotate(180deg)}
+.site-header[data-navigation-upgrade] .wn-consult{background:#1a2440;color:#fff}
+.site-header[data-navigation-upgrade] .wn-panel{position:absolute;top:calc(100% + 8px);right:0;min-width:228px;padding:10px;background:#fff;border:1px solid #d9d5cc;border-radius:8px;box-shadow:0 12px 32px #1a244024;z-index:100001}
+.site-header[data-navigation-upgrade] .wn-panel a{display:block;padding:12px 14px;border-radius:4px;color:#1a2440;text-decoration:none;white-space:nowrap;font:500 14px/1.5 "Noto Sans KR","Malgun Gothic",sans-serif}
+.site-header[data-navigation-upgrade] .wn-panel a:hover,.site-header[data-navigation-upgrade] .wn-panel a.active{background:#f6f2e9;color:#795623}
+.site-header[data-navigation-upgrade] summary:focus-visible,.site-header[data-navigation-upgrade] a:focus-visible{outline:3px solid #2166bf;outline-offset:2px}
+.wn-course-filters{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:16px 0 0}
+.wn-course-filters label{display:flex;flex-direction:column;gap:7px;color:#1a2440;font:700 14px/1.5 "Noto Sans KR","Malgun Gothic",sans-serif}
+.branch-search-panel .wn-course-filters label{position:static;width:auto;height:auto;margin:0;padding:0;overflow:visible;clip:auto;white-space:normal}
+.wn-course-filters select{box-sizing:border-box;width:100%;min-width:0;min-height:46px;padding:10px 12px;border:1px solid #c7cbd1;border-radius:5px;background:#fff;color:#1a2440;font:400 16px/1.5 "Noto Sans KR","Malgun Gothic",sans-serif}
+.wn-course-filters select:focus-visible{outline:3px solid #2166bf;outline-offset:2px}
+.wn-filter-note,.wn-directory-note{color:#4d5770;font-size:14px;line-height:1.8;word-break:keep-all}
+.wn-directory-note{padding:14px 18px;border-left:3px solid #b8863b;background:#f6f2e9}
+.wn-pending-course{display:block;margin:0 20px 16px;padding:8px 10px;background:#fff4dc;color:#745118;font-size:13px;line-height:1.6}
+.wn-pending-course[hidden]{display:none}
+@media(max-width:1120px){
+ .site-header[data-navigation-upgrade] .wn-groups{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:3px;width:100%}
+ .site-header[data-navigation-upgrade] .wn-group{position:static;min-width:0}
+ .site-header[data-navigation-upgrade] .wn-group>summary,.site-header[data-navigation-upgrade] .wn-consult{padding:7px 4px;min-height:44px;font-size:13px;white-space:normal;text-align:center;word-break:keep-all;line-height:1.4}
+ .site-header[data-navigation-upgrade] .wn-panel{position:absolute;top:100%;left:8px;right:8px;min-width:0;max-height:65vh;overflow-y:auto;border-radius:0 0 8px 8px}
+ .site-header[data-navigation-upgrade] .wn-panel a{white-space:normal;padding:14px;font-size:15px}
+}
+@media(max-width:440px){.site-header[data-navigation-upgrade] .wn-group>summary,.site-header[data-navigation-upgrade] .wn-consult{font-size:12px;gap:2px;padding-left:2px;padding-right:2px}.site-header[data-navigation-upgrade] .wn-group>summary::after{font-size:11px}}
+@media(prefers-reduced-motion:reduce){.site-header[data-navigation-upgrade] *{scroll-behavior:auto}}

@@ -1,0 +1,26 @@
+[
+  {
+    "page": "index.html",
+    "beforeHTMLBytes": 69779,
+    "afterHTMLBytes": 70782,
+    "gzipDelta": 190
+  },
+  {
+    "page": "지점안내/index.html",
+    "beforeHTMLBytes": 170812,
+    "afterHTMLBytes": 269211,
+    "gzipDelta": 3370
+  },
+  {
+    "page": "선생님찾기/index.html",
+    "beforeHTMLBytes": 252096,
+    "afterHTMLBytes": 253172,
+    "gzipDelta": 325
+  },
+  {
+    "page": "지점안내/서울/하계점/index.html",
+    "beforeHTMLBytes": 48567,
+    "afterHTMLBytes": 49515,
+    "gzipDelta": 223
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "viewports": [
+    [
+      360,
+      800
+    ],
+    [
+      390,
+      844
+    ],
+    [
+      390,
+      960
+    ],
+    [
+      1440,
+      1000
+    ]
+  ],
+  "samplePages": [
+    "/",
+    "/지점안내/",
+    "/선생님찾기/",
+    "/지점안내/서울/하계점/",
+    "/guide/",
+    "/교육정보/",
+    "/동네안내/"
+  ],
+  "passed": [
+    "native grouped navigation opens and closes",
+    "Escape closes dropdown and returns focus",
+    "learning menu navigates to existing education hub",
+    "branch subject and grade pairs filter together",
+    "pending course is labelled",
+    "reset clears pending notices and restores 193 cards",
+    "zero results message",
+    "teacher unconfirmed filter returns 2 groups and 9 introductions",
+    "home image widths unchanged at 390px",
+    "no horizontal overflow in checked layouts",
+    "Kakao map loads and zooms",
+    "map-only build removes outbound directions controls",
+    "original map image opens at 648x702 pixels",
+    "image dialog closes correctly"
+  ],
+  "scope": "Representative browser checks; full static checks cover all public pages."
+}
